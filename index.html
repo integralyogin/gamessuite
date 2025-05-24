@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequential Mini-Games</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Mini-Game Challenge</h1>
+    <div id="game-canvas" class="game-area">
+        <p>Loading game...</p>
+    </div>
+
+    <script src="js/platformer.js"></script>
+    <script src="js/clickerGame.js"></script>
+    <script src="js/memoryGame.js"></script>
+    <script src="js/characterSelect.js"></script>
+    <script src="js/walkingRpgGame.js"></script>
+    <script src="js/combatGame.js"></script>
+
+    <script src="js/reactionGame.js"></script>
+    <script src="js/fallingHazards.js"></script> 
+    <script src="js/gameManager.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Ensure all existing game modules (PlatformerGame, ClickerGame, etc.)
+            // have their init functions updated to:
+            // init(gameContainer, successCallback, globalFailureCallback, previousData)
+
+            GameManager.init('game-canvas', [
+		    CharacterSelectionGame,
+	//	     CombatGame,
+
+		     WalkingRpgGame, 
+                PlatformerGame,
+                FallingHazardsGame,
+                ClickerGame,
+                MemoryGame,
+                ReactionGame
+            ]);
+            GameManager.startGame();
+        });
+    </script>
+</body>
+</html>
