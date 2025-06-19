@@ -1,0 +1,96 @@
+{
+  "Software Engineering": {
+    "short_description": "The systematic approach to the development, operation, maintenance, and retirement of software, focusing on methodologies, tools, and techniques for creating high-quality software."
+  },
+  "Requirements Engineering": { "quote": "Gathering, analyzing, and documenting software requirements: user needs → specifications" },
+"Software Design": { "quote": "Architecture and detailed design: requirements → system structure + behavior" },
+"Software Construction": { "quote": "Implementing the design through coding: design → working code" },
+"Software Testing": { "quote": "Verification and validation: unit → integration → system → acceptance testing" },
+"Software Maintenance": { "quote": "Modifying software post-delivery: corrective + adaptive + perfective maintenance" },
+"Version Control": { "quote": "Managing code changes: commit → branch → merge → release" },
+"Agile Development": { "quote": "Iterative and incremental approach: sprint planning → development → review → retrospective" },
+"DevOps": { "quote": "Development and operations integration: code → build → test → deploy → monitor" },
+"Code Quality": { "quote": "Measuring and improving code: readability + maintainability + efficiency" },
+"Software Architecture": { "quote": "High-level structure: components + connectors + configurations" },
+"Design Patterns": { "quote": "Reusable design solutions: problem → pattern → implementation" },
+"Object-Oriented Design": { "quote": "Objects and their relationships: encapsulation + inheritance + polymorphism" },
+"Functional Programming": { "quote": "Computation through functions: pure functions + immutability + higher-order functions" },
+"Database Design": { "quote": "Data organization and access: conceptual → logical → physical design" },
+"API Design": { "quote": "Interface design principles: consistency + simplicity + documentation" },
+"Security Engineering": { "quote": "Building secure systems: threat modeling → security controls → testing" },
+"Performance Engineering": { "quote": "Optimizing system performance: profiling → analysis → optimization" },
+"Quality Assurance": { "quote": "Ensuring product quality: standards + processes + metrics" },
+"Project Management": { "quote": "Planning and execution: scope + schedule + resources + risk" },
+"Documentation": { "quote": "Technical writing and documentation: code docs + API docs + user guides" },
+"Continuous Integration": { "quote": "Automated build and test: commit → build → test → report" },
+"Continuous Deployment": { "quote": "Automated deployment: package → deploy → verify → monitor" },
+"Code Review": { "quote": "Peer review of code: submit → review → feedback → improve" },
+"Refactoring": { "quote": "Improving code structure: identify → plan → modify → verify" },
+"Software Metrics": { "quote": "Measuring software attributes: complexity + coverage + quality metrics" },
+"Error Handling": { "quote": "Managing system failures: detect → log → recover → prevent" },
+"Configuration Management": { "quote": "Managing system configurations: identify → control → audit → report" },
+"User Interface Design": { "quote": "Designing user interactions: wireframes → prototypes → implementation" },
+"Microservices": { "quote": "Distributed system design: service boundaries + communication + deployment" },
+"Technical Debt": { "quote": "Managing implementation compromises: identify → measure → prioritize → resolve" }
+,
+  "Software Development Life Cycle (SDLC)": {
+    "short_description": "A structured process used to plan, develop, test, and deploy software, typically including stages like requirement analysis, design, implementation, testing, deployment, and maintenance."
+  },
+  "Agile": {
+    "short_description": "An iterative approach to software development that emphasizes flexibility, customer feedback, and small, incremental changes rather than a single, large delivery."
+  },
+  "Waterfall": {
+    "short_description": "A sequential development process, where progress is seen as flowing steadily downwards like a waterfall through the phases of conception, initiation, analysis, design, construction, testing, production/implementation, and maintenance."
+  },
+  "DevOps": {
+    "short_description": "A set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives."
+  },
+  "Version Control": {
+    "short_description": "A system that records changes to files, source code, and documents over time, allowing developers to revert to previous versions, compare changes, or work collaboratively on different versions."
+  },
+  "Continuous Integration (CI)": {
+    "short_description": "A development practice that requires developers to integrate code into a shared repository frequently, where automated builds and tests are run to detect integration errors as quickly as possible."
+  },
+  "Continuous Deployment (CD)": {
+    "short_description": "An extension of CI where code changes are automatically deployed to production after passing automated tests, reducing manual intervention and speeding up software delivery."
+  },
+  "Unit Testing": {
+    "short_description": "The practice of testing individual units or components of a software application in isolation to determine if they are fit for use."
+  },
+  "Integration Testing": {
+    "short_description": "Testing where individual software modules are combined and tested as a group to verify that they interact correctly."
+  },
+  "Software Architecture": {
+    "short_description": "The high-level structure of a software system and the discipline of creating such structures, which includes defining components, their relationships, and how they interact."
+  },
+  "Design Patterns": {
+    "short_description": "Reusable solutions to commonly occurring problems in software design, providing templates for solving particular design issues in object-oriented programming."
+  },
+  "Refactoring": {
+    "short_description": "The process of restructuring existing computer code without changing its external behavior, improving the code's nonfunctional attributes like readability, complexity, and maintainability."
+  },
+  "Code Review": {
+    "short_description": "A systematic examination of code by one or more developers to find and fix issues, improve code quality, share knowledge, and maintain coding standards."
+  },
+  "Software Quality Assurance (SQA)": {
+    "short_description": "The process of monitoring and improving the processes used to develop, test, and release software, ensuring the software meets specified requirements and quality standards."
+  },
+  "Scalability": {
+    "short_description": "The capability of a system to handle a growing amount of work or its potential to be enlarged to accommodate that growth."
+  },
+  "Microservices": {
+    "short_description": "An architectural style that structures an application as a collection of loosely coupled services, which implement business capabilities and can be deployed independently."
+  },
+  "API Design": {
+    "short_description": "The process of defining how software components should interact, focusing on creating accessible, usable, and maintainable interfaces for other software to consume."
+  },
+  "Security": {
+    "short_description": "Ensuring that software and systems are protected from unauthorized access, breaches, and vulnerabilities through practices like encryption, authentication, and regular security audits."
+  },
+  "Legacy Systems": {
+    "short_description": "Old systems or applications that are still in use, often because they are critical to business operations, but may not integrate well with newer technologies."
+  },
+  "Documentation": {
+    "short_description": "The creation and maintenance of written or illustrated materials explaining how software works, how to use it, and how to maintain or extend it."
+  }
+}

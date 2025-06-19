@@ -1,0 +1,21 @@
+{
+  "Autoencoders": { "quote": "Bottleneck architecture: Encoder ϕ(x) → Latent z → Decoder ψ(z) ≈ x. (Hinton & Salakhutdinov, 2006)" },
+  "Variational Autoencoders (VAEs)": { "quote": "Probabilistic latent variables: L(θ,ϕ) = E[log p_θ(x|z)] - D_KL(q_ϕ(z|x) || p(z))." },
+  "Denoising Autoencoders": { "quote": "Robust representations via x̃ = x + noise → reconstruct x. (Vincent et al., 2008)" },
+  "Contrastive Learning": { "quote": "Maximize agreement between augmentations: L = -log[exp(sim(z_i, z_j)/τ) / ∑ exp(sim(z_i, z_k)/τ)]. (InfoNCE loss)" },
+  "Clustering-Based (k-means)": { "quote": "Assign samples to centroids: min ∑_{x∈C_i} ||x - μ_i||² → μ_i = mean(C_i)." },
+  "Principal Component Analysis (PCA)": { "quote": "Orthogonal projection to maximize variance: W = argmax Tr(WᵀXᵀXW)." },
+  "t-SNE": { "quote": "Preserve local structure: p_{j|i} ∝ exp(-||x_i - x_j||²/2σ²), q_{j|i} ∝ (1 + ||y_i - y_j||²)^{-1}." },
+  "Self-Supervised Learning": { "quote": "Predict pretext tasks: e.g., word2vec (Mikolov et al., 2013) or BERT masked tokens." },
+  "Generative Models (GANs)": { "quote": "Adversarial latent learning: min_G max_D V(D,G) = E[log D(x)] + E[log(1 - D(G(z))]." },
+  "Sparse Coding": { "quote": "Learn overcomplete bases: min ||x - Dα||² + λ||α||₁. (Olshausen & Field, 1997)" },
+  "Nonlinear Dimensionality Reduction": { "quote": "Kernel PCA: Φ(x) → implicit high-dimensional space." },
+  "Manifold Learning": { "quote": "Assume data lies on low-dimensional manifold: Isomap, LLE, or Laplacian Eigenmaps." },
+  "Pretraining Strategies": { "quote": "Unsupervised pretraining → fine-tuning (e.g., GPT language modeling)." },
+  "Invariance Learning": { "quote": "Augmentations force invariance: z = f(x) ≈ f(Augment(x))." },
+  "Disentangled Representations": { "quote": "Factorize latent variables: β-VAE (Higgins et al., 2017) maximizes D_KL(q(z|x) || ∏ p(z_i))." },
+  "Mutual Information Maximization": { "quote": "I(z; x) = H(z) - H(z|x) → Maximize via Deep Infomax (Hjelm et al., 2018)." },
+  "Slow Feature Analysis": { "quote": "Learn features invariant to temporal variations: min 〈(z(t+1) - z(t))²〉. (Wiskott & Sejnowski, 2002)" },
+  "Neural Embeddings": { "quote": "Word2vec: skip-gram with negative sampling. (Mikolov et al., 2013)" },
+  "Representation Evaluation": { "quote": "Downstream task performance, mutual information, or disentanglement metrics (e.g., FactorVAE score)." }
+}

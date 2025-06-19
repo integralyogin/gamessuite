@@ -1,0 +1,62 @@
+{
+  "Clause": {
+    "short_description": "The fundamental structural unit of language, combining subject and predicate to form a complete proposition or thought within a sentence framework."
+  },
+  "Predicate": {
+    "short_description": "The verbal component asserting action, state, or relation, defining the clause's core meaning through its connection to the subject."
+  },
+  "Subject": {
+    "short_description": "The primary noun or agent initiating or undergoing the clause's action, serving as the focal point around which the predicate operates."
+  },
+  "Object": {
+    "short_description": "The recipient or target of the clause's action, completing the predicate's meaning through its grammatical and semantic relationship."
+  },
+  "Conjunction": {
+    "short_description": "The connective element binding clauses or sentence elements, determining logical flow through additive, contrastive, or causal relations."
+  },
+  "Subordination": {
+    "short_description": "The grammatical hierarchy establishing dependent clauses that modify or contextualize principal assertions within complex sentences."
+  },
+  "Coordination": {
+    "short_description": "The balanced linking of clauses of equal rank through conjunctions, creating compound structures with parallel semantic weight."
+  },
+  "Modification": {
+    "short_description": "The process of qualifying or refining meaning within a clause through adjectival or adverbial elements that expand descriptive precision."
+  },
+  "Relativity": {
+    "short_description": "The referential linkage achieved through relative clauses, connecting descriptive content to antecedents while maintaining syntactic cohesion."
+  },
+  "Dependency": {
+    "short_description": "The state of clauses requiring connection to independent elements for complete meaning, reflecting grammatical and conceptual reliance."
+  },
+  "Independence": {
+    "short_description": "The self-contained nature of principal clauses capable of standing alone as complete statements through subject-predicate unity."
+  },
+  "Complementation": {
+    "short_description": "The completion of a clause's meaning through required grammatical elements that fulfill the predicate's structural expectations."
+  },
+  "Ellipsis": {
+    "short_description": "The intentional omission of clause elements recoverable through context, enabling concise expression while maintaining semantic coherence."
+  },
+  "Apposition": {
+    "short_description": "The placement of noun phrases in adjacent equivalence within a clause, providing explanatory or identifying elaboration."
+  },
+  "Valency": {
+    "short_description": "The inherent requirement of verbs for specific numbers and types of arguments, determining clause structure through predicate-subject-object relations."
+  },
+  "Voice": {
+    "short_description": "The grammatical orientation indicating whether the subject acts or is acted upon, altering clause perspective through active or passive constructions."
+  },
+  "Mood": {
+    "short_description": "The modality of clause meaning as indicative, imperative, or subjunctive, reflecting the speaker's attitude toward the proposition."
+  },
+  "Embedding": {
+    "short_description": "The nesting of clauses within larger syntactic structures, creating layered meaning through hierarchical grammatical relationships."
+  },
+  "Antecedent": {
+    "short_description": "The noun or clause element to which pronouns or relative clauses refer, establishing continuity and coherence across expressions."
+  },
+  "Proviso": {
+    "short_description": "The conditional clause specifying circumstances under which a principal assertion holds true, qualifying statements through dependent limitations."
+  }
+}

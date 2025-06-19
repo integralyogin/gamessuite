@@ -1,0 +1,92 @@
+{
+"Implication": {
+    "short_description": "The logical or natural connection where one thing suggests the truth, existence, or presence of another, forming the basis for inference, deduction, and meaning-making in both formal and informal contexts."
+},
+"Consequent": {
+    "short_description": "The resulting component or outcome in an implication relationship, representing what necessarily or logically follows from the antecedent condition or statement."
+},
+"Antecedent": {
+    "short_description": "The initial condition or premise in an implication relationship, serving as the foundation from which consequences or conclusions are derived."
+},
+"Entailment": {
+    "short_description": "A strict logical relationship where the truth of one proposition necessarily guarantees the truth of another, forming the basis for valid deductive reasoning."
+},
+"Inference": {
+    "short_description": "The process of deriving logical conclusions from premises through the recognition and application of implicational relationships and patterns."
+},
+"Presupposition": {
+    "short_description": "An implicit assumption that must be true for a statement or concept to have meaning or validity, forming the hidden foundation of implications."
+},
+"Connotation": {
+    "short_description": "The suggested or associated meanings that accompany explicit statements, creating layers of implicit significance beyond literal interpretation."
+},
+"Deduction": {
+    "short_description": "The systematic process of drawing specific conclusions from general premises through the careful analysis of necessary implications."
+},
+"Induction": {
+    "short_description": "The process of inferring general principles from specific instances, establishing probabilistic implications based on observed patterns."
+},
+"Causality": {
+    "short_description": "The relationship between causes and their effects, representing the most fundamental form of natural implication in physical and conceptual systems."
+},
+"Contrapositive": {
+    "short_description": "The logically equivalent statement formed by negating and reversing the antecedent and consequent of an implication, preserving truth value."
+},
+"Necessity": {
+    "short_description": "The quality of logical or natural inevitability in an implication, where the consequent must follow from the antecedent without exception."
+},
+"Sufficiency": {
+    "short_description": "The quality of an antecedent condition that guarantees its consequent, though other conditions might also lead to the same result."
+},
+"Contradiction": {
+    "short_description": "A logical impossibility arising from implications that lead to mutually exclusive conclusions, revealing flaws in premises or reasoning."
+},
+"Validity": {
+    "short_description": "The quality of an implication where the conclusion necessarily follows from the premises, regardless of the actual truth of either component."
+},
+"Soundness": {
+    "short_description": "The quality of an implication that is both valid in form and based on true premises, ensuring the truth of its conclusion."
+},
+"Material Implication": {
+    "short_description": "The formal logical relationship where a conditional statement is false only when its antecedent is true and its consequent is false."
+},
+"Logical Consequence": {
+    "short_description": "The relationship between statements where one follows unavoidably from others through rules of logic, forming the basis of rational argument."
+},
+"Implicit": {
+    "short_description": "The quality of being contained or understood without direct expression, representing the hidden dimensions of meaning in implications."
+},
+"Explicit": {
+    "short_description": "The quality of being directly stated or expressed, providing the visible foundation from which implications can be derived."
+},
+"Inference Rule": {
+    "short_description": "A formal principle that governs the valid derivation of implications, providing the framework for logical reasoning and proof construction."
+},
+"Context": {
+    "short_description": "The surrounding conditions and circumstances that determine the scope and validity of implications within a given domain of discourse."
+},
+"Ambiguity": {
+    "short_description": "The presence of multiple possible interpretations or implications from the same premises, requiring clarification for precise reasoning."
+},
+"Transitivity": {
+    "short_description": "The property where implications can be chained together, such that if A implies B and B implies C, then A implies C."
+},
+"Fallacy": {
+    "short_description": "An error in reasoning where invalid implications are drawn from premises, often due to mistaken assumptions or logical mistakes."
+},
+"Semantic Field": {
+    "short_description": "The network of related meanings and implications that surround a concept, providing the context for understanding its full significance."
+},
+"Modal Implication": {
+    "short_description": "An implication involving necessity, possibility, or other modal qualities, extending beyond simple truth-functional relationships."
+},
+"Pragmatic Implication": {
+    "short_description": "The practical consequences or implications that arise from statements in actual use, considering context and speaker intentions."
+},
+"Abduction": {
+    "short_description": "The process of forming the most likely explanation for observed phenomena, generating implications that best account for available evidence."
+},
+"Relevance": {
+    "short_description": "The quality of logical or conceptual connection between components of an implication, ensuring meaningful relationships in reasoning."
+}
+}

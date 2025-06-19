@@ -1,0 +1,24 @@
+{
+  "Mineral Kingdom": {
+    "short_description": "The realm of inorganic substances, including rocks, metals, and crystals, characterized by their solid, stable, and enduring nature."
+  },
+  "Vegetable Kingdom": {
+    "short_description": "The realm of plant life, encompassing all forms of flora, from microscopic algae to towering trees, characterized by their ability to photosynthesize and grow."
+  },
+  "Animal Kingdom": {
+    "short_description": "The realm of animal life, including all creatures with the ability to move, sense their environment, and respond to stimuli, characterized by their diverse forms and behaviors."
+  },
+  "Human Kingdom": {
+    "short_description": "The realm of human beings, characterized by advanced cognitive abilities, self-awareness, and the capacity for complex social structures and cultural development."
+  },
+  "Elemental Kingdom": {
+    "short_description": "The realm of elemental beings, including spirits of nature such as gnomes, undines, sylphs, and salamanders, each associated with a specific element: earth, water, air, and fire."
+  },
+  "Angelic Kingdom": {
+    "short_description": "The realm of celestial beings, including angels, archangels, and other divine messengers, characterized by their role as intermediaries between the divine and the material worlds."
+  },
+  "Devic Kingdom": {
+    "short_description": "The realm of nature spirits and devas, including the spirits of plants, animals, and natural phenomena, responsible for the maintenance and evolution of the natural world."
+  }
+
+}

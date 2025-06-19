@@ -1,0 +1,102 @@
+{
+    "Josh DB": {
+        "date": "",
+        "desc": "which has this data? check i3",
+        "size": "",
+        "address": "",
+        "lines": ""
+    },
+    "jview.json": {
+        "date": "2024-11",
+        "desc": "the archive. attempted to put everything",
+        "size": "MB: 500",
+        "address": "73__CODE/PYTHON",
+        "lines": "1 mil"
+    },
+    "knowledge_base3.json": {
+        "date": "",
+        "desc": "desc",
+        "size": "MB 63.5",
+        "address": "73__CODE/PYTHON/knowledge_base_stuff/knowledge_base3.json",
+        "lines": "3064659"
+    },
+
+    "God_Knowledge": {
+        "date": "",
+        "desc": "desc",
+        "size": "",
+        "address": "/home/jpc/God_Knowledge.json",
+        "lines": "js"
+    },
+    "keys": {
+        "date": "",
+        "desc": "(22944 best quotes)",
+        "size": "",
+        "address": "~/CORE/74__DATA_KEYS/keys",
+        "lines": ""
+    },
+    "Narads - Lexicon of an Infinite Mind": {
+        "date": "",
+        "desc": "desc",
+        "size": "",
+        "address": "/home/jpc/CORE/74__DATA_KEYS/DICTIONARIES/Narad_-_Lexicon_of_an_Infinite_Mind.txt",
+        "lines": ""
+    },
+    "temple_of_the_sages.json": {
+        "date": "2024-06",
+        "desc": "",
+        "size": "MB 1.2",
+        "address": "73__CODE/PYTHON/4_player17/temple_of_the_sages.json",
+        "lines": "15071"
+    },
+
+    "WIKIDATA": {
+        "date": "",
+        "desc": "(813 mb, qids and all wikidata in ALL)",
+        "size": "",
+        "address": "~/CORE/73__CODE/WIKIDATA",
+        "lines": ""
+    },
+    "Divine Dictionary": {
+        "date": "",
+        "desc": "three word def",
+        "size": "",
+        "address": "~/CORE/74__DATA_KEYS/DICTIONARIES",
+        "lines": ""
+    },
+    "MEDIUMFORMAT_RESULTS": {
+        "date": "",
+        "desc": "",
+        "size": "",
+        "address": "~/CORE/111__AI/RESEARCH/1__MEDIUMFORMAT_RESULTS_2469",
+        "lines": ""
+    },
+    "wordlist": {
+        "date": "",
+        "desc": "wordlist, auths, books, chapters, config, webgen",
+        "size": "",
+        "address": "~/CORE/74__DATA_KEYS/wordlist",
+        "lines": ""
+    },
+    "Knowledge_base3.json": {
+        "date": "",
+        "desc": "desc",
+        "size": "",
+        "address": "~/CORE/",
+        "lines": ""
+    },
+    "DATA_TABLE": {
+        "date": "",
+        "desc": "datatable attempt from wikidata extracts",
+        "size": "",
+        "address": "~/CORE/74__DATA_KEYS/DATA_TABLE",
+        "lines": ""
+    },
+    "bashrc": {
+        "date": "",
+        "desc": "*angels singing*",
+        "size": "",
+        "address": "~/",
+        "lines": ""
+    }
+}

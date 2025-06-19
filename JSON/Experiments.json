@@ -1,0 +1,346 @@
+{
+  "Experiment": {
+    "short_description": "A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact, often involving controlled conditions and observations."
+  },
+  "Hypothesis": {
+    "short_description": "A proposed explanation made on the basis of limited evidence as a starting point for further investigation."
+  },
+  "Variable": {
+    "short_description": "A factor or condition that can be changed or controlled in an experiment, influencing the outcome."
+  },
+  "Control": {
+    "short_description": "A standard or baseline condition against which experimental results are compared to ensure validity and reliability."
+  },
+  "Independent Variable": {
+    "short_description": "The factor or condition that is manipulated or changed by the experimenter to observe its effect on the dependent variable."
+  },
+  "Dependent Variable": {
+    "short_description": "The factor or condition that is measured or observed in response to changes in the independent variable."
+  },
+  "Constant": {
+    "short_description": "A factor or condition that remains unchanged throughout an experiment to ensure consistency and control."
+  },
+  "Procedure": {
+    "short_description": "The specific steps or methods used to conduct an experiment, ensuring reproducibility and validity."
+  },
+  "Methodology": {
+    "short_description": "The overall approach or strategy used to design and conduct an experiment, including the choice of methods and techniques."
+  },
+  "Design": {
+    "short_description": "The structure or plan of an experiment, including the arrangement of variables, controls, and procedures."
+  },
+  "Sample": {
+    "short_description": "A subset of a population selected for study or analysis, representing the larger group."
+  },
+  "Population": {
+    "short_description": "The entire group from which a sample is drawn, representing the broader context of the experiment."
+  },
+  "Data": {
+    "short_description": "The information or observations collected during an experiment, used to draw conclusions and make inferences."
+  },
+  "Observation": {
+    "short_description": "The act of noting and recording phenomena as they occur, providing the basis for data collection."
+  },
+  "Measurement": {
+    "short_description": "The process of quantifying or qualifying variables to gather data and assess outcomes."
+  },
+  "Result": {
+    "short_description": "The outcome or consequence of an experiment, demonstrating the effects of the independent variable on the dependent variable."
+  },
+  "Outcome": {
+    "short_description": "The final result or consequence of an experiment, reflecting its impact and significance."
+  },
+  "Conclusion": {
+    "short_description": "The judgment or decision reached based on the results of an experiment, often leading to further research or application."
+  },
+  "Analysis": {
+    "short_description": "The process of examining and interpreting data to draw meaningful conclusions and insights."
+  },
+  "Interpretation": {
+    "short_description": "The act of explaining the meaning or significance of experimental results, often involving theoretical frameworks."
+  },
+  "Validation": {
+    "short_description": "The process of confirming the accuracy and reliability of experimental results through repeated testing or comparison with established standards."
+  },
+  "Replication": {
+    "short_description": "The repetition of an experiment under the same conditions to ensure the consistency and reliability of results."
+  },
+  "Reproducibility": {
+    "short_description": "The ability of an experiment to be repeated by others with the same results, ensuring the validity and reliability of findings."
+  },
+  "Hypothesis Testing": {
+    "short_description": "The process of making and testing predictions based on a hypothesis to determine its validity."
+  },
+  "Statistical Significance": {
+    "short_description": "The likelihood that the results of an experiment are not due to chance, indicating the strength of the evidence supporting a hypothesis."
+  },
+  "Error": {
+    "short_description": "A deviation from the true value or expected outcome in an experiment, often due to random or systematic factors."
+  },
+  "Bias": {
+    "short_description": "A systematic deviation from the truth due to flaws in the experimental design, data collection, or analysis."
+  },
+  "Control Group": {
+    "short_description": "A group in an experiment that does not receive the treatment or intervention, serving as a baseline for comparison."
+  },
+  "Experimental Group": {
+    "short_description": "A group in an experiment that receives the treatment or intervention, allowing for the observation of its effects."
+  },
+  "Blinding": {
+    "short_description": "A technique used to prevent bias by keeping participants, researchers, or both unaware of the treatment assignments."
+  },
+  "Randomization": {
+    "short_description": "The process of assigning participants to different groups in an experiment randomly to ensure unbiased results."
+  },
+  "Placebo": {
+    "short_description": "A substance or treatment that has no therapeutic effect, used as a control in experiments to test the efficacy of a real treatment."
+  },
+  "Double-Blind": {
+    "short_description": "An experimental design where neither the participants nor the researchers know who is receiving the treatment or placebo."
+  },
+  "Single-Blind": {
+    "short_description": "An experimental design where the participants do not know whether they are receiving the treatment or placebo, but the researchers do."
+  },
+  "Triple-Blind": {
+    "short_description": "An experimental design where the participants, researchers, and data analysts do not know who is receiving the treatment or placebo."
+  },
+  "Ethics": {
+    "short_description": "The principles and guidelines governing the conduct of experiments, ensuring the protection of participants and the integrity of research."
+  },
+  "Informed Consent": {
+    "short_description": "The process of obtaining voluntary agreement from participants to take part in an experiment, ensuring they understand the risks and benefits."
+  },
+  "Debriefing": {
+    "short_description": "The process of providing participants with information about the experiment after its completion, often including the purpose and results."
+  },
+  "Ethical Approval": {
+    "short_description": "The process of obtaining permission from an ethics committee or review board to conduct an experiment, ensuring compliance with ethical standards."
+  },
+  "Peer Review": {
+    "short_description": "The process of evaluating the quality and validity of an experiment by experts in the field, ensuring rigorous and reliable research."
+  },
+  "Publication": {
+    "short_description": "The dissemination of experimental results and findings through academic journals, conferences, or other media to share knowledge and advance the field."
+  },
+  "Replication Crisis": {
+    "short_description": "A situation where many scientific findings are difficult or impossible to replicate, raising questions about the reliability and validity of research methods."
+  },
+  "Meta-Analysis": {
+    "short_description": "A statistical technique for combining data from multiple studies to draw more robust conclusions and identify patterns."
+  },
+  "Systematic Review": {
+    "short_description": "A methodical and comprehensive review of the literature on a specific topic, often involving meta-analysis to synthesize findings."
+  },
+  "Protocol": {
+    "short_description": "A detailed plan or set of instructions for conducting an experiment, ensuring consistency and reproducibility."
+  },
+  "Pilot Study": {
+    "short_description": "A small-scale preliminary study conducted to test the feasibility and validity of a larger experiment, often used to refine methods and procedures."
+  },
+  "Longitudinal Study": {
+    "short_description": "A research design that involves repeated observations of the same variables over long periods, tracking changes and developments over time."
+  },
+  "Cross-Sectional Study": {
+    "short_description": "A research design that involves the collection of data at a single point in time, providing a snapshot of the population or phenomenon."
+  },
+  "Case Study": {
+    "short_description": "An in-depth examination of a single unit of analysis (e.g., a person, group, or event) to gain a detailed understanding of its characteristics and behaviors."
+  },
+  "Survey": {
+    "short_description": "A research method involving the collection of data from a sample of individuals through questionnaires or interviews."
+  },
+  "Intervention": {
+    "short_description": "A treatment or action applied to participants in an experiment to observe its effects on outcomes."
+  },
+  "Treatment": {
+    "short_description": "The specific intervention or condition applied to participants in an experiment to test its effects."
+  },
+  "Control Condition": {
+    "short_description": "The baseline or standard condition against which the effects of an intervention or treatment are compared."
+  },
+  "Experimental Condition": {
+    "short_description": "The specific condition or treatment applied to participants in an experiment to observe its effects."
+  },
+  "Baseline": {
+    "short_description": "The initial measurement or observation taken before an intervention or treatment is applied, serving as a reference point."
+  },
+  "Follow-Up": {
+    "short_description": "The process of collecting data at intervals after an intervention or treatment to assess its long-term effects."
+  },
+  "Longitudinal Data": {
+    "short_description": "Data collected over extended periods, allowing for the tracking of changes and developments over time."
+  },
+  "Cross-Sectional Data": {
+    "short_description": "Data collected at a single point in time, providing a snapshot of the population or phenomenon."
+  },
+  "Time Series": {
+    "short_description": "A sequence of data points collected at successive points in time, often used to analyze trends and patterns."
+  },
+  "Cohort Study": {
+    "short_description": "A research design that follows a group of individuals who share a common characteristic or experience over time."
+  },
+  "Panel Study": {
+    "short_description": "A research design that involves repeated observations of the same group of individuals over time, tracking changes and developments."
+  },
+  "Experimental Design": {
+    "short_description": "The overall plan or structure of an experiment, including the arrangement of variables, controls, and procedures."
+  },
+  "Quasi-Experimental Design": {
+    "short_description": "A research design that lacks random assignment but still aims to establish causal relationships through controlled conditions."
+  },
+  "Natural Experiment": {
+    "short_description": "An observational study that takes advantage of naturally occurring variations or events to test hypotheses and establish causal relationships."
+  },
+  "Field Experiment": {
+    "short_description": "An experiment conducted in a real-world setting, often involving naturalistic observations and interventions."
+  },
+  "Laboratory Experiment": {
+    "short_description": "An experiment conducted in a controlled environment, such as a lab, to minimize external influences and ensure precision."
+  },
+  "Simulation": {
+    "short_description": "A technique used to model and analyze complex systems or phenomena, often involving computer-based representations."
+  },
+  "Model": {
+    "short_description": "A representation or abstraction of a system or phenomenon, used to understand and predict its behavior."
+  },
+  "Theory": {
+    "short_description": "A systematic explanation of phenomena based on principles and evidence, guiding the design and interpretation of experiments."
+  },
+  "Framework": {
+    "short_description": "A conceptual structure or model that organizes and guides the conduct and interpretation of experiments."
+  },
+  "Paradigm": {
+    "short_description": "A widely accepted model or pattern of thought that guides the design and interpretation of experiments within a field."
+  },
+  "Hypothesis Generation": {
+    "short_description": "The process of formulating new hypotheses based on existing knowledge, observations, or theoretical frameworks."
+  },
+  "Hypothesis Testing": {
+    "short_description": "The process of making and testing predictions based on a hypothesis to determine its validity."
+  },
+  "Null Hypothesis": {
+    "short_description": "A hypothesis that states there is no effect or difference, serving as a baseline for comparison in statistical testing."
+  },
+  "Alternative Hypothesis": {
+    "short_description": "A hypothesis that states there is an effect or difference, often tested against the null hypothesis."
+  },
+  "P-Value": {
+    "short_description": "A statistical measure that indicates the probability of observing the data, or something more extreme, if the null hypothesis is true."
+  },
+  "Confidence Interval": {
+    "short_description": "A range of values within which the true parameter is likely to fall, providing a measure of uncertainty."
+  },
+  "Significance Level": {
+    "short_description": "The probability of rejecting the null hypothesis when it is true, often set at 0.05 or 0.01."
+  },
+  "Power": {
+    "short_description": "The probability of correctly rejecting the null hypothesis when it is false, indicating the sensitivity of the test."
+  },
+  "Effect Size": {
+    "short_description": "A measure of the strength or magnitude of an effect, often used to assess the practical significance of findings."
+  },
+  "Standard Error": {
+    "short_description": "A measure of the accuracy of a sample statistic as an estimate of a population parameter, indicating the variability of the estimate."
+  },
+  "Variance": {
+    "short_description": "A measure of the spread or dispersion of a set of data points, indicating the variability within the data."
+  },
+  "Standard Deviation": {
+    "short_description": "A measure of the amount of variation or dispersion in a set of values, indicating the average distance from the mean."
+  },
+  "Mean": {
+    "short_description": "The average value of a set of data points, providing a central measure of the data."
+  },
+  "Median": {
+    "short_description": "The middle value of a set of data points when ordered, providing a measure of central tendency."
+  },
+  "Mode": {
+    "short_description": "The most frequently occurring value in a set of data points, providing a measure of central tendency."
+  },
+  "Range": {
+    "short_description": "The difference between the maximum and minimum values in a set of data points, indicating the spread of the data."
+  },
+  "Interquartile Range": {
+    "short_description": "The range between the first and third quartiles of a set of data points, providing a measure of the spread of the middle 50% of the data."
+  },
+  "Quartile": {
+    "short_description": "One of the three points that divide a set of data into four equal parts, providing measures of the data's distribution."
+  },
+  "Percentile": {
+    "short_description": "A measure indicating the value below which a given percentage of observations fall, providing a measure of the data's distribution."
+  },
+  "Correlation": {
+    "short_description": "A statistical measure of the strength and direction of the relationship between two variables."
+  },
+  "Regression": {
+    "short_description": "A statistical technique used to model and analyze the relationship between a dependent variable and one or more independent variables."
+  },
+  "ANOVA": {
+    "short_description": "A statistical technique used to compare the means of three or more groups to determine if there are significant differences."
+  },
+  "T-Test": {
+    "short_description": "A statistical technique used to compare the means of two groups to determine if there is a significant difference."
+  },
+  "Chi-Square Test": {
+    "short_description": "A statistical technique used to test the independence of two categorical variables or to compare observed frequencies with expected frequencies."
+  },
+  "Non-Parametric Test": {
+    "short_description": "A statistical technique that does not assume a specific distribution for the data, often used when data do not meet the assumptions of parametric tests."
+  },
+  "Parametric Test": {
+    "short_description": "A statistical technique that assumes a specific distribution for the data, often used when data meet the assumptions of the test."
+  },
+  "Sampling": {
+    "short_description": "The process of selecting a subset of individuals from a population to represent the larger group in a study."
+  },
+  "Sampling Frame": {
+    "short_description": "The list or source from which a sample is drawn, representing the population of interest."
+  },
+  "Sampling Method": {
+    "short_description": "The technique used to select a sample from a population, ensuring representativeness and validity."
+  },
+  "Stratified Sampling": {
+    "short_description": "A sampling method that involves dividing the population into strata and selecting samples from each stratum."
+  },
+  "Cluster Sampling": {
+    "short_description": "A sampling method that involves dividing the population into clusters and selecting entire clusters for the sample."
+  },
+  "Systematic Sampling": {
+    "short_description": "A sampling method that involves selecting every kth member of the population, ensuring a representative sample."
+  },
+  "Simple Random Sampling": {
+    "short_description": "A sampling method that involves selecting members of the population randomly, ensuring an equal chance of selection."
+  },
+  "Convenience Sampling": {
+    "short_description": "A sampling method that involves selecting members of the population based on their availability and willingness to participate."
+  },
+  "Purposive Sampling": {
+    "short_description": "A sampling method that involves selecting members of the population based on specific criteria or characteristics."
+  },
+  "Quota Sampling": {
+    "short_description": "A sampling method that involves selecting a predetermined number of members from specific subgroups of the population."
+  },
+  "Snowball Sampling": {
+    "short_description": "A sampling method that involves selecting members of the population through referrals from existing participants."
+  },
+  "Bias Sampling": {
+    "short_description": "A sampling method that involves selecting members of the population based on specific biases or preferences."
+  },
+  "Non-Probability Sampling": {
+    "short_description": "A sampling method that does not involve random selection, often used when random sampling is not feasible."
+  },
+  "Probability Sampling": {
+    "short_description": "A sampling method that involves random selection, ensuring representativeness and validity."
+  },
+  "Response Rate": {
+    "short_description": "The proportion of individuals who respond to a survey or participate in a study, indicating the success of the sampling method."
+  },
+  "Non-Response Bias": {
+    "short_description": "The bias that occurs when individuals who do not respond to a survey or participate in a study differ systematically from those who do."
+  },
+  "Attrition": {
+    "short_description": "The loss of participants from a study over time, often due to dropout or non-response."
+  },
+  "Dropout Rate": {
+    "short_description": "The proportion of participants who leave a study before its completion, indicating the success of the sampling method."
+  }}

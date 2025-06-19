@@ -1,0 +1,251 @@
+{
+  "Philosophy": {
+    "short_description": "The systematic study of fundamental questions regarding existence, knowledge, values, reason, and the nature of reality through critical analysis and conceptual exploration."
+  },
+  "Metaphysics": {
+    "short_description": "The examination of ultimate reality and existence, probing the nature of being, substance, causality, and the fundamental structure of the cosmos."
+  },
+  "Epistemology": {
+    "short_description": "The investigation into the nature, origins, and limits of human knowledge, exploring the boundaries between belief, truth, and justification."
+  },
+  "Ethics": {
+    "short_description": "The study of moral principles and value systems that govern individual conduct and social relations, seeking to define the nature of the good life."
+  },
+  "Dialectic": {
+    "short_description": "The method of reasoned discourse through thesis, antithesis, and synthesis, pursuing truth through the resolution of opposing arguments."
+  },
+  "Ontology": {
+    "short_description": "The categorization and analysis of modes of being, examining the fundamental categories of existence and their interrelations."
+  },
+  "Logos": {
+    "short_description": "The principle of rational order and meaningful discourse that underlies cosmic structure and human understanding."
+  },
+  "Axiology": {
+    "short_description": "The study of value systems encompassing ethics, aesthetics, and social philosophy, examining what humans consider worthy and desirable."
+  },
+  "Phenomenology": {
+    "short_description": "The study of structures of consciousness as experienced from the first-person perspective, examining the formation of meaning in lived experience."
+  },
+  "Existentialism": {
+    "short_description": "The emphasis on individual freedom, choice, and responsibility in constructing meaning within an apparently meaningless universe."
+  },
+  "Teleology": {
+    "short_description": "The analysis of purpose and final causes in nature and human affairs, considering ends-directed processes in cosmic order."
+  },
+  "Eudaimonia": {
+    "short_description": "The state of flourishing and fulfilled existence considered the highest human good in virtue ethics."
+  },
+  "Aporia": {
+    "short_description": "The state of perplexity arising from contradictory arguments, serving as catalyst for deeper philosophical inquiry."
+  },
+  "Noumenon": {
+    "short_description": "The reality beyond sensory perception that is thinkable but not knowable, representing the limits of human understanding."
+  },
+  "Cogito": {
+    "short_description": "The self-verifying foundation of knowledge in conscious thought, establishing existence through the act of thinking itself."
+  },
+  "Dasein": {
+    "short_description": "The mode of being particular to humans, characterized by awareness of existence and capacity to question its own nature."
+  },
+  "Sublime": {
+    "short_description": "The quality of transcendent greatness that inspires awe and exceeds rational comprehension in aesthetic philosophy."
+  },
+  "Will": {
+    "short_description": "The fundamental driving force behind existence and human action, analyzed as both psychological reality and metaphysical principle."
+  },
+  "Dualism": {
+    "short_description": "The conceptual division of reality into distinct fundamental substances or principles such as mind/matter or good/evil."
+  },
+  "Monad": {
+    "short_description": "The ultimate indivisible unit of reality, conceived as a metaphysical building block possessing inherent properties and perception."
+  },
+  "Categorical Imperative": {
+    "short_description": "The universal moral obligation to act according to principles that could become natural laws for all rational beings."
+  },
+  "Allegory of the Cave": {
+    "short_description": "The symbolic representation of philosophical enlightenment through the transition from shadow-perception to direct apprehension of reality."
+  },
+  "Tabula Rasa": {
+    "short_description": "The concept of the mind as a blank slate shaped entirely by experience and perception rather than innate ideas."
+  },
+  "Übermensch": {
+    "short_description": "The ideal of self-transcendent humanity that creates its own values beyond conventional morality and social constraints."
+  },
+  "Dharma": {
+    "short_description": "The cosmic law and moral order that sustains society and the universe, encompassing duty, righteousness, and natural law."
+  },
+  "Yin-Yang": {
+    "short_description": "The complementary interaction of opposing yet interdependent forces that maintain cosmic balance and generate change."
+  },
+  "Samsara": {
+    "short_description": "The cyclical nature of existence characterized by perpetual becoming, suffering, and the quest for liberation."
+  },
+  "Ataraxia": {
+    "short_description": "The state of serene calmness and freedom from disturbance considered the highest good in Hellenistic philosophies."
+  },
+  "Phronesis": {
+    "short_description": "Practical wisdom concerned with ethical judgment and the capacity to discern the right course of action in particular situations."
+  },
+  "Maya": {
+    "short_description": "The cosmic illusion that veils true reality, representing the deceptive nature of phenomenal existence in Eastern thought."
+  },
+  "Anima Mundi": {
+    "short_description": "The world soul or universal life force that permeates and animates all material reality in Neoplatonic philosophy."
+  },
+  "Hylomorphism": {
+    "short_description": "The theory of substance as compound of matter and form, analyzing the relationship between potentiality and actuality."
+  },
+  "Epoché": {
+    "short_description": "The suspension of judgment about external reality to focus on phenomena as they appear to consciousness."
+  },
+  "Verstehen": {
+    "short_description": "The method of interpretive understanding that examines meaning and intention in human actions and cultural products."
+  },
+  "Qualia": {
+    "short_description": "The individual instances of subjective conscious experience that resist complete objective description."
+  },
+  "Simulacrum": {
+    "short_description": "The copy without an original that comes to constitute reality itself in postmodern analyses of cultural signs."
+  },
+  "Différance": {
+    "short_description": "The simultaneous process of differing and deferring that undermines fixed meanings in linguistic systems."
+  },
+  "Eudaimonism": {
+    "short_description": "The ethical framework that identifies human flourishing as the ultimate basis for moral evaluation and decision-making."
+  },
+  "Sophrosyne": {
+    "short_description": "The ideal of excellence in character and soundness of mind, combining self-control, moderation, and self-knowledge."
+  },
+  "Antinomy": {
+    "short_description": "The contradiction between two apparently valid principles or conclusions, revealing limitations in human reason."
+  },
+  "Nomos": {
+    "short_description": "The concept of human-made conventions and laws contrasted with natural order, examining the foundations of social constructs."
+  },
+  "Phusis": {
+    "short_description": "The principle of nature as spontaneous growth and inherent essence, contrasted with artificial human constructions."
+  },
+  "Thymos": {
+    "short_description": "The spirited element of the soul associated with honor, courage, and the need for recognition in philosophical psychology."
+  },
+  "Ontology": {
+    "short_description": "Study of being, existence, and fundamental nature of reality."
+  },
+  "Epistemology": {
+    "short_description": "Investigation of knowledge, its nature, sources, and limits."
+  },
+  "Axiology": {
+    "short_description": "Study of value, including ethics, aesthetics, and worth."
+  },
+  "Logic": {
+    "short_description": "Study of valid reasoning and argumentation structures."
+  },
+  "Metaphysics": {
+    "short_description": "Inquiry into fundamental nature of reality beyond physical."
+  },
+  "Phenomenology": {
+    "short_description": "Study of structures of consciousness and direct experience."
+  },
+  "Dialectics": {
+    "short_description": "Study of contradictions and their resolution in thought and reality."
+  },
+  "Hermeneutics": {
+    "short_description": "Theory and methodology of interpretation and understanding."
+  },
+  "Teleology": {
+    "short_description": "Study of purpose, ends, and final causes in nature and thought."
+  },
+  "Cosmology": {
+    "short_description": "Philosophy of universe's nature, structure, and origins."
+  },
+  "Noetics": {
+    "short_description": "Study of intellect, consciousness, and direct knowing."
+  },
+  "Praxis": {
+    "short_description": "Study of practical activity and its relationship to theory."
+  },
+  "Semiotics": {
+    "short_description": "Study of signs, symbols, and meaning-making processes."
+  },
+  "Gnoseology": {
+    "short_description": "Theory of knowledge focusing on its spiritual and intuitive aspects."
+  },
+  "Sophiology": {
+    "short_description": "Study of wisdom and its manifestation in reality."
+  },
+  "Methodology": {
+    "short_description": "Study of methods and principles of inquiry and investigation."
+  },
+  "Anthropology": {
+    "short_description": "Philosophical study of human nature and condition."
+  },
+  "Soteriology": {
+    "short_description": "Study of salvation, liberation, and ultimate transformation."
+  },
+  "Eschatology": {
+    "short_description": "Study of ultimate destiny and final realities."
+  },
+  "Theology": {
+    "short_description": "Philosophical study of divine nature and religious truth."
+  },
+  "Aesthetics": {
+    "short_description": "Study of beauty, art, and principles of artistic creation."
+  },
+  "Ethics": {
+    "short_description": "Study of moral principles, values, and right action."
+  },
+  "Politics": {
+    "short_description": "Philosophy of power, governance, and social organization."
+  },
+  "Causality": {
+    "short_description": "Study of cause-effect relationships and their nature."
+  },
+  "Systematics": {
+    "short_description": "Study of systems, their organization and principles."
+  },
+  "Heuristics": {
+    "short_description": "Study of methods for discovery and problem-solving."
+  },
+  "Empirics": {
+    "short_description": "Philosophy of experiential knowledge and observation."
+  },
+  "Mechanics": {
+    "short_description": "Study of fundamental processes and their operations."
+  },
+  "Dialectics": {
+    "short_description": "Study of change through opposition and synthesis."
+  },
+  "Analytics": {
+    "short_description": "Study of analysis methods and logical examination."
+  },
+  "Synthetics": {
+    "short_description": "Study of combination and integration of knowledge."
+  },
+  "Idealism": {
+    "short_description": "Philosophy of mind/spirit as fundamental reality."
+  },
+  "Materialism": {
+    "short_description": "Philosophy of physical matter as fundamental reality."
+  },
+  "Rationalism": {
+    "short_description": "Philosophy emphasizing reason as source of knowledge."
+  },
+  "Empiricism": {
+    "short_description": "Philosophy emphasizing experience as source of knowledge."
+  },
+  "Mysticism": {
+    "short_description": "Philosophy of direct spiritual or transcendent knowledge."
+  },
+  "Pragmatics": {
+    "short_description": "Study of practical consequences and useful outcomes."
+  },
+  "Nominalism": {
+    "short_description": "Philosophy of names, categories, and their relationship to reality."
+  },
+  "Realism": {
+    "short_description": "Philosophy of objective reality independent of mind."
+  },
+  "Existentialism": {
+    "short_description": "Philosophy of individual existence and its meaning."
+  }
+}

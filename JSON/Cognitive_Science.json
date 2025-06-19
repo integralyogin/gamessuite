@@ -1,0 +1,65 @@
+{
+  "Cognitive Science": {
+    "short_description": "An interdisciplinary field studying the mind and its processes, integrating insights from psychology, neuroscience, philosophy, linguistics, anthropology, and artificial intelligence."
+  },
+  "Perception": {
+    "short_description": "The process by which sensory information is interpreted, organized, and consciously experienced, encompassing sight, sound, touch, taste, and smell."
+  },
+  "Attention": {
+    "short_description": "The cognitive process of selectively concentrating on one aspect of the environment while ignoring others, crucial for managing information overload."
+  },
+  "Memory": {
+    "short_description": "The faculty by which the mind stores, retains, and recalls information; includes sensory, short-term, and long-term memory systems."
+  },
+  "Language": {
+    "short_description": "The system of communication used by humans, involving the comprehension, production, and acquisition of words and sentences, studied for both structure and use."
+  },
+  "Reasoning": {
+    "short_description": "The cognitive process of connecting thoughts to reach conclusions, involving deduction, induction, and abduction, crucial for problem-solving and decision-making."
+  },
+  "Consciousness": {
+    "short_description": "The state of being aware of and responsive to one's surroundings, including self-awareness, subjective experiences, and the ability to focus attention."
+  },
+  "Learning": {
+    "short_description": "The process of acquiring new or modifying existing knowledge, behaviors, skills, values, or preferences, through study, experience, or teaching."
+  },
+  "Decision Making": {
+    "short_description": "The cognitive process leading to the selection of a belief or a course of action among several possible alternatives, involving both conscious and unconscious elements."
+  },
+  "Neural Networks": {
+    "short_description": "A computational model inspired by the human brain, designed to simulate the way biological neurons process information, key in understanding cognitive processes."
+  },
+  "Embodied Cognition": {
+    "short_description": "The theory that many features of cognition are shaped by aspects of the body beyond the brain, like movement and physical interaction with the environment."
+  },
+  "Cognitive Architecture": {
+    "short_description": "A theoretical framework describing the basic structure of cognitive systems, attempting to model how human cognition works."
+  },
+  "Artificial Intelligence (AI)": {
+    "short_description": "The simulation of human intelligence processes by computer systems, including learning, reasoning, and self-correction, providing insights into cognition."
+  },
+  "Cognitive Development": {
+    "short_description": "The construction of thought processes, including remembering, problem-solving, and decision-making, from childhood through adulthood."
+  },
+  "Emotion": {
+    "short_description": "Complex psychological states involving an interplay between physiological arousal, expressive behaviors, and conscious experience, influencing cognitive processes."
+  },
+  "Social Cognition": {
+    "short_description": "The area of social psychology concerned with how people process, store, and apply information about other people and social situations."
+  },
+  "Computational Modeling": {
+    "short_description": "Using computer simulations to model cognitive processes, providing a tool for testing theories about how the mind works."
+  },
+  "Philosophy of Mind": {
+    "short_description": "The branch of philosophy that studies the nature of the mind, mental events, mental functions, mental properties, consciousness, and their relationship to the physical body."
+  },
+  "Neuropsychology": {
+    "short_description": "The study of the structure and function of the brain as they relate to specific psychological processes and behaviors."
+  },
+  "Linguistic Relativity": {
+    "short_description": "The hypothesis that the structure of a language affects its speakers' cognition and worldview, influencing thought and behavior."
+  },
+  "Cognitive Bias": {
+    "short_description": "Systematic patterns of deviation from norm or rationality in judgment, where inferences about other people and situations may be drawn in an illogical fashion."
+  }
+}

@@ -1,0 +1,285 @@
+SAVITRI-DESK:/var/www/html/games/gamessuite$cat add_new_term.php update_search_index.php 
+<?php
+// Set the content type to JSON for the response.
+header('Content-Type: application/json');
+
+// --- Configuration ---
+// The main knowledge base file where all terms are indexed.
+$indexFilePath = './knowledge_base.json';
+// --- Securely Load API Key from File ---
+// Define the path to your API key file.
+$apiKeyPath = '/var/www/private/data/gptkey.txt';
+$apiKey = '';
+
+if (file_exists($apiKeyPath) && is_readable($apiKeyPath)) {
+    // Read the key from the file and trim any whitespace/newlines.
+    $apiKey = trim(file_get_contents($apiKeyPath));
+} else {
+    // Log an error if the key file is not found. This helps in debugging.
+    error_log("API key file not found or not readable at: " . $apiKeyPath);
+}
+
+// --- Helper Function for AI Data Fetching ---
+
+/**
+ * Fetches structured data for a term from the OpenAI API (ChatGPT).
+ *
+ * @param string $term The term to look up.
+ * @param string $apiKey Your OpenAI API key.
+ * @return array|null The structured data as an associative array, or an array with an 'error' key on failure.
+ */
+function getAiGeneratedData($term, $apiKey) {
+    // Check if the API key is empty or wasn't loaded.
+    if (empty($apiKey)) {
+        error_log("OpenAI API key is missing or could not be read. Returning default structure.");
+        return ['error' => 'API key is not configured on the server.'];
+    }
+
+    $apiUrl = 'https://api.openai.com/v1/chat/completions';
+    $prompt = "For the term '{$term}', provide a JSON object with the following keys: 'definitions' (an array of 1 concise esoteric string definition), 'parents' (an array of 2-5 related broader concepts), 'siblings' (an array of 2-4 related concepts at a similar level), and 'children' (an array of 2-12 related more specific concepts). Your response must be a valid JSON object.";
+    
+    // Structure the payload for the OpenAI API
+    $payload = json_encode([
+        'model' => 'gpt-4o-mini',
+        'messages' => [
+            ['role' => 'user', 'content' => $prompt]
+        ],
+        'response_format' => ['type' => 'json_object'] // Use JSON mode
+    ]);
+
+    // Set up the HTTP headers for OpenAI authentication
+    $headers = [
+        'Content-Type: application/json',
+        'Authorization: Bearer ' . $apiKey
+    ];
+
+    $ch = curl_init($apiUrl);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+    
+    $response = curl_exec($ch);
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $curl_error = curl_error($ch);
+    curl_close($ch);
+
+    if ($curl_error) {
+        error_log("cURL Error for term '{$term}': " . $curl_error);
+        return ['error' => 'cURL Error: Could not connect to AI service.'];
+    }
+    
+    if ($http_code !== 200) {
+        // Log the full response for server-side debugging.
+        error_log("OpenAI API Error for term '{$term}'. HTTP Code: {$http_code}. Response: {$response}");
+        $apiErrorData = json_decode($response, true);
+        // Safely extract the error message from the API response.
+        $apiErrorMessage = $apiErrorData['error']['message'] ?? 'An unknown API error occurred.';
+        // Return a structured error with the HTTP code and message.
+        return ['error' => "API responded with HTTP {$http_code}: {$apiErrorMessage}"];
+    }
+
+    $responseData = json_decode($response, true);
+    // Extract the JSON string from OpenAI's response structure
+    $jsonText = $responseData['choices'][0]['message']['content'] ?? null;
+    
+    if (!$jsonText) {
+        error_log("Could not extract JSON text from OpenAI response for term '{$term}'. Full Response: {$response}");
+        return ['error' => 'Received an unexpected response format from the AI service.'];
+    }
+
+    $structuredData = json_decode($jsonText, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        error_log("Failed to decode JSON from OpenAI's text response for term '{$term}'. Error: " . json_last_error_msg() . ". Response Text: {$jsonText}");
+        return ['error' => 'AI service returned invalid JSON.'];
+    }
+    
+    return $structuredData;
+}
+
+
+// --- Input Handling ---
+$json_str = file_get_contents('php://input');
+$json_obj = json_decode($json_str);
+
+if (!isset($json_obj->term) || empty(trim($json_obj->term))) {
+    http_response_code(400);
+    echo json_encode(['success' => false, 'message' => 'No term provided.']);
+    exit;
+}
+
+$newTerm = trim($json_obj->term);
+
+// --- File System Checks ---
+if (!file_exists($indexFilePath) || !is_writable($indexFilePath)) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'Knowledge base file (knowledge_base.json) not found or not writable.']);
+    exit;
+}
+
+// --- Read and Decode Index File ---
+$indexData = json_decode(file_get_contents($indexFilePath), true);
+if ($indexData === null) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'Error decoding the knowledge base JSON file.']);
+    exit;
+}
+
+// --- Core Logic: Add or Update Term ---
+// The check for whether to update is now handled on the client-side.
+// This script will now create a new entry or overwrite an existing one.
+
+// 1. Get the structured data from the AI.
+$newEntryData = getAiGeneratedData($newTerm, $apiKey);
+
+// Check if the helper function returned a structured error.
+if (isset($newEntryData['error'])) {
+    http_response_code(500);
+    // Pass the specific, safe error message to the client.
+    echo json_encode(['success' => false, 'message' => "Failed to fetch data from AI. Reason: " . $newEntryData['error']]);
+    exit;
+}
+
+// Fallback for any other unexpected null return.
+if ($newEntryData === null) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => "An unknown error occurred while processing the AI response. Check server logs."]);
+    exit;
+}
+
+// Ensure the AI data has the expected keys, even if empty.
+$newEntryData['definitions'] = $newEntryData['definitions'] ?? [];
+$newEntryData['parents'] = $newEntryData['parents'] ?? [];
+$newEntryData['siblings'] = $newEntryData['siblings'] ?? [];
+$newEntryData['children'] = $newEntryData['children'] ?? [];
+
+// 2. Add the AI-generated data to the main knowledge base (this will create or overwrite).
+$indexData[$newTerm] = $newEntryData;
+
+// 3. Write the updated data back to the knowledge base file.
+$newIndexJsonData = json_encode($indexData, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+
+if (file_put_contents($indexFilePath, $newIndexJsonData, LOCK_EX) === false) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'Failed to update knowledge base file. Check permissions for knowledge_base.json.']);
+    exit;
+}
+
+// 4. If everything was successful, send a success response.
+echo json_encode([
+    'success' => true,
+    'message' => 'Term added or updated successfully with AI-generated data.',
+    'term' => $newTerm,
+    'data' => $newEntryData
+]);
+
+?>
+
+<?php
+// Set the content type to JSON for the response.
+header('Content-Type: application/json');
+
+// --- Configuration ---
+// Define the path to your knowledge base directory and main index file.
+// IMPORTANT: Ensure this path is correct and the directory is writable by the web server.
+$jsonDir = 'JSON/';
+$indexFilePath = $jsonDir . 'search_index.json';
+
+// --- Input Handling ---
+// Get the raw POST data from the request.
+$json_str = file_get_contents('php://input');
+// Decode the JSON payload into a PHP object.
+$json_obj = json_decode($json_str);
+
+// Validate that a 'term' was provided and is not empty.
+if (!isset($json_obj->term) || empty(trim($json_obj->term))) {
+    // If no term was sent, respond with a bad request error.
+    http_response_code(400);
+    echo json_encode(['success' => false, 'message' => 'No term provided.']);
+    exit;
+}
+
+$newTerm = trim($json_obj->term);
+
+// --- File System Checks ---
+// Check if the JSON directory exists and is writable.
+if (!is_dir($jsonDir) || !is_writable($jsonDir)) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'JSON directory not found or not writable.']);
+    exit;
+}
+
+// Check if the index file exists and is readable.
+if (!file_exists($indexFilePath) || !is_readable($indexFilePath)) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'Knowledge base file (search_index.json) not found or not readable.']);
+    exit;
+}
+
+// --- Read and Decode Index File ---
+$indexData = json_decode(file_get_contents($indexFilePath), true);
+
+// Check if the JSON was decoded properly.
+if ($indexData === null) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'Error decoding the knowledge base JSON file.']);
+    exit;
+}
+
+// --- Core Logic: Add New Term ---
+// Check if the term already exists (case-insensitive check can be more robust, but sticking to exact match for now).
+if (array_key_exists($newTerm, $indexData)) {
+    // If the term already exists, let the client know.
+    echo json_encode(['success' => false, 'message' => 'Term already exists.']);
+    exit;
+}
+
+// 1. Create the new JSON file for the individual term.
+$newTermFileName = str_replace(' ', '_', $newTerm) . '.json';
+$newTermFilePath = $jsonDir . $newTermFileName;
+$newTermData = [
+    $newTerm => [
+        "definition" => ""
+        // You can add other default properties here if needed, e.g., "parents" => []
+    ]
+];
+$newTermJsonContent = json_encode($newTermData, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+
+// Attempt to write the new term's file.
+// LOCK_EX prevents another process from writing to the file at the same time.
+if (file_put_contents($newTermFilePath, $newTermJsonContent, LOCK_EX) === false) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'Failed to create new term file. Check directory permissions.']);
+    exit;
+}
+
+// 2. If the term file was created successfully, add the term to the main index.
+$newEntryForIndex = [
+    'definition' => ""
+];
+$indexData[$newTerm] = $newEntryForIndex;
+
+// 3. Write the updated index data back to the main index file.
+$newIndexJsonData = json_encode($indexData, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+
+if (file_put_contents($indexFilePath, $newIndexJsonData, LOCK_EX) === false) {
+    // This is a critical error state. The term file was created, but the index update failed.
+    // A more robust system might attempt to delete the file created in step 1.
+    // For now, we return a detailed error message.
+    http_response_code(500);
+    echo json_encode([
+        'success' => false,
+        'message' => 'Failed to update the search index file. The individual term file was created, but the index is now out of sync. Please check file permissions for search_index.json.'
+    ]);
+    exit;
+}
+
+// 4. If everything was successful, send a success response.
+echo json_encode([
+    'success' => true,
+    'message' => 'Term added successfully.',
+    'term' => $newTerm,
+    'data' => $newEntryForIndex
+]);
+
+?>

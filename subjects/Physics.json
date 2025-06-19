@@ -1,0 +1,692 @@
+[
+  {
+    "id": "subj_physics_foundations_001",
+    "title": "Physics",
+    "description": "A progressive exploration of fundamental physical laws, concepts, and theories, from classical mechanics to modern physics.",
+    "sections": [
+      {
+        "heading": "Physics Defined",
+        "topic_summary": "Science of matter, energy.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_intro",
+            "summary": "An introduction to Physics as the natural science that studies matter, its motion and behavior through space and time, and the related entities of energy and force."
+          }
+        ]
+      },
+      {
+        "heading": "Scientific Method",
+        "topic_summary": "Observation, hypothesis, experiment.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_scientific_method",
+            "summary": "The empirical method of acquiring knowledge involving observation, hypothesis formulation, experimentation, and refinement of theories based on evidence."
+          }
+        ]
+      },
+      {
+        "heading": "Units & Measurement",
+        "topic_summary": "Quantifying physical properties.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_units_measurement",
+            "summary": "The systems and standards used for quantifying physical properties, including base units (meter, kilogram, second) and derived units."
+          }
+        ]
+      },
+      {
+        "heading": "Scalars & Vectors",
+        "topic_summary": "Magnitude vs. magnitude/direction.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_scalars_vectors",
+            "summary": "Distinguishing scalar quantities (magnitude only, e.g., speed, mass) from vector quantities (magnitude and direction, e.g., velocity, force)."
+          }
+        ]
+      },
+      {
+        "heading": "Kinematics",
+        "topic_summary": "Describing motion, no causes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_kinematics",
+            "summary": "The branch of mechanics concerned with the motion of objects without reference to the forces that cause the motion."
+          }
+        ]
+      },
+      {
+        "heading": "Displacement & Distance",
+        "topic_summary": "Change in position; path length.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_displacement_distance",
+            "summary": "Understanding distance as the total path length traveled and displacement as the change in position (a vector quantity)."
+          }
+        ]
+      },
+      {
+        "heading": "Speed & Velocity",
+        "topic_summary": "Rate of motion; speed/direction.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_speed_velocity",
+            "summary": "Defining speed as the rate of change of distance and velocity as the rate of change of displacement (a vector)."
+          }
+        ]
+      },
+      {
+        "heading": "Acceleration",
+        "topic_summary": "Rate of velocity change.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_acceleration",
+            "summary": "The rate at which the velocity of an object changes over time; a vector quantity."
+          }
+        ]
+      },
+      {
+        "heading": "Newton's Laws: First",
+        "topic_summary": "Inertia, constant velocity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_newton_first",
+            "summary": "An object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force (Law of Inertia)."
+          }
+        ]
+      },
+      {
+        "heading": "Newton's Laws: Second",
+        "topic_summary": "Force equals mass times acceleration.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_newton_second",
+            "summary": "The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass (F=ma)."
+          }
+        ]
+      },
+      {
+        "heading": "Newton's Laws: Third",
+        "topic_summary": "Equal and opposite reaction.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_newton_third",
+            "summary": "For every action, there is an equal and opposite reaction; forces always occur in pairs."
+          }
+        ]
+      },
+      {
+        "heading": "Force",
+        "topic_summary": "Push or pull on object.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_force",
+            "summary": "An interaction that, when unopposed, will change the motion of an object. A vector quantity, measured in Newtons."
+          }
+        ]
+      },
+      {
+        "heading": "Mass vs. Weight",
+        "topic_summary": "Inertia measure; gravity's force.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_mass_weight",
+            "summary": "Distinguishing mass as a measure of an object's inertia (amount of matter) from weight as the force of gravity acting on an object."
+          }
+        ]
+      },
+      {
+        "heading": "Friction",
+        "topic_summary": "Force opposing motion.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_friction",
+            "summary": "A force that resists the relative motion or tendency toward such motion of two surfaces in contact."
+          }
+        ]
+      },
+      {
+        "heading": "Work (Physics)",
+        "topic_summary": "Force over a distance.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_work",
+            "summary": "The energy transferred to or from an object via the application of force along a displacement (W = Fd cos θ)."
+          }
+        ]
+      },
+      {
+        "heading": "Energy: Kinetic",
+        "topic_summary": "Energy of motion.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_kinetic_energy",
+            "summary": "The energy an object possesses due to its motion, dependent on its mass and speed (KE = 1/2 mv²)."
+          }
+        ]
+      },
+      {
+        "heading": "Energy: Potential",
+        "topic_summary": "Stored energy of position.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_potential_energy",
+            "summary": "Energy stored in an object due to its position or configuration (e.g., gravitational potential energy, elastic potential energy)."
+          }
+        ]
+      },
+      {
+        "heading": "Conservation of Energy",
+        "topic_summary": "Energy cannot be created/destroyed.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_conservation_energy",
+            "summary": "The fundamental principle that the total energy of an isolated system remains constant over time; energy can transform but not be created or destroyed."
+          }
+        ]
+      },
+      {
+        "heading": "Power",
+        "topic_summary": "Rate of energy transfer.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_power",
+            "summary": "The rate at which work is done or energy is transferred, measured in Watts (Joules per second)."
+          }
+        ]
+      },
+      {
+        "heading": "Momentum",
+        "topic_summary": "Mass in motion (mv).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_momentum",
+            "summary": "The product of an object's mass and its velocity (p=mv); a vector quantity."
+          }
+        ]
+      },
+      {
+        "heading": "Conservation of Momentum",
+        "topic_summary": "Total momentum stays constant.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_conservation_momentum",
+            "summary": "In a closed system, the total momentum remains constant if no external forces act upon it."
+          }
+        ]
+      },
+      {
+        "heading": "Impulse",
+        "topic_summary": "Change in momentum.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_impulse",
+            "summary": "The change in momentum of an object; equal to the force applied multiplied by the time duration of the force (Impulse = FΔt = Δp)."
+          }
+        ]
+      },
+      {
+        "heading": "Circular Motion",
+        "topic_summary": "Motion along circular path.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_circular_motion",
+            "summary": "The movement of an object along the circumference of a circle or rotation along a circular path."
+          }
+        ]
+      },
+      {
+        "heading": "Centripetal Force",
+        "topic_summary": "Force towards circle's center.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_centripetal_force",
+            "summary": "A force that acts on a body moving in a circular path and is directed towards the center around which the body is moving."
+          }
+        ]
+      },
+      {
+        "heading": "Universal Gravitation",
+        "topic_summary": "Newton's law of gravity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_gravitation",
+            "summary": "Newton's law stating that every particle attracts every other particle in the universe with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers."
+          }
+        ]
+      },
+      {
+        "heading": "Kepler's Laws",
+        "topic_summary": "Planetary motion laws.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_keplers_laws",
+            "summary": "Three scientific laws describing the motion of planets around the Sun, formulated by Johannes Kepler."
+          }
+        ]
+      },
+      {
+        "heading": "Simple Harmonic Motion",
+        "topic_summary": "Oscillatory motion (springs, pendulums).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_shm",
+            "summary": "A specific type of periodic motion where the restoring force on the moving object is directly proportional to the object's displacement magnitude and acts towards the object's equilibrium position."
+          }
+        ]
+      },
+      {
+        "heading": "Waves: Types",
+        "topic_summary": "Transverse and longitudinal.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_wave_types",
+            "summary": "Distinguishing between transverse waves (oscillations perpendicular to propagation, e.g., light) and longitudinal waves (oscillations parallel to propagation, e.g., sound)."
+          }
+        ]
+      },
+      {
+        "heading": "Wave Properties",
+        "topic_summary": "Amplitude, wavelength, frequency.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_wave_properties",
+            "summary": "Key characteristics of waves: amplitude (maximum displacement), wavelength (spatial period), frequency (oscillations per unit time), and period (time for one oscillation)."
+          }
+        ]
+      },
+      {
+        "heading": "Sound Waves",
+        "topic_summary": "Vibrations through a medium.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_sound_waves",
+            "summary": "Longitudinal waves that propagate as acoustic waves, through a transmission medium such as a gas, liquid or solid."
+          }
+        ]
+      },
+      {
+        "heading": "Doppler Effect",
+        "topic_summary": "Frequency change due to motion.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_doppler_effect",
+            "summary": "The change in frequency or wavelength of a wave in relation to an observer who is moving relative to the wave source."
+          }
+        ]
+      },
+      {
+        "heading": "Thermodynamics: Zeroth Law",
+        "topic_summary": "Thermal equilibrium concept.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_thermo_zeroth",
+            "summary": "If two thermodynamic systems are each in thermal equilibrium with a third, then they are in thermal equilibrium with each other; defines temperature."
+          }
+        ]
+      },
+      {
+        "heading": "Temperature & Heat",
+        "topic_summary": "Average KE; energy transfer.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_temp_heat",
+            "summary": "Temperature as a measure of the average kinetic energy of particles; heat as the transfer of thermal energy between systems."
+          }
+        ]
+      },
+      {
+        "heading": "Thermodynamics: First Law",
+        "topic_summary": "Conservation of energy (thermo).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_thermo_first",
+            "summary": "Energy cannot be created or destroyed in an isolated system; the change in internal energy of a system is equal to the heat added to the system minus the work done by the system."
+          }
+        ]
+      },
+      {
+        "heading": "Thermodynamics: Second Law",
+        "topic_summary": "Entropy tends to increase.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_thermo_second",
+            "summary": "The total entropy of an isolated system can only increase over time or remain constant in ideal cases where the system is in a steady state or undergoing a reversible process."
+          }
+        ]
+      },
+      {
+        "heading": "Entropy",
+        "topic_summary": "Measure of disorder/randomness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_entropy",
+            "summary": "A thermodynamic quantity representing the unavailability of a system's thermal energy for conversion into mechanical work, often interpreted as the degree of disorder or randomness in the system."
+          }
+        ]
+      },
+      {
+        "heading": "Electrostatics",
+        "topic_summary": "Stationary electric charges.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_electrostatics",
+            "summary": "The study of stationary electric charges or fields as opposed to electric currents."
+          }
+        ]
+      },
+      {
+        "heading": "Electric Charge",
+        "topic_summary": "Fundamental property (pos/neg).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_electric_charge",
+            "summary": "The physical property of matter that causes it to experience a force when placed in an electromagnetic field; exists as positive or negative."
+          }
+        ]
+      },
+      {
+        "heading": "Coulomb's Law",
+        "topic_summary": "Force between electric charges.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_coulombs_law",
+            "summary": "Describes the electrostatic force of attraction or repulsion between two point charges."
+          }
+        ]
+      },
+      {
+        "heading": "Electric Fields",
+        "topic_summary": "Force region around charge.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_electric_fields",
+            "summary": "A region around a charged particle or object within which a force would be exerted on other charged particles or objects."
+          }
+        ]
+      },
+      {
+        "heading": "Electric Potential",
+        "topic_summary": "Potential energy per charge.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_electric_potential",
+            "summary": "The amount of work needed to move a unit of positive charge from a reference point to a specific point inside an electric field without producing an acceleration; also known as voltage."
+          }
+        ]
+      },
+      {
+        "heading": "Capacitance",
+        "topic_summary": "Ability to store charge.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_capacitance",
+            "summary": "The ability of a system to store an electric charge; the ratio of the change in an electric charge in a system to the corresponding change in its electric potential."
+          }
+        ]
+      },
+      {
+        "heading": "Electric Current",
+        "topic_summary": "Flow of electric charge.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_electric_current",
+            "summary": "A stream of charged particles, such as electrons or ions, moving through an electrical conductor or space."
+          }
+        ]
+      },
+      {
+        "heading": "Resistance & Ohm's Law",
+        "topic_summary": "Opposition to current; V=IR.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_resistance_ohm",
+            "summary": "Electrical resistance is the opposition to the passage of an electric current through a conductor. Ohm's Law states V=IR (Voltage = Current × Resistance)."
+          }
+        ]
+      },
+      {
+        "heading": "DC Circuits",
+        "topic_summary": "Direct current electrical paths.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_dc_circuits",
+            "summary": "Electric circuits in which the current flows in only one direction (Direct Current), typically involving resistors, capacitors, and inductors."
+          }
+        ]
+      },
+      {
+        "heading": "Magnetism",
+        "topic_summary": "Magnetic fields, forces.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_magnetism",
+            "summary": "A class of physical phenomena that are mediated by magnetic fields. Electric currents and the magnetic moments of elementary particles give rise to a magnetic field."
+          }
+        ]
+      },
+      {
+        "heading": "Electromagnetism",
+        "topic_summary": "Interplay of E & M fields.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_electromagnetism",
+            "summary": "The branch of physics concerned with the forces that occur between electrically charged particles, encompassing both electricity and magnetism as manifestations of the same phenomenon."
+          }
+        ]
+      },
+      {
+        "heading": "Maxwell's Equations",
+        "topic_summary": "Fundamental laws of E&M.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_maxwells_equations",
+            "summary": "A set of four fundamental equations that describe how electric and magnetic fields are generated and altered by each other and by charges and currents."
+          }
+        ]
+      },
+      {
+        "heading": "Electromagnetic Waves",
+        "topic_summary": "Light, radio, X-rays.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_em_waves",
+            "summary": "Waves of the electromagnetic field, propagating at the speed of light through a vacuum. Includes radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays."
+          }
+        ]
+      },
+      {
+        "heading": "Optics: Reflection & Refraction",
+        "topic_summary": "Light bouncing, bending.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_optics_reflection_refraction",
+            "summary": "Reflection is the change in direction of a wavefront at an interface between two different media so that the wavefront returns into the medium from which it originated. Refraction is the change in direction of a wave passing from one medium to another."
+          }
+        ]
+      },
+      {
+        "heading": "Lenses & Mirrors",
+        "topic_summary": "Focusing, forming images.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_lenses_mirrors",
+            "summary": "Optical devices that refract (lenses) or reflect (mirrors) light to form images or concentrate light."
+          }
+        ]
+      },
+      {
+        "heading": "Wave Optics",
+        "topic_summary": "Interference, diffraction, polarization.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_wave_optics",
+            "summary": "The branch of optics that studies interference, diffraction, polarization, and other phenomena for which the ray approximation of geometric optics is not valid."
+          }
+        ]
+      },
+      {
+        "heading": "Special Relativity",
+        "topic_summary": "Einstein's theory, spacetime.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_special_relativity",
+            "summary": "Albert Einstein's theory (1905) regarding the relationship between space and time for objects moving at constant speeds in a straight line. Key concepts include time dilation, length contraction, and E=mc²."
+          }
+        ]
+      },
+      {
+        "heading": "General Relativity",
+        "topic_summary": "Einstein's theory of gravity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_general_relativity",
+            "summary": "Albert Einstein's geometric theory of gravitation (1915), which describes gravity not as a force but as a curvature of spacetime caused by mass and energy."
+          }
+        ]
+      },
+      {
+        "heading": "Quantum Mechanics Intro",
+        "topic_summary": "Physics of atomic scale.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_quantum_intro",
+            "summary": "A fundamental theory in physics that provides a description of the physical properties of nature at the scale of atoms and subatomic particles."
+          }
+        ]
+      },
+      {
+        "heading": "Wave-Particle Duality",
+        "topic_summary": "Matter as wave and particle.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_wave_particle_duality",
+            "summary": "The concept in quantum mechanics that every particle or quantum entity may be partly described in terms not only of particles, but also of waves."
+          }
+        ]
+      },
+      {
+        "heading": "Heisenberg Uncertainty",
+        "topic_summary": "Limits on knowing properties.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_heisenberg_uncertainty",
+            "summary": "A fundamental principle in quantum mechanics stating that there is an inherent limit to the precision with which certain pairs of physical properties of a particle (e.g., position and momentum) can be simultaneously known."
+          }
+        ]
+      },
+      {
+        "heading": "Atomic Structure",
+        "topic_summary": "Nucleus, electrons, orbitals.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_atomic_structure",
+            "summary": "The structure of an atom, consisting of a positively charged nucleus (protons and neutrons) surrounded by negatively charged electrons arranged in orbitals."
+          }
+        ]
+      },
+      {
+        "heading": "Nuclear Physics",
+        "topic_summary": "Study of atomic nuclei.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_nuclear_physics",
+            "summary": "The field of physics that studies atomic nuclei and their constituents and interactions, including radioactivity, fission, and fusion."
+          }
+        ]
+      },
+      {
+        "heading": "Particle Physics",
+        "topic_summary": "Fundamental particles, forces.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_particle_physics",
+            "summary": "The branch of physics that studies the nature of the particles that constitute matter and radiation, and the fundamental forces governing them (Standard Model)."
+          }
+        ]
+      },
+      {
+        "heading": "Cosmology (Physics)",
+        "topic_summary": "Universe origin, evolution, fate.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_cosmology_physics",
+            "summary": "The scientific study of the large scale properties of the universe as a whole, including its origin (Big Bang), evolution, structure, and ultimate fate."
+          }
+        ]
+      },
+      {
+        "heading": "Astrophysics",
+        "topic_summary": "Physics of celestial objects.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "phy_topic_astrophysics",
+            "summary": "The branch of astronomy concerned with the physical nature of stars and other celestial bodies, and with the application of the laws and theories of physics to the interpretation of astronomical observations."
+          }
+        ]
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,161 @@
+{
+  "map_settings": {
+    "width": 1400,
+    "height": 1400,
+    "background_color": "#dcec08"
+  },
+  "places": [
+    {
+      "id": "dungeon",
+      "name": "Dungeon",
+      "image": "images/places/town_dungeon.jpg",
+      "targetGameId": "RoguelikeDungeonGame",
+      "x": 850,
+      "y": 950,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "shop",
+      "name": "Item Shop",
+      "image": "images/places/town_shop.jpg",
+      "targetGameId": "ShopGame",
+      "x": 450,
+      "y": 525,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "agency",
+      "name": "Heroes' Guild",
+      "image": "images/places/town_agency.jpg",
+      "targetGameId": "AgencyGame",
+      "x": 850,
+      "y": 50,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "mountain",
+      "name": "The Mountain",
+      "image": "images/places/mountain.jpg",
+      "targetGameId": "MountainGame",
+      "x": 1050,
+      "y": 50,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "design",
+      "name": "Town Designer",
+      "image": "images/placeholder.png",
+      "targetGameId": "TownDesignerGame",
+      "x": 1050,
+      "y": 275,
+      "width": 160,
+      "height": 160
+    },
+
+    {
+      "id": "arcade",
+      "name": "Pixel Palace Arcade",
+      "image": "images/places/arcade.jpg",
+      "targetGameId": "ArcadeGame",
+      "x": 350,
+      "y": 750,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "arena",
+      "name": "The Arena",
+      "image": "images/places/battle_arena.jpg",
+      "targetGameId": "ArenaGame",
+      "x": 850,
+      "y": 700,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "library",
+      "name": "Grand Library",
+      "image": "images/places/library.jpg",
+      "targetGameId": "LibraryGame",
+      "x": 450,
+      "y": 50,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "inn",
+      "name": "Inn",
+      "image": "images/places/inn.jpg",
+      "targetGameId": "InnGame",
+      "x": 250,
+      "y": 525,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "armory",
+      "name": "Armory",
+      "image": "images/places/armory.jpg",
+      "targetGameId": "ArmoryGame",
+      "x": 850,
+      "y": 425,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "temple",
+      "name": "Mother's Inner Sanctuary",
+      "image": "images/places/sanctuary.jpg",
+      "targetGameId": "TheMotherGame",
+      "x": 250,
+      "y": 275,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "aurotemple",
+      "name": "Aurobindo's Temple-Tower",
+      "image": "images/places/temple.jpg",
+      "targetGameId": "AurobindoGame",
+      "x": 50,
+      "y": 275,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "academy",
+      "name": "The Academy",
+      "image": "images/places/academy.jpg",
+      "targetGameId": "AcademyGame",
+      "x": 650,
+      "y": 50,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "garden",
+      "name": "Garden",
+      "image": "images/places/garden.jpg",
+      "targetGameId": "ClickerGame",
+      "x": 250,
+      "y": 50,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "training",
+      "name": "Training Grounds",
+      "image": "images/placeholder.png",
+      "targetGameId": "TrainingGroundsGame",
+      "x": 1050,
+      "y": 525,
+      "width": 160,
+      "height": 160
+    }
+  ]
+}
+

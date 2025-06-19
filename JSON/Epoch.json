@@ -1,0 +1,22 @@
+{
+  "Definition": { "quote": "One complete pass through the entire training dataset: N samples → model updates." },
+  "Batch Size Relation": { "quote": "Epoch steps = ⎡N / batch_size⎤; e.g., 1000 samples, batch 100 → 10 steps/epoch." },
+  "Iterations": { "quote": "Number of batch updates per epoch: iterations = ⎡N / batch_size⎤." },
+  "Training Loop": { "quote": "For epoch in epochs: for batch in batches → forward pass, loss, backward pass, update weights." },
+  "Overfitting": { "quote": "Excessive epochs → model memorizes training data (train loss ↓, val loss ↑)." },
+  "Convergence": { "quote": "Early stopping when loss stabilizes: Δloss < threshold for k consecutive epochs." },
+  "Hyperparameter": { "quote": "Epochs ≈ patience in early stopping; tuned via grid search or Bayesian optimization." },
+  "Learning Rate": { "quote": "LR scheduling per epoch: η_t = η_initial * decay^t (e.g., step decay)." },
+  "Mini-Batch Gradient Descent": { "quote": "θ ← θ - η∇θJ(θ; batch_i) for each batch in epoch." },
+  "Epoch vs. Batch": { "quote": "Batch: Subset of data. Epoch: Full pass. Batch updates accumulate to epoch completion." },
+  "Epoch History": { "quote": "Logging loss/accuracy per epoch → visualization of learning curves (TensorBoard)." },
+  "Data Shuffling": { "quote": "Shuffle batches each epoch to avoid order bias: np.random.shuffle(X_train)." },
+  "Epoch Tracking": { "quote": "Keras callback: History.epoch stores epoch index during training." },
+  "Cross-Validation": { "quote": "Epochs repeated across folds: Train on k-1 folds, validate on 1 fold per epoch." },
+  "Early Stopping": { "quote": "Stop training when val_loss plateaus: patience=5 epochs (e.g., in PyTorch)." },
+  "Epoch Scheduling": { "quote": "Cyclical learning rates: η oscillates between bounds every n epochs (Smith, 2015)." },
+  "Distributed Training": { "quote": "Epoch parallelism: Data sharded across GPUs, gradients synced per epoch step." },
+  "Epoch in Frameworks": { "quote": "TensorFlow: model.fit(epochs=50); PyTorch: for epoch in range(50): ..." },
+  "Epoch Visualization": { "quote": "Plot epoch vs. loss: diagnose underfitting (high loss) or overfitting (divergence)." },
+  "Infinite Data": { "quote": "Streaming data (e.g., RL): epochs ≈ fixed training intervals, not full passes." }
+}

@@ -1,0 +1,593 @@
+[
+  {
+    "id": "subj_meta_knowledge_landscape_001",
+    "title": "Subjects",
+    "description": "A meta-exploration of major fields of study and human inquiry, providing a map to diverse domains of knowledge.",
+    "sections": [
+      {
+        "heading": "Philosophy",
+        "topic_summary": "Fundamental nature of reality.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_philosophy",
+            "summary": "The study of fundamental questions about existence, knowledge, values, reason, mind, and language; often approached through critical reasoning and argumentation."
+          }
+        ]
+      },
+      {
+        "heading": "Logic",
+        "topic_summary": "Principles of valid reasoning.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_logic",
+            "summary": "The systematic study of the principles of valid inference and correct reasoning, forming a basis for rational thought and argumentation."
+          }
+        ]
+      },
+      {
+        "heading": "Mathematics",
+        "topic_summary": "Study of numbers, structure.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_mathematics",
+            "summary": "The abstract science of number, quantity, space, structure, and change, using logical reasoning and symbolic notation."
+          }
+        ]
+      },
+      {
+        "heading": "Computer Science",
+        "topic_summary": "Computation, information, automation.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_computer_science",
+            "summary": "The study of computation, algorithms, information processing, and the design of hardware and software systems."
+          }
+        ]
+      },
+      {
+        "heading": "Artificial Intelligence",
+        "topic_summary": "Creating intelligent agents.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_ai",
+            "summary": "A branch of computer science focused on creating systems capable of performing tasks that typically require human intelligence."
+          }
+        ]
+      },
+      {
+        "heading": "Physics",
+        "topic_summary": "Matter, energy, fundamental forces.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_physics",
+            "summary": "The natural science that studies matter, its motion and behavior through space and time, and the related entities of energy and force."
+          }
+        ]
+      },
+      {
+        "heading": "Chemistry",
+        "topic_summary": "Properties, composition of matter.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_chemistry",
+            "summary": "The scientific discipline involved with elements and compounds composed of atoms, molecules, and ions: their composition, structure, properties, behavior, and the changes they undergo."
+          }
+        ]
+      },
+      {
+        "heading": "Astronomy",
+        "topic_summary": "Celestial objects and phenomena.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_astronomy",
+            "summary": "The natural science that studies celestial objects (such as stars, planets, comets, nebulae, star clusters and galaxies) and phenomena originating outside Earth's atmosphere."
+          }
+        ]
+      },
+      {
+        "heading": "Cosmology",
+        "topic_summary": "Origin, evolution of universe.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_cosmology",
+            "summary": "The study of the origin, evolution, and eventual fate of the universe, combining astronomy, physics, and philosophy."
+          }
+        ]
+      },
+      {
+        "heading": "Earth Sciences",
+        "topic_summary": "Planet Earth's physical constitution.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_earth_sciences",
+            "summary": "Encompasses all sciences related to the planet Earth, including geology, geophysics, hydrology, meteorology, oceanography, and soil science."
+          }
+        ]
+      },
+      {
+        "heading": "Biology",
+        "topic_summary": "Study of life, organisms.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_biology",
+            "summary": "The natural science that studies life and living organisms, including their physical structure, chemical processes, molecular interactions, physiological mechanisms, development, and evolution."
+          }
+        ]
+      },
+      {
+        "heading": "Ecology",
+        "topic_summary": "Organisms and their environment.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_ecology",
+            "summary": "The branch of biology that deals with the relations of organisms to one another and to their physical surroundings."
+          }
+        ]
+      },
+      {
+        "heading": "Neuroscience",
+        "topic_summary": "Study of nervous system.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_neuroscience",
+            "summary": "The scientific study of the nervous system, including the brain, spinal cord, and peripheral nerves, and its role in behavior and cognition."
+          }
+        ]
+      },
+      {
+        "heading": "Medicine",
+        "topic_summary": "Health, disease, treatment.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_medicine",
+            "summary": "The science and practice of the diagnosis, treatment, and prevention of disease, aiming to maintain and restore human health."
+          }
+        ]
+      },
+      {
+        "heading": "Psychology",
+        "topic_summary": "Mind, behavior, mental processes.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_psychology",
+            "summary": "The scientific study of mind and behavior, including conscious and unconscious phenomena, as well as feeling and thought."
+          }
+        ]
+      },
+      {
+        "heading": "Psychotherapy",
+        "topic_summary": "Mental health treatment methods.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_psychotherapy",
+            "summary": "The use of psychological methods, particularly when based on regular personal interaction, to help a person change behavior and overcome problems in desired ways."
+          }
+        ]
+      },
+      {
+        "heading": "Sociology",
+        "topic_summary": "Society, social behavior, structure.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_sociology",
+            "summary": "The study of social life, social change, and the social causes and consequences of human behavior, investigating the structure of groups, organizations, and societies."
+          }
+        ]
+      },
+      {
+        "heading": "Anthropology",
+        "topic_summary": "Human societies, cultures, development.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_anthropology",
+            "summary": "The scientific study of humanity, concerned with human behavior, human biology, cultures, societies, and linguistics, in both the present and past, including past human species."
+          }
+        ]
+      },
+      {
+        "heading": "Economics",
+        "topic_summary": "Production, distribution, consumption.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_economics",
+            "summary": "The social science that studies the production, distribution, and consumption of goods and services, and how individuals, businesses, governments, and societies make decisions about allocating resources."
+          }
+        ]
+      },
+      {
+        "heading": "Political Science",
+        "topic_summary": "Governance, power, political behavior.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_political_science",
+            "summary": "The social science that deals with systems of governance and power, and the analysis of political activities, political thought, associated constitutions and political behavior."
+          }
+        ]
+      },
+      {
+        "heading": "History",
+        "topic_summary": "Study of the past.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_history",
+            "summary": "The study of past events, particularly in human affairs, through the interpretation of historical sources and narratives."
+          }
+        ]
+      },
+      {
+        "heading": "Geography",
+        "topic_summary": "Earth's lands, features, inhabitants.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_geography",
+            "summary": "The study of places and the relationships between people and their environments, exploring both the physical properties of Earth's surface and the human societies spread across it."
+          }
+        ]
+      },
+      {
+        "heading": "Literature",
+        "topic_summary": "Written works of art.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_literature",
+            "summary": "Written works, especially those considered of superior or lasting artistic merit, including poetry, drama, fiction, and non-fiction."
+          }
+        ]
+      },
+      {
+        "heading": "Languages",
+        "topic_summary": "Systems of communication.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_languages",
+            "summary": "The study of specific human languages, their structure, history, and use in communication."
+          }
+        ]
+      },
+      {
+        "heading": "Linguistics",
+        "topic_summary": "Scientific study of language.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_linguistics",
+            "summary": "The scientific study of language and its structure, including the study of grammar, syntax, phonetics, and semantics."
+          }
+        ]
+      },
+      {
+        "heading": "Art History",
+        "topic_summary": "History of visual arts.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "meta_subj_art_history",
+            "summary": "The academic study of the history and development of the visual arts, including painting, sculpture, architecture, and other art forms."
+          }
+        ]
+      },
+      {
+        "heading": "Musicology",
+        "topic_summary": "Scholarly study of music.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "meta_subj_musicology",
+            "summary": "The scholarly study of music, encompassing historical musicology, ethnomusicology, and music theory."
+          }
+        ]
+      },
+      {
+        "heading": "Religious Studies",
+        "topic_summary": "Beliefs, practices, institutions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "meta_subj_religious_studies",
+            "summary": "The academic field devoted to research into religious beliefs, behaviors, and institutions, describing, comparing, interpreting, and explaining religion."
+          }
+        ]
+      },
+      {
+        "heading": "Mythology",
+        "topic_summary": "Study of myths, legends.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "meta_subj_mythology",
+            "summary": "The study of myths, which are traditional stories, especially ones concerning the early history of a people or explaining some natural or social phenomenon, typically involving supernatural beings or events."
+          }
+        ]
+      },
+      {
+        "heading": "Engineering",
+        "topic_summary": "Design, building, practical application.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_engineering",
+            "summary": "The branch of science and technology concerned with the design, building, and use of engines, machines, and structures, applying scientific and mathematical principles."
+          }
+        ]
+      },
+      {
+        "heading": "Architecture",
+        "topic_summary": "Designing and constructing buildings.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_architecture",
+            "summary": "The art and science of designing and constructing buildings and other physical structures, encompassing aesthetic, functional, and technical considerations."
+          }
+        ]
+      },
+      {
+        "heading": "Law",
+        "topic_summary": "System of rules, justice.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_law",
+            "summary": "The system of rules that a particular country or community recognizes as regulating the actions of its members and may enforce by the imposition of penalties."
+          }
+        ]
+      },
+      {
+        "heading": "Business & Management",
+        "topic_summary": "Organizing commercial activities.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_business",
+            "summary": "The study of organizing, planning, leading, and controlling resources (human, financial, material) to achieve organizational goals in commercial enterprises."
+          }
+        ]
+      },
+      {
+        "heading": "Education (Discipline)",
+        "topic_summary": "Study of teaching, learning.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_education_discipline",
+            "summary": "The academic discipline that focuses on the theory and practice of teaching and learning, curriculum development, educational psychology, and policy."
+          }
+        ]
+      },
+      {
+        "heading": "Journalism & Media",
+        "topic_summary": "Gathering, disseminating news.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_journalism",
+            "summary": "The activity or profession of writing for newspapers, magazines, or news websites or preparing news to be broadcast, encompassing various media forms."
+          }
+        ]
+      },
+      {
+        "heading": "Design (General)",
+        "topic_summary": "Creating functional, aesthetic solutions.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_design_general",
+            "summary": "The process of envisioning and planning the creation of objects, interactive systems, buildings, vehicles, etc. It's user-centered and iterative."
+          }
+        ]
+      },
+      {
+        "heading": "Game Design",
+        "topic_summary": "Crafting interactive play systems.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_game_design",
+            "summary": "The art and science of applying design and aesthetics to create a game for entertainment or for educational, exercise, or experimental purposes."
+          }
+        ]
+      },
+      {
+        "heading": "Game Development",
+        "topic_summary": "Process of creating games.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_game_development",
+            "summary": "The multidisciplinary process of creating video games, involving design, programming, art, audio, testing, and project management."
+          }
+        ]
+      },
+      {
+        "heading": "Game Analysis",
+        "topic_summary": "Critically studying game elements.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_game_analysis",
+            "summary": "The systematic deconstruction and critical evaluation of games to understand their design choices, mechanics, player experience, and cultural impact."
+          }
+        ]
+      },
+      {
+        "heading": "Fine Arts",
+        "topic_summary": "Painting, sculpture, visual arts.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_fine_arts",
+            "summary": "Creative art, especially visual art, whose products are to be appreciated primarily or solely for their imaginative, aesthetic, or intellectual content."
+          }
+        ]
+      },
+      {
+        "heading": "Performing Arts",
+        "topic_summary": "Theatre, dance, music performance.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_performing_arts",
+            "summary": "Forms of art in which artists use their voices, bodies or inanimate objects to convey artistic expression, including drama, music, dance, and opera."
+          }
+        ]
+      },
+      {
+        "heading": "Culinary Arts",
+        "topic_summary": "Art of food preparation.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_culinary_arts",
+            "summary": "The art of preparing, cooking, presenting, and serving food, often in the form of meals."
+          }
+        ]
+      },
+      {
+        "heading": "Agriculture",
+        "topic_summary": "Cultivating plants and livestock.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_agriculture",
+            "summary": "The science, art, or practice of cultivating the soil, producing crops, and raising livestock and in varying degrees the preparation and marketing of the resulting products."
+          }
+        ]
+      },
+      {
+        "heading": "Environmental Science",
+        "topic_summary": "Interactions in natural world.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_env_science",
+            "summary": "An interdisciplinary academic field that integrates physical, biological and information sciences to the study of the environment, and the solution of environmental problems."
+          }
+        ]
+      },
+      {
+        "heading": "Contemplative Studies",
+        "topic_summary": "Practices for inner awareness.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_contemplative_studies",
+            "summary": "The study and practice of contemplative techniques (e.g., meditation, mindfulness) and their effects on consciousness, well-being, and understanding."
+          }
+        ]
+      },
+      {
+        "heading": "Esoteric Traditions",
+        "topic_summary": "Hidden or inner knowledge.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_esoteric_traditions",
+            "summary": "Systems of thought and practice characterized by hidden or secret knowledge, often involving mysticism, symbolism, and initiatory paths (e.g., Alchemy, Hermeticism)."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Theory",
+        "topic_summary": "Wilber's meta-framework.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_integral_theory",
+            "summary": "A comprehensive philosophical framework developed by Ken Wilber that seeks to integrate insights from all major fields of human knowledge and experience using models like AQAL."
+          }
+        ]
+      },
+      {
+        "heading": "Systems Theory",
+        "topic_summary": "Interconnected, interdependent parts.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_systems_theory",
+            "summary": "The interdisciplinary study of systems in general, with the goal of discovering patterns and elucidating principles that can be discerned from, and applied to, all types of systems at all nesting levels."
+          }
+        ]
+      },
+      {
+        "heading": "Complexity Science",
+        "topic_summary": "Behavior of complex systems.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_complexity_science",
+            "summary": "The study of complex adaptive systems, which are characterized by a large number of interacting components whose aggregate behavior is difficult to predict from the components themselves."
+          }
+        ]
+      },
+      {
+        "heading": "Futures Studies",
+        "topic_summary": "Systematic study of futures.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_futures_studies",
+            "summary": "The systematic study of possible, probable, and preferable futures, including the worldviews and myths that underlie them."
+          }
+        ]
+      },
+      {
+        "heading": "Ethics",
+        "topic_summary": "Moral principles, conduct.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_ethics",
+            "summary": "A branch of philosophy that involves systematizing, defending, and recommending concepts of right and wrong conduct, often addressing moral dilemmas."
+          }
+        ]
+      },
+      {
+        "heading": "Communication Studies",
+        "topic_summary": "Human message exchange.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_communication_studies",
+            "summary": "An academic field that deals with processes of human communication and behavior, patterns of communication in interpersonal relationships, social groups, and cultures."
+          }
+        ]
+      },
+      {
+        "heading": "Information Science",
+        "topic_summary": "Analysis, collection, storage of info.",
+        "paragraphs": [
+          {
+            "type": "subject_area_definition",
+            "id": "meta_subj_information_science",
+            "summary": "An interdisciplinary field primarily concerned with the analysis, collection, classification, manipulation, storage, retrieval, movement, dissemination, and protection of information."
+          }
+        ]
+      }
+    ]
+  }
+]
+

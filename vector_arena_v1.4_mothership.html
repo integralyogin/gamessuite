@@ -1,0 +1,2133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vector Arena: Enhanced Career Mode v1.5 - MOTHERSHIP</title>
+    <style>
+        :root {
+            --p1-color: #00aaff;
+            --p2-color: #ff4400;
+            --text-color: #eee;
+            --bg-color: #000;
+            --main-font: 'Courier New', Courier, monospace;
+            --legendary-color: #ff6600;
+            --epic-color: #9966ff;
+            --rare-color: #0099ff;
+            --uncommon-color: #00ff00;
+            --common-color: #ffffff;
+            --omega-color: #ff00ff; /* New Omega Tier Color */
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--main-font);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        canvas {
+            background-color: #0c0c0c;
+            border: 2px solid #444;
+            display: none;
+        }
+        #main-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .screen {
+            background: rgba(10, 10, 10, 0.9);
+            border: 2px solid #555;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            display: none;
+            width: 80%;
+            max-width: 1200px;
+            box-sizing: border-box;
+        }
+        /* --- Hangar & Shop Styles --- */
+        #hangar-screen {
+            display: flex;
+            flex-direction: row;
+        }
+        .ship-display, .hangar-options {
+            flex: 1;
+            padding: 20px;
+        }
+        .ship-display h2 {
+            color: var(--p1-color);
+            font-size: 2em;
+        }
+        .ship-display canvas {
+            display: block;
+            background-color: #1a1a1a;
+            border: 1px solid #444;
+            margin: 15px auto;
+        }
+        #ship-stats p {
+            margin: 5px 0;
+            text-align: left;
+        }
+        .hangar-options button {
+            display: block;
+            width: 100%;
+            font-size: 1.5em;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: #333;
+            color: #fff;
+            border: 2px solid #777;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .hangar-options button:hover { background-color: #555; }
+        
+        #parts-shop-screen .parts-list, #arena-screen .opponent-list, #upgrade-shop-screen .parts-list {
+            max-height: 70vh;
+            overflow-y: auto;
+            text-align: left;
+        }
+        .part-item {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 10px;
+            padding: 10px;
+            border: 1px solid #444;
+            margin-bottom: 5px;
+            background-color: #222;
+        }
+        .part-item.rarity-legendary { border-left: 5px solid var(--legendary-color); }
+        .part-item.rarity-epic { border-left: 5px solid var(--epic-color); }
+        .part-item.rarity-rare { border-left: 5px solid var(--rare-color); }
+        .part-item.rarity-uncommon { border-left: 5px solid var(--uncommon-color); }
+        .part-item.rarity-common { border-left: 5px solid var(--common-color); }
+        .part-item.rarity-omega { border-left: 5px solid var(--omega-color); } /* Omega Rarity Style */
+        .part-info p {
+            margin: 2px 0;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+        .part-info .stats {
+            margin-top: 5px;
+            color: #0f0;
+        }
+        .part-actions {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
+        }
+        .part-item.equipped { border-right: 5px solid var(--p1-color); }
+        .part-item.owned { background-color: #2a3a2a; }
+        .part-actions button { font-size: 1em; padding: 5px 10px; cursor:pointer; width: 100%;}
+
+        
+        /* --- Arena Styles --- */
+        #arena-screen .opponent-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            width: 100%;
+        }
+        .opponent-card {
+            border: 2px solid #444;
+            padding: 15px;
+            background: #222;
+        }
+        .opponent-card.locked { opacity: 0.5; background: #111; }
+        .opponent-card canvas { display: block; margin: 10px auto; background-color:#111; }
+        .opponent-card button { width: 100%; padding: 10px; font-size: 1em; cursor: pointer; }
+        .opponent-card button:disabled { background: #555; cursor: not-allowed; }
+
+        /* --- HUD & Battle Styles --- */
+        .hud {
+            position: absolute;
+            width: 90%;
+            max-width: 1400px;
+            top: 20px;
+            display: none;
+            justify-content: space-between;
+            pointer-events: none;
+        }
+        .player-hud { width: 40%; }
+        .player-hud label { font-size: 16px; }
+        .bar-container { width: 100%; height: 15px; background-color: #333; border: 1px solid #555; margin-top: 5px; }
+        .bar { height: 100%; transition: width 0.3s ease; }
+        #player1-health-bar { background-color: var(--p1-color); width: 100%; }
+        #player1-energy-bar { background-color: #ff0; width: 100%; }
+        #player1-shield-bar { background-color: #00ffff; width: 0%; }
+        #player2-health-bar { background-color: var(--p2-color); width: 100%; }
+        #player2-energy-bar { background-color: #ff0; width: 100%; }
+        #player2-shield-bar { background-color: #00ffff; width: 0%; }
+        
+        /* --- Controls Display --- */
+        .controls {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #555;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            pointer-events: none;
+            display: none;
+        }
+
+        /* --- Drone Counter --- */
+        .drone-counter {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #555;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            pointer-events: none;
+            display: none;
+            color: #00ff00;
+        }
+        
+        #end-screen h1 { font-size: 60px; }
+        #end-screen button { font-size: 1.2em; padding: 10px 20px; margin: 10px; cursor: pointer; }
+        
+        .loot-notification {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.9);
+            border: 2px solid #00ff00;
+            padding: 20px;
+            border-radius: 10px;
+            z-index: 1000;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="main-container">
+    
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="hangar-screen" class="screen">
+        <div class="ship-display">
+            <h2 id="player-credits">Credits: 1000</h2>
+            <canvas id="hangar-preview" width="300" height="300"></canvas>
+            <div id="ship-stats"></div>
+        </div>
+        <div class="hangar-options">
+            <button onclick="showScreen('arena')">Go to Arena</button>
+            <button onclick="showScreen('parts-shop')">Parts Shop</button>
+            <button onclick="showScreen('upgrade-shop')">Upgrade Shop</button>
+            <button onclick="confirmReset()">Reset Career</button>
+        </div>
+    </div>
+    
+    <div id="parts-shop-screen" class="screen">
+        <h2>Parts Shop</h2>
+        <div class="parts-list" id="parts-list"></div>
+        <button onclick="showScreen('hangar')" style="margin-top: 20px;">Back to Hangar</button>
+    </div>
+
+    <div id="upgrade-shop-screen" class="screen">
+        <h2>Upgrade Shop</h2>
+        <p>Enhance your equipped parts with permanent upgrades!</p>
+        <div class="parts-list" id="upgrade-list"></div>
+        <button onclick="showScreen('hangar')" style="margin-top: 20px;">Back to Hangar</button>
+    </div>
+
+    <div id="arena-screen" class="screen">
+        <h2>Arena</h2>
+        <div class="opponent-list" id="opponent-list"></div>
+        <button onclick="showScreen('hangar')" style="margin-top: 20px;">Back to Hangar</button>
+    </div>
+
+    <div class="hud" id="game-hud">
+        <div class="player-hud">
+            <label>Player</label>
+            <div class="bar-container"><div id="player1-health-bar" class="bar"></div></div>
+            <div class="bar-container"><div id="player1-energy-bar" class="bar"></div></div>
+            <div class="bar-container"><div id="player1-shield-bar" class="bar"></div></div>
+        </div>
+        <div class="player-hud" style="text-align: right;">
+            <label id="p2-label">Opponent</label>
+            <div class="bar-container"><div id="player2-health-bar" class="bar"></div></div>
+            <div class="bar-container"><div id="player2-energy-bar" class="bar"></div></div>
+            <div class="bar-container"><div id="player2-shield-bar" class="bar"></div></div>
+        </div>
+    </div>
+
+    <div class="controls" id="game-controls">
+        <strong>CONTROLS:</strong><br>
+        WASD/Arrows: Move & Turn<br>
+        Space: Fire Weapon<br>
+        Shift: Use Special<br>
+        Q: Deploy Drone<br>
+        ESC: Return to Hangar
+    </div>
+
+    <div class="drone-counter" id="drone-counter">
+        <strong>DRONES:</strong><br>
+        <span id="drone-count">0/0</span><br>
+        <span id="drone-cooldown"></span>
+    </div>
+
+    <div id="end-screen" class="screen">
+        <h1 id="winner-text">YOU WIN</h1>
+        <p id="reward-text"></p>
+        <div id="loot-display"></div>
+        <button id="continue-button">Continue</button>
+    </div>
+
+    <div id="loot-notification" class="loot-notification">
+        <h3>New Part Found!</h3>
+        <div id="loot-content"></div>
+        <button onclick="closeLootNotification()">Continue</button>
+    </div>
+
+</div>
+
+<script>
+// --- CORE GAME SCRIPT ---
+const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d');
+const FPS = 60;
+let gameLoop, player1, player2, projectiles = [], particles = [], drones = [], keys = {}, currentOpponent;
+
+// --- ENHANCED DATA: Parts and Opponents ---
+const PARTS = {
+    chassis: {
+        // Basic Chassis - BALANCED STATS
+        interceptor: { name: 'Interceptor', desc: 'A light, agile frame.', cost: 0, health: 100, energy: 100, size: 15, thrust: 0.6, turn: 20, art: 'interceptor', rarity: 'common' },
+        juggernaut: { name: 'Juggernaut', desc: 'Heavy and tough, but slow.', cost: 500, health: 150, energy: 80, size: 20, thrust: 0.4, turn: 13, art: 'juggernaut', rarity: 'common'},
+        striker: { name: 'Striker', desc: 'A balanced combat frame.', cost: 1200, health: 120, energy: 120, size: 17, thrust: 0.7, turn: 22, art: 'interceptor', rarity: 'uncommon' },
+        wraith: { name: 'Wraith', desc: 'Fragile but has high energy capacity.', cost: 2500, health: 80, energy: 150, size: 14, thrust: 0.8, turn: 25, art: 'interceptor', rarity: 'uncommon' },
+        
+        // Advanced Chassis
+        phantom: { name: 'Phantom', desc: 'Stealth-capable lightweight frame.', cost: 4000, health: 90, energy: 140, size: 13, thrust: 0.9, turn: 27, art: 'interceptor', rarity: 'rare', stealth: true },
+        destroyer: { name: 'Destroyer', desc: 'Massive weapons platform.', cost: 6000, health: 200, energy: 90, size: 25, thrust: 0.3, turn: 10, art: 'juggernaut', rarity: 'rare', weaponSlots: 2 },
+        vanguard: { name: 'Vanguard', desc: 'Elite military frame with shields.', cost: 8000, health: 140, energy: 130, size: 18, thrust: 0.6, turn: 20, art: 'interceptor', rarity: 'epic', shieldCapacity: 50 },
+        
+        // Legendary Chassis
+        nemesis: { name: 'Nemesis', desc: 'Experimental prototype with adaptive systems.', cost: 15000, health: 160, energy: 180, size: 16, thrust: 1.0, turn: 30, art: 'interceptor', rarity: 'legendary', adaptive: true },
+        leviathan: { name: 'Leviathan', desc: 'Colossal dreadnought frame with massive drone capacity.', cost: 20000, health: 300, energy: 120, size: 30, thrust: 0.2, turn: 7, art: 'juggernaut', rarity: 'legendary', weaponSlots: 3, maxDrones: 8 },
+
+        // Omega Chassis - NEW TIER
+        apocalypse: { name: 'Apocalypse', desc: 'A harbinger of destruction, bristling with weapons.', cost: 50000, health: 400, energy: 200, size: 35, thrust: 0.5, turn: 10, art: 'juggernaut', rarity: 'omega', weaponSlots: 4, maxDrones: 10, specialAbility: 'annihilation_beam' },
+        chronos: { name: 'Chronos', desc: 'Manipulates time itself, a fleeting phantom.', cost: 60000, health: 250, energy: 300, size: 20, thrust: 1.2, turn: 35, art: 'interceptor', rarity: 'omega', specialAbility: 'temporal_stasis', phaseShift: true },
+
+        // MOTHERSHIP CHASSIS - NEW
+        mothership_frame: { name: 'Mothership Frame', desc: 'A colossal, world-ending vessel.', cost: 999999, health: 3500, energy: 1000, size: 150, thrust: 0.1, turn: 2, art: 'mothership', rarity: 'omega', weaponSlots: 6, maxDrones: 20, specialAbility: 'final_salvo' }
+    },
+    
+    engine: {
+        // Basic Engines - BALANCED MULTIPLIERS
+        standard: { name: 'Standard', desc: 'Basic forward and reverse.', cost: 0, thrust: 1.0, reverse: 0.3, rarity: 'common' },
+        tuned: { name: 'Tuned', desc: 'Improved forward thrust.', cost: 400, thrust: 1.2, reverse: 0.4, rarity: 'common' },
+        ion: { name: 'Ion Drive', desc: 'Excellent reverse capability.', cost: 800, thrust: 0.9, reverse: 0.8, rarity: 'uncommon' },
+        overdrive: { name: 'Overdrive', desc: 'Maximum forward power.', cost: 1000, thrust: 1.5, reverse: 0.5, rarity: 'uncommon' },
+        
+        // Advanced Engines
+        vector: { name: 'Vector Drive', desc: 'Omnidirectional thrust capability.', cost: 2500, thrust: 1.1, reverse: 0.7, strafe: 0.6, rarity: 'rare' },
+        quantum: { name: 'Quantum Engine', desc: 'Instantaneous acceleration.', cost: 4000, thrust: 1.3, reverse: 0.6, instant: true, rarity: 'rare' },
+        warp: { name: 'Warp Drive', desc: 'Short-range teleportation bursts.', cost: 8000, thrust: 1.0, reverse: 0.4, warpBurst: true, rarity: 'epic' },
+        
+        // Legendary Engines
+        singularity: { name: 'Singularity Core', desc: 'Gravity-defying propulsion.', cost: 15000, thrust: 2.0, reverse: 1.0, strafe: 1.0, gravityWell: true, rarity: 'legendary' },
+
+        // Omega Engines
+        hyperdrive: { name: 'Hyperdrive', desc: 'Bends space for unmatched speed.', cost: 30000, thrust: 2.5, reverse: 1.2, strafe: 1.5, hyperJump: true, rarity: 'omega' }
+    },
+    
+    weapon: {
+        // Basic Weapons - FIXED DAMAGE VALUES
+        pulse: { name: 'Pulse Laser', desc: 'Standard single shot.', cost: 0, type: 'pulse', damage: 15, cooldown: 30, rarity: 'common' },
+        spread: { name: 'Spread Shot', desc: 'Fires three projectiles.', cost: 600, type: 'spread', damage: 12, cooldown: 50, rarity: 'common' },
+        beam: { name: 'Beam Laser', desc: 'A continuous damage beam.', cost: 1200, type: 'beam', damage: 3, cooldown: 0, energyCost: 1.5, rarity: 'uncommon' },
+        missile: { name: 'Homing Missile', desc: 'Seeks the nearest target.', cost: 1500, type: 'missile', damage: 30, cooldown: 70, rarity: 'uncommon' },
+        
+        // Advanced Weapons
+        railgun: { name: 'Railgun', desc: 'High-velocity piercing shot.', cost: 3000, type: 'railgun', damage: 45, cooldown: 90, piercing: true, rarity: 'rare' },
+        plasma: { name: 'Plasma Cannon', desc: 'Area damage explosive rounds.', cost: 3500, type: 'plasma', damage: 25, cooldown: 60, splash: 30, rarity: 'rare' },
+        laser_array: { name: 'Laser Array', desc: 'Multiple synchronized beams.', cost: 5000, type: 'laser_array', damage: 4, cooldown: 0, energyCost: 2.5, beams: 3, rarity: 'epic' },
+        swarm: { name: 'Swarm Missiles', desc: 'Launches multiple seeking projectiles.', cost: 6000, type: 'swarm', damage: 18, cooldown: 120, missiles: 5, rarity: 'epic' },
+        
+        // Legendary Weapons - FIXED HIGH DAMAGE
+        antimatter: { name: 'Antimatter Cannon', desc: 'Devastating energy weapon.', cost: 12000, type: 'antimatter', damage: 80, cooldown: 150, energyCost: 40, rarity: 'legendary' },
+        nova: { name: 'Nova Burst', desc: 'Chain reaction explosive.', cost: 15000, type: 'nova', damage: 60, cooldown: 180, chain: true, rarity: 'legendary' },
+
+        // Crazier Weapons - FIXED
+        shredder: { name: 'Shredder Minigun', desc: 'Rapid-fire kinetic weapon.', cost: 4500, type: 'shredder', damage: 6, cooldown: 5, projectiles: 1, spread: 0.2, rarity: 'rare' },
+        disruptor: { name: 'Disruptor Ray', desc: 'Temporarily disables enemy shields.', cost: 7000, type: 'disruptor', damage: 8, cooldown: 100, shieldDrain: 50, rarity: 'epic' },
+        singularity_cannon: { name: 'Singularity Cannon', desc: 'Creates a micro black hole.', cost: 18000, type: 'singularity_cannon', damage: 5, cooldown: 200, pull: true, duration: 300, rarity: 'legendary' },
+
+        // Omega Weapons
+        world_ender: { name: 'World Ender', desc: 'A beam that erases matter from existence.', cost: 40000, type: 'world_ender', damage: 150, cooldown: 250, energyCost: 80, rarity: 'omega', special: 'matter_erasure' },
+        reality_cutter: { name: 'Reality Cutter', desc: 'Slices through dimensions, ignoring defenses.', cost: 45000, type: 'reality_cutter', damage: 100, cooldown: 180, energyCost: 60, rarity: 'omega', special: 'dimensional_slice' }
+    },
+    
+    special: {
+        // Basic Specials - WORKING IMPLEMENTATIONS
+        shield: { name: 'Shield', desc: 'Temporary invulnerability.', cost: 0, type: 'shield', energy: 40, duration: 2000, cooldown: 300, rarity: 'common' },
+        boost: { name: 'Boost', desc: 'A short burst of speed.', cost: 300, type: 'boost', energy: 30, duration: 500, cooldown: 180, rarity: 'common' },
+        teleport: { name: 'Teleport', desc: 'A random short-range jump.', cost: 2000, type: 'teleport', energy: 60, cooldown: 400, rarity: 'uncommon' },
+        emp: { name: 'EMP Blast', desc: 'Disables opponent systems.', cost: 2500, type: 'emp', energy: 50, duration: 3000, cooldown: 500, rarity: 'uncommon' },
+        
+        // Advanced Specials
+        cloak: { name: 'Cloaking Device', desc: 'Become invisible to enemies.', cost: 4000, type: 'cloak', energy: 70, duration: 3000, cooldown: 600, rarity: 'rare' },
+        repair: { name: 'Nano Repair', desc: 'Gradually restore hull integrity.', cost: 3500, type: 'repair', energy: 80, healing: 50, cooldown: 450, rarity: 'rare' },
+        overcharge: { name: 'System Overcharge', desc: 'Boost all systems temporarily.', cost: 5000, type: 'overcharge', energy: 60, duration: 4000, cooldown: 700, rarity: 'epic' },
+        time_dilation: { name: 'Time Dilation', desc: 'Slow down time around you.', cost: 8000, type: 'time_dilation', energy: 100, duration: 2000, cooldown: 800, rarity: 'epic' },
+        
+        // Legendary Specials
+        phoenix: { name: 'Phoenix Protocol', desc: 'Resurrect with full health once per battle.', cost: 15000, type: 'phoenix', energy: 0, cooldown: 0, rarity: 'legendary' },
+        reality_rift: { name: 'Reality Rift', desc: 'Tear space-time for massive damage.', cost: 20000, type: 'reality_rift', energy: 150, damage: 100, cooldown: 1000, rarity: 'legendary' },
+
+        // Omega Specials
+        singularity_collapse: { name: 'Singularity Collapse', desc: 'Unleashes a devastating gravitational wave.', cost: 35000, type: 'singularity_collapse', energy: 200, damage: 200, cooldown: 1200, rarity: 'omega' },
+        temporal_rewind: { name: 'Temporal Rewind', desc: 'Reverts ship to a previous state.', cost: 40000, type: 'temporal_rewind', energy: 150, cooldown: 1500, rarity: 'omega' }
+    },
+    
+    // New Part Categories
+    armor: {
+        basic: { name: 'Basic Plating', desc: 'Standard hull reinforcement.', cost: 200, damageReduction: 0.1, weight: 5, rarity: 'common' },
+        reactive: { name: 'Reactive Armor', desc: 'Adapts to incoming damage types.', cost: 800, damageReduction: 0.15, adaptive: true, weight: 8, rarity: 'uncommon' },
+        ablative: { name: 'Ablative Coating', desc: 'Absorbs energy weapon damage.', cost: 1500, energyResist: 0.3, weight: 3, rarity: 'rare' },
+        quantum: { name: 'Quantum Mesh', desc: 'Phases through some attacks.', cost: 5000, phaseChance: 0.2, weight: 2, rarity: 'epic' },
+        void: { name: 'Void Armor', desc: 'Absorbs damage to fuel weapons.', cost: 12000, damageToEnergy: 0.5, weight: 10, rarity: 'legendary' },
+        // Omega Armor
+        neutronium: { name: 'Neutronium Plating', desc: 'Nearly indestructible armor.', cost: 30000, damageReduction: 0.5, weight: 20, rarity: 'omega' }
+    },
+    
+    reactor: {
+        fusion: { name: 'Fusion Core', desc: 'Standard energy generation.', cost: 500, energyRegen: 1.0, capacity: 1.0, rarity: 'common' },
+        antimatter_core: { name: 'Antimatter Core', desc: 'High-output energy source.', cost: 2000, energyRegen: 1.5, capacity: 1.2, rarity: 'uncommon' },
+        zero_point: { name: 'Zero Point Module', desc: 'Unlimited energy potential.', cost: 8000, energyRegen: 2.0, capacity: 1.5, overcharge: true, rarity: 'epic' },
+        stellar: { name: 'Stellar Forge', desc: 'Miniaturized star reactor.', cost: 15000, energyRegen: 3.0, capacity: 2.0, stellar: true, rarity: 'legendary' },
+        // Omega Reactor
+        dark_energy: { name: 'Dark Energy Siphon', desc: 'Draws power from the void itself.', cost: 32000, energyRegen: 5.0, capacity: 3.0, rarity: 'omega' }
+    },
+    
+    computer: {
+        basic: { name: 'Basic AI', desc: 'Standard targeting assistance.', cost: 300, accuracy: 1.1, rarity: 'common' },
+        tactical: { name: 'Tactical Computer', desc: 'Advanced combat algorithms.', cost: 1200, accuracy: 1.25, prediction: true, rarity: 'uncommon' },
+        quantum_ai: { name: 'Quantum AI', desc: 'Predictive combat intelligence.', cost: 4000, accuracy: 1.5, autoTarget: true, rarity: 'rare' },
+        sentient: { name: 'Sentient Core', desc: 'Self-aware combat AI.', cost: 10000, accuracy: 2.0, adaptive: true, learning: true, rarity: 'epic' },
+        omniscient: { name: 'Omniscient Matrix', desc: 'Knows all possible outcomes.', cost: 20000, accuracy: 3.0, precognition: true, rarity: 'legendary' },
+        // Omega Computer
+        cosmic_mind: { name: 'Cosmic Mind', desc: 'AI with near-perfect prediction and adaptation.', cost: 38000, accuracy: 5.0, precognition: true, adaptive: true, learning: true, rarity: 'omega' }
+    },
+
+    // IMPROVED Drone Bays - FIXED MULTI-DEPLOYMENT
+    drone_bay: {
+        scout_drone: { name: 'Scout Drone Bay', desc: 'Deploys fast recon drones.', cost: 3000, type: 'scout', droneCount: 2, droneHealth: 25, droneDamage: 8, droneSpeed: 4, rarity: 'rare' },
+        combat_drone: { name: 'Combat Drone Bay', desc: 'Deploys aggressive attack drones.', cost: 7000, type: 'combat', droneCount: 3, droneHealth: 35, droneDamage: 15, droneSpeed: 3, rarity: 'epic' },
+        guardian_drone: { name: 'Guardian Drone Bay', desc: 'Deploys defensive shield drones.', cost: 10000, type: 'guardian', droneCount: 2, droneHealth: 60, shieldDrone: true, droneSpeed: 2, rarity: 'legendary' },
+        swarm_drone: { name: 'Swarm Drone Bay', desc: 'Deploys multiple fast attack drones.', cost: 15000, type: 'swarm', droneCount: 6, droneHealth: 20, droneDamage: 10, droneSpeed: 5, rarity: 'legendary' },
+        // Omega Drone Bay
+        nanite_hive: { name: 'Nanite Hive', desc: 'Unleashes a cloud of self-replicating nanobots.', cost: 36000, type: 'nanite', droneCount: 12, droneHealth: 10, droneDamage: 5, droneSpeed: 6, rarity: 'omega', special: 'nanite_replication' }
+    },
+
+    thrusters: {
+        maneuvering: { name: 'Maneuvering Thrusters', desc: 'Improves strafing and rotation.', cost: 1500, strafeBonus: 0.2, turnBonus: 5, rarity: 'uncommon' },
+        afterburners: { name: 'Afterburners', desc: 'Temporary massive speed boost.', cost: 5000, boostMultiplier: 2.5, boostDuration: 300, rarity: 'rare' },
+        inertial_dampeners: { name: 'Inertial Dampeners', desc: 'Reduces drift and improves handling.', cost: 8000, driftReduction: 0.5, handlingBonus: 0.3, rarity: 'epic' },
+        // Omega Thrusters
+        phase_thrusters: { name: 'Phase Thrusters', desc: 'Allows brief phasing through obstacles.', cost: 28000, strafeBonus: 0.5, turnBonus: 10, phaseDash: true, rarity: 'omega' }
+    }
+};
+
+const OPPONENTS = [
+    // Basic Opponents
+    { name: 'Rookie', credits: 250, config: { chassis: 'interceptor', engine: 'standard', weapon: 'pulse', special: 'shield' }, lootTable: ['common'] },
+    { name: 'Juggernaut Pilot', credits: 600, config: { chassis: 'juggernaut', engine: 'standard', weapon: 'pulse', special: 'shield' }, lootTable: ['common'] },
+    { name: 'Ace Interceptor', credits: 1500, config: { chassis: 'striker', engine: 'tuned', weapon: 'spread', special: 'boost' }, lootTable: ['common', 'uncommon'] },
+    { name: 'Missile Master', credits: 3000, config: { chassis: 'juggernaut', engine: 'tuned', weapon: 'missile', special: 'shield' }, lootTable: ['uncommon', 'rare'] },
+    { name: 'Wraith Hunter', credits: 5000, config: { chassis: 'wraith', engine: 'overdrive', weapon: 'beam', special: 'teleport' }, lootTable: ['uncommon', 'rare'] },
+    
+    // Advanced Opponents
+    { name: 'Phantom Assassin', credits: 8000, config: { chassis: 'phantom', engine: 'vector', weapon: 'railgun', special: 'cloak' }, lootTable: ['rare', 'epic'] },
+    { name: 'Destroyer Captain', credits: 12000, config: { chassis: 'destroyer', engine: 'quantum', weapon: 'plasma', special: 'overcharge' }, lootTable: ['rare', 'epic'] },
+    { name: 'Vanguard Elite', credits: 18000, config: { chassis: 'vanguard', engine: 'warp', weapon: 'laser_array', special: 'time_dilation' }, lootTable: ['epic', 'legendary'] },
+    
+    // Boss Opponents
+    { name: 'The Nemesis', credits: 25000, config: { chassis: 'nemesis', engine: 'singularity', weapon: 'antimatter', special: 'phoenix' }, lootTable: ['legendary'], boss: true },
+    { name: 'Leviathan Prime', credits: 50000, config: { chassis: 'leviathan', engine: 'singularity', weapon: 'nova', special: 'reality_rift', drone_bay: 'swarm_drone' }, lootTable: ['legendary'], boss: true },
+
+    // ULTRA HARD BOSSES - NEW
+    {
+        name: 'Omega Sentinel',
+        credits: 100000,
+        config: {
+            chassis: 'apocalypse',
+            engine: 'hyperdrive',
+            weapon: 'world_ender', // Primary weapon
+            weapon2: 'reality_cutter', // Secondary weapon
+            special: 'singularity_collapse',
+            armor: 'neutronium',
+            reactor: 'dark_energy',
+            computer: 'cosmic_mind',
+            drone_bay: 'nanite_hive',
+            thrusters: 'phase_thrusters'
+        },
+        lootTable: ['omega'],
+        boss: true,
+        aiBehavior: 'aggressive_multi_weapon'
+    },
+    {
+        name: 'The Chronomaster',
+        credits: 150000,
+        config: {
+            chassis: 'chronos',
+            engine: 'hyperdrive',
+            weapon: 'reality_cutter',
+            special: 'temporal_rewind',
+            armor: 'quantum',
+            reactor: 'zero_point',
+            computer: 'omniscient',
+            drone_bay: 'guardian_drone',
+            thrusters: 'phase_thrusters'
+        },
+        lootTable: ['omega'],
+        boss: true,
+        aiBehavior: 'evasive_temporal'
+    },
+    {
+        name: 'The Void Titan',
+        credits: 200000,
+        config: {
+            chassis: 'apocalypse', // Using Apocalypse for its weapon slots
+            engine: 'singularity',
+            weapon: 'singularity_cannon', // Primary
+            weapon2: 'antimatter', // Secondary
+            weapon3: 'nova', // Tertiary
+            special: 'reality_rift',
+            armor: 'void',
+            reactor: 'stellar',
+            computer: 'sentient',
+            drone_bay: 'swarm_drone',
+            thrusters: 'inertial_dampeners'
+        },
+        lootTable: ['omega'],
+        boss: true,
+        aiBehavior: 'tank_overwhelm'
+    },
+    // MOTHERSHIP BOSS - NEW
+    {
+        name: 'The Celestial Mothership',
+        credits: 500000,
+        config: {
+            chassis: 'mothership_frame',
+            engine: 'singularity', // Slow but powerful
+            weapon: 'world_ender',
+            weapon2: 'reality_cutter',
+            weapon3: 'swarm',
+            weapon4: 'singularity_cannon',
+            weapon5: 'laser_array',
+            weapon6: 'shredder',
+            special: 'singularity_collapse',
+            armor: 'neutronium',
+            reactor: 'dark_energy',
+            computer: 'cosmic_mind',
+            drone_bay: 'nanite_hive',
+            thrusters: 'inertial_dampeners'
+        },
+        lootTable: ['omega', 'omega', 'omega'], // Guaranteed Omega loot
+        boss: true,
+        aiBehavior: 'mothership_siege'
+    }
+];
+
+// --- PLAYER DATA & PERSISTENCE ---
+let playerData = {};
+
+function loadData() {
+    const savedData = localStorage.getItem('vectorArenaCareerEnhanced');
+    if (savedData) {
+        playerData = JSON.parse(savedData);
+    } else {
+        resetCareer();
+    }
+}
+
+function saveData() {
+    localStorage.setItem('vectorArenaCareerEnhanced', JSON.stringify(playerData));
+}
+
+function confirmReset() {
+    if(confirm("Are you sure you want to sell all parts and start a new career? This cannot be undone.")) {
+        resetCareer();
+    }
+}
+
+function resetCareer() {
+    playerData = {
+        credits: 1000,
+        unlockedOpponents: 1,
+        equipped: { 
+            chassis: 'interceptor', 
+            engine: 'standard', 
+            weapon: 'pulse', 
+            special: 'shield',
+            armor: null,
+            reactor: null,
+            computer: null,
+            drone_bay: null,
+            thrusters: null
+        },
+        owned: {
+            chassis: ['interceptor'], 
+            engine: ['standard'], 
+            weapon: ['pulse'], 
+            special: ['shield'],
+            armor: [],
+            reactor: [],
+            computer: [],
+            drone_bay: [],
+            thrusters: []
+        },
+        upgrades: {}
+    };
+    saveData();
+    showScreen('hangar');
+}
+
+// --- LOOT SYSTEM ---
+function generateLoot(lootTable) {
+    const rarityWeights = {
+        'common': 50,
+        'uncommon': 25,
+        'rare': 15,
+        'epic': 8,
+        'legendary': 2,
+        'omega': 1 // Omega parts are very rare
+    };
+    
+    let availableRarities = lootTable;
+    let selectedRarity = weightedRandom(availableRarities.map(r => ({item: r, weight: rarityWeights[r]})));
+    
+    // Find all parts of the selected rarity
+    let availableParts = [];
+    for (let category in PARTS) {
+        for (let partId in PARTS[category]) {
+            let part = PARTS[category][partId];
+            if (part.rarity === selectedRarity && !playerData.owned[category].includes(partId)) {
+                availableParts.push({category, partId, part});
+            }
+        }
+    }
+    
+    if (availableParts.length > 0) {
+        let selected = availableParts[Math.floor(Math.random() * availableParts.length)];
+        return selected;
+    }
+    
+    return null;
+}
+
+function weightedRandom(items) {
+    let totalWeight = items.reduce((sum, item) => sum + item.weight, 0);
+    let random = Math.random() * totalWeight;
+    
+    for (let item of items) {
+        random -= item.weight;
+        if (random <= 0) {
+            return item.item;
+        }
+    }
+    
+    return items[items.length - 1].item;
+}
+
+function showLootNotification(loot) {
+    const notification = document.getElementById('loot-notification');
+    const content = document.getElementById('loot-content');
+    
+    content.innerHTML = `
+        <h4 class="rarity-${loot.part.rarity}">${loot.part.name}</h4>
+        <p>${loot.part.desc}</p>
+        <p class="stats">${getPartStatsHtml(loot.part)}</p>
+    `;
+    
+    notification.style.display = 'block';
+}
+
+function closeLootNotification() {
+    document.getElementById('loot-notification').style.display = 'none';
+}
+
+// --- UI MANAGEMENT ---
+function showScreen(screenId) {
+    document.querySelectorAll('.screen').forEach(s => s.style.display = 'none');
+    document.getElementById('gameCanvas').style.display = 'none';
+    document.getElementById('game-hud').style.display = 'none';
+    document.getElementById('game-controls').style.display = 'none';
+    document.getElementById('drone-counter').style.display = 'none';
+    
+    if (screenId === 'game') {
+        document.getElementById('gameCanvas').style.display = 'block';
+        document.getElementById('game-hud').style.display = 'flex';
+        document.getElementById('game-controls').style.display = 'block';
+        document.getElementById('drone-counter').style.display = 'block';
+    } else {
+        const screenToShow = document.getElementById(`${screenId}-screen`);
+        if (screenToShow) {
+            screenToShow.style.display = screenId === 'hangar' ? 'flex' : 'block';
+        }
+    }
+    
+    if (screenId === 'hangar') updateHangarUI();
+    if (screenId === 'parts-shop') populateShop();
+    if (screenId === 'upgrade-shop') populateUpgradeShop();
+    if (screenId === 'arena') populateArena();
+}
+
+function updateHangarUI() {
+    document.getElementById('player-credits').innerText = `Credits: ${playerData.credits}`;
+    const previewCanvas = document.getElementById('hangar-preview');
+    const previewCtx = previewCanvas.getContext('2d');
+    
+    const tempPlayer = new Ship(1, playerData.equipped, true); // Pass true for preview mode
+    tempPlayer.x = previewCanvas.width / 2;
+    tempPlayer.y = previewCanvas.height / 2;
+    previewCtx.clearRect(0, 0, previewCanvas.width, previewCanvas.height);
+    tempPlayer.draw(previewCtx);
+
+    const statsDiv = document.getElementById('ship-stats');
+    const chassis = PARTS.chassis[playerData.equipped.chassis];
+    const engine = PARTS.engine[playerData.equipped.engine];
+    const weapon = PARTS.weapon[playerData.equipped.weapon];
+    const special = PARTS.special[playerData.equipped.special];
+    
+    let armorText = playerData.equipped.armor ? PARTS.armor[playerData.equipped.armor].name : 'None';
+    let reactorText = playerData.equipped.reactor ? PARTS.reactor[playerData.equipped.reactor].name : 'None';
+    let computerText = playerData.equipped.computer ? PARTS.computer[playerData.equipped.computer].name : 'None';
+    let droneBayText = playerData.equipped.drone_bay ? PARTS.drone_bay[playerData.equipped.drone_bay].name : 'None';
+    let thrustersText = playerData.equipped.thrusters ? PARTS.thrusters[playerData.equipped.thrusters].name : 'None';
+    
+    // Calculate effective stats
+    let effectiveThrust = (chassis.thrust * engine.thrust).toFixed(2);
+    let effectiveTurn = chassis.turn + (playerData.equipped.thrusters && PARTS.thrusters[playerData.equipped.thrusters].turnBonus ? PARTS.thrusters[playerData.equipped.thrusters].turnBonus : 0);
+    let effectiveAccuracy = playerData.equipped.computer ? PARTS.computer[playerData.equipped.computer].accuracy : 1.0;
+    let maxDrones = chassis.maxDrones || 1;
+    let droneCapacity = playerData.equipped.drone_bay ? PARTS.drone_bay[playerData.equipped.drone_bay].droneCount : 0;
+    
+    statsDiv.innerHTML = `
+        <p><strong>Chassis:</strong> ${chassis.name}</p>
+        <p><strong>Engine:</strong> ${engine.name}</p>
+        <p><strong>Weapon:</strong> ${weapon.name}</p>
+        <p><strong>Special:</strong> ${special.name}</p>
+        <p><strong>Armor:</strong> ${armorText}</p>
+        <p><strong>Reactor:</strong> ${reactorText}</p>
+        <p><strong>Computer:</strong> ${computerText}</p>
+        <p><strong>Drone Bay:</strong> ${droneBayText}</p>
+        <p><strong>Thrusters:</strong> ${thrustersText}</p>
+        <hr>
+        <p><strong>Health:</strong> ${chassis.health}</p>
+        <p><strong>Energy:</strong> ${chassis.energy}</p>
+        <p><strong>Thrust:</strong> ${effectiveThrust}</p>
+        <p><strong>Turn Speed:</strong> ${effectiveTurn}</p>
+        <p><strong>Accuracy:</strong> ${effectiveAccuracy.toFixed(1)}x</p>
+        <p><strong>Max Drones:</strong> ${maxDrones}</p>
+        <p><strong>Drone Capacity:</strong> ${droneCapacity}</p>
+    `;
+}
+
+function getPartStatsHtml(part) {
+    let statsHtml = '';
+    if(part.health) statsHtml += `Health: ${part.health}, `;
+    if(part.energy) statsHtml += `Energy: ${part.energy}, `;
+    if(part.thrust) statsHtml += `Thrust: ${part.thrust}, `;
+    if(part.turn) statsHtml += `Turn: ${part.turn}, `;
+    if(part.reverse) statsHtml += `Reverse: ${part.reverse}, `;
+    if(part.damage) statsHtml += `Dmg: ${part.damage}, `;
+    if(part.cooldown) statsHtml += `CD: ${part.cooldown}, `;
+    if(part.energyCost) statsHtml += `NRG Cost: ${part.energyCost}, `;
+    if(part.duration) statsHtml += `Duration: ${part.duration}, `;
+    if(part.damageReduction) statsHtml += `DMG Reduction: ${(part.damageReduction * 100).toFixed(0)}%, `;
+    if(part.energyRegen) statsHtml += `Energy Regen: ${part.energyRegen}x, `;
+    if(part.accuracy) statsHtml += `Accuracy: ${part.accuracy}x, `;
+    if(part.droneCount) statsHtml += `Drones: ${part.droneCount}, `;
+    if(part.droneDamage) statsHtml += `Drone Dmg: ${part.droneDamage}, `;
+    if(part.droneSpeed) statsHtml += `Drone Speed: ${part.droneSpeed}, `;
+    if(part.strafeBonus) statsHtml += `Strafe: +${(part.strafeBonus * 100).toFixed(0)}%, `;
+    
+    return statsHtml.slice(0, -2); // Remove trailing comma and space
+}
+
+function populateShop() {
+    const list = document.getElementById('parts-list');
+    list.innerHTML = '';
+    for(const type in PARTS){
+        list.innerHTML += `<h3>${type.charAt(0).toUpperCase() + type.slice(1).replace('_', ' ')}</h3>`;
+        for(const partId in PARTS[type]){
+            const part = PARTS[type][partId];
+            const owned = playerData.owned[type].includes(partId);
+            const equipped = playerData.equipped[type] === partId;
+
+            const item = document.createElement('div');
+            item.className = `part-item rarity-${part.rarity}`;
+            if(equipped) item.classList.add('equipped');
+            if(owned) item.classList.add('owned');
+            
+            let actionsHtml = '';
+            if (equipped) {
+                actionsHtml = '<span>EQUIPPED</span>';
+            } else if (owned) {
+                actionsHtml = `<button onclick="equipPart('${type}', '${partId}')">Equip</button>
+                               <button onclick="sellPart('${type}', '${partId}')">Sell (${Math.floor(part.cost / 2)}c)</button>`;
+            } else if (playerData.credits >= part.cost) {
+                actionsHtml = `<button onclick="buyPart('${type}', '${partId}')">Buy (${part.cost}c)</button>`;
+            } else {
+                actionsHtml = `<span>Cost: ${part.cost}c</span>`;
+            }
+
+            item.innerHTML = `
+                <div class="part-info">
+                    <strong class="rarity-${part.rarity}">${part.name}</strong>
+                    <p>${part.desc}</p>
+                    <p class="stats">${getPartStatsHtml(part)}</p>
+                </div>
+                <div class="part-actions">
+                    ${actionsHtml}
+                </div>
+            `;
+            list.appendChild(item);
+        }
+    }
+}
+
+function populateUpgradeShop() {
+    const list = document.getElementById('upgrade-list');
+    list.innerHTML = '<p>Upgrade system coming in next version!</p>';
+}
+
+function buyPart(type, partId) {
+    const part = PARTS[type][partId];
+    if (playerData.credits >= part.cost) {
+        playerData.credits -= part.cost;
+        playerData.owned[type].push(partId);
+        saveData();
+        populateShop();
+        updateHangarUI();
+    }
+}
+
+function sellPart(type, partId) {
+    if (playerData.equipped[type] === partId) {
+        alert("Cannot sell equipped parts!");
+        return;
+    }
+    
+    const part = PARTS[type][partId];
+    const sellPrice = Math.floor(part.cost / 2);
+    playerData.credits += sellPrice;
+    
+    const index = playerData.owned[type].indexOf(partId);
+    if (index > -1) {
+        playerData.owned[type].splice(index, 1);
+    }
+    
+    saveData();
+    populateShop();
+    updateHangarUI();
+}
+
+function equipPart(type, partId) {
+    if (playerData.owned[type].includes(partId)) {
+        playerData.equipped[type] = partId;
+        saveData();
+        populateShop();
+        updateHangarUI();
+    }
+}
+
+function populateArena() {
+    const list = document.getElementById('opponent-list');
+    list.innerHTML = '';
+    
+    OPPONENTS.forEach((opponent, index) => {
+        const unlocked = index < playerData.unlockedOpponents;
+        const card = document.createElement('div');
+        card.className = 'opponent-card';
+        if (!unlocked) card.classList.add('locked');
+        
+        const canvas = document.createElement('canvas');
+        canvas.width = 150;
+        canvas.height = 150;
+        const ctx = canvas.getContext('2d');
+        
+        if (unlocked) {
+            const tempShip = new Ship(2, opponent.config, true); // Preview mode
+            tempShip.x = canvas.width / 2;
+            tempShip.y = canvas.height / 2;
+            tempShip.draw(ctx);
+        }
+        
+        const button = document.createElement('button');
+        button.textContent = unlocked ? `Fight (${opponent.credits}c)` : 'Locked';
+        button.disabled = !unlocked;
+        if (unlocked) {
+            button.onclick = () => startBattle(index);
+        }
+        
+        card.innerHTML = `
+            <h4>${opponent.name}</h4>
+            <p>Reward: ${opponent.credits} credits</p>
+            ${opponent.boss ? '<p style="color: #ff6600;"><strong>BOSS</strong></p>' : ''}
+            ${opponent.config.chassis && PARTS.chassis[opponent.config.chassis].rarity === 'omega' ? '<p style="color: var(--omega-color);"><strong>OMEGA BOSS</strong></p>' : ''}
+        `;
+        card.appendChild(canvas);
+        card.appendChild(button);
+        
+        list.appendChild(card);
+    });
+}
+
+// --- GAME MECHANICS ---
+function startBattle(opponentIndex) {
+    currentOpponent = OPPONENTS[opponentIndex];
+    initGame();
+    showScreen('game');
+}
+
+function initGame() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    
+    projectiles = [];
+    particles = [];
+    drones = []; // Reset drones array
+    
+    player1 = new Ship(1, playerData.equipped);
+    player1.x = canvas.width * 0.25;
+    player1.y = canvas.height / 2;
+    
+    player2 = new Ship(2, currentOpponent.config);
+    player2.x = canvas.width * 0.75;
+    player2.y = canvas.height / 2;
+    player2.angle = Math.PI;
+    
+    updateHUD();
+    updateDroneCounter();
+    
+    if (gameLoop) clearInterval(gameLoop);
+    gameLoop = setInterval(gameUpdate, 1000 / FPS);
+}
+
+function gameUpdate() {
+    // Clear canvas
+    ctx.fillStyle = '#0c0c0c';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
+    // Update and draw ships
+    player1.update();
+    player2.update();
+    player1.draw(ctx);
+    player2.draw(ctx);
+    
+    // Update and draw drones
+    for (let i = drones.length - 1; i >= 0; i--) {
+        const drone = drones[i];
+        drone.update();
+        drone.draw(ctx);
+        
+        if (drone.health <= 0) {
+            drones.splice(i, 1);
+        }
+    }
+    
+    // Update projectiles
+    for (let i = projectiles.length - 1; i >= 0; i--) {
+        const proj = projectiles[i];
+        proj.update();
+        proj.draw(ctx);
+        
+        if (proj.x < -200 || proj.x > canvas.width + 200 || proj.y < -200 || proj.y > canvas.height + 200) { // Increased bounds for big projectiles
+            projectiles.splice(i, 1);
+            continue;
+        }
+        
+        // Collision detection with ships
+        const target = proj.owner === 1 ? player2 : player1;
+        const dist = Math.sqrt((proj.x - target.x) ** 2 + (proj.y - target.y) ** 2);
+        if (dist < target.size) {
+            target.takeDamage(proj.damage, proj.shieldDrain || 0);
+             if (!proj.piercing) {
+                projectiles.splice(i, 1);
+            }
+            
+            // Create impact particles
+            for (let j = 0; j < 5; j++) {
+                particles.push(new Particle(proj.x, proj.y, '#ff4400'));
+            }
+            continue;
+        }
+        
+        // Collision detection with drones
+        for (let j = drones.length - 1; j >= 0; j--) {
+            const drone = drones[j];
+            if (drone.owner !== proj.owner) {
+                const droneDist = Math.sqrt((proj.x - drone.x) ** 2 + (proj.y - drone.y) ** 2);
+                if (droneDist < drone.size) {
+                    drone.takeDamage(proj.damage);
+                    if (!proj.piercing) {
+                        projectiles.splice(i, 1);
+                    }
+                    
+                    // Create impact particles
+                    for (let k = 0; k < 3; k++) {
+                        particles.push(new Particle(proj.x, proj.y, '#ff4400'));
+                    }
+                    break;
+                }
+            }
+        }
+    }
+    
+    // Update particles
+    for (let i = particles.length - 1; i >= 0; i--) {
+        const particle = particles[i];
+        particle.update();
+        particle.draw(ctx);
+        
+        if (particle.life <= 0) {
+            particles.splice(i, 1);
+        }
+    }
+    
+    updateHUD();
+    updateDroneCounter();
+    
+    // Check for game end
+    if (player1.health <= 0) {
+        endGame(false);
+    } else if (player2.health <= 0) {
+        endGame(true);
+    }
+}
+
+function updateDroneCounter() {
+    const droneCount = document.getElementById('drone-count');
+    const droneCooldown = document.getElementById('drone-cooldown');
+    
+    // Count active drones for each player
+    const p1Drones = drones.filter(d => d.owner === 1).length;
+    
+    droneCount.textContent = `${p1Drones}/${player1.maxDrones}`;
+    
+    if (player1.droneCooldown > 0) {
+        droneCooldown.textContent = `Cooldown: ${Math.ceil(player1.droneCooldown / 60)}s`;
+    } else if (p1Drones >= player1.maxDrones) {
+        droneCooldown.textContent = 'Max Deployed';
+    } else if (!player1.config.drone_bay) {
+        droneCooldown.textContent = 'No Drone Bay';
+    } else {
+        droneCooldown.textContent = 'Ready';
+    }
+}
+
+function endGame(playerWon) {
+    clearInterval(gameLoop);
+    
+    const winnerText = document.getElementById('winner-text');
+    const rewardText = document.getElementById('reward-text');
+    const lootDisplay = document.getElementById('loot-display');
+    
+    if (playerWon) {
+        winnerText.textContent = 'VICTORY!';
+        winnerText.style.color = '#00ff00';
+        
+        const reward = currentOpponent.credits;
+        playerData.credits += reward;
+        rewardText.textContent = `You earned ${reward} credits!`;
+        
+        // Unlock next opponent
+        const currentIndex = OPPONENTS.indexOf(currentOpponent);
+        if (currentIndex + 1 >= playerData.unlockedOpponents && currentIndex + 1 < OPPONENTS.length) {
+            playerData.unlockedOpponents = currentIndex + 2;
+        }
+        
+        // Generate loot
+        const loot = generateLoot(currentOpponent.lootTable);
+        if (loot) {
+            playerData.owned[loot.category].push(loot.partId);
+            lootDisplay.innerHTML = `
+                <h3>New Part Acquired!</h3>
+                <div class="part-item rarity-${loot.part.rarity}">
+                    <div class="part-info">
+                        <strong>${loot.part.name}</strong>
+                        <p>${loot.part.desc}</p>
+                        <p class="stats">${getPartStatsHtml(loot.part)}</p>
+                    </div>
+                </div>
+            `;
+        } else {
+            lootDisplay.innerHTML = '';
+        }
+        
+    } else {
+        winnerText.textContent = 'DEFEAT';
+        winnerText.style.color = '#ff0000';
+        rewardText.textContent = 'Better luck next time!';
+        lootDisplay.innerHTML = '';
+    }
+    
+    saveData();
+    showScreen('end');
+    
+    document.getElementById('continue-button').onclick = () => showScreen('hangar');
+}
+
+function updateHUD() {
+    const p1Health = document.getElementById('player1-health-bar');
+    const p1Energy = document.getElementById('player1-energy-bar');
+    const p2Health = document.getElementById('player2-health-bar');
+    const p2Energy = document.getElementById('player2-energy-bar');
+    
+    p1Health.style.width = `${(player1.health / player1.maxHealth) * 100}%`;
+    p1Energy.style.width = `${(player1.energy / player1.maxEnergy) * 100}%`;
+    p2Health.style.width = `${(player2.health / player2.maxHealth) * 100}%`;
+    p2Energy.style.width = `${(player2.energy / player2.maxEnergy) * 100}%`;
+}
+
+// --- SHIP CLASS ---
+class Ship {
+    constructor(player, config, previewMode = false) {
+        this.player = player;
+        this.config = config;
+        this.previewMode = previewMode;
+        
+        const chassis = PARTS.chassis[config.chassis];
+        const engine = PARTS.engine[config.engine];
+        
+        this.maxHealth = chassis.health;
+        this.health = this.maxHealth;
+        this.maxEnergy = chassis.energy;
+        this.energy = this.maxEnergy;
+        this.size = chassis.size;
+        this.art = chassis.art || 'interceptor'; // Art style for drawing
+        this.thrust = chassis.thrust * engine.thrust;
+        this.turnSpeed = chassis.turn;
+        this.maxDrones = chassis.maxDrones || 1;
+        this.droneCooldown = 0;
+        this.weaponSlots = chassis.weaponSlots || 1;
+        this.activeWeaponSlot = 1;
+        this.weaponCooldowns = {}; // Cooldown per weapon slot
+        
+        // Apply thruster bonuses
+        if (config.thrusters && PARTS.thrusters[config.thrusters]) {
+            const thrusters = PARTS.thrusters[config.thrusters];
+            if (thrusters.turnBonus) this.turnSpeed += thrusters.turnBonus;
+        }
+        
+        this.x = 0;
+        this.y = 0;
+        this.angle = 0;
+        this.vx = 0;
+        this.vy = 0;
+        this.angularVel = 0;
+        
+        this.specialCooldown = 0;
+        this.shielded = false;
+        this.boosted = false;
+        this.cloaked = false;
+        this.phoenixAvailable = false;
+        this.empDisabled = false;
+        this.empTimer = 0;
+        
+        this.color = player === 1 ? '#00aaff' : '#ff4400';
+    }
+    
+    deployDrone() {
+        if (!this.config.drone_bay || this.droneCooldown > 0) {
+            return;
+        }
+        
+        const currentDrones = drones.filter(d => d.owner === this.player).length;
+        if (currentDrones >= this.maxDrones) {
+            return;
+        }
+        
+        const droneBay = PARTS.drone_bay[this.config.drone_bay];
+        if (!droneBay) return;
+        
+        const angle = Math.random() * Math.PI * 2;
+        const distance = this.size + 20;
+        const droneX = this.x + Math.cos(angle) * distance;
+        const droneY = this.y + Math.sin(angle) * distance;
+        
+        drones.push(new Drone(droneX, droneY, this.player, droneBay));
+        this.droneCooldown = 60; // 1 second cooldown between deployments
+        
+        for (let i = 0; i < 8; i++) {
+            particles.push(new Particle(droneX, droneY, this.color));
+        }
+    }
+    
+    update() {
+        // Update cooldowns
+        for(let slot in this.weaponCooldowns){
+             if (this.weaponCooldowns[slot] > 0) this.weaponCooldowns[slot]--;
+        }
+        if (this.specialCooldown > 0) this.specialCooldown--;
+        if (this.droneCooldown > 0) this.droneCooldown--;
+        if (this.empTimer > 0) {
+            this.empTimer--;
+            if (this.empTimer <= 0) {
+                this.empDisabled = false;
+            }
+        }
+        
+        // Handle input for player 1
+        if (this.player === 1) {
+            if (keys['ArrowUp'] || keys['w']) this.accelerate(1);
+            if (keys['ArrowDown'] || keys['s']) this.accelerate(-0.5);
+            if (keys['ArrowLeft'] || keys['a']) this.turn(-1);
+            if (keys['ArrowRight'] || keys['d']) this.turn(1);
+            if (keys[' ']) this.fire();
+            if (keys['Shift']) this.useSpecial();
+            if (keys['q'] || keys['Q']) this.deployDrone();
+            if (keys['Escape']) {
+                clearInterval(gameLoop);
+                showScreen('hangar');
+                return;
+            }
+        } else {
+            // Use specific AI behavior
+            this.bossAI();
+        }
+        
+        // Update physics
+        this.x += this.vx;
+        this.y += this.vy;
+        this.angle += this.angularVel;
+        
+        // Apply friction
+        this.vx *= 0.98;
+        this.vy *= 0.98;
+        this.angularVel *= 0.9;
+        
+        // Screen wrap (or bounds for Mothership)
+        if (this.art !== 'mothership') {
+            if (this.x < 0) this.x = canvas.width;
+            if (this.x > canvas.width) this.x = 0;
+            if (this.y < 0) this.y = canvas.height;
+            if (this.y > canvas.height) this.y = 0;
+        } else {
+            // Keep Mothership on screen
+            if (this.x < this.size) this.x = this.size;
+            if (this.x > canvas.width - this.size) this.x = canvas.width - this.size;
+            if (this.y < this.size) this.y = this.size;
+            if (this.y > canvas.height - this.size) this.y = canvas.height - this.size;
+        }
+        
+        // Regenerate energy
+        let energyRegen = 0.5;
+        if (this.config.reactor && PARTS.reactor[this.config.reactor]) {
+            energyRegen *= PARTS.reactor[this.config.reactor].energyRegen;
+        }
+        
+        if (this.energy < this.maxEnergy) {
+            this.energy = Math.min(this.maxEnergy, this.energy + energyRegen);
+        }
+    }
+    
+    accelerate(direction) {
+        const force = this.thrust * direction * 0.3;
+        this.vx += Math.cos(this.angle) * force;
+        this.vy += Math.sin(this.angle) * force;
+    }
+    
+    turn(direction) {
+        if (this.empDisabled) return;
+        this.angularVel += direction * this.turnSpeed * 0.001;
+    }
+    
+    fire(slot) {
+        const weaponSlot = slot || this.activeWeaponSlot;
+        if (this.weaponCooldowns[weaponSlot] > 0 || this.empDisabled) return;
+
+        let weaponId;
+        if (weaponSlot === 1) weaponId = this.config.weapon;
+        else weaponId = this.config['weapon' + weaponSlot];
+        
+        if (!weaponId) return;
+        const weapon = PARTS.weapon[weaponId];
+        if (!weapon) return;
+        
+        if (weapon.energyCost && this.energy < weapon.energyCost) return;
+        
+        if (weapon.energyCost) {
+            this.energy -= weapon.energyCost;
+        }
+        
+        this.weaponCooldowns[weaponSlot] = weapon.cooldown;
+        
+        let accuracyBonus = 1.0;
+        if (this.config.computer && PARTS.computer[this.config.computer]) {
+            accuracyBonus = PARTS.computer[this.config.computer].accuracy;
+        }
+        
+        // Calculate spawn point based on ship size and angle
+        const spawnX = this.x + Math.cos(this.angle) * this.size;
+        const spawnY = this.y + Math.sin(this.angle) * this.size;
+
+        switch (weapon.type) {
+            case 'pulse': this.firePulse(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'spread': this.fireSpread(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'beam': this.fireBeam(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'missile': this.fireMissile(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'railgun': this.fireRailgun(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'plasma': this.firePlasma(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'laser_array': this.fireLaserArray(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'swarm': this.fireSwarm(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'antimatter': this.fireAntimatter(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'nova': this.fireNova(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'shredder': this.fireShredder(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'disruptor': this.fireDisruptor(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'singularity_cannon': this.fireSingularityCannon(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'world_ender': this.fireWorldEnder(weapon, accuracyBonus, spawnX, spawnY); break;
+            case 'reality_cutter': this.fireRealityCutter(weapon, accuracyBonus, spawnX, spawnY); break;
+        }
+    }
+    
+    firePulse(weapon, accuracy, x, y) {
+        const speed = 8;
+        const spread = (2 - accuracy) * 0.1;
+        const angle = this.angle + (Math.random() - 0.5) * spread;
+        const vx = Math.cos(angle) * speed;
+        const vy = Math.sin(angle) * speed;
+        projectiles.push(new Projectile(x, y, vx, vy, weapon.damage, this.player, '#00ff00'));
+    }
+    
+    fireSpread(weapon, accuracy, x, y) {
+        const speed = 7;
+        const spread = (2 - accuracy) * 0.1;
+        for (let i = -1; i <= 1; i++) {
+            const angle = this.angle + i * 0.3 + (Math.random() - 0.5) * spread;
+            const vx = Math.cos(angle) * speed;
+            const vy = Math.sin(angle) * speed;
+            projectiles.push(new Projectile(x, y, vx, vy, weapon.damage, this.player, '#00ff00'));
+        }
+    }
+    
+    fireBeam(weapon, accuracy, x, y) {
+        const speed = 12;
+        const spread = (2 - accuracy) * 0.05;
+        const angle = this.angle + (Math.random() - 0.5) * spread;
+        const vx = Math.cos(angle) * speed;
+        const vy = Math.sin(angle) * speed;
+        projectiles.push(new Projectile(x, y, vx, vy, weapon.damage, this.player, '#ff0000'));
+    }
+    
+    fireMissile(weapon, accuracy, x, y) {
+        const speed = 5;
+        const vx = Math.cos(this.angle) * speed;
+        const vy = Math.sin(this.angle) * speed;
+        projectiles.push(new HomingProjectile(x, y, vx, vy, weapon.damage, this.player, '#ffff00'));
+    }
+    
+    fireRailgun(weapon, accuracy, x, y) {
+        const speed = 15;
+        const spread = (2 - accuracy) * 0.02;
+        const angle = this.angle + (Math.random() - 0.5) * spread;
+        const vx = Math.cos(angle) * speed;
+        const vy = Math.sin(angle) * speed;
+        projectiles.push(new Projectile(x, y, vx, vy, weapon.damage, this.player, '#00ffff', true));
+    }
+    
+    firePlasma(weapon, accuracy, x, y) {
+        const speed = 6;
+        const spread = (2 - accuracy) * 0.1;
+        const angle = this.angle + (Math.random() - 0.5) * spread;
+        const vx = Math.cos(angle) * speed;
+        const vy = Math.sin(angle) * speed;
+        projectiles.push(new PlasmaProjectile(x, y, vx, vy, weapon.damage, this.player, '#ff00ff'));
+    }
+    
+    fireLaserArray(weapon, accuracy, x, y) {
+        const speed = 10;
+        const spread = (2 - accuracy) * 0.05;
+        for (let i = 0; i < weapon.beams; i++) {
+            const angle = this.angle + (i - 1) * 0.2 + (Math.random() - 0.5) * spread;
+            const vx = Math.cos(angle) * speed;
+            const vy = Math.sin(angle) * speed;
+            projectiles.push(new Projectile(x, y, vx, vy, weapon.damage, this.player, '#ff0000'));
+        }
+    }
+    
+    fireSwarm(weapon, accuracy, x, y) {
+        const speed = 4;
+        for (let i = 0; i < weapon.missiles; i++) {
+            const angle = this.angle + (Math.random() - 0.5) * 0.8;
+            const vx = Math.cos(angle) * speed;
+            const vy = Math.sin(angle) * speed;
+            setTimeout(() => {
+                if (typeof projectiles !== 'undefined') {
+                    projectiles.push(new HomingProjectile(this.x, this.y, vx, vy, weapon.damage, this.player, '#ffff00'));
+                }
+            }, i * 100);
+        }
+    }
+    
+    fireAntimatter(weapon, accuracy, x, y) {
+        const speed = 8;
+        const spread = (2 - accuracy) * 0.05;
+        const angle = this.angle + (Math.random() - 0.5) * spread;
+        const vx = Math.cos(angle) * speed;
+        const vy = Math.sin(angle) * speed;
+        projectiles.push(new AntimatterProjectile(x, y, vx, vy, weapon.damage, this.player, '#ffffff'));
+    }
+    
+    fireNova(weapon, accuracy, x, y) {
+        const speed = 5;
+        const spread = (2 - accuracy) * 0.1;
+        const angle = this.angle + (Math.random() - 0.5) * spread;
+        const vx = Math.cos(angle) * speed;
+        const vy = Math.sin(angle) * speed;
+        projectiles.push(new NovaProjectile(x, y, vx, vy, weapon.damage, this.player, '#ff6600'));
+    }
+
+    fireShredder(weapon, accuracy, x, y) {
+        const speed = 10;
+        const spread = weapon.spread * (2 - accuracy);
+        const angle = this.angle + (Math.random() - 0.5) * spread;
+        const vx = Math.cos(angle) * speed;
+        const vy = Math.sin(angle) * speed;
+        projectiles.push(new Projectile(x, y, vx, vy, weapon.damage, this.player, '#cccccc'));
+    }
+
+    fireDisruptor(weapon, accuracy, x, y) {
+        const speed = 12;
+        const spread = (2 - accuracy) * 0.05;
+        const angle = this.angle + (Math.random() - 0.5) * spread;
+        const vx = Math.cos(angle) * speed;
+        const vy = Math.sin(angle) * speed;
+        projectiles.push(new DisruptorProjectile(x, y, vx, vy, weapon.damage, this.player, '#9900cc', weapon.shieldDrain));
+    }
+
+    fireSingularityCannon(weapon, accuracy, x, y) {
+        projectiles.push(new SingularityProjectile(x, y, 0, 0, weapon.damage, this.player, '#000000', weapon.pull, weapon.duration));
+    }
+
+    fireWorldEnder(weapon, accuracy, x, y) {
+        const speed = 20;
+        const spread = (2 - accuracy) * 0.01;
+        const angle = this.angle + (Math.random() - 0.5) * spread;
+        const vx = Math.cos(angle) * speed;
+        const vy = Math.sin(angle) * speed;
+        projectiles.push(new Projectile(x, y, vx, vy, weapon.damage, this.player, '#ff00ff', true)); // Piercing beam
+    }
+
+    fireRealityCutter(weapon, accuracy, x, y) {
+        const speed = 10;
+        const spread = (2 - accuracy) * 0.03;
+        const angle = this.angle + (Math.random() - 0.5) * spread;
+        const vx = Math.cos(angle) * speed;
+        const vy = Math.sin(angle) * speed;
+        projectiles.push(new Projectile(x, y, vx, vy, weapon.damage, this.player, '#aa00ff', true)); // Piercing, ignores armor
+    }
+    
+    useSpecial() {
+        if (this.specialCooldown > 0 || this.empDisabled) return;
+        
+        const special = PARTS.special[this.config.special];
+        
+        if (special.energy && this.energy < special.energy) return;
+        
+        if (special.energy) {
+            this.energy -= special.energy;
+        }
+        
+        this.specialCooldown = special.cooldown;
+        
+        switch (special.type) {
+            case 'shield': this.activateShield(special); break;
+            case 'boost': this.activateBoost(special); break;
+            case 'teleport': this.teleport(); break;
+            case 'emp': this.useEMP(special); break;
+            case 'cloak': this.activateCloak(special); break;
+            case 'repair': this.activateRepair(special); break;
+            case 'overcharge': this.activateOvercharge(special); break;
+            case 'time_dilation': this.activateTimeDilation(special); break;
+            case 'phoenix': this.activatePhoenix(); break;
+            case 'reality_rift': this.activateRealityRift(special); break;
+            case 'singularity_collapse': this.activateSingularityCollapse(special); break;
+            case 'temporal_rewind': this.activateTemporalRewind(special); break;
+        }
+    }
+    
+    activateShield(special) {
+        this.shielded = true;
+        setTimeout(() => { this.shielded = false; }, special.duration);
+    }
+    
+    activateBoost(special) {
+        this.boosted = true;
+        const originalThrust = this.thrust;
+        this.thrust *= 2;
+        setTimeout(() => { 
+            this.boosted = false; 
+            this.thrust = originalThrust;
+        }, special.duration);
+    }
+    
+    teleport() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.vx = 0;
+        this.vy = 0;
+        
+        for (let i = 0; i < 15; i++) {
+            particles.push(new Particle(this.x, this.y, '#00ffff'));
+        }
+    }
+    
+    useEMP(special) {
+        const target = this.player === 1 ? player2 : player1;
+        
+        target.empDisabled = true;
+        target.empTimer = special.duration / 16.67;
+        for(let slot in target.weaponCooldowns){
+            target.weaponCooldowns[slot] = Math.max(target.weaponCooldowns[slot], special.duration / 16.67);
+        }
+        target.specialCooldown = Math.max(target.specialCooldown, special.duration / 16.67);
+        
+        for (let i = 0; i < 30; i++) {
+            const angle = (i / 30) * Math.PI * 2;
+            const distance = 100 + Math.random() * 50;
+            const x = target.x + Math.cos(angle) * distance;
+            const y = target.y + Math.sin(angle) * distance;
+            particles.push(new Particle(x, y, '#ffff00'));
+        }
+    }
+    
+    activateCloak(special) {
+        this.cloaked = true;
+        setTimeout(() => { this.cloaked = false; }, special.duration);
+    }
+    
+    activateRepair(special) {
+        this.health = Math.min(this.maxHealth, this.health + special.healing);
+        
+        for (let i = 0; i < 10; i++) {
+            particles.push(new Particle(this.x, this.y, '#00ff00'));
+        }
+    }
+    
+    activateOvercharge(special) {
+        this.overcharged = true;
+        const originalTurnSpeed = this.turnSpeed;
+        const originalThrust = this.thrust;
+        this.turnSpeed *= 1.5;
+        this.thrust *= 1.3;
+        setTimeout(() => { 
+            this.overcharged = false; 
+            this.turnSpeed = originalTurnSpeed;
+            this.thrust = originalThrust;
+        }, special.duration);
+    }
+    
+    activateTimeDilation(special) {
+        this.timeDilated = true;
+        const target = this.player === 1 ? player2 : player1;
+        const originalThrust = target.thrust;
+        const originalTurnSpeed = target.turnSpeed;
+        target.thrust *= 0.3;
+        target.turnSpeed *= 0.3;
+        
+        setTimeout(() => { 
+            this.timeDilated = false;
+            target.thrust = originalThrust;
+            target.turnSpeed = originalTurnSpeed;
+        }, special.duration);
+    }
+    
+    activatePhoenix() {
+        this.phoenixAvailable = true;
+    }
+    
+    activateRealityRift(special) {
+        for (let i = 0; i < 20; i++) {
+            const angle = (i / 20) * Math.PI * 2;
+            const vx = Math.cos(angle) * 3;
+            const vy = Math.sin(angle) * 3;
+            projectiles.push(new Projectile(this.x, this.y, vx, vy, special.damage / 4, this.player, '#9900ff'));
+        }
+    }
+
+    activateSingularityCollapse(special) {
+        for (let i = 0; i < 50; i++) {
+            const angle = (i / 50) * Math.PI * 2;
+            const distance = Math.random() * 300;
+            const vx = Math.cos(angle) * 2;
+            const vy = Math.sin(angle) * 2;
+            projectiles.push(new SingularityProjectile(this.x + Math.cos(angle) * distance, this.y + Math.sin(angle) * distance, vx, vy, special.damage / 10, this.player, '#aa00ff', true, 120));
+        }
+    }
+
+    activateTemporalRewind(special) {
+        const prevState = { x: this.x, y: this.y, health: this.health, energy: this.energy };
+        setTimeout(() => {
+            this.x = prevState.x;
+            this.y = prevState.y;
+            this.health = Math.min(this.maxHealth, prevState.health + 50);
+            this.energy = Math.min(this.maxEnergy, prevState.energy + 50);
+            for (let i = 0; i < 20; i++) {
+                particles.push(new Particle(this.x, this.y, '#00ffff'));
+            }
+        }, 1000);
+    }
+    
+    takeDamage(amount, shieldDrain = 0) {
+        if (this.shielded) return;
+        if (this.cloaked && Math.random() > 0.5) return;
+        
+        let finalDamage = amount;
+        if (this.config.armor && PARTS.armor[this.config.armor]) {
+            const armor = PARTS.armor[this.config.armor];
+            if (armor.damageReduction) {
+                finalDamage *= (1 - armor.damageReduction);
+            }
+            if (armor.phaseChance && Math.random() < armor.phaseChance) {
+                return;
+            }
+        }
+        
+        this.health -= finalDamage;
+        
+        if (this.health <= 0 && this.phoenixAvailable) {
+            this.health = this.maxHealth;
+            this.phoenixAvailable = false;
+            for (let i = 0; i < 20; i++) {
+                particles.push(new Particle(this.x, this.y, '#ff6600'));
+            }
+        }
+    }
+    
+    bossAI() {
+        const target = player1;
+        const dx = target.x - this.x;
+        const dy = target.y - this.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        const targetAngle = Math.atan2(dy, dx);
+        
+        let angleDiff = targetAngle - this.angle;
+        while (angleDiff > Math.PI) angleDiff -= 2 * Math.PI;
+        while (angleDiff < -Math.PI) angleDiff += 2 * Math.PI;
+        
+        let aimThreshold = 0.1;
+        if (this.config.computer && PARTS.computer[this.config.computer]) {
+            aimThreshold /= PARTS.computer[this.config.computer].accuracy;
+        }
+        
+        if (Math.abs(angleDiff) > aimThreshold) {
+            this.turn(angleDiff > 0 ? 1 : -1);
+        }
+
+        const behavior = currentOpponent.aiBehavior || 'standard';
+
+        if (behavior === 'mothership_siege') {
+            // Very slow movement, tries to stay in the center
+            const centerDx = canvas.width / 2 - this.x;
+            const centerDy = canvas.height / 2 - this.y;
+            this.vx += centerDx * 0.0001;
+            this.vy += centerDy * 0.0001;
+            
+            // Unleash all weapons on cooldown
+            for(let i = 1; i <= this.weaponSlots; i++){
+                 if (Math.abs(angleDiff) < aimThreshold * 5) { // Wider firing arc
+                    this.fire(i);
+                }
+            }
+
+        } else if (behavior === 'aggressive_multi_weapon') {
+            if (distance > 200) this.accelerate(1);
+            else if (distance < 100) this.accelerate(-0.5);
+            else this.accelerate(0.2);
+
+            if (this.weaponCooldowns[this.activeWeaponSlot] <= 0 && Math.random() < 0.1) {
+                this.activeWeaponSlot = (this.activeWeaponSlot % this.weaponSlots) + 1;
+            }
+            if (Math.abs(angleDiff) < aimThreshold * 2 && distance < 500) this.fire();
+
+        } else if (behavior === 'evasive_temporal') {
+            if (distance < 300) this.accelerate(-0.8);
+            else if (distance > 400) this.accelerate(0.8);
+            this.vx += Math.cos(this.angle + Math.PI/2) * 0.2;
+            this.vy += Math.sin(this.angle + Math.PI/2) * 0.2;
+
+            if (Math.abs(angleDiff) < aimThreshold * 1.5 && distance < 450) this.fire();
+            if (this.health < this.maxHealth * 0.4 && Math.random() < 0.01) this.useSpecial();
+
+        } else if (behavior === 'tank_overwhelm') {
+            if (distance > 100) this.accelerate(0.7);
+            else this.accelerate(0.1);
+
+            for(let i = 1; i <= this.weaponSlots; i++){
+                this.activeWeaponSlot = i;
+                if (Math.abs(angleDiff) < aimThreshold * 3 && distance < 400) this.fire(i);
+            }
+            this.activeWeaponSlot = 1;
+
+        } else { // Standard AI
+            if (distance > 250) this.accelerate(1);
+            else if (distance < 150) this.accelerate(-0.5);
+            if (Math.abs(angleDiff) < aimThreshold * 2 && distance < 400) this.fire();
+        }
+        
+        const currentDronesCount = drones.filter(d => d.owner === this.player).length;
+        if (currentDronesCount < this.maxDrones && Math.random() < 0.01) {
+            this.deployDrone();
+        }
+        
+        if (this.health < this.maxHealth * 0.5 && Math.random() < 0.015) {
+            this.useSpecial();
+        } else if (Math.random() < 0.008) {
+            this.useSpecial();
+        }
+    }
+    
+    draw(ctx) {
+        if (this.cloaked && Math.random() > 0.3) return;
+        
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+        
+        let shipColor = this.color;
+        if (this.shielded) shipColor = '#00ffff';
+        else if (this.boosted) shipColor = '#ffff00';
+        else if (this.overcharged) shipColor = '#ff00ff';
+        else if (this.empDisabled) shipColor = '#666666';
+        
+        ctx.fillStyle = shipColor;
+        ctx.strokeStyle = '#fff';
+        ctx.lineWidth = this.previewMode ? 1 : 2;
+
+        // --- DRAWING LOGIC BASED ON ART STYLE ---
+        if (this.art === 'mothership') {
+            const s = this.previewMode ? this.size / 5 : this.size; // Scale down for preview
+            
+            // Main body - large hexagon
+            ctx.beginPath();
+            for (let i = 0; i < 6; i++) {
+                ctx.lineTo(s * Math.cos(i * Math.PI / 3), s * Math.sin(i * Math.PI / 3));
+            }
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+
+            // Central core
+            ctx.fillStyle = '#ff8800';
+            ctx.beginPath();
+            ctx.arc(0, 0, s * 0.3, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Wing structures
+            ctx.fillStyle = shipColor;
+            for (let i = -1; i <= 1; i += 2) {
+                ctx.beginPath();
+                ctx.moveTo(s * 0.5, s * 0.9 * i);
+                ctx.lineTo(s * 1.2, s * 0.5 * i);
+                ctx.lineTo(s * 1.2, s * -0.5 * i);
+                ctx.lineTo(s * 0.5, s * -0.9 * i);
+                ctx.closePath();
+                ctx.fill();
+                ctx.stroke();
+            }
+
+        } else if (this.art === 'juggernaut') {
+             const s = this.previewMode ? this.size / 1.5 : this.size;
+            ctx.beginPath();
+            ctx.moveTo(s, 0);
+            ctx.lineTo(-s * 0.8, -s * 0.7);
+            ctx.lineTo(-s * 0.8, s * 0.7);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+        } else { // Interceptor and others
+             const s = this.previewMode ? this.size : this.size;
+            ctx.beginPath();
+            ctx.moveTo(s, 0);
+            ctx.lineTo(-s * 0.7, -s * 0.5);
+            ctx.lineTo(-s * 0.3, 0);
+            ctx.lineTo(-s * 0.7, s * 0.5);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        ctx.restore();
+    }
+}
+
+// --- IMPROVED DRONE CLASS ---
+class Drone {
+    constructor(x, y, owner, droneBay) {
+        this.x = x;
+        this.y = y;
+        this.owner = owner;
+        this.type = droneBay.type;
+        this.maxHealth = droneBay.droneHealth;
+        this.health = this.maxHealth;
+        this.damage = droneBay.droneDamage || 0;
+        this.speed = droneBay.droneSpeed || 2;
+        this.size = 8;
+        this.angle = 0;
+        this.attackCooldown = 0;
+        this.color = owner === 1 ? '#00aaff' : '#ff4400';
+        this.targetLockTime = 0;
+    }
+    
+    update() {
+        const ownerShip = this.owner === 1 ? player1 : player2;
+        const target = this.owner === 1 ? player2 : player1;
+        
+        if (this.type === 'scout') {
+            const dx = ownerShip.x - this.x;
+            const dy = ownerShip.y - this.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            
+            if (distance > 80) {
+                this.x += (dx / distance) * this.speed;
+                this.y += (dy / distance) * this.speed;
+            } else {
+                this.angle += 0.08;
+                this.x = ownerShip.x + Math.cos(this.angle) * 60;
+                this.y = ownerShip.y + Math.sin(this.angle) * 60;
+            }
+            
+            if (this.attackCooldown <= 0) {
+                const tdx = target.x - this.x;
+                const tdy = target.y - this.y;
+                const tdist = Math.sqrt(tdx * tdx + tdy * tdy);
+                
+                if (tdist < 200) {
+                    const angle = Math.atan2(tdy, tdx);
+                    const vx = Math.cos(angle) * 8;
+                    const vy = Math.sin(angle) * 8;
+                    projectiles.push(new Projectile(this.x, this.y, vx, vy, this.damage, this.owner, '#00ff88'));
+                    this.attackCooldown = 90;
+                }
+            }
+            
+        } else if (this.type === 'combat') {
+            const dx = target.x - this.x;
+            const dy = target.y - this.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            
+            const predictedX = target.x + target.vx * 10;
+            const predictedY = target.y + target.vy * 10;
+            const pdx = predictedX - this.x;
+            const pdy = predictedY - this.y;
+            
+            if (distance > 120) {
+                this.x += (pdx / distance) * this.speed;
+                this.y += (pdy / distance) * this.speed;
+            } else {
+                const strafeAngle = Math.atan2(dy, dx) + Math.PI/2;
+                this.x += Math.cos(strafeAngle) * this.speed * 0.5;
+                this.y += Math.sin(strafeAngle) * this.speed * 0.5;
+            }
+            
+            if (this.attackCooldown <= 0 && distance < 250) {
+                const angle = Math.atan2(pdy, pdx);
+                const vx = Math.cos(angle) * 10;
+                const vy = Math.sin(angle) * 10;
+                projectiles.push(new Projectile(this.x, this.y, vx, vy, this.damage, this.owner, '#ff6600'));
+                this.attackCooldown = 40;
+            }
+            
+        } else if (this.type === 'guardian') {
+            const dx = ownerShip.x - this.x;
+            const dy = ownerShip.y - this.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            
+            if (distance > 50) {
+                this.x += (dx / distance) * this.speed;
+                this.y += (dy / distance) * this.speed;
+            }
+            
+            for (let proj of projectiles) {
+                if (proj.owner !== this.owner) {
+                    const projDx = proj.x - this.x;
+                    const projDy = proj.y - this.y;
+                    const projDist = Math.sqrt(projDx * projDx + projDy * projDy);
+                    
+                    if (projDist < 40) {
+                        this.x += (projDx / projDist) * this.speed * 2;
+                        this.y += (projDy / projDist) * this.speed * 2;
+                        break;
+                    }
+                }
+            }
+            
+        } else if (this.type === 'swarm') {
+            const dx = target.x - this.x;
+            const dy = target.y - this.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            
+            this.x += (dx / distance) * this.speed;
+            this.y += (dy / distance) * this.speed;
+            
+            if (this.attackCooldown <= 0 && distance < 180) {
+                const angle = Math.atan2(dy, dx);
+                const vx = Math.cos(angle) * 12;
+                const vy = Math.sin(angle) * 12;
+                projectiles.push(new Projectile(this.x, this.y, vx, vy, this.damage, this.owner, '#ff9900'));
+                this.attackCooldown = 30;
+            }
+        } else if (this.type === 'nanite') {
+            const dx = target.x - this.x;
+            const dy = target.y - this.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+
+            this.x += (dx / distance) * this.speed;
+            this.y += (dy / distance) * this.speed;
+
+            if (this.attackCooldown <= 0 && distance < 150) {
+                const angle = Math.atan2(dy, dx);
+                const vx = Math.cos(angle) * 10;
+                const vy = Math.sin(angle) * 10;
+                projectiles.push(new Projectile(this.x, this.y, vx, vy, this.damage, this.owner, '#aa00aa'));
+                this.attackCooldown = 20;
+            }
+            if (Math.random() < 0.001 && drones.filter(d => d.owner === this.owner && d.type === 'nanite').length < ownerShip.maxDrones * 2) { 
+                drones.push(new Drone(this.x + (Math.random()-0.5)*10, this.y + (Math.random()-0.5)*10, this.owner, PARTS.drone_bay.nanite_hive));
+            }
+        }
+        
+        if (this.attackCooldown > 0) this.attackCooldown--;
+    }
+    
+    takeDamage(amount) {
+        this.health -= amount;
+        if (this.health <= 0) {
+            for (let i = 0; i < 8; i++) {
+                particles.push(new Particle(this.x, this.y, this.color));
+            }
+        }
+    }
+    
+    draw(ctx) {
+        ctx.fillStyle = this.color;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+        
+        ctx.fillStyle = '#ffffff';
+        ctx.font = '8px monospace';
+        ctx.textAlign = 'center';
+        let typeChar = this.type.charAt(0).toUpperCase();
+        ctx.fillText(typeChar, this.x, this.y + 3);
+        
+        if (this.health < this.maxHealth) {
+            ctx.fillStyle = '#ff0000';
+            ctx.fillRect(this.x - this.size, this.y - this.size - 12, this.size * 2, 3);
+            ctx.fillStyle = '#00ff00';
+            ctx.fillRect(this.x - this.size, this.y - this.size - 12, (this.health / this.maxHealth) * this.size * 2, 3);
+        }
+    }
+}
+
+// --- PROJECTILE CLASSES ---
+class Projectile {
+    constructor(x, y, vx, vy, damage, owner, color = '#00ff00', piercing = false) {
+        this.x = x;
+        this.y = y;
+        this.vx = vx;
+        this.vy = vy;
+        this.damage = damage;
+        this.owner = owner;
+        this.color = color;
+        this.piercing = piercing;
+        this.size = 3;
+    }
+    
+    update() {
+        this.x += this.vx;
+        this.y += this.vy;
+    }
+    
+    draw(ctx) {
+        ctx.fillStyle = this.color;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+    }
+}
+
+class HomingProjectile extends Projectile {
+    constructor(x, y, vx, vy, damage, owner, color) {
+        super(x, y, vx, vy, damage, owner, color);
+        this.homingStrength = 0.1;
+    }
+    
+    update() {
+        const target = this.owner === 1 ? player2 : player1;
+        const dx = target.x - this.x;
+        const dy = target.y - this.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        
+        if (distance > 0) {
+            this.vx += (dx / distance) * this.homingStrength;
+            this.vy += (dy / distance) * this.homingStrength;
+        }
+        
+        super.update();
+    }
+}
+
+class PlasmaProjectile extends Projectile {
+    constructor(x, y, vx, vy, damage, owner, color) {
+        super(x, y, vx, vy, damage, owner, color);
+        this.splashRadius = 30;
+    }
+    
+    explode() {
+        for (let i = 0; i < 10; i++) {
+            particles.push(new Particle(this.x, this.y, this.color));
+        }
+    }
+}
+
+class AntimatterProjectile extends Projectile {
+    constructor(x, y, vx, vy, damage, owner, color) {
+        super(x, y, vx, vy, damage, owner, color);
+        this.size = 6;
+    }
+    
+    draw(ctx) {
+        ctx.fillStyle = this.color;
+        ctx.strokeStyle = '#ff00ff';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.stroke();
+    }
+}
+
+class NovaProjectile extends Projectile {
+    constructor(x, y, vx, vy, damage, owner, color) {
+        super(x, y, vx, vy, damage, owner, color);
+        this.chainReaction = true;
+    }
+}
+
+class DisruptorProjectile extends Projectile {
+    constructor(x, y, vx, vy, damage, owner, color, shieldDrain) {
+        super(x, y, vx, vy, damage, owner, color);
+        this.shieldDrain = shieldDrain;
+    }
+}
+
+class SingularityProjectile extends Projectile {
+    constructor(x, y, vx, vy, damage, owner, color, pull, duration) {
+        super(x, y, vx, vy, damage, owner, color);
+        this.pull = pull;
+        this.duration = duration;
+        this.life = duration;
+        this.pullRadius = 150;
+        this.pullStrength = 0.5;
+    }
+
+    update() {
+        super.update();
+        this.life--;
+        if (this.life <= 0) {
+            const index = projectiles.indexOf(this);
+            if (index > -1) projectiles.splice(index, 1);
+            return;
+        }
+
+        if (this.pull) {
+            const target = this.owner === 1 ? player2 : player1;
+            const dx = this.x - target.x;
+            const dy = this.y - target.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance < this.pullRadius) {
+                target.vx += (dx / distance) * this.pullStrength;
+                target.vy += (dy / distance) * this.pullStrength;
+                
+                if (this.life % 30 === 0) {
+                    target.takeDamage(this.damage);
+                }
+            }
+        }
+    }
+
+    draw(ctx) {
+        ctx.fillStyle = 'rgba(0,0,0,0.5)';
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.pullRadius * (this.life / this.duration), 0, Math.PI * 2);
+        ctx.fill();
+        
+        ctx.strokeStyle = '#9900ff';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.pullRadius * (this.life / this.duration), 0, Math.PI * 2);
+        ctx.stroke();
+    }
+}
+
+// --- PARTICLE CLASS ---
+class Particle {
+    constructor(x, y, color) {
+        this.x = x;
+        this.y = y;
+        this.vx = (Math.random() - 0.5) * 4;
+        this.vy = (Math.random() - 0.5) * 4;
+        this.color = color;
+        this.life = 30;
+        this.maxLife = 30;
+    }
+    
+    update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        this.vx *= 0.95;
+        this.vy *= 0.95;
+        this.life--;
+    }
+    
+    draw(ctx) {
+        const alpha = this.life / this.maxLife;
+        ctx.fillStyle = this.color + Math.floor(alpha * 255).toString(16).padStart(2, '0');
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, 2, 0, Math.PI * 2);
+        ctx.fill();
+    }
+}
+
+// --- EVENT LISTENERS ---
+document.addEventListener('keydown', (e) => {
+    keys[e.key] = true;
+    if (e.key === ' ') e.preventDefault();
+});
+
+document.addEventListener('keyup', (e) => {
+    keys[e.key] = false;
+});
+
+// --- INITIALIZATION ---
+loadData();
+showScreen('hangar');
+</script>
+</body>
+</html>
+

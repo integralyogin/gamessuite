@@ -1,0 +1,55 @@
+{
+    "worldSettings": {
+        "name": "Starting Zone"
+    },
+    "playerUnits": [
+        {
+            "id": "player_unit_1",
+            "type": "player_unit",
+            "x": 400, "y": 300,
+            "size": 10, "color": "#ffff00", "speed": 2
+        },
+        {
+            "id": "player_unit_2",
+            "type": "player_unit",
+            "x": 460, "y": 300,
+            "size": 10, "color": "#00ffff", "speed": 2
+        }
+    ],
+    "rocks": [
+        {
+            "id": "rock_1",
+            "type": "rock",
+            "x": 350, "y": 250,
+            "size": 20, "color": "#888888"
+        }
+    ],
+    "trees": [
+        {
+            "id": "tree_1",
+            "type": "tree",
+            "x": 550, "y": 350,
+            "size": 12,
+            "trunkColor": "#654321",
+            "leafColor": "#2E8B57"
+        },
+        {
+            "id": "tree_2",
+            "type": "tree",
+            "x": 200, "y": 150,
+            "size": 15,
+            "trunkColor": "#654321",
+            "leafColor": "#2E8B57"
+        }
+    ],
+    "grassPatches": [
+        {
+            "id": "grass_patch_1",
+            "type": "grass",
+            "x": 250, "y": 400,
+            "size": 50,
+            "color": "#3CB371"
+        }
+    ]
+}
+

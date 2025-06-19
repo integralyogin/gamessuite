@@ -1,0 +1,637 @@
+[
+  {
+    "id": "subj_info_science_foundations_001",
+    "title": "Information Science: Managing Knowledge in the Digital Age",
+    "description": "A progressive exploration of the principles, practices, and technologies involved in the creation, organization, dissemination, and use of information.",
+    "sections": [
+      {
+        "heading": "Info Science Defined",
+        "topic_summary": "Study of information processes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_intro",
+            "summary": "An interdisciplinary field primarily concerned with the analysis, collection, classification, manipulation, storage, retrieval, movement, dissemination, and protection of information."
+          }
+        ]
+      },
+      {
+        "heading": "Data, Info, Knowledge",
+        "topic_summary": "Raw facts to understanding.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_dikw",
+            "summary": "Understanding the hierarchy: Data (raw facts), Information (processed data with context), Knowledge (actionable information with experience), and Wisdom (applied knowledge)."
+          }
+        ]
+      },
+      {
+        "heading": "Information Lifecycle",
+        "topic_summary": "Creation to disposition.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_lifecycle",
+            "summary": "The stages through which information passes, typically including creation, processing, distribution, use, storage, and eventual disposition or preservation."
+          }
+        ]
+      },
+      {
+        "heading": "Information Society",
+        "topic_summary": "Society valuing information.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_info_society",
+            "summary": "A society where the creation, distribution, use, integration and manipulation of information is a significant economic, political, and cultural activity."
+          }
+        ]
+      },
+      {
+        "heading": "Information Ethics",
+        "topic_summary": "Moral info handling.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_ethics",
+            "summary": "The branch of ethics that focuses on the relationship between the creation, organization, dissemination, and use of information, and the ethical standards and moral codes governing human conduct in society."
+          }
+        ]
+      },
+      {
+        "heading": "Information Literacy",
+        "topic_summary": "Finding, evaluating, using info.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_literacy",
+            "summary": "The ability to identify what information is needed, understand how the information is organized, identify the best sources of information for a given need, locate those sources, evaluate the sources critically, and share that information."
+          }
+        ]
+      },
+      {
+        "heading": "Information Behavior",
+        "topic_summary": "How people interact with info.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_behavior",
+            "summary": "The study of how people need, seek, manage, give, and use information in different contexts."
+          }
+        ]
+      },
+      {
+        "heading": "Information Needs",
+        "topic_summary": "Recognizing an info gap.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_needs",
+            "summary": "The recognition that one's current state of knowledge is less than that needed to deal with some issue or problem."
+          }
+        ]
+      },
+      {
+        "heading": "Information Seeking",
+        "topic_summary": "Actively searching for info.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_seeking",
+            "summary": "The process or activity of attempting to obtain information in both human and technological contexts."
+          }
+        ]
+      },
+      {
+        "heading": "Information Retrieval (IR)",
+        "topic_summary": "Finding relevant documents.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_ir",
+            "summary": "The science of searching for information in documents, searching for documents themselves, and also searching for metadata that describe data, and for databases of texts, images or sounds."
+          }
+        ]
+      },
+      {
+        "heading": "Classification Systems",
+        "topic_summary": "Organizing knowledge systematically.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_classification",
+            "summary": "Systematic arrangements of subjects or concepts into groups or categories according to established criteria (e.g., Dewey Decimal, Library of Congress)."
+          }
+        ]
+      },
+      {
+        "heading": "Cataloging Principles",
+        "topic_summary": "Describing information resources.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_cataloging",
+            "summary": "The process of creating metadata representing information resources, such as books, sound recordings, and moving images, following standardized rules (e.g., RDA, AACR2)."
+          }
+        ]
+      },
+      {
+        "heading": "Metadata Standards",
+        "topic_summary": "Rules for describing data.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_metadata",
+            "summary": "Data that provides information about other data. Standards (e.g., Dublin Core, MARC) ensure consistency in description for discovery and interoperability."
+          }
+        ]
+      },
+      {
+        "heading": "Indexing & Abstracting",
+        "topic_summary": "Creating access points, summaries.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_indexing_abstracting",
+            "summary": "Indexing creates pointers (index terms) to information for retrieval. Abstracting creates concise summaries of documents."
+          }
+        ]
+      },
+      {
+        "heading": "Thesauri & Ontologies",
+        "topic_summary": "Controlled vocabularies, relationships.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_thesauri_ontologies",
+            "summary": "Thesauri are controlled vocabularies of terms with semantic relationships. Ontologies formally represent knowledge as a set of concepts within a domain and the relationships among them."
+          }
+        ]
+      },
+      {
+        "heading": "Knowledge Organization",
+        "topic_summary": "Structuring information for use.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_knowledge_org",
+            "summary": "The study of activities such as description, indexing, and classification that serve to provide access to knowledge and information resources."
+          }
+        ]
+      },
+      {
+        "heading": "Database Concepts",
+        "topic_summary": "Structured data collections.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_database_concepts",
+            "summary": "Fundamental principles of databases as organized collections of data, generally stored and accessed electronically from a computer system."
+          }
+        ]
+      },
+      {
+        "heading": "Relational Databases",
+        "topic_summary": "Data in tables, SQL.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_relational_db",
+            "summary": "Databases that store and provide access to data points that are related to one another, typically organized into tables with rows and columns, queried using SQL."
+          }
+        ]
+      },
+      {
+        "heading": "Non-Relational (NoSQL)",
+        "topic_summary": "Flexible data models.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_nosql_db",
+            "summary": "Databases that provide a mechanism for storage and retrieval of data modeled in means other than the tabular relations used in relational databases (e.g., document, key-value, graph)."
+          }
+        ]
+      },
+      {
+        "heading": "Data Modeling",
+        "topic_summary": "Designing data structures.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_data_modeling",
+            "summary": "The process of creating a conceptual representation of data objects, the associations between different data objects, and the rules."
+          }
+        ]
+      },
+      {
+        "heading": "Information Systems (IS)",
+        "topic_summary": "Tech, people, processes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_info_systems",
+            "summary": "Integrated sets of components for collecting, storing, processing, and distributing information, typically including hardware, software, data, people, and processes."
+          }
+        ]
+      },
+      {
+        "heading": "Information Architecture (IA)",
+        "topic_summary": "Structuring shared environments.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_ia",
+            "summary": "The art and science of organizing and labeling websites, intranets, online communities, and software to support usability and findability."
+          }
+        ]
+      },
+      {
+        "heading": "Human-Computer Interaction (HCI)",
+        "topic_summary": "Designing user interfaces.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_hci",
+            "summary": "The study of how people design, implement, and use interactive computer systems and how computers affect individuals, organizations, and society."
+          }
+        ]
+      },
+      {
+        "heading": "User Experience (UX)",
+        "topic_summary": "Overall interaction quality.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_ux",
+            "summary": "A person's perceptions and responses resulting from the use or anticipated use of a product, system or service."
+          }
+        ]
+      },
+      {
+        "heading": "Search Engine Tech",
+        "topic_summary": "Indexing, ranking web info.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_search_engines",
+            "summary": "The technology behind web search engines, including crawling, indexing, query processing, and ranking algorithms."
+          }
+        ]
+      },
+      {
+        "heading": "Web Technologies",
+        "topic_summary": "HTML, CSS, JavaScript, etc.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_web_tech",
+            "summary": "The various markup languages, programming languages, protocols, and tools used to create and operate websites and web applications."
+          }
+        ]
+      },
+      {
+        "heading": "Digital Libraries",
+        "topic_summary": "Online info collections.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_digital_libraries",
+            "summary": "Libraries in which collections are stored in digital formats and accessible by computers, offering remote access to information resources."
+          }
+        ]
+      },
+      {
+        "heading": "Content Management (CMS)",
+        "topic_summary": "Systems for digital content.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_cms",
+            "summary": "Software applications or sets of related programs that are used to create and manage digital content (e.g., WordPress, Drupal)."
+          }
+        ]
+      },
+      {
+        "heading": "Data Mining",
+        "topic_summary": "Discovering patterns in data.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_data_mining",
+            "summary": "The process of discovering patterns, correlations, anomalies, and other useful information in large datasets using computational techniques."
+          }
+        ]
+      },
+      {
+        "heading": "Big Data",
+        "topic_summary": "Volume, velocity, variety.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_big_data",
+            "summary": "Extremely large data sets that may be analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions."
+          }
+        ]
+      },
+      {
+        "heading": "Information Management",
+        "topic_summary": "Overseeing info resources.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_info_mgmt",
+            "summary": "The collection, storage, management, and maintenance of information in all its forms, including the processes for its distribution and use."
+          }
+        ]
+      },
+      {
+        "heading": "Knowledge Management (KM)",
+        "topic_summary": "Creating, sharing, using knowledge.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_km",
+            "summary": "The process of creating, sharing, using, and managing the knowledge and information of an organization to achieve its objectives."
+          }
+        ]
+      },
+      {
+        "heading": "Information Governance",
+        "topic_summary": "Rules for info handling.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_info_governance",
+            "summary": "A system of rules, practices, and processes by which an organization's information assets are controlled to support its objectives."
+          }
+        ]
+      },
+      {
+        "heading": "Information Policy",
+        "topic_summary": "Laws, regulations for info.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_info_policy",
+            "summary": "The set of all public laws, regulations, and policies that encourage, discourage, or regulate the creation, use, storage, access, and communication of information."
+          }
+        ]
+      },
+      {
+        "heading": "Intellectual Property",
+        "topic_summary": "Rights to creations.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_ip",
+            "summary": "Creations of the mind, such as inventions, literary and artistic works, designs, symbols, names, and images used in commerce, protected by copyright, patents, trademarks."
+          }
+        ]
+      },
+      {
+        "heading": "Privacy & Data Protection",
+        "topic_summary": "Safeguarding personal information.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_privacy_protection",
+            "summary": "Principles and practices related to the handling of personal information, ensuring its confidentiality, integrity, and availability, and respecting individuals' privacy rights."
+          }
+        ]
+      },
+      {
+        "heading": "Information Security (InfoSec)",
+        "topic_summary": "Protecting info assets.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_infosec",
+            "summary": "The practice of preventing unauthorized access, use, disclosure, disruption, modification, inspection, recording or destruction of information."
+          }
+        ]
+      },
+      {
+        "heading": "Digital Preservation",
+        "topic_summary": "Ensuring long-term digital access.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_digital_preservation",
+            "summary": "The set of processes and activities that ensure continued access to digital materials for as long as necessary."
+          }
+        ]
+      },
+      {
+        "heading": "Archives & Records Mgmt",
+        "topic_summary": "Managing organizational records.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_archives_records",
+            "summary": "The field concerned with the creation, maintenance, use, and disposition of records to meet administrative, legal, fiscal, and historical needs."
+          }
+        ]
+      },
+      {
+        "heading": "Information Audits",
+        "topic_summary": "Assessing info assets, flows.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_info_audits",
+            "summary": "A systematic process to identify an organization's information resources, how they are used, and their value to the organization."
+          }
+        ]
+      },
+      {
+        "heading": "Health Informatics",
+        "topic_summary": "Info tech in healthcare.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_health_informatics",
+            "summary": "The interdisciplinary study of the design, development, adoption, and application of IT-based innovations in healthcare services delivery, management, and planning."
+          }
+        ]
+      },
+      {
+        "heading": "Business Intelligence (BI)",
+        "topic_summary": "Data for business decisions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_bi",
+            "summary": "Technologies, applications, and practices for the collection, integration, analysis, and presentation of business information to support better business decision making."
+          }
+        ]
+      },
+      {
+        "heading": "Competitive Intelligence",
+        "topic_summary": "Analyzing business competitors.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_competitive_intel",
+            "summary": "The action of defining, gathering, analyzing, and distributing intelligence about products, customers, competitors, and any aspect of the environment needed to support executives and managers in strategic decision making."
+          }
+        ]
+      },
+      {
+        "heading": "Library Science (Modern)",
+        "topic_summary": "Managing info resources, services.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_library_science",
+            "summary": "An interdisciplinary field that applies the practices, perspectives, and tools of management, information technology, education, and other areas to libraries; the collection, organization, preservation, and dissemination of information resources."
+          }
+        ]
+      },
+      {
+        "heading": "Data Science Fundamentals",
+        "topic_summary": "Extracting knowledge from data.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_data_science",
+            "summary": "An interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data."
+          }
+        ]
+      },
+      {
+        "heading": "GIS",
+        "topic_summary": "Geographic Information Systems.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_gis",
+            "summary": "Systems designed to capture, store, manipulate, analyze, manage, and present all types of geographical data."
+          }
+        ]
+      },
+      {
+        "heading": "Social Informatics",
+        "topic_summary": "IT and social context.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_social_informatics",
+            "summary": "The study of information and communication tools in cultural or institutional contexts, focusing on their interaction with social organization and practices."
+          }
+        ]
+      },
+      {
+        "heading": "Scholarly Communication",
+        "topic_summary": "How research is shared.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_scholarly_comm",
+            "summary": "The system through which research and other scholarly writings are created, evaluated for quality, disseminated to the scholarly community, and preserved for future use."
+          }
+        ]
+      },
+      {
+        "heading": "Digital Humanities",
+        "topic_summary": "Computing in humanities research.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_digital_humanities",
+            "summary": "An area of scholarly activity at the intersection of computing or digital technologies and the disciplines of the humanities."
+          }
+        ]
+      },
+      {
+        "heading": "AI in Info Science",
+        "topic_summary": "Automating info processes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_ai_in_is",
+            "summary": "The application of artificial intelligence techniques to enhance information retrieval, organization, analysis, and knowledge discovery."
+          }
+        ]
+      },
+      {
+        "heading": "Semantic Web",
+        "topic_summary": "Web of linked data.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_semantic_web",
+            "summary": "An extension of the World Wide Web through standards by W3C, aiming to make Internet data machine-readable, enabling data to be shared and reused across applications, enterprises, and community boundaries."
+          }
+        ]
+      },
+      {
+        "heading": "Linked Data",
+        "topic_summary": "Connecting structured web data.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_linked_data",
+            "summary": "A method of publishing structured data so that it can be interlinked and become more useful through semantic queries."
+          }
+        ]
+      },
+      {
+        "heading": "Information Visualization",
+        "topic_summary": "Graphical data representation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_info_viz",
+            "summary": "The study of (interactive) visual representations of abstract data to reinforce human cognition; the 'art of making data understandable'."
+          }
+        ]
+      },
+      {
+        "heading": "Personal Info Mgmt (PIM)",
+        "topic_summary": "Managing one's own info.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_pim",
+            "summary": "The study and practice of the activities people perform to acquire, organize, maintain, retrieve, and use information items such as documents, web pages, and email messages for everyday use."
+          }
+        ]
+      },
+      {
+        "heading": "Information Overload",
+        "topic_summary": "Excessive info, difficult processing.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_info_overload",
+            "summary": "The difficulty in understanding an issue and making decisions due to the presence of too much information."
+          }
+        ]
+      },
+      {
+        "heading": "Mis/Disinformation",
+        "topic_summary": "False/misleading info spread.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_mis_disinformation",
+            "summary": "Misinformation is false information spread regardless of intent to deceive; disinformation is deliberately misleading or biased information, manipulated narrative or facts."
+          }
+        ]
+      },
+      {
+        "heading": "Future of Info Access",
+        "topic_summary": "Trends in info retrieval.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "is_topic_future_info_access",
+            "summary": "Exploring emerging trends and technologies shaping how information will be created, accessed, managed, and utilized in the future."
+          }
+        ]
+      }
+    ]
+  }
+]
+

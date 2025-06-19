@@ -1,0 +1,166 @@
+{  
+  "Player-Centric Design": { "quote": "Design for the player's emotions: Fun = Challenge + Reward (Jesse Schell, *The Art of Game Design*)." },  
+  "Game Design Principles": { "quote" : "" },
+  "Game Design Process": { "quote" : "" },
+  "Game Design Frameworks": { "quote" : "" },
+  "Game Design Document": { "quote" : "" },
+  "Classic Books of Game Design": { "quote" : "" },
+
+  "Game Development": { "quote" : "" },
+  "Game Dynamics": { "quote" : "" },
+  "Game Rules": { "quote" : "" },
+  "Game Feel": { "quote" : "" },
+  "Gameplay": { "quote" : "" },
+  "Game Studies": { "quote" : "" },
+
+
+  "Game Genres": { "quote" : "" },
+   "Game Theme": { "quote": "" },
+   "Game Theory": { "quote": "" },
+   "Game Systems": { "quote": "" },
+    "Game System Design": { "quote": "" },
+    "Game Conceptualization": { "quote": "" },
+
+  "Game Mechanics": { "quote" : "" },
+  "Core Mechanics": { "quote" : "" },
+  "Player Interface": { "quote" : "" },
+  "Player Experience": { "quote" : "" },
+
+"Player Types": { "quote": "Different motivations and play styles to accommodate. Among Us supports both social players and those who enjoy strategic deception." },
+"Player Fantasy": { "quote": "The aspirational experience a game promises to deliver. God of War lets players embody a powerful, mythical warrior in an epic journey." },
+  "Player Agency": { "quote": "Meaningful choice: *Disco Elysium*'s skill checks → Branching consequences." },  
+
+  "Systems Design": { "quote" : "" },
+  "Character Design": { "quote" : "" },
+  "Emotional Design": { "quote" : "" },
+  
+  "Codebase": { "quote" : "" },
+  "Player Psychology": { "quote" : "" },
+
+  "MDA Framework": { "quote": "Mechanics (rules) → Dynamics (behavior) → Aesthetics (feeling). (Hunicke, LeBlanc, Zubek)." },  
+  "Flow State": { "quote": "Optimal engagement: Challenge ≈ Skill ± 10% (Csikszentmihalyi). *Celeste*'s assist mode tuning." },  
+  "Emergent Gameplay": { "quote": "Simple rules → Complex outcomes: *Minecraft*'s sandbox + physics = player creativity." },  
+  "Juice": { "quote": "Feedback polish: Screen shake + sound + particles = *Hades*' visceral combat feel." },  
+  "Ludonarrative Harmony": { "quote": "Story reinforces gameplay: *Brothers: A Tale of Two Sons*' controls mirror narrative themes." },  
+  "Risk-Reward Curves": { "quote": "High stakes → High dopamine: *XCOM*'s permadeath raises emotional investment." },  
+  "Pacing": { "quote": "Tension-valley rhythm: *Dark Souls* boss fights → Bonfire respite → Exploration." },  
+  "Balancing Acts": { "quote": "Rock-Paper-Scissors design: No dominant strategy (*StarCraft*'s unit counters)." },  
+  "Onboarding": { "quote": "Teach via play: *Portal*'s \"Speedy thing goes in, speedy thing comes out.\"" },  
+  "Reward Schedules": { "quote": "Variable ratio reinforcement: *Diablo*'s loot tables (Legendary drop rate = 1.5%)." },  
+  "Ethical Design": { "quote": "Avoid Skinner boxes: PEGI compliance + playtime warnings (*Zelda: Tears of the Kingdom*)." },  
+  "Accessibility": { "quote": "Inclusive UX: *The Last of Us Part II*'s 60+ settings (subtitles, high-contrast mode)." },  
+  "Worldbuilding": { "quote": "Environmental storytelling: *Dark Souls*' cryptic lore via item descriptions." },  
+  "Prototyping": { "quote": "Fail fast: Paper mockups → Playtest → Iterate (Valve's *Cabinet of Curiosity*)." },  
+  "Narrative Mechanics": { "quote": "Branching dialogues: *Mass Effect*'s Paragon/Renegade scales → Galactic consequences." },  
+  "Difficulty Scaling": { "quote": "Dynamic adjustment: *Left 4 Dead*'s AI Director spawns enemies based on player stress." },  
+  "Economy Design": { "quote": "In-game inflation control: *EVE Online*'s resource sinks (taxes, ship destruction)." },  
+  "Social Dynamics": { "quote": "Co-op trust: *Overcooked*'s chaos → Communication necessity." },  
+  "Sound Design": { "quote": "Diegetic audio: *Hollow Knight*'s ambient echoes → Atmospheric immersion." },  
+  "Cultural Authenticity": { "quote": "Consult lived experiences: *Never Alone* co-developed with Iñupiat storytellers." },  
+  "Playtesting Loops": { "quote": "Observe, don’t interfere: Silent notes on player frustration (*Nintendo’s Miyamoto Method*)." },  
+  "Monetization Ethics": { "quote": "Cosmetic-only MTX: *Fortnite*'s Battle Pass vs. pay-to-win loot boxes." },  
+  "Emergent Stories": { "quote": "Player-driven drama: *RimWorld*'s AI Storyteller → Unique colony sagas." },  
+  "Iterative Polish": { "quote": "1% fun → 100% shine: *Super Mario Odyssey*'s hat throws tested over 500+ iterations." },  
+  "Future Trends": { "quote": "AI co-design: ChatGPT-generated NPC dialogues → Dynamic quests (*AI Dungeon*)." }  ,
+"Core Loop": { "quote": "The fundamental repeated activity that drives moment-to-moment gameplay. In Tetris: place blocks, clear lines, repeat." },
+"Game Pillars": { "quote": "The foundational design principles that guide development decisions. Doom (2016) focused on fast movement, aggressive combat, and no regenerating health." },
+"Risk and Reward": { "quote": "Balancing potential gains against potential losses. Dark Souls' bonfire system creates tension between exploring further or returning to safety." },
+"Feedback Systems": { "quote": "How the game communicates information to the player. Satisfying enemy deaths in Diablo III with physics, sound, and loot explosions reward player actions." },
+"Difficulty Curve": { "quote": "The progression of challenge throughout the experience. Portal introduces mechanics individually before combining them in increasingly complex puzzles." },
+"Onboarding": { "quote": "How new players learn game systems and mechanics. Hollow Knight teaches through guided discovery rather than explicit tutorials." },
+"Decision Space": { "quote": "The meaningful choices available to players. In Civilization, technology choices create divergent strategic pathways." },
+"Game Economy": { "quote": "The flow of resources throughout the game experience. The resource scarcity in Resident Evil 2 creates tension and forces prioritization." },
+"Progression Systems": { "quote": "How players advance and gain power over time. Hades ties mechanical progression to narrative development through its permanent upgrades and story reveals." },
+"Pacing": { "quote": "The rhythm of intensity and relaxation throughout the game. The Last of Us alternates between combat, exploration, and character moments." },
+"Mechanics": { "quote": "The rules and systems that govern gameplay. The gravity gun in Half-Life 2 creates opportunities for physics-based problem solving and combat." },
+"Systems Design": { "quote": "Creating interconnected game elements that produce emergent gameplay. The chemistry system in Breath of the Wild allows for creative problem-solving through element interactions." },
+"Level Design": { "quote": "The creation of game spaces and challenges. Super Mario 3D World introduces mechanics in safe spaces before testing mastery in more difficult scenarios." },
+"Balance": { "quote": "Ensuring game elements maintain appropriate power levels relative to each other. Overwatch requires constant adjustment to keep all heroes competitively viable." },
+"Constraints": { "quote": "Limitations that create interesting gameplay decisions. The limited inventory in Resident Evil creates tension through resource management." },
+"Accessibility": { "quote": "Design considerations for players of varying abilities. Celeste's assist mode allows players to customize difficulty without sacrificing core experience." },
+"Retention Hooks": { "quote": "Features designed to encourage continued play. Destiny 2's daily and weekly challenges provide regular engagement incentives." },
+"Reward Schedules": { "quote": "The timing and frequency of player rewards. Variable reward schedules in loot-based games like Diablo create compelling gameplay loops." },
+"Art Direction": { "quote": "Visual aesthetic and consistency that supports gameplay. The stylized visuals of Team Fortress, Fortnite, and League of Legends aid gameplay clarity." },
+"Sound Design": { "quote": "Audio elements that enhance the experience. Dead Space uses sound to create atmosphere and directional awareness of threats." },
+"Narrative Design": { "quote": "How story is integrated with gameplay. NieR: Automata uses multiple playthroughs and perspectives to gradually reveal its full narrative." },
+"Monetization Design": { "quote": "How economic models are integrated with game systems. Path of Exile focuses on cosmetic purchases and convenience features rather than power." },
+"Playtesting": { "quote": "Gathering player feedback to refine the experience. Valve's extensive playtesting for Portal 2 led to significant improvements in puzzle design." },
+"Metagame": { "quote": "The strategy and choices that evolve outside of moment-to-moment gameplay. Hearthstone's changing card meta keeps the game fresh between expansions." },
+"Prototyping": { "quote": "Creating simple versions of concepts to test feasibility. Nintendo's approach focuses on finding the fun through rapid prototyping before full production." },
+"Social Design": { "quote": "Systems that facilitate player interaction. Journey's limited communication tools create meaningful connections without enabling toxicity." },
+"Platform Considerations": { "quote": "Adapting design to different hardware and contexts. Mobile games like Clash Royale are designed around short play sessions and touch controls." },
+"Core Loop": {
+"short_description": "The fundamental repeating cycle of actions and rewards that drives player engagement, forming the basic interactive pattern players experience throughout gameplay and determining the rhythm of the experience."
+},
+"Mechanics": {
+"short_description": "The systems, rules, and methods through which players interact with the game world, including all actions players can take and their consequences within the designed system."
+},
+"Dynamics": {
+"short_description": "The emergent patterns and behaviors that arise from players interacting with game mechanics over time, creating complex gameplay experiences beyond simple rule structures."
+},
+"Aesthetics": {
+"short_description": "The sensory and emotional elements that shape the player's experience, including visual design, sound, narrative, and the overall feeling the game aims to evoke."
+},
+"Balance": {
+"short_description": "The careful tuning of game elements to ensure fair challenge, meaningful choices, and engaging progression while preventing dominant strategies or frustrated player experiences."
+},
+"Progression": {
+"short_description": "The system of advancement and development through which players gain power, skills, or understanding, providing a sense of growth and accomplishment over time."
+},
+"Feedback Loops": {
+"short_description": "Systems where outcomes affect future performance, either positively (snowballing) or negatively (rubber-banding), shaping the dynamic flow of gameplay and competition."
+},
+"Player Agency": {
+"short_description": "The degree and quality of control players have over their experience, including meaningful choices, strategic decisions, and ability to impact the game world and narrative."
+},
+"Flow State": {
+"short_description": "The optimal player experience where challenge and skill are perfectly balanced, creating deep engagement and satisfaction through appropriate difficulty scaling and clear goals."
+},
+"Risk/Reward": {
+"short_description": "The relationship between potential dangers and potential benefits in player choices, creating tension and strategic depth through meaningful trade-offs."
+},
+"Game Economy": {
+"short_description": "The system of resources, currencies, and exchanges that govern player progression and choices, including sources, sinks, and circulation of various game values."
+},
+"Accessibility": {
+"short_description": "Design considerations that ensure the game can be enjoyed by players with different abilities, skills, and backgrounds, including customization options and alternative control schemes."
+},
+"Onboarding": {
+"short_description": "The process of introducing players to game mechanics and systems, teaching through guided experience while maintaining engagement and avoiding overwhelming complexity."
+},
+"Retention": {
+"short_description": "Design elements that encourage long-term player engagement, including social features, daily rewards, progressive challenges, and evolving content."
+},
+"Monetization": {
+"short_description": "Systems for generating revenue while maintaining player satisfaction and game balance, including premium features, cosmetic items, and expansion content."
+},
+"Social Dynamics": {
+"short_description": "Systems that facilitate and govern player interaction, including cooperation, competition, communication, and community building features."
+},
+"Level Design": {
+"short_description": "The creation of game spaces and challenges that provide appropriate difficulty, teach mechanics, reward exploration, and create memorable experiences through environmental storytelling."
+},
+"Systems Design": {
+"short_description": "The creation and integration of interacting game mechanics that generate emergent gameplay and support the core experience through multiple overlapping systems."
+},
+"Meta Game": {
+"short_description": "The higher-level strategic elements that exist outside individual play sessions, including character building, loadout selection, and long-term progression systems."
+},
+"Psychology": {
+"short_description": "Understanding and application of human behavioral patterns and motivations in game design, including reward schedules, achievement systems, and social dynamics."
+},
+"Playtesting": {
+"short_description": "The systematic process of gathering player feedback and behavioral data to refine game mechanics, balance, and overall experience through iterative development."
+},
+"Pacing": {
+"short_description": "The rhythm and flow of gameplay experiences, including intensity curves, downtime, and variation in challenge and activity to maintain engagement."
+},
+"Emergence": {
+"short_description": "Complex gameplay situations and strategies that arise from simple rule interactions, creating depth and replayability through player discovery and mastery."
+},
+"Polish": {
+"short_description": "The refinement of game feel through attention to detail in animation, effects, sound, and response timing to create satisfying moment-to-moment gameplay."
+}
+
+}  
+

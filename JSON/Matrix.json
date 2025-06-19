@@ -1,0 +1,77 @@
+{
+"Matrix": {
+    "short_description": "A rectangular array of numbers, symbols, or expressions arranged in rows and columns, forming a fundamental structure for representing linear transformations and solving systems of equations."
+},
+"Determinant": {
+    "short_description": "A scalar value calculated from a square matrix that represents the scaling factor of the linear transformation, determining invertibility and providing crucial information about the matrix's properties."
+},
+"Eigenvalue": {
+    "short_description": "A scalar that, when applied to its corresponding eigenvector through matrix multiplication, results in a vector parallel to the original, representing fundamental scaling properties of the transformation."
+},
+"Eigenvector": {
+    "short_description": "A non-zero vector that, when transformed by a matrix, changes only by a scalar factor, revealing principal directions of the linear transformation represented by the matrix."
+},
+"Rank": {
+    "short_description": "The dimension of the vector space spanned by the matrix's columns or rows, indicating the number of linearly independent rows or columns and the matrix's transformative capacity."
+},
+"Nullspace": {
+    "short_description": "The set of all vectors that, when multiplied by the matrix, yield the zero vector, representing the kernel of the linear transformation and crucial for understanding solution spaces."
+},
+"Transpose": {
+    "short_description": "A matrix obtained by converting rows into columns and columns into rows, fundamental for various matrix operations and understanding dual spaces."
+},
+"Inverse": {
+    "short_description": "A matrix that, when multiplied by the original matrix, yields the identity matrix, enabling the reversal of linear transformations and solving matrix equations."
+},
+"Trace": {
+    "short_description": "The sum of elements on the main diagonal of a square matrix, providing an invariant measure of the linear transformation and relating to eigenvalues."
+},
+"Orthogonality": {
+    "short_description": "A property where matrix columns or rows are perpendicular to each other, creating transformations that preserve angles and distances."
+},
+"Diagonalization": {
+    "short_description": "The process of converting a matrix into a diagonal form through similarity transformations, simplifying computations and revealing fundamental structure."
+},
+"Similarity": {
+    "short_description": "A relationship between matrices that represent the same linear transformation in different bases, preserving essential properties like eigenvalues and trace."
+},
+"Decomposition": {
+    "short_description": "Various methods of factoring a matrix into products of simpler matrices, revealing structural properties and facilitating computational efficiency."
+},
+"Condition Number": {
+    "short_description": "A measure of a matrix's numerical stability and sensitivity to changes in input, crucial for understanding the reliability of matrix computations."
+},
+"Spectrum": {
+    "short_description": "The complete set of eigenvalues of a matrix, characterizing its fundamental properties and behavior in linear transformations."
+},
+"Kernel": {
+    "short_description": "Another term for the nullspace, representing the set of vectors that the matrix transforms to zero, crucial for understanding solution spaces."
+},
+"Range": {
+    "short_description": "The set of all possible outputs of a matrix transformation, representing the image of the linear transformation in the target space."
+},
+"Adjugate": {
+    "short_description": "The transpose of the cofactor matrix, used in calculating matrix inverses and understanding structural relationships within the matrix."
+},
+"Characteristic Polynomial": {
+    "short_description": "A polynomial whose roots are the eigenvalues of the matrix, fundamental for determining spectral properties and diagonalizability."
+},
+"Jordan Form": {
+    "short_description": "A special matrix form revealing the complete structure of a linear transformation, particularly useful for understanding non-diagonalizable matrices."
+},
+"Norm": {
+    "short_description": "A measure of matrix size or magnitude, providing a way to quantify the strength of linear transformations and matrix differences."
+},
+"Positive Definiteness": {
+    "short_description": "A property of symmetric matrices where all eigenvalues are positive, crucial in optimization and stability analysis."
+},
+"Singular Value": {
+    "short_description": "The square roots of eigenvalues of the matrix's self-adjoint product, representing the scaling factors in the matrix's fundamental geometric action."
+},
+"Cofactor": {
+    "short_description": "A signed minor of a matrix element, used in calculating determinants and matrix inverses, revealing structural relationships within the matrix."
+},
+"Minor": {
+    "short_description": "The determinant of a submatrix formed by removing one row and one column, fundamental for calculating cofactors and understanding matrix structure."
+}
+}

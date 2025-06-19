@@ -1,0 +1,77 @@
+{
+"Education": {
+"short_description": "The systematic process of facilitating learning, development, and transfer of knowledge, skills, values, and understanding across generations and cultures to foster individual and collective growth."
+},
+"Pedagogy": {
+"short_description": "The theory and practice of teaching and learning, encompassing methodologies, strategies, and principles that guide effective educational practice and understanding of how learning occurs."
+},
+"Curriculum": {
+"short_description": "The planned sequence of learning experiences and content, including explicit and implicit elements that shape the educational journey and define what knowledge is considered valuable."
+},
+"Assessment": {
+"short_description": "The systematic process of documenting and evaluating learning outcomes, including formative and summative approaches to measure understanding, skill development, and achievement of educational goals."
+},
+"Instruction": {
+"short_description": "The deliberate facilitation of learning through various methods and approaches, including direct teaching, guided discovery, and creation of environments conducive to knowledge acquisition and skill development."
+},
+"Learning": {
+"short_description": "The active process of acquiring new knowledge, behaviors, skills, values, or preferences through experience, study, practice, and teaching, involving both cognitive and social dimensions."
+},
+"Development": {
+"short_description": "The progressive growth of cognitive, emotional, social, and physical capabilities through interaction with environment and educational experiences over time."
+},
+"Literacy": {
+"short_description": "The fundamental ability to read, write, and comprehend information across various contexts and media, including digital, cultural, and subject-specific literacies."
+},
+"Competency": {
+"short_description": "Demonstrated ability to apply knowledge, skills, and understanding effectively in real-world contexts, marking successful integration of learning into practical capability."
+},
+"Differentiation": {
+"short_description": "The adaptation of teaching approaches to address diverse learning needs, styles, and abilities, ensuring accessible and effective education for all students."
+},
+"Scaffolding": {
+"short_description": "Temporary support structures provided during learning processes to help students achieve new levels of understanding and capability, gradually removed as mastery develops."
+},
+"Metacognition": {
+"short_description": "Awareness and understanding of one's own thought processes and learning strategies, enabling more effective self-directed learning and knowledge acquisition."
+},
+"Integration": {
+"short_description": "The synthesis of knowledge and skills across disciplines and contexts, creating meaningful connections that enhance understanding and application of learning."
+},
+"Inquiry": {
+"short_description": "The process of active investigation and exploration driven by questions, problems, and curiosity, leading to deeper understanding through direct engagement with content."
+},
+"Mentorship": {
+"short_description": "Guided development through relationship with more experienced practitioners, providing support, wisdom, and modeling of effective practices in specific domains."
+},
+"Achievement": {
+"short_description": "Demonstrated mastery or accomplishment of educational goals, marking significant progress in knowledge, skill development, or understanding."
+},
+"Innovation": {
+"short_description": "Creative approaches to educational challenges and opportunities, introducing new methods, technologies, and paradigms to enhance learning effectiveness."
+},
+"Collaboration": {
+"short_description": "Cooperative learning and work processes that leverage collective knowledge and skills to achieve educational goals through shared effort and mutual support."
+},
+"Standards": {
+"short_description": "Established benchmarks and criteria for educational quality and achievement, guiding curriculum development and assessment of learning outcomes."
+},
+"Environment": {
+"short_description": "Physical, social, and cultural contexts in which learning occurs, including both formal and informal settings that influence educational experiences."
+},
+"Resources": {
+"short_description": "Materials, tools, and supports available for teaching and learning, including physical, digital, and human resources that facilitate educational processes."
+},
+"Engagement": {
+"short_description": "Active participation and investment in learning processes, characterized by attention, curiosity, and motivation to explore and master educational content."
+},
+"Inclusion": {
+"short_description": "Educational approaches that ensure all learners can participate fully and effectively, regardless of individual differences or challenges."
+},
+"Leadership": {
+"short_description": "Guidance and direction of educational processes at various levels, shaping vision, policy, and practice to achieve institutional and systemic goals."
+},
+"Research": {
+"short_description": "Systematic investigation of educational practices, outcomes, and innovations to advance understanding and improve effectiveness of teaching and learning."
+}
+}

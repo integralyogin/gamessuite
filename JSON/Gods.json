@@ -1,0 +1,122 @@
+{
+"Gods": {
+"short_description": "Supreme beings or divine entities of power and worship."
+},
+"Creator": {
+"short_description": "Divine being responsible for universal creation."
+},
+"Sovereign": {
+"short_description": "Supreme ruler or governor of divine realms."
+},
+"Preserver": {
+"short_description": "Divine maintainer of cosmic order and existence."
+},
+"Destroyer": {
+"short_description": "Divine force of dissolution and transformation."
+},
+"Demiurge": {
+"short_description": "Craftsman deity who shapes the physical universe."
+},
+"Trinity": {
+"short_description": "Three-fold manifestation of divine power."
+},
+"Pantheon": {
+"short_description": "Collective assembly of gods within a tradition."
+},
+"Deva": {
+"short_description": "Hindu/Buddhist celestial being of light and power."
+},
+"Avatar": {
+"short_description": "Divine incarnation in physical form."
+},
+"Oracle": {
+"short_description": "Divine messenger or vessel of prophecy."
+},
+"Guardian": {
+"short_description": "Protective deity of places or principles."
+},
+"Hierarch": {
+"short_description": "Ruler within divine organizational structure."
+},
+"Immortal": {
+"short_description": "Deathless being of divine nature."
+},
+"Archon": {
+"short_description": "Governing deity of cosmic aspects."
+},
+"Celestial": {
+"short_description": "Heavenly being of divine order."
+},
+"Titan": {
+"short_description": "Primordial deity of elemental power."
+},
+"Demigod": {
+"short_description": "Being of mixed divine and mortal nature."
+},
+"Trickster": {
+"short_description": "Divine being embodying chaos and transformation."
+},
+"Ancestor": {
+"short_description": "Deified forebearer or familial spirit."
+},
+"Sage": {
+"short_description": "Divine embodiment of wisdom and knowledge."
+},
+"Warrior": {
+"short_description": "Martial deity of combat and protection."
+},
+"Mother": {
+"short_description": "Nurturing divine feminine principle."
+},
+"Father": {
+"short_description": "Paternal divine authority and protection."
+},
+"Smith": {
+"short_description": "Divine craftsman and transformer."
+},
+"Healer": {
+"short_description": "Divine restorer of harmony and health."
+},
+"Judge": {
+"short_description": "Divine arbiter of cosmic law and karma."
+},
+"Guide": {
+"short_description": "Divine conductor of souls and transitions."
+},
+"Hunter": {
+"short_description": "Divine pursuer and provider."
+},
+"Messenger": {
+"short_description": "Divine conveyor of celestial communication."
+},
+"Liberator": {
+"short_description": "Divine breaker of bonds and limitations."
+},
+"Teacher": {
+"short_description": "Divine imparter of sacred knowledge."
+},
+"Protector": {
+"short_description": "Divine guardian of realms and beings."
+},
+"Champion": {
+"short_description": "Divine warrior of righteous causes."
+},
+"Mystic": {
+"short_description": "Divine keeper of sacred mysteries."
+},
+"Ruler": {
+"short_description": "Divine sovereign of specific domains."
+},
+"Wanderer": {
+"short_description": "Divine traveler between realms."
+},
+"Artificer": {
+"short_description": "Divine creator of cosmic tools and weapons."
+},
+"Counselor": {
+"short_description": "Divine advisor and wisdom keeper."
+},
+"Guardian": {
+"short_description": "Divine protector of sacred spaces and principles."
+}
+}

@@ -1,0 +1,92 @@
+{
+  "Database": {
+    "short_description": "The organized collection of structured information and related metadata, designed to efficiently store, retrieve, and manage data while maintaining integrity, consistency, and relationships between elements."
+  },
+  "Schema": {
+    "short_description": "The fundamental blueprint defining the logical structure of a database, establishing the organization, relationships, constraints, and rules governing data storage and manipulation."
+  },
+  "Normalization": {
+    "short_description": "The systematic process of organizing data to minimize redundancy and dependency, ensuring data integrity through the progressive refinement of relationships and attributes."
+  },
+  "Transaction": {
+    "short_description": "The atomic unit of database operations that maintains consistency, representing a complete sequence of actions that either fully succeeds or fully fails as one indivisible operation."
+  },
+  "Index": {
+    "short_description": "The optimized data structure that enhances query performance by providing rapid access paths to data, sacrificing storage space for improved retrieval speed."
+  },
+  "Query": {
+    "short_description": "The formal request for data retrieval or manipulation, expressing precise intentions through structured language to interact with the database system."
+  },
+  "Constraint": {
+    "short_description": "The rule system ensuring data integrity by enforcing specific conditions, relationships, and validations on the stored information."
+  },
+  "Partition": {
+    "short_description": "The physical or logical division of large data sets into manageable segments, optimizing performance and maintenance while preserving logical unity."
+  },
+  "Replication": {
+    "short_description": "The process of maintaining synchronized copies of data across multiple locations, ensuring availability, fault tolerance, and improved access performance."
+  },
+  "View": {
+    "short_description": "The virtual table derived from one or more base tables, providing abstraction, security, and simplified access to complex data relationships."
+  },
+  "Cursor": {
+    "short_description": "The control structure enabling sequential processing of query results, maintaining position and state during iterative data operations."
+  },
+  "Trigger": {
+    "short_description": "The automated procedure activated by specific database events, enforcing business rules and maintaining data consistency through predetermined responses."
+  },
+  "Junction": {
+    "short_description": "The specialized table managing many-to-many relationships between entities, resolving complex associations into simpler one-to-many connections."
+  },
+  "Catalog": {
+    "short_description": "The central repository of database metadata, maintaining comprehensive information about schemas, tables, views, and other database objects."
+  },
+  "Buffer": {
+    "short_description": "The memory region optimizing database performance by temporarily holding frequently accessed data and pending changes."
+  },
+  "Deadlock": {
+    "short_description": "The circular dependency situation where multiple transactions block each other indefinitely, requiring detection and resolution mechanisms."
+  },
+  "Shard": {
+    "short_description": "The horizontal partition of data distributed across multiple independent database instances, enabling scalability and parallel processing capabilities."
+  },
+  "Projection": {
+    "short_description": "The operation selecting specific attributes from relations, reducing data complexity by creating focused subsets of available information."
+  },
+  "Join": {
+    "short_description": "The operation combining data from multiple tables based on related columns, creating comprehensive views of information spread across the database."
+  },
+  "Aggregate": {
+    "short_description": "The summary function combining multiple values into a single representative result, enabling statistical analysis and data summarization."
+  },
+  "Checkpoint": {
+    "short_description": "The synchronization point ensuring data durability by writing cached changes to permanent storage, maintaining recovery capabilities."
+  },
+  "Isolation": {
+    "short_description": "The degree to which concurrent transactions are separated from each other, preventing interference while maintaining database consistency."
+  },
+  "Migration": {
+    "short_description": "The controlled process of moving or transforming database structures and content, enabling evolution while preserving data integrity."
+  },
+  "Materialization": {
+    "short_description": "The process of pre-computing and storing derived data, trading storage space for improved query performance and data access speed."
+  },
+  "Cardinality": {
+    "short_description": "The measure of uniqueness in a data set, indicating the number of distinct values and influencing query optimization strategies."
+  },
+  "Durability": {
+    "short_description": "The guarantee that committed transactions remain permanent, ensuring data persistence even in the event of system failures."
+  },
+  "Cascade": {
+    "short_description": "The automatic propagation of changes through related data, maintaining referential integrity across connected database elements."
+  },
+  "Rollback": {
+    "short_description": "The operation restoring database state by undoing incomplete or failed transactions, ensuring consistency in error situations."
+  },
+  "Vacuum": {
+    "short_description": "The maintenance process reclaiming storage space and updating statistics, optimizing database performance through regular cleanup operations."
+  },
+  "Collation": {
+    "short_description": "The set of rules determining how character data is compared and sorted, enabling consistent text handling across database operations."
+  }
+}

@@ -1,0 +1,2141 @@
+{
+    "Abstraction": {
+        "definition": "The cognitive process of considering principles apart from their concrete instances. Universally, the method by which consciousness forms concepts. Transcendentally, the self-limitation of the Absolute into form and idea."
+    },
+    "Action Selection": {
+        "definition": "For an individual, the choice of what to do next. Universally, the interplay of forces determining an event. Spiritually, the surrender of personal will to be an instrument of the Divine Will."
+    },
+    "Adonai": {
+        "definition": "A Hebrew title of reverence for God, meaning 'My Lord'. It is a name used to refer to the Divine Person who is the universal Lord of all, a relational aspect of the transcendent Absolute."
+    },
+    "Adventure": {
+        "definition": "An individual's journey into unknown conditions. Universally, the soul's evolutionary journey through experience. Transcendentally, the 'Lila' or divine play of the Spirit in the cosmos."
+    },
+    "Aeschylus": {
+        "definition": "An ancient Greek tragedian who explored humanity's relationship with the divine, the nature of justice, and the inheritance of guilt."
+    },
+    "Agent": {
+        "definition": "An individual entity that perceives and acts. Universally, any being or force serving as a center for the Divine's expression. Transcendentally, a projection of the Purusha (Conscious Being) into Prakriti (Nature)."
+    },
+    "Agent Architectures": {
+        "definition": "The internal design of a computational agent. Universally, the structural principles governing different forms or planes of consciousness."
+    },
+    "Agent Simulation": {
+        "definition": "A computational model simulating the collective behavior of autonomous agents to understand emergent phenomena. Metaphorically, a representation of the complex interplay of forces and beings in the cosmos."
+    },
+    "Ain": {
+        "definition": "In Kabbalah, the transcendent state of absolute nothingness, limitless non-existence, considered the ultimate mystery from which all being emerges."
+    },
+    "Al-Ghazali": {
+        "definition": "A pivotal Islamic philosopher, theologian, and mystic who reconciled orthodox theology with Sufism, arguing that rationalism must be complemented by direct spiritual experience."
+    },
+    "Albedo": {
+        "definition": "The Whitening. The second alchemical stage, representing the purification of the soul and the dawning of spiritual light after confronting the darkness of the Nigredo."
+    },
+    "Alchemy": {
+        "definition": "A spiritual tradition using the metaphor of chemical processes to describe the transformation of the soul from a state of ignorance (lead) to one of enlightenment and perfection (gold)."
+    },
+    "Algorithm": {
+        "definition": "A finite sequence of well-defined instructions. Universally, the underlying process or 'dharma' governing cosmic operations and natural laws."
+    },
+    "Algorithm Design": {
+        "definition": "The creation of methodical, step-by-step processes to solve computational problems, a rational approach to creating order and achieving specific outcomes."
+    },
+    "Algorithms": {
+        "definition": "Plural of Algorithm. Refers to the set of rules or processes used to perform calculations or solve problems, especially by a computer."
+    },
+    "Allah": {
+        "definition": "The supreme and all-comprehensive name for God in Islam, denoting the one, indivisible, transcendent, and immanent creator of the universe."
+    },
+    "Amplification": {
+        "definition": "The process of increasing the magnitude of a force or signal. Psychologically, making an unconscious content conscious and elaborating on it. Spiritually, the intensification of the divine force (Shakti) within the being."
+    },
+    "Analysis": {
+        "definition": "The process of breaking a complex whole into its constituent parts to gain a better understanding of it, a primary function of the rational mind."
+    },
+    "Anima": {
+        "definition": "The unconscious feminine side of a man, as described in Jungian psychology. An archetypal image of the inner woman that shapes a man's relationships and perceptions of the feminine."
+    },
+    "Anime": {
+        "definition": "A style of animation originating in Japan, characterized by distinct visual aesthetics, narrative conventions, and the exploration of a wide range of genres and themes."
+    },
+    "Animus": {
+        "definition": "The unconscious masculine side of a woman, as described in Jungian psychology. An archetypal image of the inner man that influences a woman's reasoning, assertiveness, and action."
+    },
+    "Archetypes": {
+        "definition": "Universal, primal patterns and images derived from the collective unconscious. Spiritually, they are seen as original formulative truths or powers descending from the Overmind consciousness."
+    },
+    "Architecture": {
+        "definition": "The art and science of designing and constructing buildings and other structures. Metaphorically, the fundamental design of any complex system, from software to the cosmos."
+    },
+    "Art": {
+        "definition": "The expression of human creative skill and imagination, primarily for its beauty or emotional power. Spiritually, it is a seeking for the Divine, the All-Beautiful, through form."
+    },
+    "Artificial Intelligence": {
+        "definition": "The theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, reasoning, and decision-making."
+    },
+    "Artificial Intelligence Development": {
+        "definition": "The process of creating, training, and deploying AI systems, involving algorithm design, data management, and iterative testing."
+    },
+    "Artificial Intelligence Development Process": {
+        "definition": "The systematic workflow for building AI models, encompassing stages from problem scoping and data collection to model training, evaluation, and deployment."
+    },
+    "Asanas": {
+        "definition": "Specific postures in the practice of Yoga, used to bring stability, health, and lightness to the body, preparing it for higher states of consciousness by mastering the physical vehicle."
+    },
+    "Aspects": {
+        "definition": "The different facets of a thing or personality. Universally, the various powers and personalities (e.g., Gods, the four Powers of the Mother) through which the one Divine manifests and relates to the cosmos."
+    },
+    "Assessment": {
+        "definition": "The evaluation or estimation of the nature, quality, or ability of someone or something."
+    },
+    "Asset Creation": {
+        "definition": "The process of producing resources, such as art, sound, or models, for use in a project like a video game or software application."
+    },
+    "Attention Is All You Need": {
+        "definition": "The title of a seminal 2017 research paper that introduced the Transformer architecture, revolutionizing natural language processing by relying solely on attention mechanisms."
+    },
+    "Attribute": {
+        "definition": "A quality or feature regarded as a characteristic or inherent part of someone or something."
+    },
+    "Attributes": {
+        "definition": "The qualities or characteristics of a person, thing, or group. Spiritually, the 'gunas' or modes of Nature (Prakriti) that determine the action and character of all beings and forces."
+    },
+    "Authors": {
+        "definition": "Individuals who write books, articles, or other texts."
+    },
+    "Authors Fuller": {
+        "definition": "R. Buckminster Fuller: An American architect, systems theorist, author, and inventor known for popularizing the geodesic dome and exploring comprehensive, anticipatory design."
+    },
+    "Autoencoders": {
+        "definition": "A type of artificial neural network used for unsupervised learning of efficient data codings, aiming to learn a compressed representation (encoding) of a dataset."
+    },
+    "Automated Planning": {
+        "definition": "A branch of artificial intelligence that concerns the realization of strategies or action sequences for execution by intelligent agents and autonomous systems."
+    },
+    "Automaton": {
+        "definition": "A self-operating machine or mechanism. In formal language theory, an abstract machine that follows a predetermined sequence of operations or responds to predetermined instructions."
+    },
+    "Autonomous AI Agents": {
+        "definition": "Computational systems situated in an environment that are capable of flexible, autonomous action to meet their design objectives."
+    },
+    "Autonomous Agent": {
+        "definition": "A being capable of independent action. Spiritually, this is an illusion in the lower nature where all action is driven by Prakriti; true autonomy is found only in unity with the Divine Will."
+    },
+    "Autonomous Systems": {
+        "definition": "A system that can operate and adapt to changing circumstances without direct human control."
+    },
+    "Axiom": {
+        "definition": "A statement or proposition regarded as being established, accepted, or self-evidently true, serving as a premise for further reasoning."
+    },
+    "BASH": {
+        "definition": "A Unix shell and command language written for the GNU Project as a free software replacement for the Bourne shell."
+    },
+    "Basic Prompting": {
+        "definition": "The fundamental technique of providing a text-based input to a large language model to elicit a desired response."
+    },
+    "Being": {
+        "definition": "Existence. Individually, the conscious self or Purusha. Universally, the sum of all existence (Sat). Transcendentally, the pure, self-existent Reality (Brahman) beyond all manifestation."
+    },
+    "Belief Systems": {
+        "definition": "A set of mutually supportive beliefs that form a framework for understanding reality or for living one's life."
+    },
+    "Bhagavan": {
+        "definition": "A Sanskrit title for a venerable, divine being, often translated as 'Lord' or 'the Blessed One', implying one who possesses all opulences (bhaga) and is the source of all."
+    },
+    "Bhakti Yoga": {
+        "definition": "The spiritual path of love and devotion, which seeks union with the Divine through emotional self-giving, worship, and adoration of a Divine Person."
+    },
+    "Biology": {
+        "definition": "The natural science that studies life and living organisms, including their structure, function, growth, origin, evolution, and distribution."
+    },
+    "Book": {
+        "definition": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers; a primary vehicle for knowledge and narrative."
+    },
+    "Books": {
+        "definition": "Term from the JSON directory."
+    },
+    "Bottom-Up Game Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Brahma": {
+        "definition": "Term from the JSON directory."
+    },
+    "Brahman": {
+        "definition": "Term from the JSON directory."
+    },
+    "Buddha": {
+        "definition": "Term from the JSON directory."
+    },
+    "Buddhism": {
+        "definition": "Term from the JSON directory."
+    },
+    "Buddhist": {
+        "definition": "Term from the JSON directory."
+    },
+    "Building Mechanics": {
+        "definition": "Term from the JSON directory."
+    },
+    "By Count": {
+        "definition": "Term from the JSON directory."
+    },
+    "Capacities": {
+        "definition": "Term from the JSON directory."
+    },
+    "Card Game": {
+        "definition": "Term from the JSON directory."
+    },
+    "Carl Jung": {
+        "definition": "Term from the JSON directory."
+    },
+    "Category": {
+        "definition": "Term from the JSON directory."
+    },
+    "Chain": {
+        "definition": "Term from the JSON directory."
+    },
+    "Chain of Thought": {
+        "definition": "Term from the JSON directory."
+    },
+    "Character Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Chemistry": {
+        "definition": "Term from the JSON directory."
+    },
+    "Christianity": {
+        "definition": "Term from the JSON directory."
+    },
+    "Citrinitas": {
+        "definition": "The Yellowing. The third alchemical stage, symbolizing the dawning of the 'solar light'."
+    },
+    "Class": {
+        "definition": "Term from the JSON directory."
+    },
+    "Classic Books of Artificial Intelligence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Classic Books of Computer Science": {
+        "definition": "Term from the JSON directory."
+    },
+    "Classic Books of Game Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Classic Books of Game Development": {
+        "definition": "Term from the JSON directory."
+    },
+    "Classic Books of Mathematics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Classic Papers of Artificial Intelligence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Classical": {
+        "definition": "Term from the JSON directory."
+    },
+    "Classification": {
+        "definition": "Term from the JSON directory."
+    },
+    "Clause": {
+        "definition": "Term from the JSON directory."
+    },
+    "Clustering": {
+        "definition": "Term from the JSON directory."
+    },
+    "Code Generation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Codebase": {
+        "definition": "Term from the JSON directory."
+    },
+    "Codex": {
+        "definition": "Term from the JSON directory."
+    },
+    "Cognitive Architecture": {
+        "definition": "Term from the JSON directory."
+    },
+    "Cognitive Bottleneck": {
+        "definition": "Term from the JSON directory."
+    },
+    "Cognitive Cycle": {
+        "definition": "Term from the JSON directory."
+    },
+    "Cognitive Science": {
+        "definition": "Term from the JSON directory."
+    },
+    "Collection": {
+        "definition": "Term from the JSON directory."
+    },
+    "Collections": {
+        "definition": "Term from the JSON directory."
+    },
+    "Combat Mechanics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Comedy": {
+        "definition": "Term from the JSON directory."
+    },
+    "Complex Systems": {
+        "definition": "Term from the JSON directory."
+    },
+    "Computer Architecture": {
+        "definition": "Term from the JSON directory."
+    },
+    "Computer Networks": {
+        "definition": "Term from the JSON directory."
+    },
+    "Computer Science": {
+        "definition": "Term from the JSON directory."
+    },
+    "Concept": {
+        "definition": "Term from the JSON directory."
+    },
+    "Concept Development": {
+        "definition": "Term from the JSON directory."
+    },
+    "Concepts": {
+        "definition": "Term from the JSON directory."
+    },
+    "Concepts, Techniques, and Models of Computer Programming": {
+        "definition": "Term from the JSON directory."
+    },
+    "Conditions": {
+        "definition": "Term from the JSON directory."
+    },
+    "Consciousness": {
+        "definition": "Term from the JSON directory."
+    },
+    "Construct": {
+        "definition": "Term from the JSON directory."
+    },
+    "Context": {
+        "definition": "Term from the JSON directory."
+    },
+    "Context Setting": {
+        "definition": "Term from the JSON directory."
+    },
+    "Control Structures": {
+        "definition": "Term from the JSON directory."
+    },
+    "Core Architecture": {
+        "definition": "Term from the JSON directory."
+    },
+    "Core Engagement Cycles": {
+        "definition": "Term from the JSON directory."
+    },
+    "Core Loop": {
+        "definition": "Term from the JSON directory."
+    },
+    "Core Mechanics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Crafting Systems": {
+        "definition": "Term from the JSON directory."
+    },
+    "Creative Freedom": {
+        "definition": "Term from the JSON directory."
+    },
+    "Curriculum Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Cybernetics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Cybersecurity": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Augmentation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Cleaning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Collection": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Formats": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Integration": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Marts": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Mining": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Modeling": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Pipeline": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Profiling": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Quality": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Science": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Sources": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Storytelling": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Structure": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Structures": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Table": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Types": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Warehouse": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data Warehousing": {
+        "definition": "Term from the JSON directory."
+    },
+    "Data-Oriented Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Database": {
+        "definition": "Term from the JSON directory."
+    },
+    "Database Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Database Formats": {
+        "definition": "Term from the JSON directory."
+    },
+    "Database Index Types": {
+        "definition": "Term from the JSON directory."
+    },
+    "Database Management": {
+        "definition": "Term from the JSON directory."
+    },
+    "Database Metadata": {
+        "definition": "Term from the JSON directory."
+    },
+    "Database Migration": {
+        "definition": "Term from the JSON directory."
+    },
+    "Database Paradigms": {
+        "definition": "Term from the JSON directory."
+    },
+    "Database System Concepts": {
+        "definition": "Term from the JSON directory."
+    },
+    "Database Systems": {
+        "definition": "Term from the JSON directory."
+    },
+    "Databases": {
+        "definition": "Term from the JSON directory."
+    },
+    "Dataset": {
+        "definition": "Term from the JSON directory."
+    },
+    "Datatype": {
+        "definition": "Term from the JSON directory."
+    },
+    "Deep Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Deep Structure": {
+        "definition": "Term from the JSON directory."
+    },
+    "Descriptive Metadata": {
+        "definition": "Term from the JSON directory."
+    },
+    "Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Design Patterns": {
+        "definition": "Term from the JSON directory."
+    },
+    "Design Principles": {
+        "definition": "Term from the JSON directory."
+    },
+    "Design Systems": {
+        "definition": "Term from the JSON directory."
+    },
+    "Design Thinking": {
+        "definition": "Term from the JSON directory."
+    },
+    "Deus": {
+        "definition": "Term from the JSON directory."
+    },
+    "Dictionary": {
+        "definition": "Term from the JSON directory."
+    },
+    "Difficulties": {
+        "definition": "Term from the JSON directory."
+    },
+    "Digital Libraries": {
+        "definition": "Term from the JSON directory."
+    },
+    "Dimension": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Abode": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Absolute": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Action": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Actuality": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Aid": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Aspects": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Attributes": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Awareness": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Beauty": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Becoming": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Being": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Beloved": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Blueprint": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Call": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Care": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Child": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Comedy": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Compassion": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Concepts": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Conditions": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Consciousness": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Contemplation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Creation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Delight": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Desitiny": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Discrimination": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Domains": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Drama": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine End": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Essence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Existence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Face": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Forces": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Form": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Formations": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Fundamentals": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Game": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Glory": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Grace": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Guidance": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Help": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Identity": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Intelligence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Intent": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Intervention": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Knowledge": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Law": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Light": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Love": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Manifestation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Mercy": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Mind": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Mother": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Names": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Nature": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Order": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Peace": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Perception": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Perfection": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Person": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Personality": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Plan": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Play": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Potential": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Powers": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Presence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Process": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Protection": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Purpose": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Reality": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Recognition": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Refuge": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Relationship": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Relationships": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Response": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Romance": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Safety": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Sanctuary": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Self": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Sight": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Silence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Substance": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Support": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Symbols": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Symmetry": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Thought": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Titles": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Truth": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Understnading": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Union": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Vision": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Will": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Wisdom": {
+        "definition": "Term from the JSON directory."
+    },
+    "Divine Word": {
+        "definition": "Term from the JSON directory."
+    },
+    "Document Database": {
+        "definition": "Term from the JSON directory."
+    },
+    "Domain": {
+        "definition": "Term from the JSON directory."
+    },
+    "Dublin Core": {
+        "definition": "Term from the JSON directory."
+    },
+    "EIN": {
+        "definition": "Term from the JSON directory."
+    },
+    "Ecology": {
+        "definition": "Term from the JSON directory."
+    },
+    "Education": {
+        "definition": "Term from the JSON directory."
+    },
+    "Educational": {
+        "definition": "Term from the JSON directory."
+    },
+    "Ein Sof": {
+        "definition": "Term from the JSON directory."
+    },
+    "Element": {
+        "definition": "Term from the JSON directory."
+    },
+    "Elementary Mathematics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Elements": {
+        "definition": "Term from the JSON directory."
+    },
+    "Elohim": {
+        "definition": "Term from the JSON directory."
+    },
+    "Emanation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Embedding": {
+        "definition": "Term from the JSON directory."
+    },
+    "Emergence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Emergent Gameplay": {
+        "definition": "Term from the JSON directory."
+    },
+    "Emotional Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Encyclopedia": {
+        "definition": "Term from the JSON directory."
+    },
+    "Engineering": {
+        "definition": "Term from the JSON directory."
+    },
+    "Engines": {
+        "definition": "Term from the JSON directory."
+    },
+    "English": {
+        "definition": "Term from the JSON directory."
+    },
+    "Entities": {
+        "definition": "Term from the JSON directory."
+    },
+    "Entity-Component-System (ECS)": {
+        "definition": "Term from the JSON directory."
+    },
+    "Environment": {
+        "definition": "Term from the JSON directory."
+    },
+    "Epoch": {
+        "definition": "Term from the JSON directory."
+    },
+    "Essence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Evaluation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Event Store": {
+        "definition": "Term from the JSON directory."
+    },
+    "Event System": {
+        "definition": "Term from the JSON directory."
+    },
+    "Example": {
+        "definition": "Term from the JSON directory."
+    },
+    "Executive Function": {
+        "definition": "Term from the JSON directory."
+    },
+    "Experiments": {
+        "definition": "Term from the JSON directory."
+    },
+    "Expert Systems": {
+        "definition": "Term from the JSON directory."
+    },
+    "Faculties": {
+        "definition": "Term from the JSON directory."
+    },
+    "Favorites": {
+        "definition": "Term from the JSON directory."
+    },
+    "Feature Extraction": {
+        "definition": "Term from the JSON directory."
+    },
+    "Feature Selection": {
+        "definition": "Term from the JSON directory."
+    },
+    "Few-Shot Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Fiction": {
+        "definition": "Term from the JSON directory."
+    },
+    "Field": {
+        "definition": "Term from the JSON directory."
+    },
+    "First-Order Logic": {
+        "definition": "Term from the JSON directory."
+    },
+    "Framework": {
+        "definition": "Term from the JSON directory."
+    },
+    "Function": {
+        "definition": "Term from the JSON directory."
+    },
+    "Functional Programming": {
+        "definition": "Term from the JSON directory."
+    },
+    "Functions": {
+        "definition": "Term from the JSON directory."
+    },
+    "Fundamentals of Database Systems": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Analysis": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Architecture": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Architecture and Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Concept": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Conceptualization": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Design Document": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Design Frameworks": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Design Fundamentals": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Design Principles": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Design Process": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Development": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Development Process": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Dynamics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Engine": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Feel": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Genres": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Loop": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Mechanics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Pillars": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Programming": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Programming Patterns": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Rules": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Spirit": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game State": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Studies": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game System Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Systems": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Theory": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Tools": {
+        "definition": "Term from the JSON directory."
+    },
+    "Game Vision": {
+        "definition": "Term from the JSON directory."
+    },
+    "Gameplay": {
+        "definition": "Term from the JSON directory."
+    },
+    "Games": {
+        "definition": "Term from the JSON directory."
+    },
+    "Gamessuite": {
+        "definition": "Term from the JSON directory."
+    },
+    "Garden": {
+        "definition": "Term from the JSON directory."
+    },
+    "Generative Model": {
+        "definition": "Term from the JSON directory."
+    },
+    "Genetic Algorithms": {
+        "definition": "Term from the JSON directory."
+    },
+    "Genre": {
+        "definition": "Term from the JSON directory."
+    },
+    "Genres": {
+        "definition": "Term from the JSON directory."
+    },
+    "God": {
+        "definition": "Term from the JSON directory."
+    },
+    "Gods": {
+        "definition": "Term from the JSON directory."
+    },
+    "Govinda": {
+        "definition": "Term from the JSON directory."
+    },
+    "Grade 1 Mathematics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Grades": {
+        "definition": "Term from the JSON directory."
+    },
+    "Grades of Artificial Intelligence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Grades of Computer Science": {
+        "definition": "Term from the JSON directory."
+    },
+    "Grades of English": {
+        "definition": "Term from the JSON directory."
+    },
+    "Grades of Game Development": {
+        "definition": "Term from the JSON directory."
+    },
+    "Grades of God": {
+        "definition": "Term from the JSON directory."
+    },
+    "Grades of Mathematics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Grades of consciousness": {
+        "definition": "Term from the JSON directory."
+    },
+    "Grammar": {
+        "definition": "Term from the JSON directory."
+    },
+    "Graph Database": {
+        "definition": "Term from the JSON directory."
+    },
+    "Graphs": {
+        "definition": "Term from the JSON directory."
+    },
+    "Great Work": {
+        "definition": "Term from the JSON directory."
+    },
+    "Guru Yoga": {
+        "definition": "Term from the JSON directory."
+    },
+    "Hacking": {
+        "definition": "Term from the JSON directory."
+    },
+    "Hafez": {
+        "definition": "Term from the JSON directory."
+    },
+    "Haqq": {
+        "definition": "Term from the JSON directory."
+    },
+    "Heaven": {
+        "definition": "Term from the JSON directory."
+    },
+    "Hierarchy": {
+        "definition": "Term from the JSON directory."
+    },
+    "Higher Self": {
+        "definition": "Term from the JSON directory."
+    },
+    "Hinduism": {
+        "definition": "Term from the JSON directory."
+    },
+    "Humans": {
+        "definition": "Term from the JSON directory."
+    },
+    "Ibn Arabi": {
+        "definition": "Term from the JSON directory."
+    },
+    "Idea": {
+        "definition": "Term from the JSON directory."
+    },
+    "Ideal": {
+        "definition": "Term from the JSON directory."
+    },
+    "Ideation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Identity": {
+        "definition": "Term from the JSON directory."
+    },
+    "Idle-Incremental": {
+        "definition": "Term from the JSON directory."
+    },
+    "Implication": {
+        "definition": "Term from the JSON directory."
+    },
+    "Index": {
+        "definition": "Term from the JSON directory."
+    },
+    "Indras Net": {
+        "definition": "Term from the JSON directory."
+    },
+    "Infinite Structure": {
+        "definition": "Term from the JSON directory."
+    },
+    "Informatics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Information": {
+        "definition": "Term from the JSON directory."
+    },
+    "Information Retrieval": {
+        "definition": "Term from the JSON directory."
+    },
+    "Information Science": {
+        "definition": "Term from the JSON directory."
+    },
+    "Information Security": {
+        "definition": "Term from the JSON directory."
+    },
+    "Information Theory": {
+        "definition": "Term from the JSON directory."
+    },
+    "Inheritance": {
+        "definition": "Term from the JSON directory."
+    },
+    "Injunction": {
+        "definition": "Term from the JSON directory."
+    },
+    "Injunctions": {
+        "definition": "Term from the JSON directory."
+    },
+    "Integral Theory": {
+        "definition": "Term from the JSON directory."
+    },
+    "Integral Yoga": {
+        "definition": "Term from the JSON directory."
+    },
+    "Integration": {
+        "definition": "Term from the JSON directory."
+    },
+    "Interface": {
+        "definition": "Term from the JSON directory."
+    },
+    "Interpreter": {
+        "definition": "Term from the JSON directory."
+    },
+    "Involution": {
+        "definition": "Term from the JSON directory."
+    },
+    "Ishvara": {
+        "definition": "Term from the JSON directory."
+    },
+    "Isomorphism": {
+        "definition": "Term from the JSON directory."
+    },
+    "Iterative Prototyping": {
+        "definition": "Term from the JSON directory."
+    },
+    "J": {
+        "definition": "Term from the JSON directory."
+    },
+    "JSON": {
+        "definition": "Term from the JSON directory."
+    },
+    "Jalaluddin Rumi": {
+        "definition": "Term from the JSON directory."
+    },
+    "Javascript": {
+        "definition": "Term from the JSON directory."
+    },
+    "Jesus": {
+        "definition": "Term from the JSON directory."
+    },
+    "Jnana Yoga": {
+        "definition": "Term from the JSON directory."
+    },
+    "Josh DB": {
+        "definition": "Term from the JSON directory."
+    },
+    "Josh Games": {
+        "definition": "Term from the JSON directory."
+    },
+    "Josh Programs": {
+        "definition": "Term from the JSON directory."
+    },
+    "Josh Projects": {
+        "definition": "Term from the JSON directory."
+    },
+    "Judaism": {
+        "definition": "Term from the JSON directory."
+    },
+    "Juice": {
+        "definition": "Term from the JSON directory."
+    },
+    "Kabbalah": {
+        "definition": "Term from the JSON directory."
+    },
+    "Kalidasa": {
+        "definition": "Term from the JSON directory."
+    },
+    "Karma Yoga": {
+        "definition": "Term from the JSON directory."
+    },
+    "Key-Value Store": {
+        "definition": "Term from the JSON directory."
+    },
+    "Kingdom": {
+        "definition": "Term from the JSON directory."
+    },
+    "Knowledge": {
+        "definition": "Term from the JSON directory."
+    },
+    "Knowledge Base": {
+        "definition": "Term from the JSON directory."
+    },
+    "Knowledge Graph": {
+        "definition": "Term from the JSON directory."
+    },
+    "Knowledge Representation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Krishna": {
+        "definition": "Term from the JSON directory."
+    },
+    "Lambda": {
+        "definition": "Term from the JSON directory."
+    },
+    "Lambda Calculus": {
+        "definition": "Term from the JSON directory."
+    },
+    "Language": {
+        "definition": "Term from the JSON directory."
+    },
+    "Layer": {
+        "definition": "Term from the JSON directory."
+    },
+    "Level": {
+        "definition": "Term from the JSON directory."
+    },
+    "Level Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Lexeme": {
+        "definition": "Term from the JSON directory."
+    },
+    "Lexicon": {
+        "definition": "Term from the JSON directory."
+    },
+    "Library Science": {
+        "definition": "Term from the JSON directory."
+    },
+    "Lila": {
+        "definition": "Term from the JSON directory."
+    },
+    "Links": {
+        "definition": "Term from the JSON directory."
+    },
+    "Lists": {
+        "definition": "Term from the JSON directory."
+    },
+    "Literature": {
+        "definition": "Term from the JSON directory."
+    },
+    "Logic Programming": {
+        "definition": "Term from the JSON directory."
+    },
+    "Logos": {
+        "definition": "Term from the JSON directory."
+    },
+    "Loka": {
+        "definition": "Term from the JSON directory."
+    },
+    "MDA Framework": {
+        "definition": "Term from the JSON directory."
+    },
+    "Machine Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Machine Learning Basics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Magic Systems": {
+        "definition": "Term from the JSON directory."
+    },
+    "Maimonides": {
+        "definition": "Term from the JSON directory."
+    },
+    "Manifold": {
+        "definition": "Term from the JSON directory."
+    },
+    "Map": {
+        "definition": "Term from the JSON directory."
+    },
+    "Mathematics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Matrix": {
+        "definition": "Term from the JSON directory."
+    },
+    "Meaning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Media": {
+        "definition": "Term from the JSON directory."
+    },
+    "Meditation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Medium": {
+        "definition": "Term from the JSON directory."
+    },
+    "Mental Being": {
+        "definition": "Term from the JSON directory."
+    },
+    "Meta-Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Metaclass": {
+        "definition": "Term from the JSON directory."
+    },
+    "Metadata": {
+        "definition": "Term from the JSON directory."
+    },
+    "Metadata Management": {
+        "definition": "Term from the JSON directory."
+    },
+    "Metaobject": {
+        "definition": "Term from the JSON directory."
+    },
+    "Metaprogramming": {
+        "definition": "Term from the JSON directory."
+    },
+    "Method": {
+        "definition": "Term from the JSON directory."
+    },
+    "Mind": {
+        "definition": "Term from the JSON directory."
+    },
+    "Minimum Viable Product": {
+        "definition": "Term from the JSON directory."
+    },
+    "Mirror": {
+        "definition": "Term from the JSON directory."
+    },
+    "Model Architecture": {
+        "definition": "Term from the JSON directory."
+    },
+    "Modularity": {
+        "definition": "Term from the JSON directory."
+    },
+    "Module": {
+        "definition": "Term from the JSON directory."
+    },
+    "Module Decoupling": {
+        "definition": "Term from the JSON directory."
+    },
+    "Morpheme": {
+        "definition": "Term from the JSON directory."
+    },
+    "Morphology": {
+        "definition": "Term from the JSON directory."
+    },
+    "Mudras": {
+        "definition": "Term from the JSON directory."
+    },
+    "Mysticism": {
+        "definition": "Term from the JSON directory."
+    },
+    "Names of God": {
+        "definition": "Term from the JSON directory."
+    },
+    "Namespace": {
+        "definition": "Term from the JSON directory."
+    },
+    "Narrow Intelligence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Natural Language Processing": {
+        "definition": "Term from the JSON directory."
+    },
+    "Network": {
+        "definition": "Term from the JSON directory."
+    },
+    "Networks": {
+        "definition": "Term from the JSON directory."
+    },
+    "Neural Architecture": {
+        "definition": "Term from the JSON directory."
+    },
+    "Neural Networks": {
+        "definition": "Term from the JSON directory."
+    },
+    "Nexus": {
+        "definition": "Term from the JSON directory."
+    },
+    "Nigredo": {
+        "definition": "The Blackening / The Darkening. The first alchemical stage of confronting the Shadow."
+    },
+    "Object": {
+        "definition": "Term from the JSON directory."
+    },
+    "Object Database": {
+        "definition": "Term from the JSON directory."
+    },
+    "Object-Oriented Programming (OOP)": {
+        "definition": "Term from the JSON directory."
+    },
+    "Objects": {
+        "definition": "Term from the JSON directory."
+    },
+    "Occultism": {
+        "definition": "Term from the JSON directory."
+    },
+    "Ontology": {
+        "definition": "Term from the JSON directory."
+    },
+    "Open World": {
+        "definition": "Term from the JSON directory."
+    },
+    "Operating Systems": {
+        "definition": "Term from the JSON directory."
+    },
+    "Operation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Order": {
+        "definition": "Term from the JSON directory."
+    },
+    "Output Formatting": {
+        "definition": "Term from the JSON directory."
+    },
+    "Overview of Artificial Intelligence": {
+        "definition": "Term from the JSON directory."
+    },
+    "Panini": {
+        "definition": "Term from the JSON directory."
+    },
+    "Papers": {
+        "definition": "Term from the JSON directory."
+    },
+    "Paradigm": {
+        "definition": "Term from the JSON directory."
+    },
+    "Paradise": {
+        "definition": "Term from the JSON directory."
+    },
+    "Parts of Being": {
+        "definition": "Term from the JSON directory."
+    },
+    "Parts of the Being": {
+        "definition": "Term from the JSON directory."
+    },
+    "Patanjali": {
+        "definition": "Term from the JSON directory."
+    },
+    "Pattern": {
+        "definition": "Term from the JSON directory."
+    },
+    "Pattern Discovery": {
+        "definition": "Term from the JSON directory."
+    },
+    "Philosophy": {
+        "definition": "Term from the JSON directory."
+    },
+    "Phonology": {
+        "definition": "Term from the JSON directory."
+    },
+    "Physics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Place": {
+        "definition": "Term from the JSON directory."
+    },
+    "Places": {
+        "definition": "Term from the JSON directory."
+    },
+    "Plane": {
+        "definition": "Term from the JSON directory."
+    },
+    "Plato": {
+        "definition": "Term from the JSON directory."
+    },
+    "Player Agency": {
+        "definition": "Term from the JSON directory."
+    },
+    "Player Experience": {
+        "definition": "Term from the JSON directory."
+    },
+    "Player Fantasy": {
+        "definition": "Term from the JSON directory."
+    },
+    "Player Psychology": {
+        "definition": "Term from the JSON directory."
+    },
+    "Player Types": {
+        "definition": "Term from the JSON directory."
+    },
+    "Player-Centric Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Poetry": {
+        "definition": "Term from the JSON directory."
+    },
+    "Policy": {
+        "definition": "Term from the JSON directory."
+    },
+    "Portal": {
+        "definition": "Term from the JSON directory."
+    },
+    "Potentiality": {
+        "definition": "Term from the JSON directory."
+    },
+    "Power": {
+        "definition": "Term from the JSON directory."
+    },
+    "Predicate": {
+        "definition": "Term from the JSON directory."
+    },
+    "Principle": {
+        "definition": "Term from the JSON directory."
+    },
+    "Principles": {
+        "definition": "Term from the JSON directory."
+    },
+    "Problem Scoping": {
+        "definition": "Term from the JSON directory."
+    },
+    "Procedural Abstraction": {
+        "definition": "Term from the JSON directory."
+    },
+    "Procedural Generation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Process": {
+        "definition": "Term from the JSON directory."
+    },
+    "Professions": {
+        "definition": "Term from the JSON directory."
+    },
+    "Programming Language": {
+        "definition": "Term from the JSON directory."
+    },
+    "Programming Languages": {
+        "definition": "Term from the JSON directory."
+    },
+    "Programming Paradigm": {
+        "definition": "Term from the JSON directory."
+    },
+    "Programs": {
+        "definition": "Term from the JSON directory."
+    },
+    "Progression Systems": {
+        "definition": "Term from the JSON directory."
+    },
+    "Project Management": {
+        "definition": "Term from the JSON directory."
+    },
+    "Projects": {
+        "definition": "Term from the JSON directory."
+    },
+    "Prompt Automation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Prompt Engineering": {
+        "definition": "Term from the JSON directory."
+    },
+    "Property": {
+        "definition": "Term from the JSON directory."
+    },
+    "Protocol": {
+        "definition": "Term from the JSON directory."
+    },
+    "Prototyping": {
+        "definition": "Term from the JSON directory."
+    },
+    "Proverbs": {
+        "definition": "Term from the JSON directory."
+    },
+    "Psychic Being": {
+        "definition": "Term from the JSON directory."
+    },
+    "Psychometrics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Psychotherapy": {
+        "definition": "Term from the JSON directory."
+    },
+    "Purely Functional Data Structures": {
+        "definition": "Term from the JSON directory."
+    },
+    "Python": {
+        "definition": "Term from the JSON directory."
+    },
+    "Q-Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Quality": {
+        "definition": "Term from the JSON directory."
+    },
+    "Quality Metrics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Questions": {
+        "definition": "Term from the JSON directory."
+    },
+    "Quotes": {
+        "definition": "Term from the JSON directory."
+    },
+    "Ra": {
+        "definition": "Term from the JSON directory."
+    },
+    "Raja Yoga": {
+        "definition": "Term from the JSON directory."
+    },
+    "Reality": {
+        "definition": "Term from the JSON directory."
+    },
+    "Reinforcement Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Relational Database": {
+        "definition": "Term from the JSON directory."
+    },
+    "Relational Model": {
+        "definition": "Term from the JSON directory."
+    },
+    "Religion": {
+        "definition": "Term from the JSON directory."
+    },
+    "Representation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Representation Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Research": {
+        "definition": "Term from the JSON directory."
+    },
+    "Resonance": {
+        "definition": "Term from the JSON directory."
+    },
+    "Retention Hooks": {
+        "definition": "Term from the JSON directory."
+    },
+    "Retrieval-Augmented Few-Shot": {
+        "definition": "Term from the JSON directory."
+    },
+    "Retro Game Dev": {
+        "definition": "Term from the JSON directory."
+    },
+    "Reward Modeling": {
+        "definition": "Term from the JSON directory."
+    },
+    "Roguelike": {
+        "definition": "Term from the JSON directory."
+    },
+    "Role Prompting": {
+        "definition": "Term from the JSON directory."
+    },
+    "Role-Playing Games": {
+        "definition": "Term from the JSON directory."
+    },
+    "Rubedo": {
+        "definition": "The Reddening. The final alchemical stage, representing the successful unification of opposites."
+    },
+    "Rumi": {
+        "definition": "Term from the JSON directory."
+    },
+    "Saint Augustine": {
+        "definition": "Term from the JSON directory."
+    },
+    "Saint Thomas Aquinas": {
+        "definition": "Term from the JSON directory."
+    },
+    "Saints": {
+        "definition": "Term from the JSON directory."
+    },
+    "Sandbox": {
+        "definition": "Term from the JSON directory."
+    },
+    "Sanskrit": {
+        "definition": "Term from the JSON directory."
+    },
+    "Sat-Chit-Ananda": {
+        "definition": "Term from the JSON directory."
+    },
+    "Scaffolding": {
+        "definition": "Term from the JSON directory."
+    },
+    "Scene Graph": {
+        "definition": "Term from the JSON directory."
+    },
+    "Schema": {
+        "definition": "Term from the JSON directory."
+    },
+    "School": {
+        "definition": "Term from the JSON directory."
+    },
+    "Science": {
+        "definition": "Term from the JSON directory."
+    },
+    "Scope": {
+        "definition": "Term from the JSON directory."
+    },
+    "Scripting Languages": {
+        "definition": "Term from the JSON directory."
+    },
+    "Scripting Layer": {
+        "definition": "Term from the JSON directory."
+    },
+    "Scripts": {
+        "definition": "Term from the JSON directory."
+    },
+    "Scripture": {
+        "definition": "Term from the JSON directory."
+    },
+    "Self": {
+        "definition": "Term from the JSON directory."
+    },
+    "Self-Improving Agents": {
+        "definition": "Term from the JSON directory."
+    },
+    "Self-Organization": {
+        "definition": "Term from the JSON directory."
+    },
+    "Semantics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Semiotics": {
+        "definition": "Term from the JSON directory."
+    },
+    "Serialization": {
+        "definition": "Term from the JSON directory."
+    },
+    "Shadow Work": {
+        "definition": "The process of exploring one's unconscious mind to uncover the repressed parts of the self."
+    },
+    "Shakti": {
+        "definition": "Term from the JSON directory."
+    },
+    "Shiva": {
+        "definition": "Term from the JSON directory."
+    },
+    "Siddhis": {
+        "definition": "Term from the JSON directory."
+    },
+    "Sikhism": {
+        "definition": "Term from the JSON directory."
+    },
+    "Simulation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Skill": {
+        "definition": "Term from the JSON directory."
+    },
+    "Software Architecture": {
+        "definition": "Term from the JSON directory."
+    },
+    "Software Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Software Development": {
+        "definition": "Term from the JSON directory."
+    },
+    "Software Engineering": {
+        "definition": "Term from the JSON directory."
+    },
+    "Space": {
+        "definition": "Term from the JSON directory."
+    },
+    "Spatial Database": {
+        "definition": "Term from the JSON directory."
+    },
+    "Sphere": {
+        "definition": "Term from the JSON directory."
+    },
+    "Spheres": {
+        "definition": "Term from the JSON directory."
+    },
+    "Sri Aurobindo": {
+        "definition": "Term from the JSON directory."
+    },
+    "Stack": {
+        "definition": "Term from the JSON directory."
+    },
+    "Standard Operating Procedure": {
+        "definition": "Term from the JSON directory."
+    },
+    "State": {
+        "definition": "Term from the JSON directory."
+    },
+    "Stored Procedures": {
+        "definition": "Term from the JSON directory."
+    },
+    "Storytelling": {
+        "definition": "Term from the JSON directory."
+    },
+    "Strings": {
+        "definition": "Term from the JSON directory."
+    },
+    "Structural Mapping": {
+        "definition": "Term from the JSON directory."
+    },
+    "Structural Metadata": {
+        "definition": "Term from the JSON directory."
+    },
+    "Structure": {
+        "definition": "Term from the JSON directory."
+    },
+    "Structure and Interpretation of Computer Programs": {
+        "definition": "Term from the JSON directory."
+    },
+    "Structured Prompts": {
+        "definition": "Term from the JSON directory."
+    },
+    "Style": {
+        "definition": "Term from the JSON directory."
+    },
+    "Subject": {
+        "definition": "Term from the JSON directory."
+    },
+    "Subjects": {
+        "definition": "Term from the JSON directory."
+    },
+    "Sufism": {
+        "definition": "Term from the JSON directory."
+    },
+    "Supermind": {
+        "definition": "Term from the JSON directory."
+    },
+    "Supervised Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Supreme Being": {
+        "definition": "Term from the JSON directory."
+    },
+    "Symbol": {
+        "definition": "Term from the JSON directory."
+    },
+    "Symbolic Processing": {
+        "definition": "Term from the JSON directory."
+    },
+    "Synergy": {
+        "definition": "Term from the JSON directory."
+    },
+    "Syntax": {
+        "definition": "Term from the JSON directory."
+    },
+    "Synthesis": {
+        "definition": "Term from the JSON directory."
+    },
+    "System": {
+        "definition": "Term from the JSON directory."
+    },
+    "System Interaction": {
+        "definition": "Term from the JSON directory."
+    },
+    "Systems Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Systems Programming": {
+        "definition": "Term from the JSON directory."
+    },
+    "Systems Science": {
+        "definition": "Term from the JSON directory."
+    },
+    "Table": {
+        "definition": "Term from the JSON directory."
+    },
+    "Table Metadata": {
+        "definition": "Term from the JSON directory."
+    },
+    "Table of Contents": {
+        "definition": "Term from the JSON directory."
+    },
+    "Tabletop Games": {
+        "definition": "Term from the JSON directory."
+    },
+    "Tao": {
+        "definition": "Term from the JSON directory."
+    },
+    "Taoism": {
+        "definition": "Term from the JSON directory."
+    },
+    "Task-Agnostic Prompts": {
+        "definition": "Term from the JSON directory."
+    },
+    "Teaching Method": {
+        "definition": "Term from the JSON directory."
+    },
+    "Technique": {
+        "definition": "Term from the JSON directory."
+    },
+    "Template Creation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Temple": {
+        "definition": "Term from the JSON directory."
+    },
+    "Test": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Adorable": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Art of Computer Game Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Art of Computer Programming": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Art of Game Design: A Book of Lenses": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Eternal": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Infinite Garden": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Infinite Library": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Infinite School": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Mother": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Pragmatic Programmer": {
+        "definition": "Term from the JSON directory."
+    },
+    "The Self": {
+        "definition": "Term from the JSON directory."
+    },
+    "Theology": {
+        "definition": "Term from the JSON directory."
+    },
+    "Theoretical Foundations": {
+        "definition": "Term from the JSON directory."
+    },
+    "Theory": {
+        "definition": "Term from the JSON directory."
+    },
+    "Theory of Computation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Theos": {
+        "definition": "Term from the JSON directory."
+    },
+    "Thing": {
+        "definition": "Term from the JSON directory."
+    },
+    "Thought Experiments": {
+        "definition": "Term from the JSON directory."
+    },
+    "Threshold": {
+        "definition": "Term from the JSON directory."
+    },
+    "Throne": {
+        "definition": "Term from the JSON directory."
+    },
+    "Tiamat": {
+        "definition": "Term from the JSON directory."
+    },
+    "Tian": {
+        "definition": "Term from the JSON directory."
+    },
+    "Tibetan Buddhism": {
+        "definition": "Term from the JSON directory."
+    },
+    "Time": {
+        "definition": "Term from the JSON directory."
+    },
+    "Titles": {
+        "definition": "Term from the JSON directory."
+    },
+    "Tool-based Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Top-Down Game Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "Topic": {
+        "definition": "Term from the JSON directory."
+    },
+    "Tower Defense": {
+        "definition": "Term from the JSON directory."
+    },
+    "TownHub": {
+        "definition": "Term from the JSON directory."
+    },
+    "Training Data": {
+        "definition": "Term from the JSON directory."
+    },
+    "Training Objectives": {
+        "definition": "Term from the JSON directory."
+    },
+    "Training Phase": {
+        "definition": "Term from the JSON directory."
+    },
+    "Transfer Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "Transformer Architecture": {
+        "definition": "Term from the JSON directory."
+    },
+    "Transformers": {
+        "definition": "Term from the JSON directory."
+    },
+    "Triple Transformation": {
+        "definition": "Term from the JSON directory."
+    },
+    "Types and Programming Languages": {
+        "definition": "Term from the JSON directory."
+    },
+    "Types of Computer Programs": {
+        "definition": "Term from the JSON directory."
+    },
+    "Unsupervised Learning": {
+        "definition": "Term from the JSON directory."
+    },
+    "User Experience": {
+        "definition": "Term from the JSON directory."
+    },
+    "Valmiki": {
+        "definition": "Term from the JSON directory."
+    },
+    "Value": {
+        "definition": "Term from the JSON directory."
+    },
+    "Value Function": {
+        "definition": "Term from the JSON directory."
+    },
+    "Vector": {
+        "definition": "Term from the JSON directory."
+    },
+    "Vector Database": {
+        "definition": "Term from the JSON directory."
+    },
+    "Vector Databases": {
+        "definition": "Term from the JSON directory."
+    },
+    "Videogame Development": {
+        "definition": "Term from the JSON directory."
+    },
+    "Videogame Development Process": {
+        "definition": "Term from the JSON directory."
+    },
+    "Videogames": {
+        "definition": "Term from the JSON directory."
+    },
+    "Vishnu": {
+        "definition": "Term from the JSON directory."
+    },
+    "Vital Being": {
+        "definition": "Term from the JSON directory."
+    },
+    "Vocabulary": {
+        "definition": "Term from the JSON directory."
+    },
+    "Vyasa": {
+        "definition": "Term from the JSON directory."
+    },
+    "Web": {
+        "definition": "Term from the JSON directory."
+    },
+    "Web Development": {
+        "definition": "Term from the JSON directory."
+    },
+    "Website": {
+        "definition": "Term from the JSON directory."
+    },
+    "Websites": {
+        "definition": "Term from the JSON directory."
+    },
+    "Websites full": {
+        "definition": "Term from the JSON directory."
+    },
+    "Weights": {
+        "definition": "Term from the JSON directory."
+    },
+    "World Design": {
+        "definition": "Term from the JSON directory."
+    },
+    "World-building": {
+        "definition": "Term from the JSON directory."
+    },
+    "Worldbuilding": {
+        "definition": "Term from the JSON directory."
+    },
+    "YHWH": {
+        "definition": "Term from the JSON directory."
+    },
+    "Yoga": {
+        "definition": "Term from the JSON directory."
+    },
+    "Yoga Sutras": {
+        "definition": "Term from the JSON directory."
+    },
+    "Zen": {
+        "definition": "Term from the JSON directory."
+    },
+    "theinfinitelibrary.net": {
+        "definition": "Term from the JSON directory."
+    },
+    "Hope": {
+        "definition": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "Vanilla Autoencoder": { "quote": "Encoder ϕ: X → Z, Decoder ψ: Z → X; Reconstruction loss: ||X - ψ(ϕ(X))||² (Hinton & Salakhutdinov, 2006)." },
+  "Denoising Autoencoder": { "quote": "Robust representations via corrupted input: argmin_θ 𝔼[||X - ψ(ϕ(Ẋ))||²], where Ẋ = X + noise (Vincent et al., 2008)." },
+  "Sparse Autoencoder": { "quote": "Regularized hidden activations: Loss = ||X - ψ(ϕ(X))||² + λ||ϕ(X)||₁ (Ng, 2011)." },
+  "Variational Autoencoder (VAE)": { "quote": "Probabilistic latent space: 𝔼[log p(X|Z)] - D_KL(q(Z|X) || p(Z)) (Kingma & Welling, 2013)." },
+  "Convolutional Autoencoder": { "quote": "Encoder: Conv layers → Latent code; Decoder: Transposed Conv layers → Reconstruction (Masci et al., 2011)." },
+  "Contractive Autoencoder": { "quote": "Jacobian penalty for invariance: Loss = Reconstruction + λ||Jϕ(X)||² (Rifai et al., 2011)." },
+  "Stacked Autoencoder": { "quote": "Layer-wise pretraining: Greedy unsupervised initialization for deep networks (Bengio et al., 2007)." },
+  "LSTM Autoencoder": { "quote": "Sequential data encoding/decoding: h_t = LSTM(x_t, h_{t-1}); Reconstructs time series via reversed LSTM." },
+  "Anomaly Detection": { "quote": "High reconstruction error → Outlier: Threshold(||X - ψ(ϕ(X))||²) > ϵ (Chandola et al., 2009)." },
+  "Dimensionality Reduction": { "quote": "Latent space Z (dim ≪ X) preserves essential features (similar to PCA but nonlinear)." },
+  "Image Compression": { "quote": "Bottleneck layer Z stores compressed representations: JPEG2000 vs. AE-based methods (Theis et al., 2017)." },
+  "Feature Learning": { "quote": "Latent embeddings Z transfer to supervised tasks (e.g., pretraining for classification)." },
+  "Deep Generative Models": { "quote": "VAEs sample Z ∼ p(Z) → Generate new X = ψ(Z) (Kingma & Welling, 2013)." },
+  "Adversarial Autoencoder": { "quote": "Align q(Z) with prior p(Z) via GAN: min_G max_D 𝔼[log D(Z)] + 𝔼[log(1 - D(G(X)))]. (Makhzani et al., 2015)." },
+  "Hyperparameter Tuning": { "quote": "Bottleneck size, λ (regularization), and activation functions (ReLU, sigmoid) govern performance." },
+  "Applications": { "quote": "Image denoising, recommendation systems, and bioinformatics feature extraction." }
+}

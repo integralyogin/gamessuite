@@ -1,0 +1,287 @@
+{
+  "Monastery": {
+    "short_description": "Religious community where monks or nuns live in seclusion under spiritual rules."
+  },
+  "Ashram": {
+    "short_description": "Hindu spiritual hermitage or monastery, often centered around a guru."
+  },
+  "Seminary": {
+    "short_description": "Educational institution for training religious leaders and theologians."
+  },
+  "Temple": {
+    "short_description": "Place of worship and spiritual practice in various religious traditions."
+  },
+  "Mosque": {
+    "short_description": "Islamic place of worship and community gathering."
+  },
+  "Church": {
+    "short_description": "Christian place of worship and religious organization."
+  },
+  "Synagogue": {
+    "short_description": "Jewish house of worship and community center."
+  },
+  "Order": {
+    "short_description": "Organized body of people dedicated to spiritual, religious, or philosophical principles."
+  },
+  "Brotherhood": {
+    "short_description": "Community united by spiritual, philosophical, or social bonds."
+  },
+  "Sisterhood": {
+    "short_description": "Female religious or spiritual community living under shared principles."
+  },
+  "Sangha": {
+    "short_description": "Buddhist community of monks, nuns, and practitioners."
+  },
+  "Congregation": {
+    "short_description": "Assembly of people gathered for religious worship."
+  },
+  "Diocese": {
+    "short_description": "Administrative district under bishop's jurisdiction in Christian churches."
+  },
+  "Parish": {
+    "short_description": "Local church community or administrative district."
+  },
+  "Mission": {
+    "short_description": "Religious or spiritual outreach establishment."
+  },
+  "Cult": {
+    "short_description": "Devoted following around particular beliefs, often with unconventional practices."
+  },
+  "Sect": {
+    "short_description": "Group that has separated from larger religious organization over beliefs."
+  },
+  "Denomination": {
+    "short_description": "Recognized autonomous branch of larger religious faith."
+  },
+  "Circle": {
+    "short_description": "Intimate group gathering for spiritual or esoteric practices."
+  },
+  "Coven": {
+    "short_description": "Group of witches or pagans meeting for rituals and ceremonies."
+  },
+  "Lodge": {
+    "short_description": "Local chapter of fraternal or spiritual organization."
+  },
+  "School": {
+    "short_description": "Group following particular spiritual or philosophical teaching tradition."
+  },
+  "Society": {
+    "short_description": "Organized group sharing common spiritual or mystical interests."
+  },
+  "Fellowship": {
+    "short_description": "Community united by shared spiritual beliefs or practices."
+  },
+  "Coalition": {
+    "short_description": "Temporary alliance of distinct groups for common purpose."
+  },
+  "Movement": {
+    "short_description": "Organized effort to promote shared spiritual or social ideals."
+  },
+  "Foundation": {
+    "short_description": "Established organization supporting spiritual or charitable work."
+  },
+  "Center": {
+    "short_description": "Facility dedicated to spiritual practice, learning, or healing."
+  },
+  "Institute": {
+    "short_description": "Organization devoted to special spiritual or educational purpose."
+  },
+  "Academy": {
+    "short_description": "School for specialized spiritual or esoteric training."
+  },
+  "Hermitage": {
+    "short_description": "Dwelling place of religious recluse or small spiritual community."
+  },
+  "Sanctuary": {
+    "short_description": "Sacred space for worship, refuge, or spiritual practice."
+  },
+  "Retreat": {
+    "short_description": "Place for spiritual withdrawal and contemplation."
+  },
+  "Community": {
+    "short_description": "Group living together sharing spiritual or religious values."
+  },
+  "Council": {
+    "short_description": "Governing body of religious or spiritual organization."
+  },
+  "Chapter": {
+    "short_description": "Local branch of larger religious or spiritual organization."
+  },
+  "Ministry": {
+    "short_description": "Religious service organization or department."
+  },
+  "Covenant": {
+    "short_description": "Formal agreement binding religious or spiritual community."
+  },
+  "League": {
+    "short_description": "Association of spiritual or religious groups for common purpose."
+  },
+  "Network": {
+    "short_description": "Interconnected group of spiritual organizations or practitioners."
+  },
+  "Guild": {
+    "short_description": "Association of spiritual practitioners sharing common practices."
+  },
+  "Assembly": {
+    "short_description": "Gathering of spiritual community for worship or decision-making."
+  },
+  "Forum": {
+    "short_description": "Platform for spiritual discussion and exchange."
+  },
+  "Alliance": {
+    "short_description": "Union of spiritual or religious groups for mutual benefit."
+  },
+  "Association": {
+    "short_description": "Organized body of spiritual practitioners or groups."
+  },
+  "Sanctuary": {
+    "short_description": "Protected space offering safety, refuge, or spiritual solace."
+  },
+  "Threshold": {
+    "short_description": "Transitional space between two distinct areas or states of being."
+  },
+  "Void": {
+    "short_description": "Empty space characterized by absence or nothingness."
+  },
+  "Nexus": {
+    "short_description": "Central point where multiple paths or forces converge."
+  },
+  "Liminal Space": {
+    "short_description": "Transitional area between states, neither here nor there."
+  },
+  "Hub": {
+    "short_description": "Central point of activity or connection in a network."
+  },
+  "Haven": {
+    "short_description": "Place offering safety and refuge from external threats."
+  },
+  "Wasteland": {
+    "short_description": "Desolate area devoid of life or productive activity."
+  },
+  "Crossroads": {
+    "short_description": "Point of intersection where different paths meet and choices are made."
+  },
+  "Domain": {
+    "short_description": "Area under specific control or influence of power."
+  },
+  "Realm": {
+    "short_description": "Region or sphere distinguished by particular characteristics."
+  },
+  "Stronghold": {
+    "short_description": "Defensible position or place of power and security."
+  },
+  "Paradise": {
+    "short_description": "Ideal place of perfect harmony and happiness."
+  },
+  "Underworld": {
+    "short_description": "Mythological or conceptual space beneath the visible world."
+  },
+  "Netherworld": {
+    "short_description": "Mysterious realm between or beyond normal reality."
+  },
+  "Wilderness": {
+    "short_description": "Uncultivated, untamed space beyond human control."
+  },
+  "Frontier": {
+    "short_description": "Edge of known territory, boundary between civilized and unknown."
+  },
+  "Hinterland": {
+    "short_description": "Remote area beyond cities, serving or influenced by central region."
+  },
+  "Periphery": {
+    "short_description": "Outer boundary or edge region of a space or territory."
+  },
+  "Core": {
+    "short_description": "Central, essential region from which influence emanates."
+  },
+  "Axis": {
+    "short_description": "Line or region around which movement or power revolves."
+  },
+  "Zone": {
+    "short_description": "Area defined by specific characteristics or regulations."
+  },
+  "Territory": {
+    "short_description": "Area claimed or controlled by particular entity or force."
+  },
+  "Sphere": {
+    "short_description": "Region of influence or activity defined by common characteristics."
+  },
+  "Labyrinth": {
+    "short_description": "Complex space designed for confusion or spiritual journey."
+  },
+  "Abyss": {
+    "short_description": "Bottomless or unfathomable depth, physical or metaphorical."
+  },
+  "Citadel": {
+    "short_description": "Fortified center of power or authority."
+  },
+  "Oasis": {
+    "short_description": "Place of refuge or relief within hostile environment."
+  },
+  "Purgatory": {
+    "short_description": "Intermediate space of transition or purification."
+  },
+  "Utopia": {
+    "short_description": "Imagined place of ideal social and political conditions."
+  },
+  "Dystopia": {
+    "short_description": "Place characterized by suffering or oppressive control."
+  },
+  "Ethereal Plane": {
+    "short_description": "Spiritual or non-physical realm of existence."
+  },
+  "No Man's Land": {
+    "short_description": "Contested or unclaimed space between boundaries."
+  },
+  "Forbidden Zone": {
+    "short_description": "Area restricted or prohibited from normal access."
+  },
+  "Sacred Ground": {
+    "short_description": "Space considered holy or spiritually significant."
+  },
+  "Profane Space": {
+    "short_description": "Area considered mundane or separate from sacred."
+  },
+  "Neutral Ground": {
+    "short_description": "Area free from conflicting claims or influences."
+  },
+  "Gateway": {
+    "short_description": "Point of transition between different states or realms."
+  },
+  "Bastion": {
+    "short_description": "Stronghold protecting or preserving particular values."
+  },
+  "Epicenter": {
+    "short_description": "Point from which activity or influence radiates."
+  },
+  "Vortex": {
+    "short_description": "Center of turbulent activity or energy."
+  },
+  "Confluence": {
+    "short_description": "Point where different forces or influences meet and merge."
+  },
+  "Pantheon": {
+    "short_description": "Space housing or honoring greatest achievements or figures."
+  },
+  "Commons": {
+    "short_description": "Shared space belonging to or used by community."
+  },
+  "Crucible": {
+    "short_description": "Space where transformation or testing occurs."
+  },
+  "Sanctum": {
+    "short_description": "Private or sacred space reserved for special purpose."
+  },
+  "Nexus Point": {
+    "short_description": "Location where multiple realities or dimensions intersect."
+  },
+  "Proving Ground": {
+    "short_description": "Area where abilities or qualities are tested."
+  },
+  "Matrix": {
+    "short_description": "Network or environment within which something develops."
+  },
+  "Hermitage": {
+    "short_description": "Place of solitude and contemplation."
+  }
+}

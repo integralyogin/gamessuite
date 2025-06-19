@@ -1,0 +1,227 @@
+{
+  "State": {
+    "short_description": "Fundamental mode of being or existence at a given moment."
+  },
+  "Phase": {
+    "short_description": "Distinct stage within a cyclic or progressive sequence."
+  },
+  "Valence": {
+    "short_description": "Fundamental positive or negative quality of experience or being."
+  },
+  "Potentiality": {
+    "short_description": "Latent or unrealized capacity for particular states or manifestations."
+  },
+  "Actuality": {
+    "short_description": "Realized or manifested condition of being."
+  },
+  "Tendency": {
+    "short_description": "Inherent inclination toward particular states or conditions."
+  },
+  "Modality": {
+    "short_description": "Fundamental way or manner in which something exists or occurs."
+  },
+  "Disposition": {
+    "short_description": "Inherent quality determining response to conditions."
+  },
+  "Polarity": {
+    "short_description": "Fundamental opposition or complementarity of states."
+  },
+  "Equilibrium": {
+    "short_description": "Balance or relationship between different forces or states."
+  },
+  "Perturbation": {
+    "short_description": "Deviation from normal or balanced state."
+  },
+  "Coherence": {
+    "short_description": "Degree of internal harmony or organized relationship."
+  },
+  "Resonance": {
+    "short_description": "State of energetic or vibrational correspondence."
+  },
+  "Attunement": {
+    "short_description": "Degree of alignment with specific forces or principles."
+  },
+  "Threshold": {
+    "short_description": "Point of transition between different states or conditions."
+  },
+  "Gradient": {
+    "short_description": "Continuous variation between different states or conditions."
+  },
+  "Entrainment": {
+    "short_description": "Process of synchronization between different systems or states."
+  },
+  "Emergence": {
+    "short_description": "Arising of new conditions from underlying patterns."
+  },
+  "Dissolution": {
+    "short_description": "Breaking down or transition to less organized state."
+  },
+  "Saturation": {
+    "short_description": "Maximum capacity or fullness of particular condition."
+  },
+  "Adaptation": {
+    "short_description": "Capacity to modify state in response to conditions."
+  },
+  "Resistance": {
+    "short_description": "Capacity to maintain state against external influence."
+  },
+  "Receptivity": {
+    "short_description": "Openness to influence or change of state."
+  },
+  "Entropy": {
+    "short_description": "Tendency toward increased disorder or dissipation."
+  },
+  "Negentropy": {
+    "short_description": "Tendency toward increased order and organization."
+  },
+  "Homeostasis": {
+    "short_description": "Self-regulation to maintain stable conditions."
+  },
+  "Allostasis": {
+    "short_description": "Dynamic adaptation to maintain viable conditions."
+  },
+  "Metamorphosis": {
+    "short_description": "Fundamental transformation of state or condition."
+  },
+  "Stasis": {
+    "short_description": "Maintenance of unchanging state or condition."
+  },
+  "Flux": {
+    "short_description": "Continuous change or flow between states."
+  },
+  "Cessation": {
+    "short_description": "Ending or absence of particular condition."
+  },
+  "Latency": {
+    "short_description": "Dormant or hidden state awaiting activation."
+  },
+  "Catalysis": {
+    "short_description": "Process enabling or accelerating change of state."
+  },
+  "Inhibition": {
+    "short_description": "Process preventing or slowing change of state."
+  },
+  "Synchrony": {
+    "short_description": "Alignment of phases or states between systems."
+  },
+  "Recursion": {
+    "short_description": "Self-referential or nested patterns of conditions."
+  },
+  "Iteration": {
+    "short_description": "Repeated cycle of state changes or conditions."
+  },
+  "Volatility": {
+    "short_description": "Tendency toward rapid or unpredictable state changes."
+  },
+  "Stability": {
+    "short_description": "Resistance to change from current state."
+  },
+  "Plasticity": {
+    "short_description": "Capacity for modification of state or condition."
+  },
+    "State": {
+    "short_description": "Fundamental mode of being or existence at a given moment."
+  },
+  "Phase": {
+    "short_description": "Distinct stage in a cyclic or progressive sequence of conditions."
+  },
+  "Mode": {
+    "short_description": "Particular way or manner of existing or functioning."
+  },
+  "Quality": {
+    "short_description": "Essential characteristic or nature defining condition of being."
+  },
+  "Disposition": {
+    "short_description": "Inherent tendency or orientation toward certain conditions."
+  },
+  "Potentiality": {
+    "short_description": "Latent capacity or possibility for particular conditions."
+  },
+  "Actuality": {
+    "short_description": "Realized or manifested condition as opposed to potential."
+  },
+  "Valence": {
+    "short_description": "Fundamental positive, negative, or neutral quality of condition."
+  },
+  "Polarity": {
+    "short_description": "Dual or opposing aspects of conditional states."
+  },
+  "Gradient": {
+    "short_description": "Continuous spectrum of varying conditional states."
+  },
+  "Equilibrium": {
+    "short_description": "Balance point or stability between different conditions."
+  },
+  "Threshold": {
+    "short_description": "Point of transition between different conditional states."
+  },
+  "Tendency": {
+    "short_description": "Natural inclination toward certain conditional patterns."
+  },
+  "Attunement": {
+    "short_description": "Degree of alignment or harmony with particular conditions."
+  },
+  "Entropy": {
+    "short_description": "Measure of disorder or randomness in conditional state."
+  },
+  "Coherence": {
+    "short_description": "Degree of internal order and harmony in condition."
+  },
+  "Resonance": {
+    "short_description": "Sympathetic relationship between different conditions."
+  },
+  "Frequency": {
+    "short_description": "Rate of vibration or oscillation defining condition."
+  },
+  "Intensity": {
+    "short_description": "Degree or strength of manifestation of condition."
+  },
+  "Duration": {
+    "short_description": "Temporal extent or persistence of condition."
+  },
+  "Rhythm": {
+    "short_description": "Pattern of alternation between different conditions."
+  },
+  "Synergy": {
+    "short_description": "Cooperative interaction of multiple conditions."
+  },
+  "Emergence": {
+    "short_description": "Arising of new conditions from underlying patterns."
+  },
+  "Dissolution": {
+    "short_description": "Breaking down or disappearing of conditional states."
+  },
+  "Transformation": {
+    "short_description": "Process of change between different conditions."
+  },
+  "Stability": {
+    "short_description": "Degree of persistence or resistance to change in condition."
+  },
+  "Volatility": {
+    "short_description": "Tendency toward rapid or unpredictable change in condition."
+  },
+  "Plasticity": {
+    "short_description": "Capacity for modification of conditional state."
+  },
+  "Resilience": {
+    "short_description": "Ability to maintain or return to condition despite perturbation."
+  },
+  "Permeability": {
+    "short_description": "Degree of openness to influence from other conditions."
+  },
+  "Conductivity": {
+    "short_description": "Capacity to transmit or propagate conditional states."
+  },
+  "Field": {
+    "short_description": "Region of influence defining or affecting conditions."
+  },
+  "Matrix": {
+    "short_description": "Underlying structure supporting different conditions."
+  },
+  "Nexus": {
+    "short_description": "Point of intersection or connection between conditions."
+  },
+  "Wholeness": {
+    "short_description": "Completeness or integration of conditional state."
+  }
+}

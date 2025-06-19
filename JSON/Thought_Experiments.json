@@ -1,0 +1,82 @@
+{
+"The Trolley Problem": {
+      "description": "A thought experiment in ethics about a fictional scenario in which an onlooker has the choice to save five people in danger of being hit by a trolley, by diverting the trolley to kill just one person.",
+      "quote": "Should you pull the lever to divert the trolley, killing one person but saving five? Or do nothing and allow the five to die?"
+    },
+    "The Ship of Theseus": {
+      "description": "A thought experiment that raises the question of whether an object that has had all of its components replaced remains fundamentally the same object.",
+      "quote": "If a ship has all of its planks replaced over time, is it still the same ship?"
+    },
+    "Schrödinger's Cat": {
+      "description": "A thought experiment that illustrates a paradox of quantum superposition. A hypothetical cat may be considered simultaneously both alive and dead as a result of its fate being linked to a random subatomic event that may or may not occur.",
+      "quote": "When does a quantum system stop existing as a superposition of states and become one or the other?"
+    },
+    "The Prisoner's Dilemma": {
+      "description": "A standard example of a game analyzed in game theory that shows why two completely rational individuals might not cooperate, even if it appears that it is in their best interests to do so.",
+      "quote": "Two members of a criminal gang are arrested and imprisoned. Each prisoner is in solitary confinement with no means of communicating with the other. The prosecutors lack sufficient evidence to convict the pair on the principal charge, but they have enough to convict both on a lesser charge. Simultaneously, the prosecutors offer each prisoner a bargain."
+    },
+    "The Brain in a Vat": {
+      "description": "A thought experiment in epistemology that questions our perception of reality. It hypothesizes that a disembodied brain, floating in a vat of nutrients and connected to a supercomputer, could be given the illusion of a complete and normal life.",
+      "quote": "If you are a brain in a vat, could you ever know it?"
+    },
+    "The Chinese Room": {
+      "description": "A thought experiment by John Searle which argues that a digital computer executing a program cannot be shown to have a 'mind', 'understanding' or 'consciousness', regardless of how intelligently or human-like the program may make the computer behave.",
+      "quote": "A man in a locked room who does not understand Chinese can follow a set of rules to produce coherent Chinese sentences. Does the man, or the room, understand Chinese?"
+    },
+    "Mary's Room (The Knowledge Argument)": {
+      "description": "A philosophical thought experiment proposed by Frank Jackson that argues against physicalism — the view that everything, including mental states, is physical. It describes a brilliant neuroscientist who has only ever seen the world in black and white.",
+      "quote": "When Mary, who has known everything about the physics of color but has never seen it, finally sees the color red, does she learn anything new?"
+    },
+    "The Liar Paradox": {
+      "description": "A paradox that arises in logic and philosophy when a statement refers to its own truth value in a way that creates a contradiction.",
+      "quote": "This statement is false."
+    },
+    "Maxwell's Demon": {
+      "description": "A thought experiment created by the physicist James Clerk Maxwell to question the second law of thermodynamics. It imagines a tiny being that can sort fast and slow-moving gas molecules into separate containers, thus decreasing entropy without work.",
+      "quote": "Could a being that can see and control individual molecules violate the second law of thermodynamics?"
+    },
+    "The Grandfather Paradox": {
+      "description": "A paradox of time travel in which a person travels to the past and kills their own grandfather before he meets their grandmother, thus preventing their own conception and, therefore, their own existence.",
+      "quote": "What happens if you go back in time and kill your grandfather before he meets your grandmother?"
+    },
+    "The Bootstrap Paradox": {
+      "description": "A paradox of time travel in which an object or piece of information has no origin. A future object is sent to the past where it is discovered and becomes the very object that will be sent to the past.",
+      "quote": "A time traveler buys a copy of Hamlet, travels back in time, and gives the book to Shakespeare, who then copies it and claims it as his own. Who wrote Hamlet?"
+    },
+"The Twin Paradox": {
+      "description": "A thought experiment in special relativity involving identical twins, one of whom makes a journey into space in a high-speed rocket and returns home to find that the twin who remained on Earth has aged more.",
+      "quote": "If one twin travels at near the speed of light while the other remains on Earth, which one will be older when they reunite?"
+    },
+    "The Fermi Paradox": {
+      "description": "The apparent contradiction between the lack of evidence for extraterrestrial civilizations and various high estimates for their probability.",
+      "quote": "The universe is vast and old, so where are all the aliens?"
+    },
+    "The Problem of Evil": {
+      "description": "The question of how to reconcile the existence of evil and suffering with an omnipotent, omnibenevolent, and omniscient God.",
+      "quote": "If God is all-powerful, all-good, and all-knowing, why does evil exist?"
+    },
+    "The Ring of Gyges": {
+      "description": "A mythical magical artifact mentioned by the philosopher Plato that grants its owner the power to become invisible at will. It is used to question whether an intelligent, rational person would be just if they had no fear of reprisal.",
+      "quote": "If you had a ring that made you invisible, would you still act justly?"
+    },
+    "The Experience Machine": {
+      "description": "A thought experiment by Robert Nozick that imagines a machine that could give a person any experience they desired. It is used to argue against hedonism as a theory of well-being.",
+      "quote": "If you could plug into a machine that would give you any experience you desired, would you do it? And would it be the best life you could live?"
+    },
+    "The Veil of Ignorance": {
+      "description": "A thought experiment by John Rawls in which people are asked to consider which principles of justice they would choose for a society if they did not know what their own position in that society would be.",
+      "quote": "What principles of justice would you choose for society if you did not know your own social status, class, gender, or race?"
+    },
+    "The Gettier Problem": {
+      "description": "A landmark philosophical problem that challenges the traditional definition of knowledge as 'justified true belief'. It presents scenarios where a person's belief may be justified and true, yet it would be incorrect to call it knowledge.",
+      "quote": "Can you have a justified true belief that isn't knowledge?"
+    },
+    "The Sorites Paradox": {
+      "description": "A paradox that arises from vague predicates. It questions at what point a heap of sand ceases to be a heap when grains are removed one by one.",
+      "quote": "At what point does a heap of sand stop being a heap as you remove one grain at a time?"
+    },
+    "Zeno's Paradoxes": {
+      "description": "A set of philosophical problems, devised by the Greek philosopher Zeno of Elea, that support the doctrine of monism by arguing against the common-sense notions of motion and plurality.",
+      "quote": "To travel any distance, you must first travel half the distance, then half of the remaining distance, and so on. How can you ever reach your destination?"
+    }
+}

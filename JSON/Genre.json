@@ -1,0 +1,107 @@
+{
+"Genre": {
+"short_description": "Systems of categorizing and classifying creative works and cultural expressions."
+},
+"Form": {
+"short_description": "Fundamental patterns or structures that define a genre's characteristics."
+},
+"Convention": {
+"short_description": "Established rules and patterns that characterize specific genres."
+},
+"Mode": {
+"short_description": "Primary methods or approaches of expression within genres."
+},
+"Tradition": {
+"short_description": "Historical patterns and practices that shape genre development."
+},
+"Archetype": {
+"short_description": "Recurring character types, situations, or themes within genres."
+},
+"Canon": {
+"short_description": "Established works that define and exemplify genre standards."
+},
+"Hybrid": {
+"short_description": "Combinations or fusions of multiple genre elements."
+},
+"Subgenre": {
+"short_description": "Specialized variations within broader genre categories."
+},
+"Movement": {
+"short_description": "Historical trends or shifts in genre development."
+},
+"Style": {
+"short_description": "Distinctive methods of expression within genre frameworks."
+},
+"Trope": {
+"short_description": "Common motifs or devices associated with specific genres."
+},
+"Evolution": {
+"short_description": "Patterns of change and development in genre forms."
+},
+"Classification": {
+"short_description": "Systems for organizing and categorizing genre types."
+},
+"Element": {
+"short_description": "Basic components that constitute genre identity."
+},
+"Framework": {
+"short_description": "Structural systems that organize genre characteristics."
+},
+"Paradigm": {
+"short_description": "Dominant patterns of genre understanding and interpretation."
+},
+"Expectation": {
+"short_description": "Anticipated features or outcomes within genre contexts."
+},
+"Boundary": {
+"short_description": "Limits and distinctions between different genres."
+},
+"Fusion": {
+"short_description": "Integration of multiple genre elements into new forms."
+},
+"Tradition": {
+"short_description": "Established practices and conventions within genres."
+},
+"Innovation": {
+"short_description": "New developments or variations in genre expression."
+},
+"Pattern": {
+"short_description": "Recurring structures or elements within genres."
+},
+"Taxonomy": {
+"short_description": "Hierarchical organization of genre categories."
+},
+"Discourse": {
+"short_description": "Ways of discussing and analyzing genre characteristics."
+},
+"Aesthetic": {
+"short_description": "Artistic principles and values associated with genres."
+},
+"Matrix": {
+"short_description": "Network of relationships between genre elements."
+},
+"Dialect": {
+"short_description": "Variations in genre expression across different contexts."
+},
+"Heritage": {
+"short_description": "Cultural and historical foundations of genres."
+},
+"Formula": {
+"short_description": "Standard patterns or structures within genres."
+},
+"Prototype": {
+"short_description": "Exemplary models that define genre characteristics."
+},
+"Metamorphosis": {
+"short_description": "Transformative processes in genre development."
+},
+"Spectrum": {
+"short_description": "Range of variations within genre categories."
+},
+"Zeitgeist": {
+"short_description": "Cultural spirit or context influencing genre formation."
+},
+"Essence": {
+"short_description": "Core characteristics defining genre identity."
+}
+}

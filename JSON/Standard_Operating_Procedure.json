@@ -1,0 +1,62 @@
+{
+    "Standard": {
+        "short_description": "A set of defined rules, norms, or requirements that ensure consistency, compatibility, and safety in various processes or systems."
+    },
+    "Operating": {
+        "short_description": "The act of controlling or managing the operation of a system, ensuring that it functions according to established protocols."
+    },
+    "Procedure": {
+        "short_description": "A series of actions or steps taken in a particular order or manner, ensuring that tasks are performed correctly and consistently."
+    },
+    "Documentation": {
+        "short_description": "The written records that detail the steps, processes, and guidelines for performing tasks or operating systems, ensuring clarity and standardization."
+    },
+    "Compliance": {
+        "short_description": "The act of adhering to laws, regulations, or guidelines, ensuring that operations meet required standards."
+    },
+    "Consistency": {
+        "short_description": "The quality of being uniform, stable, and free from contradiction, ensuring that procedures are performed the same way every time."
+    },
+    "Efficiency": {
+        "short_description": "The ability to achieve maximum productivity with minimum wasted effort or expense, ensuring that procedures are optimized for performance."
+    },
+    "Safety": {
+        "short_description": "The condition of being protected from or not exposed to harm, ensuring that procedures are designed to minimize risks."
+    },
+    "Quality": {
+        "short_description": "The standard of something as measured against other things of a similar kind, ensuring that procedures yield high-quality results."
+    },
+    "Training": {
+        "short_description": "The process of teaching or learning the skills required to perform tasks, ensuring that personnel are proficient in following procedures."
+    },
+    "Review": {
+        "short_description": "The process of examining and evaluating procedures to ensure they remain effective and up-to-date."
+    },
+    "Implementation": {
+        "short_description": "The process of putting procedures into action, ensuring that they are executed as intended."
+    },
+    "Monitoring": {
+        "short_description": "The continuous observation and evaluation of procedures to ensure they are being followed correctly and effectively."
+    },
+    "Audit": {
+        "short_description": "A systematic examination and review of procedures to ensure compliance with standards and identify areas for improvement."
+    },
+    "Revision": {
+        "short_description": "The process of making changes to procedures to improve their effectiveness, safety, or efficiency."
+    },
+    "Communication": {
+        "short_description": "The exchange of information and instructions to ensure that all personnel understand and can follow procedures correctly."
+    },
+    "Responsibility": {
+        "short_description": "The obligation of individuals or teams to perform tasks according to established procedures, ensuring accountability and reliability."
+    },
+    "Accountability": {
+        "short_description": "The obligation of individuals or teams to take responsibility for their actions and adherence to procedures, ensuring trust and reliability."
+    },
+    "Traceability": {
+        "short_description": "The ability to track and document the history of procedures and their execution, ensuring that all steps can be verified and audited."
+    },
+    "Validation": {
+        "short_description": "The process of confirming that procedures produce the expected results, ensuring their effectiveness and reliability."
+    }
+}

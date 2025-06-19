@@ -1,0 +1,327 @@
+
+{
+  "System": {
+    "short_description": "An organized set of interrelated components working together to achieve a common purpose or goal."
+  },
+  "Component": {
+    "short_description": "A fundamental part or element that contributes to the functioning of a system."
+  },
+  "Structure": {
+    "short_description": "The arrangement and organization of components within a system."
+  },
+  "Function": {
+    "short_description": "The role or purpose of a system or its components in achieving desired outcomes."
+  },
+  "Process": {
+    "short_description": "A series of actions or steps taken to achieve a particular end within a system."
+  },
+  "Interaction": {
+    "short_description": "The way components of a system exchange information, energy, or resources."
+  },
+  "Feedback": {
+    "short_description": "Information about the results of a process used to modify or improve system behavior."
+  },
+  "Hierarchy": {
+    "short_description": "Levels of organization where subsystems are nested within larger systems."
+  },
+  "Subsystem": {
+    "short_description": "A smaller system that operates as part of a larger system."
+  },
+  "Interface": {
+    "short_description": "A point of interaction between different systems or components."
+  },
+  "Boundary": {
+    "short_description": "The limits defining what is inside and outside a system."
+  },
+  "Environment": {
+    "short_description": "The external conditions and factors influencing a system's operation."
+  },
+  "Input": {
+    "short_description": "Resources, data, or stimuli entering a system from its environment."
+  },
+  "Output": {
+    "short_description": "Results, products, or effects produced by a system and sent to its environment."
+  },
+  "Control": {
+    "short_description": "Mechanisms or processes that regulate the behavior of a system."
+  },
+  "Stability": {
+    "short_description": "The ability of a system to maintain consistent performance despite disturbances."
+  },
+  "Adaptation": {
+    "short_description": "The capacity of a system to adjust its behavior in response to changes in its environment."
+  },
+  "Complexity": {
+    "short_description": "The degree of interconnectedness and intricacy within a system's components."
+  },
+  "Emergence": {
+    "short_description": "The appearance of new properties or behaviors arising from interactions within a system."
+  },
+  "Synergy": {
+    "short_description": "The combined effect of system components being greater than the sum of their individual effects."
+  },
+  "Redundancy": {
+    "short_description": "The duplication of critical components to ensure reliability and resilience."
+  },
+  "Dependency": {
+    "short_description": "Relationships where one component or system relies on another for proper functioning."
+  },
+  "Autonomy": {
+    "short_description": "The ability of a system to operate independently without external intervention."
+  },
+  "Scalability": {
+    "short_description": "The capacity of a system to handle increased demands or expand its capabilities."
+  },
+  "Robustness": {
+    "short_description": "The ability of a system to withstand variations, errors, or unexpected conditions."
+  },
+  "Resilience": {
+    "short_description": "The capacity of a system to recover quickly from disruptions or failures."
+  },
+  "Optimization": {
+    "short_description": "The process of improving a system's efficiency, performance, or resource utilization."
+  },
+  "Governance": {
+    "short_description": "The framework of rules, policies, and practices guiding the operation of a system."
+  },
+  "Architecture": {
+    "short_description": "The fundamental design and blueprint of a system, defining its structure and behavior."
+  },
+  "Lifecycle": {
+    "short_description": "The stages through which a system passes, from conception to development, operation, and eventual retirement."
+  },
+  "Paradigm": {
+    "short_description": "A conceptual framework shaping how systems are designed, understood, and analyzed."
+  },
+  "Domain": {
+    "short_description": "The field or area where certain types of systems naturally belong or are most applicable."
+  },
+  "Dimension": {
+    "short_description": "Aspects or perspectives through which systems can be analyzed or understood."
+  },
+  "Constraint": {
+    "short_description": "Limitations or requirements that influence the design and operation of a system."
+  },
+  "Invariant": {
+    "short_description": "Properties or characteristics that remain constant throughout a system's operation."
+  },
+  "Potential": {
+    "short_description": "Latent capabilities or improvements a system might achieve under favorable conditions."
+  },
+  "Limit": {
+    "short_description": "Boundaries or restrictions defining the scope and capabilities of a system."
+  },
+  "Vector": {
+    "short_description": "Directional trends or developments influencing the evolution and performance of systems."
+  },
+  "Autopoietic": {
+    "short_description": "Self-producing and self-maintaining system that generates its own organization."
+  },
+  "Emergent": {
+    "short_description": "System where higher-order properties arise from lower-level interactions."
+  },
+  "Hierarchical": {
+    "short_description": "Organized by levels of increasing complexity or authority."
+  },
+  "Network": {
+    "short_description": "Distributed arrangement of interconnected nodes and relationships."
+  },
+  "Cyclic": {
+    "short_description": "System operating through recurring patterns and feedback loops."
+  },
+  "Adaptive": {
+    "short_description": "System that modifies itself in response to environmental changes."
+  },
+  "Homeostatic": {
+    "short_description": "Self-regulating system maintaining internal stability."
+  },
+  "Dissipative": {
+    "short_description": "System maintaining organization through continuous energy exchange."
+  },
+  "Embedded": {
+    "short_description": "System functioning as component within larger system hierarchies."
+  },
+  "Holonic": {
+    "short_description": "Simultaneously whole and part, containing and contained."
+  },
+  "Synchronic": {
+    "short_description": "System whose parts operate in coordinated temporal relationship."
+  },
+  "Entropic": {
+    "short_description": "System tending toward increasing disorder without energy input."
+  },
+  "Negentropic": {
+    "short_description": "System that increases or maintains internal order."
+  },
+  "Teleological": {
+    "short_description": "System oriented toward specific goals or end states."
+  },
+  "Autoregulating": {
+    "short_description": "System that adjusts its behavior through internal mechanisms."
+  },
+  "Morphogenetic": {
+    "short_description": "System that develops form through internal patterns and relationships."
+  },
+  "Symbiotic": {
+    "short_description": "System based on mutually beneficial relationships between components."
+  },
+  "Fractal": {
+    "short_description": "System exhibiting self-similarity across different scales."
+  },
+  "Catalytic": {
+    "short_description": "System that facilitates transformations or changes in other systems."
+  },
+  "Oscillatory": {
+    "short_description": "System characterized by regular fluctuations or alternations."
+  },
+  "Quantum": {
+    "short_description": "System governed by probabilistic and interconnected states."
+  },
+  "Field": {
+    "short_description": "System operating through distributed forces or influences."
+  },
+  "Resonant": {
+    "short_description": "System that amplifies or responds to specific frequencies or patterns."
+  },
+  "Recursive": {
+    "short_description": "System that applies operations to its own outputs."
+  },
+  "Metasystem": {
+    "short_description": "System that organizes or coordinates other systems."
+  },
+  "Synergetic": {
+    "short_description": "System whose whole exceeds sum of its parts through cooperation."
+  },
+  "Dialectical": {
+    "short_description": "System developing through opposition and synthesis of forces."
+  },
+  "Harmonic": {
+    "short_description": "System based on proportional relationships and balance."
+  },
+  "Algorithmic": {
+    "short_description": "System operating through defined sequences of operations."
+  },
+  "Chaotic": {
+    "short_description": "System exhibiting sensitive dependence on initial conditions."
+  },
+  "Generative": {
+    "short_description": "System that produces new forms or patterns from basic rules."
+  },
+  "Integrative": {
+    "short_description": "System that combines multiple functions or subsystems coherently."
+  },
+  "Evolutionary": {
+    "short_description": "System that develops through selection and adaptation over time."
+  },
+  "Bifurcating": {
+    "short_description": "System that splits into distinct paths or states at critical points."
+  },
+  "Holographic": {
+    "short_description": "System where each part contains information about the whole."
+  },
+    "Hierarchical": {
+    "short_description": "Systems organized by levels of increasing complexity or authority."
+  },
+  "Network": {
+    "short_description": "Systems based on interconnected nodes and relationships."
+  },
+  "Emergent": {
+    "short_description": "Systems where higher-order patterns arise from lower-level interactions."
+  },
+  "Autopoietic": {
+    "short_description": "Self-producing and self-maintaining systems that generate their own organization."
+  },
+  "Dissipative": {
+    "short_description": "Systems that maintain structure through continuous energy exchange with environment."
+  },
+  "Homeostatic": {
+    "short_description": "Systems that maintain internal stability through self-regulation."
+  },
+  "Cybernetic": {
+    "short_description": "Systems governed by feedback loops and information control."
+  },
+  "Holonic": {
+    "short_description": "Systems composed of holons - entities that are both wholes and parts."
+  },
+  "Morphogenetic": {
+    "short_description": "Systems that generate and evolve forms and patterns."
+  },
+  "Teleological": {
+    "short_description": "Systems oriented toward specific goals or end states."
+  },
+  "Adaptive": {
+    "short_description": "Systems that modify behavior based on environmental feedback."
+  },
+  "Resonant": {
+    "short_description": "Systems that interact through frequency matching and harmonics."
+  },
+  "Recursive": {
+    "short_description": "Systems whose parts contain copies of the whole system."
+  },
+  "Dialectical": {
+    "short_description": "Systems that evolve through opposition and synthesis of forces."
+  },
+  "Symbiotic": {
+    "short_description": "Systems based on mutually beneficial relationships between components."
+  },
+  "Cyclical": {
+    "short_description": "Systems organized around recurring patterns and rhythms."
+  },
+  "Nested": {
+    "short_description": "Systems contained within larger versions of similar systems."
+  },
+  "Field": {
+    "short_description": "Systems organized through distributed influence and attraction."
+  },
+  "Quantum": {
+    "short_description": "Systems exhibiting non-local connections and probability-based behavior."
+  },
+  "Synchronic": {
+    "short_description": "Systems whose parts operate in coordinated timing."
+  },
+  "Fractal": {
+    "short_description": "Systems showing self-similarity across different scales."
+  },
+  "Holographic": {
+    "short_description": "Systems where each part contains information about the whole."
+  },
+  "Metamorphic": {
+    "short_description": "Systems that undergo complete transformation of structure."
+  },
+  "Catalytic": {
+    "short_description": "Systems that facilitate transformation without being consumed."
+  },
+  "Synergetic": {
+    "short_description": "Systems whose whole exceeds the sum of their parts."
+  },
+  "Entropic": {
+    "short_description": "Systems tending toward increased disorder or complexity."
+  },
+  "Negentropic": {
+    "short_description": "Systems that maintain or increase order against entropy."
+  },
+  "Harmonic": {
+    "short_description": "Systems organized by proportional relationships and balance."
+  },
+  "Chaotic": {
+    "short_description": "Systems showing sensitive dependence on initial conditions."
+  },
+  "Organic": {
+    "short_description": "Systems that grow and develop through internal principles."
+  },
+  "Mechanical": {
+    "short_description": "Systems operating through fixed relationships and rules."
+  },
+  "Open": {
+    "short_description": "Systems freely exchanging matter/energy with environment."
+  },
+  "Closed": {
+    "short_description": "Systems isolated from external matter/energy exchange."
+  },
+  "Generative": {
+    "short_description": "Systems that produce new patterns or structures."
+  },
+  "Integrative": {
+    "short_description": "Systems that combine and unify diverse elements."
+  }
+}

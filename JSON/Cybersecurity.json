@@ -1,0 +1,65 @@
+{
+  "Cybersecurity": {
+    "short_description": "The practice of protecting internet-connected systems, including hardware, software, and data, from attack, damage, or unauthorized access."
+  },
+  "Encryption": {
+    "short_description": "The process of converting information or data into a code to prevent unauthorized access, ensuring confidentiality."
+  },
+  "Firewall": {
+    "short_description": "A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules."
+  },
+  "Vulnerability Assessment": {
+    "short_description": "The process of identifying, quantifying, and prioritizing the vulnerabilities in a system, aiming to reduce or manage the risks."
+  },
+  "Phishing": {
+    "short_description": "A type of social engineering attack often used to steal user data, including login credentials and credit card numbers, by masquerading as a trustworthy entity."
+  },
+  "Malware": {
+    "short_description": "Malicious software designed to disrupt, damage, or gain unauthorized access to a computer system, including viruses, worms, trojans, and ransomware."
+  },
+  "Intrusion Detection System (IDS)": {
+    "short_description": "A device or software application that monitors a network or systems for malicious activities or policy violations."
+  },
+  "Penetration Testing": {
+    "short_description": "An authorized simulated cyberattack on a computer system, performed to evaluate the security of the system by safely attempting to exploit vulnerabilities."
+  },
+  "Authentication": {
+    "short_description": "The process of verifying the identity of a user, device, or system, often involving passwords, biometrics, or multi-factor authentication."
+  },
+  "Zero-Day Exploit": {
+    "short_description": "An attack that occurs on the same day a weakness is discovered in software before the developer has an opportunity to address it."
+  },
+  "Data Breach": {
+    "short_description": "An incident where information is stolen or taken from a system without the knowledge or authorization of the system's owner."
+  },
+  "Cyber Hygiene": {
+    "short_description": "Practices and steps that users can take to maintain system health and improve online security, like regular software updates and strong password use."
+  },
+  "Incident Response": {
+    "short_description": "The approach to handling and managing the aftermath of a security breach or cyberattack, aiming to limit damage and reduce recovery time and costs."
+  },
+  "Security Policy": {
+    "short_description": "A set of rules and practices established to ensure the security of users, systems, and data within an organization."
+  },
+  "Access Control": {
+    "short_description": "The selective restriction of access to data or resources, determining who is allowed to access what and under which circumstances."
+  },
+  "Risk Management": {
+    "short_description": "The process of identifying, assessing, and controlling threats to an organization's capital and earnings, focusing on cybersecurity threats."
+  },
+  "Cyber Forensics": {
+    "short_description": "The application of investigation and analysis techniques to gather and preserve evidence from a particular computing device in a way that is suitable for presentation in a court of law."
+  },
+  "Endpoint Security": {
+    "short_description": "The practice of securing endpoints or entry points of end-user devices like desktops, laptops, and mobile devices from being exploited by malicious actors."
+  },
+  "Network Security": {
+    "short_description": "Measures taken to protect and monitor unauthorized access, misuse, modification, or denial of a computer network and its resources."
+  },
+  "Social Engineering": {
+    "short_description": "The psychological manipulation of people into performing actions or divulging confidential information, a common technique used by attackers."
+  },
+  "Patch Management": {
+    "short_description": "The process of distributing and applying updates to software, designed to fix vulnerabilities, improve functionality, or enhance user experience."
+  }
+}

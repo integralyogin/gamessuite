@@ -1,0 +1,77 @@
+{
+"Poetry": {
+"short_description": "The art of rhythmic language expressing profound insights, emotions, and experiences through carefully crafted words, imagery, and sound patterns that transcend ordinary communication."
+},
+"Meter": {
+"short_description": "The measured pattern of rhythmic accents in poetry, creating structured flow through alternating stressed and unstressed syllables, establishing the underlying pulse and movement of verse."
+},
+"Rhythm": {
+"short_description": "The flowing movement of language created through patterns of sound, silence, and emphasis, encompassing both formal meter and natural speech rhythms to create musical qualities in verse."
+},
+"Rhyme": {
+"short_description": "The resonance of similar sounds between words, including perfect matches, slant rhymes, and internal echoes, creating patterns that enhance both musical quality and meaning."
+},
+"Imagery": {
+"short_description": "The creation of sensory and mental pictures through language, using concrete details and figurative expressions to evoke vivid experiences and deeper understanding in the reader's mind."
+},
+"Metaphor": {
+"short_description": "The art of speaking about one thing in terms of another, creating profound connections and new understanding through unexpected associations and parallels between different realms of experience."
+},
+"Symbol": {
+"short_description": "Objects, images, or actions that carry meanings beyond their literal sense, accumulating layers of significance through cultural, personal, and archetypal resonance."
+},
+"Form": {
+"short_description": "The overall structure and organization of a poem, whether traditional patterns like sonnets and haiku or free verse arrangements that create their own internal logic."
+},
+"Voice": {
+"short_description": "The distinctive character and perspective expressed through poetic language, encompassing tone, attitude, and the unique way the poet shapes language to convey experience."
+},
+"Line": {
+"short_description": "The fundamental unit of poetic composition, using length, breaks, and arrangement to control pacing, emphasis, and multiple meanings through visual and auditory patterns."
+},
+"Stanza": {
+"short_description": "Groups of lines forming larger units within a poem, creating rhythmic and thematic structures that organize the flow of ideas and emotions through distinct movements."
+},
+"Alliteration": {
+"short_description": "The repetition of initial consonant sounds across multiple words, creating musical effects and emphasizing connections between ideas through sonic patterns."
+},
+"Assonance": {
+"short_description": "The repetition of vowel sounds within words, creating subtle musical patterns that enhance mood and meaning through sonic resonance."
+},
+"Consonance": {
+"short_description": "The repetition of consonant sounds within and between words, particularly at word endings, creating subtle patterns of sound that bind phrases together."
+},
+"Enjambment": {
+"short_description": "The continuation of a sentence or phrase beyond the line break, creating tension between grammatical and rhythmic units while enabling multiple readings."
+},
+"Caesura": {
+"short_description": "A strong pause within a line of poetry, creating rhythmic variation and emphasis through the interruption of the expected flow of language."
+},
+"Persona": {
+"short_description": "The assumed character or voice through which a poem speaks, allowing exploration of different perspectives and experiences beyond the poet's direct expression."
+},
+"Sonnet": {
+"short_description": "A fourteen-line form traditionally exploring love and philosophical themes through strict patterns of rhyme and meter, requiring concentrated expression and precise development."
+},
+"Haiku": {
+"short_description": "A Japanese form capturing momentary insights through seventeen syllables, traditionally focusing on natural imagery and seasonal references to evoke deeper meaning."
+},
+"Ghazal": {
+"short_description": "A Middle Eastern form consisting of autonomous couplets united by rhyme and refrain, traditionally exploring love, separation, and mystical themes."
+},
+"Free Verse": {
+"short_description": "Poetry that creates its own organic form without following traditional patterns, finding rhythm and structure through the natural flow of language and thought."
+},
+"Lyric": {
+"short_description": "Poetry expressing personal emotion and experience through musical language, traditionally meant to be sung but now encompassing various forms of subjective expression."
+},
+"Epic": {
+"short_description": "Long narrative poems recounting heroic deeds and significant events through elevated style and complex structural patterns that unite individual episodes."
+},
+"Elegy": {
+"short_description": "Poems of mourning and reflection on death, expressing grief while moving toward consolation through meditation on mortality and meaning."
+},
+"Ode": {
+"short_description": "Elaborate lyric poems celebrating significant subjects through complex stanzaic patterns and elevated style, developing deep emotional and philosophical themes."
+}
+}

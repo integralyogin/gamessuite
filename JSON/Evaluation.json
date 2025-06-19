@@ -1,0 +1,146 @@
+{
+  "Evaluation": {
+    "short_description": "The process of determining the significance, worth, or quality of something, often involving systematic assessment and judgment."
+  },
+  "Assessment": {
+    "short_description": "The act of evaluating or estimating the nature, quality, or ability of something, often through a structured process."
+  },
+  "Judgment": {
+    "short_description": "The process of forming an opinion or making a decision based on careful consideration and evaluation of evidence."
+  },
+  "Appraisal": {
+    "short_description": "A formal evaluation of the value, quality, or performance of something, often conducted by an expert or authority."
+  },
+  "Review": {
+    "short_description": "A critical examination or assessment of something, often involving a detailed analysis and evaluation of its merits and flaws."
+  },
+  "Analysis": {
+    "short_description": "The process of breaking down a complex topic or substance into smaller parts to gain a better understanding of its components and their relationships."
+  },
+  "Critique": {
+    "short_description": "A detailed evaluation and judgment of the merits and faults of something, often with the aim of providing constructive feedback."
+  },
+  "Inspection": {
+    "short_description": "A thorough examination or scrutiny of something to determine its condition, quality, or compliance with standards."
+  },
+  "Examination": {
+    "short_description": "A detailed investigation or assessment of something to determine its nature, quality, or condition."
+  },
+  "Audit": {
+    "short_description": "A systematic and independent examination of books, accounts, statutory records, documents, and vouchers of an organization to assess its financial position and compliance with regulations."
+  },
+  "Survey": {
+    "short_description": "A systematic collection and analysis of data to gather information about a particular topic, population, or phenomenon."
+  },
+  "Test": {
+    "short_description": "A procedure intended to establish the quality, performance, or reliability of something, often involving controlled conditions and measurements."
+  },
+  "Trial": {
+    "short_description": "A process of testing or experimenting with something to determine its effectiveness, reliability, or suitability for a particular purpose."
+  },
+  "Experiment": {
+    "short_description": "A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact, often involving controlled conditions and observations."
+  },
+  "Study": {
+    "short_description": "A detailed investigation and analysis of a subject or phenomenon to gain a deeper understanding of its nature, causes, and effects."
+  },
+  "Research": {
+    "short_description": "The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions."
+  },
+  "Investigation": {
+    "short_description": "A systematic inquiry or examination to discover facts, gather evidence, or solve a problem."
+  },
+  "Inquiry": {
+    "short_description": "A formal or systematic investigation into a matter or problem to discover the facts and reach a conclusion."
+  },
+  "Insight": {
+    "short_description": "A clear, deep, and often sudden understanding of a complex situation or problem, often gained through evaluation and analysis."
+  },
+  "Perspective": {
+    "short_description": "A particular attitude towards or way of regarding something; a point of view."
+  },
+  "Viewpoint": {
+    "short_description": "A particular attitude or way of considering something, often influenced by personal beliefs, experiences, or biases."
+  },
+  "Opinion": {
+    "short_description": "A view or judgment formed about something, not necessarily based on fact or knowledge."
+  },
+  "Conclusion": {
+    "short_description": "A judgment or decision reached after consideration, often based on evidence and reasoning."
+  },
+  "Decision": {
+    "short_description": "A choice made after consideration, often based on evaluation and judgment."
+  },
+  "Determination": {
+    "short_description": "The process of establishing something exactly and with certainty, often through evaluation and analysis."
+  },
+  "Finding": {
+    "short_description": "A discovery or conclusion reached through evaluation, research, or investigation."
+  },
+  "Result": {
+    "short_description": "The outcome or consequence of an evaluation, test, or experiment, demonstrating its effectiveness and validity."
+  },
+  "Outcome": {
+    "short_description": "The final result or consequence of an evaluation, test, or experiment, reflecting its impact and significance."
+  },
+  "Impact": {
+    "short_description": "The effect or influence of an evaluation, test, or experiment on the subject or context being studied."
+  },
+  "Effect": {
+    "short_description": "The result or consequence of an evaluation, test, or experiment, demonstrating its influence and power."
+  },
+  "Consequence": {
+    "short_description": "The inevitable outcome or effect of an evaluation, test, or experiment, reflecting its impact and significance."
+  },
+  "Significance": {
+    "short_description": "The importance or relevance of an evaluation, test, or experiment, determining its value and impact in a specific context."
+  },
+  "Relevance": {
+    "short_description": "The applicability or pertinence of an evaluation, test, or experiment to a particular situation or context, influencing its significance and impact."
+  },
+  "Value": {
+    "short_description": "The worth or importance of an evaluation, test, or experiment, determining its usefulness and desirability in a specific context."
+  },
+  "Usefulness": {
+    "short_description": "The practical benefit or advantage provided by an evaluation, test, or experiment, influencing its value and significance."
+  },
+  "Utility": {
+    "short_description": "The practical application or function of an evaluation, test, or experiment, demonstrating its usefulness and value in a specific context."
+  },
+  "Function": {
+    "short_description": "The role or purpose of an evaluation, test, or experiment, defining its behavior and interactions within a specific context."
+  },
+  "Role": {
+    "short_description": "The part or position that an evaluation, test, or experiment plays within a system or context, influencing its behavior and interactions."
+  },
+  "Purpose": {
+    "short_description": "The intended goal or objective of an evaluation, test, or experiment, guiding its behavior and actions within a specific context."
+  },
+  "Objective": {
+    "short_description": "The specific aim or target that an evaluation, test, or experiment seeks to achieve, influencing its behavior and actions."
+  },
+  "Goal": {
+    "short_description": "The desired outcome or end result that an evaluation, test, or experiment aims to accomplish, guiding its behavior and actions."
+  },
+  "Target": {
+    "short_description": "The specific focus or aim of an evaluation, test, or experiment's actions or interactions, influencing its behavior and outcomes."
+  },
+  "Focus": {
+    "short_description": "The central point or area of attention for an evaluation, test, or experiment, guiding its behavior and actions within a specific context."
+  },
+  "Context": {
+    "short_description": "The surrounding environment or situation in which an evaluation, test, or experiment exists and operates, influencing its behavior and interactions."
+  },
+  "Environment": {
+    "short_description": "The external conditions or circumstances that affect an evaluation, test, or experiment's behavior and interactions within a specific context."
+  },
+  "Situation": {
+    "short_description": "The particular set of circumstances or conditions in which an evaluation, test, or experiment operates, influencing its behavior and outcomes."
+  },
+  "Condition": {
+    "short_description": "The specific state or circumstance that affects an evaluation, test, or experiment's behavior and interactions within a given context."
+  },
+  "Circumstance": {
+    "short_description": "The particular set of conditions or factors that influence an evaluation, test, or experiment's behavior and outcomes within a specific context."
+  }
+}

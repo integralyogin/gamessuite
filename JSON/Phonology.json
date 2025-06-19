@@ -1,0 +1,92 @@
+{
+  "Phonology": {
+    "short_description": "The study of sound systems in language, analyzing patterns and principles governing the organization, distribution, and interaction of speech sounds within and across linguistic systems."
+  },
+  "Phoneme": {
+    "short_description": "The minimal contrastive sound unit that distinguishes meaning in a language, serving as the foundational element of phonological analysis and mental representation."
+  },
+  "Allophone": {
+    "short_description": "Contextual variations of a phoneme that occur in specific environments without changing lexical meaning, revealing the dynamic realization of abstract sound categories."
+  },
+  "Syllable": {
+    "short_description": "The fundamental rhythmic unit of phonological structure, organizing sounds into hierarchical patterns of onset, nucleus, and coda that govern sound combinations."
+  },
+  "Phonotactics": {
+    "short_description": "The system of constraints governing permissible sound sequences and positional restrictions within a language's phonological inventory."
+  },
+  "Prosody": {
+    "short_description": "The suprasegmental architecture of speech encompassing rhythm, stress, and intonation patterns that shape linguistic meaning beyond individual sounds."
+  },
+  "Distinctive Feature": {
+    "short_description": "The atomic components of phonological contrast, defining sound categories through binary articulatory or acoustic characteristics."
+  },
+  "Underlying Representation": {
+    "short_description": "The abstract mental form of linguistic units before applying phonological rules, representing the speaker's innate knowledge of sound patterns."
+  },
+  "Surface Form": {
+    "short_description": "The realized phonetic output derived through transformational rules acting on underlying representations within specific linguistic contexts."
+  },
+  "Neutralization": {
+    "short_description": "The elimination of phonemic contrast in particular environments, where distinct underlying sounds merge in actual pronunciation."
+  },
+  "Harmony": {
+    "short_description": "The systematic agreement of phonological features across segments within a word or phrase, creating patterns of sound assimilation."
+  },
+  "Optimality": {
+    "short_description": "The theoretical framework evaluating phonological systems through competing universal constraints ranked by language-specific priorities."
+  },
+  "Metathesis": {
+    "short_description": "The reordering of adjacent sounds within a word, reflecting historical change or synchronic phonological processing constraints."
+  },
+  "Reduplication": {
+    "short_description": "The morphological process involving partial or complete repetition of phonological material to convey grammatical or semantic functions."
+  },
+  "Sonority Hierarchy": {
+    "short_description": "The gradient scale of sound carrying power that governs syllable structure and explains phonotactic patterns across languages."
+  },
+  "Minimal Pair": {
+    "short_description": "A pair of words differing by a single phoneme, demonstrating the contrastive function of sounds in a phonological system."
+  },
+  "Coalescence": {
+    "short_description": "The fusion of adjacent sounds into a single segment combining features from both original elements, often at morphological boundaries."
+  },
+  "Epenthesis": {
+    "short_description": "The insertion of sounds to resolve impermissible clusters or satisfy syllabic structure requirements within phonological systems."
+  },
+  "Elision": {
+    "short_description": "The omission of sounds in particular phonological environments to maintain rhythmic flow or adhere to language-specific constraints."
+  },
+  "Foot": {
+    "short_description": "The metrical unit organizing stressed and unstressed syllables into rhythmic patterns that shape poetic meter and speech prosody."
+  },
+  "Tone": {
+    "short_description": "The use of pitch variation to distinguish lexical or grammatical meaning, creating layered phonological systems in tonal languages."
+  },
+  "Markedness": {
+    "short_description": "The theoretical principle identifying certain phonological elements as more natural, frequent, or basic within and across languages."
+  },
+  "Autosegment": {
+    "short_description": "Independent phonological features represented on separate tiers, allowing non-linear relationships in tone, harmony, and other phenomena."
+  },
+  "Underspecification": {
+    "short_description": "The theoretical approach where phonological representations omit predictable features, filled by default rules during derivation."
+  },
+  "Gradient": {
+    "short_description": "The continuous nature of phonetic implementation interacting with categorical phonological distinctions in speech production and perception."
+  },
+  "Lexical Stratum": {
+    "short_description": "Distinct layers of vocabulary undergoing different phonological processes based on morphological derivation or historical origin."
+  },
+  "Coarticulation": {
+    "short_description": "The simultaneous articulation of speech sounds influencing adjacent segments, revealing the dynamic nature of phonological production."
+  },
+  "Articulatory Gesture": {
+    "short_description": "The basic unit of phonological action in some theoretical frameworks, representing coordinated movements of speech organs."
+  },
+  "Phonological Rule": {
+    "short_description": "A formal statement describing context-dependent sound changes that map underlying forms to surface realizations in specific environments."
+  },
+  "Natural Class": {
+    "short_description": "A group of sounds sharing distinctive features that pattern together in phonological rules and processes within a language system."
+  }
+}

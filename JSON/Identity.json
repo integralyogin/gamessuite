@@ -1,0 +1,77 @@
+{
+  "Identity": {
+    "short_description": "Fundamental nature and characteristics that define an entity's existence and uniqueness."
+  },
+  "Essence": {
+    "short_description": "Core unchanging nature that constitutes the fundamental identity of something."
+  },
+  "Signature": {
+    "short_description": "Unique pattern or marker that distinguishes one identity from others."
+  },
+  "Profile": {
+    "short_description": "Collection of characteristics and attributes that describe an identity."
+  },
+  "Persona": {
+    "short_description": "Outward expression or presentation of identity in specific contexts."
+  },
+  "Character": {
+    "short_description": "Distinct combination of qualities that form a recognizable identity."
+  },
+  "Entity": {
+    "short_description": "Distinct unit possessing its own identity and characteristics."
+  },
+  "Archetype": {
+    "short_description": "Fundamental pattern or model from which identities derive."
+  },
+  "Avatar": {
+    "short_description": "Manifestation or embodiment of an identity in a particular form."
+  },
+  "Self": {
+    "short_description": "Core awareness and experience of individual identity."
+  },
+  "Presence": {
+    "short_description": "Manifestation of identity in time and space."
+  },
+  "Marker": {
+    "short_description": "Distinctive feature or trait that indicates specific identity."
+  },
+  "Badge": {
+    "short_description": "Symbol or credential that represents authenticated identity."
+  },
+  "Token": {
+    "short_description": "Portable representation of identity for verification purposes."
+  },
+  "Role": {
+    "short_description": "Function or position that shapes expression of identity."
+  },
+  "Mask": {
+    "short_description": "Temporary or contextual presentation of identity."
+  },
+  "Core": {
+    "short_description": "Central essence from which identity emanates."
+  },
+  "Imprint": {
+    "short_description": "Lasting mark or impression that signifies identity."
+  },
+  "Facet": {
+    "short_description": "Distinct aspect or dimension of a complete identity."
+  },
+  "Print": {
+    "short_description": "Unique pattern that serves as identity verification."
+  },
+  "Seal": {
+    "short_description": "Official mark or symbol that validates identity."
+  },
+  "Shadow": {
+    "short_description": "Hidden or unconscious aspects of identity."
+  },
+  "Cipher": {
+    "short_description": "Encoded form of identity for security purposes."
+  },
+  "Image": {
+    "short_description": "Visual or conceptual representation of identity."
+  },
+  "Echo": {
+    "short_description": "Residual trace or reflection of identity across contexts."
+  }
+}

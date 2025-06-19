@@ -1,0 +1,107 @@
+{
+  "Conceptual Hierarchy": {
+    "short_description": "System of organizing concepts from concrete to increasingly abstract levels."
+  },
+  "Symbolic System": {
+    "short_description": "Framework where symbols represent and manipulate abstract concepts."
+  },
+  "Pattern Recognition": {
+    "short_description": "Process of identifying recurring structures across different contexts."
+  },
+  "Category Formation": {
+    "short_description": "Fundamental process of grouping based on shared abstract properties."
+  },
+  "Dimensional Reduction": {
+    "short_description": "Simplification of complex systems by focusing on essential dimensions."
+  },
+  "Emergence": {
+    "short_description": "Higher-level patterns arising from lower-level interactions."
+  },
+  "Type Hierarchy": {
+    "short_description": "Nested system of increasingly general classifications."
+  },
+  "Modal Framework": {
+    "short_description": "System for understanding different modes or ways of being."
+  },
+  "Formal System": {
+    "short_description": "Abstract structure with defined rules for manipulation."
+  },
+  "Recursive Pattern": {
+    "short_description": "Self-referential structure that generates increasing levels of abstraction."
+  },
+  "Universal": {
+    "short_description": "Abstract property or principle that applies across all instances."
+  },
+  "Metaphorical Mapping": {
+    "short_description": "Transfer of structure between concrete and abstract domains."
+  },
+  "Logical Space": {
+    "short_description": "Framework of all possible combinations of abstract elements."
+  },
+  "Information Structure": {
+    "short_description": "Organization of data into meaningful abstract patterns."
+  },
+  "Ontological Level": {
+    "short_description": "Fundamental layer of reality or conceptual organization."
+  },
+  "Semantic Network": {
+    "short_description": "Web of interconnected meanings and conceptual relationships."
+  },
+  "Generative Grammar": {
+    "short_description": "Rules system producing infinite variations from finite elements."
+  },
+  "Idealization": {
+    "short_description": "Process of extracting perfect forms from imperfect instances."
+  },
+  "Morphological Field": {
+    "short_description": "Space of possible forms or configurations in abstract system."
+  },
+  "Abstract Operation": {
+    "short_description": "General process that can be applied across different domains."
+  },
+  "Categorical Relationship": {
+    "short_description": "Fundamental ways abstract entities can relate to each other."
+  },
+  "Metalevel": {
+    "short_description": "Layer of abstraction that describes or operates on other abstractions."
+  },
+  "Invariant Property": {
+    "short_description": "Characteristic that remains unchanged across transformations."
+  },
+  "Structural Essence": {
+    "short_description": "Core pattern that defines an abstract category."
+  },
+  "Functional Mapping": {
+    "short_description": "Abstract relationship between inputs and outputs."
+  },
+  "Conceptual Space": {
+    "short_description": "Multidimensional framework for organizing abstract concepts."
+  },
+  "Schema": {
+    "short_description": "Abstract template organizing knowledge or experience."
+  },
+  "Transformational Rule": {
+    "short_description": "Principle governing changes between abstract states."
+  },
+  "Abstraction Layer": {
+    "short_description": "Level of removal from concrete implementation."
+  },
+  "Isomorphism": {
+    "short_description": "Structural equivalence between different abstract systems."
+  },
+  "Quality Space": {
+    "short_description": "Framework for organizing abstract properties or attributes."
+  },
+  "Conceptual Blend": {
+    "short_description": "Merger of different abstract domains creating new meaning."
+  },
+  "Protocol": {
+    "short_description": "Abstract rules governing interaction or process."
+  },
+  "Archetypal Pattern": {
+    "short_description": "Fundamental template generating specific instances."
+  },
+  "Logical Type": {
+    "short_description": "Category defined by abstract rules or properties."
+  }
+}

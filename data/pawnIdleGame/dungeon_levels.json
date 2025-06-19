@@ -1,0 +1,31 @@
+[
+  {
+    "level": 1,
+    "name": "Goblin Caves - Floor 1",
+    "stepsToComplete": 10,
+    "encounterChance": 0.4,
+    "enemies": [
+      { "enemyId": "goblin_scout", "weight": 70 },
+      { "enemyId": "goblin_warrior", "weight": 30 }
+    ],
+    "lootOnStep": [
+      { "type": "gold", "min": 0, "max": 2, "chance": 0.5 }
+    ],
+    "completionReward": { "gold": 50, "xp": 100 }
+  },
+  {
+    "level": 2,
+    "name": "Goblin Caves - Floor 2",
+    "stepsToComplete": 15,
+    "encounterChance": 0.5,
+    "enemies": [
+      { "enemyId": "goblin_warrior", "weight": 60 },
+      { "enemyId": "goblin_shaman", "weight": 40 }
+    ],
+    "lootOnStep": [
+      { "type": "gold", "min": 1, "max": 3, "chance": 0.6 }
+    ],
+    "boss": { "enemyId": "goblin_chieftain" },
+    "completionReward": { "gold": 150, "xp": 300, "items": [{ "itemId": "leather_armor", "chance": 0.2 }] }
+  }
+]

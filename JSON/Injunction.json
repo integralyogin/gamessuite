@@ -1,0 +1,167 @@
+{
+  "Injunctions": {
+    "ein": "4"
+  },
+  "Conditions": {
+    "ein": "4"
+  },
+  "The Way": {
+    "ein": "4"
+  },
+  "How": {
+    "ein": "4"
+  },
+  "Training": {
+    "ein": "4"
+  },
+  "Grades": {
+    "ein": "4"
+  },
+  "Experiments": {
+    "ein": "4"
+  },
+  "Rituals": {
+    "ein": "4"
+  },
+  "Progress": {
+    "ein": "4"
+  },
+  "Records": {
+    "ein": "4"
+  },
+  "Actions": {
+    "ein": "4"
+  },
+  "Tapas": {
+    "ein": "4"
+  },
+  "Verbs": {
+    "ein": "4"
+  },
+  "Sadhana": {
+    "ein": "4"
+  },
+  "Yoga": {
+    "ein": "4"
+  },
+   "Order": {
+    "short_description": "A formal directive or command to perform or refrain from an action."
+  },
+  "Directive": {
+    "short_description": "An instruction or guidance issued to enforce compliance."
+  },
+  "Prohibition": {
+    "short_description": "A restriction or ban on specific actions or behaviors."
+  },
+  "Mandate": {
+    "short_description": "An authoritative command or requirement to act."
+  },
+  "Command": {
+    "short_description": "An explicit instruction to carry out a specific task."
+  },
+  "Restriction": {
+    "short_description": "A limitation or constraint on actions or behaviors."
+  },
+  "Enforcement": {
+    "short_description": "The act of ensuring compliance with an injunction."
+  },
+  "Authority": {
+    "short_description": "The legitimate power to issue or enforce injunctions."
+  },
+  "Compliance": {
+    "short_description": "The adherence to the terms of an injunction."
+  },
+  "Violation": {
+    "short_description": "The breach or failure to comply with an injunction."
+  },
+  "Scope": {
+    "short_description": "The range or extent of an injunction's applicability."
+  },
+  "Jurisdiction": {
+    "short_description": "The legal or authoritative domain of an injunction."
+  },
+  "Condition": {
+    "short_description": "The specific circumstances under which an injunction applies."
+  },
+  "Term": {
+    "short_description": "The duration or specific provisions of an injunction."
+  },
+  "Application": {
+    "short_description": "The practical implementation or relevance of an injunction."
+  },
+  "Target": {
+    "short_description": "The entity or entities subject to an injunction."
+  },
+  "Issuer": {
+    "short_description": "The entity or authority issuing the injunction."
+  },
+  "Obligation": {
+    "short_description": "The duty or responsibility imposed by an injunction."
+  },
+  "Exemption": {
+    "short_description": "A release or exclusion from the terms of an injunction."
+  },
+  "Sanction": {
+    "short_description": "The penalty or consequence for violating an injunction."
+  },
+  "Remedy": {
+    "short_description": "The corrective action or relief provided by an injunction."
+  },
+  "Precedent": {
+    "short_description": "Prior injunctions or rulings that influence current directives."
+  },
+  "Context": {
+    "short_description": "The circumstances or environment in which an injunction is issued."
+  },
+  "Purpose": {
+    "short_description": "The intended goal or objective of an injunction."
+  },
+  "Effect": {
+    "short_description": "The impact or outcome resulting from an injunction."
+  },
+  "Interpretation": {
+    "short_description": "The understanding or clarification of an injunction's meaning."
+  },
+  "Modification": {
+    "short_description": "Changes or amendments to the terms of an injunction."
+  },
+  "Extension": {
+    "short_description": "The expansion or prolongation of an injunction's scope or duration."
+  },
+  "Termination": {
+    "short_description": "The end or cancellation of an injunction's validity."
+  },
+  "Conflict": {
+    "short_description": "The opposition or contradiction between injunctions or directives."
+  },
+  "Resolution": {
+    "short_description": "The settlement or clarification of conflicts involving injunctions."
+  },
+  "Hierarchy": {
+    "short_description": "Ordered relationships between injunctions or authorities."
+  },
+  "Dependency": {
+    "short_description": "Relationships where an injunction relies on other directives or conditions."
+  },
+  "Integration": {
+    "short_description": "The unification or synthesis of multiple injunctions into a cohesive framework."
+  },
+  "Differentiation": {
+    "short_description": "The development of distinct characteristics between injunctions."
+  },
+  "Evolution": {
+    "short_description": "Patterns of development and change in the nature of injunctions."
+  },
+  "Transformation": {
+    "short_description": "Processes of change in the structure or purpose of injunctions."
+  },
+  "Abstraction": {
+    "short_description": "Generalized representations of the nature of injunctions."
+  },
+  "Manifestation": {
+    "short_description": "The expression or realization of an injunction in observable form."
+  },
+  "Documentation": {
+    "short_description": "The formal recording or evidence of an injunction."
+  }
+}

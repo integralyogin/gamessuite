@@ -1,0 +1,113 @@
+{
+"Agent": {
+    "short_description": "An autonomous entity capable of perceiving its environment, making decisions, and taking actions to achieve specific goals through continuous interaction and learning."
+},
+"Environment": {
+    "short_description": "The external context in which an agent operates, providing observations, accepting actions, and generating feedback or rewards that influence agent behavior."
+},
+"Perception": {
+    "short_description": "The process by which an agent receives and interprets information from its environment, converting raw inputs into meaningful representations for decision-making."
+},
+"Action Space": {
+    "short_description": "The complete set of possible actions an agent can take in response to environmental states, defining the boundaries of its operational capabilities."
+},
+"State Space": {
+    "short_description": "The collection of all possible configurations or situations the agent might encounter in its environment, forming the basis for decision-making."
+},
+"Policy": {
+    "short_description": "The strategy or set of rules that determines an agent's actions in response to environmental states, mapping observations to appropriate behaviors."
+},
+"Reward Function": {
+    "short_description": "The mechanism that provides feedback to the agent about the value of its actions, guiding learning and behavior optimization toward desired outcomes."
+},
+"Value Function": {
+    "short_description": "The agent's estimation of expected future rewards for states or state-action pairs, used to evaluate and select optimal actions."
+},
+"Planning": {
+    "short_description": "The process of determining sequences of actions to achieve goals, considering future states and potential outcomes before execution."
+},
+"Learning": {
+    "short_description": "The continuous adaptation of an agent's behavior based on experience, improving its policy and value estimates through interaction."
+},
+"Exploration": {
+    "short_description": "The agent's strategy for discovering new information about its environment by trying novel actions or visiting unfamiliar states."
+},
+"Exploitation": {
+    "short_description": "The agent's use of existing knowledge to maximize immediate performance by selecting actions known to be effective."
+},
+"Memory": {
+    "short_description": "The agent's capacity to store and utilize past experiences, enabling learning from history and informing future decisions."
+},
+"Tool Use": {
+    "short_description": "The agent's ability to leverage external resources, APIs, or functions to extend its capabilities and achieve complex goals."
+},
+"Reasoning": {
+    "short_description": "The cognitive process by which an agent analyzes information, forms conclusions, and makes logical decisions based on available data."
+},
+"Multi-Agent System": {
+    "short_description": "An environment containing multiple interacting agents, requiring coordination, competition, or cooperation to achieve individual or collective goals."
+},
+"Communication": {
+    "short_description": "The exchange of information between agents or between agents and their environment, enabling coordination and shared understanding."
+},
+"Goal Setting": {
+    "short_description": "The process of defining objectives that guide agent behavior, ranging from specific tasks to general optimization targets."
+},
+"Adaptation": {
+    "short_description": "The agent's ability to modify its behavior in response to changing environmental conditions or new information."
+},
+"Knowledge Base": {
+    "short_description": "The structured collection of information and rules available to the agent for reasoning and decision-making."
+},
+"Task Decomposition": {
+    "short_description": "The breaking down of complex objectives into simpler subtasks that can be handled more effectively by the agent."
+},
+"Autonomy": {
+    "short_description": "The degree to which an agent can operate independently, making decisions and taking actions without external intervention."
+},
+"Feedback Loop": {
+    "short_description": "The cyclic process of action, observation, and adjustment through which agents learn from and respond to their environment."
+},
+"Safety Constraints": {
+    "short_description": "The boundaries and limitations placed on agent behavior to ensure safe and responsible operation within defined parameters."
+},
+"Performance Metrics": {
+    "short_description": "The quantitative measures used to evaluate an agent's effectiveness in achieving its goals and operating efficiently."
+},
+"Belief State": {
+    "short_description": "The agent's internal representation of the current state of its environment, including uncertainty and incomplete information."
+},
+"Action Selection": {
+    "short_description": "The process by which an agent chooses specific actions from its available options based on current state and policy."
+},
+"Hierarchical Control": {
+    "short_description": "The organization of agent behavior into layers of increasing abstraction, enabling management of complex tasks through structured decision-making."
+},
+"Error Recovery": {
+    "short_description": "The agent's mechanisms for detecting and responding to failures or unexpected situations during task execution."
+},
+"Resource Management": {
+    "short_description": "The agent's allocation and optimization of available resources, including time, memory, and computational capacity."
+},
+"Context Awareness": {
+    "short_description": "The agent's ability to understand and adapt to the specific circumstances and requirements of its current situation."
+},
+"Intention Recognition": {
+    "short_description": "The capability to infer and understand the goals and plans of other agents or users in the environment."
+},
+"Behavior Modeling": {
+    "short_description": "The creation and maintenance of models predicting the actions and responses of other entities in the environment."
+},
+"Learning Transfer": {
+    "short_description": "The agent's ability to apply knowledge and skills learned in one context to new but related situations."
+},
+"Meta-Learning": {
+    "short_description": "The process of learning how to learn, improving the efficiency and effectiveness of the agent's learning mechanisms."
+},
+"Embodiment": {
+    "short_description": "The physical or virtual manifestation of an agent that determines its capabilities for interaction with the environment."
+},
+"Social Learning": {
+    "short_description": "The acquisition of knowledge and skills through observation and interaction with other agents or humans."
+}
+}

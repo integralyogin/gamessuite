@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligent Text Reader Test</title> <style>
+        body { 
+            margin: 0; 
+            font-family: 'Georgia', serif;
+            background-color: #e8e0d0;
+            color: #333; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            padding: 15px; 
+            box-sizing: border-box; 
+        }
+        .reader-app-container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            height: 90vh;
+            background-color: #fdf6e3;
+            border: 1px solid #c8b89a;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .reader-nav-pane {
+            width: 280px;
+            flex-shrink: 0;
+            background-color: #f0e8d8;
+            border-right: 1px solid #d5c8b0;
+            overflow-y: auto;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .reader-nav-pane h2 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            color: #5d4037;
+            text-align: center;
+            border-bottom: 1px solid #c8b89a;
+            padding-bottom: 10px;
+        }
+        .toc-part h3 {
+            font-size: 1.1em;
+            color: #795548;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+        .toc-part ul {
+            list-style: none;
+            padding-left: 10px;
+            margin: 0;
+        }
+        .toc-part li a {
+            display: block;
+            padding: 6px 10px;
+            text-decoration: none;
+            color: #6a5acd;
+            font-size: 0.95em;
+            border-radius: 3px;
+            transition: background-color 0.2s ease;
+        }
+        .toc-part li a:hover {
+            background-color: #e0dcd1;
+            color: #483d8b;
+        }
+        .toc-part li a.active {
+            background-color: #6a5acd;
+            color: white;
+            font-weight: bold;
+        }
+        .reader-main-area {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .reader-header { 
+            padding: 10px 25px; 
+            border-bottom: 1px solid #d2b48c; 
+            background-color: #e3d9c6;
+            flex-shrink: 0;
+        }
+        .reader-header h1 { /* Main Book Title */
+            margin: 0; 
+            font-size: 1.3em; 
+            color: #5d4037; 
+            text-align: center; 
+            font-weight: normal;
+        }
+         .reader-header h2 { /* Current Chapter Title */
+            margin: 5px 0 0 0;
+            font-size: 1.5em;
+            color: #795548;
+            text-align: center;
+            font-weight: bold;
+        }
+        .reader-content-wrapper { 
+            flex-grow: 1; 
+            overflow-y: auto; 
+            padding: 25px 35px; 
+            background-color: #fffdf9;
+            line-height: 1.75; 
+            font-size: 1.05em;
+            text-align: justify; 
+            hyphens: auto;
+        }
+        .reader-content-wrapper p { 
+            margin-top: 0;
+            margin-bottom: 1.25em; 
+        }
+        .reader-content-wrapper em { font-style: italic; }
+        .reader-content-wrapper strong { font-weight: bold; }
+        .reader-content-wrapper sup { 
+            font-size: 0.7em; 
+            vertical-align: super; 
+            line-height: 0; 
+            margin-left: 1px;
+        }
+        .reader-loading { 
+            text-align: center; 
+            padding: 30px; 
+            font-size: 1.2em; 
+            color: #555;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* For multiline error messages */
+        }
+        .reader-nav-pane::-webkit-scrollbar,
+        .reader-content-wrapper::-webkit-scrollbar {
+            width: 8px;
+        }
+        .reader-nav-pane::-webkit-scrollbar-track,
+        .reader-content-wrapper::-webkit-scrollbar-track {
+            background: #f0e8d8;
+            border-radius: 8px;
+        }
+         .reader-nav-pane::-webkit-scrollbar-thumb,
+        .reader-content-wrapper::-webkit-scrollbar-thumb {
+            background: #c8b89a;
+            border-radius: 8px;
+        }
+        .reader-nav-pane::-webkit-scrollbar-thumb:hover,
+        .reader-content-wrapper::-webkit-scrollbar-thumb:hover {
+            background: #b0a080;
+        }
+    </style>
+</head>
+<body>
+    <div class="reader-app-container">
+        <div id="readerNavigation" class="reader-nav-pane">
+            <h2>Table of Contents</h2>
+            <div id="tocList"></div>
+        </div>
+        <div class="reader-main-area">
+            <div class="reader-header">
+                <h1 id="readerBookTitle"></h1> 
+                <h2 id="readerChapterTitle"></h2> 
+            </div>
+            <div id="readerLoadingMessage" class="reader-loading">Loading text file...</div> <div id="readerContentDisplay" class="reader-content-wrapper" style="display: none;">
+                </div>
+        </div>
+    </div>
+
+    <script>
+        const StandaloneReader = {
+            elements: {
+                bookTitleDisplay: null,
+                chapterTitleDisplay: null,
+                contentDisplay: null,
+                loadingMessage: null,
+                tocListContainer: null,
+            },
+            bookDetails: {
+                mainTitle: "", // Will be populated from the file's content
+                author: "",    // Will be populated from the file's content
+                filePath: "texts/sa21.TLD.txt", // Default file, can be changed
+                rawContent: '', // For content body after header lines
+                formatFields: [], // Full list from first line of text file, e.g., ["Author", "Title", "Part", "Chapter", "Paragraph"]
+                hierarchyFieldNames: [], // Names for the two structural levels, e.g., ["Part", "Chapter"]
+                parsedStructure: { parts: [] }, 
+            },
+
+            init: function() {
+                this.cacheElements();
+                this.elements.bookTitleDisplay.textContent = "Loading Book..."; // Placeholder
+                this.loadBookContent();
+            },
+
+            cacheElements: function() {
+                this.elements.bookTitleDisplay = document.getElementById('readerBookTitle');
+                this.elements.chapterTitleDisplay = document.getElementById('readerChapterTitle');
+                this.elements.contentDisplay = document.getElementById('readerContentDisplay');
+                this.elements.loadingMessage = document.getElementById('readerLoadingMessage');
+                this.elements.tocListContainer = document.getElementById('tocList');
+            },
+
+            loadBookContent: function() {
+                this.elements.loadingMessage.style.display = 'flex';
+                this.elements.contentDisplay.style.display = 'none';
+                this.bookDetails.hierarchyFieldNames = []; // Reset for new load
+
+                fetch(this.bookDetails.filePath)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! Status: ${response.status} while fetching ${this.bookDetails.filePath}`);
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        let allLines = text.split(/\r?\n/);
+
+                        if (allLines.length === 0) {
+                            throw new Error("Text file is empty.");
+                        }
+
+                        const formatLine = allLines.shift(); // First line is format
+                        this.bookDetails.formatFields = formatLine.split(',').map(s => s.trim());
+
+                        // We expect at least: Author, Title, Level1, Level2 structural units (e.g., Part, Chapter)
+                        // The last field is assumed to be the paragraph/content unit.
+                        if (this.bookDetails.formatFields.length < 4) {
+                            throw new Error(`Format line "${formatLine}" must describe at least descriptors for Author, Title, a primary structural unit, and a secondary structural unit. Example: "Author, Title, Part, Chapter, Paragraph"`);
+                        }
+                        
+                        const getNextNonEmptyLine = (linesArray) => {
+                            while (linesArray.length > 0) {
+                                const line = linesArray.shift(); // Modifies the array in place
+                                if (line.trim() !== "") {
+                                    return line.trim();
+                                }
+                            }
+                            return null;
+                        };
+
+                        this.bookDetails.author = getNextNonEmptyLine(allLines);
+                        if (this.bookDetails.author === null) {
+                            throw new Error(`Could not find Author line after format declaration in "${this.bookDetails.filePath}".`);
+                        }
+
+                        this.bookDetails.mainTitle = getNextNonEmptyLine(allLines);
+                        if (this.bookDetails.mainTitle === null) {
+                            throw new Error(`Could not find Title line after Author in "${this.bookDetails.filePath}".`);
+                        }
+
+                        this.elements.bookTitleDisplay.textContent = this.bookDetails.mainTitle;
+                        this.elements.loadingMessage.textContent = `Loading ${this.bookDetails.mainTitle}...`;
+
+                        // Assuming formatFields[0] is Author-like, formatFields[1] is Title-like.
+                        // formatFields[2] will be the name for our "Part"-like structures.
+                        // formatFields[3] will be the name for our "Chapter"-like structures.
+                        this.bookDetails.hierarchyFieldNames.push(this.bookDetails.formatFields[2]);
+                        this.bookDetails.hierarchyFieldNames.push(this.bookDetails.formatFields[3]);
+                        
+                        this.bookDetails.rawContent = allLines.join('\n'); // Remaining lines form the content body
+                        
+                        this.processBookContent();
+                        this.populateNavigation();
+                        
+                        if (this.bookDetails.parsedStructure.parts.length > 0 && 
+                            this.bookDetails.parsedStructure.parts[0].chapters.length > 0) {
+                            this.displayChapter(0, 0); 
+                            const firstLink = this.elements.tocListContainer.querySelector('a');
+                            if (firstLink) {
+                                firstLink.classList.add('active');
+                            }
+                        } else if (this.bookDetails.parsedStructure.parts.length > 0 &&
+                                   this.bookDetails.parsedStructure.parts[0].chapters.length === 0 &&
+                                   this.bookDetails.parsedStructure.parts[0].paragraphs && // Check if part itself has paragraphs
+                                   this.bookDetails.parsedStructure.parts[0].paragraphs.length > 0 ) {
+                            // Handle case where structure might be Part -> Paragraphs (no chapters)
+                            // This part of display logic would need more fleshing out if we support Part -> Paragraphs directly
+                            // For now, assumes Chapter is the unit containing paragraphs.
+                            this.displayChapter(0,0); // Will likely show "No Content" if chapter logic is strict
+                            console.warn("Book structure seems to be Part -> Paragraphs without Chapters. Displaying first part's first 'chapter' (which might be empty).");
+                        }
+                        else {
+                            this.elements.contentDisplay.innerHTML = "<p>Book content is empty or could not be structured based on the defined format.</p>";
+                            this.elements.contentDisplay.style.display = 'block';
+                            this.elements.chapterTitleDisplay.textContent = "No Content";
+                        }
+                        this.elements.loadingMessage.style.display = 'none';
+
+                    })
+                    .catch(error => {
+                        console.error("StandaloneReader: Error loading book content:", error);
+                        this.elements.loadingMessage.innerHTML = `<p style="color:red; font-weight:bold;">Error loading book:</p><p style="color:red;">${error.message}.</p><p>Ensure '${this.bookDetails.filePath}' is correct, accessible, and follows the expected format.</p>`;
+                        this.elements.bookTitleDisplay.textContent = "Error";
+                        this.elements.chapterTitleDisplay.textContent = "Error";
+                        this.elements.contentDisplay.style.display = 'none';
+                        this.elements.loadingMessage.style.display = 'flex'; // Ensure it's visible
+                    });
+            },
+
+            processBookContent: function() {
+                const lines = this.bookDetails.rawContent.split(/\r?\n/);
+                this.bookDetails.parsedStructure = { parts: [] };
+                let currentPart = null;
+                let currentChapter = null;
+                let paragraphBuffer = [];
+
+                const finalizeParagraph = () => {
+                    if (paragraphBuffer.length > 0 && currentChapter) {
+                        currentChapter.paragraphs.push(paragraphBuffer.join(" "));
+                    }
+                    paragraphBuffer = [];
+                };
+
+                if (this.bookDetails.hierarchyFieldNames.length < 2) {
+                    console.error("Insufficient hierarchy field names defined for processing.");
+                    // Potentially throw an error or set a message for the user
+                    this.bookDetails.parsedStructure.parts.push({
+                        title: "Processing Error",
+                        chapters: [{ title: "Hierarchy Undefined", paragraphs: ["Could not parse content due to missing hierarchy definitions (e.g., Part/Chapter names)."]}]
+                    });
+                    return;
+                }
+
+                const level1Name = this.bookDetails.hierarchyFieldNames[0];
+                const level2Name = this.bookDetails.hierarchyFieldNames[1];
+                const escapeRegExp = (string) => string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const level1NameEsc = escapeRegExp(level1Name);
+                const level2NameEsc = escapeRegExp(level2Name);
+
+                // Regex to match lines like: "Name IDENTIFIER - Optional Description" or "Name IDENTIFIER"
+                // Example: "Part 0 - Some Title", "Chapter I", "Book The First - Introduction"
+                const level1Regex = new RegExp(`^(${level1NameEsc}\\s+[^-\\s][^-]*(?:\\s*-\\s*.*)?)$`, "i");
+                const level2Regex = new RegExp(`^(${level2NameEsc}\\s+[^-\\s][^-]*(?:\\s*-\\s*.*)?)$`, "i");
+
+                for (const line of lines) {
+                    const trimmedLine = line.trim();
+                    const level1Match = trimmedLine.match(level1Regex);
+                    const level2Match = trimmedLine.match(level2Regex);
+
+                    if (level1Match) {
+                        finalizeParagraph(); 
+                        currentPart = { title: level1Match[1], chapters: [] };
+                        this.bookDetails.parsedStructure.parts.push(currentPart);
+                        currentChapter = null; 
+                    } else if (level2Match) {
+                        finalizeParagraph();
+                        if (!currentPart) {
+                            currentPart = { title: `General ${level1Name}s`, chapters: [] }; // Use dynamic name
+                            this.bookDetails.parsedStructure.parts.push(currentPart);
+                        }
+                        currentChapter = { title: level2Match[1], paragraphs: [] };
+                        currentPart.chapters.push(currentChapter);
+                    } else if (trimmedLine === "") {
+                        finalizeParagraph();
+                    } else {
+                        if (currentChapter) {
+                            paragraphBuffer.push(trimmedLine);
+                        }
+                    }
+                }
+                finalizeParagraph(); // Finalize any remaining paragraph
+            },
+
+            populateNavigation: function() {
+                const tocContainer = this.elements.tocListContainer;
+                tocContainer.innerHTML = ''; 
+
+                this.bookDetails.parsedStructure.parts.forEach((part, partIndex) => {
+                    const partElement = document.createElement('div');
+                    partElement.className = 'toc-part';
+                    
+                    const partTitleElement = document.createElement('h3');
+                    partTitleElement.innerHTML = this.formatTextSpans(part.title); 
+                    partElement.appendChild(partTitleElement);
+
+                    const chapterListElement = document.createElement('ul');
+                    part.chapters.forEach((chapter, chapterIndex) => {
+                        const chapterItemElement = document.createElement('li');
+                        const chapterLinkElement = document.createElement('a');
+                        chapterLinkElement.href = '#';
+                        chapterLinkElement.innerHTML = this.formatTextSpans(chapter.title); 
+                        chapterLinkElement.dataset.partIndex = partIndex;
+                        chapterLinkElement.dataset.chapterIndex = chapterIndex;
+                        
+                        chapterLinkElement.onclick = (event) => {
+                            event.preventDefault();
+                            const currentActive = tocContainer.querySelector('a.active');
+                            if (currentActive) {
+                                currentActive.classList.remove('active');
+                            }
+                            chapterLinkElement.classList.add('active');
+                            this.displayChapter(partIndex, chapterIndex);
+                        };
+                        chapterItemElement.appendChild(chapterLinkElement);
+                        chapterListElement.appendChild(chapterItemElement);
+                    });
+                    partElement.appendChild(chapterListElement);
+                    tocContainer.appendChild(partElement);
+                });
+            },
+            
+            displayChapter: function(partIndex, chapterIndex) {
+                const part = this.bookDetails.parsedStructure.parts[partIndex];
+                const chapter = part ? part.chapters[chapterIndex] : null;
+
+                if (!chapter) {
+                    this.elements.chapterTitleDisplay.innerHTML = "Error";
+                    this.elements.contentDisplay.innerHTML = "<p>Could not load chapter content. Structure might be missing chapters.</p>";
+                    this.elements.contentDisplay.style.display = 'block';
+                    return;
+                }
+
+                this.elements.chapterTitleDisplay.innerHTML = this.formatTextSpans(chapter.title);
+                
+                let chapterHTML = "";
+                if (chapter.paragraphs && chapter.paragraphs.length > 0) {
+                    chapter.paragraphs.forEach(paragraphText => {
+                        chapterHTML += `<p>${this.formatTextSpans(paragraphText)}</p>\n`;
+                    });
+                } else {
+                    chapterHTML = "<p><em>No content available for this section.</em></p>";
+                }
+                
+                this.elements.contentDisplay.innerHTML = chapterHTML;
+                this.elements.contentDisplay.scrollTop = 0;
+                this.elements.contentDisplay.style.display = 'block';
+            },
+
+            formatTextSpans: function(text) {
+                let safeText = text.replace(/&/g, '&amp;')
+                                   .replace(/</g, '&lt;')
+                                   .replace(/>/g, '&gt;');
+                safeText = safeText.replace(/_([^_]+)_/g, '<em>$1</em>');
+                safeText = safeText.replace(/\*([^*]+)\*/g, '<strong>$1</strong>');
+                safeText = safeText.replace(/(\b\w+(?:["”’s]?))\.(?<!\d\.)(\d+)(?!\.\d)/g, '$1<sup>$2</sup>');
+                
+                return safeText;
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            StandaloneReader.init();
+        });
+    </script>
+</body>
+</html>

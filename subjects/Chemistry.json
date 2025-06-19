@@ -1,0 +1,593 @@
+[
+  {
+    "id": "subj_chemistry_foundations_001",
+    "title": "Chemistry",
+    "description": "A progressive exploration of fundamental chemical principles, atomic structure, bonding, reactions, and states of matter.",
+    "sections": [
+      {
+        "heading": "Chemistry Defined",
+        "topic_summary": "Science of matter, change.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_intro",
+            "summary": "An introduction to Chemistry as the scientific discipline concerned with the composition, structure, properties, and reactions of matter, especially at the atomic and molecular level."
+          }
+        ]
+      },
+      {
+        "heading": "Matter & Properties",
+        "topic_summary": "Has mass, takes space.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_matter_properties",
+            "summary": "Defining matter as anything that has mass and occupies space, and exploring its physical and chemical properties."
+          }
+        ]
+      },
+      {
+        "heading": "States of Matter",
+        "topic_summary": "Solid, liquid, gas, plasma.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_states_matter",
+            "summary": "Understanding the distinct forms that matter takes—solid, liquid, gas, and plasma—based on particle arrangement and energy."
+          }
+        ]
+      },
+      {
+        "heading": "Physical vs. Chemical Changes",
+        "topic_summary": "Form vs. substance alteration.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_phys_chem_changes",
+            "summary": "Distinguishing between physical changes (alter form, not identity) and chemical changes (result in new substances)."
+          }
+        ]
+      },
+      {
+        "heading": "Scientific Method",
+        "topic_summary": "Observe, hypothesize, test.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_scientific_method",
+            "summary": "The systematic process of observation, hypothesis formation, experimentation, and conclusion used in scientific inquiry."
+          }
+        ]
+      },
+      {
+        "heading": "Units & Measurement",
+        "topic_summary": "SI units, significant figures.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_units_measurement",
+            "summary": "The importance of standardized units (SI system) and precision in measurement, including the concept of significant figures."
+          }
+        ]
+      },
+      {
+        "heading": "Atoms & Molecules",
+        "topic_summary": "Basic building blocks.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_atoms_molecules",
+            "summary": "Defining atoms as the fundamental units of a chemical element and molecules as groups of two or more atoms held together by chemical bonds."
+          }
+        ]
+      },
+      {
+        "heading": "Atomic Theory",
+        "topic_summary": "Evolution of atomic models.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_atomic_theory",
+            "summary": "A historical overview of the development of atomic theory, from Dalton's postulates to modern quantum mechanical models."
+          }
+        ]
+      },
+      {
+        "heading": "Subatomic Particles",
+        "topic_summary": "Protons, neutrons, electrons.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_subatomic_particles",
+            "summary": "Identifying the primary constituents of an atom: positively charged protons, neutral neutrons (both in the nucleus), and negatively charged electrons."
+          }
+        ]
+      },
+      {
+        "heading": "Atomic Number & Mass",
+        "topic_summary": "Element identity, average mass.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_atomic_num_mass",
+            "summary": "Understanding atomic number (number of protons, defines element) and mass number (protons + neutrons), and atomic mass (weighted average)."
+          }
+        ]
+      },
+      {
+        "heading": "Isotopes",
+        "topic_summary": "Same element, different neutrons.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_isotopes",
+            "summary": "Atoms of the same element that have different numbers of neutrons, resulting in different mass numbers but the same chemical properties."
+          }
+        ]
+      },
+      {
+        "heading": "Electron Shells/Orbitals",
+        "topic_summary": "Electron energy levels, regions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_electron_shells_orbitals",
+            "summary": "Describing the arrangement of electrons in an atom within specific energy levels (shells) and regions of probability (orbitals: s, p, d, f)."
+          }
+        ]
+      },
+      {
+        "heading": "Electron Configuration",
+        "topic_summary": "Arrangement of atom's electrons.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_electron_config",
+            "summary": "The distribution of electrons of an atom or molecule in atomic or molecular orbitals (e.g., 1s²2s²2p⁶)."
+          }
+        ]
+      },
+      {
+        "heading": "Periodic Table Intro",
+        "topic_summary": "Organizing chemical elements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_periodic_table_intro",
+            "summary": "Introduction to the periodic table as a tabular arrangement of chemical elements, ordered by atomic number, electron configuration, and recurring chemical properties."
+          }
+        ]
+      },
+      {
+        "heading": "Periods & Groups",
+        "topic_summary": "Rows & columns, trends.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_periods_groups",
+            "summary": "Understanding periods (horizontal rows) and groups/families (vertical columns) in the periodic table and their significance for elemental properties."
+          }
+        ]
+      },
+      {
+        "heading": "Metals, Nonmetals, Metalloids",
+        "topic_summary": "Element classifications, properties.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_metal_nonmetal_metalloid",
+            "summary": "Classifying elements based on their general physical and chemical properties into metals, nonmetals, and metalloids (semimetals)."
+          }
+        ]
+      },
+      {
+        "heading": "Periodic Trends",
+        "topic_summary": "Radius, ionization, electronegativity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_periodic_trends",
+            "summary": "Examining systematic variations in properties such as atomic radius, ionization energy, electron affinity, and electronegativity across periods and down groups."
+          }
+        ]
+      },
+      {
+        "heading": "Chemical Bonds Intro",
+        "topic_summary": "Forces holding atoms together.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_bonds_intro",
+            "summary": "An introduction to chemical bonds as persistent attractions between atoms, ions or molecules that enable the formation of chemical compounds."
+          }
+        ]
+      },
+      {
+        "heading": "Valence Electrons",
+        "topic_summary": "Outer shell electrons in bonding.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_valence_electrons",
+            "summary": "Electrons in the outermost shell of an atom, which are involved in forming chemical bonds with other atoms."
+          }
+        ]
+      },
+      {
+        "heading": "Ionic Bonds",
+        "topic_summary": "Electron transfer, cation-anion.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_ionic_bonds",
+            "summary": "Chemical bonds formed through an electrostatic attraction between two oppositely charged ions (cations and anions) after electron transfer."
+          }
+        ]
+      },
+      {
+        "heading": "Covalent Bonds",
+        "topic_summary": "Electron sharing between atoms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_covalent_bonds",
+            "summary": "Chemical bonds that involve the sharing of electron pairs between atoms, forming molecules."
+          }
+        ]
+      },
+      {
+        "heading": "Lewis Structures",
+        "topic_summary": "Diagrams of bonding electrons.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_lewis_structures",
+            "summary": "Diagrams that show the bonding between atoms of a molecule and the lone pairs of electrons that may exist in the molecule."
+          }
+        ]
+      },
+      {
+        "heading": "Molecular Geometry (VSEPR)",
+        "topic_summary": "Predicting 3D molecular shapes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_vsepr",
+            "summary": "Valence Shell Electron Pair Repulsion (VSEPR) theory, a model used to predict the 3D geometry of individual molecules from the number of electron pairs surrounding their central atoms."
+          }
+        ]
+      },
+      {
+        "heading": "Polarity & Dipole Moments",
+        "topic_summary": "Uneven charge in bonds.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_polarity_dipoles",
+            "summary": "Understanding bond polarity due to differences in electronegativity and molecular polarity (dipole moments) arising from molecular shape and bond polarities."
+          }
+        ]
+      },
+      {
+        "heading": "Intermolecular Forces (IMFs)",
+        "topic_summary": "Attractions between molecules.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_imfs",
+            "summary": "Forces of attraction or repulsion which act between neighboring particles (atoms, molecules, or ions), such as London dispersion forces, dipole-dipole interactions, and hydrogen bonding."
+          }
+        ]
+      },
+      {
+        "heading": "Chemical Formulas",
+        "topic_summary": "Representing compound composition.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_chemical_formulas",
+            "summary": "Symbolic representations of the chemical composition of compounds, indicating the types of atoms and their relative numbers (e.g., H₂O, C₆H₁₂O₆)."
+          }
+        ]
+      },
+      {
+        "heading": "Naming Ionic Compounds",
+        "topic_summary": "Cation-anion naming rules.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_naming_ionic",
+            "summary": "Systematic rules (IUPAC nomenclature) for naming ionic compounds based on the names of the cation and anion involved."
+          }
+        ]
+      },
+      {
+        "heading": "Naming Covalent Compounds",
+        "topic_summary": "Prefixes for nonmetal compounds.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_naming_covalent",
+            "summary": "Systematic rules for naming binary molecular (covalent) compounds using prefixes to indicate the number of atoms of each element."
+          }
+        ]
+      },
+      {
+        "heading": "Chemical Equations",
+        "topic_summary": "Symbolic reaction representation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_chemical_equations",
+            "summary": "Symbolic representation of a chemical reaction using chemical formulas for reactants and products."
+          }
+        ]
+      },
+      {
+        "heading": "Balancing Equations",
+        "topic_summary": "Conserving mass in reactions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_balancing_equations",
+            "summary": "The process of ensuring that the number of atoms of each element is the same on both sides of a chemical equation, reflecting the law of conservation of mass."
+          }
+        ]
+      },
+      {
+        "heading": "Types of Reactions",
+        "topic_summary": "Synthesis, decomposition, etc.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_reaction_types",
+            "summary": "Classifying chemical reactions into common types such as synthesis, decomposition, single displacement, double displacement, and combustion."
+          }
+        ]
+      },
+      {
+        "heading": "The Mole Concept",
+        "topic_summary": "Avogadro's number, chemical unit.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_mole_concept",
+            "summary": "Understanding the mole as a unit representing 6.022 x 10²³ entities (Avogadro's number), used to count atoms, molecules, or ions."
+          }
+        ]
+      },
+      {
+        "heading": "Molar Mass",
+        "topic_summary": "Mass of one mole.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_molar_mass",
+            "summary": "The mass (in grams) of one mole of a substance, numerically equal to its atomic or molecular weight in atomic mass units (amu)."
+          }
+        ]
+      },
+      {
+        "heading": "Stoichiometry",
+        "topic_summary": "Quantitative reaction relationships.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_stoichiometry",
+            "summary": "The calculation of relative quantities of reactants and products in chemical reactions based on balanced chemical equations."
+          }
+        ]
+      },
+      {
+        "heading": "Limiting Reactants",
+        "topic_summary": "Reactant used up first.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_limiting_reactants",
+            "summary": "The reactant in a chemical reaction that is completely consumed first, thereby limiting the amount of product that can be formed."
+          }
+        ]
+      },
+      {
+        "heading": "Percent Yield",
+        "topic_summary": "Actual vs. theoretical output.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_percent_yield",
+            "summary": "The ratio of the actual yield (amount of product obtained) to the theoretical yield (maximum amount predicted by stoichiometry), expressed as a percentage."
+          }
+        ]
+      },
+      {
+        "heading": "Solutions & Solubility",
+        "topic_summary": "Homogeneous mixtures, dissolving.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_solutions_solubility",
+            "summary": "Understanding solutions as homogeneous mixtures, the process of dissolving, and factors affecting solubility ('like dissolves like')."
+          }
+        ]
+      },
+      {
+        "heading": "Concentration Units",
+        "topic_summary": "Molarity, molality, percent.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_concentration_units",
+            "summary": "Various ways to express the amount of solute in a given amount of solvent or solution, such as molarity, molality, and mass percent."
+          }
+        ]
+      },
+      {
+        "heading": "Acids & Bases: Arrhenius",
+        "topic_summary": "H+ and OH- producers.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_acids_bases_arrhenius",
+            "summary": "The Arrhenius definition: acids produce H⁺ ions in water, and bases produce OH⁻ ions in water."
+          }
+        ]
+      },
+      {
+        "heading": "Acids & Bases: Brønsted-Lowry",
+        "topic_summary": "Proton donors and acceptors.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_acids_bases_bronsted",
+            "summary": "The Brønsted-Lowry definition: acids are proton (H⁺) donors, and bases are proton acceptors."
+          }
+        ]
+      },
+      {
+        "heading": "pH Scale",
+        "topic_summary": "Measure of acidity/alkalinity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_ph_scale",
+            "summary": "A logarithmic scale used to specify the acidity or basicity of an aqueous solution, typically ranging from 0 (very acidic) to 14 (very alkaline)."
+          }
+        ]
+      },
+      {
+        "heading": "Neutralization Reactions",
+        "topic_summary": "Acid + base -> salt + water.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_neutralization",
+            "summary": "A chemical reaction in which an acid and a base react quantitatively with each other to form a salt and water."
+          }
+        ]
+      },
+      {
+        "heading": "Redox Reactions",
+        "topic_summary": "Electron transfer, oxidation states.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_redox",
+            "summary": "Oxidation-reduction reactions involving the transfer of electrons between chemical species, identified by changes in oxidation states."
+          }
+        ]
+      },
+      {
+        "heading": "Gas Laws",
+        "topic_summary": "Boyle's, Charles's, Avogadro's.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_gas_laws",
+            "summary": "Empirical laws describing the relationships between pressure, volume, temperature, and amount of a gas (e.g., Boyle's Law, Charles's Law, Avogadro's Law)."
+          }
+        ]
+      },
+      {
+        "heading": "Ideal Gas Law",
+        "topic_summary": "PV=nRT equation of state.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_ideal_gas_law",
+            "summary": "The equation of state of a hypothetical ideal gas, PV=nRT, relating pressure (P), volume (V), amount (n), and temperature (T)."
+          }
+        ]
+      },
+      {
+        "heading": "Thermochemistry",
+        "topic_summary": "Heat changes in reactions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_thermochemistry",
+            "summary": "The study of heat energy associated with chemical reactions and physical transformations."
+          }
+        ]
+      },
+      {
+        "heading": "Enthalpy",
+        "topic_summary": "Heat content of system.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_enthalpy",
+            "summary": "A thermodynamic quantity equivalent to the total heat content of a system, often measured as the change in enthalpy (ΔH) during a reaction."
+          }
+        ]
+      },
+      {
+        "heading": "Kinetics",
+        "topic_summary": "Study of reaction rates.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_kinetics",
+            "summary": "The branch of chemistry concerned with the rates of chemical reactions and the factors that influence them (e.g., concentration, temperature, catalysts)."
+          }
+        ]
+      },
+      {
+        "heading": "Chemical Equilibrium",
+        "topic_summary": "Forward/reverse rates equal.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_equilibrium",
+            "summary": "The state in which both reactants and products are present in concentrations which have no further tendency to change with time, as the rates of the forward and reverse reactions are equal."
+          }
+        ]
+      },
+      {
+        "heading": "Le Chatelier's Principle",
+        "topic_summary": "System response to stress.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_le_chatelier",
+            "summary": "A principle stating that if a dynamic equilibrium is disturbed by changing the conditions, the position of equilibrium moves to counteract the change."
+          }
+        ]
+      },
+      {
+        "heading": "Organic Chemistry Intro",
+        "topic_summary": "Study of carbon compounds.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_organic_intro",
+            "summary": "An introduction to the branch of chemistry that studies the structure, properties, composition, reactions, and preparation of carbon-containing compounds."
+          }
+        ]
+      },
+      {
+        "heading": "Hydrocarbons",
+        "topic_summary": "Compounds of H and C.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_hydrocarbons",
+            "summary": "Organic compounds consisting entirely of hydrogen and carbon (e.g., alkanes, alkenes, alkynes, aromatics)."
+          }
+        ]
+      },
+      {
+        "heading": "Functional Groups",
+        "topic_summary": "Reactive parts of molecules.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "chem_topic_functional_groups",
+            "summary": "Specific groups of atoms within molecules that are responsible for the characteristic chemical reactions of those molecules."
+          }
+        ]
+      }
+    ]
+  }
+]
+

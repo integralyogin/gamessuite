@@ -1,0 +1,23 @@
+{
+  "Problem Scoping": { "quote": "Define objectives: y = f(X) → Business goals aligned with ML feasibility (e.g., churn prediction)." },
+  "Data Collection": { "quote": "SQL/NoSQL queries: SELECT * FROM sensor_data WHERE timestamp > NOW() - INTERVAL '30d'; Class imbalance mitigation." },
+  "Data Preprocessing": { "quote": "Pipeline: NaN imputation (mean/median) → Scaling (MinMax/Z-score) → OneHotEncoding(categorical_vars)." },
+  "Feature Engineering": { "quote": "PolynomialFeatures(degree=3) + PCA(n_components=0.95) → Dimensionality reduction." },
+  "Model Selection": { "quote": "Bias-variance tradeoff: Linear Regression (high bias) vs. Random Forest (high variance)." },
+  "Training Phase": { "quote": "Loss minimization: Gradient Descent → θ = θ - η∇J(θ). PyTorch: optimizer.step()." },
+  "Validation Strategy": { "quote": "k-Fold Cross-Validation (k=5) → Stratified splits for imbalanced datasets." },
+  "Model Evaluation": { "quote": "Metrics: Precision/Recall (PR-AUC), ROC-AUC, RMSE = √(Σ(y - ŷ)²/n)." },
+  "Hyperparameter Tuning": { "quote": "GridSearchCV(C=[0.1,1,10], gamma=[0.001,0.01]) → Optimal SVM params." },
+  "Deployment": { "quote": "Containerize with Docker: EXPOSE 5000 → Flask REST API → Predict(request.json['input'])." },
+  "Monitoring & Maintenance": { "quote": "Drift detection: KL_divergence(p_train, p_prod) > ε → Retrain trigger." },
+  "Ethical Auditing": { "quote": "Fairness metrics: Disparate Impact Ratio = P(ŷ=1|group=A) / P(ŷ=1|group=B)." },
+  "Documentation": { "quote": "MLflow: Log params, metrics, artifacts → Reproducible experiments." },
+  "Iterative Improvement": { "quote": "Active Learning: Query Oracle(model, uncertainty_sampling) → Label new data." },
+  "Collaboration": { "quote": "Git for ML: DVC (Data Version Control) → Track datasets, models, and pipelines." },
+  "Edge AI Optimization": { "quote": "Quantization: float32 → int8 (TensorFlow Lite) → Model size ↓, inference ↑." },
+  "Scaling Infrastructure": { "quote": "Kubeflow: Kubernetes pods → Distributed training (Horovod/NCCL)." },
+  "Explainability": { "quote": "SHAP values: ϕ_i = Σ_{S⊆N{i}} [val(S∪{i}) - val(S)] → Feature importance." },
+  "Compliance": { "quote": "GDPR/CCPA: Right to explanation (Article 22) + Data anonymization (k-anonymity)." },
+  "Case Studies": { "quote": "ResNet (ImageNet), AlphaGo (MCTS + Policy Nets), GPT-3 (Transformer scaling)." },
+  "Future Directions": { "quote": "Neuro-symbolic AI: Combine neural networks (perception) with logic (reasoning)." }
+}

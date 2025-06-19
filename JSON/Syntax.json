@@ -1,0 +1,98 @@
+{
+  "Syntax": {
+    "short_description": "The study of sentence structure and the rules governing the arrangement of words into meaningful patterns, revealing the underlying principles of language organization and cognitive expression."
+  },
+  "Sentence_Structure": {
+    "short_description": "The framework determining how words combine to form coherent utterances, establishing relationships between constituents through hierarchical and linear organization."
+  },
+  "Grammar": {
+    "short_description": "The implicit system of rules and principles that dictate permissible combinations of linguistic elements within a given language, shaping both production and comprehension."
+  },
+  "Parsing": {
+    "short_description": "The cognitive process of analyzing linguistic input to determine its structural relationships, mapping surface forms to underlying grammatical representations."
+  },
+  "Constituency": {
+    "short_description": "The grouping of words into functional units that act as coherent wholes within syntactic structures, reflecting nested hierarchies of meaning."
+  },
+  "Dependency": {
+    "short_description": "The directed relationships between words where one element governs or requires the presence of another, creating networks of grammatical obligation."
+  },
+  "Phrase": {
+    "short_description": "A syntactic unit built around a head word, expanded through modifiers and complements to express complex conceptual relationships."
+  },
+  "Clause": {
+    "short_description": "A self-contained structural unit containing a subject and predicate, capable of standing alone or embedding within larger constructions."
+  },
+  "Transformations": {
+    "short_description": "The formal operations that relate different syntactic structures, revealing underlying equivalences between surface variations."
+  },
+  "Deep_Structure": {
+    "short_description": "The abstract underlying representation of a sentence's meaning prior to transformation into surface expression, encoding fundamental grammatical relationships."
+  },
+  "Surface_Structure": {
+    "short_description": "The tangible arrangement of words as actually spoken or written, derived through transformational rules from deeper syntactic representations."
+  },
+  "Parts_of_Speech": {
+    "short_description": "The categorical classification of words based on their grammatical functions and combinatorial properties within syntactic frameworks."
+  },
+  "Agreement": {
+    "short_description": "The systematic correspondence between related elements in grammatical features such as number, gender, and case, ensuring syntactic harmony."
+  },
+  "Word_Order": {
+    "short_description": "The conventional sequence of linguistic elements within a given language, reflecting both grammatical requirements and information structure."
+  },
+  "Ambiguity": {
+    "short_description": "The property of syntactic constructions allowing multiple structural interpretations, revealing the complexity of mapping form to meaning."
+  },
+  "Hierarchy": {
+    "short_description": "The layered organization of syntactic constituents into nested structures, demonstrating the non-linear nature of grammatical relationships."
+  },
+  "Modifier": {
+    "short_description": "An element that specifies or qualifies the meaning of another constituent, operating within defined syntactic domains to add complexity."
+  },
+  "Valency": {
+    "short_description": "The number and type of arguments required by a lexical item to form complete syntactic structures, determining combinatorial potential."
+  },
+  "Case": {
+    "short_description": "The morphological marking of nouns and pronouns indicating their grammatical function within a clause, governing syntactic relations."
+  },
+  "Grammatical_Relations": {
+    "short_description": "The functional roles such as subject and object that constituents play in clauses, mediating between structure and meaning."
+  },
+  "Head": {
+    "short_description": "The central element of a phrase that determines its syntactic category and combinatorial properties, governing dependents."
+  },
+  "Complement": {
+    "short_description": "A constituent required by a head to complete its meaning, standing in specific syntactic and semantic relationships to the core."
+  },
+  "Adjunct": {
+    "short_description": "An optional modifier adding supplementary information to a structure without being required by the head's valency."
+  },
+  "Projection": {
+    "short_description": "The extension of a head's properties through its combinatory potential, forming phrases that inherit and elaborate core features."
+  },
+  "Movement": {
+    "short_description": "The syntactic phenomenon where constituents appear displaced from their canonical positions, indicating abstract structural relationships."
+  },
+  "Ellipsis": {
+    "short_description": "The omission of structurally recoverable elements, testing the boundaries between overt form and underlying syntactic representation."
+  },
+  "Anaphora": {
+    "short_description": "The referential dependence of one expression on another, requiring syntactic configurations that maintain coherence across utterances."
+  },
+  "Lexicon": {
+    "short_description": "The repository of linguistic knowledge containing words and their syntactic, morphological, and semantic properties."
+  },
+  "Generative_Grammar": {
+    "short_description": "The formal system of rules that recursively enumerates all and only the grammatical sentences of a language."
+  },
+  "Syntax_Tree": {
+    "short_description": "The diagrammatic representation of hierarchical structure, visualizing relationships between constituents through branching nodes."
+  },
+  "Grammaticality": {
+    "short_description": "The property of linguistic utterances conforming to the syntactic rules of a language, distinguishing well-formed from ill-formed structures."
+  },
+  "Interface": {
+    "short_description": "The points of interaction between syntax and other linguistic modules like semantics and phonology, mediating form-meaning correspondences."
+  }
+}

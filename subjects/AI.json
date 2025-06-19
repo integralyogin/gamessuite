@@ -1,0 +1,571 @@
+[
+  {
+    "id": "subj_ai_foundations_001",
+    "title": "Artificial Intelligence: Concepts & Applications",
+    "description": "A progressive exploration of Artificial Intelligence, from foundational theories to modern applications and ethical considerations.",
+    "sections": [
+      {
+        "heading": "AI Intro",
+        "topic_summary": "Simulating human intelligence.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_intro",
+            "summary": "An overview of Artificial Intelligence (AI) as a field of computer science dedicated to creating systems that can perform tasks typically requiring human intelligence."
+          }
+        ]
+      },
+      {
+        "heading": "AI History",
+        "topic_summary": "Evolution of AI thought.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_history",
+            "summary": "A brief timeline of key milestones, thinkers, and periods in the development of Artificial Intelligence, from early concepts to modern breakthroughs."
+          }
+        ]
+      },
+      {
+        "heading": "Types of AI",
+        "topic_summary": "Narrow, General, Superintelligence.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_types",
+            "summary": "Categorization of AI systems: Artificial Narrow Intelligence (ANI), Artificial General Intelligence (AGI), and Artificial Superintelligence (ASI)."
+          }
+        ]
+      },
+      {
+        "heading": "Turing Test",
+        "topic_summary": "Test for machine intelligence.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_turing_test",
+            "summary": "A test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human."
+          }
+        ]
+      },
+      {
+        "heading": "Problem Solving",
+        "topic_summary": "AI search strategies.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_problem_solving",
+            "summary": "Fundamental AI techniques for solving problems, including defining states, operators, and goals, and employing search algorithms."
+          }
+        ]
+      },
+      {
+        "heading": "Search Algorithms",
+        "topic_summary": "Finding solutions efficiently.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_search_algorithms",
+            "summary": "Exploring uninformed search (e.g., BFS, DFS) and informed search (e.g., A*, Greedy) strategies for navigating problem spaces."
+          }
+        ]
+      },
+      {
+        "heading": "Knowledge Representation",
+        "topic_summary": "Structuring information for AI.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_knowledge_rep",
+            "summary": "Methods for encoding knowledge about the world in a form that a computer system can utilize to solve complex tasks."
+          }
+        ]
+      },
+      {
+        "heading": "Logic in AI",
+        "topic_summary": "Formal reasoning systems.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_logic",
+            "summary": "Using propositional and predicate logic to represent knowledge and perform deductive reasoning in AI systems."
+          }
+        ]
+      },
+      {
+        "heading": "Expert Systems",
+        "topic_summary": "AI emulating human experts.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_expert_systems",
+            "summary": "AI systems designed to emulate the decision-making ability of a human expert in a specific, narrow domain."
+          }
+        ]
+      },
+      {
+        "heading": "Machine Learning (ML)",
+        "topic_summary": "Systems learning from data.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_ml_intro",
+            "summary": "A subfield of AI where systems learn patterns and make predictions from data without being explicitly programmed for each task."
+          }
+        ]
+      },
+      {
+        "heading": "Supervised Learning",
+        "topic_summary": "Learning with labeled data.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_supervised_learning",
+            "summary": "ML paradigm where the algorithm learns from a labeled dataset, mapping inputs to known outputs (e.g., classification, regression)."
+          }
+        ]
+      },
+      {
+        "heading": "Unsupervised Learning",
+        "topic_summary": "Finding patterns, unlabeled data.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_unsupervised_learning",
+            "summary": "ML paradigm where the algorithm learns patterns from an unlabeled dataset (e.g., clustering, dimensionality reduction)."
+          }
+        ]
+      },
+      {
+        "heading": "Reinforcement Learning",
+        "topic_summary": "Learning via rewards/penalties.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_reinforcement_learning",
+            "summary": "ML paradigm where an agent learns to make a sequence of decisions by trying to maximize a cumulative reward signal in an environment."
+          }
+        ]
+      },
+      {
+        "heading": "Decision Trees",
+        "topic_summary": "Tree-like classification model.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_decision_trees",
+            "summary": "A supervised learning method that uses a tree-like graph of decisions and their possible consequences for classification or regression."
+          }
+        ]
+      },
+      {
+        "heading": "Neural Networks (NN)",
+        "topic_summary": "Brain-inspired learning models.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_neural_networks_intro",
+            "summary": "Computational models inspired by the structure and function of biological neural networks, forming the basis of deep learning."
+          }
+        ]
+      },
+      {
+        "heading": "Deep Learning (DL)",
+        "topic_summary": "NNs with many layers.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_deep_learning",
+            "summary": "A subset of machine learning based on artificial neural networks with multiple layers (deep architectures) to learn complex data representations."
+          }
+        ]
+      },
+      {
+        "heading": "Activation Functions",
+        "topic_summary": "NN neuron output calculation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_activation_functions",
+            "summary": "Functions used in neural networks to determine the output of a node given an input or set of inputs (e.g., Sigmoid, ReLU, Tanh)."
+          }
+        ]
+      },
+      {
+        "heading": "Backpropagation",
+        "topic_summary": "NN training algorithm.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_backpropagation",
+            "summary": "A widely used algorithm for training artificial neural networks by efficiently computing the gradient of the loss function."
+          }
+        ]
+      },
+      {
+        "heading": "Convolutional NN (CNN)",
+        "topic_summary": "NNs for image processing.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_cnn",
+            "summary": "A class of deep neural networks, most commonly applied to analyzing visual imagery, using convolutional layers to detect features."
+          }
+        ]
+      },
+      {
+        "heading": "Recurrent NN (RNN)",
+        "topic_summary": "NNs for sequential data.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_rnn",
+            "summary": "A class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence, allowing them to process sequences of inputs."
+          }
+        ]
+      },
+      {
+        "heading": "Natural Language Processing (NLP)",
+        "topic_summary": "Computers understanding human language.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_nlp",
+            "summary": "A subfield of AI concerned with the interaction between computers and humans using natural language."
+          }
+        ]
+      },
+      {
+        "heading": "Tokenization",
+        "topic_summary": "Breaking text into units.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_tokenization",
+            "summary": "The process of segmenting text into smaller units called tokens (words, subwords, or characters) for NLP tasks."
+          }
+        ]
+      },
+      {
+        "heading": "Sentiment Analysis",
+        "topic_summary": "Determining emotional tone.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_sentiment_analysis",
+            "summary": "Using NLP techniques to identify and extract subjective information (opinions, emotions, attitudes) from text data."
+          }
+        ]
+      },
+      {
+        "heading": "Machine Translation",
+        "topic_summary": "Automatic language conversion.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_machine_translation",
+            "summary": "The task of automatically translating text or speech from one natural language to another using computational models."
+          }
+        ]
+      },
+      {
+        "heading": "Transformers (NLP)",
+        "topic_summary": "Attention-based NN architecture.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_transformers",
+            "summary": "A deep learning model architecture excelling in NLP tasks, characterized by its use of self-attention mechanisms to weigh the importance of different parts of input data."
+          }
+        ]
+      },
+      {
+        "heading": "Large Language Models (LLMs)",
+        "topic_summary": "Massive text-trained models.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_llms",
+            "summary": "Transformer-based neural networks trained on vast amounts of text data, capable of generating human-like text, answering questions, and more."
+          }
+        ]
+      },
+      {
+        "heading": "Computer Vision",
+        "topic_summary": "Computers 'seeing' images.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_computer_vision",
+            "summary": "A field of AI that enables computers to derive meaningful information from digital images or videos."
+          }
+        ]
+      },
+      {
+        "heading": "Image Recognition",
+        "topic_summary": "Identifying objects in images.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_image_recognition",
+            "summary": "The task of identifying and classifying objects, scenes, or activities within an image."
+          }
+        ]
+      },
+      {
+        "heading": "Object Detection",
+        "topic_summary": "Locating objects in images.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_object_detection",
+            "summary": "Identifying and locating multiple objects within an image, often by drawing bounding boxes around them."
+          }
+        ]
+      },
+      {
+        "heading": "Generative AI",
+        "topic_summary": "AI creating new content.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_generative_ai",
+            "summary": "AI systems capable of generating new content, such as images, text, audio, or synthetic data, often based on patterns learned from existing data."
+          }
+        ]
+      },
+      {
+        "heading": "GANs",
+        "topic_summary": "Generative Adversarial Networks.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_gans",
+            "summary": "A class of machine learning frameworks where two neural networks (generator and discriminator) contest with each other in a zero-sum game framework."
+          }
+        ]
+      },
+      {
+        "heading": "Robotics",
+        "topic_summary": "AI for physical agents.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_robotics",
+            "summary": "The intersection of AI and engineering concerned with the design, construction, operation, and use of robots."
+          }
+        ]
+      },
+      {
+        "heading": "Path Planning",
+        "topic_summary": "Robot navigation algorithms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_path_planning",
+            "summary": "Algorithms used in robotics and autonomous systems to find an optimal path between two points while avoiding obstacles."
+          }
+        ]
+      },
+      {
+        "heading": "AI Ethics",
+        "topic_summary": "Moral implications of AI.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_ethics",
+            "summary": "The study of moral issues and societal impacts arising from the development and deployment of artificial intelligence."
+          }
+        ]
+      },
+      {
+        "heading": "Bias in AI",
+        "topic_summary": "Unfair AI system outcomes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_bias",
+            "summary": "Systematic errors or prejudices in AI algorithms or data that result in unfair or discriminatory outcomes."
+          }
+        ]
+      },
+      {
+        "heading": "Explainable AI (XAI)",
+        "topic_summary": "Understanding AI decisions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_xai",
+            "summary": "Methods and techniques in AI aimed at ensuring that the decisions and predictions made by AI systems can be understood by humans."
+          }
+        ]
+      },
+      {
+        "heading": "AI Safety",
+        "topic_summary": "Preventing AI-related harm.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_safety",
+            "summary": "Research and practices focused on preventing unintended harmful consequences from advanced AI systems."
+          }
+        ]
+      },
+      {
+        "heading": "Data Preprocessing",
+        "topic_summary": "Preparing data for ML.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_data_preprocessing",
+            "summary": "The process of cleaning, transforming, and organizing raw data into a suitable format for machine learning models."
+          }
+        ]
+      },
+      {
+        "heading": "Feature Engineering",
+        "topic_summary": "Creating informative data inputs.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_feature_engineering",
+            "summary": "The process of using domain knowledge to select and transform raw data variables into features that better represent the underlying problem to predictive models."
+          }
+        ]
+      },
+      {
+        "heading": "Model Evaluation",
+        "topic_summary": "Assessing ML model performance.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_model_evaluation",
+            "summary": "Techniques and metrics used to assess the performance and accuracy of machine learning models on unseen data."
+          }
+        ]
+      },
+      {
+        "heading": "Overfitting/Underfitting",
+        "topic_summary": "ML model generalization issues.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_over_underfitting",
+            "summary": "Overfitting occurs when a model learns training data too well, performing poorly on new data. Underfitting occurs when a model is too simple to capture underlying patterns."
+          }
+        ]
+      },
+      {
+        "heading": "Hyperparameter Tuning",
+        "topic_summary": "Optimizing ML model settings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_hyperparameter_tuning",
+            "summary": "The process of selecting the optimal set of hyperparameters (configuration settings external to the model) for a learning algorithm."
+          }
+        ]
+      },
+      {
+        "heading": "Ensemble Methods",
+        "topic_summary": "Combining multiple ML models.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_ensemble_methods",
+            "summary": "Machine learning techniques that combine the predictions of multiple base models to improve overall performance and robustness."
+          }
+        ]
+      },
+      {
+        "heading": "Dimensionality Reduction",
+        "topic_summary": "Reducing data feature count.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_dim_reduction",
+            "summary": "Techniques for reducing the number of input variables (features) in a dataset while preserving essential information."
+          }
+        ]
+      },
+      {
+        "heading": "Clustering Algorithms",
+        "topic_summary": "Grouping similar data points.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_clustering",
+            "summary": "Unsupervised learning methods for grouping a set of objects such that objects in the same group (cluster) are more similar to each other than to those in other groups."
+          }
+        ]
+      },
+      {
+        "heading": "Anomaly Detection",
+        "topic_summary": "Identifying unusual data points.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_anomaly_detection",
+            "summary": "The identification of rare items, events, or observations which raise suspicions by differing significantly from the majority of the data."
+          }
+        ]
+      },
+      {
+        "heading": "Recommender Systems",
+        "topic_summary": "Predicting user preferences.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_recommender_systems",
+            "summary": "AI systems that predict the 'rating' or 'preference' a user would give to an item, used in e-commerce, media streaming, etc."
+          }
+        ]
+      },
+      {
+        "heading": "AI in Healthcare",
+        "topic_summary": "Medical diagnosis, drug discovery.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_ai_healthcare",
+            "summary": "Applications of AI in the medical field, including diagnostics, personalized medicine, drug discovery, and robotic surgery."
+          }
+        ]
+      },
+      {
+        "heading": "AI in Finance",
+        "topic_summary": "Trading, fraud detection, risk.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_ai_finance",
+            "summary": "Use of AI in financial services for algorithmic trading, fraud detection, credit scoring, risk management, and customer service."
+          }
+        ]
+      },
+      {
+        "heading": "AI in Gaming",
+        "topic_summary": "NPCs, procedural content, balance.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_ai_gaming",
+            "summary": "Applications of AI in video games for creating intelligent non-player characters (NPCs), procedural content generation (PCG), game balancing, and player modeling."
+          }
+        ]
+      },
+      {
+        "heading": "Future of AI",
+        "topic_summary": "AGI, societal transformation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ai_topic_future_ai",
+            "summary": "Speculations and ongoing research regarding the future development of AI, including the pursuit of Artificial General Intelligence (AGI) and its potential societal impacts."
+          }
+        ]
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,48 @@
+{
+    "God": {
+        "ein_code": "00",
+        "quote": "To see God is to be God. He alone is. (SRM)"
+    },
+    "Being": {
+        "ein_code": "01",
+        "quote": "The Being that is one, sages speak of in many terms.  (Rig Veda)"
+    },
+    "Place": {
+        "ein_code": "02",
+        "quote": "Where can I go from your Spirit? Where can I flee from your presence?  (Bible, Psalm 139:7)"
+    },
+    "Power": {
+        "ein_code": "03",
+        "quote": "Allah is the Light of the heavens and the earth. (Quran, Surah An-Nur)"
+    },
+    "Injunction": {
+        "ein_code": "04",
+        "quote": "A magic leverage suddenly is caught   That moves the veiled Ineffable's timeless will:   A prayer, a master act, a king idea   Can link man's strength to a transcendent Force (Sri Aurobindo, Savitri)"
+    },
+    "Subject": {
+        "ein_code": "05",
+        "quote": "The subject of one stage becomes the object of the subject of the next stage. (Ken Wilber)"
+    },
+
+    "Subjects": { "ein_code": "05.1" },
+    "Object": {
+        "ein_code": "06",
+        "quote": "The object of the intellect is being. (Meister Eckhart)"
+    },
+    "Media": {
+        "ein_code": "07",
+        "quote": "\"I am the God of Abraham, the God of Isaac, and the God of Jacob.\" - Bible, Exodus 3:6"
+    },
+    "Book": {
+        "ein_code": "08",
+        "quote": "... There is the Book of Being's index page, \/ The text and glossary of the Vedic truth \/ Are there; the rhythms and metres of the stars \/ Significant of the movements of our fate: \/ The symbol powers of number and of form, \/ And the secret code of the history of the world \/ And Nature's correspondence with the soul \/ Are written in the mystic heart of life. 01.05_018:007"
+    },
+    "Concept": {
+        "ein_code": "09",
+        "quote": "\"Say: He is God, One. God, the Eternal. He begets not, nor was He begotten. And there is none comparable to Him.\" - Quran, Surah Al-Ikhlas (112:1-4)"
+    },
+    "By_Count": {
+        "ein_code": "10",
+        "quote": ""
+    }
+}

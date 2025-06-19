@@ -1,0 +1,77 @@
+{
+  "Programming Paradigm": {
+    "short_description": "A fundamental style of computer programming that shapes how programs are organized and executed, providing distinct approaches to abstracting and solving computational problems."
+  },
+  "Abstraction": {
+    "short_description": "The process of hiding complex implementation details while exposing only the necessary features of an object or system, allowing programmers to manage complexity and work at different levels of detail."
+  },
+  "Object Orientation": {
+    "short_description": "A paradigm based on the concept of objects containing data and code, where software is designed around data structures with properties and behaviors rather than functions and logic."
+  },
+  "Functional Programming": {
+    "short_description": "A paradigm treating computation as the evaluation of mathematical functions, avoiding changing state and mutable data to create more predictable and testable programs."
+  },
+  "Imperative Programming": {
+    "short_description": "A paradigm describing computation in terms of statements that change a program's state, focusing on how a program operates through explicit sequences of commands."
+  },
+  "Declarative Programming": {
+    "short_description": "A paradigm expressing the logic of computation without describing its control flow, focusing on what the program should accomplish rather than how to accomplish it."
+  },
+  "Inheritance": {
+    "short_description": "A mechanism allowing objects to acquire properties and behaviors from other objects, enabling code reuse and establishing relationships between classes in a hierarchical structure."
+  },
+  "Polymorphism": {
+    "short_description": "The ability to present the same interface for different underlying forms or data types, allowing objects of different classes to be treated as objects of a common base class."
+  },
+  "Encapsulation": {
+    "short_description": "The bundling of data with the methods that operate on that data, restricting direct access to an object's components while defining how they can be accessed."
+  },
+  "Pure Function": {
+    "short_description": "A function that always produces the same output for the same input and has no side effects, forming the foundation of functional programming's predictability."
+  },
+  "Immutability": {
+    "short_description": "The property of an object whose state cannot be modified after creation, promoting safer concurrent programming and simpler reasoning about program behavior."
+  },
+  "State Management": {
+    "short_description": "The handling of program data that can change over time, including strategies for maintaining, updating, and sharing state across different parts of an application."
+  },
+  "Type System": {
+    "short_description": "A logical system comprising rules that assign properties to program constructs, helping prevent errors and enable compiler optimizations."
+  },
+  "Recursion": {
+    "short_description": "A technique where a function calls itself to solve smaller instances of a problem, often used in functional programming to process data structures."
+  },
+  "Lambda Expression": {
+    "short_description": "An anonymous function that can be treated as a value, enabling functional programming patterns and more concise code representation."
+  },
+  "Message Passing": {
+    "short_description": "A communication pattern where objects or actors in a system communicate by sending messages rather than calling methods directly, promoting loose coupling."
+  },
+  "Composition": {
+    "short_description": "The combining of simple functions or objects to build more complicated ones, providing an alternative to inheritance for code reuse and structure."
+  },
+  "Side Effect": {
+    "short_description": "Any modification of state outside a function's local scope, including database operations, system calls, or modifications to global variables."
+  },
+  "Protocol": {
+    "short_description": "A formal specification of how objects can interact, defining methods and properties that conforming types must implement."
+  },
+  "Pattern Matching": {
+    "short_description": "A mechanism for checking a value against a pattern to extract or verify its contents, common in functional and logic programming."
+  },
+  "Metaprogramming": {
+    "short_description": "The writing of programs that can manipulate or generate other programs, enabling code that can adapt or extend itself at runtime."
+  },
+  "Concurrency": {
+    "short_description": "The ability for different parts of a program to execute out of order without affecting the final result, essential for parallel and distributed computing."
+  },
+  "Event Driven": {
+    "short_description": "A paradigm where program flow is determined by events such as user actions, sensor outputs, or messages from other programs."
+  },
+  "Logic Programming": {
+    "short_description": "A paradigm based on formal logic where programs are sets of facts and rules, computing results through logical inference and pattern matching."
+  },
+  "Reactive Programming": {
+    "short_description": "A paradigm focused on data flows and the propagation of change, where program components automatically respond to data modifications."
+  }
+}

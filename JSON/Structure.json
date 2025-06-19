@@ -1,0 +1,227 @@
+{
+  "Hierarchy": {
+    "short_description": "Organizing principle based on levels of authority, importance or inclusion."
+  },
+  "Network": {
+    "short_description": "System of interconnected nodes and relationships without central control."
+  },
+  "Matrix": {
+    "short_description": "Multidimensional framework allowing multiple types of relationships."
+  },
+  "Fractal": {
+    "short_description": "Self-similar pattern repeating at different scales of organization."
+  },
+  "Cycle": {
+    "short_description": "Structure organized around recurring patterns or phases."
+  },
+  "Polarity": {
+    "short_description": "Organization based on complementary or opposing principles."
+  },
+  "Spectrum": {
+    "short_description": "Continuous range between two extremes or multiple qualities."
+  },
+  "Layer": {
+    "short_description": "Stratified organization with distinct levels of function or meaning."
+  },
+  "Field": {
+    "short_description": "Space of influence where forces or properties are distributed."
+  },
+  "Lattice": {
+    "short_description": "Regular arrangement of points or elements in space."
+  },
+  "Symmetry": {
+    "short_description": "Organizing principle based on balance and correspondence."
+  },
+  "Flow": {
+    "short_description": "Dynamic structure organized around movement and transformation."
+  },
+  "Emergence": {
+    "short_description": "Organization arising from interactions of simpler components."
+  },
+  "Resonance": {
+    "short_description": "Structure based on harmonic relationships and vibration."
+  },
+  "Archetype": {
+    "short_description": "Fundamental pattern that structures various manifestations."
+  },
+  "Holarchy": {
+    "short_description": "Nested hierarchy where each level contains and transcends lower levels."
+  },
+  "Vortex": {
+    "short_description": "Spiral organization around central axis of force or meaning."
+  },
+  "Vector": {
+    "short_description": "Directional organization with magnitude and orientation."
+  },
+  "Wave": {
+    "short_description": "Oscillating pattern of organization through space or time."
+  },
+  "Mesh": {
+    "short_description": "Interwoven structure with distributed connections."
+  },
+  "Crystal": {
+    "short_description": "Regular geometric arrangement based on fundamental symmetries."
+  },
+  "Spiral": {
+    "short_description": "Progressive organization around central point or axis."
+  },
+  "Tension": {
+    "short_description": "Structure maintained by balance of opposing forces."
+  },
+  "Rhythm": {
+    "short_description": "Organization based on patterns of emphasis and timing."
+  },
+  "Nest": {
+    "short_description": "Concentric organization with contained levels."
+  },
+  "Cluster": {
+    "short_description": "Organization based on proximity and natural grouping."
+  },
+  "Gradient": {
+    "short_description": "Structure based on continuous variation of properties."
+  },
+  "Pulse": {
+    "short_description": "Organization through alternating phases of activity."
+  },
+  "Web": {
+    "short_description": "Interconnected structure with radial and circular elements."
+  },
+  "Core-Periphery": {
+    "short_description": "Organization around essential center with graduated influence."
+  },
+  "Threshold": {
+    "short_description": "Structure organized around points of transition or transformation."
+  },
+   "Framework": {
+    "short_description": "The foundational system that organizes and supports components."
+  },
+  "System": {
+    "short_description": "An interconnected set of elements forming a cohesive structure."
+  },
+  "Organization": {
+    "short_description": "The arrangement and coordination of components within a structure."
+  },
+  "Arrangement": {
+    "short_description": "The specific ordering or positioning of elements in a structure."
+  },
+  "Configuration": {
+    "short_description": "The specific setup or layout of structural components."
+  },
+  "Pattern": {
+    "short_description": "Recurring organizational forms within a structure."
+  },
+  "Form": {
+    "short_description": "The shape or design of a structure and its components."
+  },
+  "Hierarchy": {
+    "short_description": "Ordered relationships of authority or levels within a structure."
+  },
+  "Network": {
+    "short_description": "Interconnected patterns of relationships within a structure."
+  },
+  "Layer": {
+    "short_description": "Distinct levels or strata within a structure."
+  },
+  "Node": {
+    "short_description": "Points of connection or intersection within a structure."
+  },
+  "Component": {
+    "short_description": "Individual elements that make up a structure."
+  },
+  "Module": {
+    "short_description": "Self-contained units within a larger structure."
+  },
+  "Element": {
+    "short_description": "Fundamental parts or units of a structure."
+  },
+  "Unit": {
+    "short_description": "A discrete segment or building block of a structure."
+  },
+  "Relationship": {
+    "short_description": "Connections or interactions between structural components."
+  },
+  "Dependency": {
+    "short_description": "Relationships where one component relies on another within a structure."
+  },
+  "Interdependence": {
+    "short_description": "Mutual reliance between components in a structure."
+  },
+  "Connection": {
+    "short_description": "The links or bonds between structural elements."
+  },
+  "Interface": {
+    "short_description": "Points of interaction or connection between structural components."
+  },
+  "Boundary": {
+    "short_description": "The limits or delineations that define a structure."
+  },
+  "Scope": {
+    "short_description": "The range or extent of a structure's applicability."
+  },
+  "Dimension": {
+    "short_description": "The measurable aspects or scales of a structure."
+  },
+  "Scale": {
+    "short_description": "The relative size or scope of a structure in context."
+  },
+  "Alignment": {
+    "short_description": "The positioning or orientation of components within a structure."
+  },
+  "Balance": {
+    "short_description": "The equilibrium or proportionality of structural elements."
+  },
+  "Stability": {
+    "short_description": "The capacity of a structure to maintain integrity under stress."
+  },
+  "Flexibility": {
+    "short_description": "The adaptability or malleability of a structure to change."
+  },
+  "Rigidity": {
+    "short_description": "The resistance of a structure to deformation or change."
+  },
+  "Integration": {
+    "short_description": "The unification or synthesis of components into a cohesive structure."
+  },
+  "Differentiation": {
+    "short_description": "The development of distinct characteristics between structural elements."
+  },
+  "Transformation": {
+    "short_description": "Processes of change in the nature or organization of a structure."
+  },
+  "Evolution": {
+    "short_description": "Patterns of development and change in structures over time."
+  },
+  "Decomposition": {
+    "short_description": "The breakdown or division of a structure into smaller components."
+  },
+  "Composition": {
+    "short_description": "The assembly or combination of elements to form a structure."
+  },
+  "Abstraction": {
+    "short_description": "Generalized representations of the nature of structures."
+  },
+  "Manifestation": {
+    "short_description": "The expression or realization of a structure in observable form."
+  },
+  "Constraint": {
+    "short_description": "Limitations or conditions that shape the design of a structure."
+  },
+  "Extension": {
+    "short_description": "The expansion or addition to an existing structure."
+  },
+  "Coherence": {
+    "short_description": "The unity or logical consistency of a structure."
+  },
+  "Mosaic": {
+    "short_description": "Complex pattern emerging from arrangement of distinct elements."
+  },
+  "Polarized Field": {
+    "short_description": "Space organized by interaction of opposing centers or forces."
+  },
+  "Branching": {
+    "short_description": "Progressive division from unity to multiplicity."
+  },
+  "Fusion": {
+    "short_description": "Integration of distinct elements into unified whole."
+  }
+}

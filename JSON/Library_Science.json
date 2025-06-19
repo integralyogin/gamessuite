@@ -1,0 +1,77 @@
+{
+"Library Science": {
+"short_description": "The systematic study and management of information resources, their organization, preservation, access, and dissemination through libraries and information centers to serve user needs."
+},
+"Classification": {
+"short_description": "The systematic arrangement of information resources into categories based on subject matter, using standardized systems like Dewey Decimal or Library of Congress to enable efficient organization and retrieval."
+},
+"Cataloging": {
+"short_description": "The process of creating and maintaining detailed records of information resources, including bibliographic description, subject analysis, and access points, following established standards like AACR2 or RDA."
+},
+"Collection Development": {
+"short_description": "The strategic process of building and maintaining library collections through selection, acquisition, evaluation, and weeding, aligned with institutional goals and user needs while considering budget and space constraints."
+},
+"Reference Services": {
+"short_description": "Professional assistance provided to users in finding and evaluating information resources, including research consultation, information literacy instruction, and query mediation."
+},
+"Information Architecture": {
+"short_description": "The structural design of information environments, including organization schemes, navigation systems, and labeling to optimize findability and user experience in both physical and digital spaces."
+},
+"Metadata": {
+"short_description": "Structured information that describes, explains, locates, or otherwise makes it easier to retrieve and manage information resources, including descriptive, structural, and administrative elements."
+},
+"Authority Control": {
+"short_description": "The process of maintaining consistency in naming and accessing information through standardized forms of names, subjects, and other access points across the catalog system."
+},
+"Digital Preservation": {
+"short_description": "The ongoing process of maintaining digital materials over time to ensure continued access, including strategies for file format migration, emulation, and maintaining authenticity."
+},
+"Information Literacy": {
+"short_description": "The set of abilities requiring individuals to recognize when information is needed and have the ability to locate, evaluate, and use effectively the needed information."
+},
+"Knowledge Organization": {
+"short_description": "The conceptual and practical methods of organizing knowledge into systematic arrangements to facilitate discovery, management, and preservation of information resources."
+},
+"Technical Services": {
+"short_description": "Behind-the-scenes operations including acquisition, cataloging, processing, and maintenance of library materials to make them available for user access."
+},
+"Circulation": {
+"short_description": "The system and policies governing the lending of library materials, including checkout, return, renewal, holds, and tracking of user borrowing patterns."
+},
+"Archives": {
+"short_description": "The systematic management of historical records and documents, including their selection, preservation, arrangement, description, and provision of access while maintaining contextual integrity."
+},
+"Database Management": {
+"short_description": "The administration and maintenance of structured collections of information, including library catalogs, digital repositories, and subscription resources."
+},
+"Information Retrieval": {
+"short_description": "The science and practice of searching for and obtaining information from large collections, including the development of search strategies and understanding of query logic."
+},
+"Bibliometrics": {
+"short_description": "The statistical analysis of written publications to identify patterns in literature usage, research impact, and scholarly communication networks."
+},
+"Collection Assessment": {
+"short_description": "The systematic evaluation of library collections to determine strengths, weaknesses, and alignment with institutional goals and user needs through quantitative and qualitative methods."
+},
+"Conservation": {
+"short_description": "The physical treatment and preventive care of library materials to ensure their long-term preservation, including environmental control, repair, and protective housing."
+},
+"User Experience": {
+"short_description": "The comprehensive analysis and design of user interactions with library services and systems, focusing on accessibility, usability, and satisfaction in both physical and digital environments."
+},
+"Discovery Systems": {
+"short_description": "Integrated search interfaces that provide unified access to multiple information resources through a single search box, incorporating features like faceted navigation and relevancy ranking."
+},
+"Resource Sharing": {
+"short_description": "Cooperative arrangements between libraries to extend access to materials through interlibrary loan, consortial agreements, and shared digital repositories."
+},
+"Standards": {
+"short_description": "Established protocols and guidelines for library operations, including cataloging rules, metadata schemas, and exchange formats that ensure consistency and interoperability."
+},
+"Collection Management": {
+"short_description": "The ongoing process of analyzing, organizing, and maintaining library collections, including decisions about retention, preservation, and access methods."
+},
+"Outreach": {
+"short_description": "Programs and activities designed to promote library services, engage with user communities, and extend the library's impact beyond its physical boundaries."
+}
+}

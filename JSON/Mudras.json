@@ -1,0 +1,92 @@
+{
+  "Gyan Mudra": {
+    "img": "images/mudras/gyan_mudra.jpeg",    
+    "meaning": "Mudra of Knowledge",
+    "benefits": "Enhances concentration, memory, and creativity. Calms the mind, reduces stress, and is believed to connect the practitioner to universal knowledge and higher consciousness. Sharpens the intellect and aids in meditation.",
+    "description": "Touch the tip of the index finger to the tip of the thumb, keeping the other three fingers straight and relaxed. Can be done with palms facing up or down.",
+    
+    "sanskrit": "Jñāna Mudra"
+    
+  },
+  "Dhyana Mudra": {
+    "img": "images/mudras/dhyana_mudra.jpeg",    
+    "meaning": "Mudra of Meditation",
+    "benefits": "Promotes deep concentration and contemplation. Balances the mind and senses, leading to a state of profound inner peace and stillness. It symbolizes illumination and the attainment of spiritual perfection.",
+    "description": "Rest both hands on the lap, with the right hand placed on top of the left. Palms face upwards, and the tips of thethumbs gently touch, forming a triangle.",
+    
+    "sanskrit": "Dhyāna Mudra"
+    
+  },
+  "Anjali Mudra": {
+    "img": "images/mudras/anjali_mudra.jpeg",    
+    "meaning": "Gesture of Reverence",
+    "benefits": "A gesture of respect, gratitude, and union. It centers one's energy, calms the mind, and connects the right and left hemispheres of the brain, promoting inner harmony and connecting the individual self with the divine.",
+    "description": "Bring the palms together at the center of the chest (the heart center), with the fingers pointing upwards.",
+    
+    "sanskrit": "Añjali Mudra"
+    
+  },
+  "Prana Mudra": {
+    "img": "images/mudras/prana_mudra.jpeg",    
+    "meaning": "Mudra of Life Force",
+    "benefits": "Activates and energizes the life force energy (prana) within the body. Increases vitality, reduces fatigue, and enhances self-confidence. It is believed to clear energetic blockages and improve spiritual vigor.",
+    "description": "Touch the tip of the thumb to the tips of both the ring finger and the little finger. The index and middle fingers remain straight.",
+    
+    "sanskrit": "Prāṇa Mudra"
+    
+  },
+  "Prithvi Mudra": {
+    "img": "images/mudras/prithvi_mudra.jpg",    
+    "meaning": "Mudra of Earth",
+    "benefits": "Promotes stability, grounding, and a powerful sense of security by increasing the earth element. Builds self-confidence, reduces spiritual and mental weakness, and connects one to the stabilizing energy of the earth.",
+    "description": "Touch the tip of the ring finger to the tip of the thumb. The other three fingers are kept straight.",
+    
+    "sanskrit": "Pṛthvī Mudra"
+    
+  },
+  "Apana Mudra": {
+    "img": "images/mudras/Apana_mudra.jpeg",    
+    "meaning": "Mudra of Elimination",
+    "benefits": "Aids in detoxification, both physically and emotionally. Promotes the release of negative energy, worries, and old patterns. Fosters patience, balance, and the ability to 'let go' of what no longer serves the spirit.",
+    "description": "Touch the tip of the thumb to the tips of the middle and ring fingers. The index and little fingers remain straight.",
+    
+    "sanskrit": "Apāna Mudra"
+    
+  },
+  "Abhaya Mudra": {
+    "img": "images/mudras/Abhaya_mudra.JPG",    
+    "meaning": "Gesture of Fearlessness",
+    "benefits": "A powerful gesture of protection, peace, and the dispelling of fear. It grants a sense of security and safety, bestowing courage upon both the giver and the receiver, communicating the message 'You have nothing to fear.'",
+    "description": "The right hand is raised to shoulder height, with the palm facing outwards and the fingers extended upwards and joined.",
+    
+    "sanskrit": "Abhaya Mudra"
+    
+  },
+  "Lotus Mudra": {
+    "img": "images/mudras/Lotus_mudra.jpeg",    
+    "meaning": "Mudra of the Lotus",
+    "benefits": "Symbolizes purity, love, and compassion. Opens the heart chakra (Anahata), helping to cultivate unconditional love and release attachments. It serves as a reminder that spiritual beauty can grow from the 'mud' of life.",
+    "description": "Bring the bases of the palms together at the heart center. Touch the tips of the thumbs and little fingers together. Spread the index, middle, and ring fingers wide to form the shape of a lotus blossom.",
+    
+    "sanskrit": "Padma Mudra"
+    
+  },
+  "Hakini Mudra": {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mudra-Hakini.svg/512px-Mudra-Hakini.svg.png",    
+    "meaning": "Mudra for the Mind",
+    "benefits": "Connects the right and left brain hemispheres, powerfully enhancing memory, creativity, and overall brainpower. Improves concentration and promotes clear thinking. Often used intuitively when needing to remember something or generate ideas.",
+    "description": "Gently bring the fingertips of both hands to touch their counterparts on the other hand, with the palms kept separate and facing each other.",
+    
+    "sanskrit": "Hakinī Mudra"
+    
+  },
+  "Surya Mudra": {
+    "img": "images/mudras/Surya_mudra.jpeg",    
+    "meaning": "Mudra of the Sun (also Agni Mudra)",
+    "benefits": "Increases the fire element, boosting energy, determination, and inner power. Helps to overcome laziness and depression, enhances self-esteem, and fosters leadership qualities and a positive sense of self.",
+    "description": "Bend the ring finger and press it down with the thumb. The other fingers are kept straight and extended.",
+    
+    "sanskrit": "Sūrya Mudra"
+    
+  }
+}

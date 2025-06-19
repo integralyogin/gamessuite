@@ -1,0 +1,132 @@
+{
+  "Information Theory": {
+    "short_description": "The study of quantification, transmission, and transformation of information through systems, revealing fundamental limits and principles governing communication, uncertainty, and data representation."
+  },
+  "Shannon Information": { "quote": "H(X) = -∑p(x)log₂p(x) defines the entropy of a random variable X." },
+"Entropy": { "quote": "Maximum entropy occurs when all outcomes are equally likely: H(X) = log₂(n) for n equiprobable events." },
+"Joint Entropy": { "quote": "H(X,Y) = -∑∑p(x,y)log₂p(x,y) measures uncertainty of two variables together." },
+"Conditional Entropy": { "quote": "H(Y|X) = H(X,Y) - H(X) represents remaining uncertainty in Y given X." },
+"Mutual Information": { "quote": "I(X;Y) = H(X) - H(X|Y) measures shared information between X and Y." },
+"Channel Capacity": { "quote": "C = max[I(X;Y)] defines maximum reliable transmission rate." },
+"Source Coding": { "quote": "Average code length L ≥ H(X) sets fundamental compression limit." },
+"Channel Coding": { "quote": "Error correction requires redundancy: Hamming distance determines error detection capability." },
+"Kolmogorov Complexity": { "quote": "K(x) is the length of shortest program that produces x." },
+"Data Compression": { "quote": "Lossless compression preserves exact data: zip, gzip implement entropy coding." },
+"Error Detection": { "quote": "Parity bits and checksums detect transmission errors." },
+"Error Correction": { "quote": "Reed-Solomon codes correct burst errors in storage and communication." },
+"Information Rate": { "quote": "R = k/n ratio of information bits to total transmitted bits." },
+"Coding Efficiency": { "quote": "η = H(X)/L measures how close encoding approaches entropy." },
+"Relative Entropy": { "quote": "D(P||Q) = ∑p(x)log₂(p(x)/q(x)) measures distribution difference." },
+"Information Distance": { "quote": "d(x,y) satisfies triangle inequality for information metrics." },
+"Channel Models": { "quote": "Binary Symmetric Channel: p flip probability, 1-p preservation probability." },
+"Source Models": { "quote": "Markov sources have memory: P(Xn|Xn-1,...,X1) = P(Xn|Xn-1)." },
+"Rate Distortion": { "quote": "R(D) defines minimum bits needed for reproduction within distortion D." },
+"Prefix Codes": { "quote": "No codeword is prefix of another: enables unique decoding." },
+"Algorithmic Entropy": { "quote": "Program-size complexity measures information content." },
+"Information Geometry": { "quote": "Statistical manifolds represent probability distributions geometrically." },
+"Network Information": { "quote": "Network coding can achieve multicast capacity." },
+"Quantum Information": { "quote": "Quantum bits exist in superposition: |ψ⟩ = α|0⟩ + β|1⟩." },
+"Cryptographic Security": { "quote": "Perfect secrecy requires key length ≥ message entropy." },
+"Information Bottleneck": { "quote": "Trade-off between compression and preserved relevant information." },
+"Maximum Entropy": { "quote": "MaxEnt principle: assume minimum beyond known constraints." },
+"Fisher Information": { "quote": "I(θ) measures information about parameter in observations." },
+"Information Dynamics": { "quote": "Information flow and processing in complex systems." },
+"Differential Entropy": { "quote": "h(X) = -∫p(x)log₂p(x)dx for continuous variables." }
+,
+  "Entropy": {
+    "short_description": "The measure of uncertainty and disorder in information systems, representing the irreducible complexity and potential surprise inherent in data streams."
+  },
+  "Redundancy": {
+    "short_description": "The strategic repetition of information to combat degradation, acting as a protective buffer against the corrosive effects of noise in communication channels."
+  },
+  "Channel": {
+    "short_description": "The medium of information flow characterized by its capacity to carry signals while resisting the distorting forces of environmental interference."
+  },
+  "Noise": {
+    "short_description": "The ever-present disruptor of signal purity, introducing chaos that obscures meaning and necessitates correction protocols."
+  },
+  "Code": {
+    "short_description": "The structured language of information transformation, converting raw data into transmissible forms while preserving essential meaning."
+  },
+  "Bit": {
+    "short_description": "The quantum unit of information, representing fundamental binary choices that form the bedrock of digital existence."
+  },
+  "Signal": {
+    "short_description": "The purified essence of information refined for transmission, carrying meaning through hostile environments while maintaining integrity."
+  },
+  "Bandwidth": {
+    "short_description": "The measure of transformative potential in communication systems, defining the spectrum of frequencies available for information shaping."
+  },
+  "Cryptography": {
+    "short_description": "The art of information concealment through mathematical veils, creating secrets decipherable only through possession of transformative keys."
+  },
+  "Protocol": {
+    "short_description": "The sacred rules governing information exchange, establishing ordered sequences for successful communication rituals."
+  },
+  "Algorithm": {
+    "short_description": "The precise recipe for computational transformation, guiding raw data through structured operations to enlightened outcomes."
+  },
+  "Decoding": {
+    "short_description": "The revelatory process of extracting meaning from encoded messages, reversing transmission veils to recover original intent."
+  },
+  "Compression": {
+    "short_description": "The distillation of information to essential forms, removing redundancy while preserving the core structure of meaning."
+  },
+  "Uncertainty": {
+    "short_description": "The primordial state preceding information resolution, representing the chaotic potential from which communication brings order."
+  },
+  "Error Correction": {
+    "short_description": "The restorative process of healing corrupted information through structured knowledge and redundant safeguards."
+  },
+  "Capacity": {
+    "short_description": "The ultimate boundary of communication potential, defining the maximum rate of pure information exchange through constrained channels."
+  },
+  "Quantization": {
+    "short_description": "The alchemical transformation from continuous possibility to discrete representation, capturing infinity within finite states."
+  },
+  "Feedback": {
+    "short_description": "The recursive return of system output as input, enabling self-correction and adaptive evolution in communication processes."
+  },
+  "Throughput": {
+    "short_description": "The vital flow rate of successful information transfer, measuring purity of communication surviving source-to-destination journeys."
+  },
+  "Shannon's Limit": {
+    "short_description": "The cosmic speed boundary of communication systems, beyond which information cannot outpace entropy's destructive influence."
+  },
+  "Bitstream": {
+    "short_description": "The continuous river of binary decisions shaping digital reality, carrying the flow of fundamental information quanta."
+  },
+  "Modulation": {
+    "short_description": "The art of imprinting information onto carrier waves through controlled alterations of amplitude, frequency, or phase."
+  },
+  "Symbol": {
+    "short_description": "The fundamental vessel of encoded meaning, representing compressed significance within communication systems."
+  },
+  "Latency": {
+    "short_description": "The hidden temporal cost of information processing, representing necessary gestation periods between transmission and comprehension."
+  },
+  "Parity": {
+    "short_description": "The balancing principle of error detection, maintaining equilibrium through symmetrical validation of data integrity."
+  },
+  "Cryptanalysis": {
+    "short_description": "The shadow art of piercing cryptographic veils through mathematical insight and pattern recognition."
+  },
+  "Codec": {
+    "short_description": "The twin processes of compression and decompression, dancing between efficient storage and usable reconstruction."
+  },
+  "Checksum": {
+    "short_description": "The sigil of verification, providing mathematical proof of information purity through cryptographic validation."
+  },
+  "Source Coding": {
+    "short_description": "The purifying fire that reduces information to essential forms while maintaining semantic integrity."
+  },
+  "Channel Coding": {
+    "short_description": "The protective armor forged for information's journey, adding structured redundancy to withstand environmental assaults."
+  },
+  "Demodulation": {
+    "short_description": "The careful extraction of meaning from carrier waves, separating message essence from its transportation medium."
+  },
+  "Information": {
+    "short_description": "The fundamental substance resolving uncertainty, quantified through differences that create meaning in physical and abstract systems."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "Deep Learning": {
+    "short_description": "The modern art of computational transformation, working with data and algorithms to achieve pattern recognition, knowledge synthesis, and artificial cognition through layered representations."
+  },
+  "Neural Networks": {
+    "short_description": "The foundational architecture of interconnected nodes, mimicking biological cognition through weighted connections that transform input signals into meaningful output patterns."
+  },
+  "Backpropagation": {
+    "short_description": "The essential process of error distribution through network layers, enabling gradual refinement of internal representations through reverse flow of corrective signals."
+  },
+  "Activation Function": {
+    "short_description": "The decision threshold mechanism determining neuronal firing, introducing non-linear transformations that enable complex pattern separation and conceptual abstraction."
+  },
+  "Latent Space": {
+    "short_description": "The compressed representation of essential features where data finds its purest expression, revealing hidden relationships and fundamental patterns beneath surface variations."
+  },
+  "Loss Landscape": {
+    "short_description": "The multidimensional terrain of error measurements that networks navigate, containing peaks of poor performance and valleys of optimal parameter configurations."
+  },
+  "Overfitting": {
+    "short_description": "The paradoxical state of perfect memory without true understanding, where models capture noise as pattern and lose capacity for generalized knowledge."
+  },
+  "Regularization": {
+    "short_description": "The discipline of constraint imposition, preventing over-specialization through techniques that preserve model flexibility and generalizing power."
+  },
+  "Embedding": {
+    "short_description": "The transformation of raw data into meaningful vectors, creating spatial relationships where conceptual proximity reflects semantic similarity."
+  },
+  "Attention Mechanism": {
+    "short_description": "The dynamic focus allocation system that mimics cognitive prioritization, allowing models to concentrate computational resources on most salient information."
+  },
+  "Transformer": {
+    "short_description": "The self-referential architecture processing data through parallelized attention, enabling global context understanding and long-range pattern recognition."
+  },
+  "Epoch": {
+    "short_description": "The complete cycle of data exposure and parameter adjustment, marking progressive refinement of internal representations through repeated contemplation."
+  },
+  "Gradient Descent": {
+    "short_description": "The incremental path toward optimization, following the steepest error reduction slope through multidimensional parameter spaces."
+  },
+  "Vanishing Gradient": {
+    "short_description": "The dissipation of learning signals through deep layers, representing the challenge of maintaining transformative potential across extended processing chains."
+  },
+  "Batch Processing": {
+    "short_description": "The method of collective experience integration, balancing individual examples with group statistics to achieve stable parameter updates."
+  },
+  "Dropout": {
+    "short_description": "The intentional deactivation of network components during training, fostering resilience through enforced redundancy and distributed knowledge."
+  },
+  "Transfer Learning": {
+    "short_description": "The application of acquired knowledge to new domains, demonstrating the plasticity of learned representations and their capacity for adaptive reuse."
+  },
+  "Hyperparameters": {
+    "short_description": "The meta-settings governing the learning process, existing outside direct optimization yet fundamentally shaping the nature of model development."
+  },
+  "Inference": {
+    "short_description": "The phase of applied knowledge where trained models generate predictions, representing the crystallization of learned patterns into operational wisdom."
+  },
+  "Self-Supervised Learning": {
+    "short_description": "The auto-didactic paradigm where systems generate their own learning objectives from data structure, mimicking human curiosity-driven discovery."
+  },
+  "Generative Adversary": {
+    "short_description": "The dialectical framework of competing networks, where creation and criticism interact to drive mutual improvement through oppositional dynamics."
+  },
+  "Feature Extraction": {
+    "short_description": "The process of distilling raw data into essential characteristics, separating signal from noise through hierarchical pattern recognition."
+  },
+  "Model Capacity": {
+    "short_description": "The measure of representational potential, balancing the ability to memorize specifics against the power to generalize universal principles."
+  },
+  "Bottleneck Layer": {
+    "short_description": "The constricted network segment enforcing information compression, forcing essential pattern distillation through dimensional reduction."
+  },
+  "Weight Initialization": {
+    "short_description": "The primordial state of network parameters before training, establishing the initial conditions that shape but don't determine learning trajectories."
+  },
+  "Catastrophic Forgetting": {
+    "short_description": "The vulnerability of learned knowledge to new information, reflecting the challenge of maintaining stable memories while adapting to fresh experiences."
+  },
+  "Ensemble Learning": {
+    "short_description": "The wisdom-of-crowds approach combining multiple models, achieving superior performance through diversified perspectives and error cancellation."
+  },
+  "Ethical Learning": {
+    "short_description": "The moral dimension of model development, addressing bias mitigation, fairness preservation, and responsible knowledge representation."
+  },
+  "Neural Architecture Search": {
+    "short_description": "The meta-process of automated network design, applying learning algorithms to discover optimal structures for specific learning tasks."
+  },
+  "Explainability": {
+    "short_description": "The pursuit of model transparency, bridging the gap between complex internal computations and human-interpretable reasoning patterns."
+  },
+  "Curriculum Learning": {
+    "short_description": "The educational strategy of ordered experience presentation, guiding models from simple concepts to complex understanding through structured progression."
+  },
+  "Few-Shot Learning": {
+    "short_description": "The capability for rapid adaptation from minimal examples, demonstrating the flexibility of learned representations and their capacity for analogical reasoning."
+  },
+  "Perplexity": {
+    "short_description": "The measure of predictive uncertainty, quantifying how surprised a model is by unseen data, reflecting its grasp of underlying data patterns."
+  },
+  "Attention Head": {
+    "short_description": "The specialized focus mechanism within transformer layers, each cultivating unique pattern recognition specialties through differentiated training experiences."
+  }
+}

@@ -1,0 +1,104 @@
+{
+"Transfer Learning": {
+    "short_description": "The methodology of applying knowledge learned in one task or domain to improve learning in another related task or domain, leveraging pre-existing models and representations."
+},
+"Source Domain": {
+    "short_description": "The original domain where a model was initially trained, containing the knowledge and learned representations that will be transferred to new tasks."
+},
+"Target Domain": {
+    "short_description": "The new domain where transferred knowledge will be applied, typically with less available training data or different but related task objectives."
+},
+"Feature Transfer": {
+    "short_description": "The process of utilizing learned feature representations from a source model as input or initialization for a target model, preserving low-level pattern recognition."
+},
+"Fine-Tuning": {
+    "short_description": "The process of adjusting pre-trained model parameters using target domain data, allowing the model to adapt its knowledge to new specific tasks."
+},
+"Domain Adaptation": {
+    "short_description": "Techniques for addressing differences between source and target domains while maintaining useful transferred knowledge and representations."
+},
+"Knowledge Distillation": {
+    "short_description": "The process of transferring knowledge from a larger model to a smaller one by training the smaller model to mimic the larger model's outputs."
+},
+"Pre-trained Model": {
+    "short_description": "A model that has been trained on a large dataset for a general or specific task, serving as a starting point for transfer learning applications."
+},
+"Model Zoo": {
+    "short_description": "A collection of pre-trained models available for transfer learning, typically offering various architectures trained on different datasets and tasks."
+},
+"Layer Freezing": {
+    "short_description": "The technique of keeping certain model layers fixed during fine-tuning, preserving useful features while allowing adaptation in other layers."
+},
+"Progressive Transfer": {
+    "short_description": "The gradual adaptation of a model across multiple intermediate tasks, building a bridge between source and target domains."
+},
+"Multi-task Transfer": {
+    "short_description": "The simultaneous transfer of knowledge to multiple target tasks, leveraging shared representations and domain-specific adaptations."
+},
+"Zero-shot Transfer": {
+    "short_description": "The ability to apply a model to new tasks without any additional training, purely based on transferred knowledge and task descriptions."
+},
+"Few-shot Transfer": {
+    "short_description": "The adaptation of a pre-trained model to new tasks using only a small number of examples from the target domain."
+},
+"Negative Transfer": {
+    "short_description": "The phenomenon where transferred knowledge degrades performance on the target task due to incompatible domain differences or task requirements."
+},
+"Transfer Learning Gap": {
+    "short_description": "The performance difference between models trained from scratch and those utilizing transfer learning, measuring the benefit of knowledge transfer."
+},
+"Cross-domain Transfer": {
+    "short_description": "The application of knowledge across substantially different domains, requiring robust feature translation and domain adaptation techniques."
+},
+"Inductive Transfer": {
+    "short_description": "Transfer learning where labeled data is available in the target domain, allowing supervised adaptation of transferred knowledge."
+},
+"Transductive Transfer": {
+    "short_description": "Transfer learning where target domain data is available during training but without labels, requiring unsupervised adaptation techniques."
+},
+"Embedding Transfer": {
+    "short_description": "The reuse of learned embedding spaces from source models, particularly useful for transferring semantic understanding in language and vision tasks."
+},
+"Architecture Transfer": {
+    "short_description": "The adaptation of model architectures from successful source domain applications to new target domains, preserving structural advantages."
+},
+"Parameter Transfer": {
+    "short_description": "The direct transfer of learned model parameters from source to target tasks, typically followed by fine-tuning or adaptation."
+},
+"Representation Transfer": {
+    "short_description": "The transfer of learned intermediate representations and feature extractors from source to target domains."
+},
+"Task Transfer": {
+    "short_description": "The application of knowledge from one task to improve performance on a different but related task within the same or similar domain."
+},
+"Sequential Transfer": {
+    "short_description": "The process of transferring knowledge through a sequence of related tasks, building upon previously learned representations."
+},
+"Adaptive Fine-tuning": {
+    "short_description": "Techniques for automatically adjusting the degree and nature of fine-tuning based on target task characteristics and requirements."
+},
+"Transfer Learning Efficiency": {
+    "short_description": "The measure of how effectively knowledge transfer reduces the need for target domain data and training time while maintaining performance."
+},
+"Cross-lingual Transfer": {
+    "short_description": "The transfer of language understanding and processing capabilities from one language to another using shared representations."
+},
+"Feature Alignment": {
+    "short_description": "The process of mapping features between source and target domains to ensure meaningful knowledge transfer despite domain differences."
+},
+"Transfer Learning Metrics": {
+    "short_description": "Specialized evaluation measures for assessing the effectiveness of knowledge transfer and adaptation to new domains."
+},
+"Catastrophic Forgetting": {
+    "short_description": "The phenomenon where fine-tuning on new tasks causes degradation of performance on previously learned source domain tasks."
+},
+"Domain Shift": {
+    "short_description": "The systematic differences between source and target domains that must be addressed for successful knowledge transfer."
+},
+"Transfer Strategy": {
+    "short_description": "The planned approach for transferring and adapting knowledge, including choices of layers to transfer, freeze, or fine-tune."
+},
+"Resource Constraint": {
+    "short_description": "Limitations in computational power, data, or time that make transfer learning preferable to training from scratch in target domains."
+}
+}

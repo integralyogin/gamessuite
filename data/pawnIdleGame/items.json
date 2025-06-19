@@ -1,0 +1,36 @@
+[
+  {
+    "id": "basic_sword",
+    "name": "Basic Sword",
+    "type": "weapon",
+    "slot": "mainHand",
+    "effects": { "strength": 2 },
+    "buyCost": 10,
+    "sellValue": 3
+  },
+  {
+    "id": "leather_armor",
+    "name": "Leather Armor",
+    "type": "armor",
+    "slot": "armor",
+    "effects": { "defense": 3, "maxHealth": 5 },
+    "buyCost": 20,
+    "sellValue": 7
+  },
+  {
+    "id": "health_potion_s",
+    "name": "Small Health Potion",
+    "type": "consumable",
+    "effects": { "action": "heal", "value": 25 },
+    "buyCost": 15,
+    "sellValue": 5
+  },
+  {
+    "id": "goblin_ear",
+    "name": "Goblin Ear",
+    "type": "material",
+    "effects": {},
+    "buyCost": null,
+    "sellValue": 1
+  }
+]

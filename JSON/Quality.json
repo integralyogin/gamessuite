@@ -1,0 +1,122 @@
+{
+  "Essence": {
+    "short_description": "Fundamental nature or inherent quality defining a thing's true character."
+  },
+  "Attribute": {
+    "short_description": "Basic characteristic or property inherent to or ascribed to something."
+  },
+  "Mode": {
+    "short_description": "Particular way or manner in which a quality manifests or operates."
+  },
+  "Degree": {
+    "short_description": "Level or intensity at which a quality is present or expressed."
+  },
+  "Polarity": {
+    "short_description": "Opposing extremes between which a quality can manifest."
+  },
+  "Spectrum": {
+    "short_description": "Continuous range of possible expressions of a quality."
+  },
+  "Guna": {
+    "short_description": "Fundamental quality or tendency in Hindu philosophy."
+  },
+  "Virtue": {
+    "short_description": "Excellence or positive quality manifesting ideal potential."
+  },
+  "Power": {
+    "short_description": "Capacity or ability to affect change or manifest influence."
+  },
+  "Resonance": {
+    "short_description": "Harmonic quality creating sympathetic response or alignment."
+  },
+  "Frequency": {
+    "short_description": "Rate or pattern of vibration determining quality's expression."
+  },
+  "Archetype": {
+    "short_description": "Primordial pattern or template of qualitative expression."
+  },
+  "Element": {
+    "short_description": "Fundamental quality or principle in nature's composition."
+  },
+  "State": {
+    "short_description": "Particular condition or mode of being or manifestation."
+  },
+  "Potential": {
+    "short_description": "Latent or unmanifested quality capable of expression."
+  },
+  "Tendency": {
+    "short_description": "Natural inclination or predisposition toward certain qualities."
+  },
+  "Aspect": {
+    "short_description": "Particular face or expression of a quality's total nature."
+  },
+  "Character": {
+    "short_description": "Distinctive combination of qualities forming unique nature."
+  },
+  "Property": {
+    "short_description": "Quality belonging to or characteristic of something."
+  },
+  "Nature": {
+    "short_description": "Essential qualities determining behavior and development."
+  },
+  "Principle": {
+    "short_description": "Fundamental law or quality governing manifestation."
+  },
+  "Force": {
+    "short_description": "Active quality or power producing effects or change."
+  },
+  "Signature": {
+    "short_description": "Distinctive pattern or combination of qualities."
+  },
+  "Harmony": {
+    "short_description": "Quality of proper relationship between parts."
+  },
+  "Perfection": {
+    "short_description": "Complete manifestation of ideal qualities."
+  },
+  "Affinity": {
+    "short_description": "Natural attraction or compatibility between qualities."
+  },
+  "Temperament": {
+    "short_description": "Natural predisposition or balance of qualities."
+  },
+  "Coherence": {
+    "short_description": "Quality of internal consistency and unified expression."
+  },
+  "Phase": {
+    "short_description": "Particular stage or state in quality's manifestation."
+  },
+  "Attunement": {
+    "short_description": "Degree of alignment with particular quality or vibration."
+  },
+  "Gradient": {
+    "short_description": "Gradual transition between different qualities or states."
+  },
+  "Quintessence": {
+    "short_description": "Most perfect or refined expression of a quality."
+  },
+  "Dharma": {
+    "short_description": "Essential quality or duty aligned with cosmic order."
+  },
+  "Logos": {
+    "short_description": "Fundamental ordering principle or rational quality."
+  },
+  "Tao": {
+    "short_description": "Essential way or quality of natural functioning."
+  },
+  "Disposition": {
+    "short_description": "Natural arrangement or tendency of qualities."
+  },
+  "Constitution": {
+    "short_description": "Fundamental makeup or composition of qualities."
+  },
+  "Matrix": {
+    "short_description": "Pattern or structure organizing different qualities."
+  },
+  "Gestalt": {
+    "short_description": "Organized whole of qualities greater than sum of parts."
+  },
+  "Attribute Space": {
+    "short_description": "Conceptual framework mapping possible quality combinations."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Role Assignment": { "quote": "\"Act as a historian specializing in 19th-century European revolutions.\" (Assigning roles focuses output expertise.)" },
+  "Clarity & Specificity": { "quote": "\"Write a 300-word summary of quantum entanglement, avoiding jargon, for high school students.\" (Precision shapes relevance.)" },
+  "Iterative Refinement": { "quote": "Revise prompts incrementally: \"Expand section 2 to contrast Keynesian vs. Austrian economics.\"" },
+  "Constraint Implementation": { "quote": "\"List five causes of climate change in bullet points, each under 10 words.\" (Constraints enforce brevity/structure.)" },
+  "Few-Shot Prompting": { "quote": "Example-driven: \"Like this: Input: 'sunset' → Output: Haiku. Now write one for 'mountain'.\"" },
+  "Chain-of-Thought Reasoning": { "quote": "\"Explain step-by-step how photosynthesis works, as if teaching a beginner.\" (Encourage logical sequencing.)" },
+  "Persona Crafting": { "quote": "\"Respond as a skeptical scientist questioning AI ethics.\" (Tone/voice customization.)" },
+  "Domain Specification": { "quote": "\"Use terms from DevOps practices to explain CI/CD pipelines.\" (Narrow contextual scope.)" },
+  "Format Directives": { "quote": "\"Structure the answer as: Problem → Hypothesis → Experiment → Conclusion.\" (Control output organization.)" },
+  "Contextual Priming": { "quote": "\"Building on Nietzsche's 'will to power,' analyze modern leadership styles.\" (Anchor to prior knowledge.)" },
+  "Ethical Guardrails": { "quote": "\"Avoid biased assumptions and cite peer-reviewed sources only.\" (Mitigate harmful outputs.)" },
+  "Meta-Prompts": { "quote": "\"What additional details would improve my query about neural networks?\"" },
+  "Tone & Style Guidance": { "quote": "\"Write a playful, rhyming slogan for a robot vacuum.\" (Dictate linguistic flavor.)" },
+  "Ambiguity Resolution": { "quote": "\"By 'market trends,' I mean renewable energy stocks in 2023.\" (Clarify vague terms.)" },
+  "Goal Alignment": { "quote": "\"Your task: Persuade a client to adopt blockchain, emphasizing transparency.\" (Define intent explicitly.)" },
+  "Interactive Dialogue Structuring": { "quote": "\"Ask me three clarifying questions before drafting the proposal.\"" },
+  "Analogical Prompting": { "quote": "\"Explain blockchain like I'm 10, using a library book analogy.\"" },
+  "Temporal Context": { "quote": "\"Focus on AI advancements between 2010-2020, excluding recent developments.\" (Time-bound framing.)" },
+  "Cultural Context": { "quote": "\"Discuss tea ceremonies in Japan, China, and England, highlighting differences.\"" },
+  "Feedback Integration": { "quote": "\"Revise the previous response to emphasize scalability over cost.\" (Iterative improvement.)" }
+}

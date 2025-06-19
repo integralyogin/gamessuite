@@ -1,0 +1,113 @@
+{
+  "play2.py": {
+    "date": "2018-2024",
+    "desc": "A complex, open-world Python RPG and esoteric encyclopedia. It features a tile-based world with distinct, themed regions, interactive objects, and a vast cast of spiritual and philosophical figures. The game integrates multiple systems including character progression, combat, dialogue, and spiritual practices.",
+    "type": "Game",
+    "address": "/home/jpc/CORE/73__CODE/PYTHON/4_player17/play2.py",
+    "lang": "py",
+    "db": [
+      "world.json",
+      "player.json",
+      "temple_of_the_sages.json",
+      "knowledge_base.json"
+    ],
+    "parent": "Josh Programs"
+  },
+  "World + Exploration System": {
+    "desc": "The game world is defined by `world.json`, which lays out large, thematic 'regions' like the 'Grass Life Vital World' and 'Spirit World'. Players explore this grid-based map, discovering interactive objects and portals that can load entirely new world files (e.g., 'temple_of_the_sages.json'), creating a multi-layered, explorable universe.",
+    "type": "Core System",
+    "img": "0002_play2.jpg",
+    "related_db": "world.json",
+    "address": "play2.py (draw_world, world_to_screen)",
+    "parent": "play2.py"
+  },
+  "Player Progression + Stats System": {
+    "desc": "Manages the player character, whose state is saved in `player.json`. This system includes classic RPG attributes (strength, intelligence, etc.), derived stats (HP, MP, WP), and skills like 'unarmed combat' that gain experience through use. Stats and skills can be developed through actions like combat, reading, and prayer.",
+    "type": "Core System",
+    "img": "",
+    "related_db": "player.json",
+    "address": "play2.py (player_logic, load_player_data)",
+    "parent": "play2.py"
+  },
+  "NPC + Dialogue System": {
+    "desc": "A primary feature allowing interaction with 'Beings' defined in world files. Each Being has a profile, bio, and a vast, filterable tree of dialogue 'options'. This system serves as an interactive encyclopedia, allowing the player to ask questions and receive wisdom from over 100 historical and mythological figures.",
+    "type": "Core System",
+    "img": "0003_player_17_play2_1731736931.jpg",
+    "related_db": "temple_of_the_sages.json (example)",
+    "address": "play2.py (draw_popup, handle_events)",
+    "parent": "play2.py"
+  },
+  "Inventory + Item System": {
+    "desc": "The player maintains an inventory of items stored in `player.json`. Items like 'Savitri' or the 'Universal Instrument' have unique properties and 'interact' blocks that define their function, such as granting XP, playing audio playlists, or teleporting the player to new worlds.",
+    "type": "Core System",
+    "img": "",
+    "related_db": "player.json",
+    "address": "play2.py (draw_inventory, pick_up_object, drop_object)",
+    "parent": "play2.py"
+  },
+  "Mysticism + Spiritual System": {
+    "desc": "A unique system governing spiritual growth. The player has Willpower (WP) which is consumed by reading holy books and restored by praying. The 'prayer' mechanic cycles through texts from `knowledge_base.json`, and the 'reading' mechanic allows for gaining wisdom from items like 'Savitri', tying spiritual practice directly to character progression.",
+    "type": "Core System",
+    "img": "",
+    "related_db": "knowledge_base.json",
+    "address": "play2.py (player_logic)",
+    "parent": "play2.py"
+  },
+  "Combat System": {
+    "desc": "A turn-based combat mechanic governed by an Action Time Battle (ATB) meter. When in combat, damage is calculated based on player stats (strength, dexterity) and skills ('unarmed combat'). Enemies also operate on this system, capable of chasing and attacking the player.",
+    "type": "System",
+    "img": "",
+    "related_db": "",
+    "address": "play2.py (attack, being_logic, enemy_attack)",
+    "parent": "play2.py"
+  },
+  "Audio + Music System": {
+    "desc": "An integrated system that handles both background music and interactive instruments. Certain items, like the 'Savitri player' or 'Universal Instrument', contain audio playlists or MIDI instrument data, allowing the player to engage with the world through sound.",
+    "type": "System",
+    "img": "",
+    "tech": [
+      "pygame.mixer",
+      "fluidsynth",
+      "mido"
+    ],
+    "address": "play2.py (play_audio, handle_instrument_interaction)",
+    "parent": "play2.py"
+  },
+  "Portal + World-Loading System": {
+    "desc": "The mechanism that connects the game's disparate worlds. Objects can have an 'interact' block with a 'load_data' key, which, when triggered, loads a new JSON file as the active world, effectively teleporting the player to a new map like 'The Temple of the Sages' or the 'Art Gallery'.",
+    "type": "Engine Core",
+    "img": "",
+    "related_db": "world.json (contains portal objects)",
+    "address": "play2.py (interact, load_world_data)",
+    "parent": "play2.py"
+  },
+    "Input + State Management System": {
+    "desc": "The game uses a complex event handler (`handle_events`) to manage various states beyond simple movement. Specific keys toggle distinct modes like the main menu (ESC), an object attribute editor (F2), a command input line (Enter), and a character stats display (P). This system acts as the central hub for all user interactions, directing input to the appropriate subsystem depending on the current game state (e.g., world exploration, menu navigation, or text entry).",
+    "type": "Engine Core",
+    "address": "play2.py (handle_events)",
+    "tech": [
+      "pygame"
+    ],
+    "parent": "play2.py"
+  },
+  "Command + Text Parsing System": {
+    "desc": "Yes, the player can perform actions by typing directly into the game. Pressing 'Enter' activates a command mode that captures text input. This system parses commands, such as 'tp [world_name]' to load a new world file, or 'f [keyword]' to dynamically create new objects in the world from image files. Text input is also used as a real-time filter to search through the extensive dialogue options when interacting with Beings, making the vast knowledge base navigable.",
+    "type": "Core System",
+    "address": "play2.py (handle_create_command, handle_events)",
+    "tech": [
+      "Python"
+    ],
+    "parent": "play2.py"
+  },
+  "World Persistence + Object Manipulation System": {
+    "desc": "Yes, the game world is dynamic and can be permanently changed by the player. The system allows for direct manipulation of world objects through several actions: picking up items (g), dropping them in new locations (t), duplicating a selected object (c), and deleting an object (Backspace). Furthermore, a powerful 'Edit Mode' (F2) allows the player to modify the raw JSON attributes of any selected object in real-time. All these changes to the world state can be made permanent by using the 'Commit Changes' option in the main menu, which overwrites the world and player JSON files on disk.",
+    "type": "Engine Core",
+    "img": "",
+    "related_db": [
+      "world.json",
+      "player.json"
+    ],
+    "address": "play2.py (save_world_data, pick_up_object, drop_object, delete_object, duplicate_object, set_attribute_value)",
+    "parent": "play2.py"
+  }
+}

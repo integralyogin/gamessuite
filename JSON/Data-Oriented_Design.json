@@ -1,0 +1,22 @@
+{  
+  "Structure of Arrays (SoA)": { "quote": "SoA > AoS: Particle.position[100] vs. Particle[100].position → Cache-coherent SIMD iteration (e.g., Unity DOTS)." },  
+  "Cache Efficiency": { "quote": "Minimize misses: IPC ≈ (Instructions/Cycle) ↑ when data is contiguous (e.g., particle systems)." },  
+  "SIMD Optimization": { "quote": "Vectorization: Process 4 floats at once (e.g., _mm_add_ps in AVX). Alignment: alignas(16) float positions[100];" },  
+  "Hot/Cold Data Splitting": { "quote": "Separate frequently accessed (position) vs. rare (debug name) → Reduce cache thrashing." },  
+  "Data Locality": { "quote": "Prefetching: __builtin_prefetch(&data[i+8]) → Hide memory latency (CPU pipelining)." },  
+  "Branch Avoidance": { "quote": "Masking over conditionals: result = (a > b) * x + (a <= b) * y → Avoid pipeline stalls." },  
+  "Batch Processing": { "quote": "Transform 1K entities at once: for (i < N) { positions[i] += velocities[i] * dt; }." },  
+  "Data Pipelines": { "quote": "Linear workflows: Parse → Filter → Transform → Output (no pointer chasing)." },  
+  "ECS & DOD": { "quote": "Entity-Component-System: Systems iterate Components[Transform, Velocity] in parallel (Unity Jobs)." },  
+  "Memory Allocators": { "quote": "Arena/Pool allocators: Reuse fixed-size blocks → Avoid heap fragmentation." },  
+  "Parallel Patterns": { "quote": "MapReduce: Split data → Worker threads process chunks → Merge (e.g., physics collisions)." },  
+  "Data Transformations": { "quote": "Baking: Precompute expensive data (e.g., navmesh) → Runtime O(1) lookups." },  
+  "Compile-Time Layouts": { "quote": "C++20: constexpr for data structure generation → Optimize layout pre-runtime." },  
+  "Performance Metrics": { "quote": "Profile L1/L2 misses (perf stat), IPC (Intel VTune) → Identify bottlenecks." },  
+  "Data-Oriented Languages": { "quote": "Zig’s compile-time memory awareness, Rust’s #[repr(C)] for layout control." },  
+  "Case Study: Particle Systems": { "quote": "10K particles: SoA positions/velocities + SIMD → 60 FPS on CPU." },  
+  "Case Study: Game Physics": { "quote": "Rigidbody arrays: velocity[i] += acceleration[i] * dt → Batch-update 1K bodies." },  
+  "Data Serialization": { "quote": "FlatBuffers: Zero-copy deserialization → Direct memory-mapped access." },  
+  "Future Trends": { "quote": "AI-driven DOD: LLMs analyze code → Suggest SoA refactors (GitHub Copilot)." },  
+  "Literature & Talks": { "quote": "Mike Acton’s “Data-Oriented Design” (CppCon) → “Know your data, not your code.”" }  
+}  

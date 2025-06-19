@@ -1,0 +1,77 @@
+{
+"World-building": {
+"short_description": "The systematic creation of imaginary worlds, encompassing their physical, cultural, historical, and metaphysical aspects to create coherent and immersive fictional universes."
+},
+"Cosmology": {
+"short_description": "The fundamental structure and origin of the fictional universe, including its creation myths, physical laws, metaphysical principles, and the relationship between different planes of existence."
+},
+"Geography": {
+"short_description": "The physical structure of the world including landmasses, oceans, climate systems, ecosystems, and natural resources that shape civilizations and influence historical development."
+},
+"Magic System": {
+"short_description": "The structured framework governing supernatural forces, including its sources, limitations, cultural impact, training methods, and relationship to natural laws and technological development."
+},
+"Technology": {
+"short_description": "The level and nature of scientific advancement, including its practical applications, cultural implications, distribution across societies, and interaction with magical or supernatural elements."
+},
+"Cultures": {
+"short_description": "Distinct societal groups with their own customs, beliefs, values, social structures, languages, art forms, and technological developments, shaped by their environment and historical experiences."
+},
+"History": {
+"short_description": "The chronological development of the world including major events, conflicts, discoveries, migrations, and cultural changes that shape the current state of civilizations and their relationships."
+},
+"Politics": {
+"short_description": "Systems of governance, power structures, international relations, conflicts, alliances, and the distribution of authority across different societies and organizational levels."
+},
+"Economics": {
+"short_description": "Systems of resource distribution, trade networks, currency systems, economic philosophies, and the material foundations of different societies and their interactions."
+},
+"Religion": {
+"short_description": "Belief systems, divine hierarchies, religious practices, spiritual traditions, and their influence on society, including both institutional structures and personal devotional aspects."
+},
+"Species": {
+"short_description": "The various intelligent and non-intelligent life forms inhabiting the world, including their biology, society, relationships with other species, and roles in the ecosystem."
+},
+"Languages": {
+"short_description": "Communication systems developed by different cultures, including their historical development, relationships, written forms, and influence on thought patterns and cultural expression."
+},
+"Artifacts": {
+"short_description": "Significant objects, tools, weapons, or relics that carry historical, cultural, or magical importance and influence the development of societies and plot elements."
+},
+"Timeline": {
+"short_description": "The chronological organization of events, developments, and epochs that structure the world's history and influence current situations and future possibilities."
+},
+"Metaphysics": {
+"short_description": "The fundamental nature of reality in the world, including the relationships between physical and spiritual realms, the nature of consciousness, and universal laws."
+},
+"Architecture": {
+"short_description": "Building styles, construction methods, and spatial organization reflecting cultural values, available materials, technological capability, and environmental adaptation."
+},
+"Social Classes": {
+"short_description": "Hierarchical structures within societies determining access to resources, opportunities, and power, including both formal and informal systems of stratification."
+},
+"Military": {
+"short_description": "Fighting forces, warfare methods, martial traditions, and defense systems shaped by technological capability, cultural values, and environmental conditions."
+},
+"Education": {
+"short_description": "Systems for transmitting knowledge, skills, and cultural values across generations, including both formal institutions and informal methods of learning."
+},
+"Entertainment": {
+"short_description": "Cultural activities, games, sports, and artistic expressions that provide recreation and reflect societal values, technological capability, and historical traditions."
+},
+"Transportation": {
+"short_description": "Methods and systems for moving people and goods, including both mundane and magical means, shaped by technology, geography, and cultural preferences."
+},
+"Medicine": {
+"short_description": "Healthcare practices, healing traditions, and understanding of body and mind, including both scientific and supernatural approaches to maintaining health."
+},
+"Law": {
+"short_description": "Systems of rules governing behavior, dispute resolution, and social order, including both formal legal structures and informal customs of justice."
+},
+"Agriculture": {
+"short_description": "Food production methods, farming traditions, and resource management systems that sustain populations and shape settlement patterns."
+},
+"Calendar": {
+"short_description": "Systems for measuring and organizing time, reflecting astronomical observations, cultural significance, and practical needs of different societies."
+}
+}

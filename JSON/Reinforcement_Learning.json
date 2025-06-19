@@ -1,0 +1,68 @@
+{
+  "Reinforcement Learning (RL)": {
+    "short_description": "A type of machine learning where an agent learns to make decisions by performing actions in an environment to achieve a goal, receiving rewards or penalties."
+  },
+  "Agent": {
+    "short_description": "The learner or decision maker in RL, which interacts with the environment by selecting actions based on current state."
+  },
+  "Environment": {
+    "short_description": "The context in which the agent operates, providing feedback through state changes and rewards in response to the agent's actions."
+  },
+  "State": {
+    "short_description": "A representation of all the information the agent needs to know about the environment at a given time to decide its action."
+  },
+  "Action": {
+    "short_description": "The set of possible moves or decisions the agent can make in response to the current state of the environment."
+  },
+  "Reward": {
+    "short_description": "Immediate feedback from the environment for an action, used by the agent to learn which actions are beneficial or detrimental."
+  },
+  "Policy": {
+    "short_description": "A strategy or rule that the agent uses to decide what action to take given the current state, mapping states to actions."
+  },
+  "Value Function": {
+    "short_description": "A function that estimates the expected return or long-term reward for being in a particular state or following a policy."
+  },
+  "Q-Learning": {
+    "short_description": "A model-free RL algorithm where the agent learns the value of action in each state, aiming to maximize future rewards."
+  },
+  "SARSA": {
+    "short_description": "An on-policy RL method similar to Q-learning but updates values based on the action taken in the next state."
+  },
+  "Deep Q-Network (DQN)": {
+    "short_description": "Combines Q-learning with deep neural networks to handle high-dimensional state spaces, notably used in video game AI."
+  },
+  "Exploration vs. Exploitation": {
+    "short_description": "The trade-off in RL where the agent must balance between trying new actions to learn more about the environment (exploration) and using known actions for immediate reward (exploitation)."
+  },
+  "Markov Decision Process (MDP)": {
+    "short_description": "A mathematical framework for modeling decision-making in situations where outcomes are partly random, crucial for RL."
+  },
+  "Temporal Difference (TD) Learning": {
+    "short_description": "A class of model-free RL methods that learn from incomplete episodes by bootstrapping from the current estimate to update predictions."
+  },
+  "Monte Carlo Methods": {
+    "short_description": "RL techniques that learn from complete episodes by averaging sample returns to estimate value functions."
+  },
+  "Policy Gradient Methods": {
+    "short_description": "Algorithms that directly optimize the policy function by adjusting the action probabilities based on the gradient of the expected reward."
+  },
+  "Actor-Critic Methods": {
+    "short_description": "A hybrid approach combining policy gradient (actor) methods with value-based (critic) methods to improve learning efficiency."
+  },
+  "Reward Shaping": {
+    "short_description": "The practice of modifying or adding intermediate rewards to help guide the learning process of the agent towards desired behaviors."
+  },
+  "Transfer Learning in RL": {
+    "short_description": "The use of knowledge from one task to improve learning in another related task, enhancing learning speed and performance."
+  },
+  "Multi-Agent RL": {
+    "short_description": "Extends RL to scenarios where multiple agents interact, learning to coordinate or compete within the same environment."
+  },
+  "Inverse Reinforcement Learning": {
+    "short_description": "The process of determining the reward function from observed behavior, rather than the agent learning from predefined rewards."
+  },
+  "Curriculum Learning": {
+    "short_description": "An approach where the learning tasks are presented in an increasing order of difficulty, aiding in the learning of complex behaviors."
+  }
+}

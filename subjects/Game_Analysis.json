@@ -1,0 +1,571 @@
+[
+  {
+    "id": "subj_game_analysis_foundations_001",
+    "title": "Game Analysis: Deconstructing Interactive Experiences",
+    "description": "A systematic exploration of methods and frameworks for analyzing game design, player experience, mechanics, and broader impacts.",
+    "sections": [
+      {
+        "heading": "Game Analysis Intro",
+        "topic_summary": "Understanding games critically.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_intro",
+            "summary": "An overview of game analysis as the critical study and deconstruction of games to understand their design, mechanics, player experience, and cultural significance."
+          }
+        ]
+      },
+      {
+        "heading": "Critical Play",
+        "topic_summary": "Engaging with analytical mindset.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_critical_play",
+            "summary": "The practice of playing games with an analytical and reflective mindset, actively observing and questioning design choices and their effects."
+          }
+        ]
+      },
+      {
+        "heading": "Formal Analysis",
+        "topic_summary": "Examining rules, systems.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_formal_analysis",
+            "summary": "Analyzing the explicit rules, structures, and systems of a game, including its mechanics, goals, and formal properties."
+          }
+        ]
+      },
+      {
+        "heading": "MDA Framework",
+        "topic_summary": "Mechanics, Dynamics, Aesthetics.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_mda_framework",
+            "summary": "A formal approach to game analysis and design that considers Mechanics (rules/components), Dynamics (run-time behavior), and Aesthetics (emotional responses)."
+          }
+        ]
+      },
+      {
+        "heading": "Game Ontology",
+        "topic_summary": "Defining game components.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_game_ontology",
+            "summary": "The study and classification of the fundamental components and structures that constitute a game (e.g., rules, goals, players, space, objects)."
+          }
+        ]
+      },
+      {
+        "heading": "Player Experience (PX)",
+        "topic_summary": "Analyzing user interaction.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_px_analysis",
+            "summary": "Evaluating the totality of a player's perceptions, feelings, and interactions with a game, including usability, engagement, and emotional impact."
+          }
+        ]
+      },
+      {
+        "heading": "Heuristic Evaluation",
+        "topic_summary": "Usability inspection method.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_heuristic_evaluation",
+            "summary": "A usability inspection method where evaluators assess an interface against recognized usability principles (heuristics)."
+          }
+        ]
+      },
+      {
+        "heading": "Playtesting Analysis",
+        "topic_summary": "Interpreting player feedback.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_playtesting_analysis",
+            "summary": "Methods for systematically collecting, analyzing, and interpreting data and feedback from playtesting sessions to inform design improvements."
+          }
+        ]
+      },
+      {
+        "heading": "Game Mechanics Analysis",
+        "topic_summary": "Deconstructing core rules.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_mechanics_analysis",
+            "summary": "Examining individual game mechanics, their interactions, and their contribution to the overall player experience and game dynamics."
+          }
+        ]
+      },
+      {
+        "heading": "System Dynamics Analysis",
+        "topic_summary": "Behavior of game systems.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_system_dynamics_analysis",
+            "summary": "Analyzing how interconnected game systems (e.g., economy, combat, progression) behave and interact over time, leading to emergent gameplay."
+          }
+        ]
+      },
+      {
+        "heading": "Game Balancing Analysis",
+        "topic_summary": "Assessing fairness, challenge.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_balancing_analysis",
+            "summary": "Evaluating the fairness, perceived difficulty, strategic depth, and overall balance of game mechanics and systems."
+          }
+        ]
+      },
+      {
+        "heading": "Level Design Analysis",
+        "topic_summary": "Evaluating game spaces.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_level_design_analysis",
+            "summary": "Analyzing the structure, flow, pacing, challenge, and guidance within game levels or environments."
+          }
+        ]
+      },
+      {
+        "heading": "Narrative Analysis",
+        "topic_summary": "Deconstructing game stories.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_narrative_analysis",
+            "summary": "Examining the story, plot, characters, themes, and storytelling techniques employed in a game, and their integration with gameplay."
+          }
+        ]
+      },
+      {
+        "heading": "Ludonarrative Analysis",
+        "topic_summary": "Gameplay and story harmony.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_ludonarrative",
+            "summary": "The study of the relationship and potential harmony or dissonance between a game's gameplay (ludic elements) and its narrative elements."
+          }
+        ]
+      },
+      {
+        "heading": "Art Style Analysis",
+        "topic_summary": "Evaluating visual aesthetics.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_art_style_analysis",
+            "summary": "Analyzing the visual aesthetics, art direction, and graphical elements of a game and their contribution to theme, mood, and player experience."
+          }
+        ]
+      },
+      {
+        "heading": "Sound Design Analysis",
+        "topic_summary": "Assessing audio impact.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_sound_analysis",
+            "summary": "Evaluating the use of sound effects, music, and voice acting in a game and their impact on immersion, feedback, and emotional tone."
+          }
+        ]
+      },
+      {
+        "heading": "UI/UX Analysis",
+        "topic_summary": "Interface usability, experience.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_ui_ux_analysis",
+            "summary": "Critically examining the game's user interface (UI) for clarity and ease of use, and the overall user experience (UX) for intuitiveness and satisfaction."
+          }
+        ]
+      },
+      {
+        "heading": "Game Feel Analysis",
+        "topic_summary": "Assessing interaction responsiveness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_game_feel_analysis",
+            "summary": "Analyzing the tactile and responsive qualities of game controls and interactions, often referred to as 'juice'."
+          }
+        ]
+      },
+      {
+        "heading": "Difficulty Curve Analysis",
+        "topic_summary": "Evaluating challenge progression.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_difficulty_curve",
+            "summary": "Assessing how a game's challenge level changes over time, ensuring it aligns with player skill progression and maintains engagement."
+          }
+        ]
+      },
+      {
+        "heading": "Pacing Analysis",
+        "topic_summary": "Examining rhythm of play.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_pacing_analysis",
+            "summary": "Analyzing the rhythm and flow of gameplay, including the distribution of high-intensity moments, rest periods, and narrative beats."
+          }
+        ]
+      },
+      {
+        "heading": "Progression System Analysis",
+        "topic_summary": "Evaluating player advancement.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_progression_analysis",
+            "summary": "Analyzing how players advance, unlock content, or improve their abilities within the game, and the motivational impact of these systems."
+          }
+        ]
+      },
+      {
+        "heading": "Economy Analysis",
+        "topic_summary": "Evaluating in-game resources.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_economy_analysis",
+            "summary": "Analyzing the flow of in-game currencies and resources, including sources, sinks, and their impact on player behavior and game balance."
+          }
+        ]
+      },
+      {
+        "heading": "Social Dynamics Analysis",
+        "topic_summary": "Player interactions in multiplayer.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_social_dynamics",
+            "summary": "Examining how players interact with each other in multiplayer games, including cooperation, competition, communication, and community formation."
+          }
+        ]
+      },
+      {
+        "heading": "Competitive Analysis",
+        "topic_summary": "Comparing with similar games.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_competitive_analysis",
+            "summary": "Evaluating a game in relation to its competitors, identifying its strengths, weaknesses, unique selling points, and market positioning."
+          }
+        ]
+      },
+      {
+        "heading": "Target Audience Analysis",
+        "topic_summary": "Understanding intended players.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_audience_analysis",
+            "summary": "Defining and understanding the characteristics, preferences, and needs of the game's intended player base to inform design and marketing."
+          }
+        ]
+      },
+      {
+        "heading": "Accessibility Analysis",
+        "topic_summary": "Evaluating inclusivity for all.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_accessibility_analysis",
+            "summary": "Assessing how well a game accommodates players with diverse abilities and disabilities, including visual, auditory, motor, and cognitive impairments."
+          }
+        ]
+      },
+      {
+        "heading": "Ethical Analysis",
+        "topic_summary": "Considering moral implications.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_ethical_analysis",
+            "summary": "Examining the moral and societal implications of a game's content, mechanics, monetization strategies, and potential impact on players."
+          }
+        ]
+      },
+      {
+        "heading": "Monetization Analysis",
+        "topic_summary": "Evaluating revenue models.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_monetization_analysis",
+            "summary": "Analyzing the game's business model and revenue generation strategies (e.g., premium, F2P, subscriptions, DLC) and their impact on player experience."
+          }
+        ]
+      },
+      {
+        "heading": "Game Reviews & Criticism",
+        "topic_summary": "Understanding critical reception.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_reviews_criticism",
+            "summary": "Analyzing professional game reviews and critical essays to understand how a game is perceived and evaluated by critics and the public."
+          }
+        ]
+      },
+      {
+        "heading": "Player Feedback Analysis",
+        "topic_summary": "Interpreting user comments.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_player_feedback",
+            "summary": "Systematically collecting and analyzing player comments, forum posts, social media sentiment, and survey data to understand player opinions."
+          }
+        ]
+      },
+      {
+        "heading": "Game Analytics Interpretation",
+        "topic_summary": "Making sense of player data.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_analytics_interpretation",
+            "summary": "Analyzing telemetry data (player behavior tracking) to understand engagement patterns, pain points, feature usage, and overall game health."
+          }
+        ]
+      },
+      {
+        "heading": "Historical Game Analysis",
+        "topic_summary": "Studying influential past games.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_historical_analysis",
+            "summary": "Examining historically significant games to understand their design innovations, impact on the medium, and lessons for contemporary design."
+          }
+        ]
+      },
+      {
+        "heading": "Genre Evolution Analysis",
+        "topic_summary": "Tracking changes in genres.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_genre_evolution",
+            "summary": "Analyzing how specific game genres have evolved over time, including changes in mechanics, themes, and player expectations."
+          }
+        ]
+      },
+      {
+        "heading": "Cultural Impact Analysis",
+        "topic_summary": "Games' role in society.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_cultural_impact",
+            "summary": "Examining the broader influence of games on culture, society, art, and other media."
+          }
+        ]
+      },
+      {
+        "heading": "Procedural Rhetoric",
+        "topic_summary": "Games making arguments.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_procedural_rhetoric",
+            "summary": "Analyzing how games persuade or make arguments through their rules and systems (Bogost)."
+          }
+        ]
+      },
+      {
+        "heading": "Serious Games Analysis",
+        "topic_summary": "Games for non-entertainment.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_serious_games",
+            "summary": "Evaluating games designed for purposes beyond pure entertainment, such as education, training, healthcare, or social change."
+          }
+        ]
+      },
+      {
+        "heading": "Game Preservation",
+        "topic_summary": "Archiving playable history.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_game_preservation",
+            "summary": "The challenges and methods involved in archiving and preserving video games and their hardware for future study and play."
+          }
+        ]
+      },
+      {
+        "heading": "Game Studies as Field",
+        "topic_summary": "Academic discipline of games.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_game_studies",
+            "summary": "Understanding Game Studies as an academic field that critically examines games, play, players, and their cultural contexts."
+          }
+        ]
+      },
+      {
+        "heading": "Close Reading of Games",
+        "topic_summary": "Detailed textual analysis.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_close_reading",
+            "summary": "Applying techniques of close reading, similar to literary analysis, to meticulously examine a game's elements and their interrelations."
+          }
+        ]
+      },
+      {
+        "heading": "Comparative Game Analysis",
+        "topic_summary": "Comparing multiple games.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_comparative_analysis",
+            "summary": "Analyzing two or more games in relation to each other to highlight similarities, differences, influences, or trends."
+          }
+        ]
+      },
+      {
+        "heading": "Platform Studies",
+        "topic_summary": "Hardware's impact on games.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_platform_studies",
+            "summary": "Analyzing how the specific characteristics and constraints of game hardware platforms (consoles, PCs, mobile) influence game design and player experience."
+          }
+        ]
+      },
+      {
+        "heading": "Software Studies",
+        "topic_summary": "Analyzing game software itself.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_software_studies",
+            "summary": "A field that critically examines software systems, including game code and engines, as cultural and technical artifacts."
+          }
+        ]
+      },
+      {
+        "heading": "Paratexts in Games",
+        "topic_summary": "Materials surrounding games.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_paratexts",
+            "summary": "Analyzing materials that surround a game but are not part of the game itself (e.g., manuals, box art, trailers, reviews, fan creations) and how they shape perception."
+          }
+        ]
+      },
+      {
+        "heading": "Game Modification (Modding)",
+        "topic_summary": "Player-created game alterations.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_modding",
+            "summary": "Analyzing the practice of players modifying games, the communities around it, and its impact on game longevity and player creativity."
+          }
+        ]
+      },
+      {
+        "heading": "Esports Analysis",
+        "topic_summary": "Competitive gaming structures.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_esports_analysis",
+            "summary": "Analyzing the structure, metagame, player performance, spectating experience, and ecosystem of competitive electronic sports."
+          }
+        ]
+      },
+      {
+        "heading": "Streaming & Influencer Impact",
+        "topic_summary": "How streamers shape perception.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_streaming_impact",
+            "summary": "Analyzing the role of live streaming platforms (e.g., Twitch) and game influencers in shaping game discovery, community, and player expectations."
+          }
+        ]
+      },
+      {
+        "heading": "Game Design Patterns",
+        "topic_summary": "Recurring successful solutions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_design_patterns",
+            "summary": "Identifying and analyzing common, effective solutions to recurring design problems in games (e.g., resource management patterns, combat patterns)."
+          }
+        ]
+      },
+      {
+        "heading": "Anti-Patterns in Design",
+        "topic_summary": "Commonly ineffective solutions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_anti_patterns",
+            "summary": "Identifying and analyzing common design choices or solutions that frequently lead to negative player experiences or unintended consequences."
+          }
+        ]
+      },
+      {
+        "heading": "Ludology vs Narratology",
+        "topic_summary": "Game study debate.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_ludology_narratology",
+            "summary": "Understanding the historical academic debate concerning whether games should primarily be studied as rule-based systems (ludology) or as narrative media (narratology)."
+          }
+        ]
+      },
+      {
+        "heading": "Writing Game Analysis",
+        "topic_summary": "Communicating insights effectively.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_writing_analysis",
+            "summary": "Developing skills in clearly and persuasively communicating game analysis findings through written reports, essays, or presentations."
+          }
+        ]
+      },
+      {
+        "heading": "Future of Game Analysis",
+        "topic_summary": "New methods, evolving field.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ga_topic_future_analysis",
+            "summary": "Exploring emerging methodologies, tools (e.g., AI-assisted analysis), and future directions for the critical study of games."
+          }
+        ]
+      }
+    ]
+  }
+]
+

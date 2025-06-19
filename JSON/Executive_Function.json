@@ -1,0 +1,22 @@
+{
+  "Task Prioritization": { "quote": "Urgency scoring: S = w₁·deadline + w₂·resource_demand (e.g., LLM inference queues)." },
+  "Resource Allocation": { "quote": "Optimizing compute: argmax_{x} [utility(x) | CPU/GPU ≤ threshold] (Knapsack-inspired)." },
+  "Goal Management": { "quote": "Hierarchical goals: HDDL (Hierarchical Task Networks) decompose objectives into subplans." },
+  "Decision-Making Frameworks": { "quote": "Multi-armed bandits: UCB(a) = μ(a) + √(2ln(T)/n(a)) balances exploration-exploitation." },
+  "Planning & Scheduling": { "quote": "PDDL planners: Generate action sequences to minimize cost(path) → goal(state)." },
+  "Meta-Learning": { "quote": "Learning to learn: θ' ← θ - α∇θL(τ, θ) (MAML optimizes for few-shot adaptation)." },
+  "Attention Mechanisms": { "quote": "Dynamic focus: softmax(QKᵀ/√d) → V weights critical inputs (Transformer-based control)." },
+  "Cognitive Control": { "quote": "Conflict monitoring: ΔACC = |expected - observed| triggers error correction (inspired by ACT-R)." },
+  "Error Monitoring": { "quote": "Backprop-through-time: ∇L/∇θ = Σₜ (∂L/∂ŷₜ)(∂ŷₜ/∂θ) adjusts long-term policies." },
+  "Context Switching": { "quote": "Latency-aware: save/restore state in <5ms for real-time agent multitasking." },
+  "Inhibition Control": { "quote": "Gating networks: σ(w·[input, context]) ∈ {0,1} suppresses irrelevant actions." },
+  "Working Memory Management": { "quote": "NTM-like buffers: Mₜ = LSTM(Mₜ₋₁, [xₜ, hₜ]) retains task-relevant data." },
+  "Adaptive Learning Rates": { "quote": "Adam optimizer: mₜ = β₁mₜ₋₁ + (1-β₁)gₜ, vₜ = β₂vₜ₋₁ + (1-β₂)gₜ²." },
+  "Multi-Agent Coordination": { "quote": "Nash equilibrium: π_i(s) = argmax π_i E[R | π_{-i}] for cooperative systems." },
+  "Self-Regulation": { "quote": "PID control: u(t) = Kₚe(t) + Kᵢ∫e(τ)dτ + K_d de/dt (stabilizes feedback loops)." },
+  "Hierarchical Organization": { "quote": "Subsumption architecture: Low-level layers (obstacle avoidance) ⊂ high-level goals (navigation)." },
+  "Conflict Resolution": { "quote": "Constraint satisfaction: A* with penalty terms for overlapping resource claims." },
+  "Dynamic Replanning": { "quote": "Reactive systems: Replan if P(goal|state) < threshold (e.g., ROS2 navigation)." },
+  "Goal Decomposition": { "quote": "AND/OR graphs: Break 'deliver package' → 'navigate', 'grasp', 'avoid obstacles'." },
+  "Executive Metrics": { "quote": "Throughput: tasks/sec; Accuracy: % goals achieved; Latency: Δt(trigger→response)." }
+}

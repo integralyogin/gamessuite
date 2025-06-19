@@ -1,0 +1,122 @@
+{
+  "Entity": {
+    "short_description": "Distinct unit of being that maintains identity across time."
+  },
+  "Process": {
+    "short_description": "Dynamic pattern of change or transformation over time."
+  },
+  "Form": {
+    "short_description": "Essential pattern or structure that defines a thing's nature."
+  },
+  "Substance": {
+    "short_description": "Fundamental material or essence from which things are made."
+  },
+  "Quality": {
+    "short_description": "Characteristic or attribute that can be perceived or measured."
+  },
+  "Relation": {
+    "short_description": "Connection or interaction between multiple things."
+  },
+  "Pattern": {
+    "short_description": "Recurring arrangement or organization in space or time."
+  },
+  "Force": {
+    "short_description": "Power or influence that causes change or maintains order."
+  },
+  "Event": {
+    "short_description": "Occurrence or happening that marks a change in state."
+  },
+  "System": {
+    "short_description": "Integrated whole composed of interacting parts."
+  },
+  "Field": {
+    "short_description": "Space of influence where particular properties or forces operate."
+  },
+  "Wave": {
+    "short_description": "Propagating disturbance that carries energy or information."
+  },
+  "Particle": {
+    "short_description": "Discrete unit of matter or energy."
+  },
+  "Boundary": {
+    "short_description": "Interface or limit that defines separation or connection."
+  },
+  "Container": {
+    "short_description": "That which holds or encompasses other things."
+  },
+  "Medium": {
+    "short_description": "Substance or context through which other things move or exist."
+  },
+  "Archetype": {
+    "short_description": "Primordial pattern that structures particular manifestations."
+  },
+  "Symbol": {
+    "short_description": "Thing that represents or points to meaning beyond itself."
+  },
+  "Agent": {
+    "short_description": "Entity capable of causing change or performing actions."
+  },
+  "Structure": {
+    "short_description": "Arrangement of parts that maintains stability over time."
+  },
+  "Flow": {
+    "short_description": "Continuous movement or transfer of substance or information."
+  },
+  "Node": {
+    "short_description": "Point of intersection or connection in a network."
+  },
+  "Signal": {
+    "short_description": "Pattern that carries information or meaning."
+  },
+  "Cycle": {
+    "short_description": "Recurring sequence of states or processes."
+  },
+  "Field": {
+    "short_description": "Region where particular properties or influences operate."
+  },
+  "Element": {
+    "short_description": "Basic component or constituent of more complex things."
+  },
+  "Principle": {
+    "short_description": "Fundamental law or dynamic that governs behavior."
+  },
+  "State": {
+    "short_description": "Particular configuration or condition of existence."
+  },
+  "Threshold": {
+    "short_description": "Point of transition between different states or conditions."
+  },
+  "Matrix": {
+    "short_description": "Environmental context that shapes what exists within it."
+  },
+  "Resonance": {
+    "short_description": "Sympathetic connection or amplification between things."
+  },
+  "Interface": {
+    "short_description": "Point of interaction or communication between systems."
+  },
+  "Attractor": {
+    "short_description": "State or pattern that systems tend to evolve toward."
+  },
+  "Emergence": {
+    "short_description": "Higher-order pattern arising from simpler components."
+  },
+  "Void": {
+    "short_description": "Absence or emptiness that allows things to exist."
+  },
+  "Information": {
+    "short_description": "Pattern of difference that makes a difference."
+  },
+  "Potential": {
+    "short_description": "Latent capacity for manifestation or actualization."
+  },
+  "Essence": {
+    "short_description": "Fundamental nature that defines what something is."
+  },
+  "Projection": {
+    "short_description": "Extension or manifestation from one domain to another."
+  },
+  "Aggregate": {
+    "short_description": "Collection of units forming a composite whole."
+  }
+}

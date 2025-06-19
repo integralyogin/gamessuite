@@ -1,0 +1,12 @@
+{
+"Josh Games": { "date": "", "desc": "Games made by Joshua (integralyogin) for self-reference.", "img":"", "imgs":"", "db": "", "address": "", "lang":""  },
+"Lila RL": { "date": "", "desc":"", "img":"images/games/lila_rl.png", "db": "", "address": "", "lang": "js, php" },
+"Gamessuite": { "date": "", "desc":"", "img":"", "imgs":"", "db": "", "address": "", "lang": "js" },
+"jgame": { "date": "", "desc":"", "img":"", "imgs":"", "db": "", "address": "", "lang": "" },
+"grid2 (livegrid)": { "date": "", "desc":"", "img":"images/games/til2_grid2.png", "db": "", "address": "", "lang": "" },
+"lila.py": { "date": "", "desc":"", "img": [ "images/games/lila.png", "images/games/lila2.png" ], "db": "", "address": "", "lang": "py" },
+"play2.py": { "date": "2024-01", "desc":"mystic-edu  open-world rpg sim idle sand-box roguelike / Encyclopedia Art Gallery / Garden / Map Editor", "img": [ "images/games/play.png", "images/games/play2.png"], "imgs": [ "images/games/play2_3.png", "images/games/play2_4.png" ], "db": "knowledge_base3.json, temple_of_the_sages.json", "address": "", "lang": "py" },
+"BitArmy": { "date": "", "desc":"", "img":"", "imgs":"", "db": "", "address": "", "lang": "js" },
+"Play17": { "date": "", "desc":"", "img":"", "imgs":"", "db": "", "address": "", "lang": "" }
+
+}

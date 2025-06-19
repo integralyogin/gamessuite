@@ -1,0 +1,284 @@
+[
+  {
+    "id": "subj_mahayana_buddhism_001",
+    "title": "Mahayana Buddhism: Doctrines, Practices, and Ideals",
+    "description": "An exploration of Mahayana Buddhism, encompassing its core philosophical doctrines, ethical ideals, key sutras, prominent figures, diverse schools, and distinctive practices, highlighting its emphasis on the Bodhisattva path and the aspiration for universal liberation.",
+    "sections": [
+      {
+        "heading": "Mahayana Buddhism: The 'Great Vehicle'",
+        "topic_summary": "An introduction to Mahayana as one of the main existing branches of Buddhism.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_intro",
+            "summary": "Mahayana (Sanskrit: महायान, 'Great Vehicle') is one of the two main existing branches of Buddhism and a term for a broad group of Buddhist traditions, texts, philosophies, and practices. It emerged in India around the 1st century CE, characterized by its emphasis on the Bodhisattva path, the ideal of attaining Buddhahood for the sake of all sentient beings, and doctrines such as emptiness (Śūnyatā) and Buddha-nature (Tathāgatagarbha)."
+          }
+        ]
+      },
+      {
+        "heading": "Origins and Development of Mahayana",
+        "topic_summary": "The historical emergence and evolution of Mahayana Buddhist thought and scriptures.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_origins",
+            "summary": "Mahayana Buddhism began to develop in India between 150 BCE and 100 CE, distinguished by new sutras not found in the early canons. It coexisted with earlier Buddhist schools (which Mahayanists sometimes termed 'Hinayana' or 'Lesser Vehicle') and gradually spread across East Asia (China, Korea, Japan, Vietnam) and parts of Tibet and Central Asia, developing diverse schools and interpretations."
+          }
+        ]
+      },
+      {
+        "heading": "Śūnyatā (Emptiness): The Absence of Inherent Existence",
+        "topic_summary": "The core Mahayana doctrine that all phenomena are 'empty' of intrinsic, independent reality.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_sunyata",
+            "summary": "Śūnyatā (Sanskrit: शून्यता, 'emptiness' or 'voidness') is a foundational concept in Mahayana Buddhism, asserting that all conditioned phenomena (dharmas) are without intrinsic existence (svabhāva). This does not mean nihilism, but rather that things exist interdependently and are devoid of a permanent, unchanging essence. Understanding emptiness leads to wisdom and liberation from attachment."
+          }
+        ]
+      },
+      {
+        "heading": "Tathātā (Suchness/Thusness): The True Nature of Reality",
+        "topic_summary": "Reality as it truly is, unconditioned and beyond conceptualization.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_tathata",
+            "summary": "Tathātā (Sanskrit: तथाता, 'suchness' or 'thusness') refers to the ultimate, ineffable nature of reality as it is, unconditioned by mental constructs or conceptual elaborations. It signifies the authentic state of all phenomena when perceived without delusion or dualistic thought, often equated with emptiness and Buddha-nature."
+          }
+        ]
+      },
+      {
+        "heading": "Buddha-Nature (Tathāgatagarbha): Inherent Potential for Buddhahood",
+        "topic_summary": "The innate seed or potential for enlightenment present in all sentient beings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_buddha_nature",
+            "summary": "Tathāgatagarbha (Sanskrit: तथागतगर्भ, 'embryo' or 'womb of the Tathāgata') is the Mahayana doctrine that all sentient beings possess an inherent Buddha-nature – the fundamental nature of a Buddha, or the intrinsic potential for achieving Buddhahood. This concept emphasizes that enlightenment is not something external to be acquired but an innate quality to be uncovered."
+          }
+        ]
+      },
+      {
+        "heading": "Two Truths Doctrine: Conventional and Ultimate Truth",
+        "topic_summary": "The distinction between relative/conventional reality and absolute/ultimate reality.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_two_truths",
+            "summary": "The Two Truths Doctrine (Sanskrit: Satyadvaya) distinguishes between conventional truth (saṃvṛti-satya) – the everyday reality of appearances and conceptual distinctions – and ultimate truth (paramārtha-satya) – the true nature of reality, often equated with emptiness or suchness, which transcends concepts. Both are considered valid within their respective contexts, with conventional truth serving as a means to understand ultimate truth."
+          }
+        ]
+      },
+      {
+        "heading": "Ālayavijñāna (Storehouse Consciousness): Yogacara School Concept",
+        "topic_summary": "A foundational consciousness in Yogacara philosophy that stores karmic seeds.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_alayavijnana",
+            "summary": "Ālayavijñāna (Sanskrit: आलयविज्ञान, 'storehouse consciousness' or 'substratum consciousness') is a key concept in the Yogācāra (Mind-Only) school of Mahayana Buddhism. It is described as a deep, foundational level of consciousness that stores all karmic seeds (bīja) from past actions, which then ripen to shape individual experiences and perceptions. It is the basis for the continuity of consciousness and the process of rebirth."
+          }
+        ]
+      },
+      {
+        "heading": "Trikāya (Three Bodies of a Buddha): Manifestations of Buddhahood",
+        "topic_summary": "The Mahayana doctrine of the three 'bodies' or aspects of a Buddha.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_trikaya",
+            "summary": "The Trikāya doctrine describes three 'bodies' or aspects of a Buddha: \n1. **Dharmakāya (Truth Body):** The ultimate, formless body of reality itself, emptiness, suchness; the unmanifested absolute nature of Buddhahood. \n2. **Saṃbhogakāya (Enjoyment/Bliss Body):** The subtle, luminous body of a Buddha in a celestial realm, experienced by advanced Bodhisattvas, characterized by perfect bliss and wisdom. \n3. **Nirmāṇakāya (Manifestation/Emanation Body):** The physical body of a Buddha that appears in the world to teach the Dharma and guide sentient beings, such as Shakyamuni Buddha."
+          }
+        ]
+      },
+      {
+        "heading": "Bodhisattva Ideal: The Path of Compassionate Awakening",
+        "topic_summary": "The ideal of attaining Buddhahood not for oneself alone, but for the liberation of all beings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_bodhisattva_ideal",
+            "summary": "The Bodhisattva (Sanskrit: बोधिसत्त्व, 'enlightenment-being') ideal is central to Mahayana Buddhism. A Bodhisattva is an individual who, motivated by great compassion (Mahākaruṇā), generates Bodhicitta (the aspiration to attain Buddhahood) not just for their own liberation but for the sake of liberating all sentient beings from suffering. They willingly postpone their own final nirvana to help others."
+          }
+        ]
+      },
+      {
+        "heading": "Bodhicitta (Awakening Mind): The Aspiration for Enlightenment",
+        "topic_summary": "The altruistic intention to attain enlightenment for the benefit of all sentient beings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_bodhicitta",
+            "summary": "Bodhicitta (Sanskrit: बोधिचित्त, 'mind of awakening' or 'enlightenment-thought') is the compassionate aspiration to achieve full Buddhahood in order to be of greatest benefit to all sentient beings. It has two aspects: aspirational Bodhicitta (the wish to attain enlightenment) and engaged Bodhicitta (actively practicing the Bodhisattva path and the Pāramitās)."
+          }
+        ]
+      },
+      {
+        "heading": "Pāramitās (Perfections): Qualities Cultivated on the Bodhisattva Path",
+        "topic_summary": "The six or ten transcendent perfections practiced by Bodhisattvas.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_paramitas",
+            "summary": "The Pāramitās (Sanskrit: पारमिता, 'perfections' or 'transcendent virtues') are qualities cultivated by Bodhisattvas on the path to Buddhahood. The most common list includes six: \n1. **Dāna Pāramitā (Perfection of Generosity)** \n2. **Śīla Pāramitā (Perfection of Morality/Ethics)** \n3. **Kṣānti Pāramitā (Perfection of Patience/Forbearance)** \n4. **Vīrya Pāramitā (Perfection of Energy/Effort/Diligence)** \n5. **Dhyāna Pāramitā (Perfection of Meditation/Concentration)** \n6. **Prajñā Pāramitā (Perfection of Wisdom)** \nSometimes four more are added: Upāya (skillful means), Praṇidhāna (vow/resolution), Bala (spiritual power), and Jñāna (knowledge)."
+          }
+        ]
+      },
+      {
+        "heading": "Karuṇā (Compassion) & Maitrī (Loving-Kindness)",
+        "topic_summary": "Fundamental virtues in Mahayana: compassion for suffering and loving-kindness towards all.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_karuna_maitri",
+            "summary": "Mahākaruṇā (Great Compassion) is the profound wish for all sentient beings to be free from suffering and its causes. Maitrī (Loving-Kindness) is the wish for all beings to possess happiness and its causes. These two, along with sympathetic joy (Muditā) and equanimity (Upekṣā), form the 'Four Immeasurables' (Brahmavihāras) and are essential motivations for a Bodhisattva."
+          }
+        ]
+      },
+      {
+        "heading": "Celestial Buddhas and Bodhisattvas: Archetypes of Enlightenment",
+        "topic_summary": "Transcendent Buddhas and advanced Bodhisattvas who play significant roles in Mahayana.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_celestial_beings",
+            "summary": "Mahayana cosmology includes numerous celestial Buddhas (e.g., Amitābha, Akṣobhya, Vairocana) who preside over Pure Lands, and great Bodhisattvas (e.g., Avalokiteśvara, Mañjuśrī, Kṣitigarbha, Samantabhadra, Maitreya, Tārā) who embody specific enlightened qualities (compassion, wisdom, etc.) and assist sentient beings. They are objects of veneration, visualization, and inspiration."
+          }
+        ]
+      },
+      {
+        "heading": "Nāgārjuna: Founder of Madhyamaka Philosophy",
+        "topic_summary": "An influential Indian philosopher who systematized the Prajñāpāramitā teachings on emptiness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_nagarjuna",
+            "summary": "Nāgārjuna (c. 150–250 CE) was a highly influential Indian Mahayana Buddhist philosopher, primarily known as the founder of the Madhyamaka ('Middle Way') school. His seminal work, the Mūlamadhyamakakārikā, elucidates the concept of Śūnyatā (emptiness) and critiques essentialist views, establishing a 'middle path' between eternalism and nihilism."
+          }
+        ]
+      },
+      {
+        "heading": "Asaṅga and Vasubandhu: Founders of Yogācāra Philosophy",
+        "topic_summary": "Indian philosopher brothers who were key proponents of the Yogācāra (Mind-Only) school.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_asanga_vasubandhu",
+            "summary": "Asaṅga (c. 4th century CE) and his half-brother Vasubandhu (c. 4th–5th century CE) were pivotal figures in the development of the Yogācāra (also known as Vijñānavāda or Cittamātra, 'Mind-Only') school of Mahayana Buddhism. They expounded on concepts like Ālayavijñāna (storehouse consciousness), the three natures of reality (Trisvabhāva), and the idea that perceived reality is a projection of consciousness."
+          }
+        ]
+      },
+      {
+        "heading": "Prajñāpāramitā Sūtras (Perfection of Wisdom Texts)",
+        "topic_summary": "A collection of Mahayana scriptures emphasizing emptiness and the Bodhisattva path.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_prajnaparamita_sutras",
+            "summary": "The Prajñāpāramitā Sūtras ('Perfection of Wisdom' sutras) are a genre of Mahayana Buddhist scriptures that deal with the nature of Prajñā (wisdom) as the direct realization of Śūnyatā (emptiness). Key texts include the Heart Sūtra (Prajñāpāramitāhṛdaya) and the Diamond Sūtra (Vajracchedikā Prajñāpāramitā Sūtra), which are central to understanding Mahayana philosophy."
+          }
+        ]
+      },
+      {
+        "heading": "Lotus Sūtra (Saddharma Puṇḍarīka Sūtra)",
+        "topic_summary": "A highly influential Mahayana sūtra revealing the concept of 'One Vehicle' (Ekayāna).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_lotus_sutra",
+            "summary": "The Lotus Sūtra (Sanskrit: Saddharma Puṇḍarīka Sūtra, 'Sūtra of the Lotus of the Wonderful Dharma') is one of the most popular and influential Mahayana sūtras. It emphasizes the concept of Ekayāna ('One Vehicle'), asserting that the various Buddhist paths are ultimately skillful means (upāya) leading to the single goal of Buddhahood for all beings. It also highlights the eternal nature of the Buddha and the accessibility of Buddhahood to everyone."
+          }
+        ]
+      },
+      {
+        "heading": "Avataṃsaka Sūtra (Flower Garland Sūtra)",
+        "topic_summary": "A major Mahayana sūtra describing the interconnectedness of all phenomena.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_avatamsaka_sutra",
+            "summary": "The Avataṃsaka Sūtra (Sanskrit: महावैपुल्यबुद्धावतंसकसूत्र, 'Mahāvaipulya Buddhāvataṃsaka Sūtra', 'Flower Garland Sūtra') is a vast and profound Mahayana text. It describes a cosmos of infinite interpenetration and mutual containment, where all phenomena reflect all other phenomena (Indra's Net). It emphasizes the Bodhisattva path through various stages (bhūmis) and the ultimate realization of Buddhahood."
+          }
+        ]
+      },
+      {
+        "heading": "Pure Land Sūtras (Sukhavativyūha Sūtras)",
+        "topic_summary": "Texts describing Amitābha Buddha's Pure Land and the path to rebirth there.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_pure_land_sutras",
+            "summary": "The Pure Land Sūtras, primarily the Larger Sukhavativyūha Sūtra, the Smaller Sukhavativyūha Sūtra (Amitābha Sūtra), and the Amitāyurdhyāna Sūtra (Contemplation Sūtra), describe the Western Pure Land of Bliss (Sukhāvatī) created by Amitābha Buddha. They detail how beings can attain rebirth in this Pure Land through faith, vows, and recitation of Amitābha's name, where they can easily achieve enlightenment."
+          }
+        ]
+      },
+      {
+        "heading": "Madhyamaka School ('Middle Way')",
+        "topic_summary": "A Mahayana philosophical school founded by Nāgārjuna, emphasizing emptiness and the middle way.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_madhyamaka_school",
+            "summary": "The Madhyamaka (Sanskrit: माध्यमिक, 'Middle Way') school, founded by Nāgārjuna, is a major Mahayana philosophical tradition. It uses dialectical reasoning to deconstruct all metaphysical views and demonstrate the emptiness (Śūnyatā) of inherent existence in all phenomena, thereby establishing a 'middle way' between the extremes of eternalism (that things exist inherently) and nihilism (that nothing exists at all)."
+          }
+        ]
+      },
+      {
+        "heading": "Yogācāra School ('Yoga Practice' / Cittamātra 'Mind-Only')",
+        "topic_summary": "A Mahayana philosophical school emphasizing the role of consciousness in the construction of reality.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_yogacara_school",
+            "summary": "The Yogācāra (Sanskrit: योगाचार, 'Yoga practice') school, also known as Vijñānavāda ('Doctrine of Consciousness') or Cittamātra ('Mind-Only'), founded by Asaṅga and Vasubandhu, is another major Mahayana philosophical tradition. It emphasizes the primacy of consciousness (vijñāna) in constructing experienced reality and analyzes the workings of the mind through concepts like the eight consciousnesses (including Ālayavijñāna) and the Three Natures (Trisvabhāva)."
+          }
+        ]
+      },
+      {
+        "heading": "Pure Land Buddhism (Amidism)",
+        "topic_summary": "A broad branch of Mahayana focusing on devotion to Amitābha Buddha and rebirth in his Pure Land.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_pure_land_buddhism",
+            "summary": "Pure Land Buddhism is a popular branch of Mahayana Buddhism centered on devotion to Amitābha (Amida) Buddha and the aspiration for rebirth in his Western Pure Land (Sukhāvatī). Practices primarily involve faith in Amitābha's vows, recitation of his name (e.g., Nianfo in Chinese, Nembutsu in Japanese), and virtuous conduct, offering a path to enlightenment accessible to lay practitioners."
+          }
+        ]
+      },
+      {
+        "heading": "Chan/Zen Buddhism (Mahayana School)",
+        "topic_summary": "A Mahayana school emphasizing direct experience, meditation, and the realization of Buddha-nature.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_chan_zen",
+            "summary": "Chan (Chinese: 禪) / Zen (Japanese: 禅) is a school of Mahayana Buddhism that developed in China and spread to other East Asian countries. It strongly emphasizes meditation (Zazen), direct insight into one's own Buddha-nature, and the personal expression of this awakening in daily life, often de-emphasizing reliance on scriptures in favor of direct mind-to-mind transmission."
+          }
+        ]
+      },
+      {
+        "heading": "Tibetan Buddhism (Vajrayāna)",
+        "topic_summary": "A form of Mahayana Buddhism incorporating tantric practices, prevalent in Tibet and the Himalayan region.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_tibetan_buddhism",
+            "summary": "Tibetan Buddhism, also known as Vajrayāna ('Diamond Vehicle' or 'Thunderbolt Vehicle'), is a distinctive form of Mahayana Buddhism that developed in Tibet. It incorporates the foundational Mahayana ideals of emptiness and the Bodhisattva path with unique tantric practices (sadhanas, visualizations, mandalas, mantras) aimed at rapid transformation and the direct realization of Buddhahood in a single lifetime."
+          }
+        ]
+      },
+      {
+        "heading": "Upāya (Skillful Means): Compassionate Methods in Teaching",
+        "topic_summary": "The Mahayana concept of adapting teachings and methods to suit the capacities of different beings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mahayana_upaya",
+            "summary": "Upāya (Sanskrit: उपाय, 'skillful means' or 'expedient methods') is a crucial concept in Mahayana Buddhism, referring to the ability of Buddhas and advanced Bodhisattvas to adapt their teachings and methods to the specific needs, capacities, and predispositions of different sentient beings in order to guide them effectively towards enlightenment. The Lotus Sūtra is a key text illustrating Upāya."
+          }
+        ]
+      }
+    ]
+  }
+]

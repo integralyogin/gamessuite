@@ -1,0 +1,163 @@
+{
+    "Josh Programs": {
+        "date": "",
+        "desc": "",
+        "img": "",
+        "db": "",
+        "address": "",
+        "lang": ""
+    },
+    "joshviewer.py": {
+        "date": "2024-07",
+        "desc": "G LAUNCHER [F9], EIN NEXUS PORTAL LAUNCHER",
+        "img": "images/programs/joshviewer.png",
+        "db": "jview.json",
+        "address": "CORE/73__CODE/PYTHON/joshviewer.py",
+        "lang": "py"
+    },
+    "view_threads.py": {
+        "date": "",
+        "desc": "JSON search table edit",
+        "img": "images/programs/view_threads.png",
+        "db": "jview.json",
+        "address": "CORE/73__CODE/PYTHON/view_threads.py",
+        "lang": "py"
+    },
+    "godreader.py": {
+        "date": "",
+        "desc": "",
+        "img": "images/programs/godreader.py.png",
+        "db": "",
+        "address": "",
+        "lang": "py"
+    },
+    "tkinker.py (knowledge base viewer)": {
+        "date": "",
+        "desc": "knowledge_base3.json explorer",
+        "img": "images/programs/tkinker.py.png",
+        "db": "knowledge_base3.json",
+        "address": "/home/jpc/CORE/73__CODE/PYTHON/knowledge_base_stuff/tkink.py",
+        "lang": "py"
+    },
+
+    "item_viewer.py": {
+        "date": "",
+        "desc": "JSON click explore and reference",
+        "img": "images/programs/item_viewer_threads.png",
+        "db": "jview.json",
+        "address": "CORE/73__CODE/PYTHON/item_viewer.py",
+        "lang": "py"
+    },
+    "database_analyzer.py": {
+        "date": "",
+        "desc": "OVERMIND",
+        "img": "",
+        "db": "jview.json",
+        "address": "CORE/73__CODE/PYTHON/database_analyzer.py",
+        "lang": "py"
+    },
+    "data_wizard.py": {
+        "date": "",
+        "desc": "the aim or ideal?",
+        "img": "",
+        "db": "",
+        "address": "data_wizard.py",
+        "lang": "py"
+    },
+    "gan.py": {
+        "date": "",
+        "desc": "jview deep quote analysis",
+        "img": "images/programs/gan.png",
+        "db": "",
+        "address": "CORE/73__CODE/PYTHON/gan.py",
+        "lang": "py"
+    },
+    "Lesser Temple of the Sages": {
+        "date": "",
+        "desc": "The Place of Understanding",
+        "img": "",
+        "db": "temple_of_the_sages.json",
+        "address": "CORE/73__CODE/PYTHON/4_player17/",
+        "lang": ""
+    },
+    "edit_object.py": {
+        "date": "",
+        "desc": "edit_object.py",
+        "img": "",
+        "db": "jview.json",
+        "address": "CORE/73__CODE/PYTHON/edit_object.py",
+        "lang": "py"
+    },
+    "create_object.py": {
+        "date": "",
+        "desc": "((py create_object.py God $S $SS -kv 'wikidata_qid' 'Q190')) ",
+        "img": "",
+        "db": "",
+        "address": "CORE/73__CODE/PYTHON/create_object.py",
+        "lang": "py"
+    },
+    "obj_fetch_relations.py": {
+        "date": "",
+        "desc": "((py obj_fetch_relations Q1902)) ",
+        "img": "",
+        "db": "",
+        "address": "CORE/73__CODE/PYTHON/obj_fetch_relations.py",
+        "lang": "py"
+    },
+    "sparql_ins_launcher.sh": {
+        "date": "",
+        "desc": "clipboard qid > 1000 instance of data > clipboard",
+        "img": "",
+        "db": "",
+        "address": "CORE/73__CODE/PYTHON/sparql_ins_launcher.sh",
+        "lang": "sh"
+    },
+    "sparql_launcher.sh": {
+        "date": "",
+        "desc": "clipboard qid > 1000 instance of data > clipboard",
+        "img": "",
+        "db": "",
+        "address": "CORE/73__CODE/PYTHON/sparql_launcher.sh",
+        "lang": "sh"
+    },
+    "gview.py": {
+        "date": "",
+        "desc": "",
+        "img": "images/programs/gview.png",
+        "db": "jview.json",
+        "address": "CORE/73__CODE/PYTHON/gview.py",
+        "lang": "py"
+    },
+    "world_and_player_visualizer.py": {
+        "date": "",
+        "desc": "visualizer for agent world",
+        "img": "",
+        "db": "many.json",
+        "address": "CORE/73__CODE/PYTHON/agent_world/world_and_player_visualizer.py",
+        "lang": "py"
+    },
+    "player_agent.py": {
+        "date": "",
+        "desc": "auto play idle game attempt",
+        "img": "",
+        "db": "*.json",
+        "address": "CORE/73__CODE/PYTHON/agent_world/player_agent.py",
+        "lang": "py"
+    },
+    "gan_output_weights_chat_bot.py": {
+        "date": "",
+        "desc": "",
+        "img": "",
+        "db": "",
+        "address": "CORE/73__CODE/PYTHON/gan_output_weights_chat_bot.py",
+        "lang": "py"
+    },
+    "q_learning_gridworld_agent.py": {
+        "date": "",
+        "desc": "",
+        "img": "",
+        "db": "",
+        "address": "CORE/73__CODE/PYTHON/q_learning_gridworld_agent.py",
+        "lang": "py"
+    }
+}

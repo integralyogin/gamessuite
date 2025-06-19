@@ -1,0 +1,125 @@
+{
+  "Dharma": {
+    "short_description": "The cosmic order and moral law governing individual conduct and societal harmony, serving as the foundation for righteous living and universal balance."
+  },
+  "Karma": {
+    "short_description": "The universal law of cause and effect where intentional actions determine future experiences, shaping the soul's journey through cycles of existence."
+  },
+  "Samsara": {
+    "short_description": "The perpetual cycle of birth, death, and rebirth driven by karma, from which liberation (moksha) is sought through spiritual realization."
+  },
+  "Moksha": {
+    "short_description": "The ultimate liberation from samsara, achieving union with the divine and freedom from the constraints of individual existence and suffering."
+  },
+  "Atman": {
+    "short_description": "The eternal inner self or soul, identical with Brahman, transcending physical form and embodying the essence of pure consciousness."
+  },
+  "Brahman": {
+    "short_description": "The supreme, formless reality underlying all existence, the unchanging cosmic spirit from which all phenomena emanate and return."
+  },
+  "Maya": {
+    "short_description": "The cosmic illusion that veils the true nature of reality, creating the perception of separation between the self and the absolute."
+  },
+  "Yoga": {
+    "short_description": "The disciplined path to union with the divine, integrating physical, mental, and spiritual practices to transcend ego and realize oneness."
+  },
+  "Vedas": {
+    "short_description": "The oldest sacred scriptures containing eternal truths, hymns, and rituals that form the theological and philosophical bedrock of Hindu thought."
+  },
+  "Upanishads": {
+    "short_description": "Philosophical texts exploring the nature of ultimate reality (Brahman), the self (Atman), and the path to transcendent knowledge."
+  },
+  "Bhagavad Gita": {
+    "short_description": "The seminal dialogue on duty, righteousness, and devotion, presenting paths to spiritual fulfillment within worldly engagement."
+  },
+  "Avatar": {
+    "short_description": "The divine incarnation of Vishnu descending to restore cosmic order, embodying dharma's protection and the accessibility of the divine."
+  },
+  "Puja": {
+    "short_description": "Ritual worship through offerings, prayers, and meditation, establishing personal connection with the divine presence in sacred forms."
+  },
+  "Ashrama": {
+    "short_description": "The four stages of life guiding spiritual progression: student, householder, retiree, and renunciant, balancing duties and liberation."
+  },
+  "Varna": {
+    "short_description": "The conceptual framework for societal organization based on inherent qualities and duties, intended to maintain cosmic and social order."
+  },
+  "Ahimsa": {
+    "short_description": "The principle of non-violence and reverence for all life, fundamental to ethical conduct and spiritual purification across Hindu traditions."
+  },
+  "Guru": {
+    "short_description": "The spiritual teacher who dispels ignorance through transmitted wisdom, embodying the living bridge between human and divine understanding."
+  },
+  "Mantra": {
+    "short_description": "Sacred sound vibrations used to focus consciousness and invoke divine energies, carrying inherent spiritual power when properly intoned."
+  },
+  "Mandala": {
+    "short_description": "Geometric designs symbolizing the cosmos and inner consciousness, used in meditation to access higher states of awareness."
+  },
+  "Prasad": {
+    "short_description": "Sanctified material offerings transformed through ritual into divine blessings, representing grace received through devotional exchange."
+  },
+  "Bhakti": {
+    "short_description": "The path of loving devotion to a personal deity, transcending ritual through emotional surrender and mystical union with the divine."
+  },
+  "Jnana": {
+    "short_description": "The pursuit of liberating wisdom through introspection and study, dissolving illusion to realize the identity of Atman and Brahman."
+  },
+  "Darshan": {
+    "short_description": "The reciprocal vision between devotee and deity in sacred presence, conveying blessings and awakening spiritual insight through sight."
+  },
+  "Sannyasa": {
+    "short_description": "The renounced order of life abandoning worldly attachments to seek liberation through ascetic practice and complete divine focus."
+  },
+  "Trimurti": {
+    "short_description": "The trinity of Brahma (creator), Vishnu (preserver), and Shiva (destroyer), representing the cyclical nature of cosmic existence."
+  },
+  "OM": {
+    "short_description": "The primordial sacred syllable encapsulating the essence of ultimate reality, used in meditation and ritual to connect with cosmic vibration."
+  },
+  "Karma Yoga": {
+    "short_description": "The path of selfless action performed without attachment to results, purifying the mind and aligning individual will with cosmic duty."
+  },
+  "Japa": {
+    "short_description": "The meditative repetition of divine names or mantras, internalizing sacred vibrations to transform consciousness and invoke grace."
+  },
+  "Mandir": {
+    "short_description": "The temple as microcosm of the universe, housing sanctified deity forms for communal worship and individual spiritual communion."
+  },
+  "Sutra": {
+    "short_description": "Concise aphoristic texts systematizing spiritual knowledge, particularly in philosophy, yoga, and ritual practice across traditions."
+  },
+  "Yagna": {
+    "short_description": "The sacred fire ritual symbolizing cosmic exchange, where offerings transmute into universal blessings through Agni's mediation."
+  },
+  "Vedanta": {
+    "short_description": "The philosophical school interpreting Upanishadic teachings on non-duality (Advaita), asserting Brahman as sole ultimate reality."
+  },
+  "Lila": {
+    "short_description": "The divine play of creation, where the absolute manifests as multiplicity for joyful expression while remaining transcendent and unchanged."
+  },
+  "Chakra": {
+    "short_description": "Subtle energy centers along the spine governing consciousness levels, activated through yoga to achieve spiritual awakening and balance."
+  },
+  "Tapas": {
+    "short_description": "Austerities generating spiritual heat through disciplined practice, burning impurities to attain supernatural powers and liberation."
+  },
+  "Sattva": {
+    "short_description": "The quality of purity, harmony, and illumination that elevates consciousness toward truth and spiritual clarity."
+  },
+  "Rajas": {
+    "short_description": "The active quality of passion, movement, and desire that binds through attachment to action and temporal achievement."
+  },
+  "Tamas": {
+    "short_description": "The inert quality of ignorance, stagnation, and delusion that obscures true knowledge and perpetuates material bondage."
+  },
+  "Avidya": {
+    "short_description": "Fundamental ignorance of reality's true nature, considered the root cause of suffering and cyclical existence in samsara."
+  },
+  "Rishi": {
+    "short_description": "Enlightened seers who perceived and transmitted Vedic truths, serving as conduits between cosmic knowledge and human understanding."
+  },
+  "Ishta-Deva": {
+    "short_description": "The personally chosen deity form through which devotees cultivate intimate relationship and focused worship on the divine."
+  }
+}

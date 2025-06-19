@@ -1,0 +1,65 @@
+{
+  "English": {
+    "short_description": "A West Germanic language that has evolved into one of the world's foremost languages for international communication, commerce, science, and culture."
+  },
+  "Grammar": {
+    "short_description": "The set of structural rules governing the composition of clauses, phrases, and words in the English language, including syntax, morphology, and semantics."
+  },
+  "Vocabulary": {
+    "short_description": "The body of words used in a particular language, in English enriched by borrowings from Latin, French, Norse, and numerous other languages."
+  },
+  "Phonetics": {
+    "short_description": "The study of the sounds of English, how they are produced, transmitted, and perceived, including aspects like vowels, consonants, and intonation."
+  },
+  "Syntax": {
+    "short_description": "The rules that dictate how words are combined to form sentences in English, dealing with word order, sentence structure, and grammatical relations."
+  },
+  "Semantics": {
+    "short_description": "The branch of linguistics concerned with meaning in language, how words, phrases, and sentences convey information in English."
+  },
+  "Pragmatics": {
+    "short_description": "The study of how context influences the interpretation of meaning in English, including implications, presuppositions, and speech acts."
+  },
+  "Dialects": {
+    "short_description": "Regional or social varieties of English, characterized by differences in vocabulary, pronunciation, and grammar, like British, American, Australian English."
+  },
+  "Lexicon": {
+    "short_description": "The complete vocabulary of English, including not only words but also phrases or expressions that carry a specific meaning."
+  },
+  "Idioms": {
+    "short_description": "Expressions whose meanings cannot be inferred from the literal interpretation of the words used, common in English to convey complex ideas succinctly."
+  },
+  "Slangs": {
+    "short_description": "Informal language consisting of words and phrases that are not considered part of the standard vocabulary of English, often specific to groups or contexts."
+  },
+  "Literature": {
+    "short_description": "The body of written works in English, encompassing poetry, prose, drama, and more, from Shakespeare to modern authors."
+  },
+  "Orthography": {
+    "short_description": "The conventions for writing English, including spelling, punctuation, and capitalization, which can vary between different forms of English."
+  },
+  "Phonology": {
+    "short_description": "The study of the sound system of English, including the patterns of sound organization and how sounds interact within spoken language."
+  },
+  "Morphology": {
+    "short_description": "The study of the forms of words in English, focusing on how they are formed, their internal structure, and the processes of word formation."
+  },
+  "Etymology": {
+    "short_description": "The study of the origin of English words, tracing their development and changes in meaning over time."
+  },
+  "Historical Development": {
+    "short_description": "The evolution of English from Old English through Middle English to Modern English, influenced by invasions, migrations, and cultural exchanges."
+  },
+  "Language Change": {
+    "short_description": "The ongoing process of transformation in English, including shifts in pronunciation, vocabulary expansion, and grammatical simplification."
+  },
+  "Standardization": {
+    "short_description": "The process by which a form of English is established as a norm or standard, often through education, media, and official use."
+  },
+  "Global Spread": {
+    "short_description": "The phenomenon of English becoming a lingua franca worldwide, used in diplomacy, business, science, and entertainment, leading to various World Englishes."
+  },
+  "Language Policy": {
+    "short_description": "The decisions made at governmental or institutional levels regarding the use, status, and teaching of English, affecting its role in education and society."
+  }
+}

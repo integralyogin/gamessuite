@@ -1,0 +1,134 @@
+{
+  "Theology": {
+    "short_description": "The study and contemplation of divine nature and ultimate reality, seeking to understand sacred mysteries through revelation, reason, and spiritual experience while negotiating transcendence and immanence."
+  },
+  "Divine": {
+    "short_description": "The ultimate reality and source of all existence, transcending yet immanent in creation, embodying absolute perfection and the ground of all being."
+  },
+  "Revelation": {
+    "short_description": "The self-disclosure of the Divine to humanity through sacred events, scriptures, and inner experience, illuminating ultimate truths beyond natural reason."
+  },
+  "Sacrament": {
+    "short_description": "Visible signs of invisible grace, mediating spiritual realities through material elements and ritual actions in religious practice."
+  },
+  "Covenant": {
+    "short_description": "The sacred bond establishing relationship between the Divine and humanity, structured through promises, laws, and mutual obligations that shape religious identity and purpose."
+  },
+  "Trinity": {
+    "short_description": "The triune nature of the Divine as three distinct persons in one essence, expressing perfect communion and dynamic interrelationship within the godhead."
+  },
+  "Incarnation": {
+    "short_description": "The embodiment of the Divine in mortal form, uniting transcendent nature with human experience to redeem and sanctify material existence."
+  },
+  "Redemption": {
+    "short_description": "The restoration of broken relationships between creation and the Divine, overcoming separation through sacrificial love and transformative grace."
+  },
+  "Eschaton": {
+    "short_description": "The final culmination of cosmic history where ultimate purposes are fulfilled, resolving all tensions between divine justice and mercy in perfected creation."
+  },
+  "Theodicy": {
+    "short_description": "The theological reconciliation of Divine goodness with the existence of suffering and evil, seeking to affirm sovereignty while acknowledging existential realities."
+  },
+  "Dogma": {
+    "short_description": "Authoritative teachings defining essential truths of faith, providing framework for orthodox belief while inviting contemplation of mystery."
+  },
+  "Apostasy": {
+    "short_description": "The conscious rejection of established sacred truths, representing spiritual rebellion that challenges religious cohesion while testing the resilience of tradition."
+  },
+  "Heresy": {
+    "short_description": "Doctrinal deviations from orthodox teachings, preserving dialectical tension in religious thought by probing boundaries of acceptable belief."
+  },
+  "Ecclesia": {
+    "short_description": "The spiritual community called into being by the Divine, serving as both institution and organism that nurtures faith across generations."
+  },
+  "Canon": {
+    "short_description": "The authoritative collection of sacred texts recognized as divinely inspired, forming the normative foundation for theological reflection and practice."
+  },
+  "Sacred": {
+    "short_description": "That which is set apart as holy, revealing the Divine presence in particular objects, times, and spaces while pointing to universal transcendence."
+  },
+  "Atonement": {
+    "short_description": "The reconciliation of humanity and the Divine through reparative acts, addressing the rupture caused by sin through sacrificial offering."
+  },
+  "Grace": {
+    "short_description": "Unmerited favor manifesting Divine benevolence, operating beyond transactional logic to transform individuals and communities through unconditional love."
+  },
+  "Apologetics": {
+    "short_description": "The reasoned defense of religious beliefs, articulating faith's coherence with truth while engaging intellectual challenges to its validity."
+  },
+  "Mysticism": {
+    "short_description": "The direct experiential knowledge of the Divine through contemplative practice, transcending ordinary perception to unite with ultimate reality."
+  },
+  "Orthodoxy": {
+    "short_description": "Right belief that preserves essential teachings through time, balancing doctrinal purity with living interpretation in changing contexts."
+  },
+  "Prophecy": {
+    "short_description": "Divinely inspired utterances revealing hidden truths, calling communities to alignment with sacred will through both foretelling and forthtelling."
+  },
+  "Prayer": {
+    "short_description": "Communion with the Divine through dialogue, encompassing petition, contemplation, and surrender as fundamental modes of spiritual relationship."
+  },
+  "Sin": {
+    "short_description": "The fundamental rupture in relationship with the Divine, manifesting as both personal acts and systemic conditions contrary to sacred harmony."
+  },
+  "Salvation": {
+    "short_description": "The deliverance from bondage to imperfection and alienation, encompassing both individual redemption and cosmic restoration in Divine purpose."
+  },
+  "Creed": {
+    "short_description": "Concise articulations of core beliefs that unify religious communities, distilling complex theology into communal affirmations of truth."
+  },
+  "Sacred Text": {
+    "short_description": "Written revelations serving as primary witnesses to Divine interaction with humanity, containing multivalent meanings for ongoing interpretation."
+  },
+  "Soteriology": {
+    "short_description": "The theological study of salvation's nature and mechanisms, exploring how Divine action restores creation to intended wholeness."
+  },
+  "Omnipotence": {
+    "short_description": "The Divine attribute of unlimited power, understood not as arbitrary force but as perfect actualization of goodness and creative potential."
+  },
+  "Omniscience": {
+    "short_description": "The Divine quality of complete knowledge encompassing all time and possibility, reconciling foreknowledge with human freedom in mysterious unity."
+  },
+  "Omnipresence": {
+    "short_description": "The Divine presence permeating all creation without containment, affirming immanence while maintaining transcendent otherness."
+  },
+  "Theophany": {
+    "short_description": "A tangible manifestation of the Divine within creation, revealing sacred nature through mediated forms accessible to human perception."
+  },
+  "Immanence": {
+    "short_description": "The Divine's intimate presence within creation, sanctifying material reality while maintaining distinction from finite existence."
+  },
+  "Transcendence": {
+    "short_description": "The Divine's fundamental otherness and independence from creation, existing beyond all categories of being while sustaining all that exists."
+  },
+  "Faith": {
+    "short_description": "The human response to Divine initiative, combining trust, assent, and existential commitment to unseen realities that anchor spiritual life."
+  },
+  "Liturgy": {
+    "short_description": "The ordered communal worship enacting sacred narratives through ritual, uniting participants with cosmic drama and historical tradition."
+  },
+  "Vocation": {
+    "short_description": "The Divine summons to particular service and purpose, aligning individual gifts with greater sacred missions in the tapestry of creation."
+  },
+  "Beatific Vision": {
+    "short_description": "The ultimate direct encounter with the Divine essence, fulfilling human destiny through unmediated knowledge and perfect communion."
+  },
+  "Anthropomorphism": {
+    "short_description": "The attribution of human characteristics to the Divine, serving as necessary accommodation for limited understanding while acknowledging metaphorical nature."
+  },
+  "Doxology": {
+    "short_description": "Formulas of praise that ascribe glory to the Divine, crystallizing theology into worshipful response through poetic expression."
+  },
+  "Kenosis": {
+    "short_description": "The self-emptying of Divine nature in incarnational mystery, voluntarily limiting omnipotence to fully participate in human vulnerability."
+  },
+  "Logos": {
+    "short_description": "The Divine rational principle ordering creation, manifest particularly as the word-made-flesh that structures reality and reveals sacred truth."
+  },
+  "Parousia": {
+    "short_description": "The awaited final appearance of the Divine in eschatological fullness, completing historical processes and establishing everlasting justice."
+  },
+  "Theosis": {
+    "short_description": "The transformational process of deification, where humans attain union with the Divine through grace and participation in sacred energies."
+  }
+}

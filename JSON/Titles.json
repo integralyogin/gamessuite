@@ -1,0 +1,282 @@
+{
+  "Saint": {
+    "short_desc": "Religious honorific for individuals officially recognized for holiness or virtue."
+  },
+  "Sir": {
+    "short_desc": "Title given to male knights and baronets, particularly in British honors system."
+  },
+  "Dame": {
+    "short_desc": "Female equivalent of knighthood in the British honors system."
+  },
+  "Sri": {
+    "short_desc": "Indian honorific denoting respect, used for deities and revered persons."
+  },
+  "Swami": {
+    "short_desc": "Hindu religious teacher or mystic, often heads religious order or monastery."
+  },
+  "Rabbi": {
+    "short_desc": "Jewish religious leader and teacher qualified to interpret religious law."
+  },
+  "Imam": {
+    "short_desc": "Islamic leadership position, leads prayers and provides religious guidance."
+  },
+  "Reverend": {
+    "short_desc": "Christian clergy title, particularly for ordained ministers or priests."
+  },
+  "Archbishop": {
+    "short_desc": "Senior bishop who oversees church affairs in a specified geographic area."
+  },
+  "Cardinal": {
+    "short_desc": "Senior ecclesiastical leader in Catholic Church, ranks below Pope."
+  },
+  "His/Her Majesty": {
+    "short_desc": "Form of address for monarchs, particularly kings and queens."
+  },
+  "His/Her Highness": {
+    "short_desc": "Royal title used for princes, princesses, and some sovereign rulers."
+  },
+  "Sheikh": {
+    "short_desc": "Arab leader or elder, can be political, religious, or tribal authority."
+  },
+  "Professor": {
+    "short_desc": "Academic title for senior teaching and research position at university."
+  },
+  "Doctor": {
+    "short_desc": "Title for those holding doctorate or medical degree, medical practitioners."
+  },
+  "Rinpoche": {
+    "short_desc": "Tibetan Buddhist honorific meaning 'precious one', for reincarnated lamas."
+  },
+  "Ayatollah": {
+    "short_desc": "High-ranking Shiite religious leader and Islamic legal authority."
+  },
+  "Venerable": {
+    "short_desc": "Buddhist title for ordained monks and nuns, also used in Anglican Church."
+  },
+  "Grand Master": {
+    "short_desc": "Highest rank in military and chivalric orders, some fraternal organizations."
+  },
+  "Emperor/Empress": {
+    "short_desc": "Supreme monarch ruling over empire or multiple kingdoms."
+  },
+  "Sultan": {
+    "short_desc": "Sovereign ruler in Islamic countries, historically Ottoman Empire."
+  },
+  "Maharaja": {
+    "short_desc": "Great king in India, historically ruler of princely state."
+  },
+  "Dalai Lama": {
+    "short_desc": "Spiritual leader of Tibetan Buddhism, traditionally temporal ruler of Tibet."
+  },
+  "Pope": {
+    "short_desc": "Supreme head of Roman Catholic Church and sovereign of Vatican City."
+  },
+  "Chief": {
+    "short_desc": "Traditional leader of tribe or community, particularly in indigenous societies."
+  },
+  "Elder": {
+    "short_desc": "Respected community leader, often in indigenous or religious contexts."
+  },
+  "Guru": {
+    "short_desc": "Spiritual teacher or master in Hindu tradition, expert guide."
+  },
+  "Patriarch": {
+    "short_desc": "Head of Eastern Orthodox churches or ancient Christian sees."
+  },
+  "Metropolitan": {
+    "short_desc": "Senior Orthodox or Eastern Catholic bishop of a major city."
+  },
+  "Acharya": {
+    "short_desc": "Spiritual teacher or guide in Hindu, Buddhist, and Jain traditions."
+  },
+  "Mr": {
+    "short_description": "Basic honorific for men, regardless of marital status."
+  },
+  "Mrs": {
+    "short_description": "Traditional honorific for married women."
+  },
+  "Miss": {
+    "short_description": "Traditional honorific for unmarried women."
+  },
+  "Ms": {
+    "short_description": "Modern honorific for women regardless of marital status."
+  },
+  "Mx": {
+    "short_description": "Gender-neutral honorific used as alternative to gendered titles."
+  },
+  "Captain": {
+    "short_description": "Military or maritime rank, commander of ship or company."
+  },
+  "Colonel": {
+    "short_description": "Senior military officer rank between Lieutenant Colonel and Brigadier."
+  },
+  "General": {
+    "short_description": "Senior military rank, usually commanding large formations or forces."
+  },
+  "Admiral": {
+    "short_description": "Senior naval officer rank, commands fleets or naval operations."
+  },
+  "Lord": {
+    "short_description": "Noble title in British peerage system, also used for senior judges."
+  },
+  "Lady": {
+    "short_description": "Female noble title, or courtesy title for daughter of peer."
+  },
+  "Count/Countess": {
+    "short_description": "European noble rank equivalent to British Earl."
+  },
+  "Duke/Duchess": {
+    "short_description": "Highest ranking noble title below monarch in British peerage."
+  },
+  "Baron/Baroness": {
+    "short_description": "Lowest rank of hereditary British peerage."
+  },
+  "Esquire": {
+    "short_description": "Courtesy title often used for lawyers in US, historically for gentlemen."
+  },
+  "Right Honorable": {
+    "short_description": "British formal title for certain high officials and peers."
+  },
+  "Honorable": {
+    "short_description": "Title for judges, politicians, and other officials in various countries."
+  },
+  "Dean": {
+    "short_description": "Academic administrator heading faculty or division of university."
+  },
+  "Chancellor": {
+    "short_description": "Head of university or senior government official in some countries."
+  },
+  "President": {
+    "short_description": "Head of state, organization, or institution."
+  },
+  "Vice President": {
+    "short_description": "Deputy to president in government, corporate, or institutional context."
+  },
+  "Minister": {
+    "short_description": "Senior government official heading ministry or department."
+  },
+  "Ambassador": {
+    "short_description": "Diplomatic representative of highest rank from one state to another."
+  },
+  "Judge": {
+    "short_description": "Official with authority to preside over courts and make legal decisions."
+  },
+  "Justice": {
+    "short_description": "Title for judges of supreme or superior courts."
+  },
+  "Principal": {
+    "short_description": "Head of school or educational institution."
+  },
+  "Director": {
+    "short_description": "Person in charge of organization, department, or artistic production."
+  },
+  "Chairman/Chairwoman": {
+    "short_description": "Leader of board, committee, or organization."
+  },
+  "His/Her Excellency": {
+    "short_description": "Diplomatic title for ambassadors, governors, and high officials."
+  },
+  "Mahatma": {
+    "short_description": "Sanskrit title meaning 'Great Soul', given to spiritually advanced persons."
+  },
+  "Monsignor": {
+    "short_description": "Honorific for certain Catholic priests given special recognition."
+  },
+  "Archdeacon": {
+    "short_description": "Senior position in Christian churches, especially Anglican."
+  },
+  "Brother/Sister": {
+    "short_description": "Religious title for members of Christian religious orders."
+  },
+   "Mahatma": {
+    "short_description": "Sanskrit title meaning 'Great Soul', given to spiritually advanced persons."
+  },
+  "Maharishi": {
+    "short_description": "Great sage or seer in Hindu tradition, one with divine insight."
+  },
+  "Roshi": {
+    "short_description": "Senior Zen Buddhist teacher, literally 'old master' or 'respected teacher'."
+  },
+  "Lama": {
+    "short_description": "Tibetan Buddhist spiritual teacher, literally 'highest principle'."
+  },
+  "Bhagavan": {
+    "short_description": "Hindu term for Supreme Being or one possessed of divine qualities."
+  },
+  "Sufi": {
+    "short_description": "Islamic mystic following spiritual path to divine love and wisdom."
+  },
+  "Padre": {
+    "short_description": "Catholic priest or spiritual father figure in Latin traditions."
+  },
+  "Monsignor": {
+    "short_description": "Honorific for certain Catholic priests given special recognition."
+  },
+  "Brother/Sister": {
+    "short_description": "Religious title for members of Christian religious orders."
+  },
+  "Fakir": {
+    "short_description": "Islamic or Hindu religious ascetic, often with mystical powers."
+  },
+  "Dervish": {
+    "short_description": "Muslim mystic known for ascetic practices and spiritual exercises."
+  },
+  "Sadhu": {
+    "short_description": "Hindu holy person who has renounced worldly life for spiritual pursuit."
+  },
+  "Yogi/Yogini": {
+    "short_description": "Practitioner of yoga, one dedicated to spiritual and mental disciplines."
+  },
+  "Bhikkhu/Bhikkhuni": {
+    "short_description": "Fully ordained Buddhist monk or nun."
+  },
+  "Mullah": {
+    "short_description": "Muslim religious teacher or leader trained in Islamic law."
+  },
+  "Pir": {
+    "short_description": "Sufi spiritual guide and mystic master in Islamic tradition."
+  },
+  "Bodhisattva": {
+    "short_description": "Buddhist term for enlightened being who helps others achieve enlightenment."
+  },
+  "Zen Master": {
+    "short_description": "Advanced teacher in Zen Buddhism tradition."
+  },
+  "Elder": {
+    "short_description": "Spiritual leader in various religious traditions, respected for wisdom."
+  },
+  "Mystic": {
+    "short_description": "One who has direct experience of divine or transcendent reality."
+  },
+  "Sage": {
+    "short_description": "Person venerated for profound wisdom and spiritual insight."
+  },
+  "Seer": {
+    "short_description": "Person with prophetic or mystical insight, visionary."
+  },
+  "Prophet": {
+    "short_description": "Person regarded as divinely inspired teacher or proclaimer of will of God."
+  },
+  "Avatar": {
+    "short_description": "Divine incarnation or manifestation in Hindu tradition."
+  },
+  "Shaman": {
+    "short_description": "Spiritual healer and mediator between human and spirit worlds."
+  },
+  "Medicine Man/Woman": {
+    "short_description": "Traditional healer combining spiritual and natural healing practices."
+  },
+  "Holy One": {
+    "short_description": "Person recognized for exceptional spiritual attainment or sanctity."
+  },
+  "Enlightened One": {
+    "short_description": "Being who has achieved highest spiritual realization or awakening."
+  },
+  "Master": {
+    "short_description": "Advanced spiritual teacher who has mastered particular tradition."
+  },
+  "Ascended Master": {
+    "short_description": "Being believed to have transcended physical existence through spiritual evolution."
+  }
+}
+

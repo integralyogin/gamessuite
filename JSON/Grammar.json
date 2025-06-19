@@ -1,0 +1,101 @@
+{
+"Grammar": {
+"short_description": "The foundational system and study of linguistic structure, governing the organization and relationships between words and symbols to create meaningful communication across human languages."
+},
+"Syntax": {
+"short_description": "The structural framework dictating word arrangement and sentence composition, establishing hierarchical relationships that convey logical meaning and conceptual relationships."
+},
+"Morphology": {
+"short_description": "The study and system of word formation through meaningful units, governing the construction and modification of lexical elements to express grammatical functions and semantic nuances."
+},
+"Phonology": {
+"short_description": "The patterned organization of speech sounds within linguistic systems, determining permissible sound combinations and their abstract representation in mental grammar."
+},
+"Semantics": {
+"short_description": "The realm of meaning construction and interpretation, mapping relationships between linguistic signs, their referents, and the conceptual networks they activate."
+},
+"Lexicon": {
+"short_description": "The mental inventory of linguistic units containing phonological, syntactic, and semantic specifications, serving as the fundamental repository of a language's vocabulary."
+},
+"Phoneme": {
+"short_description": "The smallest contrastive sound unit in a language capable of distinguishing meaning, representing abstract mental categories rather than physical acoustic signals."
+},
+"Morpheme": {
+"short_description": "The minimal meaningful linguistic unit carrying grammatical or semantic information, constituting the atomic building blocks of word formation."
+},
+"Clause": {
+"short_description": "The fundamental structural unit containing a predicate and its arguments, representing complete propositions and serving as the nucleus of complex sentences."
+},
+"Predicate": {
+"short_description": "The core relational element asserting properties or actions, binding arguments into coherent propositions and determining sentence structure."
+},
+"Conjugation": {
+"short_description": "The systematic modification of verbal forms to express grammatical categories such as tense, aspect, mood, person, and number."
+},
+"Declension": {
+"short_description": "The inflectional modification of nominal elements to indicate grammatical case, number, and gender relationships within syntactic structures."
+},
+"Tense": {
+"short_description": "The grammatical marking of temporal relationships between speech events and described situations, anchoring propositions in conceptual time."
+},
+"Case": {
+"short_description": "The morphological marking of nominal elements to indicate their grammatical relationship to other constituents in the clause structure."
+},
+"Agreement": {
+"short_description": "The systematic covariance of grammatical features between related linguistic elements, maintaining syntactic harmony and semantic coherence."
+},
+"Modifier": {
+"short_description": "Elements that qualify or restrict the meaning of their heads, creating layered structures of specification within phrases and clauses."
+},
+"Ellipsis": {
+"short_description": "The strategic omission of structurally redundant elements, relying on contextual and syntactic knowledge for successful interpretation."
+},
+"Ambiguity": {
+"short_description": "The property of linguistic structures permitting multiple interpretations, arising from lexical polysemy or syntactic configuration possibilities."
+},
+"Prescriptive": {
+"short_description": "The normative approach establishing standardized language rules and usage conventions, often based on traditional authority and perceived correctness."
+},
+"Descriptive": {
+"short_description": "The analytical approach documenting and explaining actual language use as manifested in natural communication, without judgment or standardization."
+},
+"Diachronic": {
+"short_description": "The historical perspective examining linguistic evolution and change across time, tracing the dynamic transformation of grammatical systems."
+},
+"Synchronic": {
+"short_description": "The analytical perspective focusing on linguistic systems as they exist at a particular point in time, abstracted from historical development."
+},
+"Parsing": {
+"short_description": "The cognitive and computational process of analyzing syntactic structure, assigning grammatical relationships to linear sequences of words."
+},
+"Generative": {
+"short_description": "The theoretical framework positing an innate universal grammar capacity that generates infinite grammatical structures from finite rules."
+},
+"Transformational": {
+"short_description": "The grammatical operations converting deep structural representations into surface forms through movement, deletion, or insertion processes."
+},
+"Deep Structure": {
+"short_description": "The abstract underlying representation of sentence meaning and grammatical relationships prior to transformational operations."
+},
+"Surface Structure": {
+"short_description": "The overt phonological and syntactic form of utterances as actually produced and perceived in communication."
+},
+"Grammaticality": {
+"short_description": "The property of linguistic expressions conforming to the implicit rules and patterns recognized by native speakers' competence."
+},
+"Ungrammaticality": {
+"short_description": "Violations of syntactic well-formedness that native speakers recognize as incompatible with their language's structural rules."
+},
+"Corpus": {
+"short_description": "Systematic collections of authentic language data serving as empirical evidence for grammatical analysis and theoretical validation."
+},
+"Usage": {
+"short_description": "The concrete manifestation of language in actual communication, reflecting the dynamic interaction between grammatical rules and pragmatic factors."
+},
+"Dialect": {
+"short_description": "A regional or social variety of a language distinguished by particular grammatical, lexical, and phonological features."
+},
+"Idiolect": {
+"short_description": "The unique linguistic system of an individual speaker, representing personal variations within broader grammatical conventions."
+}
+}

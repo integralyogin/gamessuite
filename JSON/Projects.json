@@ -1,0 +1,62 @@
+{  
+  "Full-Stack Web App": {  
+    "quote": "React + Node.js + MongoDB: REST API (GET/POST) → JWT auth → Frontend state management (Redux)."  
+  },  
+  "Machine Learning Pipeline": {  
+    "quote": "Data preprocessing (Pandas) → Model training (TensorFlow/PyTorch) → Metrics (F1, ROC-AUC)."  
+  },  
+  "Mobile App (iOS/Android)": {  
+    "quote": "SwiftUI (iOS) / Kotlin (Android): Firebase integration → Push notifications → TestFlight deployment."  
+  },  
+  "2D/3D Game Prototype": {  
+    "quote": "Unity/Unreal: Core loop (jump/shoot) → Level design → Playtesting → Iterate on feedback."  
+  },  
+  "Open-Source Contribution": {  
+    "quote": "GitHub PRs: Fork → Fix bugs → Follow CONTRIBUTING.md → Submit with unit tests."  
+  },  
+  "IoT System": {  
+    "quote": "Raspberry Pi + Sensors (DHT11) → MQTT → Cloud dashboard (AWS IoT/Grafana)."  
+  },  
+  "DevOps Pipeline": {  
+    "quote": "GitHub Actions → Docker → Kubernetes: CI/CD for zero-downtime deployments (Blue/Green)."  
+  },  
+  "Data Visualization Tool": {  
+    "quote": "D3.js + React: Interactive dashboards (bar charts, heatmaps) → Filter by date/region."  
+  },  
+  "Blockchain DApp": {  
+    "quote": "Solidity smart contracts → Deploy on Ethereum → Frontend (Web3.js) → MetaMask integration."  
+  },  
+  "AI Chatbot": {  
+    "quote": "GPT-3.5 fine-tuning → Intent recognition (Rasa) → Dialogflow → Slack/Discord API hooks."  
+  },  
+  "AR/VR Experience": {  
+    "quote": "Unity XR: Hand tracking → Spatial anchors → Multiplayer sync (Photon) → Oculus Store submission."  
+  },  
+  "CLI Tool": {  
+    "quote": "Python (argparse) / Rust (clap): Automate workflows (file conversion, backups) → Publish to PyPI/crates.io."  
+  },  
+  "E-Commerce Platform": {  
+    "quote": "Next.js + Stripe API → Cart state → Product reviews → Admin dashboard (CRUD operations)."  
+  },  
+  "Cybersecurity Lab": {  
+    "quote": "Kali Linux: Pen testing (OWASP ZAP) → Vulnerability reports → Patch SQLi/XSS flaws."  
+  },  
+  "Creative Coding Art": {  
+    "quote": "p5.js / Processing: Generative art (Perlin noise, fractals) → Exhibit on OpenProcessing.org."  
+  },  
+  "Portfolio Website": {  
+    "quote": "Jamstack: Gatsby/Next.js → Markdown blogs → Deploy on Vercel/Netlify → Lighthouse score >90."  
+  },  
+  "Robotics Project": {  
+    "quote": "ROS (Robot OS): SLAM → PID control → Object detection (YOLO) → Gazebo simulation."  
+  },  
+  "Ethical Hackathon": {  
+    "quote": "Build for social good: Accessibility-first design → Carbon footprint calculator → Open datasets."  
+  },  
+  "Game Jam Entry": {  
+    "quote": "48-hour sprint: Theme: 'Connected Worlds' → Prototype → Itch.io submission → Post-mortem."  
+  },  
+  "Research Paper Implementation": {  
+    "quote": "Reproduce SOTA results: BERT fine-tuning → Ablation studies → Writeup (LaTeX)."  
+  }  
+}  

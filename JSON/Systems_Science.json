@@ -1,0 +1,77 @@
+{
+"Systems Science": {
+"short_description": "The interdisciplinary study of organized complexity, focusing on how parts of a system interact, adapt, and evolve to form integrated wholes with emergent properties and behaviors."
+},
+"Emergence": {
+"short_description": "The phenomenon where complex patterns, properties, and behaviors arise from simpler interactions between system components, producing qualities not predictable from individual parts alone."
+},
+"Feedback": {
+"short_description": "The process by which a system's outputs affect its inputs, creating loops that can either amplify (positive feedback) or regulate (negative feedback) system behavior and maintain dynamic equilibrium."
+},
+"Homeostasis": {
+"short_description": "The ability of a system to maintain internal stability and key variables within acceptable ranges through self-regulation mechanisms despite external changes or disturbances."
+},
+"Autopoiesis": {
+"short_description": "The capacity of a system to maintain and reproduce itself through self-organizing processes, creating its own components and boundaries while preserving its organizational identity."
+},
+"Complexity": {
+"short_description": "The quality of systems with many interconnected parts exhibiting nonlinear relationships, multiple feedback loops, and behavior that cannot be reduced to simple cause-and-effect relationships."
+},
+"Hierarchy": {
+"short_description": "The nested organization of systems within larger systems, where each level exhibits unique properties and behaviors while maintaining relationships with levels above and below."
+},
+"Resilience": {
+"short_description": "A system's capacity to absorb disturbances and reorganize while maintaining essential structure, functions, and feedbacks, often through adaptation and transformation."
+},
+"Entropy": {
+"short_description": "The measure of disorder or randomness in a system, relating to information content, available energy, and the inevitable degradation of organized structures over time."
+},
+"Cybernetics": {
+"short_description": "The study of control and communication in systems, focusing on how information, feedback, and regulatory mechanisms govern system behavior and adaptation."
+},
+"Synergy": {
+"short_description": "The combined effect of system components working together that produces results greater than the sum of individual actions, often through cooperative relationships and emergent properties."
+},
+"Boundaries": {
+"short_description": "The physical or conceptual limits that define a system's extent, controlling flows of matter, energy, and information between the system and its environment."
+},
+"Networks": {
+"short_description": "Patterns of interconnections between system components that facilitate flows of resources and information, determining system structure and behavior through their topology and dynamics."
+},
+"Attractors": {
+"short_description": "States or patterns toward which a system tends to evolve regardless of starting conditions, representing stable configurations in the system's phase space."
+},
+"Phase Transitions": {
+"short_description": "Critical points where system behavior undergoes qualitative changes, often marked by sudden reorganization of structure and emergence of new properties."
+},
+"Self-Organization": {
+"short_description": "The spontaneous emergence of order and structure in complex systems through local interactions, without external control or central coordination."
+},
+"Adaptation": {
+"short_description": "The process by which systems modify their structure or behavior in response to environmental changes, often involving learning and evolution at multiple scales."
+},
+"Chaos": {
+"short_description": "Deterministic but unpredictable system behavior exhibiting sensitive dependence on initial conditions, leading to complex patterns and apparent randomness."
+},
+"Robustness": {
+"short_description": "A system's ability to maintain functionality despite internal and external perturbations, often through redundancy, diversity, and modular organization."
+},
+"Coupling": {
+"short_description": "The degree and nature of interdependence between system components or subsystems, affecting overall system behavior and response to change."
+},
+"Bifurcation": {
+"short_description": "Points where small changes in system parameters lead to qualitative changes in system behavior, often marking transitions between different stable states."
+},
+"Recursion": {
+"short_description": "The repetition of patterns or processes at different scales within a system, often contributing to self-similarity and fractal structure."
+},
+"Dissipation": {
+"short_description": "The process by which organized systems maintain their structure by exporting entropy to their environment, requiring continuous energy input."
+},
+"Modularity": {
+"short_description": "The organization of system components into relatively independent subsystems that can be modified or replaced without disrupting the whole system."
+},
+"Coevolution": {
+"short_description": "The mutual adaptation of interacting systems over time, leading to coordinated changes and interdependent development of system properties."
+}
+}

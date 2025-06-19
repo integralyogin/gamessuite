@@ -1,0 +1,98 @@
+{
+  "Tokenization": {
+    "short_description": "The fundamental process of segmenting text into atomic units such as words, subwords, or characters, serving as the foundation for all higher-level language processing tasks."
+  },
+  "Embedding": {
+    "short_description": "The mathematical representation of language units in multidimensional space, capturing semantic relationships and meaning through numerical vectors."
+  },
+  "Corpus": {
+    "short_description": "The structured collection of text data used for training and analyzing language models, containing representative samples of natural language usage and patterns."
+  },
+  "Parser": {
+    "short_description": "The systematic analyzer of grammatical structure, decomposing sentences into their constituent parts and relationships to reveal syntactic organization."
+  },
+  "Lexicon": {
+    "short_description": "The comprehensive vocabulary database containing words, their properties, and relationships, serving as the foundational knowledge base for language understanding."
+  },
+  "Semantics": {
+    "short_description": "The study and representation of meaning in language, encompassing both explicit denotations and implicit connotations in linguistic expressions."
+  },
+  "Morphology": {
+    "short_description": "The analysis of word structure and formation, examining how meaningful units combine to create complex expressions and variations."
+  },
+  "Pragmatics": {
+    "short_description": "The study of contextual meaning and language use, considering how situation and intention affect interpretation beyond literal definitions."
+  },
+  "Disambiguation": {
+    "short_description": "The resolution of linguistic uncertainty and multiple meanings, determining the correct interpretation based on context and knowledge."
+  },
+  "Vectorization": {
+    "short_description": "The transformation of text into numerical representations suitable for mathematical operations and machine learning algorithms."
+  },
+  "Annotation": {
+    "short_description": "The process of adding linguistic metadata to text, marking features such as parts of speech, syntactic structure, or semantic roles."
+  },
+  "Lemmatization": {
+    "short_description": "The reduction of words to their canonical or dictionary form, enabling consistent analysis across different inflected forms."
+  },
+  "Stemming": {
+    "short_description": "The simplification of words to their root form through rule-based truncation, facilitating text normalization and pattern matching."
+  },
+  "Coreference": {
+    "short_description": "The linking of different linguistic expressions that refer to the same entity, establishing continuity and coherence in text understanding."
+  },
+  "Transformer": {
+    "short_description": "The neural architecture utilizing attention mechanisms to process sequential data, capturing long-range dependencies and contextual relationships in language."
+  },
+  "Attention": {
+    "short_description": "The mechanism for weighing the importance of different input elements, allowing dynamic focus on relevant information during language processing."
+  },
+  "Encoder": {
+    "short_description": "The component that converts input text into dense representations, capturing linguistic features and patterns in a compressed form."
+  },
+  "Decoder": {
+    "short_description": "The component that generates output text from encoded representations, reconstructing natural language from abstract linguistic features."
+  },
+  "Corpus Linguistics": {
+    "short_description": "The empirical study of language patterns through large text collections, revealing statistical regularities and usage conventions."
+  },
+  "Named Entity": {
+    "short_description": "The distinct object or concept referenced in text, such as persons, organizations, or locations, requiring specialized recognition and classification."
+  },
+  "N-gram": {
+    "short_description": "The continuous sequence of n linguistic items, capturing local patterns and dependencies in language use."
+  },
+  "Language Model": {
+    "short_description": "The statistical or neural system that captures patterns of language use, enabling prediction and generation of natural text."
+  },
+  "Fine-tuning": {
+    "short_description": "The process of adapting pre-trained language models to specific tasks or domains, optimizing performance through targeted training."
+  },
+  "Prompt Engineering": {
+    "short_description": "The art of crafting input text to effectively guide language model behavior, optimizing output quality and relevance."
+  },
+  "Transfer Learning": {
+    "short_description": "The application of knowledge learned from one language task to another, leveraging general linguistic understanding for specific applications."
+  },
+  "Word Sense": {
+    "short_description": "The specific meaning of a word in context, requiring disambiguation among multiple possible interpretations."
+  },
+  "Dependency Parsing": {
+    "short_description": "The analysis of grammatical relationships between words, revealing the functional structure of sentences through directed connections."
+  },
+  "Topic Modeling": {
+    "short_description": "The discovery of abstract themes in text collections, revealing underlying semantic structures through statistical analysis."
+  },
+  "Sentiment Analysis": {
+    "short_description": "The determination of emotional tone and opinion in text, measuring subjective qualities through linguistic and contextual cues."
+  },
+  "Information Extraction": {
+    "short_description": "The identification and structuring of specific data points from unstructured text, converting natural language into structured knowledge."
+  },
+  "Text Generation": {
+    "short_description": "The automated production of coherent and contextually appropriate text, synthesizing natural language from learned patterns and prompts."
+  },
+  "Cross-lingual": {
+    "short_description": "The capability to process or transfer knowledge between different languages, enabling multilingual understanding and generation."
+  }
+}

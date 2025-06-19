@@ -1,0 +1,92 @@
+{
+  "Primitive": {
+    "short_description": "The foundational building blocks of data representation in computing systems, representing single, indivisible values that serve as the basis for more complex data structures."
+  },
+  "Integer": {
+    "short_description": "The representation of whole numbers in computing, encompassing both positive and negative values, serving as the foundation for mathematical operations and counting in digital systems."
+  },
+  "Float": {
+    "short_description": "The approximation of real numbers in computing, allowing for decimal point representation and scientific notation, enabling mathematical operations with fractional values."
+  },
+  "Boolean": {
+    "short_description": "The binary logical type representing truth values, enabling decision-making and conditional operations through the fundamental states of true and false."
+  },
+  "Character": {
+    "short_description": "The atomic unit of textual representation, encoding single symbols, letters, numbers, or special characters according to specified character encoding standards."
+  },
+  "String": {
+    "short_description": "The sequential collection of characters forming text, enabling the representation and manipulation of human-readable information in digital systems."
+  },
+  "Array": {
+    "short_description": "The ordered collection of elements of the same type, providing indexed access and sequential storage for efficient data organization and retrieval."
+  },
+  "Structure": {
+    "short_description": "The composite organization of different datatypes into a single unit, enabling the representation of complex entities with multiple attributes and relationships."
+  },
+  "Pointer": {
+    "short_description": "The reference mechanism storing memory addresses, enabling indirect access to data and dynamic memory management through location-based addressing."
+  },
+  "Enumeration": {
+    "short_description": "The finite set of named constant values, providing a mechanism for representing discrete states or options within a bounded domain."
+  },
+  "List": {
+    "short_description": "The dynamic sequence of elements allowing insertion and deletion, providing flexible data organization through linked storage and sequential access."
+  },
+  "Stack": {
+    "short_description": "The last-in-first-out collection implementing push and pop operations, enabling temporary storage and recursive processing through ordered access patterns."
+  },
+  "Queue": {
+    "short_description": "The first-in-first-out collection managing ordered elements, enabling sequential processing and buffering through controlled access patterns."
+  },
+  "Tree": {
+    "short_description": "The hierarchical organization of nodes connected by edges, enabling complex data relationships and efficient searching through branching structures."
+  },
+  "Graph": {
+    "short_description": "The network of vertices connected by edges, representing complex relationships and pathways through flexible connection patterns."
+  },
+  "Hash": {
+    "short_description": "The mapping structure using key-value pairs, enabling rapid data retrieval and association through computed index transformations."
+  },
+  "Set": {
+    "short_description": "The unordered collection of unique elements, enabling membership testing and mathematical set operations through distinct value management."
+  },
+  "Tuple": {
+    "short_description": "The immutable sequence of elements of potentially different types, enabling fixed composite data representation through ordered grouping."
+  },
+  "Matrix": {
+    "short_description": "The two-dimensional arrangement of elements, enabling mathematical operations and spatial representation through grid-based organization."
+  },
+  "Stream": {
+    "short_description": "The sequential flow of data elements, enabling continuous processing and transformation through temporal access patterns."
+  },
+  "Union": {
+    "short_description": "The variable type sharing memory space among different possible datatypes, enabling flexible data interpretation through overlapped storage."
+  },
+  "Object": {
+    "short_description": "The encapsulated collection of data and methods, enabling complex behavior and state management through unified entity representation."
+  },
+  "Reference": {
+    "short_description": "The alias mechanism for accessing data, enabling shared access and mutation through indirect naming and resolution."
+  },
+  "Iterator": {
+    "short_description": "The traversal mechanism for collections, enabling sequential access and processing through standardized progression patterns."
+  },
+  "Null": {
+    "short_description": "The representation of absence or undefined value, enabling optional state handling through explicit emptiness indication."
+  },
+  "Buffer": {
+    "short_description": "The temporary storage area for data transfer, enabling efficient input/output operations through managed memory regions."
+  },
+  "Bitmap": {
+    "short_description": "The array of bits representing boolean flags or pixel data, enabling compact storage and efficient boolean operations through binary patterns."
+  },
+  "Record": {
+    "short_description": "The fixed collection of named fields, enabling structured data organization through labeled attribute grouping."
+  },
+  "Vector": {
+    "short_description": "The dynamic array with automatic size management, enabling flexible collection storage through resizable sequential organization."
+  },
+  "Map": {
+    "short_description": "The abstract association between keys and values, enabling lookup-based data organization through paired storage relationships."
+  }
+}

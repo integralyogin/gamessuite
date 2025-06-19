@@ -1,0 +1,582 @@
+[
+  {
+    "id": "subj_musicology_foundations_001",
+    "title": "Musicology",
+    "description": "A progressive exploration of musicological concepts, historical periods, analytical methods, and cultural contexts.",
+    "sections": [
+      {
+        "heading": "Musicology Defined",
+        "topic_summary": "Scholarly study of music.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_intro",
+            "summary": "An introduction to Musicology as the scholarly and scientific study of music in all its aspects, including its history, theory, cultural context, and performance."
+          }
+        ]
+      },
+      {
+        "heading": "Branches of Musicology",
+        "topic_summary": "Historical, Ethno, Systematic.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_branches",
+            "summary": "Overview of the main sub-disciplines: Historical Musicology (music history), Ethnomusicology (music in culture), and Systematic Musicology (theory, acoustics, psychology)."
+          }
+        ]
+      },
+      {
+        "heading": "Elements: Rhythm",
+        "topic_summary": "Music's pattern in time.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_element_rhythm",
+            "summary": "The systematic arrangement of musical sounds, principally according to duration and periodic stress; includes beat, meter, tempo."
+          }
+        ]
+      },
+      {
+        "heading": "Elements: Melody",
+        "topic_summary": "Tune, succession of notes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_element_melody",
+            "summary": "A linear succession of musical tones that the listener perceives as a single entity; the 'tune' of a piece."
+          }
+        ]
+      },
+      {
+        "heading": "Elements: Harmony",
+        "topic_summary": "Simultaneous sounding notes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_element_harmony",
+            "summary": "The combination of simultaneously sounded musical notes to produce chords and chord progressions having a pleasing effect."
+          }
+        ]
+      },
+      {
+        "heading": "Elements: Timbre",
+        "topic_summary": "Tone color, sound quality.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_element_timbre",
+            "summary": "The character or quality of a musical sound or voice as distinct from its pitch and intensity (e.g., a trumpet vs. a flute)."
+          }
+        ]
+      },
+      {
+        "heading": "Elements: Texture",
+        "topic_summary": "Layers of musical sound.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_element_texture",
+            "summary": "How the melodic, rhythmic, and harmonic materials are combined in a composition, determining the overall quality of sound (e.g., monophonic, homophonic, polyphonic)."
+          }
+        ]
+      },
+      {
+        "heading": "Elements: Form",
+        "topic_summary": "Overall structure of music.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_element_form",
+            "summary": "The overall structure or plan of a piece of music, describing the layout of a composition as divided into sections."
+          }
+        ]
+      },
+      {
+        "heading": "Music Notation",
+        "topic_summary": "Writing music down.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_notation",
+            "summary": "Any system used to visually represent aurally perceived music through the use of written symbols, including staff notation, tablature, etc."
+          }
+        ]
+      },
+      {
+        "heading": "Music Theory Basics",
+        "topic_summary": "Scales, chords, intervals.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_theory_basics",
+            "summary": "Fundamental concepts of music theory, including scales, modes, intervals, chords, and basic harmonic progressions."
+          }
+        ]
+      },
+      {
+        "heading": "Historical Musicology",
+        "topic_summary": "Study of music history.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_branch_historical",
+            "summary": "The sub-discipline focused on the history of music, particularly Western classical music, including composer biographies, stylistic evolution, and source studies."
+          }
+        ]
+      },
+      {
+        "heading": "Ancient Music (<500 AD)",
+        "topic_summary": "Greek, Roman, early traditions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_hist_ancient",
+            "summary": "Music of early civilizations, including surviving fragments and theoretical writings from ancient Greece, Rome, Egypt, and Mesopotamia."
+          }
+        ]
+      },
+      {
+        "heading": "Medieval Music (500-1400)",
+        "topic_summary": "Chant, early polyphony.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_hist_medieval",
+            "summary": "Western music during the Middle Ages, encompassing Gregorian chant, the development of polyphony (organum), and the music of troubadours and trouvères."
+          }
+        ]
+      },
+      {
+        "heading": "Renaissance Music (1400-1600)",
+        "topic_summary": "Polyphonic mastery, humanism.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_hist_renaissance",
+            "summary": "Music of the European Renaissance, characterized by richer textures, imitative polyphony, and the rise of secular forms like the madrigal."
+          }
+        ]
+      },
+      {
+        "heading": "Baroque Music (1600-1750)",
+        "topic_summary": "Ornamentation, basso continuo, opera.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_hist_baroque",
+            "summary": "Western classical music from approximately 1600 to 1750, known for its elaborate ornamentation, basso continuo, development of opera, and composers like Bach and Handel."
+          }
+        ]
+      },
+      {
+        "heading": "Classical Period (1730-1820)",
+        "topic_summary": "Clarity, balance, sonata form.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_hist_classical",
+            "summary": "An era of Western classical music between the Baroque and Romantic periods, characterized by clarity, balance, formal structures (e.g., sonata form), and composers like Haydn, Mozart, and early Beethoven."
+          }
+        ]
+      },
+      {
+        "heading": "Romantic Music (1800-1910)",
+        "topic_summary": "Emotion, individualism, virtuosity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_hist_romantic",
+            "summary": "A period of Western classical music that arose in the late 18th and early 19th centuries, characterized by heightened emotional expression, individualism, and often programmatic content."
+          }
+        ]
+      },
+      {
+        "heading": "20th Century Music",
+        "topic_summary": "Modernism, diverse styles.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_hist_20th_century",
+            "summary": "Music of the 20th century, encompassing a wide range of styles including impressionism, expressionism, serialism, neoclassicism, minimalism, and electronic music."
+          }
+        ]
+      },
+      {
+        "heading": "Contemporary Classical",
+        "topic_summary": "Music of late 20th/21st C.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_hist_contemporary",
+            "summary": "Classical music composed in the latter half of the 20th century to the present day, characterized by extreme diversity and experimentation."
+          }
+        ]
+      },
+      {
+        "heading": "Ethnomusicology",
+        "topic_summary": "Music in cultural context.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_branch_ethno",
+            "summary": "The study of music from the cultural and social aspects of the people who make it, encompassing music from all parts of the world."
+          }
+        ]
+      },
+      {
+        "heading": "World Music Traditions",
+        "topic_summary": "Diverse global musical forms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_world_music",
+            "summary": "Exploration of musical traditions from various cultures and regions around the globe (e.g., Indian classical, Gamelan, African drumming)."
+          }
+        ]
+      },
+      {
+        "heading": "Fieldwork (Ethno)",
+        "topic_summary": "Researching music in situ.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_method_fieldwork",
+            "summary": "A primary research method in ethnomusicology involving immersive study within a community to understand its music and musical practices."
+          }
+        ]
+      },
+      {
+        "heading": "Transcription (Ethno)",
+        "topic_summary": "Notating oral traditions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_method_transcription",
+            "summary": "The process of notating music that is primarily transmitted orally, a key skill in ethnomusicology."
+          }
+        ]
+      },
+      {
+        "heading": "Music & Identity",
+        "topic_summary": "Music shaping self, group.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_identity",
+            "summary": "Examining how music contributes to the formation and expression of individual, social, cultural, and national identities."
+          }
+        ]
+      },
+      {
+        "heading": "Music & Ritual",
+        "topic_summary": "Music in ceremonies, worship.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_ritual",
+            "summary": "The study of the roles and functions of music in religious ceremonies, rituals, and spiritual practices across cultures."
+          }
+        ]
+      },
+      {
+        "heading": "Systematic Musicology",
+        "topic_summary": "Scientific, theoretical approaches.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_branch_systematic",
+            "summary": "A branch of musicology that approaches music from scientific and philosophical perspectives, including music theory, acoustics, psychoacoustics, and aesthetics."
+          }
+        ]
+      },
+      {
+        "heading": "Music Theory (Advanced)",
+        "topic_summary": "Analysis, harmony, counterpoint.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_theory_adv",
+            "summary": "In-depth study of musical structure, including advanced harmony, counterpoint, Schenkerian analysis, set theory, and other analytical techniques."
+          }
+        ]
+      },
+      {
+        "heading": "Musical Acoustics",
+        "topic_summary": "Physics of musical sound.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_acoustics",
+            "summary": "The branch of physics concerned with the production, control, transmission, reception, and effects of musical sound."
+          }
+        ]
+      },
+      {
+        "heading": "Psychoacoustics",
+        "topic_summary": "Perception of sound.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_psychoacoustics",
+            "summary": "The study of the psychological correlates of the physical parameters of sound; how humans perceive sound."
+          }
+        ]
+      },
+      {
+        "heading": "Music Cognition",
+        "topic_summary": "Mental processing of music.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_cognition",
+            "summary": "An interdisciplinary field studying the mental processes involved in perceiving, creating, performing, and responding to music."
+          }
+        ]
+      },
+      {
+        "heading": "Aesthetics of Music",
+        "topic_summary": "Philosophy of musical beauty.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_aesthetics",
+            "summary": "A subfield of philosophy dealing with the nature of beauty, art, and taste in music, and with the creation and appreciation of musical beauty."
+          }
+        ]
+      },
+      {
+        "heading": "Performance Practice",
+        "topic_summary": "Historically informed performance.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_performance_practice",
+            "summary": "The study of how music from earlier historical periods was performed, aiming for historically informed interpretations."
+          }
+        ]
+      },
+      {
+        "heading": "Organology",
+        "topic_summary": "Study of musical instruments.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_organology",
+            "summary": "The science of musical instruments and their classification, history, design, and cultural significance."
+          }
+        ]
+      },
+      {
+        "heading": "Music Criticism",
+        "topic_summary": "Writing, evaluating music.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_criticism",
+            "summary": "The practice of judging the merits of musical compositions, performances, and recordings, often for publication."
+          }
+        ]
+      },
+      {
+        "heading": "Source Studies",
+        "topic_summary": "Analyzing musical manuscripts.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_method_source_studies",
+            "summary": "The examination of primary source materials such as musical manuscripts, sketches, early prints, and archival documents to understand music history and compositional processes."
+          }
+        ]
+      },
+      {
+        "heading": "Music Historiography",
+        "topic_summary": "Writing of music history.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_method_historiography",
+            "summary": "The study of the writing of music history; the history of music history, including its methodologies, biases, and narratives."
+          }
+        ]
+      },
+      {
+        "heading": "Music Semiotics",
+        "topic_summary": "Music as signs, symbols.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_semiotics",
+            "summary": "The study of music as a system of signs and symbols, exploring how music conveys meaning and communicates."
+          }
+        ]
+      },
+      {
+        "heading": "Music & Gender Studies",
+        "topic_summary": "Gender roles in music.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_gender_studies",
+            "summary": "Examining the roles, representations, and contributions of different genders in music history, creation, performance, and reception."
+          }
+        ]
+      },
+      {
+        "heading": "Music & Politics",
+        "topic_summary": "Music as political force.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_politics",
+            "summary": "Investigating the ways music has been used to express political ideologies, support or resist power structures, and mobilize social movements."
+          }
+        ]
+      },
+      {
+        "heading": "Popular Music Studies",
+        "topic_summary": "Analyzing contemporary popular music.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_popular_music",
+            "summary": "An academic field dedicated to the study of popular music genres, artists, industries, and cultural impact."
+          }
+        ]
+      },
+      {
+        "heading": "Film Music Studies",
+        "topic_summary": "Music in cinema.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_film_music",
+            "summary": "The study of music composed for films, analyzing its functions, techniques, history, and relationship with visual narrative."
+          }
+        ]
+      },
+      {
+        "heading": "Music Technology",
+        "topic_summary": "Tools for creating, performing music.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_technology",
+            "summary": "The study and application of electronic and digital technologies in the creation, performance, recording, and distribution of music."
+          }
+        ]
+      },
+      {
+        "heading": "Sound Studies",
+        "topic_summary": "Broader study of sound.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_sound_studies",
+            "summary": "An interdisciplinary field that studies sound in all its forms, including but not limited to music, encompassing its cultural, social, and technological aspects."
+          }
+        ]
+      },
+      {
+        "heading": "Music Therapy (Academic)",
+        "topic_summary": "Music's therapeutic applications.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_therapy_study",
+            "summary": "The academic study of the clinical and evidence-based use of musical interventions to accomplish individualized goals within a therapeutic relationship."
+          }
+        ]
+      },
+      {
+        "heading": "Music Education (Research)",
+        "topic_summary": "Study of teaching music.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_education_research",
+            "summary": "The scholarly field concerned with research into the teaching and learning of music, curriculum development, and educational policy related to music."
+          }
+        ]
+      },
+      {
+        "heading": "Music Librarianship",
+        "topic_summary": "Managing music collections.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_librarianship",
+            "summary": "The specialized field of librarianship focused on the collection, organization, preservation, and dissemination of music scores, recordings, and related materials."
+          }
+        ]
+      },
+      {
+        "heading": "Music Publishing",
+        "topic_summary": "Business of music rights.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_publishing",
+            "summary": "The business of acquiring, administering, marketing, and promoting musical compositions and their copyrights."
+          }
+        ]
+      },
+      {
+        "heading": "Copyright in Music",
+        "topic_summary": "Legal rights for compositions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_copyright",
+            "summary": "Understanding the legal framework of copyright as it applies to musical compositions and sound recordings, protecting the rights of creators."
+          }
+        ]
+      },
+      {
+        "heading": "Oral Tradition in Music",
+        "topic_summary": "Music passed down aurally.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_oral_tradition",
+            "summary": "The study of musical traditions that are primarily transmitted through listening, imitation, and memory rather than written notation."
+          }
+        ]
+      },
+      {
+        "heading": "Improvisation Studies",
+        "topic_summary": "Spontaneous musical creation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_improvisation",
+            "summary": "The analysis and study of musical improvisation across various genres and cultures, examining its techniques, cognitive processes, and cultural significance."
+          }
+        ]
+      },
+      {
+        "heading": "Music and Media",
+        "topic_summary": "Music in TV, games, web.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_music_media",
+            "summary": "Examining the role and function of music in various media forms beyond film, such as television, video games, advertising, and online content."
+          }
+        ]
+      },
+      {
+        "heading": "Future of Musicology",
+        "topic_summary": "New methods, digital humanities.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "mus_topic_future_musicology",
+            "summary": "Exploring emerging trends, digital humanities approaches, interdisciplinary connections, and future directions for the scholarly study of music."
+          }
+        ]
+      }
+    ]
+  }
+]
+

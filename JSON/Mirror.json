@@ -1,0 +1,81 @@
+
+{
+"Reflection": {
+"short_description": "The fundamental process of light bouncing off a surface to create an identical but reversed image, forming the basic principle of mirror function."
+},
+"Surface": {
+"short_description": "The polished or treated plane that enables clear reflection, requiring specific material properties and preparation for optimal function."
+},
+"Symmetry": {
+"short_description": "The perfect correspondence between object and image across the mirror plane, creating balanced visual relationships through reflection."
+},
+"Reversal": {
+"short_description": "The systematic inversion of spatial relationships in mirror images, where left becomes right while maintaining proportional accuracy."
+},
+"Projection": {
+"short_description": "The apparent space created beyond the mirror surface, suggesting depth and dimension through visual extension."
+},
+"Scrying": {
+"short_description": "The divinatory or meditative use of mirrors for insight and revelation, employing reflection for psychological or spiritual purposes."
+},
+"Refraction": {
+"short_description": "The bending of light as it passes through different mediums, affecting the formation and quality of mirror images."
+},
+"Parallax": {
+"short_description": "The apparent change in reflected image position based on viewer movement, creating dynamic relationships between observer and reflection."
+},
+"Distortion": {
+"short_description": "Intentional or unintentional alterations in reflected images due to surface curvature or irregularity."
+},
+"Portal": {
+"short_description": "The conceptual doorway or threshold suggested by mirror space, implying passage between real and reflected realms."
+},
+"Double": {
+"short_description": "The identical yet opposite nature of mirror images, creating simultaneous sameness and otherness in reflection."
+},
+"Array": {
+"short_description": "Multiple mirrors arranged to create complex patterns of reflection and infinite recursive images."
+},
+"Focus": {
+"short_description": "The point where reflected light converges, particularly in curved mirrors, concentrating or dispersing reflected energy."
+},
+"Clarity": {
+"short_description": "The degree of precise image reproduction achieved through mirror quality and environmental conditions."
+},
+"Tain": {
+"short_description": "The reflective backing applied to transparent materials to create mirror surfaces, traditionally silver or aluminum."
+},
+"Polarization": {
+"short_description": "The selective reflection of light waves in particular orientations, affecting mirror image formation and visibility."
+},
+"Interference": {
+"short_description": "The interaction of light waves in reflection, creating patterns and effects through wave combination."
+},
+"Absorption": {
+"short_description": "The partial retention of light by mirror surfaces, affecting reflection intensity and color accuracy."
+},
+"Luminosity": {
+"short_description": "The brightness and quality of reflected light, determining image visibility and clarity."
+},
+"Frame": {
+"short_description": "The physical and conceptual boundary defining mirror space and separating reflection from surrounding reality."
+},
+"Perspective": {
+"short_description": "The relationship between viewer position and reflected space, determining what appears in the mirror and how it is seen."
+},
+"Recursion": {
+"short_description": "The infinite regression of images created when mirrors face each other, suggesting endless multiplication of space."
+},
+"Axis": {
+"short_description": "The imaginary line perpendicular to the mirror surface, organizing the geometry of reflection."
+},
+"Threshold": {
+"short_description": "The apparent boundary between real and reflected space, marking the transition between actual and virtual realms."
+},
+"Presence": {
+"short_description": "The perceived existence of mirror images as both real and unreal, creating psychological and phenomenological effects."
+},
+"Transformation": {
+"short_description": "The mirror's capacity to alter perception and understanding through reflection and reversal."
+}
+}

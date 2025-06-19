@@ -1,0 +1,65 @@
+{
+  "Comedy": {
+    "short_description": "An artistic genre intended to amuse and entertain, characterized by humor, wit, and often the light-hearted treatment of serious subjects."
+  },
+  "Satire": {
+    "short_description": "A form of comedy that uses irony, sarcasm, or ridicule to expose and criticize foolishness or corruption in society or individuals."
+  },
+  "Slapstick": {
+    "short_description": "A type of physical comedy characterized by exaggerated, boisterous actions like falling, hitting, or other forms of physical mishap for laughs."
+  },
+  "Improvisation": {
+    "short_description": "Comedy performed without a script, relying on the spontaneous interaction between performers, often involving audience participation."
+  },
+  "Stand-up": {
+    "short_description": "A style where a comedian performs in front of a live audience, telling jokes, stories, or humorous observations solo on stage."
+  },
+  "Parody": {
+    "short_description": "An imitation of the style of a particular writer, artist, or genre with deliberate exaggeration for comic effect."
+  },
+  "Dark Comedy": {
+    "short_description": "Humor that makes light of otherwise serious, disturbing, or taboo subjects, often involving gallows humor or black humor."
+  },
+  "Sitcom": {
+    "short_description": "A situation comedy, portraying characters in home or work settings with recurring humorous situations and dialogues."
+  },
+  "Sketch Comedy": {
+    "short_description": "A series of short comedy scenes or vignettes, usually performed by the same group of actors in various roles."
+  },
+  "Punchline": {
+    "short_description": "The final part of a joke or humorous story, delivering the climax of humor, often with a twist or unexpected ending."
+  },
+  "Character Comedy": {
+    "short_description": "Comedy based on the development and performance of distinctive characters, whose behaviors, quirks, or situations are inherently funny."
+  },
+  "Timing": {
+    "short_description": "The strategic use of pauses or pacing in delivery to enhance the comedic effect, crucial in both verbal and physical comedy."
+  },
+  "Observational Humor": {
+    "short_description": "Comedy derived from commenting on everyday life situations, human behaviors, or common experiences in a humorous way."
+  },
+  "Wordplay": {
+    "short_description": "Humor that arises from the use of language, including puns, double entendres, or other linguistic tricks to create laughter."
+  },
+  "Absurdist Comedy": {
+    "short_description": "Humor that arises from surreal or irrational situations, where the humor comes from the absurdity of the scenario or dialogue."
+  },
+  "Cringe Comedy": {
+    "short_description": "A genre where the humor comes from the discomfort, awkwardness, or embarrassment of characters, often making the audience feel second-hand embarrassment."
+  },
+  "Deadpan": {
+    "short_description": "A delivery style where humor is presented with a straight, serious, or expressionless face, making the contrast between the content and delivery humorous."
+  },
+  "Impression": {
+    "short_description": "Mimicking or impersonating the voice, mannerisms, or behavior of another person, often for comedic effect."
+  },
+  "Social Satire": {
+    "short_description": "Comedy that critiques societal norms, behaviors, or structures, often to provoke thought while entertaining."
+  },
+  "Physical Comedy": {
+    "short_description": "Humor derived from physical actions, like pratfalls, exaggerated gestures, or comedic stunts, emphasizing the visual comedic aspect."
+  },
+  "Comedy of Manners": {
+    "short_description": "A type of comedic drama that satirizes the manners and affectations of a social class, often focusing on the hypocrisy of social behavior."
+  }
+}

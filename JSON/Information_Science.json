@@ -1,0 +1,78 @@
+
+{
+"Information Science": {
+"short_description": "The interdisciplinary field studying the nature, properties, management, and flow of information across systems, technologies, and human contexts, encompassing both theoretical frameworks and practical applications."
+},
+"Information Theory": {
+"short_description": "The mathematical study of quantification, storage, and communication of information, examining entropy, compression, channel capacity, and the fundamental limits of information processing and transmission."
+},
+"Data Structures": {
+"short_description": "Systematic methods for organizing and storing data to enable efficient access, modification, and analysis, including arrays, trees, graphs, and hash tables that optimize different operational requirements."
+},
+"Knowledge Organization": {
+"short_description": "The systematic arrangement of information resources to facilitate discovery and access, including classification schemes, taxonomies, ontologies, and metadata frameworks."
+},
+"Information Architecture": {
+"short_description": "The structural design of shared information environments, focusing on organization, labeling, navigation, and search systems to support usability and findability."
+},
+"Information Retrieval": {
+"short_description": "The science of searching for documents, information within documents, and metadata about documents, including algorithms, ranking methods, and relevance assessment."
+},
+"Database Systems": {
+"short_description": "Technologies and methodologies for storing, organizing, and retrieving structured data, including relational, document-oriented, and graph databases with their respective query languages and optimization techniques."
+},
+"Information Behavior": {
+"short_description": "The study of how humans interact with information, including seeking, searching, evaluating, using, and sharing behaviors across different contexts and environments."
+},
+"Information Literacy": {
+"short_description": "The set of abilities requiring individuals to recognize when information is needed and to locate, evaluate, and use effectively the needed information, including digital competencies."
+},
+"Metadata Management": {
+"short_description": "The administration of data that describes other data, including schemas, taxonomies, and controlled vocabularies to enable effective organization, discovery, and interoperability."
+},
+"Information Security": {
+"short_description": "The practice of protecting information from unauthorized access, use, disclosure, disruption, modification, or destruction through technical, physical, and administrative controls."
+},
+"Information Preservation": {
+"short_description": "Methods and strategies for maintaining information accessibility and usability over time, addressing technological obsolescence, format migration, and long-term digital preservation."
+},
+"Information Flow": {
+"short_description": "The movement and transfer of information through systems, organizations, and networks, including communication patterns, bottlenecks, and optimization strategies."
+},
+"Information Quality": {
+"short_description": "The assessment and improvement of information's fitness for use, including accuracy, completeness, timeliness, consistency, and relevance to specific contexts and needs."
+},
+"Knowledge Discovery": {
+"short_description": "The process of identifying valid, novel, potentially useful, and ultimately understandable patterns in data through various analytical and mining techniques."
+},
+"Information Visualization": {
+"short_description": "The study and practice of representing data visually to leverage human visual processing capabilities for understanding complex information structures and relationships."
+},
+"Semantic Web": {
+"short_description": "Technologies and standards enabling machine-readable and interpretable data across the web, including RDF, OWL, and linked data principles for knowledge representation."
+},
+"Information Economics": {
+"short_description": "The study of how information and its systems affect economic decisions and outcomes, including information goods, markets, and the economics of attention and privacy."
+},
+"Information Ethics": {
+"short_description": "The examination of ethical issues arising from the creation, collection, organization, access, and dissemination of information in the digital age."
+},
+"Information Policy": {
+"short_description": "The laws, regulations, and frameworks governing information creation, use, and management, including intellectual property, privacy, and access rights."
+},
+"Information Systems": {
+"short_description": "The integrated set of components for collecting, storing, processing, and providing information to support organizational decision-making and operations."
+},
+"Data Mining": {
+"short_description": "The process of discovering patterns, correlations, and insights in large datasets using statistical, machine learning, and database techniques."
+},
+"Information Networks": {
+"short_description": "The study of how information flows through interconnected systems, including social networks, citation networks, and technological infrastructures."
+},
+"Digital Libraries": {
+"short_description": "Organizations providing resources, services, and technologies for selection, structuring, access, distribution, and preservation of digital collections."
+},
+"Information Ecology": {
+"short_description": "The study of information environments as complex systems of people, practices, values, and technologies in particular local contexts."
+}
+}

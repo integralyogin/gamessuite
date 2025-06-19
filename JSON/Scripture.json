@@ -1,0 +1,122 @@
+{
+"Revelation": {
+    "short_description": "Divine knowledge or truth communicated directly from the divine to humanity, forming the foundation of sacred texts and religious understanding through direct spiritual transmission."
+},
+"Canon": {
+    "short_description": "The officially recognized and authoritative collection of sacred texts within a religious tradition, established through historical processes of selection and authentication."
+},
+"Exegesis": {
+    "short_description": "The systematic study and interpretation of sacred texts, employing various methods to extract meaning and application from scriptural passages."
+},
+"Hermeneutics": {
+    "short_description": "The theoretical framework and methodological principles used to interpret and understand sacred texts, considering historical, cultural, and spiritual contexts."
+},
+"Testament": {
+    "short_description": "A major division of sacred writings representing a covenant or agreement between divine and human realms, often marking distinct periods of religious history."
+},
+"Prophecy": {
+    "short_description": "Divine messages or predictions transmitted through chosen individuals, often combining moral instruction with forecasts of future events and spiritual truths."
+},
+"Commentary": {
+    "short_description": "Scholarly or inspired explanations of sacred texts, providing deeper understanding through analysis of language, context, and spiritual significance."
+},
+"Concordance": {
+    "short_description": "Alphabetical index of words and phrases found in sacred texts, enabling systematic study and cross-referencing of scriptural concepts."
+},
+"Manuscript": {
+    "short_description": "Historical handwritten copies of sacred texts, representing various stages of transmission and preservation of religious teachings."
+},
+"Codex": {
+    "short_description": "Ancient bound book format of sacred texts, marking the transition from scrolls to modern book form in the preservation of scripture."
+},
+"Apocrypha": {
+    "short_description": "Religious texts of uncertain authenticity or authority, existing alongside but distinct from officially recognized canonical scriptures."
+},
+"Pseudepigrapha": {
+    "short_description": "Religious texts attributed to important religious figures but determined to have been written by others, often containing additional teachings or interpretations."
+},
+"Scroll": {
+    "short_description": "Ancient format for preserving and transmitting sacred texts, often associated with ceremonial reading and ritual use in religious practice."
+},
+"Oral Tradition": {
+    "short_description": "Unwritten transmission of sacred teachings through memorization and recitation, often preceding and complementing written scripture."
+},
+"Lectionary": {
+    "short_description": "Organized selection of scripture readings for worship and study, arranging sacred texts according to religious calendar and tradition."
+},
+"Gloss": {
+    "short_description": "Marginal or interlinear annotations in sacred texts, providing explanations, translations, or commentary to aid understanding."
+},
+"Parallelism": {
+    "short_description": "Literary structure in sacred texts where ideas are repeated or contrasted in parallel forms, enhancing meaning and memorability."
+},
+"Recitation": {
+    "short_description": "Ritual reading or chanting of sacred texts, often with specific rules and traditions for proper pronunciation and delivery."
+},
+"Translation": {
+    "short_description": "Process of rendering sacred texts from original languages into other tongues, involving careful consideration of linguistic and theological implications."
+},
+"Compilation": {
+    "short_description": "Historical process of gathering and organizing sacred texts into coherent collections, often involving selection and arrangement of various sources."
+},
+"Interpretation": {
+    "short_description": "Process of understanding and applying sacred texts to contemporary life, involving various methods and levels of meaning."
+},
+"Textual Criticism": {
+    "short_description": "Scholarly analysis of various manuscript versions to determine original text and understand transmission history of sacred writings."
+},
+"Redaction": {
+    "short_description": "Editorial process of combining and arranging sacred texts, reflecting theological and practical concerns of religious communities."
+},
+"Inspiration": {
+    "short_description": "Divine influence believed to guide the creation and preservation of sacred texts, ensuring their authority and spiritual power."
+},
+"Illumination": {
+    "short_description": "Decorative illustrations and designs in sacred manuscripts, combining artistic beauty with spiritual symbolism and meaning."
+},
+"Transmission": {
+    "short_description": "Historical process of passing down sacred texts through generations, involving both preservation and adaptation to new contexts."
+},
+"Exposition": {
+    "short_description": "Detailed explanation and teaching of sacred texts, making their meaning and application clear to religious communities."
+},
+"Citation": {
+    "short_description": "System of referencing specific passages in sacred texts, enabling precise study and discussion of scriptural content."
+},
+"Corpus": {
+    "short_description": "Complete body of sacred texts within a religious tradition, including both canonical and associated writings."
+},
+"Verse": {
+    "short_description": "Basic unit of text division in many sacred writings, facilitating reference and study of specific passages."
+},
+"Annotation": {
+    "short_description": "Scholarly or devotional notes added to sacred texts, providing historical, linguistic, or spiritual insights."
+},
+"Recension": {
+    "short_description": "Particular version or edition of a sacred text, reflecting specific manuscript traditions or editorial decisions."
+},
+"Composition": {
+    "short_description": "Original writing process of sacred texts, often involving multiple authors and stages of development over time."
+},
+"Authentication": {
+    "short_description": "Process of verifying the genuineness and authority of sacred texts, establishing their place within religious tradition."
+},
+"Preservation": {
+    "short_description": "Methods and practices for maintaining the integrity and accessibility of sacred texts across generations."
+},
+"Dissemination": {
+    "short_description": "Distribution and sharing of sacred texts among communities, involving copying, translation, and teaching."
+},
+"Interpretation Schools": {
+    "short_description": "Traditional approaches and methodologies for understanding sacred texts, often representing distinct theological perspectives."
+},
+"Intertextuality": {
+    "short_description": "Relationships and connections between different sacred texts, including references, allusions, and shared themes."
+},
+"Symbolism": {
+    "short_description": "Use of metaphorical and allegorical language in sacred texts to convey spiritual truths and deeper meanings."
+},
+"Contextualization": {
+    "short_description": "Process of understanding sacred texts within their historical and cultural settings while applying them to contemporary situations."
+}
+}

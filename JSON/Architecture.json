@@ -1,0 +1,108 @@
+{
+"Architecture": {
+"short_description": "The art and science of designing and creating structures and spaces that integrate form, function, and meaning across physical, social, and symbolic dimensions."
+},
+
+
+  "Design Principles": { "quote": "Form follows function (Louis Sullivan) + Vitruvian Triad: Firmitas, Utilitas, Venustas (strength, utility, beauty)." },
+  "Structural Systems": { "quote": "Load-bearing vs. frame: Post-and-lintel (Parthenon) vs. steel skeletons (Eiffel Tower)." },
+  "Classical Orders": { "quote": "Doric, Ionic, Corinthian: Proportions governed by golden ratio (φ ≈ 1.618)." },
+  "Roman Engineering": { "quote": "Arches + concrete: Pantheon’s dome (43.3m span) enabled by pozzolana mortar." },
+  "Gothic Architecture": { "quote": "Flying buttresses + rib vaults: Chartres Cathedral’s verticality → Light as divine metaphor." },
+  "Renaissance Symmetry": { "quote": "Brunelleschi’s Duomo: Geometric harmony via perspective drawing." },
+  "Baroque Dynamism": { "quote": "Bernini’s St. Peter’s Square: Curved colonnades → Kinetic spatial experience." },
+  "Modernism": { "quote": "Le Corbusier’s Five Points: Pilotis, free plan, ribbon windows (Villa Savoye)." },
+  "Bauhaus Philosophy": { "quote": "Unity of art + technology: Gropius’s ‘Total Work of Art’ (Gesamtkunstwerk)." },
+  "Sustainable Design": { "quote": "LEED criteria: Energy modeling (ASHRAE 90.1) + passive solar orientation." },
+  "Materials Science": { "quote": "Concrete (f’c = 4000 psi), steel (E = 200 GPa), CLT (cross-laminated timber)." },
+  "Skyscraper Engineering": { "quote": "Wind load calculations: Damping systems in Taipei 101 (660-ton tuned mass damper)." },
+  "Parametric Design": { "quote": "Algorithmic modeling: Grasshopper → Zaha Hadid’s Heydar Aliyev Center." },
+  "Biophilic Design": { "quote": "Human-nature connection: Vertical gardens (Bosco Verticale) + daylight optimization." },
+  "Seismic Architecture": { "quote": "Base isolation systems: Lead-rubber bearings (η = 0.15) absorb earthquake forces." },
+  "Vernacular Architecture": { "quote": "Contextual adaptation: Adobe in deserts, stilt houses in floodplains." },
+  "Deconstructivism": { "quote": "Fragmented forms: Gehry’s Guggenheim Bilbao (titanium cladding + CAD/CAM)." },
+  "Urban Planning": { "quote": "Jane Jacobs’ ‘Eyes on the Street’: Mixed-use zoning → Walkable neighborhoods." },
+  "Smart Cities": { "quote": "IoT integration: Sensor grids → Adaptive traffic + energy networks (Singapore’s Smart Nation)." },
+  "Adaptive Reuse": { "quote": "Preservation + innovation: Tate Modern (Bankside Power Station → Gallery)." },
+  "Tensile Structures": { "quote": "Frei Otto’s Munich Olympics: Minimal surfaces (soap-film models) → Lightweight canopies." },
+  "Modular Construction": { "quote": "Prefab units: MMC (Modern Methods of Construction) → 30% faster build times." },
+  "Circular Economy": { "quote": "Cradle-to-cradle: Recyclable materials (e.g., 3D-printed concrete with reclaimed aggregate)." },
+  "Postmodernism": { "quote": "Irony + eclecticism: Venturi’s ‘Less is a bore’ (Vanna Venturi House)." },
+  "Acoustic Design": { "quote": "Reverberation time (RT60): Sydney Opera House’s vaulted shells optimized via ODEON simulations." },
+  "Inclusive Design": { "quote": "Universal access: Ramps ≤ 1:12 slope, tactile paving (ADA/ISO 21542)." },
+  "Futurism": { "quote": "Mars habitats: 3D-printed regolith structures (NASA’s Olympus Project)." },
+  "Digital Twin Technology": { "quote": "BIM + IoT: Real-time sync between physical and virtual models (Autodesk Tandem)." },
+  "Ethical Architecture": { "quote": "Decolonizing space: Prioritize indigenous land rights + participatory design (e.g., Māori meeting houses)." },
+"Sacred Architecture": {
+"short_description": "The design and construction of religious and spiritual spaces that embody cosmological principles, facilitate divine communion, and create environments for transformation of consciousness."
+},
+"Temple": {
+"short_description": "A structure designed as a dwelling place for divine presence, incorporating precise proportions, alignments, and symbolic elements to create a bridge between earthly and celestial realms."
+},
+"Cathedral": {
+"short_description": "Monumental Christian sacred architecture that expresses theological concepts through vertical emphasis, light manipulation, and geometric harmony while creating spaces for communal worship and individual devotion."
+},
+"Sanctuary": {
+"short_description": "Protected sacred space designed to contain and preserve holy presence while providing refuge and focus for spiritual practice, often incorporating multiple layers of increasing sanctity."
+},
+"Axis Mundi": {
+"short_description": "The central pillar or cosmic axis expressed in architectural form, connecting different levels of reality and orienting sacred space to celestial alignments and divine order."
+},
+"Geometry": {
+"short_description": "The underlying mathematical principles used to create harmonic relationships in architectural design, reflecting cosmic order and natural laws through proportion and form."
+},
+"Golden Ratio": {
+"short_description": "The divine proportion (1:1.618) found throughout nature and implemented in architecture to create aesthetically pleasing and harmonically balanced structures and spaces."
+},
+"Sacred Measure": {
+"short_description": "Traditional systems of measurement based on cosmic and human proportions, used to ensure buildings embody harmonic relationships at all scales."
+},
+"Orientation": {
+"short_description": "The alignment of architectural elements with cardinal directions, celestial bodies, and energy flows to integrate buildings with cosmic and terrestrial patterns."
+},
+"Foundation": {
+"short_description": "The physical and energetic groundwork that anchors a structure while establishing its relationship with earth forces and underlying spiritual principles."
+},
+"Portal": {
+"short_description": "Architectural elements designed to mark and facilitate transition between different qualities of space, often incorporating symbolic elements to prepare consciousness for passage."
+},
+"Dome": {
+"short_description": "Curved overhead structure representing the celestial vault and divine unity, often used to create spaces of special acoustic and energetic properties."
+},
+"Spire": {
+"short_description": "Vertical architectural element pointing heavenward, representing aspiration toward divine heights and serving as a connection between earth and sky."
+},
+"Mandala": {
+"short_description": "Sacred geometric pattern used as a basis for architectural design, expressing cosmic principles through spatial organization and symbolic relationships."
+},
+"Labyrinth": {
+"short_description": "Pathways designed for meditative walking and spiritual transformation, incorporating sacred geometry and symbolic journey patterns."
+},
+"Acoustic Design": {
+"short_description": "The intentional shaping of sound properties within architectural space to enhance spiritual experience and facilitate specific states of consciousness."
+},
+"Light Architecture": {
+"short_description": "The conscious use of natural and artificial light to create spiritual atmosphere and mark sacred time through architectural features."
+},
+"Sacred Precinct": {
+"short_description": "The defined boundary of holy ground surrounding sacred architecture, creating graduated transitions from mundane to sacred space."
+},
+"Proportion": {
+"short_description": "The relationships between architectural elements based on sacred numbers and natural harmonies, creating beauty and meaning through mathematical order."
+},
+"Cosmogram": {
+"short_description": "Architectural representations of universal order, often embedded in floor plans or structural arrangements to align human space with cosmic principles."
+},
+"Vault": {
+"short_description": "Arched structural elements that create protected interior space while expressing the metaphysical principle of heaven spanning earth."
+},
+"Column": {
+"short_description": "Vertical supports that embody both structural and symbolic functions, often representing cosmic pillars or spiritual principles in architectural form."
+},
+"Threshold": {
+"short_description": "Transitional spaces marking boundaries between different qualities of space, incorporating protective and transformative elements in their design."
+},
+"Symmetry": {
+"short_description": "The balanced arrangement of architectural elements reflecting divine order and completeness while creating harmony in built form."
+}
+}

@@ -1,0 +1,593 @@
+[
+  {
+    "id": "subj_alchemy_detailed_001",
+    "title": "Alchemy",
+    "description": "A progressive exploration of alchemical philosophy, symbolism, operations, and its spiritual dimensions.",
+    "sections": [
+      {
+        "heading": "Alchemy Defined",
+        "topic_summary": "Art of transformation, perfection.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_alchemy_defined",
+            "summary": "The ancient art and protoscience aiming to transmute base metals into noble ones (e.g., gold), discover a universal panacea, and achieve spiritual enlightenment or immortality."
+          }
+        ]
+      },
+      {
+        "heading": "The Great Work",
+        "topic_summary": "Magnum Opus, ultimate goal.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_great_work",
+            "summary": "The Magnum Opus; the alchemist's ultimate endeavor, involving the perfection of matter and spirit, often culminating in the creation of the Philosopher's Stone."
+          }
+        ]
+      },
+      {
+        "heading": "Prima Materia",
+        "topic_summary": "First Matter, raw potential.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_prima_materia",
+            "summary": "The primordial, undifferentiated substance from which all things are formed; the chaotic starting material for the Great Work."
+          }
+        ]
+      },
+      {
+        "heading": "Philosopher's Stone",
+        "topic_summary": "Lapis, agent of perfection.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_philosophers_stone",
+            "summary": "The legendary substance (Lapis Philosophorum) capable of transmuting base metals into gold and granting enlightenment or eternal life."
+          }
+        ]
+      },
+      {
+        "heading": "Elixir of Life",
+        "topic_summary": "Aqua Vitae, immortality drink.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_elixir_of_life",
+            "summary": "A mythical potion, often related to the Philosopher's Stone, granting the drinker eternal life or youth; also known as Aqua Vitae."
+          }
+        ]
+      },
+      {
+        "heading": "As Above, So Below",
+        "topic_summary": "Hermetic correspondence principle.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_as_above",
+            "summary": "A core Hermetic principle stating that there is a correspondence between different planes of reality: the macrocosm (universe) and microcosm (human being)."
+          }
+        ]
+      },
+      {
+        "heading": "Microcosm/Macrocosm",
+        "topic_summary": "Human reflects universe.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_micro_macro",
+            "summary": "The concept that the human being (microcosm) is a miniature reflection of the universe (macrocosm), and vice versa."
+          }
+        ]
+      },
+      {
+        "heading": "Spirit, Soul, Body",
+        "topic_summary": "Threefold human nature.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_spirit_soul_body",
+            "summary": "The alchemical view of the human constitution as a trinity of Spirit (divine spark), Soul (intermediary, individual essence), and Body (physical form)."
+          }
+        ]
+      },
+      {
+        "heading": "Four Elements",
+        "topic_summary": "Earth, Water, Air, Fire.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_four_elements",
+            "summary": "The classical building blocks of matter: Earth (solid), Water (liquid), Air (gaseous), and Fire (energetic/transformative)."
+          }
+        ]
+      },
+      {
+        "heading": "Elemental Qualities",
+        "topic_summary": "Hot, Cold, Dry, Moist.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_elemental_qualities",
+            "summary": "The four fundamental qualities (Hot, Cold, Dry, Moist) that combine to form the Four Elements (e.g., Fire is Hot and Dry)."
+          }
+        ]
+      },
+      {
+        "heading": "Tria Prima",
+        "topic_summary": "Sulfur, Mercury, Salt.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_tria_prima",
+            "summary": "Paracelsus's three essentials: Sulfur (soul, combustibility), Mercury (spirit, volatility), and Salt (body, fixity), present in all substances."
+          }
+        ]
+      },
+      {
+        "heading": "Quintessence",
+        "topic_summary": "Fifth Element, pure spirit.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_quintessence",
+            "summary": "The 'Fifth Element' or Aether; a pure, subtle spirit or life-force pervading all things, often the goal of extraction."
+          }
+        ]
+      },
+      {
+        "heading": "Symbolism & Allegory",
+        "topic_summary": "Hidden language of alchemy.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_symbolism",
+            "summary": "The use of rich, often enigmatic, symbols and allegorical narratives to conceal and convey alchemical knowledge and processes."
+          }
+        ]
+      },
+      {
+        "heading": "The Alchemist",
+        "topic_summary": "Practitioner, philosopher, artist.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_alchemist",
+            "summary": "The individual engaged in the Great Work, requiring patience, purity of intent, wisdom, and dedication (labora et ora - work and pray)."
+          }
+        ]
+      },
+      {
+        "heading": "Laboratory & Oratory",
+        "topic_summary": "Physical work, spiritual prayer.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_topic_lab_oratory",
+            "summary": "The dual nature of alchemical practice: the 'laboratorium' (physical laboratory work) and the 'oratorium' (spiritual work, prayer, meditation)."
+          }
+        ]
+      },
+      {
+        "heading": "Calcination",
+        "topic_summary": "Purification by fire, reduction.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_op_calcination",
+            "summary": "An operation involving intense heating to reduce a substance to its ashes or a fine powder, symbolizing purification and destruction of gross form."
+          }
+        ]
+      },
+      {
+        "heading": "Dissolution (Solutio)",
+        "topic_summary": "Breaking down into liquid.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_op_dissolution",
+            "summary": "The process of dissolving a solid substance in a solvent, representing the breakdown of fixed structures and return to a more primal state."
+          }
+        ]
+      },
+      {
+        "heading": "Separation (Separatio)",
+        "topic_summary": "Isolating pure components.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_op_separation",
+            "summary": "The operation of isolating the different components or principles within a substance, often separating the pure from the impure."
+          }
+        ]
+      },
+      {
+        "heading": "Conjunction (Conjunctio)",
+        "topic_summary": "Uniting purified opposites.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_op_conjunction",
+            "summary": "The sacred marriage or union of purified opposing principles (e.g., male/female, sun/moon, sulfur/mercury) to create a new, unified entity."
+          }
+        ]
+      },
+      {
+        "heading": "Putrefaction (Nigredo)",
+        "topic_summary": "Blackening, dissolution, chaos.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_stage_nigredo",
+            "summary": "The 'blackening' stage; a process of decomposition, darkness, and chaos, representing the death of the old form to make way for the new."
+          }
+        ]
+      },
+      {
+        "heading": "Sublimation",
+        "topic_summary": "Purifying by vaporization.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_op_sublimation",
+            "summary": "Heating a solid until it vaporizes and then re-condenses as a purified solid, symbolizing the elevation of the spiritual from the material."
+          }
+        ]
+      },
+      {
+        "heading": "Fermentation",
+        "topic_summary": "Spiritual leavening, new life.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_op_fermentation",
+            "summary": "Introducing a 'ferment' to a purified substance to imbue it with new life and transformative power, akin to spiritual leavening."
+          }
+        ]
+      },
+      {
+        "heading": "Distillation",
+        "topic_summary": "Refining essences, purification.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_op_distillation",
+            "summary": "The process of separating components of a liquid mixture by selective boiling and condensation, symbolizing extraction of pure spirit or essence."
+          }
+        ]
+      },
+      {
+        "heading": "Coagulation (Fixatio)",
+        "topic_summary": "Solidifying the spirit.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_op_coagulation",
+            "summary": "The process of transforming a spiritual or subtle substance into a fixed, stable, and tangible form; solidifying the volatile."
+          }
+        ]
+      },
+      {
+        "heading": "Albedo",
+        "topic_summary": "Whitening, purification complete.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_stage_albedo",
+            "summary": "The 'whitening' stage following Nigredo, symbolizing purification, washing away of impurities, and the dawning of spiritual light."
+          }
+        ]
+      },
+      {
+        "heading": "Citrinitas",
+        "topic_summary": "Yellowing, solar consciousness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_stage_citrinitas",
+            "summary": "The 'yellowing' stage, often seen as transitional between Albedo and Rubedo, representing the dawning of 'solar' consciousness or wisdom."
+          }
+        ]
+      },
+      {
+        "heading": "Rubedo",
+        "topic_summary": "Reddening, final perfection.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_stage_rubedo",
+            "summary": "The 'reddening' stage, symbolizing the final perfection, the attainment of the Philosopher's Stone, and the union with the Divine."
+          }
+        ]
+      },
+      {
+        "heading": "Sun (Sol)",
+        "topic_summary": "Gold, masculine, spirit.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_sun",
+            "summary": "Symbolizes gold, the perfected state, the masculine principle, spirit, consciousness, the King, and active power."
+          }
+        ]
+      },
+      {
+        "heading": "Moon (Luna)",
+        "topic_summary": "Silver, feminine, soul.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_moon",
+            "summary": "Symbolizes silver, a purified but lesser state than gold, the feminine principle, soul, receptivity, and reflective power."
+          }
+        ]
+      },
+      {
+        "heading": "Mercury (Mercurius)",
+        "topic_summary": "Messenger, mediator, spirit.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_mercury",
+            "summary": "The paradoxical spirit Mercurius (Hermes), representing the volatile, transformative agent, the messenger between worlds, and the universal life-force."
+          }
+        ]
+      },
+      {
+        "heading": "Green Lion",
+        "topic_summary": "Raw vitriol, nature's solvent.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_green_lion",
+            "summary": "Often represents raw, untamed natural energy, or a potent solvent like vitriol that devours metals, symbolizing the initial dissolution of matter."
+          }
+        ]
+      },
+      {
+        "heading": "Red Lion",
+        "topic_summary": "Purified sulfur, fixed fire.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_red_lion",
+            "summary": "Symbolizes purified Sulfur, the fixed fiery principle, often associated with the final stages of the Great Work."
+          }
+        ]
+      },
+      {
+        "heading": "Ouroboros",
+        "topic_summary": "Serpent biting tail, cyclicity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_ouroboros",
+            "summary": "The serpent or dragon eating its own tail, symbolizing eternity, cyclical processes, unity, and the Prima Materia itself."
+          }
+        ]
+      },
+      {
+        "heading": "Pelican",
+        "topic_summary": "Self-sacrifice, nourishment.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_pelican",
+            "summary": "A symbol of self-sacrifice and parental love, as the pelican was believed to pierce its own breast to feed its young with its blood."
+          }
+        ]
+      },
+      {
+        "heading": "Phoenix",
+        "topic_summary": "Rebirth from ashes, regeneration.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_phoenix",
+            "summary": "The mythical bird that regenerates from ashes, symbolizing resurrection, transformation, and the cyclical nature of the Work."
+          }
+        ]
+      },
+      {
+        "heading": "Rebis/Hermaphrodite",
+        "topic_summary": "Union of opposites achieved.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_rebis",
+            "summary": "The 'two-thing' (Res Bina) or Androgyne, symbolizing the perfect union of male and female principles (Sol and Luna) after the Conjunction."
+          }
+        ]
+      },
+      {
+        "heading": "Caduceus",
+        "topic_summary": "Hermes' staff, balance, healing.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_caduceus",
+            "summary": "The staff of Hermes/Mercury, often depicted with two intertwined serpents and wings, symbolizing balance, mediation, and healing."
+          }
+        ]
+      },
+      {
+        "heading": "Philosophical Egg",
+        "topic_summary": "Vessel of creation, Athanor.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_egg",
+            "summary": "The sealed vessel (often an Athanor) in which the alchemical transformation takes place, symbolizing the cosmos or the alchemist's soul."
+          }
+        ]
+      },
+      {
+        "heading": "Athanor",
+        "topic_summary": "Alchemical furnace, constant heat.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_tool_athanor",
+            "summary": "The alchemical furnace designed to provide a constant and gentle heat for the slow maturation of the Stone."
+          }
+        ]
+      },
+      {
+        "heading": "Planetary Metals",
+        "topic_summary": "Cosmic correspondences, qualities.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_symbol_metals_planets",
+            "summary": "The seven classical metals (Gold, Silver, Mercury, Copper, Iron, Tin, Lead) and their association with the seven classical planets, each embodying specific qualities."
+          }
+        ]
+      },
+      {
+        "heading": "Spiritual Alchemy",
+        "topic_summary": "Inner transmutation of self.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_branch_spiritual",
+            "summary": "The interpretation and practice of alchemy primarily as a path of inner psychological and spiritual transformation, rather than literal metal transmutation."
+          }
+        ]
+      },
+      {
+        "heading": "Inner Transformation",
+        "topic_summary": "The true alchemical goal.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_concept_inner_transform",
+            "summary": "The purification and perfection of the alchemist's own soul and consciousness, turning inner 'lead' (base nature) into 'gold' (enlightenment)."
+          }
+        ]
+      },
+      {
+        "heading": "Integration of Shadow",
+        "topic_summary": "Confronting unconscious aspects.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_concept_shadow_integration",
+            "summary": "In psychological alchemy (e.g., Jung), acknowledging and integrating the repressed or denied aspects of the psyche (the 'shadow')."
+          }
+        ]
+      },
+      {
+        "heading": "Individuation",
+        "topic_summary": "Becoming whole self (Jung).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_concept_individuation",
+            "summary": "Carl Jung's term for the process of psychological development whereby an individual becomes a distinct, indivisible unity or 'whole'."
+          }
+        ]
+      },
+      {
+        "heading": "Mystical Union",
+        "topic_summary": "Unio Mystica, divine oneness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_concept_mystical_union",
+            "summary": "The experience of oneness or union with the Divine, the Absolute, or the fundamental ground of being; a goal of spiritual alchemy."
+          }
+        ]
+      },
+      {
+        "heading": "Hermeticism",
+        "topic_summary": "Wisdom of Hermes Trismegistus.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_trad_hermeticism",
+            "summary": "A philosophical and religious tradition based primarily upon writings attributed to Hermes Trismegistus, forming a key foundation for Western alchemy."
+          }
+        ]
+      },
+      {
+        "heading": "Alexandrian Alchemy",
+        "topic_summary": "Greco-Egyptian origins.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_trad_alexandrian",
+            "summary": "The early phase of alchemy flourishing in Hellenistic Egypt (Alexandria), blending Greek philosophy, Egyptian craft traditions, and mysticism."
+          }
+        ]
+      },
+      {
+        "heading": "Islamic Alchemy",
+        "topic_summary": "Preservation, innovation (Jabir).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_trad_islamic",
+            "summary": "A crucial period where Greek alchemical knowledge was preserved, translated, and significantly advanced by figures like Jabir ibn Hayyan (Geber)."
+          }
+        ]
+      },
+      {
+        "heading": "Medieval European Alchemy",
+        "topic_summary": "Scholasticism, early experimentation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_trad_medieval_europe",
+            "summary": "The introduction and development of alchemy in Europe during the Middle Ages, often intertwined with Christian theology and scholastic philosophy."
+          }
+        ]
+      },
+      {
+        "heading": "Renaissance Alchemy",
+        "topic_summary": "Paracelsus, Dee, occult revival.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_trad_renaissance",
+            "summary": "A period of revival and transformation in alchemy, with figures like Paracelsus emphasizing medical alchemy (iatrochemistry) and a renewed interest in Hermetic and occult philosophies."
+          }
+        ]
+      },
+      {
+        "heading": "Chinese Alchemy",
+        "topic_summary": "Inner (Neidan), Outer (Waidan).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_trad_chinese",
+            "summary": "A distinct tradition with two main branches: Waidan (external alchemy, focused on creating elixirs with minerals) and Neidan (internal alchemy, focused on cultivating inner energies and spiritual states)."
+          }
+        ]
+      },
+      {
+        "heading": "Indian Alchemy (Rasayana)",
+        "topic_summary": "Longevity, rejuvenation, mercury.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_trad_indian",
+            "summary": "Known as Rasāyana, focusing on elixirs for longevity, health, and spiritual powers, often with a significant emphasis on preparations involving mercury."
+          }
+        ]
+      },
+      {
+        "heading": "Alchemy & Chemistry",
+        "topic_summary": "Transition to modern science.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "alc_concept_chemistry_link",
+            "summary": "The historical relationship between alchemy and the development of modern chemistry, where alchemical laboratory practices and empirical observations laid some groundwork for scientific methodology."
+          }
+        ]
+      }
+    ]
+  }
+]
+

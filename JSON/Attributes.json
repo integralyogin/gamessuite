@@ -1,0 +1,213 @@
+{
+  "Essential Quality": {
+    "short_description": "Fundamental attribute that defines the very nature or being of something."
+  },
+  "Accidental Property": {
+    "short_description": "Non-essential attribute that could be different without changing the thing's nature."
+  },
+  "Potentiality": {
+    "short_description": "Latent capacity or possibility inherent in something."
+  },
+  "Actuality": {
+    "short_description": "Manifested or realized qualities currently expressed."
+  },
+  "Guna": {
+    "short_description": "Fundamental quality or tendency affecting nature and behavior."
+  },
+  "Modality": {
+    "short_description": "Way or mode in which an attribute can manifest or operate."
+  },
+  "Polarity": {
+    "short_description": "Opposing qualities forming complementary aspects of whole."
+  },
+  "Gradation": {
+    "short_description": "Degree or level of intensity of a quality."
+  },
+  "Valence": {
+    "short_description": "Intrinsic attractive or repulsive quality of something."
+  },
+  "Resonance": {
+    "short_description": "Quality of harmony or discord with other elements."
+  },
+  "Signature": {
+    "short_description": "Distinctive pattern of qualities identifying something."
+  },
+  "Tendency": {
+    "short_description": "Natural inclination or predisposition toward certain qualities."
+  },
+  "State": {
+    "short_description": "Temporary configuration of qualities at a given moment."
+  },
+  "Archetype": {
+    "short_description": "Primordial pattern of qualities manifesting in various forms."
+  },
+  "Principle": {
+    "short_description": "Fundamental law or quality governing behavior or manifestation."
+  },
+  "Element": {
+    "short_description": "Basic quality or force component of nature."
+  },
+  "Aspect": {
+    "short_description": "Particular way in which a quality presents itself."
+  },
+  "Frequency": {
+    "short_description": "Rate or pattern of vibration characterizing a quality."
+  },
+  "Phase": {
+    "short_description": "Stage in cyclic manifestation of qualities."
+  },
+  "Vector": {
+    "short_description": "Quality with both magnitude and direction."
+  },
+  "Matrix": {
+    "short_description": "Interconnected system of qualities forming coherent whole."
+  },
+  "Field": {
+    "short_description": "Space of influence where certain qualities operate."
+  },
+  "Spectrum": {
+    "short_description": "Range of related qualities varying along continuous scale."
+  },
+  "Essence": {
+    "short_description": "Core quality determining fundamental nature."
+  },
+  "Flux": {
+    "short_description": "Dynamic flow or change in qualities over time."
+  },
+  "Symmetry": {
+    "short_description": "Pattern of balance or correspondence in qualities."
+  },
+  "Harmony": {
+    "short_description": "State of proper relationship between different qualities."
+  },
+  "Coherence": {
+    "short_description": "Degree of internal consistency among qualities."
+  },
+  "Emergence": {
+    "short_description": "New qualities arising from combination of simpler ones."
+  },
+  "Entropy": {
+    "short_description": "Tendency of qualities toward disorder or dissipation."
+  },
+  "Synergy": {
+    "short_description": "Combined effect of qualities greater than sum of parts."
+  },
+  "Attunement": {
+    "short_description": "Degree of alignment with particular quality or force."
+  },
+  "Qualification": {
+    "short_description": "Process by which something takes on specific qualities."
+  },
+  "Differentiation": {
+    "short_description": "Development of distinct qualities from undifferentiated state."
+  },
+  "Integration": {
+    "short_description": "Unification of different qualities into coherent whole."
+  },
+
+  "Essential Quality": {
+    "short_description": "Fundamental attribute that defines the very nature or essence of something."
+  },
+  "Accidental Quality": {
+    "short_description": "Non-essential attribute that may change without altering fundamental nature."
+  },
+  "Potentiality": {
+    "short_description": "Latent or unrealized capacity for particular qualities or states."
+  },
+  "Actuality": {
+    "short_description": "Manifested or expressed qualities currently in effect."
+  },
+  "Gradation": {
+    "short_description": "Quality that exists on a continuous spectrum of intensity or expression."
+  },
+  "Polarity": {
+    "short_description": "Quality defined by opposition or complementary extremes."
+  },
+  "Harmony": {
+    "short_description": "Quality emerging from balanced relationship between other qualities."
+  },
+  "Resonance": {
+    "short_description": "Quality of sympathetic vibration or alignment with other qualities."
+  },
+  "Emergence": {
+    "short_description": "Quality arising from interaction of more fundamental qualities."
+  },
+  "Transcendental": {
+    "short_description": "Quality that exists beyond normal categories of description."
+  },
+  "Vibrational State": {
+    "short_description": "Quality defined by particular frequency or pattern of energy."
+  },
+  "Modal Quality": {
+    "short_description": "Quality that describes manner or mode of being or operation."
+  },
+  "Relational Quality": {
+    "short_description": "Quality that exists only in relationship between things."
+  },
+  "Intrinsic Quality": {
+    "short_description": "Quality inherent to nature of thing independent of relations."
+  },
+  "Archetypal Quality": {
+    "short_description": "Primordial pattern or template for manifestation of qualities."
+  },
+  "Derivative Quality": {
+    "short_description": "Quality that follows from or depends on more fundamental qualities."
+  },
+  "Quantum State": {
+    "short_description": "Quality existing in superposition of multiple potential states."
+  },
+  "Categorical Quality": {
+    "short_description": "Quality that exists in discrete, non-continuous states."
+  },
+  "Synergistic Quality": {
+    "short_description": "Quality produced by combination greater than sum of components."
+  },
+  "Substrate": {
+    "short_description": "Underlying quality that supports manifestation of other qualities."
+  },
+  "Vector": {
+    "short_description": "Quality with both magnitude and direction of influence."
+  },
+  "Field Property": {
+    "short_description": "Quality distributed through space affecting other qualities."
+  },
+  "Cycle": {
+    "short_description": "Quality that manifests in recurring patterns of change."
+  },
+  "Formative Force": {
+    "short_description": "Quality that shapes development or manifestation of other qualities."
+  },
+  "Attunement": {
+    "short_description": "Degree of alignment or resonance with particular quality."
+  },
+  "Valence": {
+    "short_description": "Capacity to combine with or affect other qualities."
+  },
+  "Phase State": {
+    "short_description": "Distinct mode of quality manifestation under different conditions."
+  },
+  "Qualitative Dimension": {
+    "short_description": "Fundamental axis along which qualities can vary."
+  },
+  "Meta-Quality": {
+    "short_description": "Quality that describes or modifies other qualities."
+  },
+  "Recursive Quality": {
+    "short_description": "Quality that can be applied to itself in nested levels."
+  },
+  "Holistic Quality": {
+    "short_description": "Quality that emerges only at level of complete system."
+  },
+  "Threshold Quality": {
+    "short_description": "Quality that appears at critical point of transition."
+  },
+  "Matrix Quality": {
+    "short_description": "Quality providing structure for emergence of other qualities."
+  },
+  "Entangled Quality": {
+    "short_description": "Quality inextricably linked to other qualities across space/time."
+  },
+  "Information State": {
+    "short_description": "Quality defined by pattern or organization of information."
+  }
+}

@@ -1,0 +1,582 @@
+[
+  {
+    "id": "subj_integral_theory_foundations_001",
+    "title": "Integral Theory",
+    "description": "An exploration of Ken Wilber's Integral Theory, its core models (AQAL), developmental stages, states, types, and applications for a holistic understanding.",
+    "sections": [
+      {
+        "heading": "Integral Theory Intro",
+        "topic_summary": "Meta-framework for everything.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_intro",
+            "summary": "An overview of Integral Theory as a comprehensive meta-framework developed by Ken Wilber, aiming to integrate insights from diverse fields of knowledge and experience."
+          }
+        ]
+      },
+      {
+        "heading": "AQAL Model",
+        "topic_summary": "All Quadrants, All Levels.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_aqal_intro",
+            "summary": "Introduction to the AQAL (All Quadrants, All Levels, All Lines, All States, All Types) model as the core organizing map of Integral Theory."
+          }
+        ]
+      },
+      {
+        "heading": "Quadrants: Overview",
+        "topic_summary": "Four fundamental perspectives.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_quadrants_overview",
+            "summary": "The four irreducible perspectives on any occasion: Interior-Individual (I), Exterior-Individual (It), Interior-Collective (We), and Exterior-Collective (Its)."
+          }
+        ]
+      },
+      {
+        "heading": "Upper-Left (UL)",
+        "topic_summary": "Individual subjective experience.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_quad_ul",
+            "summary": "The Interior-Individual quadrant, representing subjective consciousness, self-awareness, personal experience, thoughts, and feelings (the 'I' domain)."
+          }
+        ]
+      },
+      {
+        "heading": "Upper-Right (UR)",
+        "topic_summary": "Individual objective behavior.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_quad_ur",
+            "summary": "The Exterior-Individual quadrant, representing objective behavior, material body, neurophysiology, and observable actions (the 'It' domain of an individual)."
+          }
+        ]
+      },
+      {
+        "heading": "Lower-Left (LL)",
+        "topic_summary": "Collective cultural meaning.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_quad_ll",
+            "summary": "The Interior-Collective quadrant, representing shared cultural values, worldviews, intersubjective meanings, and collective identity (the 'We' domain)."
+          }
+        ]
+      },
+      {
+        "heading": "Lower-Right (LR)",
+        "topic_summary": "Collective social systems.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_quad_lr",
+            "summary": "The Exterior-Collective quadrant, representing social systems, institutions, environments, economic structures, and material conditions (the 'Its' domain of a collective)."
+          }
+        ]
+      },
+      {
+        "heading": "Levels (Stages)",
+        "topic_summary": "Developmental altitude, complexity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_levels_stages",
+            "summary": "Hierarchical stages or levels of development representing increasing complexity, consciousness, and capacity, present in all quadrants (e.g., Spiral Dynamics, ego development)."
+          }
+        ]
+      },
+      {
+        "heading": "Holons",
+        "topic_summary": "Whole/parts in hierarchy.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_holons",
+            "summary": "Entities that are simultaneously wholes in themselves and parts of larger wholes, forming nested hierarchies (holarchies) of increasing complexity."
+          }
+        ]
+      },
+      {
+        "heading": "Holarchy",
+        "topic_summary": "Nested levels of holons.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_holarchy",
+            "summary": "A hierarchical arrangement of holons where each level transcends and includes its predecessors, adding new emergent properties."
+          }
+        ]
+      },
+      {
+        "heading": "Lines of Development",
+        "topic_summary": "Multiple intelligences, capacities.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_lines",
+            "summary": "Various distinct capacities or intelligences that develop through levels, such as cognitive, emotional, interpersonal, moral, and spiritual lines."
+          }
+        ]
+      },
+      {
+        "heading": "States of Consciousness",
+        "topic_summary": "Temporary experiential states.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_states",
+            "summary": "Temporary, non-permanent states of consciousness, such as waking, dreaming, deep sleep, and various meditative or peak experiences (e.g., gross, subtle, causal, nondual)."
+          }
+        ]
+      },
+      {
+        "heading": "Types",
+        "topic_summary": "Horizontal typologies, styles.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_types",
+            "summary": "Horizontal typologies or styles that can be expressed at any developmental level or state, such as gender types (masculine/feminine) or personality types (e.g., Enneagram, Myers-Briggs)."
+          }
+        ]
+      },
+      {
+        "heading": "Pre/Trans Fallacy",
+        "topic_summary": "Confusing pre-rational/trans-rational.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_pre_trans_fallacy",
+            "summary": "The error of confusing pre-rational or pre-conventional states with trans-rational or trans-conventional states because both are non-rational or non-conventional."
+          }
+        ]
+      },
+      {
+        "heading": "Spectrum of Consciousness",
+        "topic_summary": "Continuum of awareness levels.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_spectrum_consciousness",
+            "summary": "A model depicting consciousness as a spectrum of evolving structures or levels, from archaic to transpersonal, each with its own worldview and sense of self."
+          }
+        ]
+      },
+      {
+        "heading": "Spiral Dynamics",
+        "topic_summary": "Value systems model (Graves).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_spiral_dynamics",
+            "summary": "A model of human psychosocial development (based on Clare Graves' work) depicting evolving value systems or 'vMemes' (e.g., Beige, Purple, Red, Blue, Orange, Green, Yellow, Turquoise)."
+          }
+        ]
+      },
+      {
+        "heading": "Ego Development",
+        "topic_summary": "Stages of self-identity (Loevinger).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_ego_development",
+            "summary": "Theories (e.g., Jane Loevinger, Susanne Cook-Greuter) describing stages of increasing complexity in self-identity, impulse control, and interpersonal style."
+          }
+        ]
+      },
+      {
+        "heading": "Moral Development",
+        "topic_summary": "Kohlberg's stages of ethics.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_moral_development",
+            "summary": "Theories (e.g., Lawrence Kohlberg, Carol Gilligan) outlining stages of moral reasoning, from preconventional (self-interest) to conventional (societal norms) to postconventional (universal principles)."
+          }
+        ]
+      },
+      {
+        "heading": "Spiritual Intelligence",
+        "topic_summary": "Capacity for ultimate meaning.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_spiritual_intelligence",
+            "summary": "A developmental line referring to the capacity to engage with questions of ultimate meaning, purpose, transcendence, and the sacred."
+          }
+        ]
+      },
+      {
+        "heading": "States: Gross",
+        "topic_summary": "Waking, physical reality.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_state_gross",
+            "summary": "The ordinary waking state of consciousness, primarily identified with the physical body and sensory experience."
+          }
+        ]
+      },
+      {
+        "heading": "States: Subtle",
+        "topic_summary": "Dreaming, archetypal, energetic.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_state_subtle",
+            "summary": "States of consciousness associated with dreaming, visions, archetypal imagery, subtle energies, and deeper emotional experiences."
+          }
+        ]
+      },
+      {
+        "heading": "States: Causal",
+        "topic_summary": "Deep sleep, formless awareness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_state_causal",
+            "summary": "A state of profound formless awareness, often associated with deep dreamless sleep or deep meditation; the unmanifest source."
+          }
+        ]
+      },
+      {
+        "heading": "States: Nondual",
+        "topic_summary": "Witnessing, ultimate unity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_state_nondual",
+            "summary": "States of consciousness characterized by the realization of ultimate unity, where the distinction between subject and object, or self and other, dissolves (e.g., Turiya, Turiyatita)."
+          }
+        ]
+      },
+      {
+        "heading": "Waking Up",
+        "topic_summary": "Progressing through states.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_waking_up",
+            "summary": "The process of spiritual development focused on attaining and stabilizing higher states of consciousness, moving towards enlightenment or nondual awareness."
+          }
+        ]
+      },
+      {
+        "heading": "Growing Up",
+        "topic_summary": "Progressing through stages.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_growing_up",
+            "summary": "The process of psychological and structural development through successive stages or levels of consciousness, increasing complexity and capacity in various lines."
+          }
+        ]
+      },
+      {
+        "heading": "Cleaning Up",
+        "topic_summary": "Shadow work, psychological healing.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_cleaning_up",
+            "summary": "The process of addressing and integrating unresolved psychological issues, traumas, and 'shadow' aspects of the self, often through psychotherapy."
+          }
+        ]
+      },
+      {
+        "heading": "Showing Up",
+        "topic_summary": "Engaging with world skillfully.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_showing_up",
+            "summary": "The process of applying one's developmental attainments (states, stages, types) to engage skillfully, compassionately, and effectively in the world."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Methodological Pluralism",
+        "topic_summary": "Using multiple valid perspectives.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_imp",
+            "summary": "An approach that honors and incorporates the valid insights from multiple methodologies and perspectives (e.g., first-person, second-person, third-person inquiries)."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Life Practice (ILP)",
+        "topic_summary": "Holistic personal development.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_ilp",
+            "summary": "A customizable framework for personal development that incorporates practices across multiple modules (e.g., body, mind, spirit, shadow) to foster integral growth."
+          }
+        ]
+      },
+      {
+        "heading": "Shadow Work",
+        "topic_summary": "Integrating unconscious aspects.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_shadow_work",
+            "summary": "The process of bringing unconscious, disowned, or repressed aspects of the psyche into conscious awareness for integration and healing."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Psychology",
+        "topic_summary": "Holistic model of psyche.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_integral_psych",
+            "summary": "An approach to psychology that incorporates insights from various schools of thought within an AQAL framework, addressing all quadrants and levels of development."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Spirituality",
+        "topic_summary": "Spirituality encompassing all life.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_integral_spirituality",
+            "summary": "A form of spirituality that aims to integrate all aspects of human experience—body, mind, soul, and spirit—within a developmental and quadrant-aware context."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Politics",
+        "topic_summary": "Holistic approach to governance.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_integral_politics",
+            "summary": "Applying integral principles to political theory and practice, seeking to understand and integrate diverse perspectives and developmental levels in governance."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Business",
+        "topic_summary": "Conscious, holistic enterprise.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_integral_business",
+            "summary": "Approaches to business and organizational development that incorporate integral principles, focusing on purpose, people, planet, and profit with a developmental awareness."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Ecology",
+        "topic_summary": "Holistic environmentalism.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_integral_ecology",
+            "summary": "An approach to environmentalism that considers all quadrants and levels, integrating scientific, cultural, individual, and systemic perspectives on ecological issues."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Medicine",
+        "topic_summary": "Whole-person healthcare.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_integral_medicine",
+            "summary": "A holistic approach to health and healing that integrates conventional and complementary therapies, addressing all quadrants of a patient's being."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Education",
+        "topic_summary": "Holistic learning approaches.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_integral_education",
+            "summary": "Educational philosophies and practices that aim to develop the whole person by addressing multiple lines of intelligence, stages of development, and states of consciousness."
+          }
+        ]
+      },
+      {
+        "heading": "Evolutionary Perspective",
+        "topic_summary": "Development as core dynamic.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_evolutionary_perspective",
+            "summary": "A core tenet of Integral Theory viewing evolution (cosmic, biological, cultural, individual) as a fundamental drive towards increasing complexity, consciousness, and integration."
+          }
+        ]
+      },
+      {
+        "heading": "Transcend and Include",
+        "topic_summary": "Developmental progression principle.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_transcend_include",
+            "summary": "A key principle of development where each higher stage or level incorporates the essential capacities of earlier stages while adding new, more complex abilities."
+          }
+        ]
+      },
+      {
+        "heading": "Non-Exclusion Principle",
+        "topic_summary": "Everyone is right (partially).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_non_exclusion",
+            "summary": "The integral maxim that 'everybody is right' from their own limited perspective; each viewpoint holds a partial truth that needs to be included in a larger synthesis."
+          }
+        ]
+      },
+      {
+        "heading": "The Four Drives (Eros)",
+        "topic_summary": "Fundamental evolutionary impulses.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_four_drives",
+            "summary": "The four fundamental drives of Eros (the drive towards self-preservation, self-adaptation, self-transcendence, and self-dissolution/communion) operating in all holons."
+          }
+        ]
+      },
+      {
+        "heading": "Perspective Taking",
+        "topic_summary": "Adopting multiple viewpoints.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_perspective_taking",
+            "summary": "The capacity to understand and adopt different perspectives (1st, 2nd, 3rd person, etc.), crucial for integral awareness and navigating complexity."
+          }
+        ]
+      },
+      {
+        "heading": "Altitude & Perspectives",
+        "topic_summary": "Levels shape worldviews.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_altitude_perspectives",
+            "summary": "The understanding that one's developmental level (altitude) significantly shapes one's worldview, values, and how reality is perceived and interpreted."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Post-Metaphysics",
+        "topic_summary": "Grounding spirituality empirically.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_post_metaphysics",
+            "summary": "Wilber's approach to spirituality that seeks to ground it in first-person experience and verifiable injunctions, rather than untestable metaphysical beliefs."
+          }
+        ]
+      },
+      {
+        "heading": "The Witness",
+        "topic_summary": "Pure observing awareness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_witness",
+            "summary": "A state of pure, detached awareness that observes thoughts, feelings, and sensations without identification; a gateway to transpersonal states."
+          }
+        ]
+      },
+      {
+        "heading": "Emptiness (Śūnyatā)",
+        "topic_summary": "Ultimate ground, no-self.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_emptiness",
+            "summary": "A key concept in Mahayana Buddhism, often integrated into Integral Theory, referring to the ultimate nature of reality as devoid of inherent, independent existence."
+          }
+        ]
+      },
+      {
+        "heading": "Fullness (Suchness)",
+        "topic_summary": "Radiant presence of Reality.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_fullness",
+            "summary": "Complementary to Emptiness, this refers to the vibrant, luminous, and full presence of Reality in all its manifestations."
+          }
+        ]
+      },
+      {
+        "heading": "Nonduality",
+        "topic_summary": "Ultimate unity of all.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_nonduality",
+            "summary": "The realization of the ultimate inseparability of subject and object, spirit and matter, emptiness and form; the unitive ground of being."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Vision",
+        "topic_summary": "Seeing through multiple lenses.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_integral_vision",
+            "summary": "The capacity to hold and integrate multiple perspectives simultaneously, leading to a more comprehensive and compassionate understanding of reality."
+          }
+        ]
+      },
+      {
+        "heading": "Second Tier Thinking",
+        "topic_summary": "Integrating diverse value systems.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_second_tier",
+            "summary": "In Spiral Dynamics, a level of consciousness (Yellow, Turquoise) that can appreciate, integrate, and work with the values and perspectives of all preceding developmental stages."
+          }
+        ]
+      },
+      {
+        "heading": "Critiques of Integral",
+        "topic_summary": "Addressing common criticisms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_critiques",
+            "summary": "An awareness of common criticisms leveled against Integral Theory (e.g., over-complexity, hierarchical nature, Wilber's interpretations) and integral responses."
+          }
+        ]
+      },
+      {
+        "heading": "Applying Integral",
+        "topic_summary": "Practical uses in life.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "it_topic_applying_integral",
+            "summary": "Exploring how the AQAL model and integral principles can be practically applied to personal development, relationships, professional work, and societal issues."
+          }
+        ]
+      }
+    ]
+  }
+]
+

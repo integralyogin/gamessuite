@@ -289,3 +289,619 @@ h1 {
     color: #666;
     font-style: italic;
 }
+
+/* Main game styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game-area {
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+/* Player Input Game styles */
+.player-input-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+}
+
+.player-input-screen h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.player-input-screen p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    gap: 15px;
+}
+
+#player-name {
+    padding: 12px 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-align: center;
+}
+
+#start-button {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#start-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+#start-button:active {
+    transform: translateY(1px);
+}
+
+.error-message {
+    color: #ffcccc;
+    font-weight: bold;
+    margin-top: 15px;
+    min-height: 20px;
+}
+
+/* Character Stats Game styles */
+.character-stats-screen {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    color: white;
+}
+
+.character-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.character-name {
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.character-coins {
+    font-size: 1.5em;
+    background-color: rgba(255, 215, 0, 0.3);
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.coin-icon {
+    color: gold;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.stat-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat-label {
+    width: 120px;
+    font-size: 1.2em;
+}
+
+.stat-value {
+    width: 40px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.stat-bar {
+    flex-grow: 1;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.stat-fill {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 10%;
+    transition: width 0.5s;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: auto;
+}
+
+.continue-button {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.continue-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.continue-button:active {
+    transform: translateY(1px);
+}
+
+
+
+        /* === ARCADE SPECIFIC STYLES === */
+        .arcade-menu {
+            justify-content: flex-start; /* Aligns children (header, cabinets, exit) to the top */
+        }
+
+        .arcade-header {
+            width: 100%;
+            margin-bottom: 20px !important; /* Reduced from 25px */
+            text-align: center; /* Ensure text elements within are centered */
+        }
+        .arcade-header h2 {
+            font-family: 'Press Start 2P', cursive;
+            color: #FFFF00;
+            font-size: 2em;
+            text-shadow: 2px 2px #FF0000, -2px -2px #00FFFF;
+            margin-top: 0; /* Remove default margin */
+            margin-bottom: 10px; /* Reduced from 15px */
+            letter-spacing: 1px;
+        }
+        .arcade-header p {
+            font-family: 'Press Start 2P', cursive;
+            color: #00FF00;
+            font-size: 1em;
+            margin: 3px 0; /* Reduced from 5px */
+            letter-spacing: 0.5px;
+        }
+
+        .arcade-cabinets-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px; /* Reduced from 20px */
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        .arcade-cabinet {
+            background: linear-gradient(to bottom, #3a3a3a 0%, #1a1a1a 100%);
+            border: 3px solid #555;
+            border-radius: 8px 8px 5px 5px;
+            width: 150px;
+            padding: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+        }
+        .arcade-cabinet:hover, .arcade-cabinet:focus  {
+            transform: scale(1.03);
+            box-shadow: 0 0 12px #FFFF00, 0 0 18px #FF00FF;
+            outline: 2px solid #FFFF00;
+        }
+
+        .arcade-cabinet img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            border: 2px solid #222;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            background-color: #000;
+        }
+
+        .arcade-cabinet .arcade-cabinet-title {
+            font-family: 'Press Start 2P';
+            color: #FFFFFF;
+            background-color: #D20000;
+            padding: 5px 3px;
+            font-size: 0.65em;
+            margin: 0;
+            border-radius: 1px;
+            line-height: 1.1;
+            word-wrap: break-word; /* or overflow-wrap: break-word; */
+            text-shadow: 1px 1px #000;
+            min-height: calc(0.65em * 1.2 * 2 + 10px); /* Attempt to reserve space for two lines of text + padding */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #arcade-exit-button {
+            background-color: #B22222;
+            border-color: #FF6347;
+            padding: 12px 25px;
+            font-size: 1em;
+            /* margin-top will be handled by its container */
+        }
+        #arcade-exit-button:hover {
+            background-color: #CD5C5C;
+            border-color: #FFA07A;
+        }
+
+        /* Container for exit button to control its spacing */
+        .arcade-exit-button-container { /* Assuming you wrap the exit button for margin control if needed */
+            width: 100%;
+            text-align: center;
+            margin-top: 20px; /* Reduced from 25px */
+        }
+
+        .arcade-loading-screen {
+            font-family: 'Press Start 2P', cursive;
+            color: #00FF00;
+            font-size: 1.3em;
+            text-align: center;
+            padding-top: 100px; /* Keep padding for vertical centering feel */
+            line-height: 1.8;
+        }
+
+
+	/* Ensure the main arcade menu container can position the 'X' button correctly */
+.game-area.arcade-menu {
+    position: relative; /* This is CRUCIAL */
+}
+
+#arcade-close-x-button {
+    position: absolute;
+    top: 15px;       /* Adjust spacing from the top */
+    left: 15px;      /* Adjust spacing from the left */
+    width: 30px;     /* Width of the button */
+    height: 30px;    /* Height of the button */
+    padding: 0;      /* Remove default button padding */
+
+    background-color: #444; /* A slightly dark background */
+    color: white;           /* White 'X' */
+    border: 1px solid #666;
+    border-radius: 50%;     /* Makes it a circle */
+
+    font-family: Arial, sans-serif; /* Or any font that has a good '×' */
+    font-size: 20px;        /* Size of the '×' character */
+    font-weight: bold;
+    line-height: 28px;   /* Adjust to vertically center the '×' in the button */
+    text-align: center;
+
+    cursor: pointer;
+    z-index: 1010; /* Ensure it's on top of other menu content if needed */
+
+    /* Optional: simple transition for hover effect */
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+}
+
+#arcade-close-x-button:hover {
+    background-color: #666; /* Darker on hover */
+    transform: scale(1.1);  /* Slightly enlarge on hover */
+}
+
+#arcade-close-x-button:active {
+    transform: scale(1.0); /* Back to normal size when clicked */
+}
+
+/* Reminder for styling the other buttons if needed */
+#arcade-exit-button { /* The original exit button at the bottom */
+    /* Add your preferred styling here if it's not showing up well */
+    /* For example: */
+    /* padding: 10px 20px; */
+    /* background-color: #d9534f; */ /* Reddish color */
+    /* color: white; */
+    /* border: none; */
+    /* border-radius: 5px; */
+    /* font-size: 1em; */
+}
+
+#arcade-leave-subgame-button { /* The button to leave a sub-game */
+     /* Existing styles from previous steps, e.g.: */
+    /* padding: 8px 15px; */
+    /* background-color: #FFA500; */ /* Orange */
+    /* color: white; */
+    /* border: 1px solid #FF8C00; */
+    /* border-radius: 5px; */
+}
+
+/* Styles for the JsonDataTableRenderer plugin's output (prefixed with jdt-) */
+.jdt-loading-message, .jdt-error-message {
+    padding: 10px;
+    font-style: italic;
+    color: #555;
+}
+.jdt-error-message {
+    color: #d9534f; /* Bootstrap's danger color */
+    font-weight: bold;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+}
+.jdt-preformatted {
+    white-space: pre-wrap;
+    word-break: break-all;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+.jdt-table th, .jdt-table td {
+    border: 1px solid #dee2e6; /* Slightly lighter border */
+    padding: 12px 15px; /* Increased padding */
+    text-align: left;
+    vertical-align: top;
+    word-break: break-word;
+}
+.jdt-table th {
+    background-color: #f8f9fa; /* Lighter header */
+    color: #343a40; /* Darker text for header */
+    font-weight: 600; /* Slightly bolder */
+    text-transform: capitalize; /* Capitalize headers further if _formatKeyAsHeader isn't enough */
+}
+.jdt-table tr:nth-child(even) td { /* Apply to td to avoid affecting th in thead if it's also tr:nth-child(even) */
+    background-color: #fcfdff; /* Very light blue/gray for even rows */
+}
+.jdt-table tr:hover td { /* Hover effect for data rows */
+    background-color: #e9ecef;
+    transition: background-color 0.15s ease-in-out;
+}
+.jdt-json-link {
+    color: #0069d9; /* Slightly darker blue for links */
+    text-decoration: none; /* Remove underline by default */
+    font-size: 22px;
+    font-weight: 500;
+    transition: color 0.15s ease-in-out;
+}
+.jdt-json-link:hover, .jdt-json-link:focus {
+    color: #004085; /* Darker blue on hover */
+    text-decoration: underline;
+}
+.jdt-key-value-table td:first-child {
+    font-weight: 600; /* Bolder keys in key-value display */
+    color: #5a5a5a; /* Slightly muted color for keys */
+}
+
+/* Styles for Recursive Fallback View from the plugin */
+.jdt-recursive-view { /* Add some padding/border if it's used */
+    padding: 10px;
+    border: 1px dashed #ccc;
+    margin-top:10px;
+    background-color: #fdfdfd;
+}
+.jdt-recursive-view ul { list-style-type: none; padding-left: 20px; margin-top: 2px; margin-bottom: 2px; }
+.jdt-recursive-view li { margin-bottom: 1px; }
+.jdt-recursive-view .jdt-key { color: #c0392b; font-weight: bold; } /* More distinct key color */
+.jdt-recursive-view .jdt-string { color: #27ae60; } /* Greener string */
+.jdt-recursive-view .jdt-number { color: #2980b9; } /* Bluer number */
+.jdt-recursive-view .jdt-boolean { color: #8e44ad; } /* Purpler boolean */
+.jdt-recursive-view .jdt-null { color: #7f8c8d; font-style: italic; }
+
+
+/* Styles for the JsonDataTableRenderer plugin's output (prefixed with jdt-) */
+.jdt-loading-message, .jdt-error-message {
+    padding: 10px;
+    font-style: italic;
+    color: #555;
+}
+.jdt-error-message {
+    color: #d9534f; /* Bootstrap's danger color */
+    font-weight: bold;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+}
+.jdt-preformatted {
+    white-space: pre-wrap;
+    word-break: break-all;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+.jdt-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 1.2em;
+    table-layout: fixed; /* CRITICAL: This allows explicit column width control */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.jdt-table th, .jdt-table td {
+    border: 1px solid #dee2e6;
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: top;
+    /* Apply word-break to all cells, especially important for the 'Quote' column
+       and for any column if its content overflows its fixed width. */
+    word-break: break-word;
+    overflow-wrap: break-word; /* Provides better word breaking for some cases */
+}
+
+.jdt-table th {
+    background-color: #e9ecef; /* Slightly darker header for more contrast */
+    color: #212529;       /* Darker text for header */
+    font-weight: 600;
+    text-transform: capitalize;
+    position: sticky;     /* Make header sticky if table scrolls (optional but nice) */
+    top: 0;               /* Required for sticky header */
+    z-index: 10;          /* Ensure header is above scrolling content */
+    border-bottom: 2px solid #ced4da; /* Stronger bottom border for visual separation */
+
+    /* For table-layout:fixed, if header text might also be too long for the column: */
+    overflow: hidden;         /* Hide overflow */
+    text-overflow: ellipsis;  /* Show '...' if text is hidden */
+    /* white-space: nowrap; */ /* Uncomment if you want headers on a single line, potentially truncated */
+}
+
+/* First column (Term): Give it a generous, fixed width */
+.jdt-table th:nth-child(1),
+.jdt-table td:nth-child(1) {
+    width: 25%; /* Adjust this percentage based on your needs. Should be enough for "Injunction". */
+    /* min-width: 150px; /* With table-layout:fixed, width is more dominant. Min-width is less critical here. */
+    font-weight: 500; /* Make terms slightly more prominent */
+    /* Text will wrap here if a single word is too long for 25% width, or many words fill it up.
+       This should prevent "Injun ction" for reasonably sized terms. */
+}
+
+/* Second column (Ein Code): Fixed width, centered */
+.jdt-table th:nth-child(2),
+.jdt-table td:nth-child(2) {
+    width: 15%; /* Or a fixed pixel value like 100px if preferred. Adjust as needed. */
+    text-align: center; /* As seen in the image */
+}
+
+/* Third column (Quote): Takes remaining space, handles multi-line content and overflow */
+.jdt-table th:nth-child(3),
+.jdt-table td:nth-child(3) {
+    /* Width for the last column. Ensure sum of widths is ~100% for all columns */
+    width: 60%; /* Example: 100% - 25% (Term) - 15% (Ein Code) = 60% */
+    max-height: 150px;   /* Limit the height of the quote cell to prevent overly tall rows */
+    overflow-y: auto;    /* Add a vertical scrollbar if quote content exceeds max-height */
+    line-height: 1.45;   /* Slightly more line spacing for readability of long text blocks */
+    /* word-break and overflow-wrap are inherited and essential here */
+}
+
+.jdt-table tr:nth-child(even) td {
+    background-color: #fcfdff; /* Very light blue/gray for even rows */
+}
+.jdt-table tr:hover td {
+    background-color: #e9ecef;
+    transition: background-color 0.15s ease-in-out;
+}
+.jdt-json-link {
+    color: #0069d9;
+    text-decoration: none;
+    font-weight: 500; /* Links in Term column already have this from td:nth-child(1) */
+    transition: color 0.15s ease-in-out;
+}
+.jdt-json-link:hover, .jdt-json-link:focus {
+    color: #004085;
+    text-decoration: underline;
+}
+
+/* Styles for Key-Value table (if used) */
+.jdt-key-value-table td:first-child {
+    font-weight: 600;
+    color: #5a5a5a;
+}
+
+/* Styles for Recursive Fallback View */
+.jdt-recursive-view {
+    padding: 10px;
+    border: 1px dashed #ccc;
+    margin-top:10px;
+    background-color: #fdfdfd;
+}
+.jdt-recursive-view ul { list-style-type: none; padding-left: 20px; margin-top: 2px; margin-bottom: 2px; }
+.jdt-recursive-view li { margin-bottom: 1px; }
+.jdt-recursive-view .jdt-key { color: #c0392b; font-weight: bold; }
+.jdt-recursive-view .jdt-string { color: #27ae60; }
+.jdt-recursive-view .jdt-number { color: #2980b9; }
+.jdt-recursive-view .jdt-boolean { color: #8e44ad; }
+.jdt-recursive-view .jdt-null { color: #7f8c8d; font-style: italic; }
+
+#json-navigation-history {
+    margin-bottom: 10px;
+    font-size: 1em;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}
+#json-navigation-history .jdt-history-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 5px;
+}
+#json-navigation-history .jdt-history-link:hover {
+    text-decoration: underline;
+}
+#json-navigation-history .jdt-history-separator {
+    margin-right: 5px;
+    color: #555;
+}
+
+#json-navigation-history {
+    margin-bottom: 10px;
+    font-size: 1em;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}
+#json-navigation-history .jdt-history-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 5px;
+}
+#json-navigation-history .jdt-history-link:hover {
+    text-decoration: underline;
+}
+#json-navigation-history .jdt-history-separator {
+    margin-right: 5px;
+    color: #555;
+}

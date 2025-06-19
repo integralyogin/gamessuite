@@ -1,0 +1,736 @@
+[
+  {
+    "id": "subj_grammar_foundations_001",
+    "title": "Grammar",
+    "description": "A progressive exploration of grammatical concepts, rules, and structures, essential for clear and effective communication.",
+    "sections": [
+      {
+        "heading": "Grammar Defined",
+        "topic_summary": "Language structure rules.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_intro",
+            "summary": "An introduction to grammar as the system and structure of a language, encompassing syntax, morphology, and sometimes phonology and semantics."
+          }
+        ]
+      },
+      {
+        "heading": "Prescriptive Grammar",
+        "topic_summary": "Rules for 'correct' usage.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_prescriptive",
+            "summary": "A set of rules and norms governing how a language should or should not be used, often focusing on 'correctness'."
+          }
+        ]
+      },
+      {
+        "heading": "Descriptive Grammar",
+        "topic_summary": "Describing language use.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_descriptive",
+            "summary": "An approach that describes how a language is actually used by its speakers, without making judgments about correctness."
+          }
+        ]
+      },
+      {
+        "heading": "Parts of Speech",
+        "topic_summary": "Word categories, functions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_parts_of_speech_overview",
+            "summary": "An overview of the major categories of words based on their grammatical function in a sentence (e.g., noun, verb, adjective)."
+          }
+        ]
+      },
+      {
+        "heading": "Nouns: Common/Proper",
+        "topic_summary": "General vs. specific names.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_nouns_common_proper",
+            "summary": "Distinguishing common nouns (general categories, e.g., 'city') from proper nouns (specific names, e.g., 'Paris', capitalized)."
+          }
+        ]
+      },
+      {
+        "heading": "Nouns: Concrete/Abstract",
+        "topic_summary": "Tangible vs. conceptual.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_nouns_concrete_abstract",
+            "summary": "Differentiating concrete nouns (perceptible by senses, e.g., 'table') from abstract nouns (ideas, qualities, e.g., 'freedom')."
+          }
+        ]
+      },
+      {
+        "heading": "Nouns: Countable/Uncountable",
+        "topic_summary": "Can be counted or not.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_nouns_countable_uncountable",
+            "summary": "Understanding countable nouns (can be pluralized and counted, e.g., 'books') versus uncountable nouns (mass nouns, e.g., 'water')."
+          }
+        ]
+      },
+      {
+        "heading": "Nouns: Singular/Plural",
+        "topic_summary": "One vs. multiple entities.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_nouns_singular_plural",
+            "summary": "Rules for forming plural nouns from singular nouns to indicate more than one person, place, thing, or idea."
+          }
+        ]
+      },
+      {
+        "heading": "Nouns: Possessive Case",
+        "topic_summary": "Showing ownership (apostrophe).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_nouns_possessive",
+            "summary": "Using apostrophes ('s or s') to indicate possession or ownership for nouns (e.g., 'student's book', 'students' books')."
+          }
+        ]
+      },
+      {
+        "heading": "Pronouns: Personal",
+        "topic_summary": "Replacing specific nouns.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_pronouns_personal",
+            "summary": "Words that substitute for nouns or noun phrases, referring to the speaker (I, we), the person spoken to (you), or the person/thing spoken about (he, she, it, they)."
+          }
+        ]
+      },
+      {
+        "heading": "Pronouns: Possessive",
+        "topic_summary": "Showing ownership (mine, yours).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_pronouns_possessive",
+            "summary": "Pronouns that indicate ownership (e.g., my/mine, your/yours, his, her/hers, its, our/ours, their/theirs)."
+          }
+        ]
+      },
+      {
+        "heading": "Pronouns: Reflexive/Intensive",
+        "topic_summary": "Referring back, emphasizing.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_pronouns_reflexive_intensive",
+            "summary": "Pronouns ending in -self or -selves, used reflexively (object refers to subject, e.g., 'I hurt myself') or intensively (emphasizing a noun/pronoun, e.g., 'I myself did it')."
+          }
+        ]
+      },
+      {
+        "heading": "Pronouns: Demonstrative",
+        "topic_summary": "Pointing out (this, that).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_pronouns_demonstrative",
+            "summary": "Pronouns that point to specific persons, places, or things (this, that, these, those)."
+          }
+        ]
+      },
+      {
+        "heading": "Pronouns: Interrogative",
+        "topic_summary": "Asking questions (who, what).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_pronouns_interrogative",
+            "summary": "Pronouns used to ask questions (who, whom, whose, what, which)."
+          }
+        ]
+      },
+      {
+        "heading": "Pronouns: Relative",
+        "topic_summary": "Connecting clauses (who, which).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_pronouns_relative",
+            "summary": "Pronouns that introduce relative clauses and connect them to antecedents (who, whom, whose, which, that)."
+          }
+        ]
+      },
+      {
+        "heading": "Pronouns: Indefinite",
+        "topic_summary": "Non-specific persons/things.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_pronouns_indefinite",
+            "summary": "Pronouns that refer to non-specific persons, places, or things (e.g., all, any, some, none, everyone, somebody)."
+          }
+        ]
+      },
+      {
+        "heading": "Pronoun-Antecedent Agreement",
+        "topic_summary": "Pronoun matches noun.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_pronoun_antecedent_agreement",
+            "summary": "The rule that a pronoun must agree in number (singular/plural) and gender (masculine/feminine/neuter) with its antecedent (the noun it refers to)."
+          }
+        ]
+      },
+      {
+        "heading": "Verbs: Action/Linking/Helping",
+        "topic_summary": "Doing, being, assisting verbs.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verbs_types",
+            "summary": "Classifying verbs: action verbs (express physical/mental action), linking verbs (connect subject to predicate noun/adjective), and helping/auxiliary verbs (assist main verb)."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Tense: Present",
+        "topic_summary": "Actions happening now.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_tense_present",
+            "summary": "Verb forms indicating actions or states occurring in the present time (e.g., simple present, present progressive, present perfect)."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Tense: Past",
+        "topic_summary": "Actions already happened.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_tense_past",
+            "summary": "Verb forms indicating actions or states that occurred in the past (e.g., simple past, past progressive, past perfect)."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Tense: Future",
+        "topic_summary": "Actions yet to happen.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_tense_future",
+            "summary": "Verb forms indicating actions or states that will occur in the future (e.g., simple future, future progressive, future perfect)."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Aspect: Simple",
+        "topic_summary": "Facts, habitual actions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_aspect_simple",
+            "summary": "Verb aspect indicating actions as complete facts or habitual occurrences, without specific emphasis on duration or completion relative to another point."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Aspect: Progressive",
+        "topic_summary": "Ongoing, continuous actions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_aspect_progressive",
+            "summary": "Verb aspect (also continuous) indicating actions that are in progress at a particular time (e.g., 'is walking', 'was walking')."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Aspect: Perfect",
+        "topic_summary": "Completed actions, relevance now.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_aspect_perfect",
+            "summary": "Verb aspect indicating actions completed before another point in time, often with relevance to that later time (e.g., 'has walked', 'had walked')."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Aspect: Perfect Prog.",
+        "topic_summary": "Ongoing action up to point.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_aspect_perfect_prog",
+            "summary": "Verb aspect indicating an action that was ongoing up to a certain point in time (e.g., 'has been walking', 'had been walking')."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Mood: Indicative",
+        "topic_summary": "Stating facts, opinions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_mood_indicative",
+            "summary": "Verb mood used to state facts, express opinions, or ask questions about reality."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Mood: Imperative",
+        "topic_summary": "Commands, requests.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_mood_imperative",
+            "summary": "Verb mood used to give commands, make requests, or offer advice (e.g., 'Stop!', 'Please listen.')."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Mood: Subjunctive",
+        "topic_summary": "Wishes, hypotheticals, non-real.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_mood_subjunctive",
+            "summary": "Verb mood used to express wishes, suggestions, requirements, or hypothetical/contrary-to-fact situations (e.g., 'If I were you...')."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Voice: Active",
+        "topic_summary": "Subject performs action.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_voice_active",
+            "summary": "Verb voice where the grammatical subject of the sentence performs the action of the verb (e.g., 'The cat chased the mouse.')."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Voice: Passive",
+        "topic_summary": "Subject receives action.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_voice_passive",
+            "summary": "Verb voice where the grammatical subject receives the action of the verb (e.g., 'The mouse was chased by the cat.')."
+          }
+        ]
+      },
+      {
+        "heading": "Subject-Verb Agreement",
+        "topic_summary": "Verb matches subject number.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_subject_verb_agreement",
+            "summary": "The grammatical rule that the verb in a sentence must agree in number (singular/plural) with its subject."
+          }
+        ]
+      },
+      {
+        "heading": "Irregular Verbs",
+        "topic_summary": "Non-standard past forms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_irregular_verbs",
+            "summary": "Verbs that do not follow the standard pattern of forming their past tense and past participle by adding -ed (e.g., go/went/gone)."
+          }
+        ]
+      },
+      {
+        "heading": "Transitive/Intransitive Verbs",
+        "topic_summary": "Takes object vs. no object.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_transitive_intransitive",
+            "summary": "Distinguishing transitive verbs (require a direct object to complete their meaning) from intransitive verbs (do not require a direct object)."
+          }
+        ]
+      },
+      {
+        "heading": "Phrasal Verbs",
+        "topic_summary": "Verb + particle combination.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_phrasal_verbs",
+            "summary": "Combinations of a verb and a preposition or adverb (particle) that together have a meaning different from the individual words (e.g., 'look up', 'give in')."
+          }
+        ]
+      },
+      {
+        "heading": "Adjectives: Descriptive",
+        "topic_summary": "Modifying nouns, pronouns.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_adjectives_descriptive",
+            "summary": "Words that describe or modify nouns or pronouns, providing more information about their qualities or characteristics."
+          }
+        ]
+      },
+      {
+        "heading": "Adjectives: Comparative/Superlative",
+        "topic_summary": "Comparing qualities (-er, -est).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_adjectives_comparative_superlative",
+            "summary": "Forms of adjectives used to compare two things (comparative, e.g., 'bigger') or more than two things (superlative, e.g., 'biggest')."
+          }
+        ]
+      },
+      {
+        "heading": "Adverbs: Types",
+        "topic_summary": "Modifying verbs, adjectives, adverbs.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_adverbs_types",
+            "summary": "Words that modify verbs, adjectives, or other adverbs, typically indicating manner, place, time, frequency, or degree."
+          }
+        ]
+      },
+      {
+        "heading": "Adverbs: Comparative/Superlative",
+        "topic_summary": "Comparing manner (-er, -est).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_adverbs_comparative_superlative",
+            "summary": "Forms of adverbs used for comparison (e.g., 'faster', 'most carefully')."
+          }
+        ]
+      },
+      {
+        "heading": "Modifier Placement",
+        "topic_summary": "Avoiding misplaced/dangling.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_modifier_placement",
+            "summary": "Rules and best practices for placing adjectives, adverbs, and modifying phrases close to the words they modify to avoid ambiguity (misplaced modifiers) or illogical connections (dangling modifiers)."
+          }
+        ]
+      },
+      {
+        "heading": "Sentences: Subject & Predicate",
+        "topic_summary": "Who/what & action/state.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_sentence_subject_predicate",
+            "summary": "The two main parts of a sentence: the subject (who or what the sentence is about) and the predicate (what the subject does or is)."
+          }
+        ]
+      },
+      {
+        "heading": "Sentences: Declarative",
+        "topic_summary": "Making a statement.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_sentence_declarative",
+            "summary": "Sentences that make a statement or declare something; they end with a period."
+          }
+        ]
+      },
+      {
+        "heading": "Sentences: Interrogative",
+        "topic_summary": "Asking a question.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_sentence_interrogative",
+            "summary": "Sentences that ask a question; they end with a question mark."
+          }
+        ]
+      },
+      {
+        "heading": "Sentences: Imperative",
+        "topic_summary": "Giving a command.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_sentence_imperative",
+            "summary": "Sentences that give a command, make a request, or offer advice; the subject (you) is often implied."
+          }
+        ]
+      },
+      {
+        "heading": "Sentences: Exclamatory",
+        "topic_summary": "Expressing strong emotion.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_sentence_exclamatory",
+            "summary": "Sentences that express strong emotion or surprise; they end with an exclamation mark."
+          }
+        ]
+      },
+      {
+        "heading": "Phrases: Overview",
+        "topic_summary": "Groups of related words.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_phrases_overview",
+            "summary": "A group of related words that functions as a single part of speech but does not contain both a subject and a verb."
+          }
+        ]
+      },
+      {
+        "heading": "Noun Phrases",
+        "topic_summary": "Noun and its modifiers.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_noun_phrases",
+            "summary": "A phrase that functions as a noun in a sentence, typically consisting of a noun and any associated modifiers (adjectives, articles)."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Phrases",
+        "topic_summary": "Main verb and helpers.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_verb_phrases",
+            "summary": "A phrase consisting of a main verb and any helping verbs (auxiliaries)."
+          }
+        ]
+      },
+      {
+        "heading": "Prepositional Phrases",
+        "topic_summary": "Preposition, object, modifiers.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_prepositional_phrases",
+            "summary": "A phrase beginning with a preposition and ending with a noun or pronoun (the object of the preposition), often with modifiers in between."
+          }
+        ]
+      },
+      {
+        "heading": "Clauses: Independent",
+        "topic_summary": "Complete thought, can stand alone.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_clauses_independent",
+            "summary": "A group of words containing a subject and a verb that expresses a complete thought and can stand alone as a sentence."
+          }
+        ]
+      },
+      {
+        "heading": "Clauses: Dependent",
+        "topic_summary": "Incomplete thought, needs main clause.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_clauses_dependent",
+            "summary": "A group of words containing a subject and a verb that does not express a complete thought and cannot stand alone as a sentence (also subordinate clause)."
+          }
+        ]
+      },
+      {
+        "heading": "Sentence Types: Simple",
+        "topic_summary": "One independent clause.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_sentence_simple",
+            "summary": "A sentence consisting of only one independent clause, with a single subject and predicate."
+          }
+        ]
+      },
+      {
+        "heading": "Sentence Types: Compound",
+        "topic_summary": "Two+ independent clauses.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_sentence_compound",
+            "summary": "A sentence containing two or more independent clauses joined by a coordinating conjunction, semicolon, or conjunctive adverb."
+          }
+        ]
+      },
+      {
+        "heading": "Sentence Types: Complex",
+        "topic_summary": "Independent + dependent clause(s).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_sentence_complex",
+            "summary": "A sentence containing one independent clause and at least one dependent clause."
+          }
+        ]
+      },
+      {
+        "heading": "Sentence Types: Compound-Complex",
+        "topic_summary": "Multiple independent + dependent.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_sentence_compound_complex",
+            "summary": "A sentence containing two or more independent clauses and at least one dependent clause."
+          }
+        ]
+      },
+      {
+        "heading": "Prepositions: Function",
+        "topic_summary": "Show relationships (time, place).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_prepositions_function",
+            "summary": "Words that link nouns, pronouns, or phrases to other words in a sentence, often indicating relationships of time, space, or logic."
+          }
+        ]
+      },
+      {
+        "heading": "Conjunctions: Coordinating",
+        "topic_summary": "Joining equal elements (FANBOYS).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_conjunctions_coordinating",
+            "summary": "Words that connect words, phrases, or clauses of equal grammatical rank (for, and, nor, but, or, yet, so)."
+          }
+        ]
+      },
+      {
+        "heading": "Conjunctions: Subordinating",
+        "topic_summary": "Joining dependent to independent.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_conjunctions_subordinating",
+            "summary": "Words that introduce a dependent (subordinate) clause and connect it to an independent clause (e.g., although, because, since, when)."
+          }
+        ]
+      },
+      {
+        "heading": "Conjunctions: Correlative",
+        "topic_summary": "Paired connectors (either/or).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_conjunctions_correlative",
+            "summary": "Pairs of conjunctions that work together to connect sentence elements of equal rank (e.g., either/or, neither/nor, not only/but also)."
+          }
+        ]
+      },
+      {
+        "heading": "Interjections",
+        "topic_summary": "Expressing strong emotion.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_interjections",
+            "summary": "Words or phrases used to express strong emotion or surprise, often standing alone or set off by punctuation (e.g., Wow!, Oh!, Ouch!)."
+          }
+        ]
+      },
+      {
+        "heading": "Articles",
+        "topic_summary": "A, an, the (determiners).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_articles",
+            "summary": "The words 'a', 'an' (indefinite articles), and 'the' (definite article), which are a type of determiner used to specify nouns."
+          }
+        ]
+      },
+      {
+        "heading": "Punctuation: End Marks",
+        "topic_summary": "Period, question, exclamation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_punctuation_end_marks",
+            "summary": "Marks used to signal the end of a sentence: period (.), question mark (?), and exclamation mark (!)."
+          }
+        ]
+      },
+      {
+        "heading": "Punctuation: Commas",
+        "topic_summary": "Separating sentence elements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_punctuation_commas",
+            "summary": "Marks used to separate items in a series, set off introductory elements, join independent clauses with conjunctions, and for other clarifying purposes."
+          }
+        ]
+      },
+      {
+        "heading": "Punctuation: Semicolons/Colons",
+        "topic_summary": "Linking clauses, introducing lists.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_punctuation_semicolons_colons",
+            "summary": "Semicolons (;) join closely related independent clauses or separate items in a complex series. Colons (:) introduce lists, explanations, or quotations."
+          }
+        ]
+      },
+      {
+        "heading": "Punctuation: Apostrophes",
+        "topic_summary": "Possession, contractions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_punctuation_apostrophes",
+            "summary": "Marks used to indicate possession (e.g., 'boy's') or to show the omission of letters in contractions (e.g., 'don't')."
+          }
+        ]
+      },
+      {
+        "heading": "Punctuation: Quotation Marks",
+        "topic_summary": "Direct speech, titles.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_punctuation_quotation_marks",
+            "summary": "Marks used to enclose direct quotations, titles of short works (articles, poems), or to indicate a word is used in a special sense."
+          }
+        ]
+      },
+      {
+        "heading": "Capitalization Rules",
+        "topic_summary": "Proper nouns, sentence start.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "grammar_topic_capitalization",
+            "summary": "Conventions for using uppercase letters, such as for the first word of a sentence, proper nouns, and important words in titles."
+          }
+        ]
+      }
+    ]
+  }
+]
+

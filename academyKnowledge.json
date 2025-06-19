@@ -1,0 +1,499 @@
+[
+  {
+    "id": "subj_integral_yoga_deep_001",
+    "title": "Integral Yoga: A Multi-Layered Knowledge Base",
+    "description": "An exploration of Integral Yoga, structured for deep navigation through its concepts, figures, texts, practices, and practical wisdom.",
+    "sections": [
+      {
+        "heading": "I. Core Concepts & Terminology",
+        "paragraphs": [
+          {
+            "type": "concept_definition",
+            "id": "concept_sachchidananda",
+            "term": "Sachchidananda",
+            "summary": "The Absolute; the triune principle of Being-Consciousness-Bliss (Sat-Chit-Ananda) as the nature of ultimate Reality.",
+            "details": [
+              {
+                "aspect": "Sat (Existence)",
+                "explanation": "Pure, self-existent Being, the fundamental reality underlying all manifestation. It is the Is-ness that is eternal and infinite."
+              },
+              {
+                "aspect": "Chit (Consciousness-Force)",
+                "explanation": "Self-aware Consciousness and its inherent dynamic Force or Power (Tapas/Shakti). It is not merely awareness but the power that creates, sustains, and transforms worlds."
+              },
+              {
+                "aspect": "Ananda (Bliss)",
+                "explanation": "The essential delight of Being, the self-existent ecstasy of the Spirit. It is the very nature of Sachchidananda and the ultimate basis of all joy and love in the universe."
+              }
+            ],
+            "significance": "Understanding Sachchidananda is foundational to grasping the goal of Integral Yoga, which is to realize and manifest these divine qualities in life.",
+            "related_terms": ["Brahman", "The Absolute", "Parabrahman"]
+          },
+          {
+            "type": "concept_definition",
+            "id": "concept_supermind",
+            "term": "Supermind (Vijnana / Truth-Consciousness)",
+            "summary": "A plane of perfect, direct, and integral Truth-Consciousness and Truth-Will, beyond the divisive human mind. It is the Divine's own self-knowledge and world-knowledge.",
+            "details": [
+              {
+                "aspect": "Nature & Function",
+                "explanation": "The Supermind possesses an inherent unity of knowledge and will. It sees the truth of each thing, the truth of all things, and the truth of their relations within the One. It is the creator of the divine Law (Rita) and the perfect organizer of manifestation."
+              },
+              {
+                "aspect": "Role in Integral Yoga",
+                "explanation": "Its descent into Earth-consciousness is the specific dynamic principle for the total transformation of human nature (mental, vital, physical) and the divinization of life. It is the key to overcoming the fundamental Ignorance."
+              },
+              {
+                "aspect": "Distinction from Overmind",
+                "explanation": "The Overmind is the highest plane of the mental hemisphere, a globalizing consciousness that can reflect the Supermind but is still subject to the principle of separation and multiplicity. The Supermind is a radical shift into unitarian consciousness."
+              }
+            ],
+            "related_terms": ["Overmind", "Gnostic Being", "Truth-Consciousness"]
+          },
+          {
+            "type": "concept_definition",
+            "id": "concept_psychic_being",
+            "term": "Psychic Being (Chaitya Purusha)",
+            "summary": "The evolving soul, the Divine's deputy or representative in the individual human being. It is a spark of the Divine that grows through lifetimes.",
+            "details": [
+              {
+                "aspect": "Nature & Location",
+                "explanation": "It is a being of pure love, truth, and devotion, typically felt behind the heart center. It is distinct from the mental ego or the vital desires."
+              },
+              {
+                "aspect": "Role in Sadhana",
+                "explanation": "Its emergence to the forefront of consciousness is the first decisive step in Integral Yoga (Psychic Transformation). It guides the being, purifies the nature, and opens it to the Divine Influence."
+              },
+              {
+                "aspect": "Development",
+                "explanation": "It grows through life experiences, especially through aspiration, devotion, and the pursuit of truth and beauty. It carries the essence of evolutionary progress from life to life."
+              }
+            ],
+            "related_terms": ["Soul", "Jivatman (Central Being)", "Psychic Transformation"]
+          }
+        ]
+      },
+      {
+        "heading": "II. Key Figures",
+        "paragraphs": [
+          {
+            "type": "figure_profile",
+            "id": "figure_sri_aurobindo",
+            "name": "Sri Aurobindo (1872-1950)",
+            "summary": "Indian philosopher, yogi, guru, poet, and nationalist. The primary formulator of Integral Yoga.",
+            "biography_points": [
+              "Early life and education in England.",
+              "Involvement in the Indian independence movement.",
+              "Intensive spiritual practice (sadhana) in Pondicherry.",
+              "Development of Integral Yoga philosophy and practice.",
+              "Establishment of the Sri Aurobindo Ashram."
+            ],
+            "major_works_overview": [
+              {
+                "work_title": "The Life Divine",
+                "description": "His principal philosophical work, detailing the metaphysics of Integral Yoga."
+              },
+              {
+                "work_title": "The Synthesis of Yoga",
+                "description": "An extensive exposition of the paths and methods of Integral Yoga."
+              },
+              {
+                "work_title": "Savitri: A Legend and a Symbol",
+                "description": "An epic poem embodying his spiritual vision and experiences."
+              }
+            ],
+            "core_contributions": [
+              "The concept of Supramental Manifestation for Earthly transformation.",
+              "The synthesis of traditional yogic paths into a new, integral approach.",
+              "A vast body of philosophical, yogic, and literary writings."
+            ]
+          },
+          {
+            "type": "figure_profile",
+            "id": "figure_the_mother",
+            "name": "The Mother (Mirra Alfassa, 1878-1973)",
+            "summary": "Sri Aurobindo's spiritual collaborator, instrumental in the practical development and organization of Integral Yoga.",
+            "biography_points": [
+              "Born in Paris, early spiritual experiences.",
+              "Met Sri Aurobindo in Pondicherry in 1914.",
+              "Took charge of the Sri Aurobindo Ashram from 1926.",
+              "Founded Auroville, the 'City of Dawn', in 1968."
+            ],
+            "major_works_overview": [
+              {
+                "work_title": "Prayers and Meditations",
+                "description": "A collection of her early spiritual diary entries."
+              },
+              {
+                "work_title": "The Mother's Agenda",
+                "description": "A 13-volume record of her spiritual experiences and exploration of cellular transformation."
+              },
+              {
+                "work_title": "Entretiens (Questions and Answers)",
+                "description": "Talks given to ashramites and students on various aspects of life and yoga."
+              }
+            ],
+            "core_contributions": [
+              "Practical guidance and force for the sadhana of Integral Yoga.",
+              "The vision and foundation of Auroville.",
+              "Pioneering work in the yoga of the body and cellular consciousness."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "III. Foundational Texts",
+        "paragraphs": [
+          {
+            "type": "text_profile",
+            "id": "text_the_life_divine",
+            "title": "The Life Divine",
+            "author_id": "figure_sri_aurobindo",
+            "publication_info": "First published in the Arya (1914-1919), revised and published in book form (1939-1940).",
+            "overview": "A monumental philosophical treatise establishing the metaphysical foundations of Integral Yoga. It explores the nature of Reality, the process of cosmic and individual evolution, the problem of ignorance, and the potential for a divine life on earth through supramental transformation.",
+            "structure_summary": "Divided into two books: Book One - 'Omnipresent Reality and the Universe'; Book Two - 'The Knowledge and the Ignorance - The Spiritual Evolution'.",
+            "key_chapters_themes": [
+              {
+                "theme_group": "The Nature of Reality",
+                "items": [
+                  "The Human Aspiration",
+                  "The Two Negations: The Materialist Denial & The Refusal of the Ascetic",
+                  "Reality Omnipresent",
+                  "The Absolute (Sachchidananda)"
+                ]
+              },
+              {
+                "theme_group": "Evolutionary Process",
+                "items": [
+                  "The Sevenfold Chord of Being (Planes of Consciousness)",
+                  "The Triple Transformation (Psychic, Spiritual, Supramental)",
+                  "Man and the Evolution",
+                  "The Gnostic Being"
+                ]
+              }
+            ],
+            "significance": "Considered Sri Aurobindo's magnum opus in philosophy, providing the intellectual framework for his entire spiritual vision."
+          },
+          {
+            "type": "text_profile",
+            "id": "text_the_synthesis_of_yoga",
+            "title": "The Synthesis of Yoga",
+            "author_id": "figure_sri_aurobindo",
+            "publication_info": "First published in the Arya (1914-1921), later revised and compiled into book form.",
+            "overview": "A detailed exposition of the principles, methods, and aims of Integral Yoga. It examines traditional yogic paths (Karma, Jnana, Bhakti) and shows how they are taken up, transformed, and integrated into a comprehensive path for divine realization and transformation of nature.",
+            "structure_summary": "Organized into four main parts: The Yoga of Divine Works, The Yoga of Integral Knowledge, The Yoga of Divine Love, and The Yoga of Self-Perfection.",
+            "key_sections_overview": [
+              {
+                "part_title": "Part I: The Yoga of Divine Works",
+                "focus": "Transformation of action into a means of union with the Divine and a channel for Divine Will.",
+                "key_concepts": ["Sacrifice", "Consecration", "The Divine Worker", "Equality"]
+              },
+              {
+                "part_title": "Part II: The Yoga of Integral Knowledge",
+                "focus": "Realization of the Divine through purification and expansion of consciousness.",
+                "key_concepts": ["Realization of the Cosmic Self", "The Release from the Ego", "The Planes of Mind"]
+              },
+              {
+                "part_title": "Part III: The Yoga of Divine Love",
+                "focus": "Union with the Divine through the heart's aspiration, love, and devotion.",
+                "key_concepts": ["The Godward Emotions", "The Mystery of Love", "The Ananda Brahman"]
+              },
+              {
+                "part_title": "Part IV: The Yoga of Self-Perfection",
+                "focus": "The detailed process of transforming the human psychological and physical nature.",
+                "key_concepts": ["The Perfection of the Mental Being", "The Supramental Instruments", "The Divine Body"]
+              }
+            ],
+            "significance": "Provides the practical and psychological framework for the sadhana of Integral Yoga."
+          }
+        ]
+      },
+      {
+        "heading": "IV. Core Practices (Sadhana)",
+        "paragraphs": [
+          {
+            "type": "practice_profile",
+            "id": "practice_aspiration",
+            "name": "Aspiration (The Call)",
+            "summary": "The intense, sincere, and constant upward will and call for the Divine, for Truth, Light, Ananda, and Transformation.",
+            "elements": [
+              {
+                "element_name": "Nature of Aspiration",
+                "description": "It is the 'flame' of the soul (Agni) that rises towards the higher consciousness. It should be persistent and unwavering, regardless of immediate results or difficulties."
+              },
+              {
+                "element_name": "Forms & Expression",
+                "description": "Can take the form of prayer, an inner focused will, a silent self-giving, a yearning of the heart, or a dynamic seeking through action and thought."
+              },
+              {
+                "element_name": "Purity & Direction",
+                "description": "The aspiration should be directed towards the Divine for its own sake and for the divine transformation, not for egoistic gains, powers, or personal satisfaction."
+              },
+              {
+                "element_name": "Role in Sadhana",
+                "description": "It is the primary motive force that initiates and sustains the yogic movement, opens the being to higher influences, and calls down the Divine Grace."
+              }
+            ],
+            "related_elements": ["Rejection", "Surrender", "Psychic Being"]
+          },
+          {
+            "type": "practice_profile",
+            "id": "practice_rejection",
+            "name": "Rejection (The Refusal)",
+            "summary": "The active and vigilant refusal and dismissal of all that is contrary to the divine Truth and the aims of the Yoga.",
+            "elements": [
+              {
+                "element_name": "Targets of Rejection",
+                "description": "Egoistic movements (pride, vanity, desire), falsehoods of mind (doubt, denial, negativity), wrong vital impulses (anger, greed, lust), obscure physical habits (inertia, unconsciousness), and suggestions from hostile or undivine forces."
+              },
+              {
+                "element_name": "Method & Support",
+                "description": "Requires constant self-awareness, discernment (viveka), a strong will, and the support of the Psychic Being's light. It's not suppression, but a conscious disidentification and refusal to harbor or act upon these lower movements."
+              },
+              {
+                "element_name": "Importance",
+                "description": "Essential for purifying the nature and creating a clear space for the Divine Presence and Power to work effectively."
+              }
+            ],
+            "related_elements": ["Aspiration", "Surrender", "Self-Observation"]
+          },
+          {
+            "type": "practice_profile",
+            "id": "practice_surrender",
+            "name": "Surrender (Samarpan)",
+            "summary": "The progressive offering and consecration of one's entire being and life to the Divine (specifically to the Divine Mother/Shakti in Integral Yoga).",
+            "elements": [
+              {
+                "element_name": "Nature of Surrender",
+                "description": "An active, conscious, and willing self-giving. It involves trust (shraddha), faith, and an increasing obedience to the Divine Will and Guidance as it is perceived."
+              },
+              {
+                "element_name": "Scope & Stages",
+                "description": "Begins with the offering of actions and their fruits, extends to the thoughts and emotions, and culminates in the surrender of the ego-sense itself, allowing the Divine to take up the entire government of the being."
+              },
+              {
+                "element_name": "Relationship with Grace",
+                "description": "Surrender is the most effective way to open oneself to the Divine Grace, which is indispensable for the difficult and radical transformation aimed at by Integral Yoga."
+              },
+              {
+                "element_name": "The Divine Mother",
+                "description": "In Integral Yoga, surrender is typically made to the Divine Mother, the executive Consciousness-Force who carries out the Yoga in the sadhaka."
+              }
+            ],
+            "related_elements": ["Aspiration", "Rejection", "Divine Grace"]
+          }
+        ]
+      },
+      {
+        "heading": "V. Practical Wisdom from The Mother (Words of the Mother 2)",
+        "paragraphs": [
+          {
+            "type": "wisdom_theme",
+            "id": "mother_wisdom_sincerity",
+            "theme": "Sincerity & Truthfulness",
+            "summary": "The paramount importance of absolute sincerity and truthfulness in all aspects of being and action for spiritual progress and divine contact.",
+            "maxims_and_insights": [
+              {
+                "point": "Essence of Sincerity",
+                "elaboration": "Be sincere. Do not pretend—be. Sincerity is the gate to Divinity. Sincerity is the key of the divine doors. In sincerity is the certitude of victory. Absolute sincerity is required. Sincerity means to lift all the movements of the being to the level of the highest consciousness and realisation already attained."
+              },
+              {
+                "point": "Truthfulness",
+                "elaboration": "Cling to Truth. Worship Truth. Never tell a lie: absolute condition for safety on the path. To speak always the truth is the highest title of nobility. One drop of truth is worth more than an ocean of false information."
+              },
+              {
+                "point": "Consequences of Insincerity",
+                "elaboration": "Insincerity leads on the path to ruin. Any inner conflict is the sign of a lack of sincerity. All division in the being is an insincerity. Each lie uttered is a step taken towards disintegration. Vanity is one of the most frequent forms of falsehood."
+              },
+              {
+                "point": "Sincerity and Progress",
+                "elaboration": "Be sincere in your aspiration for progress. Simple sincerity: the beginning of all progress. A constant aspiration conquers all defects. An uncompromising sincerity is the surest way to spiritual achievement."
+              }
+            ],
+            "related_concepts": ["Psychic Being", "Transformation", "Ego (Abolition of)"]
+          },
+          {
+            "type": "wisdom_theme",
+            "id": "mother_wisdom_faith_grace",
+            "theme": "Faith & Divine Grace",
+            "summary": "The indispensable role of faith in the Divine Grace for navigating difficulties and achieving spiritual realization.",
+            "maxims_and_insights": [
+              {
+                "point": "Nature of Faith",
+                "elaboration": "Faith: you flame up and triumph. In an ardent faith lies salvation. Faith is spontaneous knowledge in the psychic. True faith does not depend on circumstances. Faith is the surest guide in the darkest days. Faith is a certitude which is not necessarily based on experience and knowledge."
+              },
+              {
+                "point": "Power of Grace",
+                "elaboration": "The Divine Grace alone shall be our support. The Divine's Grace is wonderful and almighty. With the Grace and divine love nothing is impossible. The Grace is always there ready to act but you must let it work. The Grace is infinite for him who sincerely trusts the Grace."
+              },
+              {
+                "point": "Faith and Difficulties",
+                "elaboration": "When difficulties besiege you, know that the Divine Grace is with you. With trust in the Divine's Grace all obstacles can be surmounted. All difficulties are there to test the endurance of the faith."
+              },
+              {
+                "point": "Receiving Grace",
+                "elaboration": "Open to the Divine Grace and thou shalt endure. The Grace is equally for all. But each one receives it according to his sincerity. It is to the sincerity of your aspiration that the Love answers spontaneously."
+              }
+            ],
+            "related_concepts": ["Surrender", "Aspiration", "Difficulties (Overcoming)"]
+          },
+          {
+            "type": "wisdom_theme",
+            "id": "mother_wisdom_difficulties",
+            "theme": "Difficulties & Progress",
+            "summary": "Understanding the role of difficulties as opportunities for growth and the attitude needed to overcome them.",
+            "maxims_and_insights": [
+              {
+                "point": "Purpose of Difficulties",
+                "elaboration": "Difficulties are sent to us exclusively to make the realisation more perfect. The difficulties are for the strong, and help to make them stronger. Ordeals are there for everybody. It is the way in which one faces them that makes the difference."
+              },
+              {
+                "point": "Attitude Towards Difficulties",
+                "elaboration": "Never worry about Difficulties. Forget your difficulties. Do not concentrate on an obstacle; that only strengthens it. When difficulties besiege you, know that the Divine Grace is with you. A smile acts upon difficulties as the sun upon clouds—it disperses them."
+              },
+              {
+                "point": "Overcoming Obstacles",
+                "elaboration": "Perseverance breaks down all obstacles. A persevering will surmounts all obstacles. With patience any difficulty can be overcome. You must learn to be calm and quiet even in the midst of difficulties. This is the way to overcome all obstacles."
+              },
+              {
+                "point": "Progress through Ordeals",
+                "elaboration": "Be grateful for all ordeals, they are the shortest way to the Divine. Each time we try to realise something and meet with a resistance or an obstacle or even a failure... it is exclusively, absolutely, so that the realisation may be more perfect."
+              }
+            ],
+            "related_concepts": ["Faith & Grace", "Perseverance", "Transformation", "Ego"]
+          },
+          {
+            "type": "wisdom_theme",
+            "id": "mother_wisdom_work_sadhana",
+            "theme": "Work as Sadhana & Consecration",
+            "summary": "The transformation of work into a means of spiritual discipline and offering to the Divine.",
+            "maxims_and_insights": [
+              {
+                "point": "Spirit of Work",
+                "elaboration": "All service done sincerely to the Divine is sadhana. Work itself is yoga if it is done in a spirit of dedication and surrender. To work for the Divine is to pray with the body. The work done through love and because of love is surely the most powerful."
+              },
+              {
+                "point": "Perfection in Work",
+                "elaboration": "Whatever work you do, do it as perfectly as you can. That is the best service to the Divine in man. In works, aspiration towards Perfection is true spirituality. It is better to do well than to do quickly."
+              },
+              {
+                "point": "Attitude and Consciousness",
+                "elaboration": "From the standpoint of Yoga it is not so much what you do but how you do it that matters most. Consciousness develops best through work done as an offering to the Divine. Any work done with care becomes interesting."
+              },
+              {
+                "point": "Offering and Consecration",
+                "elaboration": "Give all you do, this is the way. With your body, give your work. When all your actions are consecrated to the Divine, there will be no longer activities that are superior and activities that are inferior; all will have an equal importance."
+              }
+            ],
+            "related_concepts": ["Karma Yoga", "Surrender", "Aspiration", "Divine Will"]
+          },
+          {
+            "type": "wisdom_theme",
+            "id": "mother_wisdom_love_devotion",
+            "theme": "Divine Love & True Devotion",
+            "summary": "The nature of true love for the Divine, distinct from human attachments and vital desires.",
+            "maxims_and_insights": [
+              {
+                "point": "Nature of Divine Love",
+                "elaboration": "Divine love is the great remedy. The only love that never fails is the Divine's. True love, that which fulfils and illumines, is not the love one receives but the love one gives. When the psychic loves it loves with the Divine Love."
+              },
+              {
+                "point": "Distinction from Human Love",
+                "elaboration": "Love is not sexual intercourse. Love is not vital attraction and interchange. Love is not the heart's hunger for affection. So long as the ego is there, one cannot love. To become conscious of the Divine Love, all other love must be abandoned."
+              },
+              {
+                "point": "Self-Giving in Love",
+                "elaboration": "They always speak of the rights of love but love's only right is the right of self-giving. Self-giving is true prayer. Without self-giving there is no love; but self-giving is very rare in human love which is full of selfishness and demands."
+              },
+              {
+                "point": "Universality of Divine Love",
+                "elaboration": "Indeed, there is only one Love, universal and eternal, as there is only one Consciousness, universal and eternal. When one has found divine Love, it is the Divine that one loves in all beings. There is no longer any division."
+              }
+            ],
+            "related_concepts": ["Bhakti Yoga", "Psychic Being", "Surrender", "Ananda"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "subj_mathematics_foundations_001",
+    "title": "Mathematics: A Foundational Journey",
+    "description": "Exploring mathematical concepts by grade level, building a comprehensive understanding from the ground up.",
+    "sections": [
+      {
+        "heading": "Kindergarten: Early Math Concepts",
+        "paragraphs": []
+      },
+      {
+        "heading": "Grade 1: Numbers and Basic Operations",
+        "paragraphs": []
+      },
+      {
+        "heading": "Grade 2: Place Value and Measurement",
+        "paragraphs": []
+      },
+      {
+        "heading": "Grade 3: Multiplication, Division, and Fractions",
+        "paragraphs": []
+      },
+      {
+        "heading": "Grade 4: Advanced Operations and Geometry",
+        "paragraphs": []
+      },
+      {
+        "heading": "Grade 5: Decimals, Algebra Basics, and Data",
+        "paragraphs": []
+      },
+      {
+        "heading": "Grade 6: Ratios, Proportions, and Expressions",
+        "paragraphs": []
+      },
+      {
+        "heading": "Grade 7: Rational Numbers and Geometric Figures",
+        "paragraphs": []
+      },
+      {
+        "heading": "Grade 8: Linear Algebra and Functions",
+        "paragraphs": []
+      },
+      {
+        "heading": "High School: Algebra I",
+        "paragraphs": []
+      },
+      {
+        "heading": "High School: Geometry",
+        "paragraphs": []
+      },
+      {
+        "heading": "High School: Algebra II & Trigonometry",
+        "paragraphs": []
+      },
+      {
+        "heading": "High School: Pre-Calculus",
+        "paragraphs": []
+      },
+      {
+        "heading": "Advanced Topics: Calculus",
+        "paragraphs": []
+      },
+      {
+        "heading": "Advanced Topics: Linear Algebra (University)",
+        "paragraphs": []
+      },
+      {
+        "heading": "Advanced Topics: Abstract Algebra",
+        "paragraphs": []
+      },
+      {
+        "heading": "Advanced Topics: Topology",
+        "paragraphs": []
+      },
+      {
+        "heading": "Advanced Topics: Number Theory",
+        "paragraphs": []
+      }
+    ]
+  }
+]
+

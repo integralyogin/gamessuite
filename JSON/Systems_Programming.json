@@ -1,0 +1,123 @@
+{
+	"Memory Management": { "quote": "malloc(), free(), mmap() - Direct control over memory allocation and deallocation" },
+"Process Management": { "quote": "fork(), exec(), wait() - Creating, controlling, and terminating processes" },
+"Thread Management": { "quote": "pthread_create(), mutex, semaphore - Concurrent execution and synchronization" },
+"File Systems": { "quote": "open(), read(), write(), close() - Low-level file operations and management" },
+"Device Drivers": { "quote": "Hardware abstraction layer interfacing between hardware and OS" },
+"System Calls": { "quote": "Direct interface to kernel services through software interrupts" },
+"Interrupt Handling": { "quote": "ISRs (Interrupt Service Routines) manage hardware and software interrupts" },
+"IPC Mechanisms": { "quote": "Pipes, shared memory, message queues for inter-process communication" },
+"Network Programming": { "quote": "socket(), bind(), listen(), accept() - Network protocol implementation" },
+"Kernel Development": { "quote": "Operating system core functionality and resource management" },
+"Buffer Management": { "quote": "Managing data buffers, preventing overflow, ensuring efficiency" },
+"Assembly Programming": { "quote": "Direct hardware instruction manipulation using assembly language" },
+"Compiler Design": { "quote": "Lexing, parsing, code generation for programming languages" },
+"Link Editors": { "quote": "ld, linking object files into executables and shared libraries" },
+"Boot Loaders": { "quote": "GRUB, LILO - System initialization and OS loading" },
+"Memory Protection": { "quote": "Segmentation, paging, access control for memory safety" },
+"Resource Management": { "quote": "CPU scheduling, memory allocation, device access coordination" },
+"Error Handling": { "quote": "errno, error codes, exception management at system level" },
+"Performance Optimization": { "quote": "Cache utilization, memory alignment, algorithm efficiency" },
+"Debugging Tools": { "quote": "gdb, strace, valgrind for system-level debugging" },
+"Binary Utilities": { "quote": "objdump, nm, readelf for binary file manipulation" },
+"Security Mechanisms": { "quote": "Access control, capability systems, secure boot processes" },
+"Real-time Systems": { "quote": "Deterministic timing, deadline scheduling, interrupt latency" },
+"Virtual Memory": { "quote": "Page tables, TLB management, swap space handling" },
+"I/O Management": { "quote": "Device communication, buffering, driver interfaces" },
+"System Initialization": { "quote": "init process, system bootup, service management" },
+"Memory Hierarchy": { "quote": "Cache, main memory, virtual memory organization" },
+"Process Scheduling": { "quote": "Task switching, priority management, scheduling algorithms" },
+"File Management": { "quote": "inode structures, directory hierarchy, file operations" },
+"Synchronization Primitives": { "quote": "Mutexes, semaphores, condition variables, atomic operations" }
+,
+    "Kernel": {
+        "short_description": "The core component of an operating system that manages system resources, providing fundamental abstractions and secure interfaces between hardware and user-space applications."
+    },
+    "Memory Management": {
+        "short_description": "The discipline of controlling and organizing computer memory hierarchy, handling allocation, deallocation, and protection while maintaining efficiency and preventing fragmentation."
+    },
+    "Process": {
+        "short_description": "An instance of a computer program in execution, containing code, data, stack, and system resources, representing the fundamental unit of computation in modern operating systems."
+    },
+    "Thread": {
+        "short_description": "A lightweight unit of program execution within a process, sharing the same memory space while maintaining independent control flow and stack."
+    },
+    "System Call": {
+        "short_description": "The fundamental interface between user-space applications and the kernel, providing controlled access to system resources and hardware capabilities."
+    },
+    "Virtual Memory": {
+        "short_description": "The abstraction that provides each process with its own isolated address space, enabling memory protection and efficient use of physical memory through paging and swapping."
+    },
+    "Device Driver": {
+        "short_description": "Specialized software component that enables communication between the operating system and hardware devices, abstracting device-specific details."
+    },
+    "Interrupt": {
+        "short_description": "A signal to the processor indicating an event requiring immediate attention, enabling asynchronous handling of hardware and software events."
+    },
+    "Scheduler": {
+        "short_description": "The component responsible for distributing processor time among processes and threads, implementing scheduling policies to optimize system performance and fairness."
+    },
+    "File System": {
+        "short_description": "The structure and logic for organizing and storing data on storage devices, providing abstractions for file operations and maintaining data integrity."
+    },
+    "Concurrency": {
+        "short_description": "The principle of managing multiple simultaneous executions, handling synchronization and communication between processes and threads."
+    },
+    "Buffer": {
+        "short_description": "A temporary data storage area used to compensate for differences in data handling speeds between system components, improving efficiency and performance."
+    },
+    "Semaphore": {
+        "short_description": "A synchronization primitive used to control access to shared resources, managing concurrent access and preventing race conditions."
+    },
+    "Mutex": {
+        "short_description": "A mutual exclusion object that prevents multiple threads from simultaneously accessing shared resources, ensuring data consistency."
+    },
+    "Context Switch": {
+        "short_description": "The process of saving and restoring processor state when switching between different processes or threads, enabling multitasking."
+    },
+    "Deadlock": {
+        "short_description": "A situation where multiple processes are unable to proceed because each is waiting for resources held by others, requiring detection and prevention mechanisms."
+    },
+    "System Bus": {
+        "short_description": "The communication pathway that transfers data between major computer components, coordinating system operations through standardized protocols."
+    },
+    "Direct Memory Access": {
+        "short_description": "A feature allowing hardware subsystems to access main memory independently of the CPU, improving system performance for I/O operations."
+    },
+    "Page Table": {
+        "short_description": "The data structure used by virtual memory systems to map virtual addresses to physical memory locations, enabling memory protection and isolation."
+    },
+    "Stack": {
+        "short_description": "A last-in-first-out data structure used for managing function calls, local variables, and program control flow in process execution."
+    },
+    "Heap": {
+        "short_description": "The memory region used for dynamic allocation of program data, managed through explicit allocation and deallocation operations."
+    },
+    "Socket": {
+        "short_description": "An endpoint for communication between processes, whether on the same machine or across a network, providing standardized interfaces for data exchange."
+    },
+    "System Image": {
+        "short_description": "The complete state of a computer system, including memory contents, register values, and I/O device states, essential for system restoration and migration."
+    },
+    "Memory Barrier": {
+        "short_description": "A type of instruction that ensures memory operations are completed in specific order, crucial for multiprocessor synchronization and cache coherency."
+    },
+    "Bootstrapping": {
+        "short_description": "The process of initializing a computer system from power-on to a fully operational state, loading necessary system components in sequence."
+    },
+    "System Call Interface": {
+        "short_description": "The standardized API providing user programs with secure access to kernel services, abstracting underlying implementation details."
+    },
+    "Process Control Block": {
+        "short_description": "The data structure maintaining all information needed to manage a process, including state, resources, and scheduling information."
+    },
+    "Memory Mapping": {
+        "short_description": "The technique of making files or devices appear as part of a process's address space, enabling efficient access and sharing of resources."
+    },
+    "Privilege Level": {
+        "short_description": "The hardware-supported security mechanism that restricts access to certain instructions and memory regions based on execution context."
+    },
+    "Race Condition": {
+        "short_description": "A software defect where system behavior depends on the relative timing of events, particularly in concurrent operations accessing shared resources."
+    }
+}

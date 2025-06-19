@@ -1,0 +1,77 @@
+{
+  "Tabulation": {
+    "short_description": "The foundational act of organizing information into structured rows and columns, creating order from chaos through systematic arrangement and categorization."
+  },
+  "Schema": {
+    "short_description": "The invisible architecture defining relationships and constraints, governing how discrete elements coexist within a unified framework of meaning."
+  },
+  "Join": {
+    "short_description": "The alchemical marriage of separate entities, creating new wholeness by revealing hidden connections across divided realms of information."
+  },
+  "Matrix": {
+    "short_description": "The crystalline structure of intersecting dimensions where vertical truths meet horizontal realities in coordinated harmony."
+  },
+  "Index": {
+    "short_description": "The cartography of access, mapping direct pathways through complex landscapes of ordered knowledge."
+  },
+  "Pivot": {
+    "short_description": "The revolutionary reorientation of perspective, transforming static arrangements into dynamic revelations through axis transposition."
+  },
+  "Cardinality": {
+    "short_description": "The measure of unique essence within categorized existence, defining both diversity and repetition in structured populations."
+  },
+  "Header": {
+    "short_description": "The crowning declaration of categorical sovereignty, establishing dominion over vertical realms of meaning."
+  },
+  "Row": {
+    "short_description": "The horizontal vessel of narrative continuity, carrying complete stories through sequenced revelation."
+  },
+  "Column": {
+    "short_description": "The vertical pillar of categorical purity, maintaining thematic integrity across temporal sequences."
+  },
+  "Cell": {
+    "short_description": "The fundamental unit of meaning-creation, where intersecting truths coalesce into atomic significance."
+  },
+  "Primary Key": {
+    "short_description": "The immutable essence of identity, the singular truth that resists duplication while anchoring relational constellations."
+  },
+  "Foreign Key": {
+    "short_description": "The emissary of connection, bridging isolated realms through deliberate reference and intentional relationship."
+  },
+  "Normalization": {
+    "short_description": "The sacred purification of structure, eliminating shadow-duplicates to achieve spiritual harmony in information realms."
+  },
+  "Denormalization": {
+    "short_description": "The strategic embrace of controlled chaos, sacrificing ideal forms for the alchemy of accelerated revelation."
+  },
+  "Query": {
+    "short_description": "The ritual of focused seeking, extracting hidden truths through precise formulations of intent."
+  },
+  "View": {
+    "short_description": "The ephemeral perspective, a temporary lens crafting unique realities from stable foundations."
+  },
+  "Partition": {
+    "short_description": "The art of enlightened division, creating autonomous realms within unified structures through strategic boundaries."
+  },
+  "Sort": {
+    "short_description": "The imposition of cosmic order, arranging chaos into meaningful sequences through hierarchical revelation."
+  },
+  "Filter": {
+    "short_description": "The gatekeeper of relevance, separating signal from noise through selective perception barriers."
+  },
+  "Aggregate": {
+    "short_description": "The alchemy of summation, transforming fragmented particulars into unified truths of higher magnitude."
+  },
+  "Alias": {
+    "short_description": "The temporary identity mask, allowing essence to operate incognito within specific realms of interaction."
+  },
+  "Constraint": {
+    "short_description": "The sacred boundary, channeling creative potential through disciplined limitations of form."
+  },
+  "Transaction": {
+    "short_description": "The atomic unit of change, preserving cosmic balance through all-or-nothing transformations of state."
+  },
+  "Snapshot": {
+    "short_description": "The frozen moment of captured truth, preserving ephemeral states against the river of temporal flux."
+  }
+}

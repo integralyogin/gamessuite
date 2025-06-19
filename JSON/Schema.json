@@ -1,0 +1,122 @@
+{
+"Schema": {
+"short_description": "Organized frameworks for structuring and understanding information."
+},
+"Pattern": {
+"short_description": "Recurring organizational structures within schemas."
+},
+"Template": {
+"short_description": "Standardized formats for organizing and presenting information."
+},
+"Framework": {
+"short_description": "Foundational structures that define schema organization."
+},
+"Model": {
+"short_description": "Representative structures showing schema relationships."
+},
+"Structure": {
+"short_description": "Fundamental arrangements of schema components."
+},
+"Blueprint": {
+"short_description": "Detailed plans for schema organization and implementation."
+},
+"Architecture": {
+"short_description": "Overall design and organization of schema systems."
+},
+"Hierarchy": {
+"short_description": "Ordered relationships between schema elements."
+},
+"Network": {
+"short_description": "Interconnected patterns of schema relationships."
+},
+"Matrix": {
+"short_description": "Grid-like arrangements of schema components."
+},
+"Layout": {
+"short_description": "Spatial organization of schema elements."
+},
+"Format": {
+"short_description": "Standardized ways of structuring schema information."
+},
+"Protocol": {
+"short_description": "Rules and procedures for schema implementation."
+},
+"Configuration": {
+"short_description": "Specific arrangements of schema components."
+},
+"Mapping": {
+"short_description": "Relationships between different schema elements."
+},
+"Classification": {
+"short_description": "Systems for organizing schema categories."
+},
+"Interface": {
+"short_description": "Points of connection between schema components."
+},
+"Module": {
+"short_description": "Self-contained units within schema structures."
+},
+"Component": {
+"short_description": "Basic elements that make up schema structures."
+},
+"Layer": {
+"short_description": "Distinct levels within schema organization."
+},
+"Node": {
+"short_description": "Connection points within schema networks."
+},
+"Instance": {
+"short_description": "Specific implementations of schema patterns."
+},
+"Validation": {
+"short_description": "Methods for verifying schema compliance."
+},
+"Definition": {
+"short_description": "Formal specifications of schema elements."
+},
+"Attribute": {
+"short_description": "Characteristics defining schema properties."
+},
+"Relationship": {
+"short_description": "Connections between schema elements."
+},
+"Constraint": {
+"short_description": "Limitations and rules within schema structures."
+},
+"Extension": {
+"short_description": "Additions or modifications to base schemas."
+},
+"Inheritance": {
+"short_description": "Patterns of schema property transmission."
+},
+"Integration": {
+"short_description": "Methods of combining different schemas."
+},
+"Abstraction": {
+"short_description": "Generalized representations of schema patterns."
+},
+"Implementation": {
+"short_description": "Practical applications of schema designs."
+},
+"Version": {
+"short_description": "Different iterations of schema development."
+},
+"Standard": {
+"short_description": "Established norms for schema construction."
+},
+"Registry": {
+"short_description": "Collections of schema definitions and patterns."
+},
+"Metadata": {
+"short_description": "Information about schema structure and content."
+},
+"Namespace": {
+"short_description": "Unique identifiers for schema elements."
+},
+"Specification": {
+"short_description": "Detailed requirements for schema implementation."
+},
+"Evolution": {
+"short_description": "Patterns of schema development and change."
+}
+}

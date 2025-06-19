@@ -1,0 +1,122 @@
+{
+  "Paradigm": {
+    "short_description": "Fundamental pattern of thought that structures how knowledge is organized."
+  },
+  "Episteme": {
+    "short_description": "Historical framework determining what counts as knowledge in an era."
+  },
+  "System": {
+    "short_description": "Organized body of ideas forming coherent framework of understanding."
+  },
+  "Method": {
+    "short_description": "Fundamental approach to acquiring and validating knowledge."
+  },
+  "Logic": {
+    "short_description": "Framework for valid reasoning and inference patterns."
+  },
+  "Dialectic": {
+    "short_description": "Process of reaching truth through opposing positions."
+  },
+  "Schema": {
+    "short_description": "Organizing structure for categorizing and relating concepts."
+  },
+  "Framework": {
+    "short_description": "Basic conceptual structure for organizing theoretical understanding."
+  },
+  "Model": {
+    "short_description": "Abstract representation of relationships between phenomena."
+  },
+  "Archetype": {
+    "short_description": "Fundamental pattern underlying multiple theoretical expressions."
+  },
+  "Discourse": {
+    "short_description": "System of thought defining what can be meaningfully said."
+  },
+  "Worldview": {
+    "short_description": "Comprehensive framework for understanding reality and existence."
+  },
+  "Ontology": {
+    "short_description": "Framework for understanding nature of being and existence."
+  },
+  "Epistemology": {
+    "short_description": "System for understanding nature and limits of knowledge."
+  },
+  "Axiology": {
+    "short_description": "Framework for understanding value and evaluation."
+  },
+  "Hermeneutics": {
+    "short_description": "System for interpretation and understanding of meaning."
+  },
+  "Heuristic": {
+    "short_description": "General approach to problem-solving and discovery."
+  },
+  "Metaphysics": {
+    "short_description": "Framework for understanding fundamental nature of reality."
+  },
+  "Typology": {
+    "short_description": "System of classification based on fundamental types."
+  },
+  "Taxonomy": {
+    "short_description": "Hierarchical system for classifying and relating concepts."
+  },
+  "Principle": {
+    "short_description": "Fundamental truth or law governing theoretical understanding."
+  },
+  "Doctrine": {
+    "short_description": "Systematic formulation of beliefs or teachings."
+  },
+  "Synthesis": {
+    "short_description": "Integration of different theoretical perspectives or elements."
+  },
+  "Critique": {
+    "short_description": "Systematic examination of assumptions and limitations."
+  },
+  "Analysis": {
+    "short_description": "Method of breaking down complexity into basic elements."
+  },
+  "Praxis": {
+    "short_description": "Integration of theory and practice in action."
+  },
+  "Dogma": {
+    "short_description": "System of principles considered incontrovertibly true."
+  },
+  "Canon": {
+    "short_description": "Standard set of principles or works defining field."
+  },
+  "Tradition": {
+    "short_description": "Inherited system of thought and practice."
+  },
+  "Ideology": {
+    "short_description": "System of ideas forming basis for theory and action."
+  },
+  "Formalism": {
+    "short_description": "System emphasizing formal structures and relations."
+  },
+  "Structuralism": {
+    "short_description": "Analysis of underlying patterns and relationships."
+  },
+  "Phenomenology": {
+    "short_description": "Study of structures of consciousness and experience."
+  },
+  "Teleology": {
+    "short_description": "Understanding in terms of purposes and ends."
+  },
+  "Morphology": {
+    "short_description": "Study of forms and patterns of development."
+  },
+  "Semiotics": {
+    "short_description": "System for understanding signs and meaning-making."
+  },
+  "Metaphor": {
+    "short_description": "Framework using analogical relationships for understanding."
+  },
+  "Metalanguage": {
+    "short_description": "System for describing and analyzing theoretical languages."
+  },
+  "Metatheory": {
+    "short_description": "Theory about the nature and structure of theories."
+  },
+  "Emergence": {
+    "short_description": "Framework for understanding development of new properties and patterns."
+  }
+}

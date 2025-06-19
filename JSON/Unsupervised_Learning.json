@@ -1,0 +1,107 @@
+{
+"Clustering": {
+    "short_description": "The process of grouping similar data points together based on their inherent patterns and relationships, discovering natural structures within unlabeled data."
+},
+"Dimensionality Reduction": {
+    "short_description": "The transformation of high-dimensional data into a lower-dimensional space while preserving essential patterns and relationships between data points."
+},
+"Density Estimation": {
+    "short_description": "The process of modeling the probability distribution that underlies a dataset, revealing the relative likelihood of different data configurations."
+},
+"Pattern Discovery": {
+    "short_description": "The identification of recurring structures, relationships, and regularities within unlabeled data through automated analysis techniques."
+},
+"Feature Space": {
+    "short_description": "The mathematical space where each dimension represents a feature, and data points exist as coordinates defined by their feature values."
+},
+"Distance Metric": {
+    "short_description": "A mathematical function that quantifies the similarity or difference between data points, fundamental to clustering and pattern recognition."
+},
+"Centroid": {
+    "short_description": "The central point or representative of a cluster, typically calculated as the average of all points within that cluster."
+},
+"Manifold": {
+    "short_description": "A lower-dimensional surface embedded in a higher-dimensional space, representing the intrinsic structure of complex data distributions."
+},
+"Latent Variable": {
+    "short_description": "Hidden or unobserved factors that explain patterns in visible data, often discovered through dimensionality reduction or generative modeling."
+},
+"Embedding": {
+    "short_description": "A learned representation of data points in a new space, typically of lower dimension, preserving meaningful relationships between points."
+},
+"Data Distribution": {
+    "short_description": "The underlying probability structure of the data, which unsupervised learning algorithms attempt to model or understand."
+},
+"Cluster Assignment": {
+    "short_description": "The process of determining which cluster each data point belongs to based on similarity measures and algorithmic criteria."
+},
+"Silhouette Score": {
+    "short_description": "A metric measuring how similar points are to their own cluster compared to other clusters, evaluating clustering quality."
+},
+"Elbow Method": {
+    "short_description": "A technique for determining the optimal number of clusters by analyzing the relationship between cluster count and explained variance."
+},
+"Autoencoders": {
+    "short_description": "Neural networks that learn compressed representations of data by attempting to reconstruct their input through a bottleneck layer."
+},
+"Principal Components": {
+    "short_description": "The orthogonal directions in feature space that capture the maximum variance in the data, fundamental to dimensionality reduction."
+},
+"Anomaly Detection": {
+    "short_description": "The identification of unusual or abnormal data points that deviate significantly from the main patterns in the dataset."
+},
+"Association Rules": {
+    "short_description": "Discovered relationships between variables in large datasets, expressing how items or events occur together with certain probabilities."
+},
+"Hierarchical Clustering": {
+    "short_description": "A method of cluster analysis that builds a tree-like hierarchy of clusters, revealing multiple levels of data organization."
+},
+"Agglomerative Clustering": {
+    "short_description": "A bottom-up approach to hierarchical clustering where each point starts in its own cluster and clusters are progressively merged."
+},
+"Divisive Clustering": {
+    "short_description": "A top-down approach to hierarchical clustering where all points start in one cluster and are progressively split into smaller clusters."
+},
+"Mixture Model": {
+    "short_description": "A probabilistic model that represents the presence of multiple underlying distributions in a dataset, each corresponding to a distinct subpopulation."
+},
+"Codebook": {
+    "short_description": "A set of representative vectors or patterns learned from data, often used in vector quantization and compression techniques."
+},
+"Reconstruction Error": {
+    "short_description": "The difference between original data and its reconstruction after dimensionality reduction or autoencoding, measuring information preservation."
+},
+"Information Bottleneck": {
+    "short_description": "A principle for finding efficient data representations that maintain relevant information while discarding unnecessary details."
+},
+"Self-Organization": {
+    "short_description": "The process by which a system of elements arranges itself into ordered patterns without external guidance, fundamental to many clustering methods."
+},
+"Topology Preservation": {
+    "short_description": "The maintenance of neighborhood relationships between data points when mapping them to a different space or representation."
+},
+"Soft Clustering": {
+    "short_description": "Clustering approaches that assign probabilities or weights indicating the degree of membership of points to multiple clusters."
+},
+"Hard Clustering": {
+    "short_description": "Clustering approaches that assign each data point to exactly one cluster, creating distinct and non-overlapping groups."
+},
+"Eigendecomposition": {
+    "short_description": "The factorization of a matrix into eigenvectors and eigenvalues, crucial for many dimensionality reduction techniques."
+},
+"Manifold Learning": {
+    "short_description": "Techniques for discovering and representing the underlying low-dimensional structure of high-dimensional data."
+},
+"Vector Quantization": {
+    "short_description": "The process of mapping data points to a finite set of representative vectors, reducing data complexity while preserving essential patterns."
+},
+"Generative Model": {
+    "short_description": "A model that learns to capture the underlying distribution of data, enabling generation of new samples similar to the training data."
+},
+"Representation Learning": {
+    "short_description": "The discovery of transformations of data that make latent patterns more apparent, often through dimensionality reduction or feature learning."
+},
+"Data Compression": {
+    "short_description": "The process of reducing data dimensionality while retaining essential information, often achieved through learned representations."
+}
+}

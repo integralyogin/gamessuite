@@ -1,0 +1,582 @@
+[
+  {
+    "id": "subj_design_principles_foundations_001",
+    "title": "Design Principles: Crafting Effective Experiences",
+    "description": "A progressive exploration of fundamental design principles applicable across various disciplines, from visual and interaction design to systems and experiences.",
+    "sections": [
+      {
+        "heading": "Design Defined",
+        "topic_summary": "Purposeful problem solving.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_intro",
+            "summary": "An overview of design as a purposeful process of problem-solving and creation, aiming to improve functionality, aesthetics, and user experience."
+          }
+        ]
+      },
+      {
+        "heading": "Form Follows Function",
+        "topic_summary": "Shape dictated by purpose.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_form_follows_function",
+            "summary": "A principle asserting that the shape or configuration of an object or design should primarily relate to its intended function or purpose."
+          }
+        ]
+      },
+      {
+        "heading": "User-Centered Design (UCD)",
+        "topic_summary": "Focus on user needs.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_ucd",
+            "summary": "A design philosophy and process in which the needs, wants, and limitations of end-users are given extensive attention at each stage."
+          }
+        ]
+      },
+      {
+        "heading": "Affordances",
+        "topic_summary": "Perceived action possibilities.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_affordances",
+            "summary": "The perceived and actual properties of an object that suggest how it should be used; clues about its function."
+          }
+        ]
+      },
+      {
+        "heading": "Signifiers",
+        "topic_summary": "Explicit usage clues.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_signifiers",
+            "summary": "Explicit indicators or clues (labels, icons, sounds) that communicate possible actions or the current state of a system when affordances are not clear."
+          }
+        ]
+      },
+      {
+        "heading": "Feedback",
+        "topic_summary": "Communicating action results.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_feedback",
+            "summary": "Information sent back to the user about what action has been done, what result has been accomplished, or the current state of the system."
+          }
+        ]
+      },
+      {
+        "heading": "Mapping",
+        "topic_summary": "Controls to effects relationship.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_mapping",
+            "summary": "The relationship between controls and their effects in the world. Good mapping ensures controls have an intuitive and immediate effect."
+          }
+        ]
+      },
+      {
+        "heading": "Consistency",
+        "topic_summary": "Uniformity in design elements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_consistency",
+            "summary": "Designing similar operations and elements for similar tasks, ensuring predictability and learnability across a system or product family."
+          }
+        ]
+      },
+      {
+        "heading": "Visibility",
+        "topic_summary": "Making functions apparent.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_visibility",
+            "summary": "The principle that relevant parts of a system should be visible and convey the right message about what is possible and how to operate it."
+          }
+        ]
+      },
+      {
+        "heading": "Constraints",
+        "topic_summary": "Limiting possible actions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_constraints",
+            "summary": "Physical, logical, semantic, or cultural limitations that guide actions and make a design easier to use by reducing the possibility of error."
+          }
+        ]
+      },
+      {
+        "heading": "Hierarchy (Visual)",
+        "topic_summary": "Organizing info by importance.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_visual_hierarchy",
+            "summary": "The arrangement and presentation of design elements to imply relative importance and guide the viewer's attention through the composition."
+          }
+        ]
+      },
+      {
+        "heading": "Balance",
+        "topic_summary": "Distributing visual weight.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_balance",
+            "summary": "The distribution of the visual weight of objects, colors, texture, and space. Can be symmetrical, asymmetrical, or radial."
+          }
+        ]
+      },
+      {
+        "heading": "Proximity",
+        "topic_summary": "Grouping related items.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_proximity",
+            "summary": "The principle that items related to each other should be grouped close together, creating visual units and reducing clutter."
+          }
+        ]
+      },
+      {
+        "heading": "Alignment",
+        "topic_summary": "Creating visual connection.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_alignment",
+            "summary": "Placing elements so their edges or centers line up along common rows or columns, creating a sense of order and connection."
+          }
+        ]
+      },
+      {
+        "heading": "Repetition",
+        "topic_summary": "Repeating visual elements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_repetition",
+            "summary": "Reusing the same or similar elements throughout a design to create consistency, unity, and strengthen the overall theme."
+          }
+        ]
+      },
+      {
+        "heading": "Contrast",
+        "topic_summary": "Highlighting differences.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_contrast",
+            "summary": "The juxtaposition of different elements (e.g., color, size, shape, texture) to create visual interest and emphasize importance."
+          }
+        ]
+      },
+      {
+        "heading": "White Space (Negative)",
+        "topic_summary": "Empty areas in design.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_white_space",
+            "summary": "The empty space between and around elements of a design, crucial for readability, clarity, and reducing cognitive load."
+          }
+        ]
+      },
+      {
+        "heading": "Simplicity (KISS)",
+        "topic_summary": "Keep It Simple, Stupid.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_simplicity",
+            "summary": "The principle of aiming for clarity and ease of understanding by eliminating unnecessary complexity in design."
+          }
+        ]
+      },
+      {
+        "heading": "Occam's Razor",
+        "topic_summary": "Simplest solution often best.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_occams_razor",
+            "summary": "The problem-solving principle that entities should not be multiplied beyond necessity; the simplest explanation or solution is usually the correct one."
+          }
+        ]
+      },
+      {
+        "heading": "Hick's Law",
+        "topic_summary": "More choices, more time.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_hicks_law",
+            "summary": "Describes the time it takes for a person to make a decision as a result of the possible choices: increasing the number of choices will increase the decision time logarithmically."
+          }
+        ]
+      },
+      {
+        "heading": "Fitts's Law",
+        "topic_summary": "Target acquisition model.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_fittss_law",
+            "summary": "A predictive model of human movement primarily used in human-computer interaction, stating that the time required to rapidly move to a target area is a function of the ratio between the distance to the target and the width of the target."
+          }
+        ]
+      },
+      {
+        "heading": "Gestalt Principles",
+        "topic_summary": "Visual perception organization.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_gestalt",
+            "summary": "Principles of visual perception that describe how humans tend to organize visual elements into unified wholes (e.g., proximity, similarity, closure, continuity)."
+          }
+        ]
+      },
+      {
+        "heading": "Mental Models",
+        "topic_summary": "User's system understanding.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_mental_models",
+            "summary": "A user's internal representation of how a system or object works. Designs are more intuitive when they match users' mental models."
+          }
+        ]
+      },
+      {
+        "heading": "Conceptual Model",
+        "topic_summary": "Designer's system representation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_conceptual_model",
+            "summary": "The designer's representation of a system, which should be effectively communicated to the user through the interface."
+          }
+        ]
+      },
+      {
+        "heading": "Gulf of Execution",
+        "topic_summary": "Gap: intent to action.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_gulf_execution",
+            "summary": "The gap between a user's intention to act and the actions required by the system to achieve that goal."
+          }
+        ]
+      },
+      {
+        "heading": "Gulf of Evaluation",
+        "topic_summary": "Gap: system state to intent.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_gulf_evaluation",
+            "summary": "The gap between the system's state as presented to the user and the user's understanding of whether their intended goal has been met."
+          }
+        ]
+      },
+      {
+        "heading": "Learnability",
+        "topic_summary": "Ease of first-time use.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_learnability",
+            "summary": "How easily users can accomplish basic tasks the first time they encounter the design and how quickly they can learn to use it proficiently."
+          }
+        ]
+      },
+      {
+        "heading": "Efficiency (Usability)",
+        "topic_summary": "Speed of task completion.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_efficiency",
+            "summary": "Once users have learned the design, how quickly they can perform tasks."
+          }
+        ]
+      },
+      {
+        "heading": "Memorability",
+        "topic_summary": "Ease of remembering usage.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_memorability",
+            "summary": "When users return to the design after a period of not using it, how easily they can reestablish proficiency."
+          }
+        ]
+      },
+      {
+        "heading": "Error Prevention",
+        "topic_summary": "Designing to avoid mistakes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_error_prevention",
+            "summary": "Designing systems to minimize the likelihood of user errors or to make errors less catastrophic."
+          }
+        ]
+      },
+      {
+        "heading": "Error Recovery",
+        "topic_summary": "Helping users fix mistakes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_error_recovery",
+            "summary": "Designing systems that allow users to easily recover from errors they do make."
+          }
+        ]
+      },
+      {
+        "heading": "Satisfaction (Usability)",
+        "topic_summary": "Pleasantness of design use.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_satisfaction",
+            "summary": "How pleasant or subjectively satisfying it is to use the design."
+          }
+        ]
+      },
+      {
+        "heading": "Accessibility (a11y)",
+        "topic_summary": "Design for all abilities.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_accessibility",
+            "summary": "Designing products, devices, services, or environments for people with disabilities, ensuring equal access and opportunity."
+          }
+        ]
+      },
+      {
+        "heading": "Inclusive Design",
+        "topic_summary": "Designing for diverse people.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_inclusive_design",
+            "summary": "A design methodology that considers the full range of human diversity with respect to ability, language, culture, gender, age, and other forms of human difference."
+          }
+        ]
+      },
+      {
+        "heading": "Modularity",
+        "topic_summary": "Independent, interchangeable components.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_modularity",
+            "summary": "Designing a system as a set of distinct, independent components (modules) that can be developed, modified, replaced, or interchanged separately."
+          }
+        ]
+      },
+      {
+        "heading": "Scalability",
+        "topic_summary": "Handling growth effectively.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_scalability",
+            "summary": "The capability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth."
+          }
+        ]
+      },
+      {
+        "heading": "Flexibility",
+        "topic_summary": "Adaptability to various uses.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_flexibility",
+            "summary": "The ability of a design to accommodate a wide range of individual preferences, abilities, and usage contexts."
+          }
+        ]
+      },
+      {
+        "heading": "Robustness",
+        "topic_summary": "Handling errors, unexpected input.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_robustness",
+            "summary": "The ability of a system to cope with errors during execution or erroneous input, and to continue functioning despite them."
+          }
+        ]
+      },
+      {
+        "heading": "Aesthetic-Usability Effect",
+        "topic_summary": "Attractive designs seem easier.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_aesthetic_usability",
+            "summary": "A phenomenon where users perceive more aesthetically pleasing designs as more usable, regardless of their actual usability."
+          }
+        ]
+      },
+      {
+        "heading": "Iterative Design",
+        "topic_summary": "Cyclical process of refinement.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_iterative_design",
+            "summary": "A design methodology based on a cyclic process of prototyping, testing, analyzing, and refining a product or process."
+          }
+        ]
+      },
+      {
+        "heading": "Progressive Disclosure",
+        "topic_summary": "Revealing info gradually.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_progressive_disclosure",
+            "summary": "An interaction design technique that defers advanced or rarely used features to a secondary screen, making applications easier to learn and less error-prone."
+          }
+        ]
+      },
+      {
+        "heading": "Wayfinding",
+        "topic_summary": "Navigating physical/digital spaces.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_wayfinding",
+            "summary": "The process of orienting and navigating in physical or virtual space, involving perception, cognition, and spatial problem-solving."
+          }
+        ]
+      },
+      {
+        "heading": "Desirability",
+        "topic_summary": "Emotional appeal of design.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_desirability",
+            "summary": "The extent to which a product is attractive, enjoyable, and evokes positive emotions, beyond its mere functionality."
+          }
+        ]
+      },
+      {
+        "heading": "Cradle to Cradle",
+        "topic_summary": "Sustainable, regenerative design.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_cradle_to_cradle",
+            "summary": "A biomimetic approach to the design of products and systems that models human industry on nature's processes, where materials are viewed as nutrients circulating in healthy, safe metabolisms."
+          }
+        ]
+      },
+      {
+        "heading": "Biomimicry",
+        "topic_summary": "Design inspired by nature.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_biomimicry",
+            "summary": "An approach to innovation that seeks sustainable solutions to human challenges by emulating nature's time-tested patterns and strategies."
+          }
+        ]
+      },
+      {
+        "heading": "Design Thinking",
+        "topic_summary": "Human-centered problem-solving.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_design_thinking",
+            "summary": "A human-centered, iterative approach to problem-solving and innovation that integrates empathy, creativity, and rationality."
+          }
+        ]
+      },
+      {
+        "heading": "Storytelling in Design",
+        "topic_summary": "Narrative to engage users.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_storytelling",
+            "summary": "Using narrative structures and techniques to create engaging, memorable, and emotionally resonant user experiences."
+          }
+        ]
+      },
+      {
+        "heading": "Ethical Design",
+        "topic_summary": "Considering moral impact.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_ethical_design",
+            "summary": "Designing products and systems with conscious consideration for their moral implications, societal impact, and user well-being."
+          }
+        ]
+      },
+      {
+        "heading": "Dark Patterns",
+        "topic_summary": "Deceptive UI/UX practices.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_dark_patterns",
+            "summary": "User interface design choices that trick users into doing things they didn't mean to, often for the benefit of the business."
+          }
+        ]
+      },
+      {
+        "heading": "Systems Thinking",
+        "topic_summary": "Holistic, interconnected view.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_systems_thinking",
+            "summary": "A holistic approach to analysis that focuses on the way that a system's constituent parts interrelate and how systems work over time and within the context of larger systems."
+          }
+        ]
+      },
+      {
+        "heading": "Pattern Language",
+        "topic_summary": "Reusable design solutions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_pattern_language",
+            "summary": "A method of describing good design practices or patterns of useful organization within a field of expertise (originated by Christopher Alexander for architecture)."
+          }
+        ]
+      },
+      {
+        "heading": "Design for Emotion",
+        "topic_summary": "Evoking specific feelings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "dp_topic_design_for_emotion",
+            "summary": "Consciously designing products and experiences to evoke specific emotional responses in users (e.g., joy, trust, excitement)."
+          }
+        ]
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,77 @@
+{
+"Fiction": {
+"short_description": "The art of crafted narratives and imagined realities, encompassing stories, worlds, and experiences created through creative expression and storytelling techniques."
+},
+"Narrative": {
+"short_description": "The structured flow of events and experiences within a story, incorporating plot development, character arcs, and thematic elements to create meaningful progression and engagement."
+},
+"Character": {
+"short_description": "The constructed personas within fiction that serve as agents of action and vessels of experience, developed through personality, motivation, background, and dynamic evolution throughout the story."
+},
+"Plot": {
+"short_description": "The organized sequence of events and causalities that drive the story forward, incorporating conflict, resolution, and the interplay of various narrative threads and character actions."
+},
+"Setting": {
+"short_description": "The constructed world or environment in which the story takes place, including physical locations, time periods, social structures, and the rules governing reality within the narrative."
+},
+"Theme": {
+"short_description": "The underlying ideas, messages, or questions explored through the story's elements, providing deeper meaning and resonance beyond surface events and entertainment."
+},
+"Genre": {
+"short_description": "The categorical frameworks that define different types of fiction, each with its own conventions, expectations, and traditions in storytelling approach and content."
+},
+"Voice": {
+"short_description": "The distinctive narrative perspective and style through which the story is told, encompassing tone, language choice, and the relationship between narrator and audience."
+},
+"Dialogue": {
+"short_description": "The constructed conversations and verbal interactions between characters, revealing personality, advancing plot, and creating dynamic relationships within the narrative."
+},
+"Worldbuilding": {
+"short_description": "The comprehensive creation of fictional universes, including their physical laws, cultures, histories, and systems that provide context and depth to the narrative."
+},
+"Conflict": {
+"short_description": "The central tensions and obstacles that drive the story forward, whether internal, interpersonal, or environmental, creating momentum and engaging reader investment."
+},
+"Resolution": {
+"short_description": "The culmination and conclusion of narrative threads, providing satisfaction, meaning, or contemplation through the resolution of conflicts and character arcs."
+},
+"Symbolism": {
+"short_description": "The use of objects, events, or patterns to represent deeper meanings and themes within the story, creating layers of significance beyond literal interpretation."
+},
+"Perspective": {
+"short_description": "The viewpoint through which the story is experienced and told, influencing reader understanding and emotional connection to events and characters."
+},
+"Atmosphere": {
+"short_description": "The emotional and sensory environment created through descriptive elements and narrative tone, establishing mood and immersive experience."
+},
+"Pacing": {
+"short_description": "The controlled flow of information and events within the story, managing tension, revelation, and reader engagement through narrative rhythm and timing."
+},
+"Character Arc": {
+"short_description": "The trajectory of change and development that characters undergo throughout the story, reflecting growth, transformation, or revelation through experiences."
+},
+"Backstory": {
+"short_description": "The constructed history and context that informs current events and character motivations, providing depth and authenticity to the narrative."
+},
+"Foreshadowing": {
+"short_description": "The strategic placement of hints and clues about future events, creating anticipation and meaningful connections throughout the narrative."
+},
+"Subplot": {
+"short_description": "Secondary narrative threads that complement and intersect with the main plot, adding complexity and depth to the overall story structure."
+},
+"Scene": {
+"short_description": "Discrete units of narrative action and development, containing specific moments of conflict, revelation, or character interaction within the larger story."
+},
+"Dialogue Tags": {
+"short_description": "The narrative markers that indicate speech and provide context for character interactions, balancing clarity with dramatic effect."
+},
+"Description": {
+"short_description": "The detailed rendering of characters, settings, and events through sensory and emotional information, creating vivid images in the reader's mind."
+},
+"Exposition": {
+"short_description": "The presentation of background information and context necessary for understanding the story, balanced with dramatic action and character development."
+},
+"Point of View": {
+"short_description": "The specific narrative perspective chosen to tell the story, influencing reader access to information and emotional connection to events."
+}
+}

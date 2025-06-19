@@ -1,0 +1,173 @@
+{
+"Sanctuary": {
+"short_description": "The most sacred and protected space within a temple, housing the primary deity or focus of worship, typically restricted to authorized religious practitioners."
+},
+"Altar": {
+"short_description": "The consecrated surface or structure where offerings are made, prayers are focused, and ritual actions are performed, serving as a point of connection between earthly and divine realms."
+},
+"Threshold": {
+"short_description": "The transitional space marking the boundary between mundane and sacred areas, often featuring specific architectural elements and requiring ritual preparation for crossing."
+},
+"Orientation": {
+"short_description": "The deliberate alignment of temple architecture with cosmic directions, celestial bodies, or sacred geography, embedding the structure within larger patterns of meaning."
+},
+"Axis Mundi": {
+"short_description": "The central point or cosmic pillar within temple architecture that symbolically connects heaven, earth, and underworld, establishing the sacred center."
+},
+"Precinct": {
+"short_description": "The consecrated grounds surrounding the main temple structure, often containing auxiliary buildings, gardens, and spaces for community gathering and preparation."
+},
+"Vestibule": {
+"short_description": "The transitional entrance space preparing visitors for entry into more sacred areas, often incorporating purification facilities and initial ritual elements."
+},
+"Circumambulation": {
+"short_description": "The ritual pathway around the temple or sacred center, designed for ceremonial movement and progressive approach to holy areas."
+},
+"Hierophany": {
+"short_description": "The manifestation of the sacred within temple space through architecture, symbol, and ritual, creating points of contact between divine and human realms."
+},
+"Consecration": {
+"short_description": "The ritual process and maintained state of sacred dedication that establishes and preserves the temple's spiritual function and power."
+},
+"Adytum": {
+"short_description": "The innermost chamber or holy of holies, accessible only to initiated priests and housing the most sacred objects or presence."
+},
+"Propylon": {
+"short_description": "The monumental gateway or entrance structure marking the transition into temple space and establishing architectural hierarchy."
+},
+"Temenos": {
+"short_description": "The sacred enclosure defining the boundaries of temple grounds, separating consecrated space from secular surroundings."
+},
+"Naos": {
+"short_description": "The main chamber or cell of the temple containing the primary cult image or focus of worship."
+},
+"Colonnade": {
+"short_description": "The ordered arrangement of columns creating processional spaces and supporting temple structure, often encoding cosmic principles in their arrangement."
+},
+"Offering Chamber": {
+"short_description": "Dedicated spaces for the preparation and presentation of sacrifices, gifts, and ritual items used in temple worship."
+},
+"Oracle": {
+"short_description": "Spaces designated for divine communication and prophecy, often incorporating specific acoustic or architectural features supporting divinatory practices."
+},
+"Treasury": {
+"short_description": "Secured areas for storing sacred objects, ritual implements, and valuable offerings under divine protection."
+},
+"Ablution": {
+"short_description": "Facilities and spaces dedicated to ritual purification before entering more sacred areas of the temple."
+},
+"Processional Way": {
+"short_description": "The formal approach and pathway leading to and through temple spaces, often designed to create progressive spiritual preparation."
+},
+"Sacristy": {
+"short_description": "Storage and preparation areas for priests and ritual objects, supporting the maintenance of temple functions and ceremonies."
+},
+"Crypt": {
+"short_description": "Underground chambers often housing relics, tombs, or sacred objects, connecting temple space with chthonic realms."
+},
+"Mandala": {
+"short_description": "The sacred geometric planning principle organizing temple space according to cosmic patterns and spiritual hierarchies."
+},
+"Sanctum": {
+"short_description": "Any consecrated space within the temple complex designated for specific ritual purposes or divine presence."
+},
+"Presbytery": {
+"short_description": "Areas reserved for clergy and religious officials, supporting their ritual and administrative functions within the temple."
+},
+"Reliquary": {
+"short_description": "Spaces or containers housing sacred remains or objects of spiritual power within the temple structure."
+},
+  "Dome": {
+    "short_description": "A rounded architectural structure forming the roof of a building, symbolizing the heavens, cosmic unity, and the expansive nature of the divine."
+  },
+  "Minaret": {
+    "short_description": "A tall, slender tower attached to a mosque, used to call Muslims to prayer and serving as a visual symbol of Islamic faith and community."
+  },
+  "Stupa": {
+    "short_description": "A dome-shaped Buddhist monument containing relics or sacred texts, representing the enlightened mind, the path to Nirvana, and the Buddha's presence."
+  },
+  "Mandala": {
+    "short_description": "A geometric diagram representing the cosmos, deities, or psychological states, used in meditation and ritual to focus attention and facilitate spiritual transformation."
+  },
+  "Axis Mundi": {
+    "short_description": "The symbolic center of the world, representing the connection between heaven and earth, the point of origin, and the source of spiritual power."
+  },
+  "Vestibule": {
+    "short_description": "An antechamber or entrance hall leading into a larger space, representing a transitional zone between the profane outer world and the sacred inner sanctum."
+  },
+  "Narthex": {
+    "short_description": "An antechamber or porch in the early Christian church, reserved for penitents and catechumens, marking the boundary between the secular and sacred spaces."
+  },
+  "Nave": {
+    "short_description": "The central part of a church building, intended to accommodate most of the congregation."
+  },
+  "Chancel": {
+    "short_description": "The space around the altar of a church for the clergy and choir, separated from the nave by a screen or railing."
+  },
+  "Iconostasis": {
+    "short_description": "A screen bearing icons, separating the sanctuary of many Eastern churches from the nave."
+  },
+  "Cathedral": {
+    "short_description": "The principal church of a diocese, containing the bishop's throne (cathedra), representing the authority and unity of the Christian community."
+  },
+  "Monastery": {
+    "short_description": "A community of monks living under religious vows, representing a place of contemplation, study, and communal worship."
+  },
+  "Cloister": {
+    "short_description": "A covered walk in a monastery, typically opening onto a courtyard, representing a space for quiet reflection, meditation, and scholarly pursuits."
+  },
+   "Synagogue": {
+    "short_description": "A Jewish house of worship, serving as a place for prayer, study, and community gathering, centered around the reading of the Torah."
+  },
+  "Tabernacle": {
+    "short_description": "A portable sanctuary used by the Israelites during their wanderings, symbolizing God's presence and guidance, later housed in the Temple in Jerusalem."
+  },
+  "Menorah": {
+    "short_description": "A candelabrum with seven or nine branches, used in Jewish worship, symbolizing the light of God's presence and the illumination of wisdom."
+  },
+  "Ark": {
+    "short_description": "In Judaism and Christianity, a sacred chest or cabinet containing religious artifacts, notably the tablets of the Ten Commandments."
+  },
+  "Pylon": {
+    "short_description": "A monumental gateway of an Egyptian temple, consisting of two massive towers flanking the entrance, representing the transition between the outer world and the sacred precinct."
+  },
+  "Hypostyle Hall": {
+    "short_description": "A large space with a roof supported by columns, often found in Egyptian temples, representing the primordial swamp and the creation of the world."
+  },
+  "Ziggurat": {
+    "short_description": "A stepped pyramid-shaped temple tower built in ancient Mesopotamia, representing a link between heaven and earth and a place for priestly rituals."
+  },
+  "Cella": {
+    "short_description": "The inner chamber of an ancient temple, typically housing the statue of the deity, representing the dwelling place of the divine and the focus of worship."
+  },
+    "Pagoda": {
+    "short_description": "A tiered tower with multiple eaves, common in Asian countries, often associated with Buddhist or Taoist temples, symbolizing the ascent to enlightenment."
+  },
+  "Mandir": {
+    "short_description": "A Hindu temple, serving as a dwelling place for deities, a center for worship, and a place for community gathering and festivals."
+  },
+ "Gopuram": {
+    "short_description": "A monumental tower gateway, usually ornate, at the entrance of a South Indian Hindu temple, representing a symbolic entry point to the sacred space."
+  },
+  "Sanctum": {
+    "short_description": "A sacred place, especially a private or secluded one, often dedicated to a deity or used for meditation and contemplation."
+  },
+ "Portal": {
+    "short_description": "An entrance or doorway, often imbued with symbolic significance as a gateway to another world, state of mind, or level of reality."
+  },
+  "Numinous": {
+    "short_description": "Having a strong religious or spiritual quality; indicating or suggesting the presence of a divinity."
+  },
+  "Consecration": {
+    "short_description": "The act of declaring something sacred; dedication to a religious purpose."
+  },
+  "Profane": {
+    "short_description": "Relating or devoted to that which is not sacred or biblical; secular rather than religious."
+  },
+ "Sacred Geometry": {
+    "short_description": "Geometric patterns used in the design and construction of religious structures and art which are believed to have symbolic and sacred meanings."
+  },
+  "Vestments": {
+    "short_description": "Ritual garments and robes worn by clergy."
+  }
+}

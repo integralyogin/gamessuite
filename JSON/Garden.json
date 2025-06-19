@@ -1,0 +1,275 @@
+{
+"Cultivation": {
+"short_description": "The intentional process of nurturing and developing plant life, creating conditions for growth and managing the relationship between human and natural forces."
+},
+"Paradise": {
+"short_description": "The idealized concept of a perfect garden space, representing harmony between nature and human design, often associated with spiritual or mythological significance."
+},
+"Sanctuary": {
+"short_description": "A protected and nurturing space providing refuge, contemplation, and connection with natural cycles and processes."
+},
+"Design": {
+"short_description": "The intentional arrangement and planning of garden elements to create specific aesthetic, functional, or symbolic effects."
+},
+"Cycles": {
+"short_description": "The natural rhythms and seasonal patterns that govern garden life, including growth, flowering, fruiting, and dormancy."
+},
+"Fertility": {
+"short_description": "The productive capacity of the garden environment, encompassing soil health, pollination, and the conditions that support abundant growth."
+},
+"Boundaries": {
+"short_description": "The defined limits and transitions that separate garden space from surrounding areas, creating protected and specialized environments."
+},
+"Microcosm": {
+"short_description": "The garden as a small-scale representation of larger natural systems and cosmic principles, embodying universal patterns in contained form."
+},
+"Stewardship": {
+"short_description": "The responsible care and management of garden spaces, balancing human intervention with natural processes."
+},
+"Biodiversity": {
+"short_description": "The variety and interaction of different species within the garden ecosystem, creating resilient and dynamic living systems."
+},
+"Harvest": {
+"short_description": "The gathering and collection of garden products, representing the fulfillment of cultivation cycles and the rewards of careful tending."
+},
+"Succession": {
+"short_description": "The natural progression and change of plant communities over time, including planned rotations and spontaneous adaptation."
+},
+"Symmetry": {
+"short_description": "The balanced arrangement of garden elements, creating order and harmony through deliberate spatial relationships."
+},
+"Nourishment": {
+"short_description": "The sustaining qualities of the garden, providing physical, emotional, and spiritual sustenance through its various offerings."
+},
+"Adaptation": {
+"short_description": "The capacity of garden systems to respond and adjust to changing conditions, developing resilience through diversity and flexibility."
+},
+"Propagation": {
+"short_description": "The multiplication and spread of plant life through various natural and assisted means, ensuring continuity and abundance."
+},
+"Meditation": {
+"short_description": "The contemplative aspect of garden spaces, facilitating reflection, mindfulness, and connection with natural processes."
+},
+"Pollination": {
+"short_description": "The vital process of genetic exchange and fertilization, supported by the interaction of plants, insects, and other garden inhabitants."
+},
+"Composition": {
+"short_description": "The artistic arrangement of garden elements, creating aesthetic and functional relationships between different components."
+},
+"Maintenance": {
+"short_description": "The ongoing care and attention required to sustain garden health and beauty, including regular tasks and seasonal interventions."
+},
+"Habitat": {
+"short_description": "The garden as living space for various species, providing necessary conditions for diverse forms of life to thrive."
+},
+"Heritage": {
+"short_description": "The cultural and historical significance of garden traditions, including preserved varieties and traditional practices."
+},
+"Transformation": {
+"short_description": "The continuous process of change and renewal within garden spaces, including decomposition, growth, and seasonal transitions."
+},
+"Integration": {
+"short_description": "The harmonious combination of different garden elements and functions, creating cohesive and sustainable systems."
+},
+"Wisdom": {
+"short_description": "The accumulated knowledge and understanding gained through garden practice, including both traditional lore and direct experience."
+},
+"Ceremony": {
+"short_description": "The ritual and celebratory aspects of garden activities, marking significant moments in the growing cycle."
+},
+"Conservation": {
+"short_description": "The preservation and protection of plant diversity, traditional varieties, and sustainable growing practices."
+},
+"Expression": {
+"short_description": "The creative and personal manifestation of garden design, reflecting individual and cultural aesthetic values."
+},
+"Community": {
+"short_description": "The social aspect of garden spaces, fostering connection and sharing among people through collective cultivation."
+},
+"Healing": {
+"short_description": "The therapeutic and restorative properties of garden environments, supporting physical and psychological well-being."
+},
+"Soil": {
+"short_description": "The living foundation and medium of cultivation, containing nutrients, organisms, and minerals essential for plant growth and garden vitality."
+},
+"Bed": {
+"short_description": "A defined area of prepared ground for specific cultivation purposes, organized to support particular plant communities or growing conditions."
+},
+"Path": {
+"short_description": "Designated routes through garden space that guide movement, define areas, and provide access for maintenance and contemplation."
+},
+"Border": {
+"short_description": "The transitional zone between different garden areas or between garden and surrounding space, often featuring distinctive plantings or structures."
+},
+"Compost": {
+"short_description": "The organized decomposition system creating fertile soil from organic matter, representing the garden's cycle of death and renewal."
+},
+"Pruning": {
+"short_description": "The selective removal of plant material to shape growth, maintain health, and direct energy within living garden systems."
+},
+"Succession": {
+"short_description": "The planned or natural sequence of plant growth and replacement over time, maintaining continuous garden vitality through seasonal changes."
+},
+"Pollination": {
+"short_description": "The vital process of genetic exchange between plants, facilitated by insects, birds, wind, and deliberate human intervention."
+},
+"Microclimate": {
+"short_description": "Localized environmental conditions within the garden created by topology, structures, and plant communities."
+},
+"Companion": {
+"short_description": "Plants that grow beneficially together, supporting each other's health, growth, and resistance to pests."
+},
+"Harvest": {
+"short_description": "The gathering of garden products, marking cycles of maturity and completion within the cultivated system."
+},
+"Propagation": {
+"short_description": "The multiplication of plants through seeds, cuttings, or division, extending and renewing garden populations."
+},
+"Sanctuary": {
+"short_description": "Protected spaces within the garden providing habitat for wildlife and zones of natural process."
+},
+"Water": {
+"short_description": "The essential flow and presence of moisture through garden systems, managed through natural and artificial distribution."
+},
+"Shade": {
+"short_description": "The pattern of light reduction created by trees and structures, defining zones for specific plant communities and activities."
+},
+"Espalier": {
+"short_description": "The artistic training of plants against flat surfaces, combining aesthetic form with productive function."
+},
+"Topiary": {
+"short_description": "The sculptural shaping of living plants, expressing human design through natural growth."
+},
+"Pergola": {
+"short_description": "Supporting structures enabling vertical garden development and creating defined spaces through plant growth."
+},
+"Terrace": {
+"short_description": "Leveled areas created to manage slope and create distinct growing zones within the garden landscape."
+},
+"Nursery": {
+"short_description": "Protected areas for starting and nurturing young plants before their placement in permanent garden locations."
+},
+"Rotation": {
+"short_description": "The planned movement of crops through garden spaces to maintain soil health and prevent pest accumulation."
+},
+"Mulch": {
+"short_description": "Protective ground covering that conserves moisture, suppresses weeds, and builds soil quality."
+},
+"Hedge": {
+"short_description": "Living boundaries formed by closely planted shrubs or trees, defining space and providing shelter within the garden."
+},
+"Focal Point": {
+"short_description": "Designed features or specimens that draw attention and organize garden space around significant elements."
+},
+"Biodiversity": {
+"short_description": "The variety of life forms supported within the garden ecosystem, contributing to stability and resilience."
+},
+"Seasonality": {
+"short_description": "The rhythm of natural changes through the year, expressed in garden cycles of growth, flowering, and dormancy."
+},
+"Rootzone": {
+"short_description": "The underground environment where plant roots develop and interact with soil life and nutrients."
+},
+"Canopy": {
+"short_description": "The upper layer of garden vegetation formed by tree crowns, creating environmental conditions for understory plants."
+},
+"Vista": {
+"short_description": "Planned views through garden space that create aesthetic experiences and guide movement and attention."
+},
+"Threshold": {
+"short_description": "Transitional points between different garden areas or between garden and external space, often marked by distinctive features."
+},
+ "Cultivation": {
+    "short_description": "The act of preparing and using land for growing plants, encompassing the processes of planting, nurturing, and harvesting crops or ornamental vegetation."
+  },
+  "Horticulture": {
+    "short_description": "The science and art of growing fruits, vegetables, flowers, or ornamental plants, involving the cultivation of gardens, orchards, and nurseries."
+  },
+  "Flora": {
+    "short_description": "The plants of a particular region, habitat, or geological period, encompassing all forms of plant life from trees and shrubs to herbs and grasses."
+  },
+  "Fauna": {
+    "short_description": "The animals of a particular region, habitat, or geological period, encompassing all forms of animal life from mammals and birds to insects and reptiles."
+  },
+  "Landscape": {
+    "short_description": "All the visible features of an area of land, often considered in terms of their aesthetic appeal, encompassing natural elements like mountains, forests, and bodies of water, as well as human-made structures like buildings and gardens."
+  },
+  "Ecosystem": {
+    "short_description": "A biological community of interacting organisms and their physical environment, functioning as a unit and cycling nutrients and energy through various trophic levels."
+  },
+  "Biodiversity": {
+    "short_description": "The variety of life in the world or in a particular habitat or ecosystem, encompassing genetic diversity, species diversity, and ecosystem diversity."
+  },
+  "Seed": {
+    "short_description": "A flowering plant's unit of reproduction, capable of developing into another such plant."
+  },
+  "Soil": {
+    "short_description": "The upper layer of earth in which plants grow, consisting of a mixture of organic matter, minerals, gases, liquids, and organisms."
+  },
+  "Water": {
+    "short_description": "A transparent, odorless, tasteless liquid, essential for plant life, serving as a solvent, transport medium, and reactant in plant processes."
+  },
+  "Sunlight": {
+    "short_description": "The radiant energy emitted by the sun, providing the energy for photosynthesis and influencing plant growth, development, and distribution."
+  },
+  "Fertilizer": {
+    "short_description": "A chemical or natural substance added to soil or land to increase its fertility, providing essential nutrients for plant growth and improving crop yields."
+  },
+  "Pesticide": {
+    "short_description": "A substance used for destroying insects or other organisms harmful to cultivated plants or to animals."
+  },
+    "Weed": {
+    "short_description": "A plant growing where it is not wanted and in competition with cultivated plants."
+  },
+  "Pruning": {
+    "short_description": "The process of removing unwanted branches or stems from a plant to improve its shape, health, or productivity."
+  },
+  "Grafting": {
+    "short_description": "The process of joining parts from two or more plants so that they appear to grow as a single plant."
+  },
+  "Compost": {
+    "short_description": "Decomposed organic matter used as a plant fertilizer."
+  },
+  "Permaculture": {
+    "short_description": "The development of agricultural ecosystems intended to be sustainable and self-sufficient."
+  },
+  "Herbicide": {
+    "short_description": "A substance that is toxic to plants, used to destroy unwanted vegetation."
+  },
+  "Trellis": {
+    "short_description": "A framework of light wooden or metal bars, chiefly used as a support for fruit trees or climbing plants."
+  },
+  "Greenhouse": {
+    "short_description": "A glass or plastic building used to protect plants from the elements and allow them to grow in a controlled environment."
+  },
+  "Topiary": {
+    "short_description": "The art or practice of clipping shrubs or trees into ornamental shapes."
+  },
+  "Bonsai": {
+    "short_description": "The Japanese art of growing ornamental, artificially dwarfed trees or shrubs in containers."
+  },
+  "Zen Garden": {
+    "short_description": "A Japanese rock garden, a carefully composed landscape of rocks, gravel, and minimalist plantings, designed to evoke serenity and contemplation."
+  },
+"Orchard": {
+    "short_description": "A planting of fruit trees or nut trees."
+  },
+"Botanical Garden": {
+    "short_description": "A garden dedicated to the collection, cultivation, preservation and display of a wide range of plants labelled with their botanical names."
+  },
+"Hydroponics": {
+    "short_description": "The method of growing plants without soil, using mineral nutrient solutions in water."
+  },
+"Xeriscaping": {
+    "short_description": "Landscaping and gardening that reduces or eliminates the need for supplemental irrigation."
+  },
+"Hedge": {
+    "short_description": "A fence or boundary formed by closely growing bushes or shrubs."
+  },
+"Arboretum": {
+    "short_description": "A botanical garden containing living collections of trees and woody plants intended at least partly for scientific study."
+  },
+  "Espalier": {
+    "short_description": "The horticultural practice of training a plant to grow flat against a support, such as a wall or fence."
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bitCraft.js v0.04 - Combat & Magic</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #game-container {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container"></div>
+    
+    <!-- Load game configuration and systems -->
+    <script src="gameConfig.js"></script>
+    <script src="pixelRenderer.js"></script>
+    <script src="itemSystem.js"></script>
+    <script src="inventorySystem.js"></script>
+    <script src="craftingSystem.js"></script>
+    <script src="combatSystem.js"></script>
+    <script src="magic.js"></script>
+    <script src="bitCraftGame.js"></script>
+    
+    <script>
+        // Initialize the game
+        const gameContainer = document.getElementById('game-container');
+        bitCraftGame.init(gameContainer, 
+            (result) => console.log('Game ended:', result),
+            (error) => console.error('Game error:', error)
+        );
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,303 @@
+{
+  "Websites full": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+ 
+  "archive.org": {
+    "page_count": "916000000000",
+    "category": "Library",
+    "descriptions": "",
+    "created_date": "1995-12-14T05:00:00Z"
+  },
+  "youtube.com": {
+    "page_count": "5000000000",
+    "category": "Video",
+    "descriptions": "",
+    "created_date": "2005-02-15T05:13:12Z"
+  },
+  "twitter.com": {
+    "page_count": "1000000000",
+    "category": "Social",
+    "descriptions": "A social media platform where users can share short messages (tweets), follow others, and engage in discussions on a wide range of topics.",
+    "created_date": "2000-01-21T16:28:17Z"
+  },
+  "facebook.com": {
+    "page_count": "800000000",
+    "category": "Social",
+    "descriptions": "A social media platform where users can connect, share content, and engage with communities, businesses, and friends through posts, messages, and groups.",
+    "created_date": "1997-03-29T05:00:00Z"
+  },
+  "instagram.com": {
+    "page_count": "400000000",
+    "category": "Social",
+    "descriptions": "",
+    "created_date": "2004-06-04T13:37:18Z"
+  },
+  "tiktok.com": {
+    "page_count": "200000000",
+    "category": "Social",
+    "descriptions": "",
+    "created_date": "1996-07-21T04:00:00Z"
+  },
+  "goodreads.com": {
+    "page_count": "120000000",
+    "category": "Books",
+    "descriptions": "A social cataloging website for books, allowing users to track reading, write reviews, and discover new books through recommendations4610.",
+    "created_date": "2002-12-09T11:35:41Z"
+  },
+  "wikidata.org": {
+    "page_count": "115579601",
+    "category": "Data",
+    "descriptions": "",
+    "created_date": "2004-09-16T21:30:28Z"
+  },
+  "wikimedia.org": {
+    "page_count": "89000000",
+    "category": "Knowledge",
+    "descriptions": "",
+    "created_date": "2003-03-16T08:22:47Z"
+  },
+  "wikipedia.org": {
+    "page_count": "62500000",
+    "category": "Encyclopedia",
+    "descriptions": "",
+    "created_date": "2001-01-13T00:12:14Z"
+  },
+  "reddit.com": {
+    "page_count": "50000000",
+    "category": "Community",
+    "descriptions": "A social media platform organized into communities (subreddits) where users can share, discuss, and vote on content related to virtually any topic.",
+    "created_date": "2005-04-29T17:59:19Z"
+  },
+  "fandom.com": {
+    "page_count": "40000000",
+    "category": "Entertainment",
+    "descriptions": "The main hub for Fandom, a platform hosting thousands of wikis on various topics, including movies, TV shows, games, and more. It serves as a central resource for fan communities.",
+    "created_date": "1996-10-11T04:00:00Z"
+  },
+  "quora.com": {
+    "page_count": "30000000",
+    "category": "QNA",
+    "descriptions": "",
+    "created_date": "2009-06-21T00:00:00Z"
+  },
+  "amazon.com": {
+    "page_count": "25000000",
+    "category": "Shopping",
+    "descriptions": "",
+    "created_date": "1994-11-01T05:00:00Z"
+  },
+  "linkedin.com": {
+    "page_count": "20000000",
+    "category": "Professional",
+    "descriptions": "",
+    "created_date": "2002-11-02T15:38:11Z"
+  },
+  "yahoo.com": {
+    "page_count": "20000000",
+    "category": "Portal",
+    "descriptions": "",
+    "created_date": "1995-01-18T05:00:00Z"
+  },
+  "pinterest.com": {
+    "page_count": "15000000",
+    "category": "Social",
+    "descriptions": "",
+    "created_date": "2009-11-26T19:21:23Z"
+  },
+  "deviantart.com": {
+    "page_count": "15000000",
+    "category": "Art",
+    "descriptions": "",
+    "created_date": "2000-04-25T04:59:54Z"
+  },
+  "imdb.com": {
+    "page_count": "10000000",
+    "category": "Movies",
+    "descriptions": "The Internet Movie Database, a comprehensive resource for movies, TV shows, and celebrities.",
+    "created_date": "1996-01-05T05:00:00Z"
+  },
+  "github.com": {
+    "page_count": "10000000",
+    "category": "Code",
+    "descriptions": "A platform for software development and version control, allowing developers to collaborate on projects, share code, and manage repositories.",
+    "created_date": "2008-04-10T00:00:00Z"
+  },
+  "openlibrary.org": {
+    "page_count": "10000000",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2006-10-16T00:00:00Z"
+  },
+  "soundcloud.com": {
+    "page_count": "10000000",
+    "category": "Music",
+    "descriptions": "",
+    "created_date": "2007-02-01T00:00:00Z"
+  },
+  "bing.com": {
+    "page_count": "10000000",
+    "category": "Search",
+    "descriptions": "",
+    "created_date": "1996-01-29T05:00:00Z"
+  },
+  "tripadvisor.com": {
+    "page_count": "10000000",
+    "category": "Travel",
+    "descriptions": "",
+    "created_date": "1999-03-23T05:00:00Z"
+  },
+  "craigslist.org": {
+    "page_count": "10000000",
+    "category": "Classifieds",
+    "descriptions": "",
+    "created_date": "1997-09-11T04:00:00Z"
+  },
+  "medium.com": {
+    "page_count": "8000000",
+    "category": "Blog",
+    "descriptions": "",
+    "created_date": "2012-08-14T00:00:00Z"
+  },
+  "stackoverflow.com": {
+    "page_count": "8000000",
+    "category": "Programming",
+    "descriptions": "",
+    "created_date": "2008-07-31T00:00:00Z"
+  },
+  "flickr.com": {
+    "page_count": "8000000",
+    "category": "Photos",
+    "descriptions": "",
+    "created_date": "2003-11-22T07:49:51Z"
+  },
+  "en.wikipedia.org": {
+    "page_count": "6800000",
+    "category": "Encyclopedia",
+    "descriptions": "A free-content online encyclopedia written and maintained by a community of volunteers, covering a vast range of topics in multiple languages.",
+    "created_date": "2001-01-13T00:12:14Z"
+  },
+  "tumblr.com": {
+    "page_count": "5000000",
+    "category": "Blog",
+    "descriptions": "",
+    "created_date": "2006-06-08T22:11:40Z"
+  },
+  "vimeo.com": {
+    "page_count": "5000000",
+    "category": "Video",
+    "descriptions": "",
+    "created_date": "2004-12-15T08:38:55Z"
+  },
+  "wordpress.com": {
+    "page_count": "3000000",
+    "category": "Blog",
+    "descriptions": "",
+    "created_date": "2000-03-03T12:13:23Z"
+  },
+  "arxiv.org": {
+    "page_count": "2300000",
+    "category": "Research",
+    "descriptions": "",
+    "created_date": "1991-08-14T00:00:00Z"
+  },
+  "libgen.mx": {
+    "page_count": "2000000",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2024-05-24"
+  },
+  "wikibooks.org": {
+    "page_count": "1500000",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "2005-04-01T00:00:00Z"
+  },
+  "ebay.com": {
+    "page_count": "1500000",
+    "category": "Marketplace",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "allpoetry.com": {
+    "page_count": "1000000",
+    "category": "Poetry",
+    "descriptions": "A platform for poets and poetry enthusiasts to share, read, and discuss poetry. It includes tools for writing and formatting poems, as well as contests and community features.",
+    "created_date": "2001-07-05T17:05:51Z"
+  },
+  "azquotes.com": {
+    "page_count": "500000",
+    "category": "Quotes",
+    "descriptions": "A website offering a vast collection of quotes from famous personalities, authors, and historical figures.",
+    "created_date": "2012-08-01T18:36:23Z"
+  },
+  "tvtropes.org": {
+    "page_count": "300000",
+    "category": "Media",
+    "descriptions": "A wiki dedicated to cataloging and analyzing storytelling devices and conventions in media, including TV, movies, and literature.",
+    "created_date": "2005-04-01T12:36:06Z"
+  },
+  "encyclopedia.com": {
+    "page_count": "300000",
+    "category": "Reference",
+    "descriptions": "",
+    "created_date": "1998-08-18T04:00:00Z"
+  },
+  "wikiquote.org": {
+    "page_count": "250000",
+    "category": "Quotes",
+    "descriptions": "",
+    "created_date": "2003-07-10T23:54:57Z"
+  },
+  "britannica.com": {
+    "page_count": "120000",
+    "category": "Encyclopedia",
+    "descriptions": "",
+    "created_date": "1994-04-21T04:00:00Z"
+  },
+  "retrojunk.com": {
+    "page_count": "100000",
+    "category": "Nostalgia",
+    "descriptions": "A website celebrating retro pop culture, including TV shows, movies, and commercials from the past.",
+    "created_date": "2003-10-07T16:10:04Z"
+  },
+  "gutenberg.org": {
+    "page_count": "60000",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "1994-07-01T00:00:00Z"
+  },
+  "myanimelist.net": {
+    "page_count": "50000",
+    "category": "Anime",
+    "descriptions": "A social network and database for anime and manga fans to track, review, and discuss their favorite series.",
+    "created_date": "2006-04-01T01:16:01Z"
+  },
+  "en.dharmapedia.net": {
+    "page_count": "50000",
+    "category": "Religion",
+    "descriptions": "A wiki focused on Dharmic religions, including Hinduism, Buddhism, and Jainism. It provides information about scriptures, practices, and philosophy.",
+    "created_date": ""
+  },
+  "wiki.archlinux.org": {
+    "page_count": "20000",
+    "category": "Technology",
+    "descriptions": "The official documentation and community wiki for Arch Linux, offering guides, troubleshooting tips, and software recommendations for users of this Linux distribution.",
+    "created_date": ""
+  },
+  "occultopedia.com": {
+    "page_count": "15000",
+    "category": "Occult",
+    "descriptions": "An online encyclopedia of the occult, esoteric, and paranormal, offering definitions, explanations, and resources on various occult topics.",
+    "created_date": "1999-08-17T00:00:00Z"
+  },
+  "integralworld.net": {
+    "page_count": "10000",
+    "category": "Philosophy",
+    "descriptions": "A platform for exploring integral theory and its applications, featuring essays, critiques, and discussions by various authors on topics related to philosophy, spirituality, and psychology.",
+    "created_date": "2004-06-02T18:13:20Z"
+  }
+}

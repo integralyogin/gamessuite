@@ -1,0 +1,182 @@
+{
+  "Town Hub": {
+    "date": "2025-06-09",
+    "desc": "The central navigation hub for Gamessuite. A 2D pannable map where players can visit various locations, each launching a specific sub-game.",
+    "img": "images/games/gamessuite_town_hub.png",
+    "db": "town_layout.json",
+    "address": "/var/www/html/games/gamessuite/js/townHubGame.js",
+    "lang": "js",
+    "parent": "Gamessuite"
+  },
+  "Dungeon": {
+    "date": "2025-06-09",
+    "desc": "A roguelike dungeon crawl adventure launched from the Town Hub.",
+    "img": "images/places/town_dungeon.jpg",
+    "db": "monsters.json, loot_tables.json",
+    "address": "/var/www/html/games/gamessuite/js/roguelikeDungeonGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Item Shop": {
+    "date": "2025-06-09",
+    "desc": "A place to buy and sell goods and equipment.",
+    "img": "images/places/town_shop.jpg",
+    "db": "shop_inventory.json",
+    "address": "/var/www/html/games/gamessuite/js/shopGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Heroes' Guild": {
+    "date": "2025-06-09",
+    "desc": "Recruit and manage your roster of heroes.",
+    "img": "images/places/town_agency.jpg",
+    "db": "heroes.json",
+    "address": "/var/www/html/games/gamessuite/js/agencyGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "The Mountain": {
+    "date": "2025-06-09",
+    "desc": "A special encounter zone, representing a journey of ascent.",
+    "img": "images/places/mountain.jpg",
+    "db": "",
+    "address": "/var/www/html/games/gamessuite/js/mountainGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Town Designer": {
+    "date": "2025-06-09",
+    "desc": "A meta-game or tool for editing the town layout itself.",
+    "img": "images/placeholder.png",
+    "db": "town_layout.json",
+    "address": "/var/www/html/games/gamessuite/js/townDesignerGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Pixel Palace Arcade": {
+    "date": "2025-06-09",
+    "desc": "A collection of various mini-games.",
+    "img": "images/places/arcade.jpg",
+    "db": "",
+    "address": "/var/www/html/games/gamessuite/js/arcadeGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "The Arena": {
+    "date": "2025-06-09",
+    "desc": "Test your combat skills against waves of enemies.",
+    "img": "images/places/battle_arena.jpg",
+    "db": "arena_waves.json",
+    "address": "/var/www/html/games/gamessuite/js/arenaGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Grand Library": {
+    "date": "2025-06-09",
+    "desc": "Access lore, read books, and uncover secrets.",
+    "img": "images/places/library.jpg",
+    "db": "books.json, lore.json",
+    "address": "/var/www/html/games/gamessuite/js/libraryGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Inn": {
+    "date": "2025-06-09",
+    "desc": "Rest, recover, and accept local quests.",
+    "img": "images/places/inn.jpg",
+    "db": "quests.json",
+    "address": "/var/www/html/games/gamessuite/js/innGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Armory": {
+    "date": "2025-06-09",
+    "desc": "Craft, purchase, and manage weaponry.",
+    "img": "images/places/armory.jpg",
+    "db": "items.json, recipes.json",
+    "address": "/var/www/html/games/gamessuite/js/armoryGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Mother's Inner Sanctuary": {
+    "date": "2025-06-09",
+    "desc": "A place of spiritual guidance and contemplation.",
+    "img": "images/places/sanctuary.jpg",
+    "db": "",
+    "address": "/var/www/html/games/gamessuite/js/theMotherGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Savitri": {
+    "date": "2025-06-09",
+    "desc": "An interactive experience based on the epic poem.",
+    "img": "images/places/golden-door.jpg",
+    "db": "savitri.json",
+    "address": "/var/www/html/games/gamessuite/js/savitriGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Aurobindo's Temple-Tower": {
+    "date": "2025-06-09",
+    "desc": "A location dedicated to the teachings of Sri Aurobindo.",
+    "img": "images/places/temple.jpg",
+    "db": "",
+    "address": "/var/www/html/games/gamessuite/js/aurobindoGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "The Academy": {
+    "date": "2025-06-09",
+    "desc": "Learn new skills and improve character attributes.",
+    "img": "images/places/academy.jpg",
+    "db": "skills.json",
+    "address": "/var/www/html/games/gamessuite/js/academyGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Garden": {
+    "date": "2025-06-09",
+    "desc": "An idle/clicker game for gathering resources.",
+    "img": "images/places/garden.jpg",
+    "db": "",
+    "address": "/var/www/html/games/gamessuite/js/clickerGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Training Grounds": {
+    "date": "2025-06-09",
+    "desc": "Improve combat stats and practice abilities.",
+    "img": "images/placeholder.png",
+    "db": "",
+    "address": "/var/www/html/games/gamessuite/js/trainingGroundsGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "Sky": {
+    "date": "2025-06-09",
+    "desc": "An aerial-themed mini-game.",
+    "img": "images/places/sky.jpg",
+    "db": "",
+    "address": "/var/www/html/games/gamessuite/js/skyGame.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "World-Engine": {
+    "date": "2025-06-09",
+    "desc": "The system that generates and manages the overworld map or connects different zones.",
+    "img": "images/places/world-engine.jpg",
+    "db": "world_map.json",
+    "address": "/var/www/html/games/gamessuite/js/worldEngine.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  },
+  "World Workshop": {
+    "date": "2025-06-09",
+    "desc": "A meta-game or tool for creating and modifying world content.",
+    "img": "images/placeholder.png",
+    "db": "",
+    "address": "/var/www/html/games/gamessuite/js/worldWorkshop.js",
+    "lang": "js",
+    "parent": "Town Hub"
+  }
+}

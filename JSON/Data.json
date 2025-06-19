@@ -1,0 +1,104 @@
+{
+  "Data": {
+    "short_description": "The fundamental units of information that represent facts, observations, or measurements, serving as the raw material for analysis, interpretation, and knowledge creation."
+  },
+  "Dataset": {
+    "short_description": "A structured collection of related data elements organized for analysis, sharing, and processing, representing a specific domain or phenomenon of interest."
+  },
+  "Metadata": {
+    "short_description": "Contextual information about data that describes its structure, origin, quality, and relationships, enabling proper interpretation and management of information resources."
+  },
+  "Schema": {
+    "short_description": "The formal structure defining the organization and relationships of data elements, providing a blueprint for how information is stored and accessed."
+  },
+  "Datapoint": {
+    "short_description": "A single unit of information within a dataset, representing a specific observation or measurement at a particular instance or context."
+  },
+  "Attribute": {
+    "short_description": "A characteristic or property of data that describes a specific aspect or dimension of the information being represented."
+  },
+  "Dimension": {
+    "short_description": "A distinct aspect or perspective of data that provides a way to analyze, aggregate, or segment information across different contexts or levels."
+  },
+  "Transformation": {
+    "short_description": "The process of converting data from one form or structure to another, enabling better analysis, integration, or understanding of information."
+  },
+  "Aggregation": {
+    "short_description": "The combination of multiple data points into summary forms, revealing patterns and insights at higher levels of abstraction."
+  },
+  "Normalization": {
+    "short_description": "The process of organizing data to reduce redundancy and improve integrity, ensuring consistent and efficient storage of information."
+  },
+  "Lineage": {
+    "short_description": "The documented history of data's origin, movements, and transformations, tracking how information evolves and changes over time."
+  },
+  "Pipeline": {
+    "short_description": "A sequence of processes and transformations that move and modify data from source to destination, ensuring consistent and automated data flow."
+  },
+  "Warehouse": {
+    "short_description": "A centralized repository for storing and managing large volumes of structured data from various sources, optimized for analysis and reporting."
+  },
+  "Lake": {
+    "short_description": "A storage system that holds vast amounts of raw data in its native format until needed, enabling flexible and diverse analysis approaches."
+  },
+  "Mart": {
+    "short_description": "A subset of a data warehouse focused on specific business areas or departments, providing targeted access to relevant information."
+  },
+  "Quality": {
+    "short_description": "The measure of data's fitness for use, encompassing accuracy, completeness, consistency, and timeliness of information."
+  },
+  "Governance": {
+    "short_description": "The framework of policies, procedures, and controls ensuring proper management, security, and utilization of organizational data assets."
+  },
+  "Catalog": {
+    "short_description": "An organized inventory of data assets that documents their location, meaning, and relationships, facilitating discovery and access."
+  },
+  "Architecture": {
+    "short_description": "The structural design of data systems and flows within an organization, defining how information is collected, stored, and utilized."
+  },
+  "Integration": {
+    "short_description": "The process of combining data from different sources into a unified view, enabling comprehensive analysis and understanding."
+  },
+  "Migration": {
+    "short_description": "The process of moving data between systems or platforms while preserving its integrity and meaning, enabling system evolution and modernization."
+  },
+  "Orchestration": {
+    "short_description": "The automated coordination and management of complex data processes and workflows, ensuring efficient and reliable operation."
+  },
+  "Versioning": {
+    "short_description": "The tracking and management of changes to data over time, enabling historical analysis and recovery of previous states."
+  },
+  "Persistence": {
+    "short_description": "The durable storage of data beyond the lifetime of specific processes or applications, ensuring long-term availability and access."
+  },
+  "Federation": {
+    "short_description": "The virtual integration of distributed data sources while maintaining their autonomy, enabling unified access to decentralized information."
+  },
+  "Validation": {
+    "short_description": "The process of verifying data accuracy, completeness, and conformance to specified rules and standards."
+  },
+  "Enrichment": {
+    "short_description": "The process of enhancing data with additional context or derived information, increasing its value and utility for analysis."
+  },
+  "Reconciliation": {
+    "short_description": "The process of comparing and aligning data from different sources or versions to ensure consistency and accuracy."
+  },
+  "Observability": {
+    "short_description": "The ability to understand and monitor the state, behavior, and performance of data systems through collected metrics and traces."
+  },
+  "Entropy": {
+    "short_description": "The measure of disorder or uncertainty in data, indicating the potential information content and complexity of the dataset."
+  },
+  "Taxonomy": {
+    "short_description": "A hierarchical classification system for organizing and categorizing data elements based on their relationships and characteristics."
+  },
+  "Ontology": {
+    "short_description": "A formal representation of knowledge within a domain, defining concepts, relationships, and rules governing data interpretation."
+  },
+  "Semantics": {
+    "short_description": "The meaning and interpretation of data elements within their context, enabling proper understanding and use of information."
+  },
+  "Provenance": {
+    "short_description": "The detailed record of data's origin, ownership, and transformation history, establishing trust and accountability in information use."
+  }
+}

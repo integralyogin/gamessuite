@@ -1,0 +1,199 @@
+{
+  "map_settings": {
+    "width": 2000,
+    "height": 1800,
+    "background_color": "#dcec08"
+  },
+  "places": [
+    {
+      "id": "dungeon",
+      "name": "Dungeon",
+      "image": "images/places/town_dungeon.jpg",
+      "targetGameId": "RoguelikeDungeonGame",
+      "x": 919,
+      "y": 1548,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "shop",
+      "name": "Item Shop",
+      "image": "images/places/town_shop.jpg",
+      "targetGameId": "ShopGame",
+      "x": 879,
+      "y": 1212,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "agency",
+      "name": "Heroes' Guild",
+      "image": "images/places/town_agency.jpg",
+      "targetGameId": "AgencyGame",
+      "x": 1564,
+      "y": 637,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "mountain",
+      "name": "The Mountain",
+      "image": "images/places/mountain.jpg",
+      "targetGameId": "MountainGame",
+      "x": 956,
+      "y": 376,
+      "width": 249,
+      "height": 293
+    },
+    {
+      "id": "design",
+      "name": "Town Designer",
+      "image": "images/placeholder.png",
+      "targetGameId": "TownDesignerGame",
+      "x": 149,
+      "y": 100,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "arcade",
+      "name": "Pixel Palace Arcade",
+      "image": "images/places/arcade.jpg",
+      "targetGameId": "ArcadeGame",
+      "x": 331,
+      "y": 245,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "arena",
+      "name": "The Arena",
+      "image": "images/places/battle_arena.jpg",
+      "targetGameId": "ArenaGame",
+      "x": 1342,
+      "y": 563,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "library",
+      "name": "Grand Library",
+      "image": "images/places/library.jpg",
+      "targetGameId": "LibraryGame",
+      "x": 829,
+      "y": 907,
+      "width": 225,
+      "height": 267
+    },
+    {
+      "id": "inn",
+      "name": "Inn",
+      "image": "images/places/inn.jpg",
+      "targetGameId": "InnGame",
+      "x": 626,
+      "y": 959,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "armory",
+      "name": "Armory",
+      "image": "images/places/armory.jpg",
+      "targetGameId": "ArmoryGame",
+      "x": 1709,
+      "y": 883,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "temple",
+      "name": "Mother's Inner Sanctuary",
+      "image": "images/places/sanctuary.jpg",
+      "targetGameId": "TheMotherGame",
+      "x": 336,
+      "y": 490,
+      "width": 253,
+      "height": 277
+    },
+    {
+      "id": "savitri",
+      "name": "Savitri",
+      "image": "images/places/golden-door.jpg",
+      "targetGameId": "savitriGame",
+      "x": 68,
+      "y": 756,
+      "width": 225,
+      "height": 262
+    },
+    {
+      "id": "aurotemple",
+      "name": "Aurobindo's Temple-Tower",
+      "image": "images/places/temple.jpg",
+      "targetGameId": "AurobindoGame",
+      "x": 655,
+      "y": 344,
+      "width": 235,
+      "height": 283
+    },
+    {
+      "id": "academy",
+      "name": "The Academy",
+      "image": "images/places/academy.jpg",
+      "targetGameId": "AcademyGame",
+      "x": 1329,
+      "y": 978,
+      "width": 202,
+      "height": 228
+    },
+    {
+      "id": "garden",
+      "name": "Garden",
+      "image": "images/places/garden.jpg",
+      "targetGameId": "ClickerGame",
+      "x": 353,
+      "y": 805,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "training",
+      "name": "Training Grounds",
+      "image": "images/placeholder.png",
+      "targetGameId": "TrainingGroundsGame",
+      "x": 1584,
+      "y": 1138,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "place_1749217432647",
+      "name": "Sky",
+      "image": "images/places/sky.jpg",
+      "targetGameId": "SkyGame",
+      "x": 968,
+      "y": 95,
+      "width": 217,
+      "height": 235
+    },
+    {
+      "id": "place_1749219508110",
+      "name": "World-Engine",
+      "image": "images/places/world-engine.jpg",
+      "targetGameId": "WorldEngine",
+      "x": 43,
+      "y": 291,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "id": "place_1749221607357",
+      "name": "World Workshop",
+      "image": "images/placeholder.png",
+      "targetGameId": "WorldWorkshop",
+      "x": 507,
+      "y": 80,
+      "width": 160,
+      "height": 160
+    }
+  ]
+}

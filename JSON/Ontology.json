@@ -1,0 +1,125 @@
+{
+  "Being": {
+    "short_description": "Fundamental fact of existence or presence in reality."
+  },
+  "Becoming": {
+    "short_description": "Process of change and transformation in reality."
+  },
+  "Substance": {
+    "short_description": "Fundamental stuff or essence underlying phenomena."
+  },
+  "Form": {
+    "short_description": "Essential structure or pattern giving definition to being."
+  },
+  "Essence": {
+    "short_description": "Core nature that makes something what it fundamentally is."
+  },
+  "Existence": {
+    "short_description": "Actual manifestation or presence in reality."
+  },
+  "Potentiality": {
+    "short_description": "Capacity or possibility for manifestation or actualization."
+  },
+  "Actuality": {
+    "short_description": "State of being real or manifest in present form."
+  },
+  "Unity": {
+    "short_description": "Fundamental oneness underlying apparent multiplicity."
+  },
+  "Multiplicity": {
+    "short_description": "Manifestation of diversity and plurality in being."
+  },
+  "Causality": {
+    "short_description": "Principle of cause and effect relationships in reality."
+  },
+  "Quality": {
+    "short_description": "Essential attributes or characteristics of being."
+  },
+  "Quantity": {
+    "short_description": "Measurable or numerical aspects of existence."
+  },
+  "Relation": {
+    "short_description": "Connections and dependencies between entities."
+  },
+  "Mode": {
+    "short_description": "Particular way or manner of existing."
+  },
+  "Attribute": {
+    "short_description": "Essential property or characteristic of substance."
+  },
+  "Universal": {
+    "short_description": "Abstract form or concept applicable across instances."
+  },
+  "Particular": {
+    "short_description": "Individual instance or manifestation of universal."
+  },
+  "Category": {
+    "short_description": "Fundamental type or classification of being."
+  },
+  "Necessity": {
+    "short_description": "That which must be or cannot be otherwise."
+  },
+  "Contingency": {
+    "short_description": "That which could be otherwise or depends on conditions."
+  },
+  "Possibility": {
+    "short_description": "Potential for existence or manifestation."
+  },
+  "Impossibility": {
+    "short_description": "That which cannot exist or manifest."
+  },
+  "Transcendental": {
+    "short_description": "Conditions necessary for possibility of experience or knowledge."
+  },
+  "Immanent": {
+    "short_description": "Inherent or dwelling within manifest reality."
+  },
+  "Absolute": {
+    "short_description": "Unconditioned or independent reality."
+  },
+  "Relative": {
+    "short_description": "Reality dependent on conditions or relations."
+  },
+  "Identity": {
+    "short_description": "Self-sameness and continuity of being."
+  },
+  "Difference": {
+    "short_description": "Distinction or otherness in being."
+  },
+  "Presence": {
+    "short_description": "Immediate manifestation or availability to experience."
+  },
+  "Absence": {
+    "short_description": "Lack or non-presence in reality."
+  },
+  "Determination": {
+    "short_description": "Specific definition or limitation of being."
+  },
+  "Indetermination": {
+    "short_description": "Lack of specific definition or limitation."
+  },
+  "Manifestation": {
+    "short_description": "Expression or appearance in perceivable form."
+  },
+  "Latency": {
+    "short_description": "Hidden or potential state prior to manifestation."
+  },
+  "Structure": {
+    "short_description": "Organization and relationship of parts in whole."
+  },
+  "Process": {
+    "short_description": "Dynamic movement or change in being."
+  },
+  "Order": {
+    "short_description": "Arrangement and hierarchy in reality."
+  },
+  "Chaos": {
+    "short_description": "Undifferentiated or disordered state of being."
+  },
+  "Limit": {
+    "short_description": "Boundary or endpoint of being or possibility."
+  },
+  "Infinite": {
+    "short_description": "Without limit or boundary in being."
+  }
+}

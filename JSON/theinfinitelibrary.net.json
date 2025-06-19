@@ -1,0 +1,175 @@
+{
+  "theinfinitelibrary.net": {
+    "desc": "The Infinite Library is a digital repository of esoteric and spiritual tools. Explores curated divine wisdom and interactive experiences designed to deepen your spiritual journey.",
+    "img":"", "address": "http://theinfinitelibrary.net",
+    "type": "Website",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "Python"
+    ],
+    "keywords": [
+      "sri aurobindo",
+      "integral yoga",
+      "divine",
+      "Savitri",
+      "chatbot",
+      "philosophy",
+      "evolution"
+    ],
+    "parent": ""
+  },
+  "Savitri Bot": {
+    "desc": "Simple LLM-assisted chatbot for serving truth from multiple DBs.",
+    "img":"images/programs/til2_chatbot.png", "address": "http://theinfinitelibrary.net/programs/chatbot/index.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Live Chatroom": {
+    "desc": "Community Center Chatroom",
+    "img":"images/programs/til2_chatroom.png", "address": "http://theinfinitelibrary.net/programs/chatroom/index.php",
+    "type": "Program",
+    "tech": [
+      "PHP",
+      "HTML"
+    ],
+    "related_db": "",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Golden Keys": {
+    "desc": "Quotes from KEYS database, taggable and hopefully gradable.",
+    "img":"images/programs/til2_golden_keys.png", "address": "http://theinfinitelibrary.net/programs/golden_keys/index.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "keys",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Divine Dictionary": {
+    "desc": "Evolving interactive dictionary of divine quotations. rank + add.",
+    "img":"images/programs/til2_divine_viewer.png", "address": "http://theinfinitelibrary.net/programs/divine_viewer/index.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "Divine_Knowledge",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Godreader": {
+    "desc": "click, view, search, filter, explore selected quotes from God_Knowledge.json.",
+    "img":"images/programs/til2_godreader.png", "address": "http://theinfinitelibrary.net/programs/godreader/index.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "God_Knowledge.json",
+    "parent": "theinfinitelibrary.net"
+  },
+  "EIN DT - Indra's Net": {
+    "desc": "It mapped a system of the Self and God. ~ Sri Aurobindo, Savitri",
+    "img":"images/programs/til2_ein_viewer6.png", "address": "http://theinfinitelibrary.net/programs/data_table/ein_viewer6.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "DATA_TABLE",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Savitri Search & Grade": {
+    "desc": "Saviti search and grade",
+    "img":"", "address": "http://theinfinitelibrary.net/programs/SavitriReader/index.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "Savitri",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Divine Wiki": {
+    "desc": "Open digital encyclopedia anyone can add or edit",
+    "img":"images/programs/til2_encyclopedia.png", "address": "http://theinfinitelibrary.net/programs/encyclopedia/index.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "WIKIDATA",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Chapter Viewer": {
+    "desc": "Interactive interface for navigating sacred texts chapter by chapter.",
+    "img":"images/programs/til2_chapter_viewer.png", "address": "http://theinfinitelibrary.net/programs/chapter_viewer/index.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Guten Reader": {
+    "desc": "Library interface for discovery + reading of 8000 classic texts from gutenberg.org",
+    "img":"images/programs/til2_guten_reader.png", "address": "http://theinfinitelibrary.net/programs/guten_reader_online/index.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "gutenberg.org",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Music Maker": {
+    "desc": "Soundfont music maker and looper",
+    "img":"images/programs/til2_musicmaker.png", "address": "http://theinfinitelibrary.net/programs/musicMaker/index.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Mindmap Creator": {
+    "desc": "Tool for constructing and exporting multilevel mind maps in JSON.",
+    "img":"", "address": "http://theinfinitelibrary.net/programs/mindmap/index.html",
+    "type": "Program",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "",
+    "parent": "theinfinitelibrary.net"
+  },
+  "The Arcade": {
+    "desc": "The Arcade experiment",
+    "img":"images/programs/til2_arcade.png", "address": "http://theinfinitelibrary.net/games/arcade/index.html",
+    "type": "Game",
+    "tech": [
+      "HTML",
+      "JS"
+    ],
+    "related_db": "",
+    "parent": "theinfinitelibrary.net"
+  },
+  "Music Players": {
+    "desc": "Embedded players from Soundcloud and YouTube.",
+    "img":"", "address": "http://theinfinitelibrary.net/#music",
+    "type": "Media",
+    "tech": [],
+    "related_db": "",
+    "parent": "theinfinitelibrary.net"
+  }
+}

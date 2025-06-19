@@ -1,0 +1,77 @@
+{
+"Isomorphism": {
+    "short_description": "A structure-preserving mapping between two mathematical objects that captures their fundamental sameness while maintaining their essential relationships and properties."
+},
+"Homomorphism": {
+    "short_description": "A structure-preserving map between two mathematical objects that maintains operational relationships but may not be bijective, serving as a more general form of structural correspondence."
+},
+"Automorphism": {
+    "short_description": "A self-isomorphism that maps a mathematical structure onto itself while preserving all its structural properties and relationships."
+},
+"Endomorphism": {
+    "short_description": "A structure-preserving map from a mathematical object to itself, potentially lacking the bijective property of automorphisms."
+},
+"Bijection": {
+    "short_description": "A one-to-one and onto mapping between sets that ensures every element in one set corresponds uniquely to an element in the other set."
+},
+"Structure Preservation": {
+    "short_description": "The fundamental property of maintaining relationships and operations between elements when mapping from one mathematical object to another."
+},
+"Morphism": {
+    "short_description": "A general term for structure-preserving maps between mathematical objects, forming the foundational concept for various types of structural relationships."
+},
+"Category": {
+    "short_description": "A mathematical structure consisting of objects and morphisms between them, providing the abstract framework for studying structural relationships."
+},
+"Functor": {
+    "short_description": "A mapping between categories that preserves structural relationships, extending the concept of morphism to relationships between entire categories."
+},
+"Natural Transformation": {
+    "short_description": "A structural relationship between functors that preserves categorical properties, representing the highest level of abstraction in categorical isomorphisms."
+},
+"Group Isomorphism": {
+    "short_description": "A bijective homomorphism between groups that preserves group operations and structure, demonstrating the fundamental sameness of seemingly different groups."
+},
+"Ring Isomorphism": {
+    "short_description": "A bijective homomorphism between rings that preserves both addition and multiplication operations, showing structural equivalence of ring systems."
+},
+"Lattice Isomorphism": {
+    "short_description": "A structure-preserving bijection between lattices that maintains order relationships and lattice operations."
+},
+"Graph Isomorphism": {
+    "short_description": "A bijective mapping between graphs that preserves vertex adjacency and structural relationships, showing when two graphs are essentially the same."
+},
+"Topological Isomorphism": {
+    "short_description": "A homeomorphism between topological spaces that preserves topological properties and continuous transformations."
+},
+"Kernel": {
+    "short_description": "The set of elements that map to the identity element under a homomorphism, crucial for understanding structural relationships and quotient structures."
+},
+"Image": {
+    "short_description": "The set of elements that are outputs of a morphism, determining the range and effectiveness of structural preservation."
+},
+"Invariant": {
+    "short_description": "A property or quantity that remains unchanged under an isomorphism or other structure-preserving transformation."
+},
+"Equivalence": {
+    "short_description": "The relationship between isomorphic structures indicating they are essentially the same despite superficial differences."
+},
+"Structure Type": {
+    "short_description": "The specific mathematical nature of objects being related through isomorphisms, such as groups, rings, or topological spaces."
+},
+"Embedding": {
+    "short_description": "An injective homomorphism that preserves structure while mapping one object into a potentially larger one."
+},
+"Quotient Structure": {
+    "short_description": "A new mathematical object formed by identifying elements related through a structural equivalence relation."
+},
+"Classification": {
+    "short_description": "The organization of mathematical objects into isomorphism classes, grouping essentially identical structures together."
+},
+"Representation": {
+    "short_description": "A structure-preserving map from an abstract mathematical object to a more concrete or computational form."
+},
+"Structural Identity": {
+    "short_description": "The fundamental sameness of mathematical objects revealed through isomorphisms, despite different presentations or implementations."
+}
+}

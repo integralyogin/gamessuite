@@ -1,0 +1,2053 @@
+{
+  "Mircea Eliade": {
+    "count": "50",
+    "dob": "",
+    "short_desc": "",
+    "subject": "",
+    "goodreads ID": ""
+  },
+  "Omar Khayyám": {
+    "count": "26",
+    "dob": "1048-05-18",
+    "short_desc": "Persian polymath renowned for poetic rubaiyat",
+    "subject": "carpe-diem",
+    "goodreads ID": ""
+  },
+  "Livy": {
+    "count": "142",
+    "dob": "-0064-01-01",
+    "short_desc": "Roman historian chronicling Rome's rise to power",
+    "subject": "Rome",
+    "goodreads ID": ""
+  },
+  "Albert Camus": {
+    "count": "17",
+    "dob": "1913-11-07",
+    "short_desc": "French existentialist and absurdist novelist.",
+    "subject": "absurdism",
+    "goodreads ID": "957894"
+  },
+  "Samuel Beckett": {
+    "count": "32",
+    "dob": "1906-04-13",
+    "short_desc": "absurdist dramatist revealing existential void and humor",
+    "subject": "absurdity",
+    "goodreads ID": ""
+  },
+  "Alexandre Dumas": {
+    "count": "277",
+    "dob": "1802-07-24",
+    "short_desc": "French adventure novelist (The Three Musketeers).",
+    "subject": "adventure",
+    "goodreads ID": ""
+  },
+  "Oscar Wilde": {
+    "count": "54",
+    "dob": "1854-10-16",
+    "short_desc": "Dandy wit, master of aesthetic criticism",
+    "subject": "aestheticism",
+    "goodreads ID": "3565"
+  },
+  "Franz Kafka": {
+    "count": "28",
+    "dob": "1883-07-03",
+    "short_desc": "Existential surrealist exposing absurdity and inner torment",
+    "subject": "alienation",
+    "goodreads ID": "5223"
+  },
+  "Michel Houellebecq": {
+    "count": "8",
+    "dob": "1956-02-26",
+    "short_desc": "Controversial French novelist and provocateur.",
+    "subject": "alienation",
+    "goodreads ID": ""
+  },
+  "C.S. Lewis": {
+    "count": "60",
+    "dob": "1898-11-29",
+    "short_desc": "British writer, Christian apologist, novelist.",
+    "subject": "allegory",
+    "goodreads ID": ""
+  },
+  "Edmund Spenser": {
+    "count": "12",
+    "dob": "1552-01-01",
+    "short_desc": "English epic poet of The Faerie Queene",
+    "subject": "allegory",
+    "goodreads ID": ""
+  },
+  "Honoré de Balzac": {
+    "count": "91",
+    "dob": "1799-05-20",
+    "short_desc": "French realist novelist, La Comédie Humaine.",
+    "subject": "ambition",
+    "goodreads ID": ""
+  },
+  "Robert Greene": {
+    "count": "28",
+    "dob": "1558-07-11",
+    "short_desc": "strategic thinker unmasking power dynamics and human nature",
+    "subject": "ambition",
+    "goodreads ID": ""
+  },
+  "Christopher Marlowe": {
+    "count": "7",
+    "dob": "1564-02-26",
+    "short_desc": "English dramatist of tragic ambition",
+    "subject": "ambition",
+    "goodreads ID": ""
+  },
+  "Rainer Maria Rilke": {
+    "count": "600",
+    "dob": "1875-12-04",
+    "short_desc": "German poet, existential themes.",
+    "subject": "angels",
+    "goodreads ID": "7906"
+  },
+  "Søren Kierkegaard": {
+    "count": "47",
+    "dob": "1813-05-05",
+    "short_desc": "Danish existentialist philosopher, theological writer",
+    "subject": "anxiety",
+    "goodreads ID": ""
+  },
+  "Norman Geisler": {
+    "count": "120",
+    "dob": "1932-07-21",
+    "short_desc": "influential Christian apologist and philosopher",
+    "subject": "apologetics",
+    "goodreads ID": ""
+  },
+  "Carl Jung": {
+    "count": "32",
+    "dob": "1875-07-26",
+    "short_desc": "Swiss psychiatrist, analytical psychology founder.",
+    "subject": "archetypes",
+    "goodreads ID": "38285"
+  },
+  "Vladimir Nabokov": {
+    "count": "18",
+    "dob": "1899-04-22",
+    "short_desc": "Russian-American novelist (Lolita), poet.",
+    "subject": "artifice",
+    "goodreads ID": ""
+  },
+  "John Lyly": {
+    "count": "8",
+    "dob": "1553-01-01",
+    "short_desc": "English prose stylist influencing Shakespeare",
+    "subject": "artifice",
+    "goodreads ID": ""
+  },
+  "Simone Weil": {
+    "count": "46",
+    "dob": "1909-02-03",
+    "short_desc": "French philosopher and political activist",
+    "subject": "attention",
+    "goodreads ID": "18395"
+  },
+  "Karl Ove Knausgård": {
+    "count": "12",
+    "dob": "1968-12-06",
+    "short_desc": "Norwegian autobiographical novelist of minutiae",
+    "subject": "authenticity",
+    "goodreads ID": ""
+  },
+  "John Keats": {
+    "count": "54",
+    "dob": "1795-10-31",
+    "short_desc": "Romantic poet of sensuous beauty.",
+    "subject": "beauty",
+    "goodreads ID": ""
+  },
+  "Yukio Mishima": {
+    "count": "34",
+    "dob": "1925-01-14",
+    "short_desc": "Japanese novelist, nationalist, wrote The Sea of Fertility.",
+    "subject": "beauty",
+    "goodreads ID": ""
+  },
+  "Kalidasa": {
+    "count": "7",
+    "dob": "0340-01-01",
+    "short_desc": "classical Sanskrit poet and dramatist",
+    "subject": "beauty",
+    "goodreads ID": ""
+  },
+  "James Boswell": {
+    "count": "3",
+    "dob": "1740-10-29",
+    "short_desc": "Scottish biographer of Samuel Johnson",
+    "subject": "biography",
+    "goodreads ID": ""
+  },
+  "Wang Xizhi": {
+    "count": "5",
+    "dob": "0303-01-01",
+    "short_desc": "Chinese calligrapher and master of cursive script",
+    "subject": "calligraphy",
+    "goodreads ID": ""
+  },
+  "René Descartes": {
+    "count": "24",
+    "dob": "1596-03-31",
+    "short_desc": "French philosopher, mathematician.",
+    "subject": "certainty",
+    "goodreads ID": ""
+  },
+  "Plutarch": {
+    "count": "50",
+    "dob": "0046-01-01",
+    "short_desc": "Greek historian, biographer, Parallel Lives author.",
+    "subject": "character",
+    "goodreads ID": ""
+  },
+  "Menander": {
+    "count": "8",
+    "dob": "-0342-01-01",
+    "short_desc": "Greek master of New Comedy and social observation",
+    "subject": "character",
+    "goodreads ID": ""
+  },
+  "Thomas Malory": {
+    "count": "1",
+    "dob": "1415-01-01",
+    "short_desc": "English compiler of Arthurian romance",
+    "subject": "chivalry",
+    "goodreads ID": ""
+  },
+  "Bai Juyi": {
+    "count": "2800",
+    "dob": "0772-03-01",
+    "short_desc": "influential Tang Dynasty poet known for accessible verse",
+    "subject": "clarity",
+    "goodreads ID": ""
+  },
+  "Ben Jonson": {
+    "count": "36",
+    "dob": "1572-06-11",
+    "short_desc": "English Renaissance dramatist and poet laureate",
+    "subject": "classicism",
+    "goodreads ID": ""
+  },
+  "Carlo Goldoni": {
+    "count": "120",
+    "dob": "1707-02-25",
+    "short_desc": "reformer of Italian comedy, Venice's great playwright",
+    "subject": "comedy",
+    "goodreads ID": ""
+  },
+  "Virginia Woolf": {
+    "count": "35",
+    "dob": "1882-01-25",
+    "short_desc": "Modernist writer and feminist icon.",
+    "subject": "consciousness",
+    "goodreads ID": "6765"
+  },
+  "Henry James": {
+    "count": "22",
+    "dob": "1843-04-15",
+    "short_desc": "American-British novelist, literary critic.",
+    "subject": "consciousness",
+    "goodreads ID": ""
+  },
+  "James Joyce": {
+    "count": "12",
+    "dob": "1882-02-02",
+    "short_desc": "Modernist innovator revolutionizing language through intricate symbolism",
+    "subject": "consciousness",
+    "goodreads ID": "5144"
+  },
+  "David Foster Wallace": {
+    "count": "8",
+    "dob": "1962-02-21",
+    "short_desc": "American novelist, essayist, Infinite Jest",
+    "subject": "consciousness",
+    "goodreads ID": ""
+  },
+  "Edmund Burke": {
+    "count": "19",
+    "dob": "1729-01-12",
+    "short_desc": "political philosopher advocating tradition and cautious reform",
+    "subject": "conservatism",
+    "goodreads ID": ""
+  },
+  "Boethius": {
+    "count": "27",
+    "dob": "0477-01-01",
+    "short_desc": "Roman philosopher bridging classical and medieval thought",
+    "subject": "consolation",
+    "goodreads ID": ""
+  },
+  "St. Augustine": {
+    "count": "232",
+    "dob": "0354-11-13",
+    "short_desc": "Early Christian theologian and philosopher",
+    "subject": "conversion",
+    "goodreads ID": ""
+  },
+  "Murasaki Shikibu": {
+    "count": "2",
+    "dob": "0978-01-01",
+    "short_desc": "Japanese court lady, Tale of Genji author",
+    "subject": "courtship",
+    "goodreads ID": ""
+  },
+  "Mary Shelley": {
+    "count": "7",
+    "dob": "1797-08-30",
+    "short_desc": "gothic visionary birthing modern Frankenstein myth.",
+    "subject": "creation",
+    "goodreads ID": ""
+  },
+  "John Dryden": {
+    "count": "28",
+    "dob": "1631-08-19",
+    "short_desc": "Restoration-era poet and playwright.",
+    "subject": "criticism",
+    "goodreads ID": ""
+  },
+  "Torquato Tasso": {
+    "count": "15",
+    "dob": "1544-03-11",
+    "short_desc": "Italian Renaissance epic poet of Jerusalem Delivered",
+    "subject": "crusade",
+    "goodreads ID": ""
+  },
+  "Thomas Browne": {
+    "count": "7",
+    "dob": "1605-10-19",
+    "short_desc": "baroque prose stylist exploring science and faith",
+    "subject": "curiosity",
+    "goodreads ID": ""
+  },
+  "François de La Rochefoucauld": {
+    "count": "2",
+    "dob": "1613-09-15",
+    "short_desc": "French moralist of witty maxims",
+    "subject": "cynicism",
+    "goodreads ID": ""
+  },
+  "Saint John of the Cross": {
+    "count": "34",
+    "dob": "1542-06-24",
+    "short_desc": "mystic poet unveiling divine union and darkness",
+    "subject": "darkness",
+    "goodreads ID": ""
+  },
+  "Thomas Mann": {
+    "count": "19",
+    "dob": "1875-06-06",
+    "short_desc": "German Nobel laureate novelist of cultural decay.",
+    "subject": "decadence",
+    "goodreads ID": ""
+  },
+  "Charles Baudelaire": {
+    "count": "4",
+    "dob": "1821-04-09",
+    "short_desc": "decadent visionary of urban erotic melancholy",
+    "subject": "decadence",
+    "goodreads ID": ""
+  },
+  "Edward Gibbon": {
+    "count": "2",
+    "dob": "1737-05-08",
+    "short_desc": "English historian of Roman decline",
+    "subject": "decline",
+    "goodreads ID": ""
+  },
+  "Walt Whitman": {
+    "count": "400",
+    "dob": "1819-05-31",
+    "short_desc": "American poet, Leaves of Grass free verse pioneer.",
+    "subject": "democracy",
+    "goodreads ID": "1438"
+  },
+  "Sappho": {
+    "count": "9",
+    "dob": "-0630-01-01",
+    "short_desc": "ancient Greek lyric poet of love and desire",
+    "subject": "desire",
+    "goodreads ID": ""
+  },
+  "Virgil": {
+    "count": "3",
+    "dob": "-0070-10-15",
+    "short_desc": "Roman poet (The Aeneid).",
+    "subject": "destiny",
+    "goodreads ID": ""
+  },
+  "Meister Eckhart": {
+    "count": "100",
+    "dob": "1260-01-01",
+    "short_desc": "medieval mystic espousing divine union experience.",
+    "subject": "detachment",
+    "goodreads ID": "73092"
+  },
+  "George Herbert": {
+    "count": "167",
+    "dob": "1593-04-03",
+    "short_desc": "Devotional poet merging spiritual yearning with poetic beauty",
+    "subject": "devotion",
+    "goodreads ID": ""
+  },
+  "Jeremy Taylor": {
+    "count": "8",
+    "dob": "1613-08-15",
+    "short_desc": "Anglican divine of devotional literature",
+    "subject": "devotion",
+    "goodreads ID": ""
+  },
+  "Anne Bradstreet": {
+    "count": "2",
+    "dob": "1612-03-20",
+    "short_desc": "first published American female poet",
+    "subject": "devotion",
+    "goodreads ID": ""
+  },
+  "Vyasa": {
+    "count": "18",
+    "dob": "-0400-01-01",
+    "short_desc": "legendary Indian sage, compiler of the Mahabharata",
+    "subject": "dharma",
+    "goodreads ID": ""
+  },
+  "Valmiki": {
+    "count": "1",
+    "dob": "-0500-01-01",
+    "short_desc": "legendary author of Sanskrit Ramayana",
+    "subject": "dharma",
+    "goodreads ID": ""
+  },
+  "Martin Buber": {
+    "count": "40",
+    "dob": "1878-02-08",
+    "short_desc": "Jewish philosopher of dialogue and relationship",
+    "subject": "dialogue",
+    "goodreads ID": ""
+  },
+  "Junot Díaz": {
+    "count": "3",
+    "dob": "1968-12-31",
+    "short_desc": "vivid storyteller illuminating diaspora, love, and violence",
+    "subject": "diaspora",
+    "goodreads ID": ""
+  },
+  "Laurence Sterne": {
+    "count": "4",
+    "dob": "1713-11-24",
+    "short_desc": "experimental novelist of Tristram Shandy",
+    "subject": "digression",
+    "goodreads ID": ""
+  },
+  "Egon Bondy": {
+    "count": "50",
+    "dob": "1930-01-20",
+    "short_desc": "Czech underground philosopher and dissident poet",
+    "subject": "dissidence",
+    "goodreads ID": ""
+  },
+  "Lope de Vega": {
+    "count": "2200",
+    "dob": "1562-11-25",
+    "short_desc": "prolific Spanish Golden Age dramatist and poet",
+    "subject": "drama",
+    "goodreads ID": ""
+  },
+  "Pierre Corneille": {
+    "count": "33",
+    "dob": "1606-06-06",
+    "short_desc": "French classical tragedian of duty and honor",
+    "subject": "duty",
+    "goodreads ID": ""
+  },
+  "Marcus Aurelius": {
+    "count": "25",
+    "dob": "0121-04-25",
+    "short_desc": "stoic emperor meditating on cosmic duty.",
+    "subject": "duty",
+    "goodreads ID": "17212"
+  },
+  "Immanuel Kant": {
+    "count": "15",
+    "dob": "1724-04-22",
+    "short_desc": "German sage harmonizing reason with transcendental idealism",
+    "subject": "duty",
+    "goodreads ID": "11038"
+  },
+  "Richard Crashaw": {
+    "count": "3",
+    "dob": "1613-12-01",
+    "short_desc": "metaphysical poet of Catholic mysticism",
+    "subject": "ecstasy",
+    "goodreads ID": ""
+  },
+  "Xunzi": {
+    "count": "1",
+    "dob": "-0310-01-01",
+    "short_desc": "Chinese philosopher of ritual and education",
+    "subject": "education",
+    "goodreads ID": ""
+  },
+  "George Saunders": {
+    "count": "11",
+    "dob": "1958-12-02",
+    "short_desc": "Satirical novelist merging surreal absurdity with empathy",
+    "subject": "empathy",
+    "goodreads ID": ""
+  },
+  "Luís de Camões": {
+    "count": "3",
+    "dob": "1524-01-01",
+    "short_desc": "Portuguese epic poet of maritime exploration",
+    "subject": "empire",
+    "goodreads ID": ""
+  },
+  "Denis Diderot": {
+    "count": "16",
+    "dob": "1713-10-05",
+    "short_desc": "French Enlightenment philosopher, encyclopedist",
+    "subject": "enlightenment",
+    "goodreads ID": ""
+  },
+  "Callimachus": {
+    "count": "800",
+    "dob": "-0310-01-01",
+    "short_desc": "Alexandrian poet-scholar, innovative Hellenistic verse",
+    "subject": "erudition",
+    "goodreads ID": ""
+  },
+  "Sri Aurobindo": {
+    "count": "41",
+    "dob": "1872-08-15",
+    "short_desc": "Indian mystic and integral yoga founder",
+    "subject": "evolution",
+    "goodreads ID": "5867530"
+  },
+  "Francois Rabelais": {
+    "count": "",
+    "dob": "1494-01-01",
+    "short_desc": "French Renaissance satirist of exuberant wit",
+    "subject": "excess",
+    "goodreads ID": ""
+  },
+  "Roberto Bolaño": {
+    "count": "15",
+    "dob": "1953-04-28",
+    "short_desc": "literary rebel probing dark mysteries, exile, passion",
+    "subject": "exile",
+    "goodreads ID": ""
+  },
+  "Jules Verne": {
+    "count": "500",
+    "dob": "1828-02-08",
+    "short_desc": "visionary adventurer foretelling science fiction wonders",
+    "subject": "exploration",
+    "goodreads ID": "696805"
+  },
+  "Anselm of Canterbury": {
+    "count": "70",
+    "dob": "1033-01-01",
+    "short_desc": "medieval philosopher proving God's existence",
+    "subject": "faith",
+    "goodreads ID": ""
+  },
+  "Jonathan Franzen": {
+    "count": "7",
+    "dob": "1959-08-17",
+    "short_desc": "Critically acclaimed American social novelist.",
+    "subject": "family",
+    "goodreads ID": ""
+  },
+  "Thomas Hardy": {
+    "count": "18",
+    "dob": "1840-06-02",
+    "short_desc": "English novelist and poet of tragic realism.",
+    "subject": "fate",
+    "goodreads ID": ""
+  },
+  "Sophocles": {
+    "count": "7",
+    "dob": "-0497-01-01",
+    "short_desc": "Ancient Greek tragedian, Oedipus Rex playwright",
+    "subject": "fate",
+    "goodreads ID": ""
+  },
+  "Stephen King": {
+    "count": "260",
+    "dob": "1947-09-21",
+    "short_desc": "Master of horror fiction and supernatural storytelling",
+    "subject": "fear",
+    "goodreads ID": "3389"
+  },
+  "Friedrich Schleiermacher": {
+    "count": "50",
+    "dob": "1768-11-21",
+    "short_desc": "Protestant theologian of religious experience",
+    "subject": "feeling",
+    "goodreads ID": "192624"
+  },
+  "Christine de Pizan": {
+    "count": "41",
+    "dob": "1364-09-11",
+    "short_desc": "pioneering feminist chronicler of medieval wisdom",
+    "subject": "feminism",
+    "goodreads ID": ""
+  },
+  "Simone de Beauvoir": {
+    "count": "14",
+    "dob": "1908-01-09",
+    "short_desc": "Feminist philosopher and existentialist writer",
+    "subject": "feminism",
+    "goodreads ID": ""
+  },
+  "Plato": {
+    "count": "36",
+    "dob": "-0428-01-01",
+    "short_desc": "Ancient Greek philosopher, founded the Academy.",
+    "subject": "forms",
+    "goodreads ID": ""
+  },
+  "Friedrich Schiller": {
+    "count": "63",
+    "dob": "1759-11-10",
+    "short_desc": "German dramatist championing human dignity",
+    "subject": "freedom",
+    "goodreads ID": "1399243"
+  },
+  "Jean-Paul Sartre": {
+    "count": "63",
+    "dob": "1905-06-21",
+    "short_desc": "existentialist philosopher of freedom and responsibility",
+    "subject": "freedom",
+    "goodreads ID": "1466"
+  },
+  "Colson Whitehead": {
+    "count": "9",
+    "dob": "1969-11-06",
+    "short_desc": "contemporary American novelist exploring race and history",
+    "subject": "freedom",
+    "goodreads ID": ""
+  },
+  "Elena Ferrante": {
+    "count": "10",
+    "dob": "1943-01-01",
+    "short_desc": "enigmatic novelist unraveling female identity complexities",
+    "subject": "friendship",
+    "goodreads ID": ""
+  },
+  "Mencius": {
+    "count": "1",
+    "dob": "-0372-01-01",
+    "short_desc": "Confucian philosopher of human nature",
+    "subject": "goodness",
+    "goodreads ID": ""
+  },
+  "Horace Walpole": {
+    "count": "7",
+    "dob": "1717-09-24",
+    "short_desc": "English Gothic novelist and letter writer",
+    "subject": "gothic",
+    "goodreads ID": ""
+  },
+  "Saint Augustine": {
+    "count": "150",
+    "dob": "0354-11-14",
+    "short_desc": "theological pioneer merging divine grace with human introspection",
+    "subject": "grace",
+    "goodreads ID": "6819578"
+  },
+  "Augustine of Hippo": {
+    "count": "113",
+    "dob": "0354-11-13",
+    "short_desc": "Early Christian theologian and philosopher",
+    "subject": "grace",
+    "goodreads ID": ""
+  },
+  "Max Lucado": {
+    "count": "100",
+    "dob": "1955-01-11",
+    "short_desc": "uplifting storyteller illuminating grace and hope.",
+    "subject": "grace",
+    "goodreads ID": ""
+  },
+  "Panini": {
+    "count": "1",
+    "dob": "-0520-01-01",
+    "short_desc": "Sanskrit grammarian systematizing language",
+    "subject": "grammar",
+    "goodreads ID": ""
+  },
+  "Al-Farabi": {
+    "count": "100",
+    "dob": "0872-01-01",
+    "short_desc": "Islamic philosopher harmonizing Plato and Aristotle",
+    "subject": "harmony",
+    "goodreads ID": ""
+  },
+  "Confucius": {
+    "count": "6",
+    "dob": "-0551-01-01",
+    "short_desc": "ancient sage promoting moral order, harmonious virtue",
+    "subject": "harmony",
+    "goodreads ID": "15321"
+  },
+  "Thomas Campion": {
+    "count": "4",
+    "dob": "1567-02-12",
+    "short_desc": "English Renaissance poet-composer",
+    "subject": "harmony",
+    "goodreads ID": ""
+  },
+  "Abu Nuwas": {
+    "count": "100",
+    "dob": "0756-01-01",
+    "short_desc": "Arabic poet celebrated for wine and love verses",
+    "subject": "hedonism",
+    "goodreads ID": ""
+  },
+  "Homer": {
+    "count": "50",
+    "dob": "-0800-01-01",
+    "short_desc": "Ancient Greek epic poet.",
+    "subject": "heroism",
+    "goodreads ID": "903"
+  },
+  "Apollonius of Rhodes": {
+    "count": "4",
+    "dob": "-0295-01-01",
+    "short_desc": "Hellenistic epic poet of the Argonautica",
+    "subject": "heroism",
+    "goodreads ID": ""
+  },
+  "Ferdowsi": {
+    "count": "1",
+    "dob": "0940-01-01",
+    "short_desc": "Persian epic poet of the Shahnameh",
+    "subject": "heroism",
+    "goodreads ID": ""
+  },
+  "Samuel Daniel": {
+    "count": "13",
+    "dob": "1562-01-01",
+    "short_desc": "English Renaissance poet and royal historiographer",
+    "subject": "history",
+    "goodreads ID": ""
+  },
+  "Sima Qian": {
+    "count": "1",
+    "dob": "-0145-01-01",
+    "short_desc": "Grand Historian of ancient China",
+    "subject": "history",
+    "goodreads ID": ""
+  },
+  "Edgar Allan Poe": {
+    "count": "69",
+    "dob": "1809-01-19",
+    "short_desc": "gothic maestro exploring darkness and mystery",
+    "subject": "horror",
+    "goodreads ID": ""
+  },
+  "Petrarch": {
+    "count": "38",
+    "dob": "1304-07-20",
+    "short_desc": "Italian Renaissance poet, humanist scholar.",
+    "subject": "humanism",
+    "goodreads ID": ""
+  },
+  "Robert Burns": {
+    "count": "350",
+    "dob": "1759-01-25",
+    "short_desc": "Scottish national poet celebrating folk culture",
+    "subject": "humanity",
+    "goodreads ID": ""
+  },
+  "William Shakespeare": {
+    "count": "154",
+    "dob": "1564-04-26",
+    "short_desc": "English playwright, poet, greatest English writer.",
+    "subject": "humanity",
+    "goodreads ID": "947"
+  },
+  "Terence": {
+    "count": "6",
+    "dob": "-0195-01-01",
+    "short_desc": "Roman comic playwright adapting Greek drama",
+    "subject": "humanity",
+    "goodreads ID": ""
+  },
+  "Salman Rushdie": {
+    "count": "19",
+    "dob": "1947-06-19",
+    "short_desc": "magical realist weaving political allegory, mythic narrative",
+    "subject": "hybridity",
+    "goodreads ID": ""
+  },
+  "Molière": {
+    "count": "31",
+    "dob": "1622-01-15",
+    "short_desc": "French playwright, master of comedy.",
+    "subject": "hypocrisy",
+    "goodreads ID": ""
+  },
+  "Miguel de Cervantes": {
+    "count": "74",
+    "dob": "1547-09-29",
+    "short_desc": "Spanish literary giant, creator of Don Quixote",
+    "subject": "idealism",
+    "goodreads ID": ""
+  },
+  "Orhan Pamuk": {
+    "count": "10",
+    "dob": "1952-06-07",
+    "short_desc": "Nobel laureate exploring identity, historical narratives",
+    "subject": "identity",
+    "goodreads ID": ""
+  },
+  "Chimamanda Ngozi Adichie": {
+    "count": "7",
+    "dob": "1977-09-15",
+    "short_desc": "incisive storyteller illuminating culture, identity, feminism",
+    "subject": "identity",
+    "goodreads ID": ""
+  },
+  "Suhrawardi": {
+    "count": "100",
+    "dob": "1154-01-01",
+    "short_desc": "Persian philosopher of illumination mysticism",
+    "subject": "illumination",
+    "goodreads ID": ""
+  },
+  "Samuel Taylor Coleridge": {
+    "count": "25",
+    "dob": "1772-10-21",
+    "short_desc": "Romantic visionary melding nature, mind, supernatural awe",
+    "subject": "imagination",
+    "goodreads ID": ""
+  },
+  "Italo Calvino": {
+    "count": "24",
+    "dob": "1923-10-15",
+    "short_desc": "Literary artisan weaving fantasy with structural philosophy",
+    "subject": "imagination",
+    "goodreads ID": ""
+  },
+  "Margaret Cavendish": {
+    "count": "14",
+    "dob": "1623-01-01",
+    "short_desc": "pioneering female philosopher and science writer",
+    "subject": "imagination",
+    "goodreads ID": ""
+  },
+  "Thomas a Kempis": {
+    "count": "5",
+    "dob": "1380-01-01",
+    "short_desc": "medieval mystic author of Imitation of Christ",
+    "subject": "imitation",
+    "goodreads ID": ""
+  },
+  "Matsuo Bashō": {
+    "count": "1000",
+    "dob": "1644-01-01",
+    "short_desc": "Japanese haiku master of spiritual wandering",
+    "subject": "impermanence",
+    "goodreads ID": ""
+  },
+  "Gerard Manley Hopkins": {
+    "count": "300",
+    "dob": "1844-07-28",
+    "short_desc": "innovative Victorian poet of nature and faith",
+    "subject": "incarnation",
+    "goodreads ID": "195780"
+  },
+  "Aphra Behn": {
+    "count": "19",
+    "dob": "1640-07-10",
+    "short_desc": "pioneering female professional playwright and novelist",
+    "subject": "independence",
+    "goodreads ID": ""
+  },
+  "Ralph Waldo Emerson": {
+    "count": "76",
+    "dob": "1803-05-25",
+    "short_desc": "American essayist, Transcendentalist leader.",
+    "subject": "individualism",
+    "goodreads ID": "12080"
+  },
+  "John Duns Scotus": {
+    "count": "17",
+    "dob": "1266-01-01",
+    "short_desc": "medieval philosopher of subtle metaphysical thought",
+    "subject": "individuality",
+    "goodreads ID": ""
+  },
+  "Jorge Luis Borges": {
+    "count": "289",
+    "dob": "1899-08-24",
+    "short_desc": "Master of magical realism labyrinths.",
+    "subject": "infinity",
+    "goodreads ID": "500"
+  },
+  "Ocean Vuong": {
+    "count": "3",
+    "dob": "1988-10-14",
+    "short_desc": "Vietnamese-American poet exploring identity and trauma",
+    "subject": "inheritance",
+    "goodreads ID": ""
+  },
+  "Emily Dickinson": {
+    "count": "1800",
+    "dob": "1830-12-10",
+    "short_desc": "reclusive poet unveiling inner mystical landscapes",
+    "subject": "interiority",
+    "goodreads ID": "7440"
+  },
+  "Saint Teresa of Ávila": {
+    "count": "38",
+    "dob": "1515-03-28",
+    "short_desc": "Spanish mystic reformer of Carmelite order",
+    "subject": "interiority",
+    "goodreads ID": ""
+  },
+  "Sally Rooney": {
+    "count": "4",
+    "dob": "1991-02-20",
+    "short_desc": "contemporary Irish novelist of millennial relationships",
+    "subject": "intimacy",
+    "goodreads ID": ""
+  },
+  "Ralph Ellison": {
+    "count": "3",
+    "dob": "1914-03-01",
+    "short_desc": "African American novelist of invisible experience",
+    "subject": "invisibility",
+    "goodreads ID": ""
+  },
+  "Philip Roth": {
+    "count": "31",
+    "dob": "1933-03-19",
+    "short_desc": "American novelist, explored Jewish-American identity.",
+    "subject": "jewishness",
+    "goodreads ID": ""
+  },
+  "John Piper": {
+    "count": "50",
+    "dob": "1946-01-11",
+    "short_desc": "Reformed theology and Christian living author.",
+    "subject": "joy",
+    "goodreads ID": ""
+  },
+  "Jacob Neusner": {
+    "count": "950",
+    "dob": "1932-07-28",
+    "short_desc": "prolific scholar of Judaism and religious studies",
+    "subject": "judaism",
+    "goodreads ID": ""
+  },
+  "Victor Hugo": {
+    "count": "85",
+    "dob": "1802-02-26",
+    "short_desc": "French novelist (Les Misérables).",
+    "subject": "justice",
+    "goodreads ID": "13661"
+  },
+  "Aeschylus": {
+    "count": "7",
+    "dob": "-0525-01-01",
+    "short_desc": "Ancient Greek tragedian, father of drama.",
+    "subject": "justice",
+    "goodreads ID": ""
+  },
+  "Ibn Sina (Avicenna)": {
+    "count": "450",
+    "dob": "0980-08-23",
+    "short_desc": "Persian polymath, master of Islamic golden age medicine",
+    "subject": "knowledge",
+    "goodreads ID": ""
+  },
+  "Xenophon": {
+    "count": "7",
+    "dob": "-0430-01-01",
+    "short_desc": "Greek historian and student of Socrates",
+    "subject": "leadership",
+    "goodreads ID": ""
+  },
+  "Han Feizi": {
+    "count": "1",
+    "dob": "-0280-01-01",
+    "short_desc": "Chinese legalist philosopher of statecraft",
+    "subject": "legalism",
+    "goodreads ID": ""
+  },
+  "John Locke": {
+    "count": "80",
+    "dob": "1632-08-29",
+    "short_desc": "Enlightenment philosopher of empiricism.",
+    "subject": "liberty",
+    "goodreads ID": "51746"
+  },
+  "Noam Chomsky": {
+    "count": "100",
+    "dob": "1928-12-07",
+    "short_desc": "Linguist, political critic, intellectual radical",
+    "subject": "linguistics",
+    "goodreads ID": "2476"
+  },
+  "Bertrand Russell": {
+    "count": "70",
+    "dob": "1872-05-18",
+    "short_desc": "British philosopher, logician, social critic.",
+    "subject": "logic",
+    "goodreads ID": "17854"
+  },
+  "Haruki Murakami": {
+    "count": "28",
+    "dob": "1949-01-12",
+    "short_desc": "Japanese surrealist novelist, magical realist.",
+    "subject": "loneliness",
+    "goodreads ID": ""
+  },
+  "Jalal al-Din Rumi": {
+    "count": "3000",
+    "dob": "1207-09-30",
+    "short_desc": "mystical Persian poet of divine love and spiritual wisdom",
+    "subject": "love",
+    "goodreads ID": ""
+  },
+  "Ibn Hazm": {
+    "count": "400",
+    "dob": "0994-11-07",
+    "short_desc": "Andalusian scholar of law, literature, and comparative religion",
+    "subject": "love",
+    "goodreads ID": ""
+  },
+  "Qu Yuan": {
+    "count": "2",
+    "dob": "-0340-01-01",
+    "short_desc": "ancient Chinese lyric poet of patriotic despair",
+    "subject": "loyalty",
+    "goodreads ID": ""
+  },
+  "Richard Lovelace": {
+    "count": "2",
+    "dob": "1617-12-09",
+    "short_desc": "Cavalier poet of love and loyalty",
+    "subject": "loyalty",
+    "goodreads ID": ""
+  },
+  "Fanny Burney": {
+    "count": "8",
+    "dob": "1752-06-13",
+    "short_desc": "pioneering English novelist of manners",
+    "subject": "manners",
+    "goodreads ID": ""
+  },
+  "Jane Austen": {
+    "count": "7",
+    "dob": "1775-12-16",
+    "short_desc": "Regency novelist dissecting societal manners with wit",
+    "subject": "marriage",
+    "goodreads ID": ""
+  },
+  "Al-Khwarizmi": {
+    "count": "6",
+    "dob": "0780-01-01",
+    "short_desc": "Persian mathematician, father of algebra",
+    "subject": "mathematics",
+    "goodreads ID": ""
+  },
+  "Leo Tolstoy": {
+    "count": "48",
+    "dob": "1828-09-09",
+    "short_desc": "Russian novelist, \\\"War and Peace\\\" author.",
+    "subject": "meaning",
+    "goodreads ID": "128382"
+  },
+  "Al-Razi (Rhazes)": {
+    "count": "200",
+    "dob": "0854-08-26",
+    "short_desc": "Persian physician-philosopher, medical innovator",
+    "subject": "medicine",
+    "goodreads ID": ""
+  },
+  "Osho": {
+    "count": "28",
+    "dob": "1931-12-11",
+    "short_desc": "Controversial mystic preaching radical spiritual liberation",
+    "subject": "meditation",
+    "goodreads ID": ""
+  },
+  "William Cowper": {
+    "count": "89",
+    "dob": "1731-11-26",
+    "short_desc": "English poet, hymnodist, pre-Romantic verse.",
+    "subject": "melancholy",
+    "goodreads ID": ""
+  },
+  "Li Qingzhao": {
+    "count": "50",
+    "dob": "1084-01-01",
+    "short_desc": "Chinese Song dynasty poet and essayist.",
+    "subject": "melancholy",
+    "goodreads ID": ""
+  },
+  "Toni Morrison": {
+    "count": "11",
+    "dob": "1931-02-18",
+    "short_desc": "Nobel laureate novelist of Black experience.",
+    "subject": "memory",
+    "goodreads ID": ""
+  },
+  "Kazuo Ishiguro": {
+    "count": "8",
+    "dob": "1954-11-08",
+    "short_desc": "haunting storyteller exploring memory, regret, and humanity",
+    "subject": "memory",
+    "goodreads ID": ""
+  },
+  "Marcel Proust": {
+    "count": "7",
+    "dob": "1871-07-10",
+    "short_desc": "labyrinthine chronicler of memory and desire.",
+    "subject": "memory",
+    "goodreads ID": ""
+  },
+  "John Donne": {
+    "count": "54",
+    "dob": "1572-01-22",
+    "short_desc": "Metaphysical poet and cleric.",
+    "subject": "metaphysics",
+    "goodreads ID": ""
+  },
+  "Alexander Pruss": {
+    "count": "50",
+    "dob": "1973-01-01",
+    "short_desc": "contemporary philosopher of metaphysics and ethics",
+    "subject": "metaphysics",
+    "goodreads ID": ""
+  },
+  "Horace": {
+    "count": "70",
+    "dob": "-0064-12-06",
+    "short_desc": "Roman lyric poet and satirist.",
+    "subject": "moderation",
+    "goodreads ID": "3341504"
+  },
+  "Samuel Johnson": {
+    "count": "21",
+    "dob": "1709-09-18",
+    "short_desc": "erudite lexicographer, cultural critic, moral philosopher",
+    "subject": "morality",
+    "goodreads ID": ""
+  },
+  "Henry Fielding": {
+    "count": "9",
+    "dob": "1707-04-22",
+    "short_desc": "English novelist and pioneering magistrate",
+    "subject": "morality",
+    "goodreads ID": ""
+  },
+  "John Gower": {
+    "count": "3",
+    "dob": "1330-01-01",
+    "short_desc": "medieval English moral poet in three languages",
+    "subject": "morality",
+    "goodreads ID": ""
+  },
+  "William Dunbar": {
+    "count": "80",
+    "dob": "1460-01-01",
+    "short_desc": "Scottish medieval poet of court and spirit",
+    "subject": "mortality",
+    "goodreads ID": ""
+  },
+  "Thomas Gray": {
+    "count": "13",
+    "dob": "1716-12-26",
+    "short_desc": "preromantic English poet of mortality and melancholy",
+    "subject": "mortality",
+    "goodreads ID": ""
+  },
+  "Zadie Smith": {
+    "count": "7",
+    "dob": "1975-10-25",
+    "short_desc": "British novelist, essayist, White Teeth.",
+    "subject": "multiculturalism",
+    "goodreads ID": ""
+  },
+  "Hafez": {
+    "count": "500",
+    "dob": "1315-01-01",
+    "short_desc": "Persian lyric poet celebrating mystical love and wine",
+    "subject": "mysticism",
+    "goodreads ID": ""
+  },
+  "Abu Hamid al-Ghazali": {
+    "count": "70",
+    "dob": "1058-01-01",
+    "short_desc": "",
+    "subject": "mysticism",
+    "goodreads ID": ""
+  },
+  "Henry Vaughan": {
+    "count": "5",
+    "dob": "1621-04-17",
+    "short_desc": "metaphysical poet of mystical vision",
+    "subject": "mysticism",
+    "goodreads ID": ""
+  },
+  "Teresa of Avila": {
+    "count": "4",
+    "dob": "1515-03-28",
+    "short_desc": "Spanish mystic reformer and spiritual writer",
+    "subject": "mysticism",
+    "goodreads ID": ""
+  },
+  "William Wordsworth": {
+    "count": "800",
+    "dob": "1770-04-07",
+    "short_desc": "English Romantic poet, Lyrical Ballads co-author.",
+    "subject": "nature",
+    "goodreads ID": ""
+  },
+  "Louise Glück": {
+    "count": "13",
+    "dob": "1943-04-22",
+    "short_desc": "Poet, Nobel laureate in Literature.",
+    "subject": "nature",
+    "goodreads ID": ""
+  },
+  "Jean-Jacques Rousseau": {
+    "count": "11",
+    "dob": "1712-06-28",
+    "short_desc": "French philosopher of natural rights and education",
+    "subject": "nature",
+    "goodreads ID": ""
+  },
+  "Adi Shankara": {
+    "count": "20",
+    "dob": "0788-01-01",
+    "short_desc": "influential Indian philosopher of Advaita Vedanta",
+    "subject": "nondualism",
+    "goodreads ID": ""
+  },
+  "Samuel Pepys": {
+    "count": "1",
+    "dob": "1633-02-23",
+    "short_desc": "English diarist recording Restoration life",
+    "subject": "observation",
+    "goodreads ID": ""
+  },
+  "Alexander Pope": {
+    "count": "75",
+    "dob": "1688-05-21",
+    "short_desc": "18th-century satirical poet and essayist.",
+    "subject": "order",
+    "goodreads ID": ""
+  },
+  "Ibn Taymiyyah": {
+    "count": "300",
+    "dob": "1263-01-22",
+    "short_desc": "influential Islamic theologian and legal scholar",
+    "subject": "orthodoxy",
+    "goodreads ID": ""
+  },
+  "John of Damascus": {
+    "count": "200",
+    "dob": "0676-01-01",
+    "short_desc": "Eastern Christian theologian bridging traditions",
+    "subject": "orthodoxy",
+    "goodreads ID": ""
+  },
+  "G. K. Chesterton": {
+    "count": "80",
+    "dob": "1874-05-29",
+    "short_desc": "witty Catholic apologist, creator of Father Brown mysteries",
+    "subject": "orthodoxy",
+    "goodreads ID": ""
+  },
+  "George Peele": {
+    "count": "5",
+    "dob": "1556-07-25",
+    "short_desc": "English Renaissance dramatist and pageant poet",
+    "subject": "pageantry",
+    "goodreads ID": ""
+  },
+  "Don DeLillo": {
+    "count": "17",
+    "dob": "1936-11-20",
+    "short_desc": "American postmodern novelist, essayist",
+    "subject": "paranoia",
+    "goodreads ID": ""
+  },
+  "Catullus": {
+    "count": "116",
+    "dob": "-0084-01-01",
+    "short_desc": "passionate Roman lyric poet of love and satire",
+    "subject": "passion",
+    "goodreads ID": ""
+  },
+  "Pablo Neruda": {
+    "count": "45",
+    "dob": "1904-07-12",
+    "short_desc": "Passionate poet of love and politics",
+    "subject": "passion",
+    "goodreads ID": "4026"
+  },
+  "Euripides": {
+    "count": "19",
+    "dob": "-0480-01-01",
+    "short_desc": "Greek tragedian exploring human psychology and passion",
+    "subject": "passion",
+    "goodreads ID": ""
+  },
+  "Jean Racine": {
+    "count": "12",
+    "dob": "1639-12-22",
+    "short_desc": "French classical tragedian of passion and fate",
+    "subject": "passion",
+    "goodreads ID": ""
+  },
+  "Theocritus": {
+    "count": "30",
+    "dob": "-0300-01-01",
+    "short_desc": "Greek pastoral poet, creator of bucolic verse",
+    "subject": "pastoral",
+    "goodreads ID": ""
+  },
+  "Xin Qiji": {
+    "count": "619",
+    "dob": "1140-05-28",
+    "short_desc": "Song Dynasty master of ci poetry and patriotic verse",
+    "subject": "patriotism",
+    "goodreads ID": ""
+  },
+  "Michael Drayton": {
+    "count": "14",
+    "dob": "1563-01-01",
+    "short_desc": "English topographical and historical verse poet",
+    "subject": "patriotism",
+    "goodreads ID": ""
+  },
+  "Jimmy Carter": {
+    "count": "32",
+    "dob": "1924-10-01",
+    "short_desc": "U.S. President, humanitarian author, Nobel Peace laureate",
+    "subject": "peace",
+    "goodreads ID": "6113"
+  },
+  "Peter Kreeft": {
+    "count": "80",
+    "dob": "1937-03-16",
+    "short_desc": "Christian philosopher, theologian, and apologist.",
+    "subject": "philosophy",
+    "goodreads ID": ""
+  },
+  "Geoffrey Chaucer": {
+    "count": "23",
+    "dob": "1343-01-01",
+    "short_desc": "father of English poetry, Canterbury Tales author",
+    "subject": "pilgrimage",
+    "goodreads ID": ""
+  },
+  "Epicurus": {
+    "count": "300",
+    "dob": "-0341-01-01",
+    "short_desc": "ancient philosopher advocating simple, pleasurable tranquility",
+    "subject": "pleasure",
+    "goodreads ID": "114041"
+  },
+  "Robert Herrick": {
+    "count": "2",
+    "dob": "1591-08-24",
+    "short_desc": "English lyric poet of carpe diem themes",
+    "subject": "pleasure",
+    "goodreads ID": ""
+  },
+  "Philip Sidney": {
+    "count": "10",
+    "dob": "1554-11-30",
+    "short_desc": "English Renaissance courtier-poet and literary theorist",
+    "subject": "poetry",
+    "goodreads ID": ""
+  },
+  "Hilary Mantel": {
+    "count": "14",
+    "dob": "1952-07-06",
+    "short_desc": "British historical fiction novelist.",
+    "subject": "power",
+    "goodreads ID": ""
+  },
+  "Tacitus": {
+    "count": "4",
+    "dob": "0056-01-01",
+    "short_desc": "Ancient Roman historian, political analyst, senator",
+    "subject": "power",
+    "goodreads ID": ""
+  },
+  "John Chrysostom": {
+    "count": "700",
+    "dob": "0347-01-01",
+    "short_desc": "influential Early Church Father, golden-tongued preacher",
+    "subject": "preaching",
+    "goodreads ID": ""
+  },
+  "John Calvin": {
+    "count": "80",
+    "dob": "1509-07-10",
+    "short_desc": "Protestant Reformation theologian and writer.",
+    "subject": "predestination",
+    "goodreads ID": "30510"
+  },
+  "Al-Mutanabbi": {
+    "count": "326",
+    "dob": "0915-01-01",
+    "short_desc": "greatest Arab poet, master of classical Arabic verse",
+    "subject": "pride",
+    "goodreads ID": ""
+  },
+  "Ryoki Inoue": {
+    "count": "1075",
+    "dob": "1946-07-22",
+    "short_desc": "world's most prolific novelist, Brazilian pulp writer",
+    "subject": "productivity",
+    "goodreads ID": ""
+  },
+  "Ellen G. White": {
+    "count": "100000",
+    "dob": "1827-11-26",
+    "short_desc": "American religious leader, pioneering Adventist author and visionary",
+    "subject": "prophecy",
+    "goodreads ID": ""
+  },
+  "Robert Browning": {
+    "count": "24",
+    "dob": "1812-05-07",
+    "short_desc": "poetic visionary exploring love, soul, transcendental metamorphosis",
+    "subject": "psychology",
+    "goodreads ID": ""
+  },
+  "Ian McEwan": {
+    "count": "17",
+    "dob": "1948-06-21",
+    "short_desc": "British novelist and screenwriter.",
+    "subject": "psychology",
+    "goodreads ID": ""
+  },
+  "Averroes": {
+    "count": "108",
+    "dob": "1126-04-14",
+    "short_desc": "medieval Islamic philosopher harmonizing faith and reason",
+    "subject": "rationalism",
+    "goodreads ID": ""
+  },
+  "Maimonides": {
+    "count": "70",
+    "dob": "1138-01-01",
+    "short_desc": "Jewish philosopher synthesizing faith and reason",
+    "subject": "rationalism",
+    "goodreads ID": ""
+  },
+  "Henrik Ibsen": {
+    "count": "26",
+    "dob": "1828-03-20",
+    "short_desc": "Norwegian playwright, modern drama pioneer.",
+    "subject": "realism",
+    "goodreads ID": ""
+  },
+  "Thucydides": {
+    "count": "1",
+    "dob": "-0460-01-01",
+    "short_desc": "Greek historian of Peloponnesian War",
+    "subject": "realism",
+    "goodreads ID": ""
+  },
+  "Voltaire": {
+    "count": "2000",
+    "dob": "1694-11-21",
+    "short_desc": "Enlightenment philosopher, writer, satirist.",
+    "subject": "reason",
+    "goodreads ID": "5754446"
+  },
+  "Al-Kindi": {
+    "count": "260",
+    "dob": "0801-01-01",
+    "short_desc": "first Arab philosopher, synthesizer of Greek thought",
+    "subject": "reason",
+    "goodreads ID": ""
+  },
+  "Ibn Rushd (Averroes)": {
+    "count": "100",
+    "dob": "1126-04-14",
+    "short_desc": "medieval Islamic philosopher harmonizing faith and reason",
+    "subject": "reason",
+    "goodreads ID": ""
+  },
+  "Lord Byron": {
+    "count": "41",
+    "dob": "1788-01-22",
+    "short_desc": "Romantic poet and satirist.",
+    "subject": "rebellion",
+    "goodreads ID": ""
+  },
+  "Arthur Rimbaud": {
+    "count": "5",
+    "dob": "1854-10-20",
+    "short_desc": "French symbolist poet and modernist influence",
+    "subject": "rebellion",
+    "goodreads ID": ""
+  },
+  "Dante Alighieri": {
+    "count": "25",
+    "dob": "1265-05-21",
+    "short_desc": "Italian poet, The Divine Comedy",
+    "subject": "redemption",
+    "goodreads ID": ""
+  },
+  "Martin Luther": {
+    "count": "150",
+    "dob": "1483-11-10",
+    "short_desc": "reformer igniting spiritual and institutional upheaval.",
+    "subject": "reformation",
+    "goodreads ID": ""
+  },
+  "Alice Munro": {
+    "count": "14",
+    "dob": "1931-07-10",
+    "short_desc": "Nobel-winning Canadian short story master.",
+    "subject": "relationships",
+    "goodreads ID": ""
+  },
+  "Thomas Kyd": {
+    "count": "3",
+    "dob": "1558-11-06",
+    "short_desc": "English dramatist pioneering revenge tragedy",
+    "subject": "revenge",
+    "goodreads ID": ""
+  },
+  "Percy Bysshe Shelley": {
+    "count": "67",
+    "dob": "1792-08-04",
+    "short_desc": "Romantic poet championing radical, visionary ideals",
+    "subject": "revolution",
+    "goodreads ID": ""
+  },
+  "Karl Marx": {
+    "count": "50",
+    "dob": "1818-05-05",
+    "short_desc": "revolutionary thinker critiquing capitalism and class struggle",
+    "subject": "revolution",
+    "goodreads ID": "7084"
+  },
+  "John Milton": {
+    "count": "45",
+    "dob": "1608-12-09",
+    "short_desc": "Epic poet of Paradise Lost.",
+    "subject": "righteousness",
+    "goodreads ID": "9876"
+  },
+  "Thomas Lodge": {
+    "count": "11",
+    "dob": "1558-01-01",
+    "short_desc": "English Renaissance poet and prose romancer",
+    "subject": "romance",
+    "goodreads ID": ""
+  },
+  "Mircea Eliade": {
+    "count": "30",
+    "dob": "1907-03-09",
+    "short_desc": "Romanian scholar of world religions and sacred myth",
+    "subject": "sacred",
+    "goodreads ID": ""
+  },
+  "John Bunyan": {
+    "count": "6",
+    "dob": "1628-11-28",
+    "short_desc": "allegorical English author of Pilgrim's Progress",
+    "subject": "salvation",
+    "goodreads ID": ""
+  },
+  "Mark Twain": {
+    "count": "166",
+    "dob": "1835-11-30",
+    "short_desc": "satiric storyteller dissecting human folly.",
+    "subject": "satire",
+    "goodreads ID": "1244"
+  },
+  "Jonathan Swift": {
+    "count": "15",
+    "dob": "1667-11-30",
+    "short_desc": "Satirist of Gulliver’s Travels.",
+    "subject": "satire",
+    "goodreads ID": ""
+  },
+  "Aristophanes": {
+    "count": "11",
+    "dob": "-0446-01-01",
+    "short_desc": "Greek comic playwright of political satire",
+    "subject": "satire",
+    "goodreads ID": ""
+  },
+  "Pietro Aretino": {
+    "count": "21",
+    "dob": "1492-04-20",
+    "short_desc": "controversial Italian Renaissance satirist and playwright",
+    "subject": "scandal",
+    "goodreads ID": ""
+  },
+  "Isaac Asimov": {
+    "count": "500",
+    "dob": "1920-01-02",
+    "short_desc": "Futuristic architect weaving science, rationality, and morality",
+    "subject": "science",
+    "goodreads ID": "16667"
+  },
+  "L. Ron Hubbard": {
+    "count": "1084",
+    "dob": "1911-03-13",
+    "short_desc": "science fiction author, founder of Scientology",
+    "subject": "scientology",
+    "goodreads ID": "33503"
+  },
+  "Donna Tartt": {
+    "count": "3",
+    "dob": "1963-12-23",
+    "short_desc": "American novelist, The Secret History",
+    "subject": "secrecy",
+    "goodreads ID": ""
+  },
+  "Hermann Hesse": {
+    "count": "23",
+    "dob": "1877-07-02",
+    "short_desc": "[Duplicate: see Herman Hesse]",
+    "subject": "seeking",
+    "goodreads ID": "1113469"
+  },
+  "Umberto Eco": {
+    "count": "42",
+    "dob": "1932-01-05",
+    "short_desc": "Italian semiotician, novelist, critic.",
+    "subject": "semiotics",
+    "goodreads ID": "1730"
+  },
+  "Jorge Amado": {
+    "count": "32",
+    "dob": "1912-08-10",
+    "short_desc": "Brazilian novelist celebrating Bahian culture and society",
+    "subject": "sensuality",
+    "goodreads ID": ""
+  },
+  "Wang Wei": {
+    "count": "400",
+    "dob": "0699-01-01",
+    "short_desc": "Tang Dynasty poet-painter of meditative landscapes",
+    "subject": "serenity",
+    "goodreads ID": ""
+  },
+  "William of Ockham": {
+    "count": "35",
+    "dob": "1287-01-01",
+    "short_desc": "medieval logician of philosophical parsimony",
+    "subject": "simplicity",
+    "goodreads ID": ""
+  },
+  "Laozi": {
+    "count": "1",
+    "dob": "-0601-01-01",
+    "short_desc": "legendary Chinese sage of Daoist philosophy",
+    "subject": "simplicity",
+    "goodreads ID": "2622245"
+  },
+  "Michel de Montaigne": {
+    "count": "107",
+    "dob": "1533-02-28",
+    "short_desc": "Renaissance essayist, father of skepticism.",
+    "subject": "skepticism",
+    "goodreads ID": "17241"
+  },
+  "David Hume": {
+    "count": "12",
+    "dob": "1711-05-07",
+    "short_desc": "Scottish Enlightenment philosopher, historian, essayist",
+    "subject": "skepticism",
+    "goodreads ID": ""
+  },
+  "Charles Dickens": {
+    "count": "95",
+    "dob": "1812-02-07",
+    "short_desc": "social reformist weaving vivid, empathetic narratives",
+    "subject": "society",
+    "goodreads ID": "239579"
+  },
+  "Octavio Paz": {
+    "count": "43",
+    "dob": "1914-03-31",
+    "short_desc": "Mexican poet-essayist exploring identity and time",
+    "subject": "solitude",
+    "goodreads ID": ""
+  },
+  "Gabriel García Márquez": {
+    "count": "37",
+    "dob": "1927-03-06",
+    "short_desc": "Colombian visionary blending magic with political critique",
+    "subject": "solitude",
+    "goodreads ID": ""
+  },
+  "Thomas Hobbes": {
+    "count": "9",
+    "dob": "1588-04-05",
+    "short_desc": "English philosopher, author of Leviathan.",
+    "subject": "sovereignty",
+    "goodreads ID": ""
+  },
+  "Al-Ghazali": {
+    "count": "70",
+    "dob": "1058-01-01",
+    "short_desc": "influential Islamic theologian and Sufi mystic philosopher",
+    "subject": "spirituality",
+    "goodreads ID": ""
+  },
+  "Kahlil Gibran": {
+    "count": "58",
+    "dob": "1883-01-06",
+    "short_desc": "philosophical poet blending mysticism and lyrical prose",
+    "subject": "spirituality",
+    "goodreads ID": "6466154"
+  },
+  "Li Bai": {
+    "count": "1000",
+    "dob": "0701-02-28",
+    "short_desc": "romantic Tang Dynasty poet celebrating wine and nature",
+    "subject": "spontaneity",
+    "goodreads ID": ""
+  },
+  "Zhuangzi": {
+    "count": "1",
+    "dob": "-0369-01-01",
+    "short_desc": "Ancient Chinese Taoist philosopher, Zhuangzi author.",
+    "subject": "spontaneity",
+    "goodreads ID": ""
+  },
+  "Ernest Hemingway": {
+    "count": "15",
+    "dob": "1899-07-21",
+    "short_desc": "terse storyteller revealing raw human fortitude",
+    "subject": "stoicism",
+    "goodreads ID": ""
+  },
+  "Giovanni Boccaccio": {
+    "count": "14",
+    "dob": "1313-06-16",
+    "short_desc": "Italian Renaissance master of narrative prose",
+    "subject": "storytelling",
+    "goodreads ID": ""
+  },
+  "Sun Tzu": {
+    "count": "1",
+    "dob": "-0544-01-01",
+    "short_desc": "Ancient Chinese military strategist, \\\"The Art of War\\\"",
+    "subject": "strategy",
+    "goodreads ID": ""
+  },
+  "Johann Wolfgang von Goethe": {
+    "count": "150",
+    "dob": "1749-08-28",
+    "short_desc": "German literary giant and polymath.",
+    "subject": "striving",
+    "goodreads ID": "285217"
+  },
+  "John Steinbeck": {
+    "count": "27",
+    "dob": "1902-02-27",
+    "short_desc": "Nobel-winning American social realist.",
+    "subject": "struggle",
+    "goodreads ID": ""
+  },
+  "Gustave Flaubert": {
+    "count": "9",
+    "dob": "1821-12-12",
+    "short_desc": "French realist novelist, Madame Bovary creator.",
+    "subject": "style",
+    "goodreads ID": ""
+  },
+  "Fyodor Dostoevsky": {
+    "count": "15",
+    "dob": "1821-11-11",
+    "short_desc": "Russian existentialist probing human suffering, redemption, transcendence",
+    "subject": "suffering",
+    "goodreads ID": ""
+  },
+  "Margaret Atwood": {
+    "count": "60",
+    "dob": "1939-11-18",
+    "short_desc": "speculative prophet questioning society’s dystopian narratives.",
+    "subject": "survival",
+    "goodreads ID": ""
+  },
+  "Daniel Defoe": {
+    "count": "28",
+    "dob": "1660-09-13",
+    "short_desc": "pioneering English novelist, creator of Robinson Crusoe",
+    "subject": "survival",
+    "goodreads ID": ""
+  },
+  "William Butler Yeats": {
+    "count": "23",
+    "dob": "1865-06-13",
+    "short_desc": "[Same as W.B. Yeats]",
+    "subject": "symbolism",
+    "goodreads ID": "29963, 18197181"
+  },
+  "Avicenna (Ibn Sina)": {
+    "count": "450",
+    "dob": "0980-08-23",
+    "short_desc": "Persian polymath, influential Islamic philosopher-physician",
+    "subject": "synthesis",
+    "goodreads ID": ""
+  },
+  "Thomas Aquinas": {
+    "count": "60",
+    "dob": "1225-01-28",
+    "short_desc": "medieval theologian synthesizing faith and reason",
+    "subject": "synthesis",
+    "goodreads ID": ""
+  },
+  "Andrew Marvell": {
+    "count": "51",
+    "dob": "1621-03-31",
+    "short_desc": "metaphysical poet of politics and pastoral",
+    "subject": "temporality",
+    "goodreads ID": ""
+  },
+  "Svetlana Alexievich": {
+    "count": "6",
+    "dob": "1948-05-31",
+    "short_desc": "Belarusian journalist chronicling Soviet experience",
+    "subject": "testimony",
+    "goodreads ID": ""
+  },
+  "William Faulkner": {
+    "count": "19",
+    "dob": "1897-09-25",
+    "short_desc": "American novelist, Nobel laureate, Southern Gothic master.",
+    "subject": "time",
+    "goodreads ID": ""
+  },
+  "Gotthold Ephraim Lessing": {
+    "count": "25",
+    "dob": "1729-01-22",
+    "short_desc": "German Enlightenment dramatist and critic",
+    "subject": "tolerance",
+    "goodreads ID": ""
+  },
+  "Roger Williams": {
+    "count": "5",
+    "dob": "1603-12-21",
+    "short_desc": "colonial advocate of religious freedom",
+    "subject": "tolerance",
+    "goodreads ID": ""
+  },
+  "George Orwell": {
+    "count": "12",
+    "dob": "1903-06-25",
+    "short_desc": "Dystopian visionary exposing authoritarianism through incisive allegory",
+    "subject": "totalitarianism",
+    "goodreads ID": ""
+  },
+  "Han Yu": {
+    "count": "800",
+    "dob": "0768-12-25",
+    "short_desc": "Tang Dynasty essayist championing classical prose",
+    "subject": "tradition",
+    "goodreads ID": ""
+  },
+  "John Lydgate": {
+    "count": "140",
+    "dob": "1370-01-01",
+    "short_desc": "prolific medieval English poet and Chaucer disciple",
+    "subject": "tradition",
+    "goodreads ID": ""
+  },
+  "Naguib Mahfouz": {
+    "count": "30",
+    "dob": "1911-12-11",
+    "short_desc": "Nobel Prize-winning Egyptian novelist.",
+    "subject": "tradition",
+    "goodreads ID": ""
+  },
+  "T.S. Eliot": {
+    "count": "28",
+    "dob": "1888-09-26",
+    "short_desc": "Anglo-American poet, \\\"The Waste Land\\\" author",
+    "subject": "tradition",
+    "goodreads ID": ""
+  },
+  "Al-Khatib al-Baghdadi": {
+    "count": "15",
+    "dob": "1002-05-24",
+    "short_desc": "prolific Baghdad scholar of Islamic tradition",
+    "subject": "tradition",
+    "goodreads ID": ""
+  },
+  "Ovid": {
+    "count": "7",
+    "dob": "0043-01-01",
+    "short_desc": "Roman poet celebrated for mythological elegance",
+    "subject": "transformation",
+    "goodreads ID": ""
+  },
+  "Marquis de Sade": {
+    "count": "15",
+    "dob": "1740-06-02",
+    "short_desc": "transgressive French aristocrat and erotic writer",
+    "subject": "transgression",
+    "goodreads ID": ""
+  },
+  "Blaise Pascal": {
+    "count": "3",
+    "dob": "1623-06-19",
+    "short_desc": "French philosopher, mathematician, theologian.",
+    "subject": "uncertainty",
+    "goodreads ID": ""
+  },
+  "Rumi": {
+    "count": "70000",
+    "dob": "1207-09-30",
+    "short_desc": "ecstatic mystic fusing love, divine intoxication, eternal poetry",
+    "subject": "unity",
+    "goodreads ID": "875661"
+  },
+  "Ibn Arabi": {
+    "count": "350",
+    "dob": "1165-07-28",
+    "short_desc": "Andalusian Sufi mystic, philosopher.",
+    "subject": "unity",
+    "goodreads ID": ""
+  },
+  "Mo Zi": {
+    "count": "1",
+    "dob": "-0470-01-01",
+    "short_desc": "Chinese philosopher of universal love",
+    "subject": "universalism",
+    "goodreads ID": ""
+  },
+  "Rabindranath Tagore": {
+    "count": "2000",
+    "dob": "1861-05-07",
+    "short_desc": "Bengali poet, Nobel laureate in Literature.",
+    "subject": "universality",
+    "goodreads ID": "36913"
+  },
+  "Thomas More": {
+    "count": "7",
+    "dob": "1478-02-07",
+    "short_desc": "English humanist, author of Utopia",
+    "subject": "utopia",
+    "goodreads ID": ""
+  },
+  "Su Shi": {
+    "count": "2700",
+    "dob": "1037-01-08",
+    "short_desc": "Song Dynasty polymath, master of poetry and prose",
+    "subject": "versatility",
+    "goodreads ID": ""
+  },
+  "Pindar": {
+    "count": "4",
+    "dob": "-0518-01-01",
+    "short_desc": "Greek lyric poet celebrating athletic victory",
+    "subject": "victory",
+    "goodreads ID": ""
+  },
+  "Aristotle": {
+    "count": "47",
+    "dob": "-0384-01-01",
+    "short_desc": "Ancient Greek philosopher and foundational Western thinker",
+    "subject": "virtue",
+    "goodreads ID": "2192"
+  },
+  "Samuel Richardson": {
+    "count": "4",
+    "dob": "1689-08-19",
+    "short_desc": "pioneering English epistolary novelist",
+    "subject": "virtue",
+    "goodreads ID": ""
+  },
+  "William Blake": {
+    "count": "167",
+    "dob": "1757-11-28",
+    "short_desc": "English poet, painter, mystic visionary.",
+    "subject": "vision",
+    "goodreads ID": "13453"
+  },
+  "Hildegard of Bingen": {
+    "count": "70",
+    "dob": "1098-09-16",
+    "short_desc": "mystical abbess, composer, and polymath",
+    "subject": "vision",
+    "goodreads ID": ""
+  },
+  "William Langland": {
+    "count": "1",
+    "dob": "1332-01-01",
+    "short_desc": "medieval English visionary poet",
+    "subject": "vision",
+    "goodreads ID": ""
+  },
+  "Friedrich Nietzsche": {
+    "count": "45",
+    "dob": "1844-10-15",
+    "short_desc": "Provocative philosopher challenging morality through existential radicalism",
+    "subject": "willpower",
+    "goodreads ID": "1938"
+  },
+  "Khalil Gibran": {
+    "count": "60",
+    "dob": "1883-01-06",
+    "short_desc": "philosophical poet blending mysticism and lyrical prose",
+    "subject": "wisdom",
+    "goodreads ID": ""
+  },
+  "Thomas Fuller": {
+    "count": "12",
+    "dob": "1608-06-19",
+    "short_desc": "English cleric and historian with proverbial wit.",
+    "subject": "wisdom",
+    "goodreads ID": ""
+  },
+  "Saadi": {
+    "count": "2",
+    "dob": "1210-01-01",
+    "short_desc": "Persian poet-moralist of wisdom literature",
+    "subject": "wisdom",
+    "goodreads ID": ""
+  },
+  "Thomas Nashe": {
+    "count": "9",
+    "dob": "1567-11-01",
+    "short_desc": "English satirist and pioneer of picaresque prose",
+    "subject": "wit",
+    "goodreads ID": ""
+  },
+  "Du Fu": {
+    "count": "1500",
+    "dob": "0712-02-12",
+    "short_desc": "revered Tang Dynasty poet chronicling social realities",
+    "subject": "witnessing",
+    "goodreads ID": ""
+  },
+  "Thomas Traherne": {
+    "count": "4",
+    "dob": "1637-01-01",
+    "short_desc": "metaphysical poet of divine wonder",
+    "subject": "wonder",
+    "goodreads ID": ""
+  },
+  "Patanjali": {
+    "count": "2",
+    "dob": "-0200-01-01",
+    "short_desc": "Indian sage codifying yoga philosophy",
+    "subject": "yoga",
+    "goodreads ID": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+    "worldSettings": {
+        "name": "Starting Zone"
+    },
+    "playerUnits": [
+        {
+            "id": "Caster Unit",
+            "type": "player_unit",
+            "x": 400, "y": 300,
+            "size": 10, "color": "#ffff00", "speed": 2,
+            "capacity": 10, "wood": 5, "stone": 5,
+            "mana": 100, "maxMana": 100, "manaRegen": 0.2,
+            "spells": ["lightningBolt", "teleport", "ballLightning"],
+            "canBuild": ["lightningTurret"]
+        },
+        {
+            "id": "Worker Unit",
+            "type": "player_unit",
+            "x": 460, "y": 300,
+            "size": 10, "color": "#00ffff", "speed": 2,
+            "capacity": 10, "wood": 0, "stone": 0,
+            "mana": 20, "maxMana": 20, "manaRegen": 0.05,
+            "spells": [],
+            "canBuild": []
+        }
+    ],
+    "rocks": [
+        {
+            "id": "rock_1", "type": "rock",
+            "x": 350, "y": 250, "size": 20, "color": "#888888",
+            "stone": 200
+        }
+    ],
+    "trees": [
+        {
+            "id": "tree_1", "type": "tree",
+            "x": 550, "y": 350, "size": 12, "trunkColor": "#654321", "leafColor": "#2E8B57",
+            "wood": 50
+        }
+    ],
+    "trainingDummies": [
+        {
+            "id": "dummy_1",
+            "type": "dummy",
+            "x": 600, "y": 200,
+            "size": 15, "color": "#A98C78",
+            "health": 10000, "maxHealth": 10000,
+            "hpRegen": 0.5
+        }
+    ],
+    "grassPatches": [
+        {
+            "id": "grass_patch_1",
+            "type": "grass",
+            "x": 250, "y": 400,
+            "size": 50,
+            "color": "#3CB371"
+        }
+    ]
+}
+

@@ -1,0 +1,122 @@
+{
+  "Gnosis": {
+    "short_description": "Direct experiential knowledge of spiritual or metaphysical truth."
+  },
+  "Episteme": {
+    "short_description": "Scientific or systematic knowledge based on theoretical understanding."
+  },
+  "Techne": {
+    "short_description": "Practical knowledge of crafts and applied skills."
+  },
+  "Sophia": {
+    "short_description": "Wisdom knowledge integrating theoretical and practical understanding."
+  },
+  "Metis": {
+    "short_description": "Cunning intelligence and adaptive knowledge from experience."
+  },
+  "Doxa": {
+    "short_description": "Common belief and opinion-based knowledge."
+  },
+  "Vidya": {
+    "short_description": "Sacred knowledge leading to spiritual liberation."
+  },
+  "Prajna": {
+    "short_description": "Transcendent wisdom beyond conceptual knowledge."
+  },
+  "Jnana": {
+    "short_description": "Pure knowledge of ultimate reality or universal truth."
+  },
+  "Paradigm": {
+    "short_description": "Framework of concepts and theories structuring knowledge."
+  },
+  "Tradition": {
+    "short_description": "Knowledge transmitted through generations via culture."
+  },
+  "Revelation": {
+    "short_description": "Knowledge directly received from divine or higher source."
+  },
+  "Empiricism": {
+    "short_description": "Knowledge gained through sensory experience and observation."
+  },
+  "Rationalism": {
+    "short_description": "Knowledge derived through reason and logical deduction."
+  },
+  "Intuition": {
+    "short_description": "Direct knowing without conscious reasoning process."
+  },
+  "Memory": {
+    "short_description": "Stored knowledge from past experience and learning."
+  },
+  "Archive": {
+    "short_description": "Collected and preserved knowledge across time."
+  },
+  "Doctrine": {
+    "short_description": "Formally organized system of teachings and principles."
+  },
+  "Discourse": {
+    "short_description": "Knowledge created and transmitted through language and dialogue."
+  },
+  "Praxis": {
+    "short_description": "Knowledge through practical action and application."
+  },
+  "Method": {
+    "short_description": "Systematic approach to acquiring and validating knowledge."
+  },
+  "Discipline": {
+    "short_description": "Organized field of study with distinct methods and concepts."
+  },
+  "Myth": {
+    "short_description": "Narrative knowledge encoding cultural and spiritual truth."
+  },
+  "Symbol": {
+    "short_description": "Knowledge encoded in meaningful forms and representations."
+  },
+  "Protocol": {
+    "short_description": "Standardized procedures for knowledge acquisition and verification."
+  },
+  "Network": {
+    "short_description": "Interconnected system of knowledge nodes and relationships."
+  },
+  "Database": {
+    "short_description": "Structured collection of information and relationships."
+  },
+  "Pattern": {
+    "short_description": "Recurring structures and relationships in knowledge."
+  },
+  "Model": {
+    "short_description": "Simplified representation of complex knowledge relationships."
+  },
+  "Schema": {
+    "short_description": "Organizing framework for categorizing knowledge."
+  },
+  "Corpus": {
+    "short_description": "Body of knowledge within specific domain or tradition."
+  },
+  "Canon": {
+    "short_description": "Authoritative collection of fundamental knowledge."
+  },
+  "Wisdom": {
+    "short_description": "Deep understanding integrating knowledge and experience."
+  },
+  "Intelligence": {
+    "short_description": "Capacity to acquire and apply knowledge effectively."
+  },
+  "Consciousness": {
+    "short_description": "Awareness within which knowledge arises and is known."
+  },
+  "Matrix": {
+    "short_description": "Underlying structure organizing knowledge relationships."
+  },
+  "Field": {
+    "short_description": "Domain of knowledge with common principles and methods."
+  },
+  "System": {
+    "short_description": "Organized whole of interrelated knowledge elements."
+  },
+  "Taxonomy": {
+    "short_description": "Hierarchical classification of knowledge domains."
+  },
+  "Ontology": {
+    "short_description": "Formal specification of knowledge concepts and relationships."
+  }
+}

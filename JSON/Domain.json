@@ -1,0 +1,140 @@
+{
+  "Domains": {
+    "short_description": "Spheres of influence, activity, or knowledge where specific concepts, rules, and structures operate."
+  },
+  "Boundary": {
+    "short_description": "Defining limits or edges that separate one domain from another."
+  },
+  "Scope": {
+    "short_description": "Range or extent of influence and applicability within a domain."
+  },
+  "Context": {
+    "short_description": "Environmental or situational factors that shape the domain's characteristics."
+  },
+  "Framework": {
+    "short_description": "Underlying structure or model that organizes the domain's elements."
+  },
+  "Element": {
+    "short_description": "Basic components or building blocks that constitute the domain."
+  },
+  "Relation": {
+    "short_description": "Connections or interactions between elements within or across domains."
+  },
+  "Hierarchy": {
+    "short_description": "Levels of organization or authority within the domain."
+  },
+  "Category": {
+    "short_description": "Divisions or classifications that group related elements within the domain."
+  },
+  "Principle": {
+    "short_description": "Fundamental rules or laws governing operations and behaviors in the domain."
+  },
+  "Paradigm": {
+    "short_description": "Dominant framework or model that shapes understanding and activity in the domain."
+  },
+  "Structure": {
+    "short_description": "Organizational patterns or arrangements that define the domain's form."
+  },
+  "Dimension": {
+    "short_description": "Fundamental aspects or parameters through which the domain is understood."
+  },
+  "Interface": {
+    "short_description": "Points of interaction or overlap between the domain and external systems."
+  },
+  "System": {
+    "short_description": "Interconnected set of elements and rules operating within the domain."
+  },
+  "Field": {
+    "short_description": "Specialized area or sub-domain with its own rules and characteristics."
+  },
+  "Network": {
+    "short_description": "Web of relationships and dependencies within the domain."
+  },
+  "Process": {
+    "short_description": "Patterns of change, development, or activity within the domain."
+  },
+  "Operation": {
+    "short_description": "Specific actions or transformations that occur within the domain."
+  },
+  "Pattern": {
+    "short_description": "Recurring structures or behaviors observed in the domain."
+  },
+  "Abstraction": {
+    "short_description": "Levels of generalization or simplification applied to the domain's elements."
+  },
+  "Essence": {
+    "short_description": "Core nature or defining quality that distinguishes the domain."
+  },
+  "Identity": {
+    "short_description": "Unique characteristics or attributes that define the domain's individuality."
+  },
+  "Modality": {
+    "short_description": "Fundamental ways the domain can exist, operate, or be experienced."
+  },
+  "Invariant": {
+    "short_description": "Aspects of the domain that remain constant across changes or contexts."
+  },
+  "Variable": {
+    "short_description": "Elements or factors within the domain that are subject to change."
+  },
+  "Constraint": {
+    "short_description": "Limitations or restrictions that shape the domain's possibilities."
+  },
+  "Potential": {
+    "short_description": "Latent or possible developments and expansions within the domain."
+  },
+  "Limit": {
+    "short_description": "Boundaries or thresholds that define the domain's capacity or reach."
+  },
+  "Vector": {
+    "short_description": "Directional forces or tendencies influencing the domain's evolution."
+  },
+  "Matrix": {
+    "short_description": "Network of relationships and dependencies that generate or contain the domain."
+  },
+  "Schema": {
+    "short_description": "Mental or organizational frameworks that structure understanding of the domain."
+  },
+  "Symbol": {
+    "short_description": "Representational forms that manifest or signify the domain's elements."
+  },
+  "Metaphor": {
+    "short_description": "Conceptual mappings that connect the domain to other domains or ideas."
+  },
+  "Logic": {
+    "short_description": "Formal systems of reasoning and inference specific to the domain."
+  },
+  "Axiom": {
+    "short_description": "Self-evident or foundational truths that underpin the domain."
+  },
+  "Dialectic": {
+    "short_description": "Dynamic interaction between opposing forces or ideas within the domain."
+  },
+  "Morphology": {
+    "short_description": "Study of forms and patterns that characterize the domain's structure."
+  },
+  "Ontology": {
+    "short_description": "Framework for understanding the types of existence within the domain."
+  },
+  "Taxonomy": {
+    "short_description": "System for classifying and organizing elements within the domain."
+  },
+  "Prototype": {
+    "short_description": "Original model or example from which similar domain elements derive."
+  },
+  "Emergent": {
+    "short_description": "Properties or behaviors arising from the interaction of domain elements."
+  },
+  "Transcendental": {
+    "short_description": "Aspects of the domain that enable or underlie its existence and operation."
+  },
+  "Primitive": {
+    "short_description": "Basic, irreducible elements or operations fundamental to the domain."
+  },
+  "Ideal": {
+    "short_description": "Perfect or complete forms of understanding or operation within the domain."
+  },
+  "Polarity": {
+    "short_description": "Fundamental tensions or oppositions that shape the domain's dynamics."
+  }
+}

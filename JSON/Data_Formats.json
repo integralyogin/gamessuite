@@ -1,0 +1,92 @@
+{
+"Text Formats": {
+    "quote": "Plain text (.txt), Rich Text (.rtf), Markdown (.md) - Human-readable text storage"
+},
+"Document Formats": {
+    "quote": "PDF (.pdf), Word (.docx), OpenDocument (.odt) - Formatted document storage"
+},
+"Spreadsheet Formats": {
+    "quote": "Excel (.xlsx), CSV (.csv), TSV (.tsv) - Tabular data storage and manipulation"
+},
+"Image Formats": {
+    "quote": "JPEG (.jpg), PNG (.png), GIF (.gif), SVG (.svg), TIFF (.tiff) - Visual data storage"
+},
+"Audio Formats": {
+    "quote": "MP3 (.mp3), WAV (.wav), FLAC (.flac), AAC (.aac) - Sound data storage"
+},
+"Video Formats": {
+    "quote": "MP4 (.mp4), AVI (.avi), MKV (.mkv), WebM (.webm) - Moving image and audio storage"
+},
+"Data Exchange Formats": {
+    "quote": "JSON (.json), XML (.xml), YAML (.yaml) - Structured data interchange"
+},
+"Database Formats": {
+    "quote": "SQLite (.db), MySQL (.sql), PostgreSQL (.psql) - Structured data storage and retrieval"
+},
+"Archive Formats": {
+    "quote": "ZIP (.zip), TAR (.tar), RAR (.rar), 7Z (.7z) - File compression and packaging"
+},
+"Binary Formats": {
+    "quote": "EXE (.exe), DLL (.dll), SO (.so) - Executable and library files"
+},
+"Web Formats": {
+    "quote": "HTML (.html), CSS (.css), JavaScript (.js) - Web content and styling"
+},
+"Configuration Formats": {
+    "quote": "INI (.ini), CONF (.conf), ENV (.env) - Application settings storage"
+},
+"Vector Formats": {
+    "quote": "AI (.ai), EPS (.eps), CDR (.cdr) - Resolution-independent graphics"
+},
+"3D Model Formats": {
+    "quote": "OBJ (.obj), STL (.stl), FBX (.fbx) - Three-dimensional object data"
+},
+"Scientific Data": {
+    "quote": "HDF5 (.h5), FITS (.fits), NetCDF (.nc) - Complex scientific data storage"
+},
+"Geographic Data": {
+    "quote": "SHP (.shp), KML (.kml), GeoJSON (.geojson) - Geographic information storage"
+},
+"Font Formats": {
+    "quote": "TTF (.ttf), OTF (.otf), WOFF (.woff) - Typography and font data"
+},
+"Presentation Formats": {
+    "quote": "PowerPoint (.pptx), Keynote (.key), ODP (.odp) - Slide-based presentations"
+},
+"Email Formats": {
+    "quote": "EML (.eml), MSG (.msg), MBOX (.mbox) - Email message storage"
+},
+"Backup Formats": {
+    "quote": "BAK (.bak), BACKUP (.backup), ISO (.iso) - System and data backups"
+},
+"Container Formats": {
+    "quote": "Docker (.dockerfile), OCI (.oci), VMX (.vmx) - Virtualization configurations"
+},
+"Log Formats": {
+    "quote": "LOG (.log), PCAP (.pcap), EVTX (.evtx) - System and application logging"
+},
+"Cryptocurrency": {
+    "quote": "Wallet (.dat), Blockchain (.block), Smart Contracts (.sol) - Digital asset data"
+},
+"Machine Learning": {
+    "quote": "ONNX (.onnx), PMML (.pmml), SavedModel (.pb) - ML model storage"
+},
+"Memory Dump": {
+    "quote": "DMP (.dmp), CORE (.core), HEAP (.heap) - System memory snapshots"
+},
+"Key-Value Storage": {
+    "quote": "LevelDB (.ldb), RocksDB (.sst), Berkeley DB (.db) - Key-value databases"
+},
+"Stream Processing": {
+    "quote": "Avro (.avro), Parquet (.parquet), ORC (.orc) - Big data storage formats"
+},
+"Semantic Web": {
+    "quote": "RDF (.rdf), OWL (.owl), TTL (.ttl) - Knowledge representation formats"
+},
+"Medical Imaging": {
+    "quote": "DICOM (.dcm), NIfTI (.nii), MINC (.mnc) - Medical image storage"
+},
+"CAD Formats": {
+    "quote": "DWG (.dwg), DXF (.dxf), STEP (.step) - Computer-aided design files"
+}
+}

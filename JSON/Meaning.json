@@ -1,0 +1,92 @@
+{
+"Significance": {
+    "short_description": "The quality of importance or worth attributed to something, representing the degree to which it matters within a system of values or understanding."
+},
+"Purpose": {
+    "short_description": "The intended function or desired outcome that gives direction to action and existence, providing a framework for evaluating choices and experiences."
+},
+"Value": {
+    "short_description": "The measure of worth or importance assigned to something, whether intrinsic or extrinsic, forming the basis for motivation and decision-making."
+},
+"Interpretation": {
+    "short_description": "The process of deriving or assigning meaning to experiences, symbols, or events through the lens of understanding and context."
+},
+"Symbol": {
+    "short_description": "A representation that carries meaning beyond its literal form, serving as a bridge between concrete experience and abstract understanding."
+},
+"Context": {
+    "short_description": "The surrounding circumstances and relationships that shape how meaning is understood and interpreted within a particular situation or framework."
+},
+"Coherence": {
+    "short_description": "The logical or emotional consistency between different elements of meaning, creating a sense of unity and comprehensibility in experience."
+},
+"Narrative": {
+    "short_description": "The organizing structure through which experiences and events are connected and made meaningful within a larger story or framework."
+},
+"Identity": {
+    "short_description": "The sense of self and continuity that emerges from meaningful patterns of experience, belief, and action over time."
+},
+"Truth": {
+    "short_description": "The correspondence between understanding and reality, serving as a foundation for reliable meaning and authentic interpretation."
+},
+"Authenticity": {
+    "short_description": "The quality of being genuine or true to one's essential nature, reflecting alignment between meaning and lived experience."
+},
+"Integration": {
+    "short_description": "The process of incorporating new experiences and understandings into existing frameworks of meaning, creating more comprehensive coherence."
+},
+"Transcendence": {
+    "short_description": "The extension of meaning beyond immediate experience to broader or higher levels of understanding and significance."
+},
+"Pattern": {
+    "short_description": "Recurring structures or relationships that suggest underlying order and significance in seemingly random or disparate experiences."
+},
+"Resonance": {
+    "short_description": "The emotional or intellectual alignment between experience and understanding that validates and deepens meaning."
+},
+"Archetype": {
+    "short_description": "Fundamental patterns of meaning that appear across cultures and contexts, representing universal aspects of human experience."
+},
+"Emergence": {
+    "short_description": "The arising of new levels of meaning from the interaction of simpler elements, creating higher-order understanding and significance."
+},
+"Embodiment": {
+    "short_description": "The manifestation of meaning in concrete form or action, bridging abstract understanding and practical experience."
+},
+"Reference": {
+    "short_description": "The connection between signs or symbols and what they represent, forming the basis for shared understanding and communication."
+},
+"Essence": {
+    "short_description": "The fundamental nature or quality that gives something its meaningful identity and significance within a larger context."
+},
+"Framework": {
+    "short_description": "The structured system of concepts and relationships through which meaning is organized and understood."
+},
+"Horizon": {
+    "short_description": "The limit of current understanding that defines the boundary between known and potential meaning, constantly shifting with new experience."
+},
+"Paradox": {
+    "short_description": "The apparent contradiction in meaning that points to deeper levels of truth or understanding beyond conventional logic."
+},
+"Synthesis": {
+    "short_description": "The combination of different elements of meaning into new, more comprehensive understandings that transcend their original components."
+},
+"Reflection": {
+    "short_description": "The conscious examination of experience and understanding that reveals and deepens meaning through self-aware consideration."
+},
+"Legacy": {
+    "short_description": "The enduring impact or influence that extends meaning beyond immediate experience into broader temporal and social contexts."
+},
+"Wisdom": {
+    "short_description": "The deep understanding of meaningful patterns and principles that guides effective action and authentic living."
+},
+"Revelation": {
+    "short_description": "The sudden discovery or disclosure of meaning that transforms understanding and perspective."
+},
+"Tradition": {
+    "short_description": "The transmission of meaningful patterns and practices across generations, preserving and evolving cultural understanding."
+},
+"Mystery": {
+    "short_description": "The aspect of experience that resists complete explanation while suggesting deeper levels of meaning and significance."
+}
+}

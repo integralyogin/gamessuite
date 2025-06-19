@@ -1,0 +1,152 @@
+{
+  "Divine": {
+    "short_description": "Relating to or emanating from ultimate sacred reality or godhead."
+  },
+  "Celestial": {
+    "short_description": "Connected to heavenly or cosmic realms beyond physical plane."
+  },
+  "Elemental": {
+    "short_description": "Pertaining to fundamental forces of nature: earth, air, fire, water, ether."
+  },
+  "Ethereal": {
+    "short_description": "Extremely delicate and light, of the heavens or spirit world."
+  },
+  "Astral": {
+    "short_description": "Relating to non-physical plane of consciousness and spiritual travel."
+  },
+  "Solar": {
+    "short_description": "Connected to sun's spiritual properties of illumination and life-force."
+  },
+  "Lunar": {
+    "short_description": "Associated with moon's mystical qualities of intuition and cycles."
+  },
+  "Cosmic": {
+    "short_description": "Pertaining to universal consciousness and higher dimensional realms."
+  },
+  "Shamanic": {
+    "short_description": "Related to spirit world interaction and nature-based mysticism."
+  },
+  "Mystical": {
+    "short_description": "Direct experiential knowledge of transcendent or ultimate reality."
+  },
+  "Alchemical": {
+    "short_description": "Concerning spiritual and material transformation processes."
+  },
+  "Tantric": {
+    "short_description": "Esoteric traditions using energy and consciousness for awakening."
+  },
+  "Yogic": {
+    "short_description": "Relating to union of individual with universal consciousness."
+  },
+  "Hermetic": {
+    "short_description": "Concerning ancient wisdom traditions of spiritual transformation."
+  },
+  "Gnostic": {
+    "short_description": "Direct spiritual knowledge and enlightenment through inner knowing."
+  },
+  "Karmic": {
+    "short_description": "Pertaining to law of cause and effect in spiritual evolution."
+  },
+  "Dharmic": {
+    "short_description": "Related to cosmic law, duty, and righteous living."
+  },
+  "Esoteric": {
+    "short_description": "Hidden spiritual knowledge reserved for initiated practitioners."
+  },
+  "Occult": {
+    "short_description": "Knowledge of hidden or supernatural powers and practices."
+  },
+  "Metaphysical": {
+    "short_description": "Transcending physical matter, concerning fundamental nature of reality."
+  },
+  "Theological": {
+    "short_description": "Study and understanding of divine nature and religious truth."
+  },
+  "Mystical": {
+    "short_description": "Direct communion with ultimate or divine reality."
+  },
+  "Prophetic": {
+    "short_description": "Relating to divine revelation and spiritual foresight."
+  },
+  "Contemplative": {
+    "short_description": "Deep spiritual reflection and meditative practice."
+  },
+  "Devotional": {
+    "short_description": "Focused on worship and loving dedication to divine."
+  },
+  "Ascetic": {
+    "short_description": "Severe self-discipline and abstention for spiritual purposes."
+  },
+  "Monastic": {
+    "short_description": "Religious community life dedicated to spiritual practice."
+  },
+  "Initiatic": {
+    "short_description": "Concerning spiritual transformation through sacred rituals."
+  },
+  "Mantric": {
+    "short_description": "Using sacred sound vibrations for spiritual effect."
+  },
+  "Subtle": {
+    "short_description": "Non-physical energetic aspects of existence."
+  },
+  "Causal": {
+    "short_description": "Primordial level of reality underlying manifestation."
+  },
+  "Sacred": {
+    "short_description": "Connected to divine or ultimate spiritual reality."
+  },
+  "Transcendent": {
+    "short_description": "Beyond ordinary physical and mental experience."
+  },
+  "Immanent": {
+    "short_description": "Divine presence manifesting within material world."
+  },
+  "Psychic": {
+    "short_description": "Extraordinary mental and spiritual perception abilities."
+  },
+  "Mediumistic": {
+    "short_description": "Communication with spiritual entities and realms."
+  },
+  "Oracular": {
+    "short_description": "Divine prophecy and spiritual guidance revelation."
+  },
+  "Ceremonial": {
+    "short_description": "Formal ritual practices for spiritual purposes."
+  },
+  "Magical": {
+    "short_description": "Manipulation of subtle energies and consciousness."
+  },
+  "Shamanic": {
+    "short_description": "Spirit world journeying and healing practices."
+  },
+  "Wisdom": {
+    "short_description": "Deep understanding of spiritual truth and reality."
+  },
+  "Enlightened": {
+    "short_description": "State of highest spiritual realization and awakening."
+  },
+  "Illuminated": {
+    "short_description": "Spiritually enlightened through divine knowledge."
+  },
+  "Realized": {
+    "short_description": "Direct experience of ultimate spiritual truth."
+  },
+  "Sanctified": {
+    "short_description": "Made holy through spiritual purification."
+  },
+  "Tantric": {
+    "short_description": "Transformation through sacred energy practices."
+  },
+  "Vedantic": {
+    "short_description": "Ultimate truth realization in Hindu philosophy."
+  },
+  "Kabbalistic": {
+    "short_description": "Jewish mystical tradition of divine understanding."
+  },
+  "Sufi": {
+    "short_description": "Islamic mystical path of divine love and wisdom."
+  },
+  "Zen": {
+    "short_description": "Direct insight through meditation in Buddhist tradition."
+  }
+}

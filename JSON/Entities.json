@@ -1,0 +1,140 @@
+{
+  "Deity": {
+    "short_description": "Supreme or powerful divine being worshipped as creator or ruler of universe."
+  },
+  "Demigod": {
+    "short_description": "Being of part divine and part human nature or descent."
+  },
+  "Angel": {
+    "short_description": "Divine messenger and celestial being serving as intermediary between divine and human."
+  },
+  "Archangel": {
+    "short_description": "Higher-ranking angel of greater power and importance in celestial hierarchy."
+  },
+  "Seraph": {
+    "short_description": "Highest order of angels, associated with light, ardor, and purity."
+  },
+  "Cherub": {
+    "short_description": "Angelic being associated with divine knowledge and cosmic harmony."
+  },
+  "Spirit": {
+    "short_description": "Non-physical entity or essence, often associated with natural phenomena."
+  },
+  "Ghost": {
+    "short_description": "Disembodied soul or spirit of deceased person manifesting to the living."
+  },
+  "Demon": {
+    "short_description": "Malevolent supernatural being often associated with evil or darkness."
+  },
+  "Djinn": {
+    "short_description": "Supernatural creature in Islamic mythology with free will, neither angel nor demon."
+  },
+  "Elemental": {
+    "short_description": "Nature spirit embodying and controlling specific natural forces."
+  },
+  "Avatar": {
+    "short_description": "Incarnation or embodiment of deity or divine force in physical form."
+  },
+  "Bodhisattva": {
+    "short_description": "Enlightened being who delays nirvana to help others achieve enlightenment."
+  },
+  "Deva": {
+    "short_description": "Divine being in Hindu tradition associated with natural forces and phenomena."
+  },
+  "Asura": {
+    "short_description": "Power-seeking deity or titan, often in opposition to devas."
+  },
+  "Ancestor Spirit": {
+    "short_description": "Spiritual essence of deceased forebear maintaining connection with living."
+  },
+  "Guardian Spirit": {
+    "short_description": "Protective entity assigned to watch over person, place, or thing."
+  },
+  "Nature Spirit": {
+    "short_description": "Being embodying natural features like trees, rivers, or mountains."
+  },
+  "Celestial Being": {
+    "short_description": "Divine or heavenly entity residing in higher spiritual realms."
+  },
+  "Immortal": {
+    "short_description": "Being not subject to death, often achieved through spiritual cultivation."
+  },
+  "Fairy": {
+    "short_description": "Magical being of folklore, often associated with nature and elements."
+  },
+  "Dragon": {
+    "short_description": "Mythical serpentine creature often representing primal or celestial forces."
+  },
+  "Phoenix": {
+    "short_description": "Mythical bird cyclically reborn from own ashes, symbol of transformation."
+  },
+  "Unicorn": {
+    "short_description": "Pure mystical being representing divine grace and spiritual power."
+  },
+  "Familiar": {
+    "short_description": "Spirit taking animal form to assist practitioner of magic."
+  },
+  "Thought-form": {
+    "short_description": "Entity created by focused mental or spiritual energy."
+  },
+  "Tulpa": {
+    "short_description": "Being manifested through spiritual or mental concentration."
+  },
+  "Egregore": {
+    "short_description": "Collective thought-form or psychic entity created by group consciousness."
+  },
+  "Ascended Master": {
+    "short_description": "Being who has transcended physical existence through spiritual evolution."
+  },
+  "Light Being": {
+    "short_description": "Entity composed of pure energy or light, often of higher vibration."
+  },
+  "Archon": {
+    "short_description": "Powerful cosmic being influencing material reality and human consciousness."
+  },
+  "Emanation": {
+    "short_description": "Manifestation or extension of divine source into lower realms."
+  },
+  "Soul": {
+    "short_description": "Spiritual or immaterial essence of living being."
+  },
+  "Higher Self": {
+    "short_description": "Transcendent aspect of individual consciousness connected to divine source."
+  },
+  "Divine Messenger": {
+    "short_description": "Being tasked with delivering spiritual communications to humanity."
+  },
+  "Totem": {
+    "short_description": "Spirit being serving as emblem of person, clan, or tribe."
+  },
+  "Guide": {
+    "short_description": "Non-physical entity providing spiritual direction and wisdom."
+  },
+  "Oversoul": {
+    "short_description": "Higher consciousness or divine aspect overseeing individual souls."
+  },
+  "Collective Entity": {
+    "short_description": "Being formed from merged consciousness of multiple individuals."
+  },
+  "Planetary Being": {
+    "short_description": "Conscious entity embodying entire planet or celestial body."
+  },
+  "Cosmic Being": {
+    "short_description": "Entity operating on universal or multidimensional scale."
+  },
+  "Elemental Lord": {
+    "short_description": "Powerful being ruling over specific element or natural force."
+  },
+  "Ancient One": {
+    "short_description": "Primordial being existing since beginning of creation."
+  },
+  "Watcher": {
+    "short_description": "Being observing and recording events without direct intervention."
+  },
+  "Oracle": {
+    "short_description": "Entity channeling divine wisdom and prophetic knowledge."
+  },
+  "Psychopomp": {
+    "short_description": "Guide of souls between physical and spiritual realms."
+  }
+}

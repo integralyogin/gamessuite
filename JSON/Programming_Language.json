@@ -1,0 +1,77 @@
+{
+  "Computation": {
+    "short_description": "The fundamental process of transforming information through precise sequences of operations, embodying the abstract manipulation of symbols to achieve concrete results in both digital and conceptual realms."
+  },
+  "Algorithm": {
+    "short_description": "The systematic procedure for transforming input into output through a finite series of well-defined steps, representing the pure expression of computational thought and problem-solving methodology."
+  },
+  "Abstraction": {
+    "short_description": "The essential principle of hiding complexity behind simplified interfaces, allowing the mind to grasp and manipulate higher-order concepts while maintaining control over underlying implementations."
+  },
+  "Type": {
+    "short_description": "The fundamental classification of data and its potential transformations, defining the boundaries and possibilities of computational entities within a formal system of meaning."
+  },
+  "Function": {
+    "short_description": "The pure embodiment of transformational logic, mapping inputs to outputs while encapsulating behavior and maintaining the sacred boundary between interface and implementation."
+  },
+  "State": {
+    "short_description": "The accumulated memory of a system's journey through time, representing the persistent essence of computation and the foundation for sequential reasoning."
+  },
+  "Recursion": {
+    "short_description": "The mysterious principle of self-reference, where solutions are expressed in terms of smaller instances of themselves, creating a bridge between the finite and infinite."
+  },
+  "Module": {
+    "short_description": "The organized unit of code that encapsulates related functionality, serving as both container and boundary for maintaining order in complex systems."
+  },
+  "Pattern": {
+    "short_description": "The recurring solutions to common problems in software design, representing accumulated wisdom and proven approaches to managing complexity."
+  },
+  "Compilation": {
+    "short_description": "The alchemical process of transforming high-level abstractions into machine-executable form, bridging the gap between human thought and computer operation."
+  },
+  "Runtime": {
+    "short_description": "The dynamic environment where programs come to life, managing the execution of code and mediating between abstract logic and physical hardware."
+  },
+  "Interface": {
+    "short_description": "The formal boundary between different parts of a system, defining the contract of interaction and enabling the composition of complex systems from simpler parts."
+  },
+  "Inheritance": {
+    "short_description": "The mechanism of deriving new abstractions from existing ones, allowing the transmission and refinement of behavior through hierarchical relationships."
+  },
+  "Polymorphism": {
+    "short_description": "The ability of code to take multiple forms while maintaining a consistent interface, enabling flexible and adaptable systems through abstract interactions."
+  },
+  "Concurrency": {
+    "short_description": "The simultaneous execution of multiple computational processes, representing the complex dance of coordinated actions in time and space."
+  },
+  "Memory": {
+    "short_description": "The space where program state resides, serving as both canvas and constraint for computational operations and resource management."
+  },
+  "Protocol": {
+    "short_description": "The formal specification of communication between system components, establishing order and meaning in the exchange of information."
+  },
+  "Lambda": {
+    "short_description": "The pure essence of computation expressed as anonymous functions, representing the fundamental unit of algorithmic abstraction and transformation."
+  },
+  "Mutation": {
+    "short_description": "The direct modification of program state, representing the tension between simplicity of expression and complexity of reasoning about change."
+  },
+  "Closure": {
+    "short_description": "The binding of function to its defining environment, creating a sealed unit of behavior that maintains access to its original context."
+  },
+  "Stream": {
+    "short_description": "The continuous flow of data through transformational steps, representing computation as a pipeline of operations on potentially infinite sequences."
+  },
+  "Generator": {
+    "short_description": "The lazy computation of sequences, producing values on demand through the suspension and resumption of execution state."
+  },
+  "Promise": {
+    "short_description": "The abstraction of future values and deferred computation, managing the complexity of asynchronous operations through formal guarantees."
+  },
+  "Immutability": {
+    "short_description": "The principle of unchangeable data, promoting predictability and reasoning about program behavior through the elimination of side effects."
+  },
+  "Monad": {
+    "short_description": "The abstract pattern for sequencing computations and managing effects, providing a formal structure for composing operations in pure functional systems."
+  }
+}

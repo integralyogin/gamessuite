@@ -1,0 +1,59 @@
+{
+  "Autopoiesis": {
+    "short_description": "The process of self-creation and self-maintenance, where a system generates and sustains its own structure and function through internal interactions."
+  },
+  "Emergence": {
+    "short_description": "The phenomenon where complex systems exhibit novel properties and behaviors arising from the interactions and organization of their individual components."
+  },
+  "Self-Regulation": {
+    "short_description": "The ability of a system to control and adapt its own behavior, often through feedback loops and internal adjustments."
+  },
+  "Homeostasis": {
+    "short_description": "The ability of a system to maintain a stable internal environment despite changes in external conditions, often through self-regulatory mechanisms."
+  },
+  "Autonomy": {
+    "short_description": "The degree to which a system operates independently, making its own decisions and taking actions without external direction."
+  },
+  "Decentralization": {
+    "short_description": "The distribution of control, decision-making, and resources throughout a system, often leading to greater flexibility and resilience."
+  },
+  "Distributed Intelligence": {
+    "short_description": "The collective intelligence and problem-solving capabilities of decentralized, self-organized systems, such as swarms or social networks."
+  },
+  "Self-Assembly": {
+    "short_description": "The process of components organizing themselves into a coherent structure or pattern, often through local interactions and simple rules."
+  },
+  "Pattern Formation": {
+    "short_description": "The emergence of regular, repeating patterns in a system, often arising from the interactions of individual components and local rules."
+  },
+  "Criticality": {
+    "short_description": "The state where a system is poised between order and disorder, often exhibiting emergent behavior and increased sensitivity to external stimuli."
+  },
+  "Phase Transition": {
+    "short_description": "The sudden, qualitative change in a system's state or structure, often arising from the interaction of multiple factors or the crossing of a critical threshold."
+  },
+  "Bifurcation": {
+    "short_description": "The sudden, qualitative change in a system's behavior or structure, often arising from the interaction of multiple factors or the crossing of a critical threshold."
+  },
+  "Fractality": {
+    "short_description": "The property of systems that exhibit self-similarity and scaling behavior, often reflecting the intricate, nested structure of complex phenomena."
+  },
+  "Scaling": {
+    "short_description": "The study of how systems change and adapt as their size or complexity increases, often revealing emergent properties and patterns."
+  },
+  "Adaptation": {
+    "short_description": "The process of adjusting to changing conditions or environments, often through self-regulatory mechanisms and internal adjustments."
+  },
+  "Evolution": {
+    "short_description": "The gradual, cumulative process of change and adaptation over time, often driven by selection pressures and environmental constraints."
+  },
+  "Coevolution": {
+    "short_description": "The reciprocal evolution of multiple species or systems, often leading to increased complexity and interdependence."
+  },
+  "Self-Modification": {
+    "short_description": "The ability of a system to change its own structure or behavior, often through self-regulatory mechanisms and internal adjustments."
+  },
+  "Meta-Learning": {
+    "short_description": "The ability of a system to learn how to learn, often through self-reflection and internal adjustments."
+}
+}

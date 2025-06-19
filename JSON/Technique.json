@@ -1,0 +1,180 @@
+{
+    "Impasto": {
+      "short_description": "A technique where paint is laid on an area of the surface in very thick layers, usually thick enough that the brush or painting-knife strokes are visible.",
+      "img": "images/techniques/impasto.jpg"
+    },
+    "Glazing": {
+      "short_description": "A technique in oil painting of applying a thin, transparent layer of paint over another thoroughly dried layer of opaque paint, to modify the color or tone.",
+      "img": "images/techniques/glazing.jpg"
+    },
+    "Scumbling": {
+      "short_description": "A painting technique where a thin layer of opaque or semi-opaque color is applied with a dry brush over another color to create a broken, textured effect.",
+      "img": "images/techniques/scumbling.jpg"
+    },
+    "Alla Prima (Wet-on-Wet)": {
+      "short_description": "A painting technique in which layers of wet paint are applied to previously administered layers of wet paint. This requires a fast way of working, as the work has to be finished before the first layers have dried.",
+      "img": "images/techniques/alla_prima.jpg"
+    },
+    "Sgraffito": {
+      "short_description": "A technique of scratching through a top layer of still-wet paint to reveal a dried layer of a different color underneath. The term also applies to ceramics and plaster.",
+      "img": "images/techniques/sgraffito.jpg"
+    },
+    "Splattering": {
+      "short_description": "A technique of flicking or dripping paint onto a canvas, often associated with action painters like Jackson Pollock. It creates a sense of energy, chance, and dynamism.",
+      "img": "images/techniques/splattering.jpg"
+    },
+    "Pouring": {
+      "short_description": "A form of abstract art that uses fluid acrylic paints. The paints react with each other when combined to make interesting and visually organic motifs by simply being poured onto a canvas.",
+      "img": "images/techniques/pouring.jpg"
+    },
+    "Decalcomania": {
+      "short_description": "A blotting process used by Surrealists, where paint is squeezed between two surfaces and then pulled apart to create random, suggestive textures.",
+      "img": "images/techniques/decalcomania.jpg"
+    },
+    "Veiling": {
+      "short_description": "A technique of applying thin, transparent layers of color, similar to glazing but often with a more matte or semi-matte finish, creating a soft, veiled appearance.",
+      "img": "images/techniques/veiling.jpg"
+    },
+
+    "Chiaroscuro": {
+      "short_description": "The use of strong contrasts between light and dark, usually bold contrasts affecting a whole composition. It is a technical term for creating dramatic modeling and high-contrast effects.",
+      "img": "images/techniques/chiaroscuro.jpg"
+    },
+    "Tenebrism": {
+      "short_description": "An extreme form of chiaroscuro where darkness dominates the image and figures are dramatically illuminated by a single, often unseen, source of intense light. Associated with Caravaggio.",
+      "img": "images/techniques/tenebrism.jpg"
+    },
+    "Sfumato": {
+      "short_description": "A painting technique for softening the transition between colors, creating a soft, hazy effect. Famous in the work of Leonardo da Vinci.",
+      "img": "images/techniques/sfumato.jpg"
+    },
+    "Unione": {
+      "short_description": "A Renaissance technique, developed by Raphael, as an alternative to sfumato. It creates soft transitions between light and shadow while maintaining the vibrancy and color of the forms.",
+      "img": "images/techniques/unione.jpg"
+    },
+    "Cangiante": {
+      "short_description": "A Renaissance painting technique where changes in value are represented by a change in hue. For example, a shadow on a yellow robe might be painted with red instead of dark yellow.",
+      "img": "images/techniques/cangiante.jpg"
+    },
+    "Grisaille": {
+      "short_description": "A method of painting in monochrome, usually in shades of grey. It is often used as an underpainting or as a standalone work to imitate the appearance of sculpture.",
+      "img": "images/techniques/grisaille.jpg"
+    },
+    "Verdaccio": {
+      "short_description": "A monochromatic underpainting technique, using a mixture of green and greyish tones, traditionally used to establish values for flesh tones in Renaissance paintings.",
+      "img": "images/techniques/verdaccio.jpg"
+    },
+
+    "Hatching": {
+      "short_description": "An artistic technique used to create tonal or shading effects by drawing closely spaced parallel lines. It is a fundamental method for adding value in drawing and printmaking.",
+      "img": "images/techniques/hatching.jpg"
+    },
+    "Cross-Hatching": {
+      "short_description": "An extension of hatching, where layers of intersecting parallel lines are used to create texture and darker tonal values in a drawing.",
+      "img": "images/techniques/cross_hatching.jpg"
+    },
+    "Stippling (Dot Work)": {
+      "short_description": "The creation of a pattern simulating varying degrees of solidity or shading by using small dots. The density of the dots determines the perceived value and tone.",
+      "img": "images/techniques/stippling.jpg"
+    },
+    "Blending": {
+      "short_description": "The technique of gently intermingling two or more colors or values to create a soft, gradual transition. Often done with tools like a tortillon, stump, or fingers.",
+      "img": "images/techniques/blending.jpg"
+    },
+    "Contour Drawing": {
+      "short_description": "A drawing technique in which the artist sketches the contour of a subject by drawing lines that result in an outline. The focus is on the edges and shape, not value.",
+      "img": "images/techniques/contour_drawing.jpg"
+    },
+    "Scribbling": {
+      "short_description": "A drawing technique involving rapid, apparently random marks to quickly build up value and texture. The marks can be loopy, jagged, or chaotic to create expressive effects.",
+      "img": "images/techniques/scribbling.jpg"
+    },
+    "Foreshortening": {
+      "short_description": "A perspective technique used to create the illusion of an object receding strongly into the distance or background. The object appears shorter than it actually is.",
+      "img": "images/techniques/foreshortening.jpg"
+    },
+    "Anamorphosis": {
+      "short_description": "A distorted projection or perspective requiring the viewer to use special devices or occupy a specific vantage point (or both) to reconstitute the image.",
+      "img": "images/techniques/anamorphosis.jpg"
+    },
+
+    "Aquatint": {
+      "short_description": "An intaglio printmaking technique that produces areas of tone rather than lines. A powdered resin is dusted on the plate and heated, and acid bites around the particles to create a tonal ground.",
+      "img": "images/techniques/aquatint.jpg"
+    },
+    "Mezzotint": {
+      "short_description": "An intaglio printmaking process where the entire surface of a metal plate is roughened with a tool called a 'rocker' to hold ink. The artist then smooths areas to create lighter tones, working from black to white.",
+      "img": "images/techniques/mezzotint.jpg"
+    },
+    "Drypoint": {
+      "short_description": "An intaglio technique in which an image is incised into a plate with a hard-pointed needle. The displaced metal ridge ('burr') holds ink, creating a characteristically soft, velvety line.",
+      "img": "images/techniques/drypoint.jpg"
+    },
+
+    "Carving": {
+      "short_description": "A subtractive process in which a sculptor removes material from a larger block of stone, wood, or other hard material to reveal the finished form.",
+      "img": "images/techniques/carving.jpg"
+    },
+    "Modeling": {
+      "short_description": "An additive process where a soft, pliable material like clay or wax is built up and shaped to create a form. It is the opposite of carving.",
+      "img": "images/techniques/modeling.jpg"
+    },
+    "Casting": {
+      "short_description": "An additive process of making a sculpture by pouring a liquid material like molten metal (bronze), plaster, or resin into a mold and allowing it to harden.",
+      "img": "images/techniques/casting.jpg"
+    },
+    "Lost-Wax Casting": {
+      "short_description": "A specific method of metal casting in which a molten metal is poured into a mold that has been created by means of a wax model. Once the mold is made, the wax model is melted and drained away.",
+      "img": "images/techniques/lost_wax_casting.jpg"
+    },
+    "Welding": {
+      "short_description": "A fabrication process used in metal sculpture that joins materials, usually metals or thermoplastics, by using high heat to melt the parts together and allowing them to cool, causing fusion.",
+      "img": "images/techniques/welding.jpg"
+    },
+    "Repoussé and Chasing": {
+      "short_description": "A metalworking technique in which a malleable metal is ornamented or shaped by hammering from the reverse side (repoussé) to create a design in low relief, and detailed from the front (chasing).",
+      "img": "images/techniques/repousse_and_chasing.jpg"
+    },
+
+    "Collage": {
+      "short_description": "An artwork made from an assemblage of different forms, thus creating a new whole. Primarily a two-dimensional medium using paper, photographs and other found materials.",
+      "img": "images/techniques/collage.jpg"
+    },
+    "Assemblage": {
+      "short_description": "The technique of creating three-dimensional artwork by combining and joining found objects or disparate materials into a single piece.",
+      "img": "images/techniques/assemblage.jpg"
+    },
+    "Découpage": {
+      "short_description": "The art of decorating an object by gluing colored paper cutouts onto it in combination with special paint effects, gold leaf and other decorative elements.",
+      "img": "images/techniques/decoupage.jpg"
+    },
+    "Frottage": {
+      "short_description": "The technique of creating a design by rubbing a soft pencil or other drawing tool over paper laid on a textured surface. Popularized by Surrealist artist Max Ernst.",
+      "img": "images/techniques/frottage.jpg"
+    },
+    "Kintsugi": {
+      "short_description": "The Japanese art of repairing broken pottery by mending the areas of breakage with lacquer dusted or mixed with powdered gold, silver, or platinum. It treats breakage and repair as part of the history of an object.",
+      "img": "images/techniques/kintsugi.jpg"
+    },
+    "Enameling (Cloisonné)": {
+      "short_description": "A decorative technique for metalwork where thin wire partitions (cloisons) are fused onto a metal object to create compartments that are then filled with colored enamel.",
+      "img": "images/techniques/enameling_cloisonne.jpg"
+    },
+    "Marquetry": {
+      "short_description": "The art of applying pieces of veneer to a structure to form decorative patterns, designs or pictures. It is a highly skilled craft often seen in furniture and decorative panels.",
+      "img": "images/techniques/marquetry.jpg"
+    },
+    
+    "Photobashing": {
+      "short_description": "A technique where artists merge and blend photos, 3D assets, and digital painting together to create a new, cohesive, and often realistic digital artwork.",
+      "img": "images/techniques/photobashing.jpg"
+    },
+    "Double Exposure": {
+      "short_description": "The photographic technique of superimposing two or more different exposures to create a single, layered image, often with surreal and evocative results.",
+      "img": "images/techniques/double_exposure.jpg"
+    },
+    "Solarization (Sabattier Effect)": {
+      "short_description": "A photographic effect in which the image recorded on a negative or on a photographic print is wholly or partially reversed in tone. Dark areas appear light or light areas appear dark.",
+      "img": "images/techniques/solarization.jpg"
+  }
+}

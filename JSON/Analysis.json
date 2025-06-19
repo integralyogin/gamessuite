@@ -1,0 +1,92 @@
+{
+  "Structural": {
+    "short_description": "Examination of fundamental patterns, relationships, and organizing principles."
+  },
+  "Functional": {
+    "short_description": "Study of purpose, operation, and dynamic relationships between components."
+  },
+  "Systemic": {
+    "short_description": "Investigation of complete systems, their behaviors, and emergent properties."
+  },
+  "Temporal": {
+    "short_description": "Examination through time, including patterns of change and development."
+  },
+  "Comparative": {
+    "short_description": "Study through relation and difference between multiple instances or systems."
+  },
+  "Categorical": {
+    "short_description": "Organization and examination through fundamental types and classifications."
+  },
+  "Phenomenological": {
+    "short_description": "Study of direct experience and essential qualities of phenomena."
+  },
+  "Ontological": {
+    "short_description": "Investigation of fundamental nature and modes of being."
+  },
+  "Epistemological": {
+    "short_description": "Examination of knowledge systems and ways of knowing."
+  },
+  "Dialectical": {
+    "short_description": "Study through opposition, contradiction, and synthesis."
+  },
+  "Emergent": {
+    "short_description": "Investigation of properties and patterns arising from complex interactions."
+  },
+  "Reductive": {
+    "short_description": "Examination by breaking down into fundamental components."
+  },
+  "Synthetic": {
+    "short_description": "Study through combination and integration of elements and perspectives."
+  },
+  "Transformative": {
+    "short_description": "Investigation of change processes and state transitions."
+  },
+  "Recursive": {
+    "short_description": "Examination of self-referential patterns and nested structures."
+  },
+  "Symbolic": {
+    "short_description": "Study through representational systems and meaning structures."
+  },
+  "Contextual": {
+    "short_description": "Investigation of relationships between phenomena and their environments."
+  },
+  "Morphological": {
+    "short_description": "Study of form, pattern, and structural relationships."
+  },
+  "Archetypal": {
+    "short_description": "Examination through fundamental patterns and primordial forms."
+  },
+  "Hierarchical": {
+    "short_description": "Study of nested levels of organization and influence."
+  },
+  "Network": {
+    "short_description": "Investigation of interconnected relationships and flow patterns."
+  },
+  "Field": {
+    "short_description": "Study of force relationships and zones of influence."
+  },
+  "Process": {
+    "short_description": "Examination of dynamic flows and sequential developments."
+  },
+  "Gestalt": {
+    "short_description": "Study of whole patterns and integrated configurations."
+  },
+  "Axiomatic": {
+    "short_description": "Investigation through fundamental principles and logical consequences."
+  },
+  "Parametric": {
+    "short_description": "Study through variable factors and their relationships."
+  },
+  "Topological": {
+    "short_description": "Examination of invariant properties under transformation."
+  },
+  "Holistic": {
+    "short_description": "Investigation of complete systems and their integral nature."
+  },
+  "Differential": {
+    "short_description": "Study through distinctions and gradients of change."
+  },
+  "Integral": {
+    "short_description": "Examination combining multiple perspectives and levels."
+  }
+}

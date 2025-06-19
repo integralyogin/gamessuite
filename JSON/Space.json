@@ -1,0 +1,110 @@
+{
+  "Cosmic Inflation": {
+    "short_description": "The exponential expansion of primordial spacetime, stretching quantum fluctuations into cosmic seeds that determine the large-scale structure of reality."
+  },
+  "Singularity": {
+    "short_description": "The dimensionless convergence point where spacetime curvature becomes infinite, representing both the origin of cosmic order and the limits of physical understanding."
+  },
+  "Dark Matter": {
+    "short_description": "The unseen gravitational architect shaping galactic structures, embodying the fundamental truth that most cosmic influences remain beyond direct perception."
+  },
+  "Event Horizon": {
+    "short_description": "The boundary of information paradoxes where escape velocity exceeds light-speed, marking the threshold between observable reality and eternal cosmic mystery."
+  },
+  "Nebula": {
+    "short_description": "Stellar nurseries where cosmic dust and gas perform the alchemy of star formation, demonstrating matter's capacity for self-organization on galactic scales."
+  },
+  "Exoplanet": {
+    "short_description": "Worlds orbiting distant suns that serve as mirrors for understanding planetary diversity and the cosmic rarity of life-bearing environments."
+  },
+  "Spacetime": {
+    "short_description": "The four-dimensional fabric of existence woven by mass-energy relationships, where gravity emerges as geometry and motion becomes temporal art."
+  },
+  "Interstellar Medium": {
+    "short_description": "The dynamic plasma and molecular clouds filling the void between stars, containing both the remnants of dead stars and the raw materials for new ones."
+  },
+  "Redshift": {
+    "short_description": "The electromagnetic stretching that reveals cosmic expansion, serving as both measurement tool and historical record of universal growth."
+  },
+  "Fermi Paradox": {
+    "short_description": "The profound silence contradicting statistical expectations of cosmic companionship, challenging assumptions about intelligence and technological civilization."
+  },
+  "Panspermia": {
+    "short_description": "The hypothesis of life's cosmic diaspora, suggesting planetary biospheres may share common ancestry through interstellar exchange of organic material."
+  },
+  "Keplerian Motion": {
+    "short_description": "The celestial choreography of orbital mechanics, where gravitational attraction and inertial resistance achieve harmonic balance through mathematical inevitability."
+  },
+  "Magnetosphere": {
+    "short_description": "The protective magnetic embrace surrounding celestial bodies, deflecting stellar winds and preserving atmospheric integrity through electromagnetic stewardship."
+  },
+  "Cosmic Microwave Background": {
+    "short_description": "The electromagnetic afterglow of primordial plasma recombination, carrying imprints of the universe's infancy in subtle temperature variations."
+  },
+  "Schwarzschild Radius": {
+    "short_description": "The spherical boundary defining gravitational collapse into black holes, where escape velocity surpasses the universal speed limit of causality."
+  },
+  "Goldilocks Zone": {
+    "short_description": "The circumstellar region of thermodynamic possibility where liquid water can exist, representing the cosmic conditions necessary for known life-forms."
+  },
+  "Oort Cloud": {
+    "short_description": "The icy reservoir of primordial material surrounding stellar systems, preserving the building blocks of planets and occasional messengers as comets."
+  },
+  "Gravitational Lensing": {
+    "short_description": "The warping of light by massive objects that transforms spacetime curvature into natural telescopic lenses, revealing hidden cosmic structures."
+  },
+  "Kármán Line": {
+    "short_description": "The symbolic boundary between atmospheric and spaceflight regimes, marking humanity's jurisdictional and conceptual threshold to the cosmos."
+  },
+  "Drake Equation": {
+    "short_description": "The probabilistic framework for quantifying cosmic loneliness, multiplying astronomical, biological, and cultural factors into an estimate of galactic civilization."
+  },
+  "Hubble Flow": {
+    "short_description": "The metric expansion of space carrying galaxies apart like raisins in rising dough, demonstrating cosmology's fundamental growth mechanism."
+  },
+  "Roche Limit": {
+    "short_description": "The critical proximity where tidal forces overcome gravitational cohesion, determining the fate of satellites and ring system formation."
+  },
+  "Von Neumann Probe": {
+    "short_description": "The theoretical self-replicating spacecraft embodying exponential cosmic exploration, representing technology's potential for autonomous universal saturation."
+  },
+  "Dyson Sphere": {
+    "short_description": "The megastructural concept for harnessing entire stellar outputs, symbolizing civilizations' potential transition to Kardashev Scale Type II energy mastery."
+  },
+  "Lagrange Point": {
+    "short_description": "The gravitational equilibrium positions where cosmic forces balance, creating natural parking orbits for artificial satellites and accumulated celestial matter."
+  },
+  "Habitable Zone": {
+    "short_description": "The circumstellar and galactic regions where multiple parameters converge to allow planetary biospheres, mapping cosmic real estate for potential life."
+  },
+  "Solar Wind": {
+    "short_description": "The continuous particle stream carrying stellar magnetic fields into interstellar space, shaping planetary magnetospheres and eroding unprotected atmospheres."
+  },
+  "Chandrasekhar Limit": {
+    "short_description": "The critical mass threshold determining stellar remnants' fate, separating white dwarf stability from catastrophic supernova rebirth."
+  },
+  "Cosmic Web": {
+    "short_description": "The filamentary large-scale structure of the universe where galaxies cluster along dark matter threads, revealing the hidden architecture of cosmic evolution."
+  },
+  "Olbers' Paradox": {
+    "short_description": "The apparent contradiction between infinite static universe assumptions and dark night skies, resolved through cosmic expansion and finite light-speed."
+  },
+  "Heliopause": {
+    "short_description": "The turbulent boundary where stellar winds meet interstellar medium, marking a solar system's transition into galactic space proper."
+  },
+  "Kessler Syndrome": {
+    "short_description": "The cascading orbital debris scenario threatening space infrastructure, demonstrating humanity's capacity for self-limiting cosmic access through negligence."
+  },
+  "Anthropic Principle": {
+    "short_description": "The philosophical observation that universal constants permit observational existence, balancing fine-tuning arguments with selection bias considerations."
+  },
+  "Cosmic Dawn": {
+    "short_description": "The epoch of first star formation ending the universe's dark ages, when gravitational collapse ignited nuclear furnaces to light the cosmos."
+  },
+  "Great Attractor": {
+    "short_description": "The mysterious gravitational anomaly drawing local galaxies toward it, representing hidden mass concentrations challenging cosmic expansion models."
+  },
+  "Heat Death": {
+    "short_description": "The entropic end-state scenario of maximum universal disorder, where energy gradients vanish and cosmic processes irreversibly cease."
+  }
+}

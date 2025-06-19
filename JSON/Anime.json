@@ -1,0 +1,89 @@
+{
+    "Anime": {
+        "short_description": "The distinctive style of Japanese animation characterized by colorful artwork, vibrant characters, and fantastical themes, encompassing a wide range of genres and storytelling approaches."
+    },
+    "Manga": {
+        "short_description": "The Japanese comic art form that often serves as source material for anime, featuring distinctive visual storytelling techniques and reading patterns from right to left."
+    },
+    "Otaku": {
+        "short_description": "A term describing devoted enthusiasts of anime, manga, and related Japanese popular culture, characterized by deep knowledge and passionate interest in these media forms."
+    },
+    "Seiyuu": {
+        "short_description": "Voice actors specializing in anime performances, bringing characters to life through distinctive vocal techniques and emotional expression unique to the medium."
+    },
+    "Shounen": {
+        "short_description": "A demographic category targeting young male audiences, typically featuring action-driven narratives, personal growth themes, and emphasis on friendship, determination, and competition."
+    },
+    "Shoujo": {
+        "short_description": "A demographic category aimed at young female audiences, often focusing on romantic relationships, emotional development, and personal relationships within dramatic or fantastic settings."
+    },
+    "Seinen": {
+        "short_description": "A demographic category targeting adult male audiences, characterized by more complex themes, mature storytelling, and sophisticated character development."
+    },
+    "Josei": {
+        "short_description": "A demographic category aimed at adult female audiences, featuring realistic romance, career challenges, and sophisticated interpersonal relationships."
+    },
+    "Mecha": {
+        "short_description": "A genre featuring mechanical robots or suits, often exploring themes of technology, humanity, and warfare through the lens of giant robotic combat and human pilots."
+    },
+    "Isekai": {
+        "short_description": "A genre involving protagonists transported to parallel worlds or fantasy realms, exploring themes of adaptation, power, and identity in unfamiliar settings."
+    },
+    "Slice of Life": {
+        "short_description": "A genre focusing on everyday experiences and ordinary life situations, emphasizing character relationships and subtle emotional development."
+    },
+    "Magical Girl": {
+        "short_description": "A genre featuring young female protagonists who transform into powerful magical beings, combining themes of personal growth with fantastical adventures."
+    },
+    "Fanservice": {
+        "short_description": "Elements included to please the audience through appealing character designs, situations, or references, often involving romantic or mildly suggestive content."
+    },
+    "Studio": {
+        "short_description": "Animation production companies responsible for creating anime works, each known for distinctive visual styles, storytelling approaches, and technical innovations."
+    },
+    "Sakuga": {
+        "short_description": "Exceptionally high-quality animation sequences that showcase technical expertise and artistic creativity in depicting movement and action."
+    },
+    "Character Design": {
+        "short_description": "The distinctive visual creation of anime characters, incorporating recognizable stylistic elements, emotional expressiveness, and symbolic attributes."
+    },
+    "Opening Theme": {
+        "short_description": "The introductory sequence combining animation and music that establishes mood, themes, and narrative elements while showcasing production quality."
+    },
+    "Ending Theme": {
+        "short_description": "The closing sequence featuring credits and thematic music, often providing emotional reflection or thematic contrast to the episode's content."
+    },
+    "Filler": {
+        "short_description": "Non-canonical or supplementary episodes created to maintain regular broadcasting schedules while source material develops, often featuring self-contained stories."
+    },
+    "Season": {
+        "short_description": "A scheduled broadcast period typically consisting of 12-13 or 24-26 episodes, following Japanese television programming patterns."
+    },
+    "OVA": {
+        "short_description": "Original Video Animation released directly to home video formats, often featuring higher production values or exploring content unsuitable for broadcast."
+    },
+    "Movie": {
+        "short_description": "Feature-length anime productions with enhanced animation quality and production values, often serving as series conclusions or standalone stories."
+    },
+    "Light Novel": {
+        "short_description": "Illustrated prose fiction often serving as source material for anime adaptations, combining narrative text with manga-style illustrations."
+    },
+    "Adaptation": {
+        "short_description": "The process of transforming manga, light novels, or other source materials into animated form, requiring creative decisions in pacing and visual presentation."
+    },
+    "Cour": {
+        "short_description": "A unit of broadcasting time consisting of roughly three months or one season of programming, typically containing 12-13 episodes."
+    },
+    "Simulcast": {
+        "short_description": "The practice of streaming anime episodes internationally shortly after their Japanese broadcast, providing immediate access to current series."
+    },
+    "Dub": {
+        "short_description": "Versions of anime recorded with voice acting in languages other than the original Japanese, adapted for international audiences."
+    },
+    "Sub": {
+        "short_description": "Versions of anime featuring the original Japanese audio track with translated subtitles, preferred by viewers seeking authentic presentation."
+    },
+    "Trope": {
+        "short_description": "Recurring narrative devices, character types, or visual elements that have become recognizable conventions within anime storytelling."
+    }
+}

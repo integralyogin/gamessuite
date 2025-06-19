@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Generator - Grass Texture</title>
+    <script>
+        // Polyfill for requestAnimationFrame
+        (function() {
+            let lastTime = 0;
+            const vendors = ['ms', 'moz', 'webkit', 'o'];
+            for(let x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+                window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
+                window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame'] 
+                                           || window[vendors[x]+'CancelRequestAnimationFrame'];
+            }
+
+            if (!window.requestAnimationFrame)
+                window.requestAnimationFrame = function(callback, element) {
+                    const currTime = new Date().getTime();
+                    const timeToCall = Math.max(0, 16 - (currTime - lastTime));
+                    const id = window.setTimeout(function() { callback(currTime + timeToCall); }, 
+                      timeToCall);
+                    lastTime = currTime + timeToCall;
+                    return id;
+                };
+
+            if (!window.cancelAnimationFrame)
+                window.cancelAnimationFrame = function(id) {
+                    clearTimeout(id);
+                };
+        }());
+    </script>
+</head>
+<body>
+    <div id="patternGeneratorContainer" style="width: 100%; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
+        <!-- The PatternGenerator script will populate this -->
+    </div>
+
+    <script>
+        const PatternGenerator = {
+            id: 'PatternGenerator',
+            gameContainer: null,
+            successCallback: null,
+            failureCallback: null,
+            sharedData: null,
+            styles: null,
+            elements: {
+                svgCanvas: null,
+                filterSurface: null, 
+                feTurbulence: null,
+                feMorphology: null, // New element for morphology
+                feColorMatrix: null, 
+                controlsContainer: null,
+                leaveButton: null,
+            },
+            animationFrameId: null,
+
+            patternSettings: {
+                // Turbulence (Noise Source)
+                baseFrequencyX: 0.05, // Higher frequency for finer details
+                baseFrequencyY: 0.05,
+                numOctaves: 5,         // More octaves for complexity
+                seed: 10,
+                turbulenceType: 'fractalNoise',
+
+                // Morphology (Shape grass strands)
+                morphologyRadiusX: 1.5,
+                morphologyRadiusY: 0.5, // Different X/Y can create directional strands
+                morphologyOperator: 'erode', // 'erode' or 'dilate'
+
+                // Color Manipulation
+                saturation: 1.2, 
+                hueRotate: 0,    
+                baseColor: '#2E7D32', // Initial green for the surface
+            },
+
+            currentPatternSettings: {},
+
+            init: function(container, successCallback, failureCallback, sharedData) {
+                this.gameContainer = container;
+                this.successCallback = successCallback;
+                this.failureCallback = failureCallback;
+                this.sharedData = sharedData;
+                this.currentPatternSettings = JSON.parse(JSON.stringify(this.patternSettings));
+
+                console.log(`${this.id}: Initializing for Grass Texture.`);
+                this.injectStyles();
+                this.renderScene();
+                this.updateSVGFilterAttributes(); 
+                this.setupEventListeners();
+            },
+
+            injectStyles: function() {
+                const styleId = 'pattern-generator-styles';
+                if (document.getElementById(styleId)) return;
+
+                this.styles = document.createElement('style');
+                this.styles.id = styleId;
+                this.styles.innerHTML = `
+                    body { margin: 0; font-family: 'Arial', sans-serif; background-color: #1a1a1a; color: #e0e0e0; }
+                    #patternGeneratorContainer {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: flex-start;
+                        width: 100%;
+                        height: 100vh; 
+                        overflow: hidden; 
+                        box-sizing: border-box;
+                        padding: 10px;
+                    }
+                    .pg-canvas-container {
+                        width: 90%;
+                        height: 65vh; 
+                        min-height: 300px;
+                        border: 1px solid #444;
+                        margin-bottom: 15px;
+                        background-color: #000; 
+                        box-shadow: 0 0 10px rgba(0,200,83,0.3); /* Greenish shadow */
+                        border-radius: 8px;
+                    }
+                    #pgPatternCanvas {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        border-radius: 8px;
+                    }
+                    .pg-controls-wrapper {
+                         width: 90%;
+                         max-height: calc(35vh - 70px); 
+                         overflow-y: auto;
+                         background-color: #282828;
+                         padding: 10px;
+                         border-radius: 8px;
+                         box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+                         margin-bottom: 10px;
+                    }
+                    .pg-controls-container {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Wider columns */
+                        gap: 10px 15px;
+                    }
+                    .pg-control-group {
+                        background-color: #333;
+                        padding: 8px;
+                        border-radius: 5px;
+                    }
+                    .pg-control-group h3 {
+                        font-size: 0.9em;
+                        color: #4CAF50; /* Green */
+                        margin-top: 0;
+                        margin-bottom: 8px;
+                        border-bottom: 1px solid #444;
+                        padding-bottom: 4px;
+                        text-align: center;
+                    }
+                    .pg-controls-container label {
+                        display: block;
+                        font-size: 0.8em;
+                        margin-bottom: 3px;
+                        color: #ccc;
+                    }
+                    .pg-controls-container input[type="range"] {
+                        width: calc(100% - 45px); 
+                        margin-right: 5px;
+                        vertical-align: middle;
+                    }
+                    .pg-controls-container input[type="color"] { /* For base color picker */
+                        width: 50px; /* Make it a bit bigger */
+                        height: 25px;
+                        padding: 0;
+                        border: 1px solid #555;
+                        vertical-align: middle;
+                        /* margin-left: 5px; */
+                    }
+                    .pg-controls-container select {
+                        padding: 4px;
+                        border-radius: 3px;
+                        background-color: #444;
+                        color: #e0e0e0;
+                        border: 1px solid #555;
+                        font-size: 0.8em;
+                        width: 100%;
+                    }
+                    .pg-controls-container span { 
+                        font-size: 0.75em;
+                        color: #aaa;
+                        min-width: 38px; 
+                        display: inline-block;
+                        text-align: right;
+                        vertical-align: middle;
+                    }
+                    .pg-leave-button {
+                        padding: 10px 20px;
+                        background-color: #388E3C; /* Darker Green */
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-size: 1em;
+                        transition: background-color 0.3s;
+                        margin-top: auto; 
+                    }
+                    .pg-leave-button:hover {
+                        background-color: #4CAF50; /* Lighter Green */
+                    }
+                    .pg-controls-wrapper::-webkit-scrollbar { width: 8px; }
+                    .pg-controls-wrapper::-webkit-scrollbar-track { background: #282828; border-radius: 8px; }
+                    .pg-controls-wrapper::-webkit-scrollbar-thumb { background: #555; border-radius: 8px; }
+                    .pg-controls-wrapper::-webkit-scrollbar-thumb:hover { background: #666; }
+                `;
+                document.head.appendChild(this.styles);
+            },
+
+            renderScene: function() {
+                this.gameContainer.innerHTML = ''; 
+                this.gameContainer.className = 'game-area pattern-generator-container';
+
+                const canvasContainer = document.createElement('div');
+                canvasContainer.className = 'pg-canvas-container';
+                
+                const svgNS = "http://www.w3.org/2000/svg";
+                this.elements.svgCanvas = document.createElementNS(svgNS, "svg");
+                this.elements.svgCanvas.id = 'pgPatternCanvas';
+                this.elements.svgCanvas.setAttribute('preserveAspectRatio', 'xMidYMid slice');
+                this.elements.svgCanvas.setAttribute('viewBox', '0 0 400 400');
+
+                const defs = document.createElementNS(svgNS, "defs");
+                const filter = document.createElementNS(svgNS, "filter");
+                filter.id = 'patternFilter';
+                filter.setAttribute('x', '-50%'); // Allow filter to extend beyond element
+                filter.setAttribute('y', '-50%');
+                filter.setAttribute('width', '200%');
+                filter.setAttribute('height', '200%');
+                filter.setAttribute('filterUnits', 'objectBoundingBox');
+                filter.setAttribute('primitiveUnits', 'userSpaceOnUse');
+
+                // 1. Turbulence
+                this.elements.feTurbulence = document.createElementNS(svgNS, "feTurbulence");
+                this.elements.feTurbulence.setAttribute('result', 'noise');
+                filter.appendChild(this.elements.feTurbulence);
+
+                // 2. Morphology
+                this.elements.feMorphology = document.createElementNS(svgNS, "feMorphology");
+                this.elements.feMorphology.setAttribute('in', 'noise'); // Input from turbulence
+                this.elements.feMorphology.setAttribute('result', 'shapedNoise');
+                filter.appendChild(this.elements.feMorphology);
+                
+                // 3. Color Matrix (for saturation, applied to shaped noise)
+                this.elements.feColorMatrix = document.createElementNS(svgNS, "feColorMatrix");
+                this.elements.feColorMatrix.setAttribute('in', 'shapedNoise'); 
+                this.elements.feColorMatrix.setAttribute('type', 'matrix');
+                // The result of feColorMatrix is the final output of the filter's primitive chain
+                filter.appendChild(this.elements.feColorMatrix);
+                
+                defs.appendChild(filter);
+                this.elements.svgCanvas.appendChild(defs);
+
+                this.elements.filterSurface = document.createElementNS(svgNS, "rect");
+                this.elements.filterSurface.setAttribute('x', '0');
+                this.elements.filterSurface.setAttribute('y', '0');
+                this.elements.filterSurface.setAttribute('width', '400'); 
+                this.elements.filterSurface.setAttribute('height', '400');
+                this.elements.filterSurface.setAttribute('fill', this.currentPatternSettings.baseColor); // Use initial green
+                this.elements.filterSurface.style.filter = 'url(#patternFilter)';
+                this.elements.svgCanvas.appendChild(this.elements.filterSurface);
+                
+                canvasContainer.appendChild(this.elements.svgCanvas);
+                this.gameContainer.appendChild(canvasContainer);
+
+                const controlsWrapper = document.createElement('div');
+                controlsWrapper.className = 'pg-controls-wrapper';
+                this.elements.controlsContainer = document.createElement('div');
+                this.elements.controlsContainer.className = 'pg-controls-container';
+                this.createControls(this.elements.controlsContainer);
+                controlsWrapper.appendChild(this.elements.controlsContainer);
+                this.gameContainer.appendChild(controlsWrapper);
+
+                this.elements.leaveButton = document.createElement('button');
+                this.elements.leaveButton.className = 'pg-leave-button';
+                this.elements.leaveButton.textContent = 'Leave Pattern Generator';
+                this.gameContainer.appendChild(this.elements.leaveButton);
+            },
+            
+            createControlGroup: function(title) {
+                const groupDiv = document.createElement('div');
+                groupDiv.className = 'pg-control-group';
+                const titleEl = document.createElement('h3');
+                titleEl.textContent = title;
+                groupDiv.appendChild(titleEl);
+                this.elements.controlsContainer.appendChild(groupDiv);
+                return groupDiv;
+            },
+
+            createSlider: function(container, id, label, min, max, step, value, unit = '', precision = -1, targetObjectKey) {
+                // ... (same as previous version)
+                const labelEl = document.createElement('label');
+                labelEl.htmlFor = id;
+                labelEl.textContent = label;
+                
+                const inputEl = document.createElement('input');
+                inputEl.type = 'range';
+                inputEl.id = id;
+                inputEl.min = min;
+                inputEl.max = max;
+                inputEl.step = step;
+                inputEl.value = value;
+                inputEl.dataset.targetKey = targetObjectKey; 
+
+                const valueDisplay = document.createElement('span');
+                valueDisplay.id = id + 'Value';
+                
+                let prec = 0;
+                if (precision !== -1) { prec = precision; }
+                else {
+                    if (step < 1 && step > 0) {
+                        const s = step.toString();
+                        prec = s.includes('.') ? s.split('.')[1].length : 2;
+                    }
+                }
+                valueDisplay.textContent = parseFloat(value).toFixed(prec) + unit;
+                
+                inputEl.addEventListener('input', (e) => {
+                    valueDisplay.textContent = parseFloat(e.target.value).toFixed(prec) + unit;
+                    this.currentPatternSettings[e.target.dataset.targetKey] = parseFloat(e.target.value);
+                    this.updateSVGFilterAttributes();
+                });
+
+                container.appendChild(labelEl);
+                const inputWrapper = document.createElement('div');
+                inputWrapper.style.display = 'flex';
+                inputWrapper.style.alignItems = 'center';
+                inputWrapper.appendChild(inputEl);
+                inputWrapper.appendChild(valueDisplay);
+                container.appendChild(inputWrapper);
+                return inputEl;
+            },
+            
+            createBaseColorPicker: function(container, id, labelText, defaultValue, targetObjectKey) {
+                const labelEl = document.createElement('label');
+                labelEl.htmlFor = id;
+                labelEl.textContent = labelText;
+
+                const inputEl = document.createElement('input');
+                inputEl.type = 'color';
+                inputEl.id = id;
+                inputEl.value = defaultValue; // Expecting hex string
+                inputEl.dataset.targetKey = targetObjectKey;
+
+                inputEl.addEventListener('input', (e) => {
+                    this.currentPatternSettings[e.target.dataset.targetKey] = e.target.value;
+                    this.updateSVGFilterAttributes(); // This will re-apply the fill color
+                });
+                container.appendChild(labelEl);
+                container.appendChild(inputEl);
+                return inputEl;
+            },
+
+            createSelect: function(container, id, labelText, options, defaultValue, targetObjectKey) {
+                // ... (same as previous version)
+                const labelEl = document.createElement('label');
+                labelEl.htmlFor = id;
+                labelEl.textContent = labelText;
+
+                const selectEl = document.createElement('select');
+                selectEl.id = id;
+                selectEl.dataset.targetKey = targetObjectKey;
+
+                options.forEach(opt => {
+                    const optionEl = document.createElement('option');
+                    optionEl.value = opt.value;
+                    optionEl.textContent = opt.text;
+                    if (opt.value === defaultValue) {
+                        optionEl.selected = true;
+                    }
+                    selectEl.appendChild(optionEl);
+                });
+                
+                selectEl.addEventListener('change', (e) => {
+                    this.currentPatternSettings[e.target.dataset.targetKey] = e.target.value;
+                    this.updateSVGFilterAttributes();
+                });
+
+                container.appendChild(labelEl);
+                container.appendChild(selectEl);
+                return selectEl;
+            },
+
+            createControls: function(controlsContainer) {
+                const s = this.currentPatternSettings;
+
+                const baseSetupGroup = this.createControlGroup("Base Setup");
+                this.createBaseColorPicker(baseSetupGroup, 'pgBaseColor', 'Base Surface Color:', s.baseColor, 'baseColor');
+
+                const turbulenceGroup = this.createControlGroup("Turbulence (Noise Source)");
+                this.createSlider(turbulenceGroup, 'pgBaseFreqX', 'Base Freq X:', 0.001, 0.2, 0.001, s.baseFrequencyX, '', 3, 'baseFrequencyX');
+                this.createSlider(turbulenceGroup, 'pgBaseFreqY', 'Base Freq Y:', 0.001, 0.2, 0.001, s.baseFrequencyY, '', 3, 'baseFrequencyY');
+                this.createSlider(turbulenceGroup, 'pgNumOctaves', 'Num Octaves:', 1, 10, 1, s.numOctaves, '', 0, 'numOctaves');
+                this.createSlider(turbulenceGroup, 'pgSeed', 'Seed:', 0, 100, 1, s.seed, '', 0, 'seed');
+                this.createSelect(turbulenceGroup, 'pgTurbulenceType', 'Type:', 
+                    [{value: 'fractalNoise', text: 'Fractal Noise'}, {value: 'turbulence', text: 'Turbulence'}], 
+                    s.turbulenceType, 'turbulenceType');
+
+                const morphologyGroup = this.createControlGroup("Morphology (Shape Strands)");
+                this.createSlider(morphologyGroup, 'pgMorphRadiusX', 'Radius X:', 0, 10, 0.1, s.morphologyRadiusX, '', 1, 'morphologyRadiusX');
+                this.createSlider(morphologyGroup, 'pgMorphRadiusY', 'Radius Y:', 0, 10, 0.1, s.morphologyRadiusY, '', 1, 'morphologyRadiusY');
+                this.createSelect(morphologyGroup, 'pgMorphOperator', 'Operator:',
+                    [{value: 'erode', text: 'Erode'}, {value: 'dilate', text: 'Dilate'}],
+                    s.morphologyOperator, 'morphologyOperator');
+                
+                const colorGroup = this.createControlGroup("Color Adjustments");
+                this.createSlider(colorGroup, 'pgSaturation', 'Saturation:', 0, 3, 0.01, s.saturation, '', 2, 'saturation');
+                this.createSlider(colorGroup, 'pgHueRotate', 'Hue Rotate:', -180, 180, 1, s.hueRotate, '°', 0, 'hueRotate');
+            },
+
+            updateSVGFilterAttributes: function() {
+                if (!this.elements.svgCanvas) return; 
+                const s = this.currentPatternSettings;
+
+                // Update base surface color
+                if (this.elements.filterSurface) {
+                    this.elements.filterSurface.setAttribute('fill', s.baseColor);
+                }
+
+                // Turbulence
+                this.elements.feTurbulence.setAttribute('baseFrequency', `${s.baseFrequencyX} ${s.baseFrequencyY}`);
+                this.elements.feTurbulence.setAttribute('numOctaves', s.numOctaves.toString());
+                this.elements.feTurbulence.setAttribute('seed', s.seed.toString());
+                this.elements.feTurbulence.setAttribute('type', s.turbulenceType);
+
+                // Morphology
+                this.elements.feMorphology.setAttribute('operator', s.morphologyOperator);
+                this.elements.feMorphology.setAttribute('radius', `${s.morphologyRadiusX} ${s.morphologyRadiusY}`);
+                
+                // Color Matrix for Saturation
+                const sat = s.saturation;
+                const lumR = 0.2126; const lumG = 0.7152; const lumB = 0.0722; // Standard luminance constants
+                const sr = (1 - sat) * lumR;
+                const sg = (1 - sat) * lumG;
+                const sb = (1 - sat) * lumB;
+                const satMatrix = [
+                    sat + sr, sg, sb, 0, 0,
+                    sr, sat + sg, sb, 0, 0,
+                    sr, sg, sat + sb, 0, 0,
+                    0,  0,  0,  1, 0 
+                ];
+                this.elements.feColorMatrix.setAttribute('values', satMatrix.join(' '));
+                
+                // Apply hue-rotate via CSS filter on the output surface
+                if(this.elements.filterSurface){
+                    this.elements.filterSurface.style.filter = `url(#patternFilter) hue-rotate(${s.hueRotate}deg)`;
+                }
+
+                console.log("PatternGenerator: SVG Filter attributes updated for grass texture.", s);
+            },
+
+            setupEventListeners: function() {
+                if (this.elements.leaveButton) {
+                    this.elements.leaveButton.addEventListener('click', () => this.handleCompletion());
+                }
+            },
+
+            // rgbToHex and hexToRgb are not needed here if base color picker directly uses hex
+            // but keep them if any internal conversion is ever needed.
+            rgbToHex: function(r, g, b) {
+                return "#" + ((1 << 24) + (Math.round(r) << 16) + (Math.round(g) << 8) + Math.round(b)).toString(16).slice(1).toUpperCase();
+            },
+            hexToRgb: function(hex) {
+                const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+                return result ? { r: parseInt(result[1], 16), g: parseInt(result[2], 16), b: parseInt(result[3], 16) } : null;
+            },
+
+            handleCompletion: function() {
+                console.log(`${this.id}: Completing grass generator.`);
+                if (this.successCallback) {
+                    this.successCallback({
+                        generatorUsed: true,
+                        lastSettings: this.currentPatternSettings,
+                        effectType: 'grassTexture'
+                    });
+                }
+                this.destroy();
+            },
+
+            destroy: function() {
+                console.log(`${this.id}: Destroying grass generator...`);
+                if (this.animationFrameId) {
+                    cancelAnimationFrame(this.animationFrameId);
+                    this.animationFrameId = null;
+                }
+                const styleElement = document.getElementById('pattern-generator-styles');
+                if (styleElement && styleElement.parentNode) {
+                    styleElement.parentNode.removeChild(styleElement);
+                    this.styles = null;
+                }
+                if (this.gameContainer) {
+                    this.gameContainer.innerHTML = '';
+                    this.gameContainer.className = 'game-area'; 
+                }
+                this.elements = {};
+                console.log(`${this.id}: Destroyed.`);
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const gameHost = document.getElementById('patternGeneratorContainer');
+            if (gameHost && typeof PatternGenerator !== 'undefined') {
+                PatternGenerator.init(
+                    gameHost,
+                    (data) => console.log('PatternGenerator (Grass) Success:', data),
+                    (error) => console.error('PatternGenerator (Grass) Failure:', error),
+                    {} 
+                );
+            } else {
+                console.error('PatternGenerator container or script not found.');
+            }
+        });
+    </script>
+</body>
+</html>
+

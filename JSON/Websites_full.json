@@ -1,0 +1,2114 @@
+{
+  "youtube.com": {
+    "page_count": "5000000000",
+    "category": "Video",
+    "descriptions": "",
+    "created_date": "2005-02-15T05:13:12Z"
+  },
+  "wikipedia.org": {
+    "page_count": "62500000",
+    "category": "Encyclopedia",
+    "descriptions": "",
+    "created_date": "2001-01-13T00:12:14Z"
+  },
+  "goodreads.com": {
+    "page_count": "120000000",
+    "category": "Books",
+    "descriptions": "A social cataloging website for books, allowing users to track reading, write reviews, and discover new books through recommendations4610.",
+    "created_date": "2002-12-09T11:35:41Z"
+  },
+  "tvtropes.org": {
+    "page_count": "300000",
+    "category": "Media",
+    "descriptions": "A wiki dedicated to cataloging and analyzing storytelling devices and conventions in media, including TV, movies, and literature.",
+    "created_date": "2005-04-01T12:36:06Z"
+  },
+  "wikimedia.org": {
+    "page_count": "89000000",
+    "category": "Knowledge",
+    "descriptions": "",
+    "created_date": "2003-03-16T08:22:47Z"
+  },
+  "fandom.com": {
+    "page_count": "40000000",
+    "category": "Entertainment",
+    "descriptions": "The main hub for Fandom, a platform hosting thousands of wikis on various topics, including movies, TV shows, games, and more. It serves as a central resource for fan communities.",
+    "created_date": "1996-10-11T04:00:00Z"
+  },
+  "wikiquote.org": {
+    "page_count": "250000",
+    "category": "Quotes",
+    "descriptions": "",
+    "created_date": "2003-07-10T23:54:57Z"
+  },
+  "wikia.org": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2003-12-09T00:08:39Z"
+  },
+  "azquotes.com": {
+    "page_count": "500000",
+    "category": "Quotes",
+    "descriptions": "A website offering a vast collection of quotes from famous personalities, authors, and historical figures.",
+    "created_date": "2012-08-01T18:36:23Z"
+  },
+  "myanimelist.net": {
+    "page_count": "50000",
+    "category": "Anime",
+    "descriptions": "A social network and database for anime and manga fans to track, review, and discuss their favorite series.",
+    "created_date": "2006-04-01T01:16:01Z"
+  },
+  "retrojunk.com": {
+    "page_count": "100000",
+    "category": "Nostalgia",
+    "descriptions": "A website celebrating retro pop culture, including TV shows, movies, and commercials from the past.",
+    "created_date": "2003-10-07T16:10:04Z"
+  },
+  "imdb.com": {
+    "page_count": "10000000",
+    "category": "Movies",
+    "descriptions": "The Internet Movie Database, a comprehensive resource for movies, TV shows, and celebrities.",
+    "created_date": "1996-01-05T05:00:00Z"
+  },
+  "allpoetry.net": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2001-07-05T17:05:51Z"
+  },
+  "wiki.org": {
+    "page_count": "",
+    "category": "Wiki",
+    "descriptions": "",
+    "created_date": "1999-04-02T05:00:00Z"
+  },
+  "dharmapedia.net": {
+    "page_count": "",
+    "category": "Religion",
+    "descriptions": "",
+    "created_date": "2017-04-04T20:06:24Z"
+  },
+  "blogspot.net": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2000-07-31T21:38:58Z"
+  },
+  "malankazlev.net": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2020-04-03T04:33:03Z"
+  },
+  "integralworld.net": {
+    "page_count": "10000",
+    "category": "Philosophy",
+    "descriptions": "A platform for exploring integral theory and its applications, featuring essays, critiques, and discussions by various authors on topics related to philosophy, spirituality, and psychology.",
+    "created_date": "2004-06-02T18:13:20Z"
+  },
+  "occultopedia.com": {
+    "page_count": "15000",
+    "category": "Occult",
+    "descriptions": "An online encyclopedia of the occult, esoteric, and paranormal, offering definitions, explanations, and resources on various occult topics.",
+    "created_date": "1999-08-17T00:00:00Z"
+  },
+  "twitter.com": {
+    "page_count": "1000000000",
+    "category": "Social",
+    "descriptions": "A social media platform where users can share short messages (tweets), follow others, and engage in discussions on a wide range of topics.",
+    "created_date": "2000-01-21T16:28:17Z"
+  },
+  "integrallife.com": {
+    "page_count": "823",
+    "category": "Spirituality",
+    "descriptions": "A website focused on integral theory and practice, offering articles, courses, and resources related to personal growth, spirituality, and holistic living.",
+    "created_date": "2004-02-16T19:24:27Z"
+  },
+  "facebook.com": {
+    "page_count": "800000000",
+    "category": "Social",
+    "descriptions": "A social media platform where users can connect, share content, and engage with communities, businesses, and friends through posts, messages, and groups.",
+    "created_date": "1997-03-29T05:00:00Z"
+  },
+  "wordpress.com": {
+    "page_count": "3000000",
+    "category": "Blog",
+    "descriptions": "",
+    "created_date": "2000-03-03T12:13:23Z"
+  },
+  "reddit.com": {
+    "page_count": "50000000",
+    "category": "Community",
+    "descriptions": "A social media platform organized into communities (subreddits) where users can share, discuss, and vote on content related to virtually any topic.",
+    "created_date": "2005-04-29T17:59:19Z"
+  },
+  "poetry-chaikhana.com": {
+    "page_count": "376",
+    "category": "Poetry",
+    "descriptions": "A website dedicated to sacred poetry from around the world, featuring poems, translations, and commentary on spiritual and mystical themes.",
+    "created_date": "2004-06-17T21:58:50Z"
+  },
+  "google.com": {
+    "page_count": "12",
+    "category": "Search",
+    "descriptions": "",
+    "created_date": "1997-09-15T04:00:00Z"
+  },
+  "archive.org": {
+    "page_count": "916000000000",
+    "category": "Library",
+    "descriptions": "",
+    "created_date": "1995-12-14T05:00:00Z"
+  },
+  "wikiapiary.com": {
+    "page_count": "191",
+    "category": "Data",
+    "descriptions": "A directory of Fandom wikis, providing information about various wikis and their content across a wide range of topics.",
+    "created_date": "2012-12-20T16:13:20Z"
+  },
+  "vk.com": {
+    "page_count": "162",
+    "category": "Social",
+    "descriptions": "A social media platform popular in Russia and other countries, offering features like messaging, groups, and content sharing for users.",
+    "created_date": "1997-06-24T04:00:00Z"
+  },
+  "github.com": {
+    "page_count": "10000000",
+    "category": "Code",
+    "descriptions": "A platform for software development and version control, allowing developers to collaborate on projects, share code, and manage repositories.",
+    "created_date": "2008-04-10T00:00:00Z"
+  },
+  "amazonaws.com": {
+    "page_count": "",
+    "category": "Cloud",
+    "descriptions": "",
+    "created_date": "2005-08-18T02:10:45Z"
+  },
+  "knowyourarchetypes.com": {
+    "page_count": "126",
+    "category": "Psychology",
+    "descriptions": "A website dedicated to exploring archetypes in psychology and spirituality, offering resources and insights into personality types and self-discovery.",
+    "created_date": "2019-11-01T16:11:22Z"
+  },
+  "apple.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1987-02-19T00:00:00Z"
+  },
+  "amazon.com": {
+    "page_count": "25000000",
+    "category": "Shopping",
+    "descriptions": "",
+    "created_date": "1994-11-01T05:00:00Z"
+  },
+  "prnewswire.com": {
+    "page_count": "",
+    "category": "News",
+    "descriptions": "",
+    "created_date": "1995-05-09T04:00:00Z"
+  },
+  "starwars.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": "1996-09-04T04:00:00Z"
+  },
+  "mediawiki.org": {
+    "page_count": "",
+    "category": "Software",
+    "descriptions": "",
+    "created_date": "2003-08-09T21:57:23Z"
+  },
+  "instagram.com": {
+    "page_count": "400000000",
+    "category": "Social",
+    "descriptions": "",
+    "created_date": "2004-06-04T13:37:18Z"
+  },
+  "variety.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": "1996-09-17T04:00:00Z"
+  },
+  "sdccblog.com": {
+    "page_count": "",
+    "category": "Events",
+    "descriptions": "",
+    "created_date": "2009-07-05T18:01:09Z"
+  },
+  "linkedin.com": {
+    "page_count": "20000000",
+    "category": "Professional",
+    "descriptions": "",
+    "created_date": "2002-11-02T15:38:11Z"
+  },
+  "fandomania.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": "2007-01-13T06:31:13Z"
+  },
+  "wikiality.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": "2006-08-01T03:37:39Z"
+  },
+  "theinfinitelibrary.net": {
+    "page_count": "",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2001-11-11T00:00:00Z"
+  },
+  "libgen.is": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2017-12-08"
+  },
+  "symbolics.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1985-03-15T00:00:00Z"
+  },
+  "bbn.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "think.com": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-05-24T00:00:00Z"
+  },
+  "mcc.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1985-07-11T00:00:00Z"
+  },
+  "dec.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1985-09-30T00:00:00Z"
+  },
+  "northrop.com": {
+    "page_count": "",
+    "category": "Aerospace",
+    "descriptions": "",
+    "created_date": "1985-11-07T00:00:00Z"
+  },
+  "xerox.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1986-01-09T00:00:00Z"
+  },
+  "nasa.gov": {
+    "page_count": "",
+    "category": "Science",
+    "descriptions": "",
+    "created_date": "1993-07-01T00:00:00Z"
+  },
+  "mit.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-01-01T00:00:00Z"
+  },
+  "allpoetry.com": {
+    "page_count": "1000000",
+    "category": "Poetry",
+    "descriptions": "A platform for poets and poetry enthusiasts to share, read, and discuss poetry. It includes tools for writing and formatting poems, as well as contests and community features.",
+    "created_date": "2001-07-05T17:05:51Z"
+  },
+  "archlinux.org": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "2002-03-05T04:32:27Z"
+  },
+  "blogspot.com": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "1999-07-31T21:38:58Z"
+  },
+  "wikia.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "The former main domain for Fandom, redirecting to the current Fandom platform, which hosts thousands of wikis on a wide range of topics.",
+    "created_date": "2003-12-09T00:08:32Z"
+  },
+  "stanford.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-01-01T00:00:00Z"
+  },
+  "www.goodreads.com": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2002-12-09T11:35:41Z"
+  },
+  "en.wikipedia.org": {
+    "page_count": "6800000",
+    "category": "Encyclopedia",
+    "descriptions": "A free-content online encyclopedia written and maintained by a community of volunteers, covering a vast range of topics in multiple languages.",
+    "created_date": "2001-01-13T00:12:14Z"
+  },
+  "commons.wikimedia.org": {
+    "page_count": "",
+    "category": "Media",
+    "descriptions": "A repository of free-use images, sounds, videos, and other media files, part of the Wikimedia Foundation5.",
+    "created_date": "2003-03-16T08:22:47Z"
+  },
+  "sri.com": {
+    "page_count": "",
+    "category": "Research",
+    "descriptions": "",
+    "created_date": "1986-01-17T00:00:00Z"
+  },
+  "hp.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1986-03-03T00:00:00Z"
+  },
+  "bellcore.com": {
+    "page_count": "",
+    "category": "Telecom",
+    "descriptions": "",
+    "created_date": "1986-03-05T00:00:00Z"
+  },
+  "ibm.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1986-03-19T00:00:00Z"
+  },
+  "sun.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1986-03-19T00:00:00Z"
+  },
+  "intel.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1986-03-25T00:00:00Z"
+  },
+  "ti.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1986-03-25T00:00:00Z"
+  },
+  "att.com": {
+    "page_count": "",
+    "category": "Telecom",
+    "descriptions": "",
+    "created_date": "1986-04-25T00:00:00Z"
+  },
+  "gte.com": {
+    "page_count": "",
+    "category": "Telecom",
+    "descriptions": "",
+    "created_date": "1986-05-19T00:00:00Z"
+  },
+  "siemens.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1986-05-29T00:00:00Z"
+  },
+  "honeywell.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1986-07-19T00:00:00Z"
+  },
+  "adobe.com": {
+    "page_count": "",
+    "category": "Software",
+    "descriptions": "",
+    "created_date": "1986-11-17T00:00:00Z"
+  },
+  "boeing.com": {
+    "page_count": "",
+    "category": "Aerospace",
+    "descriptions": "",
+    "created_date": "1986-11-17T00:00:00Z"
+  },
+  "com.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1986-11-21T00:00:00Z"
+  },
+  "amd.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1986-11-17T00:00:00Z"
+  },
+  "lockheed.com": {
+    "page_count": "",
+    "category": "Aerospace",
+    "descriptions": "",
+    "created_date": "1986-12-02T00:00:00Z"
+  },
+  "ncr.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1987-01-19T00:00:00Z"
+  },
+  "cisco.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1987-05-14T00:00:00Z"
+  },
+  "nsf.net": {
+    "page_count": "",
+    "category": "Research",
+    "descriptions": "",
+    "created_date": "1987-07-10T00:00:00Z"
+  },
+  "si.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1988-07-27T00:00:00Z"
+  },
+  "nist.gov": {
+    "page_count": "",
+    "category": "Government",
+    "descriptions": "",
+    "created_date": "1988-12-09T00:00:00Z"
+  },
+  "ucla.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "berkeley.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "cmu.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "purdue.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "rice.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "ucsd.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "uci.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "ucsb.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "usc.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "umd.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-07-24T00:00:00Z"
+  },
+  "yale.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-11-21T00:00:00Z"
+  },
+  "nyu.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1986-04-25T00:00:00Z"
+  },
+  "upenn.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-06-24T00:00:00Z"
+  },
+  "harvard.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1983-01-01T00:00:00Z"
+  },
+  "princeton.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "caltech.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "brown.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1986-04-25T00:00:00Z"
+  },
+  "columbia.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "cornell.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "dartmouth.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "duke.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "northwestern.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "uchicago.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "umich.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "unc.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "utexas.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "uva.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "wisc.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "wustl.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "jhu.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "umn.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "uoregon.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "ufl.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "uok.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "uarizona.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "ualberta.ca": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "ubc.ca": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "ucalgary.ca": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "umanitoba.ca": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "umontreal.ca": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "unb.ca": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "uottawa.ca": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "usask.ca": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "utoronto.ca": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1985-04-24T00:00:00Z"
+  },
+  "web.com": {
+    "page_count": "",
+    "category": "Business",
+    "descriptions": "",
+    "created_date": "1999-08-17T00:00:00Z"
+  },
+  "worldbank.org": {
+    "page_count": "",
+    "category": "Finance",
+    "descriptions": "",
+    "created_date": "1991-08-14T04:00:00Z"
+  },
+  "goal.com": {
+    "page_count": "",
+    "category": "Sports",
+    "descriptions": "",
+    "created_date": "1995-11-13T05:00:00Z"
+  },
+  "fordham.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1989-04-25T00:00:00Z"
+  },
+  "paycom.com": {
+    "page_count": "",
+    "category": "Business",
+    "descriptions": "",
+    "created_date": "1998-12-03T05:00:00Z"
+  },
+  "windows.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1994-11-02T05:00:00Z"
+  },
+  "windstream.com": {
+    "page_count": "",
+    "category": "Telecom",
+    "descriptions": "",
+    "created_date": "1998-01-13T05:00:00Z"
+  },
+  "worldoftanks.com": {
+    "page_count": "",
+    "category": "Gaming",
+    "descriptions": "",
+    "created_date": "2003-05-27T04:00:00Z"
+  },
+  "britannica.com": {
+    "page_count": "120000",
+    "category": "Encyclopedia",
+    "descriptions": "",
+    "created_date": "1994-04-21T04:00:00Z"
+  },
+  "encyclopedia.com": {
+    "page_count": "300000",
+    "category": "Reference",
+    "descriptions": "",
+    "created_date": "1998-08-18T04:00:00Z"
+  },
+  "scholarpedia.org": {
+    "page_count": "2500",
+    "category": "Encyclopedia",
+    "descriptions": "",
+    "created_date": "2006-10-27T14:40:57Z"
+  },
+  "plato.stanford.edu": {
+    "page_count": "1707",
+    "category": "Philosophy",
+    "descriptions": "The Stanford Encyclopedia of Philosophy, a peer-reviewed online encyclopedia providing authoritative and detailed entries on a wide range of philosophical topics.",
+    "created_date": "1997-07-11T04:00:00Z"
+  },
+  "thecanadianencyclopedia.ca": {
+    "page_count": "",
+    "category": "Encyclopedia",
+    "descriptions": "",
+    "created_date": "2001-06-14T04:00:00Z"
+  },
+  "howstuffworks.com": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1998-04-28T04:00:00Z"
+  },
+  "reference.com": {
+    "page_count": "",
+    "category": "Reference",
+    "descriptions": "",
+    "created_date": "1995-11-13T05:00:00Z"
+  },
+  "symbols.com": {
+    "page_count": "",
+    "category": "Reference",
+    "descriptions": "",
+    "created_date": "1997-09-15T04:00:00Z"
+  },
+  "europeana.eu": {
+    "page_count": "",
+    "category": "Culture",
+    "descriptions": "",
+    "created_date": "2005-05-17T11:35:45Z"
+  },
+  "arxiv.org": {
+    "page_count": "2300000",
+    "category": "Research",
+    "descriptions": "",
+    "created_date": "1991-08-14T00:00:00Z"
+  },
+  "gutenberg.org": {
+    "page_count": "60000",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "1994-07-01T00:00:00Z"
+  },
+  "openlibrary.org": {
+    "page_count": "10000000",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2006-10-16T00:00:00Z"
+  },
+  "medium.com": {
+    "page_count": "8000000",
+    "category": "Blog",
+    "descriptions": "",
+    "created_date": "2012-08-14T00:00:00Z"
+  },
+  "stackoverflow.com": {
+    "page_count": "8000000",
+    "category": "Programming",
+    "descriptions": "",
+    "created_date": "2008-07-31T00:00:00Z"
+  },
+  "quora.com": {
+    "page_count": "30000000",
+    "category": "QNA",
+    "descriptions": "",
+    "created_date": "2009-06-21T00:00:00Z"
+  },
+  "khanacademy.org": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "2006-11-13T00:00:00Z"
+  },
+  "sacred-texts.com": {
+    "page_count": "",
+    "category": "Religion",
+    "descriptions": "",
+    "created_date": "1997-06-23T00:00:00Z"
+  },
+  "wiktionary.org": {
+    "page_count": "",
+    "category": "Dictionary",
+    "descriptions": "",
+    "created_date": "2002-03-11T00:00:00Z"
+  },
+  "wikibooks.org": {
+    "page_count": "1500000",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "2005-04-01T00:00:00Z"
+  },
+  "wikinews.org": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2005-04-01T00:00:00Z"
+  },
+  "wikiversity.org": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "2008-01-15T00:00:00Z"
+  },
+  "wikisource.org": {
+    "page_count": "",
+    "category": "Reference",
+    "descriptions": "",
+    "created_date": "2003-04-19T00:00:00Z"
+  },
+  "wikidata.org": {
+    "page_count": "115579601",
+    "category": "Data",
+    "descriptions": "",
+    "created_date": "2004-09-16T21:30:28Z"
+  },
+  "stackexchange.com": {
+    "page_count": "",
+    "category": "QNA",
+    "descriptions": "",
+    "created_date": "2009-09-15T00:00:00Z"
+  },
+  "scholar.google.com": {
+    "page_count": "",
+    "category": "Research",
+    "descriptions": "",
+    "created_date": "2004-11-01T00:00:00Z"
+  },
+  "jstor.org": {
+    "page_count": "",
+    "category": "Research",
+    "descriptions": "",
+    "created_date": "1995-07-01T00:00:00Z"
+  },
+  "soundcloud.com": {
+    "page_count": "10000000",
+    "category": "Music",
+    "descriptions": "",
+    "created_date": "2007-02-01T00:00:00Z"
+  },
+  "archive.today": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2012-07-01T00:00:00Z"
+  },
+  "brainpickings.org": {
+    "page_count": "",
+    "category": "Culture",
+    "descriptions": "",
+    "created_date": "2006-12-01T00:00:00Z"
+  },
+  "lithub.com": {
+    "page_count": "",
+    "category": "Literature",
+    "descriptions": "",
+    "created_date": "2015-01-01T00:00:00Z"
+  },
+  "ted.com": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "2006-09-01T00:00:00Z"
+  },
+  "esotericarchives.com": {
+    "page_count": "",
+    "category": "Occult",
+    "descriptions": "",
+    "created_date": "1999-01-01T00:00:00Z"
+  },
+  "podsnet.org": {
+    "page_count": "",
+    "category": "Network",
+    "descriptions": "",
+    "created_date": "1992-12-12T00:00:00Z"
+  },
+  "theosociety.org": {
+    "page_count": "",
+    "category": "Philosophy",
+    "descriptions": "",
+    "created_date": "1875-11-17T00:00:00Z"
+  },
+  "gnosismagazine.com": {
+    "page_count": "",
+    "category": "Spirituality",
+    "descriptions": "",
+    "created_date": "1985-01-01T00:00:00Z"
+  },
+  "raysfromtherosecross.org": {
+    "page_count": "",
+    "category": "Spirituality",
+    "descriptions": "",
+    "created_date": "1913-06-01T00:00:00Z"
+  },
+  "victorianweb.org": {
+    "page_count": "",
+    "category": "Literature",
+    "descriptions": "",
+    "created_date": "1988-01-01T00:00:00Z"
+  },
+  "nih.gov": {
+    "page_count": "",
+    "category": "Health",
+    "descriptions": "",
+    "created_date": "1980-01-01T00:00:00Z"
+  },
+  "bbc.com": {
+    "page_count": "",
+    "category": "News",
+    "descriptions": "",
+    "created_date": "1997-01-01T00:00:00Z"
+  },
+  "theguardian.com": {
+    "page_count": "",
+    "category": "News",
+    "descriptions": "",
+    "created_date": "1999-01-01T00:00:00Z"
+  },
+  "nytimes.com": {
+    "page_count": "",
+    "category": "News",
+    "descriptions": "",
+    "created_date": "1996-01-01T00:00:00Z"
+  },
+  "sciencedirect.com": {
+    "page_count": "",
+    "category": "Research",
+    "descriptions": "",
+    "created_date": "1997-01-01T00:00:00Z"
+  },
+  "nature.com": {
+    "page_count": "",
+    "category": "Science",
+    "descriptions": "",
+    "created_date": "1997-01-01T00:00:00Z"
+  },
+  "coursera.org": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "2012-04-01T00:00:00Z"
+  },
+  "edx.org": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "2012-07-02T00:00:00Z"
+  },
+  "futurelearn.com": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "2013-10-01T00:00:00Z"
+  },
+  "arstechnica.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1998-01-01T00:00:00Z"
+  },
+  "techcrunch.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "2005-06-01T00:00:00Z"
+  },
+  "wired.com": {
+    "page_count": "",
+    "category": "Technology",
+    "descriptions": "",
+    "created_date": "1993-03-01T00:00:00Z"
+  },
+  "vice.com": {
+    "page_count": "",
+    "category": "News",
+    "descriptions": "",
+    "created_date": "1994-12-01T00:00:00Z"
+  },
+  "sciencemag.org": {
+    "page_count": "",
+    "category": "Science",
+    "descriptions": "",
+    "created_date": "1995-01-01T00:00:00Z"
+  },
+  "pbs.org": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1997-01-01T00:00:00Z"
+  },
+  "nationalgeographic.com": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1998-01-01T00:00:00Z"
+  },
+  "researchgate.net": {
+    "page_count": "",
+    "category": "Research",
+    "descriptions": "",
+    "created_date": "2004-01-01T00:00:00Z"
+  },
+  "academia.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "2008-05-01T00:00:00Z"
+  },
+  "projecteuclid.org": {
+    "page_count": "",
+    "category": "Research",
+    "descriptions": "",
+    "created_date": "2000-01-01T00:00:00Z"
+  },
+  "psychologytoday.com": {
+    "page_count": "",
+    "category": "Psychology",
+    "descriptions": "",
+    "created_date": "2001-01-01T00:00:00Z"
+  },
+  "biorxiv.org": {
+    "page_count": "",
+    "category": "Science",
+    "descriptions": "",
+    "created_date": "2013-11-01T00:00:00Z"
+  },
+  "libgen.rs": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2008-01-01T00:00:00Z"
+  },
+  "z-lib.org": {
+    "page_count": "",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2009-01-01T00:00:00Z"
+  },
+  "perseus.tufts.edu": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "1987-01-01T00:00:00Z"
+  },
+  "librivox.org": {
+    "page_count": "",
+    "category": "Audio",
+    "descriptions": "",
+    "created_date": "2005-01-01T00:00:00Z"
+  },
+  "manybooks.net": {
+    "page_count": "",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2004-01-01T00:00:00Z"
+  },
+  "free-ebooks.net": {
+    "page_count": "",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2007-01-01T00:00:00Z"
+  },
+  "bookboon.com": {
+    "page_count": "",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2005-01-01T00:00:00Z"
+  },
+  "openculture.com": {
+    "page_count": "",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": "2006-01-01T00:00:00Z"
+  },
+  "wdl.org": {
+    "page_count": "",
+    "category": "Library",
+    "descriptions": "",
+    "created_date": "2009-01-01T00:00:00Z"
+  },
+  "dp.la": {
+    "page_count": "",
+    "category": "Library",
+    "descriptions": "",
+    "created_date": "2013-01-01T00:00:00Z"
+  },
+  "oapen.org": {
+    "page_count": "",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2009-01-01T00:00:00Z"
+  },
+  "doab.org": {
+    "page_count": "",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2012-01-01T00:00:00Z"
+  },
+  "earlychristianwritings.com": {
+    "page_count": "",
+    "category": "Religion",
+    "descriptions": "",
+    "created_date": "2000-01-01T00:00:00Z"
+  },
+  "gnosticlibrary.org": {
+    "page_count": "",
+    "category": "Religion",
+    "descriptions": "",
+    "created_date": "1998-01-01T00:00:00Z"
+  },
+  "bibliomania.com": {
+    "page_count": "",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "1996-01-01T00:00:00Z"
+  },
+  "nightcafe.com": {
+    "page_count": "1",
+    "category": "Art",
+    "descriptions": "",
+    "created_date": "2003-05-09T18:07:55Z"
+  },
+  "lmarena.ai": {
+    "page_count": "1",
+    "category": "AI",
+    "descriptions": "Chatbot Arena (formerly LMSYS): Free AI Chat to Compare &amp; Test Best AI Chatbots",
+    "created_date": "2024-06-21T07:23:33Z"
+  },
+  "lmsys.org": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2023-03-24T01:01:14Z"
+  },
+  "chatgpt.com": {
+    "page_count": "1",
+    "category": "AI",
+    "descriptions": "",
+    "created_date": "2022-11-30T23:59:19Z"
+  },
+  "perplexity.ai": {
+    "page_count": "1",
+    "category": "AI",
+    "descriptions": "",
+    "created_date": "2022-07-08T20:44:58Z"
+  },
+  "claude.ai": {
+    "page_count": "1",
+    "category": "AI",
+    "descriptions": "",
+    "created_date": "2018-08-04T15:48:43Z"
+  },
+  "deepseek.com": {
+    "page_count": "",
+    "category": "AI",
+    "descriptions": "",
+    "created_date": "2000-08-13T00:33:47Z"
+  },
+  "tiktok.com": {
+    "page_count": "200000000",
+    "category": "Social",
+    "descriptions": "",
+    "created_date": "1996-07-21T04:00:00Z"
+  },
+  "reddit.org": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2005-04-29T17:59:47Z"
+  },
+  "yahoo.com": {
+    "page_count": "20000000",
+    "category": "Portal",
+    "descriptions": "",
+    "created_date": "1995-01-18T05:00:00Z"
+  },
+  "pinterest.com": {
+    "page_count": "15000000",
+    "category": "Social",
+    "descriptions": "",
+    "created_date": "2009-11-26T19:21:23Z"
+  },
+  "deviantart.com": {
+    "page_count": "15000000",
+    "category": "Art",
+    "descriptions": "",
+    "created_date": "2000-04-25T04:59:54Z"
+  },
+  "bing.com": {
+    "page_count": "10000000",
+    "category": "Search",
+    "descriptions": "",
+    "created_date": "1996-01-29T05:00:00Z"
+  },
+  "tripadvisor.com": {
+    "page_count": "10000000",
+    "category": "Travel",
+    "descriptions": "",
+    "created_date": "1999-03-23T05:00:00Z"
+  },
+  "craigslist.org": {
+    "page_count": "10000000",
+    "category": "Classifieds",
+    "descriptions": "",
+    "created_date": "1997-09-11T04:00:00Z"
+  },
+  "kijiji.ca": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2005-01-18T18:47:32Z"
+  },
+  "flickr.com": {
+    "page_count": "8000000",
+    "category": "Photos",
+    "descriptions": "",
+    "created_date": "2003-11-22T07:49:51Z"
+  },
+  "tumblr.com": {
+    "page_count": "5000000",
+    "category": "Blog",
+    "descriptions": "",
+    "created_date": "2006-06-08T22:11:40Z"
+  },
+  "vimeo.com": {
+    "page_count": "5000000",
+    "category": "Video",
+    "descriptions": "",
+    "created_date": "2004-12-15T08:38:55Z"
+  },
+  "libgen.mx": {
+    "page_count": "2000000",
+    "category": "Books",
+    "descriptions": "",
+    "created_date": "2024-05-24"
+  },
+  "malankazlev.com": {
+    "page_count": "2166",
+    "category": "Philosophy",
+    "descriptions": "A personal website by M. Alan Kazlev, focusing on topics such as spirituality, esotericism, and integral philosophy. It includes essays, articles, and resources on these subjects.",
+    "created_date": "2020-04-03T04:33:03Z"
+  },
+  "auroville.org": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "1998-09-30T04:00:00Z"
+  },
+  "toolforge.org": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "",
+    "created_date": "2017-06-07T22:58:08Z"
+  },
+  "en.wikiquote.org": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "A collection of notable quotes from people, books, and other sources, maintained by the Wikimedia Foundation5.",
+    "created_date": ""
+  },
+  "wiki.archlinux.org": {
+    "page_count": "20000",
+    "category": "Technology",
+    "descriptions": "The official documentation and community wiki for Arch Linux, offering guides, troubleshooting tips, and software recommendations for users of this Linux distribution.",
+    "created_date": ""
+  },
+  "en.dharmapedia.net": {
+    "page_count": "50000",
+    "category": "Religion",
+    "descriptions": "A wiki focused on Dharmic religions, including Hinduism, Buddhism, and Jainism. It provides information about scriptures, practices, and philosophy.",
+    "created_date": ""
+  },
+  "dedroidify.blogspot.com": {
+    "page_count": "2643",
+    "category": "Blog",
+    "descriptions": "A blog exploring topics related to consciousness, spirituality, and self-improvement, often with a focus on deconstructing societal conditioning.",
+    "created_date": ""
+  },
+  "selforum.blogspot.com": {
+    "page_count": "2505",
+    "category": "Blog",
+    "descriptions": "A blog dedicated to discussions about self-improvement, personal development, and philosophical inquiry.",
+    "created_date": ""
+  },
+  "wiki.auroville.org.in": {
+    "page_count": "2371",
+    "category": "Community",
+    "descriptions": "The official wiki for Auroville, an experimental township in India. It provides information about the community's history, philosophy, and initiatives.",
+    "created_date": ""
+  },
+  "thoughtsandvisions-searle88.blogspot.com": {
+    "page_count": "1046",
+    "category": "Blog",
+    "descriptions": "A personal blog exploring topics related to spirituality, philosophy, and personal growth, often with a focus on esoteric and mystical themes.",
+    "created_date": ""
+  },
+  "esotericotherworlds.blogspot.com": {
+    "page_count": "765",
+    "category": "Blog",
+    "descriptions": "A blog exploring esoteric, spiritual, and metaphysical topics, often with a focus on alternative perspectives and hidden knowledge.",
+    "created_date": ""
+  },
+  "auromere.wordpress.com": {
+    "page_count": "510",
+    "category": "Blog",
+    "descriptions": "A blog focused on spirituality, meditation, and personal growth, often exploring topics related to integral yoga and self-realization.",
+    "created_date": ""
+  },
+  "circumsolatious.blogspot.com": {
+    "page_count": "361",
+    "category": "Blog",
+    "descriptions": "A blog exploring esoteric, spiritual, and philosophical topics, often with a focus on alternative perspectives and hidden knowledge.",
+    "created_date": ""
+  },
+  "play.google.com": {
+    "page_count": "322",
+    "category": "Apps",
+    "descriptions": "The official platform for downloading Android apps, games, movies, books, and more, as well as managing Android devices.",
+    "created_date": ""
+  },
+  "web.archive.org": {
+    "page_count": "286",
+    "category": "Library",
+    "descriptions": "The Internet Archive's Wayback Machine, a digital archive of the web that allows users to access historical versions of websites and preserved online content.",
+    "created_date": ""
+  },
+  "s3.amazonaws.com": {
+    "page_count": "126",
+    "category": "Storage",
+    "descriptions": "A domain used by Amazon Web Services (AWS) for hosting and delivering files, often used for storing and sharing static content like images and documents.",
+    "created_date": ""
+  },
+  "static.tvtropes.org": {
+    "page_count": "80",
+    "category": "Media",
+    "descriptions": "A subdomain of TV Tropes, hosting static content like images and files related to the analysis of storytelling tropes in media.",
+    "created_date": ""
+  },
+  "integraltransformation.blogspot.com": {
+    "page_count": "79",
+    "category": "Blog",
+    "descriptions": "A blog exploring integral theory, spirituality, and personal transformation, often with a focus on self-improvement and holistic living.",
+    "created_date": ""
+  },
+  "fandom.zendesk.com": {
+    "page_count": "44",
+    "category": "Support",
+    "descriptions": "A support and help center for Fandom users, providing guides, troubleshooting, and FAQs for managing and contributing to wikis.",
+    "created_date": ""
+  },
+  "static.wikia.nocookie.net": {
+    "page_count": "",
+    "category": "",
+    "descriptions": "A domain used by Fandom to serve static content like images and files for wikis, often used for caching and faster loading.",
+    "created_date": ""
+  },
+  "ebay.com": {
+    "page_count": "1500000",
+    "category": "Marketplace",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "chat.deepseek.com": {
+    "page_count": "1",
+    "category": "AI",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "acx.com": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "erowid.org": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "surveymonkey.com": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "intyoga.online.fr": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "integralyoga-auroville.com": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "integralperfection.weebly.com": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "foldoc.org": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "zenhabits.net": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "wikihow.com": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "tldp.org": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "searchforlight.org": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "roguebasin.com": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "rosettacode.org": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "rockpapershotgun.com": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "redhotpawn.com": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "textfixer.com": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "thelemapedia.org": {
+    "page_count": "1",
+    "category": "",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "iep.utm.edu": {
+    "page_count": "1200",
+    "category": "Education",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "bit.ly": {
+    "page_count": "27",
+    "category": "Links",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "apps.apple.com": {
+    "page_count": "25",
+    "category": "Apps",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "itunes.apple.com": {
+    "page_count": "20",
+    "category": "Apps",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "quickstatements.toolforge.org": {
+    "page_count": "17",
+    "category": "Tools",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "xtools.wmflabs.org": {
+    "page_count": "11",
+    "category": "Tools",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "meta.wikimedia.org": {
+    "page_count": "",
+    "category": "Knowledge",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "translate.google.com": {
+    "page_count": "",
+    "category": "Translation",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "accounts.google.com": {
+    "page_count": "",
+    "category": "Account",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "player.twitch.tv": {
+    "page_count": "",
+    "category": "Streaming",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "laguestlist.com": {
+    "page_count": "",
+    "category": "Events",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "mcvpacific.com": {
+    "page_count": "",
+    "category": "News",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "emerce.nl": {
+    "page_count": "",
+    "category": "Business",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "bleedingcool.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "googletagmanager.com": {
+    "page_count": "",
+    "category": "Analytics",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "tools.wikimedia.de": {
+    "page_count": "",
+    "category": "Tools",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "s23.org": {
+    "page_count": "",
+    "category": "Wiki",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "mediapost.com": {
+    "page_count": "",
+    "category": "Marketing",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "packagist.org": {
+    "page_count": "",
+    "category": "Software",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "non-aliencreatures.fandom": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "mythus.fandom": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "mumbrella.com.au": {
+    "page_count": "",
+    "category": "Media",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "memory-alpha.fandom": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "klingon.wiki": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "elderscrolls.fandom": {
+    "page_count": "",
+    "category": "Gaming",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "disneyplus.bn5x.net": {
+    "page_count": "",
+    "category": "Streaming",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "discord.gg": {
+    "page_count": "",
+    "category": "Communication",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "ad.doubleclick.net": {
+    "page_count": "",
+    "category": "Advertising",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "alexa.com": {
+    "page_count": "",
+    "category": "Analytics",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "ancardia.com": {
+    "page_count": "",
+    "category": "Games",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "asiancrush.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "bestmovie.it": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "biblegateway.com": {
+    "page_count": "",
+    "category": "Religion",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "bloglines.com": {
+    "page_count": "",
+    "category": "Blog",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "blogtorwho.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "cfandom.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "commerce55.com": {
+    "page_count": "",
+    "category": "Business",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "datingadvice.com": {
+    "page_count": "",
+    "category": "Relationships",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "esquire.com": {
+    "page_count": "",
+    "category": "Lifestyle",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "fantascienza.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "federatedmedia.net": {
+    "page_count": "",
+    "category": "Advertising",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "foodandwine.com": {
+    "page_count": "",
+    "category": "Food",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "gamepedfandom.com": {
+    "page_count": "",
+    "category": "Gaming",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "hollywoodreporter.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "homemediamagazine.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "marvel.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "mumbrella.asia": {
+    "page_count": "",
+    "category": "Media",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "netvibes.com": {
+    "page_count": "",
+    "category": "Feed",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "newworldencyclopedia.org": {
+    "page_count": "",
+    "category": "Encyclopedia",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "pageviews.toolforge.org": {
+    "page_count": "",
+    "category": "Analytics",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "patreon.com": {
+    "page_count": "",
+    "category": "Crowdfunding",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "pl.wikipedia.org": {
+    "page_count": "",
+    "category": "Encyclopedia",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "plus.google.com": {
+    "page_count": "",
+    "category": "Social",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "plusone.google.com": {
+    "page_count": "",
+    "category": "Social",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "prnewswire.co.uk": {
+    "page_count": "",
+    "category": "News",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "quantcast.com": {
+    "page_count": "",
+    "category": "Analytics",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "ro.wikipedia.org": {
+    "page_count": "",
+    "category": "Encyclopedia",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "s15.zetaboards.com": {
+    "page_count": "",
+    "category": "Forum",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "seekingalpha.com": {
+    "page_count": "",
+    "category": "Finance",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "semantic-mediawiki.org": {
+    "page_count": "",
+    "category": "Software",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "simegen.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "space.com": {
+    "page_count": "",
+    "category": "Science",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "spriters-resource.com": {
+    "page_count": "",
+    "category": "Gaming",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "static.wikia": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "stats.wikimedia.org": {
+    "page_count": "",
+    "category": "Analytics",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "steamcommunity.com": {
+    "page_count": "",
+    "category": "Gaming",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "stumbleupon.com": {
+    "page_count": "",
+    "category": "Discovery",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "surveygizmo.com": {
+    "page_count": "",
+    "category": "Survey",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "svn.wikimedia.org": {
+    "page_count": "",
+    "category": "Development",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "tastemade.com": {
+    "page_count": "",
+    "category": "Food",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "thedrum.com": {
+    "page_count": "",
+    "category": "Marketing",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "thestreet.com": {
+    "page_count": "",
+    "category": "Finance",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "tiltify.com": {
+    "page_count": "",
+    "category": "Crowdfunding",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "toolserver.org": {
+    "page_count": "",
+    "category": "Tools",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "trade-media.com.au": {
+    "page_count": "",
+    "category": "Media",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "trekmovie.com": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "trekzone.de": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "tubefilter.com": {
+    "page_count": "",
+    "category": "Media",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "unfavorablefandomwikis.miraheze.org": {
+    "page_count": "",
+    "category": "Entertainment",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "validator.w3.org": {
+    "page_count": "",
+    "category": "Tools",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "webstatsdomain.com": {
+    "page_count": "",
+    "category": "Analytics",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "wikiahoi.at": {
+    "page_count": "",
+    "category": "Wiki",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "wikicities.com": {
+    "page_count": "",
+    "category": "Wiki",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "wsj.com": {
+    "page_count": "",
+    "category": "News",
+    "descriptions": "",
+    "created_date": ""
+  },
+  "zelda.gamepedia.com": {
+    "page_count": "",
+    "category": "Gaming",
+    "descriptions": "",
+    "created_date": ""
+  }
+}

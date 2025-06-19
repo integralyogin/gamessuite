@@ -1,0 +1,182 @@
+{
+  "Programming Languages": {
+    "short_description": "Formal languages designed to communicate instructions to a computer or machine, enabling the creation of software, websites, and applications."
+  },
+  "Syntax": {
+    "short_description": "The set of rules defining the structure of statements in a programming language, dictating how programs are written and interpreted."
+  },
+  "Semantics": {
+    "short_description": "The meaning of the constructs in a programming language, defining what each statement or expression does when executed."
+  },
+  "Paradigms": {
+    "short_description": "Different styles or approaches to programming, including procedural, object-oriented, functional, and declarative, each influencing how problems are solved."
+  },
+  "Compilation": {
+    "short_description": "The process of translating source code written in a high-level programming language into machine code or an intermediate language that can be executed by a computer."
+  },
+  "Interpretation": {
+    "short_description": "The execution of code line by line by an interpreter, translating and executing each command without first compiling the entire program."
+  },
+  "Type System": {
+    "short_description": "Rules that assign and manage types to variables, expressions, or statements, ensuring type safety and preventing type-related errors."
+  },
+  "Variables": {
+    "short_description": "Containers for storing data values which can be changed during program execution, fundamental to managing state in programs."
+  },
+  "Control Structures": {
+    "short_description": "Statements used to control the flow of execution in a program, including loops, conditionals, and branching, allowing for complex logic."
+  },
+  "Functions": {
+    "short_description": "Reusable blocks of code that perform a specific task, promoting modularity, code reuse, and better organization."
+  },
+  "Object-Oriented Programming (OOP)": {
+    "short_description": "A programming paradigm based on the concept of 'objects' which contain data and methods to manipulate the data, supporting concepts like inheritance and encapsulation."
+  },
+  "Functional Programming": {
+    "short_description": "A programming paradigm that treats computation as the evaluation of mathematical functions, avoiding changing-state and mutable data."
+  },
+  "Memory Management": {
+    "short_description": "The process by which a computer or a program allocates and deallocates memory for variables, objects, or data structures, often involving garbage collection in modern languages."
+  },
+  "Concurrency": {
+    "short_description": "The ability of different parts of a program to execute 'simultaneously' or overlap in time, often to improve performance or responsiveness."
+  },
+  "Error Handling": {
+    "short_description": "Mechanisms to deal with errors during program execution, including exceptions, error codes, or custom error management systems."
+  },
+  "Libraries": {
+    "short_description": "Collections of pre-written code that can be reused, providing commonly needed functionality like file I/O, networking, or GUI development."
+  },
+  "Scripting Languages": {
+    "short_description": "Languages designed for writing scripts, often used for automation, web development, or data manipulation, typically interpreted rather than compiled."
+  },
+  "Static vs Dynamic Typing": {
+    "short_description": "The distinction between languages where type checking is performed at compile-time (static) versus at runtime (dynamic)."
+  },
+  "Scope": {
+    "short_description": "The context that determines where variables and functions can be accessed or modified in a program, affecting code visibility and lifetime."
+  },
+  "Modularity": {
+    "short_description": "The practice of separating the functionality of a program into independent, interchangeable modules, enhancing maintainability and reusability."
+  },
+  "Debugging": {
+    "short_description": "The process of finding and resolving defects or problems within a program, crucial for ensuring software reliability and performance."
+  },
+  "Metaprogramming": {
+    "short_description": "Writing programs that write or manipulate other programs or themselves, often used for code generation or dynamic behavior."
+  },
+   "Syntax": {
+    "short_description": "The structural foundation governing symbolic expression, shaping communication between human intent and machine execution."
+  },
+  "Semantics": {
+    "short_description": "The study of meaning within computational constructs, ensuring symbols translate into intended behaviors and logical truth."
+  },
+  "Compiler": {
+    "short_description": "Mediator between human-readable abstractions and machine execution, transmuting high-level designs into efficient binary realities."
+  },
+  "Interpreter": {
+    "short_description": "Dynamic translator bridging code and action, executing instructions through real-time dialogue between source and environment."
+  },
+  "Algorithm": {
+    "short_description": "Precise sequence of operations transforming inputs to outputs, embodying logical pathways to solve problems or process information."
+  },
+  "Paradigm": {
+    "short_description": "Foundational model shaping problem-solving approaches, defining constraints and possibilities for organizing computational thought."
+  },
+  "Abstraction": {
+    "short_description": "The art of simplifying complexity by emphasizing essential patterns while suppressing implementation details, enabling layered understanding."
+  },
+  "Variable": {
+    "short_description": "Named vessel holding mutable state, representing the dynamic flow of data through computational processes."
+  },
+  "Function": {
+    "short_description": "Self-contained unit of behavior accepting inputs and returning outputs, encapsulating reusable logic within defined boundaries."
+  },
+  "Object": {
+    "short_description": "Computational entity combining data and behavior, modeling real-world concepts through encapsulated properties and methods."
+  },
+  "Inheritance": {
+    "short_description": "Mechanism for hierarchical sharing of attributes and methods, enabling propagation of traits through generations of related constructs."
+  },
+  "Polymorphism": {
+    "short_description": "Capacity for entities to assume multiple forms, allowing unified interfaces to interact with diverse underlying implementations."
+  },
+  "Loop": {
+    "short_description": "Cyclic structure repeating operations until conditions resolve, embodying persistence in computation through recursive action."
+  },
+  "Recursion": {
+    "short_description": "Self-referential decomposition of problems into smaller instances, mirroring the whole within its parts through nested invocations."
+  },
+  "Debugging": {
+    "short_description": "Systematic identification and resolution of discrepancies between intended and actual behavior, restoring harmony to logical flows."
+  },
+  "Framework": {
+    "short_description": "Scaffolding defining structure and flow of applications, constraining possibilities to enforce architectural discipline and reuse."
+  },
+  "Library": {
+    "short_description": "Curated collection of prebuilt components offering specialized capabilities, accelerating development through modular composition."
+  },
+  "Runtime": {
+    "short_description": "Environment where code executes, managing resources and providing services to sustain dynamic computational processes."
+  },
+  "Type System": {
+    "short_description": "Formal structure classifying data and constraining operations, enforcing correctness through categorical boundaries."
+  },
+  "Memory": {
+    "short_description": "Ephemeral and persistent storage retaining program state, balancing volatile immediacy with lasting retention of information."
+  },
+  "Concurrency": {
+    "short_description": "Simultaneous execution of independent processes, coordinating parallel flows to maximize efficiency while preventing conflict."
+  },
+  "Encapsulation": {
+    "short_description": "Practice of bundling data with methods acting upon it, protecting internal integrity by exposing controlled interfaces."
+  },
+  "Interface": {
+    "short_description": "Contract defining interactions between components, specifying communication protocols without binding to implementations."
+  },
+  "Exception": {
+    "short_description": "Disruption in normal control flow signaling unexpected conditions, requiring intervention to restore operational continuity."
+  },
+  "Lambda": {
+    "short_description": "Anonymous function defined inline, enabling concise expression of transient logic without formal declaration."
+  },
+  "Heuristic": {
+    "short_description": "Approximate strategy trading perfection for practicality, guiding solutions through experiential intuition rather than exhaustive analysis."
+  },
+  "Optimization": {
+    "short_description": "Process refining systems for efficiency, balancing speed, resource usage, and clarity in pursuit of computational elegance."
+  },
+  "Pattern": {
+    "short_description": "Reusable solution template addressing common problems, distilling collective wisdom into archetypal structures."
+  },
+  "Protocol": {
+    "short_description": "Formal rules governing interactions between systems, ensuring coherent exchange through mutually agreed standards."
+  },
+  "Query": {
+    "short_description": "Structured request for information retrieval or manipulation, bridging human questions with structured data realms."
+  },
+  "Script": {
+    "short_description": "Lightweight program automating sequences of tasks, blending flexibility with immediacy in execution environments."
+  },
+  "Token": {
+    "short_description": "Atomic unit of meaning in lexical analysis, categorizing source code elements for syntactic processing."
+  },
+  "Vector": {
+    "short_description": "Ordered collection of elements supporting efficient operations, representing multidimensional data in linear algebra contexts."
+  },
+  "Pointer": {
+    "short_description": "Reference directing attention to memory locations, enabling indirect manipulation and dynamic resource navigation."
+  },
+  "Stack": {
+    "short_description": "Last-in-first-out data structure managing function calls and local state, enforcing orderly nesting of operations."
+  },
+  "Queue": {
+    "short_description": "First-in-first-out structure ordering tasks or messages, ensuring fair processing in sequential systems."
+  },
+  "Graph": {
+    "short_description": "Network of interconnected nodes modeling relationships, enabling representation of complex systems through vertices and edges."
+  },
+  "Tree": {
+    "short_description": "Hierarchical structure branching from root to leaves, organizing data for efficient search and recursive traversal."
+  }
+}

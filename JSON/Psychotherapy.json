@@ -1,0 +1,78 @@
+
+{
+"Psychotherapy": {
+"short_description": "The systematic practice of treating psychological disorders and facilitating personal growth through various therapeutic approaches, techniques, and relationships designed to promote mental health and emotional well-being."
+},
+"Psychoanalysis": {
+"short_description": "A depth-oriented approach focusing on unconscious processes, early experiences, and intrapsychic conflicts, using free association, dream analysis, and transference to facilitate insight and psychological transformation."
+},
+"Cognitive Therapy": {
+"short_description": "Treatment approach focusing on identifying and modifying maladaptive thought patterns, beliefs, and cognitive processes that contribute to emotional distress and behavioral problems."
+},
+"Behavioral Therapy": {
+"short_description": "Therapeutic approach based on learning theory that focuses on modifying observable behaviors through systematic techniques including conditioning, reinforcement, and exposure interventions."
+},
+"Humanistic Therapy": {
+"short_description": "Person-centered approach emphasizing human potential, self-actualization, and authentic experience, fostering growth through empathy, unconditional positive regard, and genuine therapeutic presence."
+},
+"Transference": {
+"short_description": "The unconscious redirection of feelings from past relationships onto the therapist, providing vital material for understanding and working through historical patterns and conflicts."
+},
+"Countertransference": {
+"short_description": "The therapist's emotional reactions and responses to the client, including both personal issues and legitimate therapeutic responses that require awareness and management."
+},
+"Resistance": {
+"short_description": "Psychological forces that oppose therapeutic change, manifesting as behaviors, thoughts, or emotions that protect against anxiety and maintain existing patterns despite their cost."
+},
+"Therapeutic Alliance": {
+"short_description": "The collaborative relationship between therapist and client that combines emotional bond with agreement on goals and methods, serving as a crucial factor in therapeutic success."
+},
+"Interpretation": {
+"short_description": "Therapeutic intervention that offers meaningful understanding of unconscious material, patterns, or connections, helping clients gain insight into their psychological dynamics."
+},
+"Free Association": {
+"short_description": "Psychoanalytic technique where clients speak whatever comes to mind without censorship, allowing access to unconscious material and hidden psychological connections."
+},
+"Dream Analysis": {
+"short_description": "Therapeutic exploration of dream content and symbolism to understand unconscious processes, conflicts, and meanings relevant to psychological growth."
+},
+"Containment": {
+"short_description": "Therapeutic function of holding and processing difficult emotional experiences, providing a safe psychological space for exploration and integration."
+},
+"Projection": {
+"short_description": "Psychological mechanism where individuals attribute their own unacceptable thoughts, feelings, or impulses to others, often becoming visible in therapeutic relationships."
+},
+"Catharsis": {
+"short_description": "Emotional release and relief through expression of previously repressed feelings or experiences, facilitated within a safe therapeutic environment."
+},
+"Integration": {
+"short_description": "Process of bringing together previously split or disconnected aspects of the psyche into a more cohesive and functional whole through therapeutic work."
+},
+"Insight": {
+"short_description": "Deep understanding of one's psychological patterns, motivations, and conflicts gained through therapeutic exploration and reflection."
+},
+"Mindfulness": {
+"short_description": "Therapeutic approach emphasizing present-moment awareness and acceptance of experience without judgment, fostering psychological flexibility and emotional regulation."
+},
+"Trauma Work": {
+"short_description": "Specialized therapeutic approaches for addressing psychological trauma, focusing on safety, processing, and integration of traumatic experiences."
+},
+"Group Therapy": {
+"short_description": "Therapeutic modality utilizing group dynamics and interpersonal learning to facilitate healing and growth through shared experience and feedback."
+},
+"Family Systems": {
+"short_description": "Therapeutic approach viewing psychological issues within the context of family relationships and patterns, working with entire systems rather than individuals alone."
+},
+"Gestalt Therapy": {
+"short_description": "Experiential approach emphasizing present awareness, personal responsibility, and integration of different aspects of the self through direct experience."
+},
+"Psychodynamic": {
+"short_description": "Therapeutic approach focusing on unconscious processes, past experiences, and their influence on current behavior and relationships."
+},
+"Solution-Focused": {
+"short_description": "Brief therapy approach emphasizing strengths, resources, and future-oriented solutions rather than problem analysis and historical exploration."
+},
+"Schema Therapy": {
+"short_description": "Integrative approach addressing early maladaptive patterns of thought, emotion, and behavior through cognitive, behavioral, and experiential techniques."
+}
+}

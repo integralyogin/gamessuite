@@ -1,0 +1,122 @@
+{
+  "Archetype": {
+    "short_description": "Primordial pattern or template that structures thought and meaning."
+  },
+  "Form": {
+    "short_description": "Essential nature or pattern underlying instances of thought."
+  },
+  "Concept": {
+    "short_description": "Abstract or generic mental representation of phenomena."
+  },
+  "Universal": {
+    "short_description": "Idea or principle that applies across all instances of a category."
+  },
+  "Category": {
+    "short_description": "Fundamental classification system for organizing thought."
+  },
+  "Principle": {
+    "short_description": "Foundational rule or law governing relationships and processes."
+  },
+  "Paradigm": {
+    "short_description": "Framework of thought that structures understanding and interpretation."
+  },
+  "Noumenon": {
+    "short_description": "Thing-in-itself beyond sensory perception or empirical knowledge."
+  },
+  "Logos": {
+    "short_description": "Underlying rational principle or divine thought structuring reality."
+  },
+  "Schema": {
+    "short_description": "Mental framework organizing and interpreting information."
+  },
+  "Essence": {
+    "short_description": "Fundamental nature or quality defining a thing's being."
+  },
+  "Meme": {
+    "short_description": "Self-replicating unit of cultural information or idea."
+  },
+  "Symbol": {
+    "short_description": "Representative form carrying deeper meanings and associations."
+  },
+  "Pattern": {
+    "short_description": "Recurring structure or organization in thought and phenomena."
+  },
+  "Ideal": {
+    "short_description": "Perfect or transcendent model of which things are copies."
+  },
+  "Law": {
+    "short_description": "Fundamental principle governing relationships and behavior."
+  },
+  "Abstraction": {
+    "short_description": "Mental isolation of qualities from particular instances."
+  },
+  "Metaphor": {
+    "short_description": "Framework for understanding one domain in terms of another."
+  },
+  "Axiom": {
+    "short_description": "Self-evident truth forming basis for reasoning."
+  },
+  "Dialectic": {
+    "short_description": "Process of thought development through opposition and synthesis."
+  },
+  "Intuition": {
+    "short_description": "Direct apprehension of truth without conscious reasoning."
+  },
+  "Doctrine": {
+    "short_description": "Systematic framework of taught principles or beliefs."
+  },
+  "Gnosis": {
+    "short_description": "Direct spiritual knowledge or insight into reality."
+  },
+  "Maya": {
+    "short_description": "Structuring power of thought creating apparent reality."
+  },
+  "Nous": {
+    "short_description": "Divine or cosmic intelligence/mind underlying thought."
+  },
+  "Wisdom": {
+    "short_description": "Deep understanding of fundamental principles and their application."
+  },
+  "Truth": {
+    "short_description": "Fundamental reality or validity underlying appearance."
+  },
+  "Logic": {
+    "short_description": "System of valid reasoning and relationship between ideas."
+  },
+  "Vision": {
+    "short_description": "Comprehensive mental image or understanding of possibility."
+  },
+  "Narrative": {
+    "short_description": "Organizing structure giving meaning to events and ideas."
+  },
+  "Gestalt": {
+    "short_description": "Unified whole that determines meaning of constituent parts."
+  },
+  "Insight": {
+    "short_description": "Direct understanding penetrating surface appearances."
+  },
+  "Mythos": {
+    "short_description": "Organizing story or narrative framework for meaning."
+  },
+  "Consciousness": {
+    "short_description": "Awareness within which all ideas and experience arise."
+  },
+  "Mind": {
+    "short_description": "Field or faculty generating and containing thought."
+  },
+  "Thought-form": {
+    "short_description": "Distinct pattern or structure in mental substance."
+  },
+  "Imagination": {
+    "short_description": "Creative faculty generating new combinations of ideas."
+  },
+  "Memory": {
+    "short_description": "Storage and recall system for ideas and experiences."
+  },
+  "Reason": {
+    "short_description": "Faculty for logical analysis and connection of ideas."
+  },
+  "Understanding": {
+    "short_description": "Grasp of meaning and relationship between ideas."
+  }
+}

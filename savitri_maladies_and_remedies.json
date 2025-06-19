@@ -1,0 +1,467 @@
+[
+  {
+    "id": "malady_001",
+    "malady_name": "Cosmic Forgetfulness (The Inconscient Slumber)",
+    "source_section_name": "1: Hour before the Gods",
+    "description": "The state of the world and the soul being lost in a 'somnambulist whirl,' forgetful of its divine origin and destiny. It is a 'soulless Void' and an 'unthinking dream' where the spirit lies dormant and abandoned.",
+    "symptoms_in_text": [
+      "Cradled the cosmic drowse of ignorant Force",
+      "Earth wheeled abandoned in the hollow gulfs\nForgetful of her spirit and her fate."
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Primal Stirring",
+        "prescription_in_text": "Then something in the inscrutable darkness stirred;\nA nameless movement, an unthought Idea.",
+        "explanation": "The first cure comes from within the darkness itself. It is a blind, dissatisfied, yet insistent yearning that disturbs the static slumber and initiates the possibility of change, 'Teased the Inconscient to wake Ignorance.'"
+      },
+      {
+        "remedy_name": "The Intervening Grace",
+        "prescription_in_text": "An eye of deity pierced through the dumb deeps;\nA scout in a reconnaissance from the sun.",
+        "explanation": "The second cure is a direct intervention from a higher plane of consciousness. A focused beam of divine sight actively enters the 'mindless universe' to seek out the lost soul and remind it of its potential for 'consciousness and joy.'"
+      }
+    ]
+  },
+  {
+    "id": "malady_002",
+    "malady_name": "The Pain of Futile Rebirth",
+    "source_section_name": "1: Hour before the Gods",
+    "description": "The condition of an entity trapped in a cycle of repeated, frustrating effort. It is a 'survivor of a slain and buried past,' forced to relive the struggle without memory of its purpose, leading to a profound weariness.",
+    "symptoms_in_text": [
+      "Gave room for an old tired want unfilled.",
+      "Like one who searches for a bygone self\nAnd only meets the corpse of his desire.",
+      "Condemned to resume the effort and the pang,\nReviving in another frustrate world."
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Divine Mandate (The God-Touch)",
+        "prescription_in_text": "All can be done if the god-touch is there.",
+        "explanation": "This is the ultimate remedy for futility. It posits that no effort is truly wasted and no cycle is endless if it is infused with the divine will and presence. It is the core principle of a transformative, not just an evolutionary, yoga."
+      },
+      {
+        "remedy_name": "The Rebuilding of Memory",
+        "prescription_in_text": "A memory quivered in the heart of Time\nAs if a soul long dead were moved to live:",
+        "explanation": "The cycle of futility is maintained by oblivion. The cure begins when a 'memory'—a connection to the soul's true past and future—is reintroduced into Time, providing the impetus to rebuild what was lost."
+      }
+    ]
+  },
+  {
+    "id": "malady_003",
+    "malady_name": "Forlorn Indifference (Spiritual Dryness)",
+    "source_section_name": "1: Hour before the Gods",
+    "description": "A state of profound spiritual loneliness and lack of response from the world. It is a 'desert heart' existing in a vast, 'alien world' characterized by the 'Night’s forlorn indifference.'",
+    "symptoms_in_text": [
+      "The impassive skies were neutral, empty, still.",
+      "Amid the Night’s forlorn indifference."
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Miraculous Gesture",
+        "prescription_in_text": "Into a far-off nook of heaven there came\nA slow miraculous gesture’s dim appeal.",
+        "explanation": "The cure for indifference is not a forceful demand but a 'timid,' 'hazardous,' and beautiful appeal. Grace presents itself as an 'errant marvel,' a subtle beauty that 'persuaded the inert black quietude' rather than commanding it."
+      },
+      {
+        "remedy_name": "The Revelation of Mystery",
+        "prescription_in_text": "Fixed with gold panel and opalescent hinge\nA gate of dreams ajar on mystery’s verge.",
+        "explanation": "Spiritual dryness is overcome by a glimpse into a hidden, beautiful reality. The 'gate of dreams' shows that the world is not merely what it appears to be, breaking the blind immensity and forcing it 'to sight.'"
+      }
+    ]
+  },
+  {
+    "id": "malady_004",
+    "malady_name": "The Inability to Hold the Divine",
+    "source_section_name": "1: Hour before the Gods",
+    "description": "The condition of mortal nature being unable to sustain or contain the intensity and beauty of a spiritual experience. The 'God-light' can only stay for a moment before the 'excess of beauty' is 'expunged from heaven.'",
+    "symptoms_in_text": [
+      "Only a little the God-light can stay.",
+      "Too perfect to be held by death-bound hearts.",
+      "The excess of beauty natural to God-kind\nCould not uphold its claim on time-born eyes;"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Consecrated Afterglow",
+        "prescription_in_text": "A sacred yearning lingered in its trace,\nThe worship of a Presence and a Power.",
+        "explanation": "Though the peak experience fades, its effect remains as a 'sacred yearning.' The cure for the fleetingness of the experience is to consecrate its memory, transforming the loss into worship and the 'prescience of a marvellous birth to come.' This yearning becomes the engine for future growth."
+      },
+      {
+        "remedy_name": "The Seeding of Grandeur",
+        "prescription_in_text": "Dawn built her aura of magnificent hues\nAnd buried its seed of grandeur in the hours.",
+        "explanation": "The divine manifestation, though brief, is not without lasting effect. It plants a 'seed of grandeur' in Time. The remedy is the understanding that the brief vision has initiated a process that will unfold within the 'hours' of ordinary life."
+      }
+    ]
+  },
+  {
+    "id": "malady_005",
+    "malady_name": "Existential Nihilism (The Longing for Annihilation)",
+    "source_section_name": "1: Hour before the Gods",
+    "description": "An active turning away from the difficulty of existence due to a 'fallen boundless self.' It's a conscious desire to cease, to return to the 'vacant Nought' rather than face the 'insoluble mystery of birth.'",
+    "symptoms_in_text": [
+      "A power of fallen boundless self awake.",
+      "Turned from the insoluble mystery of birth\nAnd longed to reach its end in vacant Nought."
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Sowing of Purpose",
+        "prescription_in_text": "A thought was sown in the unsounded Void,\nA sense was born within the darkness’ depths.",
+        "explanation": "The cure for nihilism is the introduction of meaning, sense, and purpose from a higher source. It calls the soul to the 'adventure of consciousness and joy,' replacing the desire for nothingness with the impetus for a meaningful journey."
+      }
+    ]
+  },
+  {
+    "id": "malady_006",
+    "malady_name": "Aimless Mechanical Repetition",
+    "source_section_name": "1: Hour before the Gods",
+    "description": "The state of being trapped in a meaningless, unconscious cycle. It is action without intention, a 'somnambulist whirl' that prolongs itself without progress or purpose.",
+    "symptoms_in_text": [
+      "A mute featureless semblance of the Unknown",
+      "Repeating for ever the unconscious act,\nProlonging for ever the unseeing will."
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Spark of Subjectivity",
+        "prescription_in_text": "A memory quivered in the heart of Time\nAs if a soul long dead were moved to live.",
+        "explanation": "The remedy for pure mechanism is the birth of an inner life, however faint. The 'memory' is the first flicker of subjectivity, the beginning of a soul-sense that breaks the purely mechanical repetition."
+      }
+    ]
+  },
+  {
+    "id": "malady_007",
+    "malady_name": "The Anguish of Doubt",
+    "source_section_name": "1: Hour before the Gods",
+    "description": "The specific human condition of living in a 'half-lit ignorance,' unable to see the path forward, where Truth itself seems uncertain and rests on a foundation of doubt.",
+    "symptoms_in_text": [
+      "Here where one knows not even the step in front",
+      "And Truth has her throne on the shadowy back of doubt,",
+      "On this anguished and precarious field of toil."
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Intervention of Prophetic Sight",
+        "prescription_in_text": "Here too the vision and prophetic gleam\nLit into miracles common meaningless shapes;",
+        "explanation": "The cure for doubt is not intellectual argument but a direct spiritual experience. A 'vision' or 'prophetic gleam' from a higher consciousness intervenes, transforming the mundane and revealing the miraculous within the ordinary, thus providing its own undeniable proof."
+      }
+    ]
+  },
+  {
+    "id": "malady_008",
+    "malady_name": "The Disillusioned Heart (Rejection of Grace)",
+    "source_section_name": "1: Hour before the Gods",
+    "description": "The subtle but powerful illness of mortal nature being unable or unwilling to accept the divine. The heart is 'disillusioned' and the divine presence is 'unwanted,' causing the higher consciousness to withdraw.",
+    "symptoms_in_text": [
+      "Then the divine afflatus, spent, withdrew,",
+      "Unwanted, fading from the mortal’s range."
+    ],
+    "remedies": [
+      {
+        "remedy_name": "A Conquering, Compelling Grace",
+        "prescription_in_text": "And, conquering Nature’s disillusioned breast,\nCompelled renewed consent to see and feel.",
+        "explanation": "The remedy for a heart that refuses to consent is a grace so powerful it creates that consent from within. It does not violate the will but 'conquers' the disillusionment, 'compelling' a new and spontaneous willingness to experience the divine."
+      }
+    ]
+  },
+   {
+    "id": "malady_009",
+    "malady_name": "The Alienation of the Divine Spirit",
+    "source_section_name": "2: The Issue",
+    "description": "The state of a divine consciousness embodied in the human world, unable to participate in its transient joys. It exists as a 'mighty stranger,' fundamentally disconnected from the common human experience and imprisoned by its mortal container.",
+    "symptoms_in_text": [
+      "Akin to the eternity whence she came,\nNo part she took in this small happiness;",
+      "A mighty stranger in the human field,\nThe embodied Guest within made no response.",
+      "The call that wakes the leap of human mind,\nIts chequered eager motion of pursuit,\nIts fluttering-hued illusion of desire,\nVisited her heart like a sweet alien note.",
+      "In her there was the anguish of the gods\nImprisoned in our transient human mould,"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Assumption of a World-Burden",
+        "prescription_in_text": "Apart, living within, all lives she bore;\nAloof, she carried in herself the world:",
+        "explanation": "The cure for alienation is not to seek inclusion in the 'small happiness' but to embrace a vaster role. By withdrawing into her inner self, Savitri takes on the entirety of the world's struggle and suffering, transforming her personal isolation into a universal holding."
+      },
+      {
+        "remedy_name": "The Weaponization of Pain",
+        "prescription_in_text": "Of her pangs she made a mystic poignant sword.",
+        "explanation": "Instead of being a victim of her anguish, she forges it into a purposeful weapon. Her personal pain, merged with the cosmic dread, becomes the very instrument with which she can confront the 'evil at life’s afflicted roots.'"
+      }
+    ]
+  },
+  {
+    "id": "malady_010",
+    "malady_name": "Earth's Hostility to Grace",
+    "source_section_name": "2: The Issue",
+    "description": "The inherent resistance of mortal nature to the transformative touch of the eternal. Earth-nature fears, resents, and actively repels the purity, power, and 'sorrowless happiness' of the divine, meeting grace with hostility and pain.",
+    "symptoms_in_text": [
+      "Hard is it to persuade earth-nature’s change;\nMortality bears ill the eternal’s touch:",
+      "It fears the pure divine intolerance\nOf that assault of ether and of fire;",
+      "It murmurs at its sorrowless happiness,\nAlmost with hate repels the light it brings;",
+      "Its thorns of fallen nature are the defence\nIt turns against the saviour hands of Grace;",
+      "It meets the sons of God with death and pain."
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Transfiguring Flame",
+        "prescription_in_text": "A fire has come and touched men’s hearts and gone;\nA few have caught flame and risen to greater life.",
+        "explanation": "The divine intervention acts as a potent, searing fire. While it is rejected by the masses and ultimately withdraws, its touch is not without effect. The remedy is that a receptive few can 'catch the flame,' allowing it to ignite a process of spiritual evolution and lift them to a higher existence."
+      }
+    ]
+  },
+  {
+    "id": "malady_011",
+    "malady_name": "The Isolating Burden of Foreknowledge",
+    "source_section_name": "2: The Issue",
+    "description": "The profound isolation that comes from knowing a future doom that cannot be shared. This secret knowledge creates a barrier, separating the individual from even their loved ones and forcing them to face the impending ordeal entirely alone.",
+    "symptoms_in_text": [
+      "A dark foreknowledge separated her\nFrom all of whom she was the star and stay;",
+      "Too great to impart the peril and the pain,\nIn her torn depths she kept the grief to come.",
+      "Unknown her act, unknown the doom she faced,\nUnhelped she must foresee and dread and dare.",
+      "No cry broke from her lips, no call for aid;\nShe told the secret of her woe to none:"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "Union with the Cosmic Self",
+        "prescription_in_text": "Her spirit opened to the Spirit in all,\nHer nature felt all Nature as its own.",
+        "explanation": "To withstand the crushing weight of solitary foreknowledge, the individual self must open to the universal. By feeling all Nature as her own and grounding her strength in the 'cosmic mights,' she transcends personal despair and finds the fortitude to act."
+      },
+      {
+        "remedy_name": "The Embrace of the Universal Mother",
+        "prescription_in_text": "The universal Mother’s love was hers.",
+        "explanation": "Even when unhelped by human companions, she finds support by connecting to the divine feminine principle. Her strength is founded on this all-encompassing love, allowing her to bear the unbearable as a representative of the cosmic Mother."
+      }
+    ]
+  },
+  {
+    "id": "malady_012",
+    "malady_name": "The Awakening to Agony",
+    "source_section_name": "2: The Issue",
+    "description": "The state of returning to consciousness only to be confronted by a deep, relentless, and seemingly eternal pain. After a brief respite in forgetfulness, memory returns, bringing with it the full weight of 'Earth and Love and Doom' and a 'godlike Pain' that demands constant suffering.",
+    "symptoms_in_text": [
+      "Then a slow faint remembrance shadowlike moved,\nAnd sighing she laid her hand upon her bosom\nAnd recognised the close and lingering ache,",
+      "All came back to her: Earth and Love and Doom,\nThe ancient disputants, encircled her",
+      "A stone-still figure of high and godlike Pain\nStared into space with fixed regardless eyes",
+      "Bound to his throne, he waited unappeased\nThe daily oblation of her unwept tears."
+    ],
+    "remedies": [
+      {
+        "remedy_name": "Confrontational Force-Gathering",
+        "prescription_in_text": "Her soul arose confronting Time and Fate.\nImmobile in herself, she gathered force.",
+        "explanation": "The remedy for the onslaught of remembered pain is to cease being its passive subject. By actively rising to confront her destiny and becoming 'immobile in herself,' she shifts from a state of suffering to a state of gathering power for the inevitable conflict. It is a conscious act of will against the inevitability of the moment."
+      }
+    ]
+  },
+   {
+    "id": "malady_013",
+    "malady_name": "Spiritual Inertia and Numbness",
+    "source_section_name": "2: The Issue",
+    "description": "A state of deep withdrawal where the spirit is disengaged from life. The mind and senses cease to function, the past is forgotten, and the body operates on a plane of dull, tranquil obtuseness, like an object rather than a being.",
+    "symptoms_in_text": [
+      "On the lap of earth’s original somnolence\nInert, released into forgetfulness",
+      "The Power that kindles mind was still withdrawn:",
+      "Heavy, unwilling were life’s servitors\nLike workers with no wages of delight;",
+      "Sullen, the torch of sense refused to burn;\nThe unassisted brain found not its past."
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Body's Summons",
+        "prescription_in_text": "But now she stirred, her life shared the cosmic load.\nAt the summons of her body’s voiceless call\nHer strong far-winging spirit travelled back,",
+        "explanation": "The remedy for this profound inertia comes not from a mental or spiritual decision, but from the primal, instinctual level of the physical form. The body's own 'voiceless call' acts as an anchor, summoning the withdrawn spirit back to its vessel to once again take up the 'yoke of ignorance and fate' and engage with the world."
+      }
+    ]
+  },
+   {
+    "id": "malady_014",
+    "malady_name": "The Bondage of Karma",
+    "source_section_name": "3: The Yoga of the King: The Yoga of the Soul's Release",
+    "description": "The condition of being bound by the consequences of past actions and energies. It is a 'burdensome heirship' to a hidden history that creates a 'fixed interminable line,' dictating present fate through the 'heavy servitudes of the Karmic Gods' and the slow, unforgiving law of cosmic sequence.",
+    "symptoms_in_text": [
+      "The burdensome heirship to our vanished forms\nAccepted blindly by the body and soul.",
+      "Our present fate, child of past energies.",
+      "The fixity of the cosmic sequences\nFastened with hidden inevitable links",
+      "Strike out from Time the soul’s long compound debt\nAnd the heavy servitudes of the Karmic Gods,"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Radical Power of the True Self",
+        "prescription_in_text": "Only the Self that builds this figure of self\nCan rase the fixed interminable line",
+        "explanation": "The karmic chain cannot be broken by the surface personality that is subject to it. The only cure is to awaken the true, 'unborn' Self—the timeless entity that created the form—and use its inherent power to completely 'rase' or erase the line of destiny."
+      },
+      {
+        "remedy_name": "The Disruption by Soul-Force",
+        "prescription_in_text": "She must disrupt, dislodge by her soul’s force\nHer past, a block on the immortal’s road,\nMake a rased ground and shape anew her fate.",
+        "explanation": "This remedy requires a direct and forceful spiritual action. The soul must actively 'disrupt' and 'dislodge' the accumulated past, treating it as an obstacle. This act of will clears the path, creating a blank slate upon which a new destiny can be shaped."
+      }
+    ]
+  },
+  {
+    "id": "malady_015",
+    "malady_name": "The Crisis of Absolute Darkness",
+    "source_section_name": "3: The Yoga of the King: The Yoga of the Soul's Release",
+    "description": "A critical spiritual juncture where an individual, approaching the Divine, is plunged into a 'supernatural darkness.' In this state, all of Nature's normal supports fail, the protection of Ignorance is removed, and one is thrown back onto a state of 'naked primal need.'",
+    "symptoms_in_text": [
+      "An absolute supernatural darkness falls\nOn man sometimes when he draws near to God:",
+      "An hour comes when fail all Nature’s means;",
+      "Forced out from the protecting Ignorance\nAnd flung back on his naked primal need,"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Casting Off of the Surface Soul",
+        "prescription_in_text": "He at length must cast from him his surface soul\nAnd be the ungarbed entity within:",
+        "explanation": "When faced with the total failure of external and internal supports, the only solution is a radical act of self-shedding. One must voluntarily 'cast from him' the superficial personality and identity to reveal and become the essential, 'ungarbed' being at the core."
+      }
+    ]
+  },
+  {
+    "id": "malady_016",
+    "malady_name": "Existential Confrontation with Nothingness",
+    "source_section_name": "3: The Yoga of the King: The Yoga of the Soul's Release",
+    "description": "The ultimate trial where the individual soul must face 'embodied Nothingness' on a 'dangerous dim background.' It is a debate on 'extinction's verge,' on a 'bare peak where Self is alone with Nought,' and where life and love seem to have no place or meaning.",
+    "symptoms_in_text": [
+      "Her soul’s debate with embodied Nothingness",
+      "On the bare peak where Self is alone with Nought\nAnd life has no sense and love no place to stand,",
+      "She must plead her case upon extinction’s verge,",
+      "Look into the lonely eyes of immortal Death"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Vindication of Being and Love",
+        "prescription_in_text": "In the world’s death-cave uphold life’s helpless claim\nAnd vindicate her right to be and love.",
+        "explanation": "The remedy against the ultimate Void is not to fight or flee, but to stand and assert the intrinsic value of existence. The soul must 'uphold' life's claim and actively 'vindicate' its own fundamental right to exist and to love, thereby creating meaning in the face of meaninglessness."
+      }
+    ]
+  },
+  {
+    "id": "malady_017",
+    "malady_name": "Spiritual Exhaustion (The Hunted Soul)",
+    "source_section_name": "3: The Yoga of the King: The Yoga of the Soul's Release",
+    "description": "The condition of the soul being weary and depleted from navigating a 'world of storms.' Like a 'hunted bird with tired wings,' it has lost the 'habit of happiness' and seeks only escape and rest.",
+    "symptoms_in_text": [
+      "As might a soul fly like a hunted bird,\nEscaping with tired wings from a world of storms,",
+      "Recover the lost habit of happiness,"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "Refuge in a Divine Presence",
+        "prescription_in_text": "In a haven of safety and splendid soft repose\nOne could drink life back in streams of honey-fire,\nRecover the lost habit of happiness,\nFeel her bright nature’s glorious ambiance,",
+        "explanation": "The cure for the world-weary soul is to find sanctuary in a being of divine compassion. Her presence acts as a 'haven of safety' where one can be sheltered from strife, 'drink life back,' and relearn joy within her 'glorious ambiance.' Her heart is a refuge for the entire world."
+      }
+    ]
+  },
+   {
+    "id": "malady_018",
+    "malady_name": "The Overburdened Framework of Life",
+    "source_section_name": "3: The Yoga of the King: The Yoga of the Soul's Release",
+    "description": "The common human condition of being weighed down by the 'heavy framework' of daily routines and an 'overburdening mass of outward needs.' This excess of material and psychological baggage clutters the inner being, leaving no room for deeper spiritual life.",
+    "symptoms_in_text": [
+      "The heavy framework of man’s days",
+      "And his overburdening mass of outward needs"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "Reduction to Spare Necessity",
+        "prescription_in_text": "A force of spare direct necessity\nReduced the heavy framework of man’s days\nAnd his overburdening mass of outward needs\nTo a first thin strip of simple animal wants,",
+        "explanation": "The cure is a radical simplification of life. By consciously reducing the complex and heavy structures of daily existence down to the most simple and essential needs, an inner spaciousness is created. This process clears the way for a deeper reality to emerge."
+      },
+      {
+        "remedy_name": "Making Room for God",
+        "prescription_in_text": "And the mighty wideness of the primitive earth\nAnd the brooding multitude of patient trees...\nHad left in her deep room for thought and God.",
+        "explanation": "The result of reducing outward needs is the ultimate remedy: the creation of internal space. The 'mighty wideness' of a simplified existence leaves 'deep room' within the consciousness for higher thought and a direct connection with the Divine."
+      }
+    ]
+  },
+   {
+    "id": "malady_019",
+    "malady_name": "The Assigned Ordeal",
+    "source_section_name": "4: The Secret Knowledge",
+    "description": "A state of divinely imposed suffering where a higher power, an 'Assigner of the ordeal and the path,' purposefully uses 'Death, fall and sorrow' as 'goads' for the spirit. It is a pitiless strategy to force a great soul to confront the 'chasm of the unfinished world.'",
+    "symptoms_in_text": [
+      "One dealt with her who meets the burdened great.",
+      "Assigner of the ordeal and the path\nWho chooses in this holocaust of the soul\nDeath, fall and sorrow as the spirit’s goads,",
+      "The dubious godhead with his torch of pain\nLit up the chasm of the unfinished world"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "Answering the Call of the Abyss",
+        "prescription_in_text": "And called her to fill with her vast self the abyss.",
+        "explanation": "The remedy is not to escape the ordeal, but to accept its cosmic purpose. The soul must answer the 'call' by pouring its own spiritual vastness into the world's void, thereby transforming the imposed suffering into a world-healing act."
+      }
+    ]
+  },
+  {
+    "id": "malady_020",
+    "malady_name": "The Human Figure as Helpless Pawn",
+    "source_section_name": "4: The Secret Knowledge",
+    "description": "The common human condition of being a transient and powerless entity, a 'creature born to bend beneath the yoke.' This figure is a mere 'plaything of Time's lords,' a pawn pushed across a cosmic chessboard, lacking self-born force or will.",
+    "symptoms_in_text": [
+      "An image fluttering on the screen of fate\nHalf-animated for a passing show,",
+      "A castaway on the ocean of Desire\nFlung to the eddies in a ruthless sport",
+      "A creature born to bend beneath the yoke,\nA chattel and a plaything of Time’s lords,",
+      "One more pawn who comes destined to be pushed"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Seed of the Superhuman",
+        "prescription_in_text": "In her the superhuman cast its seed.\nInapt to fold its mighty wings of dream\nHer spirit refused to hug the common soil,",
+        "explanation": "The cure for being a pawn is the awakening of the 'superhuman' potential within. This inner force, once activated, refuses to accept the common, limited fate and rejects any compromise with a meaningless existence, asserting its own divine origin."
+      }
+    ]
+  },
+  {
+    "id": "malady_021",
+    "malady_name": "The World-Prison of the Inconscient",
+    "source_section_name": "4: The Secret Knowledge",
+    "description": "The state of the material world as a 'gaol' (jail) designed to constrain the spirit. It is run by a 'grey tribunal of the Ignorance' where stone-eyed laws, pain, and pleasure all serve as guards to maintain 'the Wheel's circling immobility' and prevent spiritual adventure and liberation.",
+    "symptoms_in_text": [
+      "A gaol is this immense material world.",
+      "Across each road stands armed a stone-eyed law,\nAt every gate the huge dim sentinels pace.",
+      "An Inquisition of the priests of Night\nIn judgment sit on the adventurer soul,",
+      "Pain with its lash, joy with its silver bribe\nGuard the Wheel’s circling immobility,"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "Sovereign Refusal",
+        "prescription_in_text": "Her head she bowed not to the stark decree\nBaring her helpless heart to destiny’s stroke.",
+        "explanation": "The remedy is an absolute refusal to accept the judgment of the world-prison. Instead of bowing to the decree of the 'mechanic justicer,' the soul must stand in its own sovereign right, reject the 'brute balance of the world's exchange,' and light its own limitless flame."
+      }
+    ]
+  },
+  {
+    "id": "malady_022",
+    "malady_name": "Servitude to the Machine Universe",
+    "source_section_name": "4: The Secret Knowledge",
+    "description": "The perception of existence as 'Nature's massed machinery,' a state of 'endless servitude to material rule.' In this view, the human is also a machine, with a 'piston brain' and a fabricated soul, and free will is an illusion annulled by rigid, unconscious processes.",
+    "symptoms_in_text": [
+      "All now seems Nature’s massed machinery;",
+      "An endless servitude to material rule\nAnd long determination’s rigid chain,",
+      "He too is a machine amid machines;",
+      "A piston brain pumps out the shapes of thought,"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Enthronement of the Witness Self",
+        "prescription_in_text": "But wisdom comes, and vision grows within;\nThen Nature’s instrument crowns himself her king;\nHe feels his witnessing self and conscious power;",
+        "explanation": "The cure is an evolution of consciousness. Through the growth of inner 'wisdom and vision,' the soul steps back from the machine, becomes a 'witnessing self,' and discovers its own conscious power. It transitions from being a mere instrument of Nature to her rightful king."
+      },
+      {
+        "remedy_name": "The Revelation of the Godhead",
+        "prescription_in_text": "His soul steps back and sees the Light supreme.\nA Godhead stands behind the brute machine.",
+        "explanation": "The ultimate remedy for mechanical servitude is direct spiritual perception. By stepping back, the soul sees that behind the 'brute machine' of the universe stands a 'Godhead.' This revelation breaks the illusion of pure mechanism and restores divine agency."
+      }
+    ]
+  },
+  {
+    "id": "malady_023",
+    "malady_name": "Powerlessness Before Cosmic Doom",
+    "source_section_name": "4: The Secret Knowledge",
+    "description": "The condition of being utterly powerless before the 'engines of the universe' and the 'wheels of Doom.' It is the state of a single, finite will confronting a 'cosmic rule' and a 'dreadful route no will can change,' making any opposition seem futile.",
+    "symptoms_in_text": [
+      "Her single will opposed the cosmic rule.",
+      "Across the awful march no eye can see,\nBarring its dreadful route no will can change,",
+      "She faced the engines of the universe;",
+      "A heart stood in the way of the driving wheels:"
+    ],
+    "remedies": [
+      {
+        "remedy_name": "The Magic Leverage",
+        "prescription_in_text": "A prayer, a master act, a king idea\nCan link man’s strength to a transcendent Force.",
+        "explanation": "The cure for human powerlessness is to find the 'magic leverage' that connects our finite strength to an infinite source. This linkage is achieved through specific spiritual acts: a focused 'prayer,' a decisive 'master act,' or a powerful 'king idea.' These acts bridge the gap, allowing a transcendent force to intervene."
+      }
+    ]
+  }
+]
+

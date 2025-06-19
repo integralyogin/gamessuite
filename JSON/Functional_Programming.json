@@ -1,0 +1,108 @@
+{
+"Functional Programming": {
+"short_description": "A programming paradigm that treats computation as the evaluation of mathematical functions, emphasizing immutable data, pure functions, and declarative patterns while avoiding state changes and mutable data."
+},
+
+"Pure Functions": { "quote": "Same input always yields same output: f(x) = x + 1 is pure, no side effects." },
+"Immutability": { "quote": "Data cannot be changed after creation: const x = 1; never modify x." },
+"First-Class Functions": { "quote": "Functions can be assigned, passed as arguments: const add = (a, b) => a + b;" },
+"Higher-Order Functions": { "quote": "Functions that take/return other functions: map(arr, fn) applies fn to each element." },
+"Recursion": { "quote": "Functions calling themselves: factorial(n) = n * factorial(n-1)" },
+"Lambda Calculus": { "quote": "Mathematical basis of FP: λx.x represents identity function" },
+"Function Composition": { "quote": "Combining functions: (f ∘ g)(x) = f(g(x))" },
+"Currying": { "quote": "Converting n-ary function to series of unary functions: add(a)(b) instead of add(a,b)" },
+"Partial Application": { "quote": "Fixing some arguments of function: addFive = add(5, _)" },
+"Monads": { "quote": "Sequencing computations with context: Maybe handles null safely" },
+"Functors": { "quote": "Mappable containers: array.map(f) applies f to each element" },
+"Pattern Matching": { "quote": "Destructuring data based on shape: match x with | 0 -> 'zero' | _ -> 'other'" },
+"Tail Recursion": { "quote": "Recursive call as last operation: optimized to loop" },
+"Lazy Evaluation": { "quote": "Compute values only when needed: infinite sequences possible" },
+"Referential Transparency": { "quote": "Expressions can be replaced by their values: pure function calls" },
+"Type Systems": { "quote": "Static typing with inference: ML-style type systems" },
+"Algebraic Data Types": { "quote": "Composing types: data Tree = Leaf | Node Tree Tree" },
+"List Processing": { "quote": "Operations on sequences: map, filter, reduce fundamentals" },
+"Function Pipelining": { "quote": "Chaining operations: data |> fun1 |> fun2 |> fun3" },
+"Closures": { "quote": "Functions with their environment: inner function accessing outer scope" },
+"Memoization": { "quote": "Caching function results: compute once, reuse result" },
+"Category Theory": { "quote": "Mathematical foundation: morphisms between objects" },
+"Point-Free Style": { "quote": "Function composition without naming arguments: f ∘ g ∘ h" },
+"Effect Systems": { "quote": "Managing side effects: IO monad, Effect types" },
+"Property Testing": { "quote": "Testing with generated inputs: QuickCheck style" },
+"Functional Reactive": { "quote": "Handling time-varying values: streams and signals" },
+"Persistent Data": { "quote": "Immutable data structures: efficient structural sharing" },
+"Type Classes": { "quote": "Abstraction over types: Functor, Monad, Applicative" },
+"Lenses": { "quote": "Composable accessors: viewing and updating nested data" }
+,
+"Pure Function": {
+"short_description": "A function that always produces the same output for the same input and has no side effects, ensuring predictability and easier testing."
+},
+"Immutability": {
+"short_description": "The principle that data cannot be changed once created, requiring new instances for modifications and ensuring data consistency across operations."
+},
+"First-Class Function": {
+"short_description": "Functions that can be assigned to variables, passed as arguments, and returned from other functions, enabling higher-order programming patterns."
+},
+"Higher-Order Function": {
+"short_description": "Functions that take other functions as parameters or return functions, allowing for powerful abstractions and composition patterns."
+},
+"Recursion": {
+"short_description": "A technique where functions call themselves to solve problems by breaking them down into smaller, similar sub-problems."
+},
+"Referential Transparency": {
+"short_description": "The property that an expression can be replaced with its value without changing program behavior, enabling easier reasoning and optimization."
+},
+"Lambda Calculus": {
+"short_description": "The theoretical foundation of functional programming, providing a formal system for expressing computation based on function abstraction and application."
+},
+"Closure": {
+"short_description": "A function that captures and retains access to variables from its outer scope, enabling data encapsulation and state management."
+},
+"Currying": {
+"short_description": "The technique of transforming a function with multiple arguments into a sequence of functions each taking a single argument."
+},
+"Composition": {
+"short_description": "The combining of simple functions to build more complex ones, enabling modular and reusable code construction."
+},
+"Monad": {
+"short_description": "A design pattern that defines how functions can be combined to handle sequences of operations, particularly useful for managing side effects."
+},
+"Pattern Matching": {
+"short_description": "A mechanism for checking a value against a pattern and deconstructing it based on its structure."
+},
+"Lazy Evaluation": {
+"short_description": "A strategy that delays the evaluation of an expression until its value is needed, optimizing resource usage and enabling infinite data structures."
+},
+"Type System": {
+"short_description": "A formal system for categorizing values and expressions, providing compile-time guarantees about program behavior."
+},
+"Algebraic Data Type": {
+"short_description": "A composite type formed by combining other types, enabling precise modeling of domain concepts and pattern matching."
+},
+"Functor": {
+"short_description": "A type class for values that can be mapped over, abstracting the application of functions to values in a context."
+},
+"Map": {
+"short_description": "A higher-order function that applies a given function to each element in a collection, producing a new collection of results."
+},
+"Reduce": {
+"short_description": "A higher-order function that combines all elements in a collection using a given combining operation, producing a single result."
+},
+"Filter": {
+"short_description": "A higher-order function that creates a new collection containing only elements that satisfy a given predicate."
+},
+"Side Effect": {
+"short_description": "Any modification of state outside a function's local scope, typically avoided in functional programming to maintain predictability."
+},
+"Tail Recursion": {
+"short_description": "A recursive function where the recursive call is the last operation, enabling compiler optimization to prevent stack overflow."
+},
+"List Comprehension": {
+"short_description": "A syntactic construct for creating lists based on existing lists, combining mapping, filtering, and iteration operations."
+},
+"Partial Application": {
+"short_description": "The process of fixing a number of arguments to a function, producing another function of smaller arity."
+},
+"Point-Free Style": {
+"short_description": "A way of defining functions without explicitly mentioning their arguments, emphasizing function composition and transformation."
+}
+}

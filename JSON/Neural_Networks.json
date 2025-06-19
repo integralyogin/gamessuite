@@ -1,0 +1,92 @@
+{
+  "Neural Networks": {
+    "short_description": "Interconnected systems of artificial neurons designed to process information through adaptive learning, mirroring biological cognition while transcending organic limitations through mathematical abstraction."
+  },
+  "Activation Function": {
+    "short_description": "The decision-making threshold determining neuronal firing, introducing non-linearity to capture complexity while balancing information flow between inhibition and excitation states."
+  },
+  "Weights": {
+    "short_description": "The synaptic strength of connections between neurons, representing learned relationships and the system's evolving understanding of pattern significance."
+  },
+  "Backpropagation": {
+    "short_description": "The backward flow of error signals through network layers, enabling self-correction by adjusting synaptic weights in alignment with desired outcomes."
+  },
+  "Loss Landscape": {
+    "short_description": "The multidimensional terrain of possible model configurations, where elevation represents error magnitude and the learning process seeks optimal valleys of minimal loss."
+  },
+  "Overfitting": {
+    "short_description": "The deceptive mastery of memorizing specific patterns rather than grasping underlying principles, creating fragile knowledge bound too tightly to particular instances."
+  },
+  "Latent Space": {
+    "short_description": "The compressed realm of essential features where raw data is distilled into meaningful representations, revealing hidden relationships through dimensional reduction."
+  },
+  "Attention Mechanism": {
+    "short_description": "The dynamic focusing of cognitive resources on salient information patterns, mimicking conscious awareness by weighting input significance contextually."
+  },
+  "Gradient Descent": {
+    "short_description": "The incremental navigation of error terrain through partial derivatives, carefully adjusting parameters to descend toward optimal configurations while avoiding local minima traps."
+  },
+  "Regularization": {
+    "short_description": "Techniques of constraint and simplification that prevent over-specialization, maintaining model generality through strategic information limitation and noise introduction."
+  },
+  "Embedding": {
+    "short_description": "The transformation of raw data into dense vector representations, where semantic relationships are encoded as spatial proximities in abstract mathematical space."
+  },
+  "Epoch": {
+    "short_description": "A complete cycle of exposure to training data, representing both temporal progression in learning and the rhythmic iteration necessary for knowledge consolidation."
+  },
+  "Convolution": {
+    "short_description": "The sliding window of feature detection that scans input space, extracting local patterns through shared weight filters that build hierarchical understanding."
+  },
+  "Dropout": {
+    "short_description": "The intentional deactivation of random neurons during training, fostering robust knowledge distribution through forced redundancy and prevented co-dependency."
+  },
+  "Optimizer": {
+    "short_description": "The adaptive learning strategy that adjusts parameter update steps, balancing exploration of the loss landscape with exploitation of discovered gradients."
+  },
+  "Bottleneck": {
+    "short_description": "The compressed layer enforcing information distillation, where essential features are extracted through forced constraints on dimensional flow."
+  },
+  "Transfer Learning": {
+    "short_description": "The application of previously acquired knowledge to new domains, demonstrating how foundational patterns can be adapted rather than rediscovered anew."
+  },
+  "Vanishing Gradient": {
+    "short_description": "The dissipation of learning signals through deep layers, representing the challenge of maintaining meaningful error propagation across increasing abstraction levels."
+  },
+  "Autoencoder": {
+    "short_description": "The self-reconstructive architecture that learns efficient data encodings by compressing input into latent representations then expanding back to original form."
+  },
+  "Transformer": {
+    "short_description": "The attention-based architecture modeling global relationships through dynamic context weighting, enabling parallel processing of sequential dependencies."
+  },
+  "Reward Shaping": {
+    "short_description": "The strategic design of feedback signals to guide learning agents, balancing explicit instruction with open-ended exploration in complex environments."
+  },
+  "Catastrophic Forgetting": {
+    "short_description": "The vulnerability of neural systems to overwrite previous knowledge when learning new tasks, highlighting the tension between stability and plasticity."
+  },
+  "Neurogenesis": {
+    "short_description": "The dynamic growth and pruning of network connections during learning, mirroring biological neural development through adaptive structural evolution."
+  },
+  "Ensemble": {
+    "short_description": "The collective wisdom of multiple specialized models, combining diverse perspectives through voting or averaging to achieve superior consensus decisions."
+  },
+  "Hyperparameters": {
+    "short_description": "The meta-level configuration choices governing learning processes, representing the higher-order principles that shape how knowledge is acquired and structured."
+  },
+  "Zero-Shot Learning": {
+    "short_description": "The ability to recognize novel categories without explicit training, demonstrating generalization from foundational patterns to unseen conceptual territories."
+  },
+  "Neural Tangent Kernel": {
+    "short_description": "The mathematical lens analyzing infinite-width networks, revealing connections between deep learning and classical kernel methods through optimization dynamics."
+  },
+  "Manifold Hypothesis": {
+    "short_description": "The fundamental assumption that high-dimensional data resides on lower-dimensional structures, enabling efficient representation learning through manifold discovery."
+  },
+  "Mode Collapse": {
+    "short_description": "The failure to capture full data diversity in generative models, resulting in limited variation output despite training on rich input distributions."
+  },
+  "Neural Architecture Search": {
+    "short_description": "The meta-process of automating network design through machine learning itself, creating self-improving systems that optimize their own structural foundations."
+  }
+}

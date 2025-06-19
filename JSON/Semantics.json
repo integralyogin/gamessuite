@@ -1,0 +1,119 @@
+{
+  "Semantics": {
+    "short_description": "The study and system of meaning in language and symbols, analyzing relationships between signs, their interpretations, and the construction of significance across contexts and cognitive frameworks."
+  },
+  "Meaning": {
+    "short_description": "The core principle of linguistic communication through symbols and signs, conveying significance and enabling interpretation across contexts and consciousness."
+  },
+  "Reference": {
+    "short_description": "The relationship between linguistic expressions and entities in reality, anchoring symbols to objects, concepts, or experiential phenomena."
+  },
+  "Sense": {
+    "short_description": "The internal conceptual content of linguistic units, distinct from direct reference, forming a network of relationships within the semantic system."
+  },
+  "Context": {
+    "short_description": "The situational and linguistic framework shaping interpretation, determining meaning through spatial, temporal, social, and cognitive dimensions."
+  },
+  "Lexicon": {
+    "short_description": "The structured inventory of a language's meaningful units, containing both formal representations and their conceptual associations."
+  },
+  "Denotation": {
+    "short_description": "The explicit literal meaning of a linguistic expression, representing its primary association with objects or concepts in reality."
+  },
+  "Connotation": {
+    "short_description": "The secondary cultural or emotional associations surrounding a linguistic expression, extending beyond its primary referential meaning."
+  },
+  "Ambiguity": {
+    "short_description": "The capacity for multiple interpretations within linguistic expressions, arising from polysemy, homonymy, or structural indeterminacy."
+  },
+  "Compositionality": {
+    "short_description": "The principle governing how simpler linguistic units combine to form complex meanings through systematic structural relationships."
+  },
+  "Pragmatics": {
+    "short_description": "The interaction between linguistic meaning and contextual factors in actual communication, bridging semantic content with intentional use."
+  },
+  "Sign": {
+    "short_description": "The fundamental unit of meaning combining a perceptible form with conceptual content, following the triad of signifier, signified, and referent."
+  },
+  "Symbol": {
+    "short_description": "A conventional representation carrying meaning through culturally established agreements rather than natural resemblance."
+  },
+  "Proposition": {
+    "short_description": "The truth-evaluable core content of statements, abstracted from specific linguistic forms or contextual circumstances."
+  },
+  "Truth Conditions": {
+    "short_description": "The set of circumstances under which a linguistic expression corresponds to reality, forming the basis for semantic analysis of statements."
+  },
+  "Intension": {
+    "short_description": "The conceptual content defining a term's meaning through necessary properties, invariant across possible worlds."
+  },
+  "Extension": {
+    "short_description": "The collection of actual entities or instances a linguistic expression refers to within a particular world or context."
+  },
+  "Polysemy": {
+    "short_description": "The phenomenon of single linguistic forms carrying multiple related meanings through conceptual extension and metaphorical mapping."
+  },
+  "Synonymy": {
+    "short_description": "The relationship of semantic equivalence between distinct expressions sharing core conceptual content across contexts."
+  },
+  "Antonymy": {
+    "short_description": "The oppositional relationship between meanings, manifesting as gradable, complementary, or relational contrasts within semantic space."
+  },
+  "Hyponymy": {
+    "short_description": "The hierarchical inclusion relationship between specific and general terms, structuring taxonomies of meaning within lexical fields."
+  },
+  "Metaphor": {
+    "short_description": "The conceptual mapping between distinct domains of experience, creating meaning through unconventional correspondences and associations."
+  },
+  "Idiom": {
+    "short_description": "Conventionalized expressions whose meanings transcend compositional interpretation, encoding cultural knowledge through fixed forms."
+  },
+  "Frame": {
+    "short_description": "Structured packages of knowledge organizing related concepts and their typical relationships within semantic memory."
+  },
+  "Discourse": {
+    "short_description": "Extended linguistic communication creating coherent meaning through sequenced utterances and shared contextual understanding."
+  },
+  "Modality": {
+    "short_description": "The semantic encoding of possibility, necessity, and speaker attitude through linguistic markers and contextual inference."
+  },
+  "Presupposition": {
+    "short_description": "Background assumptions required for meaningful interpretation, remaining constant under negation or questioning of surface content."
+  },
+  "Implicature": {
+    "short_description": "Meaning conveyed through inference rather than direct encoding, relying on cooperative principles of communication and contextual cues."
+  },
+  "Anaphora": {
+    "short_description": "The referential dependency between linguistic elements, maintaining coherence through cross-textual meaning relationships."
+  },
+  "Deixis": {
+    "short_description": "The contextual anchoring of meaning to speaker perspective through spatial, temporal, and personal orientation markers."
+  },
+  "Lexical Field": {
+    "short_description": "A network of related words organized around a conceptual domain, revealing systemic meaning relationships within language."
+  },
+  "Semantic Web": {
+    "short_description": "The interconnected network of meanings formed through associative relationships between linguistic units and conceptual nodes."
+  },
+  "Semiosis": {
+    "short_description": "The dynamic process of meaning creation and interpretation through sign systems, involving continual negotiation between code and context."
+  },
+  "Tropes": {
+    "short_description": "Figurative devices altering literal meaning through creative associations, including metaphor, metonymy, and synecdoche operations."
+  },
+  "Universals": {
+    "short_description": "Cross-linguistic patterns in semantic organization, revealing fundamental constraints and tendencies in human conceptualization."
+  },
+  "Vagueness": {
+    "short_description": "The inherent fuzziness of meaning boundaries in natural language, allowing flexible categorization through prototype-based reasoning."
+  },
+  "Prototype": {
+    "short_description": "The central exemplar or ideal instance within a conceptual category, structuring graded membership in semantic classifications."
+  },
+  "Schema": {
+    "short_description": "Cognitive frameworks organizing knowledge into structured expectations, shaping interpretation and meaning construction."
+  },
+  "Sense Relations": {
+    "short_description": "The systematic connections between lexical meanings that structure semantic networks through opposition, inclusion, and association."
+  }
+}

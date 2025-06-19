@@ -1,0 +1,21 @@
+{
+  "Structured Data Formats": { "quote": "Enforce JSON/XML outputs: 'Return as JSON: { \"key\": \"{{value}}\" }'." },
+  "Delimiters": { "quote": "Use ```triple backticks``` or --- to isolate code/text blocks." },
+  "Markdown Formatting": { "quote": "Specify headers (#), lists (-), or tables: | Column | Description |" },
+  "Controlled Verbosity": { "quote": "'Answer concisely in 3 sentences' limits output length." },
+  "Step-by-Step Reasoning": { "quote": "'Think step by step' forces sequential logic (e.g., Chain-of-Thought)." },
+  "Template Enforcement": { "quote": "Define placeholders: 'Summary: [SUMMARY], Keywords: [KEYWORDS]'." },
+  "Negative Instructions": { "quote": "'Avoid technical jargon' or 'Do not use markdown' restricts formats." },
+  "Style Specification": { "quote": "'Write formally' or 'Use Shakespearean English' tailors tone." },
+  "Language Localization": { "quote": "'Respond in French' or 'Use ISO 8601 dates' aligns regional standards." },
+  "Content Filtering": { "quote": "'Exclude sensitive topics' or 'Cite peer-reviewed sources only'." },
+  "Role Assignment": { "quote": "'Act as a Python developer' primes domain-specific formatting." },
+  "Contextual Formatting": { "quote": "Anchor to input structure: 'Match the bullet style from the input'." },
+  "Token Control": { "quote": "'Limit to 500 tokens' ensures brevity via token truncation." },
+  "Precision Directives": { "quote": "'Use 3 decimal places' or 'Round to nearest integer'." },
+  "Repetition Constraints": { "quote": "'Avoid redundancy' or 'Paraphrase uniquely' minimizes duplication." },
+  "Error Handling": { "quote": "'If unsure, respond \"Insufficient data\"' defines fallbacks." },
+  "Multimodal Output": { "quote": "'Generate SVG code for a bar chart' bridges text/visuals." },
+  "Chain-of-Thought": { "quote": "'Show your work → Final Answer: [boxed]' separates reasoning/results." },
+  "Format Validation": { "quote": "'Validate JSON syntax before returning' ensures machine-readability." }
+}

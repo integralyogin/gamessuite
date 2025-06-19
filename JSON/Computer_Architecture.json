@@ -1,0 +1,131 @@
+{
+  "Computer Architecture": {
+    "short_description": "The structural design and organizational principles governing computational systems, orchestrating the interplay between physical components and abstract logic to manifest information processing."
+  },
+  "Central Processing Unit": {
+    "short_description": "The core orchestrator executing computational commands, transforming instructions into physical reality through coordinated operations across arithmetic and logical dimensions."
+  },
+  "Memory Hierarchy": {
+    "short_description": "The layered structure of data accessibility, balancing immediacy and permanence across ascending levels of abstraction from volatile caches to enduring storage."
+  },
+  "Instruction Set Architecture": {
+    "short_description": "The fundamental lexicon defining permissible operations, establishing the primal covenant between silicon potential and logical actualization."
+  },
+  "Parallel Processing": {
+    "short_description": "The simultaneous execution of computational pathways, achieving harmonic efficiency through coordinated multiplicity of operations across spatial and temporal dimensions."
+  },
+  "Binary Logic": {
+    "short_description": "The essential duality underpinning all computational processes, manifesting through the interplay of presence and absence in electrical form."
+  },
+  "Clock Signal": {
+    "short_description": "The rhythmic pulse synchronizing system operations, imposing temporal order on chaotic potential through regular intervals of certainty."
+  },
+  "Cache Memory": {
+    "short_description": "The anticipatory buffer bridging immediate needs and distant resources, holding probable futures in temporary manifestation."
+  },
+  "Bus System": {
+    "short_description": "The arterial network of communication channels, facilitating the vital exchange of information between system components."
+  },
+  "Microarchitecture": {
+    "short_description": "The hidden pattern underlying processor implementation, translating abstract instruction into physical electron flow through engineered pathways."
+  },
+  "Heat Dissipation": {
+    "short_description": "The necessary dissipation of operational entropy, maintaining system integrity through controlled transformation of energy states."
+  },
+  "Firmware": {
+    "short_description": "The enduring essence of machine consciousness, persisting between power cycles as immutable instruction etched in silicon memory."
+  },
+  "Pipelining": {
+    "short_description": "The sequential refinement of instructions through staged processing, achieving flow efficiency through temporal overlapping of operations."
+  },
+  "Von Neumann Architecture": {
+    "short_description": "The foundational pattern uniting memory and processing, enabling universal computation through stored-program manifestation."
+  },
+  "Hardware Abstraction": {
+    "short_description": "The layered veils separating physical complexity from logical simplicity, enabling focused interaction at successive levels of reality."
+  },
+  "Register File": {
+    "short_description": "The immediate memory of active computation, holding transient truths essential for current transformational operations."
+  },
+  "Interrupt Handling": {
+    "short_description": "The system's capacity for responsive awareness, temporarily suspending current focus to address emergent priorities."
+  },
+  "Semiconductor": {
+    "short_description": "The primal medium enabling computational alchemy, modulating electron flow through controlled impurity and structural design."
+  },
+  "Logic Gate": {
+    "short_description": "The elemental decision nexus transforming input states into output determinations through Boolean manifestation."
+  },
+  "Superscalar Execution": {
+    "short_description": "The simultaneous realization of multiple instructions, exploiting parallel potential within seemingly sequential streams."
+  },
+  "Kernel Space": {
+    "short_description": "The protected realm of core operations, maintaining system integrity through strict separation from transient user interactions."
+  },
+  "Data Path": {
+    "short_description": "The structured flow of information transformation, channeling bits through arithmetic and logical operations to achieve purposeful mutation."
+  },
+  "Redundant Array": {
+    "short_description": "The strategic multiplication of storage elements, achieving resilience through coordinated multiplicity and error distribution."
+  },
+  "Instruction Pipeline": {
+    "short_description": "The segmented refinement process, breaking execution into staged transformations for continuous computational throughput."
+  },
+  "Thermal Design": {
+    "short_description": "The architectural consideration of energy transformation, balancing operational intensity with material constraints of reality."
+  },
+  "Hardware Verification": {
+    "short_description": "The ritual of design validation, ensuring component interactions conform to intended patterns of behavior through rigorous testing."
+  },
+  "Quantum Computing": {
+    "short_description": "The potential transcendence of classical limits, harnessing superposition and entanglement to explore simultaneous computational realities."
+  },
+  "Machine Code": {
+    "short_description": "The primal language of direct execution, encoding human intention into binary patterns comprehensible to silicon."
+  },
+  "Hardware-Software Interface": {
+    "short_description": "The liminal boundary where abstract logic meets physical implementation, mediated through instruction set architecture and system calls."
+  },
+  "Instruction-Level Parallelism": {
+    "short_description": "The hidden concurrency within sequential streams, extracted through analysis and speculative execution of independent operations."
+  },
+  "Memory Addressing": {
+    "short_description": "The system of spatial organization for data storage, creating virtual order from physical distribution through structured access patterns."
+  },
+  "Computational Throughput": {
+    "short_description": "The measure of transformational capacity, quantifying completed operations through temporal and spatial efficiency metrics."
+  },
+  "Error Correction": {
+    "short_description": "The self-healing capacity of robust systems, detecting and repairing information corruption through redundant encoding schemes."
+  },
+  "Hardware Description Language": {
+    "short_description": "The symbolic system for manifesting physical structures, translating abstract designs into manufacturable circuit patterns."
+  },
+  "System-on-Chip": {
+    "short_description": "The condensed unification of computational elements, integrating diverse functions into singular silicon manifestation."
+  },
+  "Input/Output Subsystem": {
+    "short_description": "The sensory apparatus of the machine, mediating interactions between internal processing and external reality."
+  },
+  "Power Distribution": {
+    "short_description": "The energetic lifeblood of computation, carefully regulated and routed to sustain operational integrity across all components."
+  },
+  "Clock Cycle": {
+    "short_description": "The quantum unit of computational time, marking discrete intervals of state transformation synchronized across the system."
+  },
+  "Instruction Decoding": {
+    "short_description": "The interpretation of stored commands, translating symbolic representations into control signals and operational pathways."
+  },
+  "Memory Bandwidth": {
+    "short_description": "The volumetric flow capacity of data channels, determining the rate of information exchange between components."
+  },
+  "Branch Prediction": {
+    "short_description": "The anticipatory execution of probable futures, speculatively pursuing computational paths before their certainty is determined."
+  },
+  "Heat Sink": {
+    "short_description": "The thermodynamic guardian absorbing operational byproducts, preventing system corruption through thermal dissipation."
+  },
+  "Transistor": {
+    "short_description": "The fundamental switch of computational reality, modulating electron flow to manifest binary states through semiconductor properties."
+  }
+}

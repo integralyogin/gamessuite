@@ -1,0 +1,218 @@
+{
+  "Beings": {
+    "ein_code": "1.0"
+  },
+  "Authors": {
+    "ein_code": "1.1"
+  },
+  "Names": {
+    "ein_code": "1.2"
+  },
+  "Persons": {
+    "ein_code": "1.3"
+  },
+  "Humans": {
+   "ein_code": "1.4"
+  },
+  "Archetypes": {
+    "ein_code": "1.4"
+  },
+  "Professions": {
+    "ein_code": "1.5"
+  },
+  "Aspects": {
+    "ein_code": "1.6"
+  },
+  "Formations": {
+    "ein_code": "1.7"
+  },
+  "Entities": {
+    "ein_code": "1.8"
+  },
+  "Titles": {
+    "ein_code": "1.9"
+  },
+  "Adversaries": {
+    "ein_code": "1.10"
+  },
+  "Parts of the Being": {
+    "ein_code": "1.11"
+  },
+   "Existence": {
+    "short_description": "The fact or state of having objective reality and the quality of simply 'being.'"
+  },
+  "Entity": {
+    "short_description": "A discrete unit of being with a distinct identity and independent presence."
+  },
+  "Essence": {
+    "short_description": "The intrinsic nature or indispensable quality that defines what a being truly is."
+  },
+  "Substance": {
+    "short_description": "The material or immaterial fabric that forms the foundation of a being's manifestation."
+  },
+  "Reality": {
+    "short_description": "The totality of all that exists—both tangible and intangible—constituting the realm of being."
+  },
+  "Presence": {
+    "short_description": "The immediate, lived experience of a being as it manifests within a specific space or moment."
+  },
+  "Consciousness": {
+    "short_description": "The reflective aspect of being that encompasses awareness, perception, and intentionality."
+  },
+  "Selfhood": {
+    "short_description": "The individual quality of being that reflects personal identity and subjective experience."
+  },
+  "Soul": {
+    "short_description": "The often immaterial core that animates and imbues a being with life, spirit, or inner depth."
+  },
+  "Nature": {
+    "short_description": "The inherent characteristics or disposition that define and differentiate one being from another."
+  },
+  "Vitality": {
+    "short_description": "The dynamic life force or energy that enlivens a being and drives its continuous evolution."
+  },
+  "Form": {
+    "short_description": "The visible or conceptual shape and structure by which a being is expressed or organized."
+  },
+  "Structure": {
+    "short_description": "The underlying framework or organized arrangement that supports and defines a being's manifestation."
+  },
+  "Manifestation": {
+    "short_description": "The process by which the inner essence of a being becomes perceptible in observable reality."
+  },
+  "Mode": {
+    "short_description": "A particular manner or state in which being is experienced, highlighting diverse ways of existence."
+  },
+  "Ontology": {
+    "short_description": "The philosophical study and categorization of being, addressing questions about existence and reality."
+  },
+  "Totality": {
+    "short_description": "The comprehensive sum of all aspects and elements that contribute to the full spectrum of being."
+  },
+  "Integrity": {
+    "short_description": "The unbroken coherence and wholeness that sustain the true nature and continuity of a being."
+  },
+  "Dimension": {
+    "short_description": "A measurable or conceptual facet that provides a perspective on the scope and depth of being."
+  },
+   "Existence": {
+    "short_description": "The fundamental state of being or reality."
+  },
+  "Entity": {
+    "short_description": "A distinct unit of being with identifiable characteristics."
+  },
+  "Identity": {
+    "short_description": "The unique attributes that define an entity."
+  },
+  "Essence": {
+    "short_description": "The inherent qualities that constitute the nature of being."
+  },
+  "Consciousness": {
+    "short_description": "The state of awareness and perception of existence."
+  },
+  "Form": {
+    "short_description": "The physical or conceptual structure of a being."
+  },
+  "Substance": {
+    "short_description": "The fundamental material or essence of an entity."
+  },
+  "Presence": {
+    "short_description": "The state of being manifest or observable in reality."
+  },
+  "State": {
+    "short_description": "The condition or mode of existence at a given time."
+  },
+  "Dimension": {
+    "short_description": "Aspects or realms in which being manifests."
+  },
+  "Relationship": {
+    "short_description": "Connections and interactions between entities."
+  },
+  "Continuity": {
+    "short_description": "The persistence of being across time or change."
+  },
+  "Transformation": {
+    "short_description": "Processes of change in the nature or form of being."
+  },
+  "Potential": {
+    "short_description": "The latent possibilities inherent in an entity's existence."
+  },
+  "Actuality": {
+    "short_description": "The realized state of being in concrete form."
+  },
+  "Perception": {
+    "short_description": "The recognition or interpretation of existence by consciousness."
+  },
+  "Category": {
+    "short_description": "Classifications of being based on shared characteristics."
+  },
+  "Attribute": {
+    "short_description": "Specific qualities or properties of an entity."
+  },
+  "Boundary": {
+    "short_description": "The limits or delineations of an entity's existence."
+  },
+  "Context": {
+    "short_description": "The circumstances or environment in which a being exists."
+  },
+  "Interaction": {
+    "short_description": "The reciprocal influence between entities or states of being."
+  },
+  "Hierarchy": {
+    "short_description": "Ordered relationships between different levels of being."
+  },
+  "Network": {
+    "short_description": "Interconnected systems of relationships between entities."
+  },
+  "Layer": {
+    "short_description": "Distinct strata or aspects within the structure of being."
+  },
+  "Node": {
+    "short_description": "Points of connection or intersection in networks of being."
+  },
+  "Instance": {
+    "short_description": "Specific occurrences or manifestations of being."
+  },
+  "Evolution": {
+    "short_description": "Patterns of development and change in the nature of being."
+  },
+  "Integration": {
+    "short_description": "The unification or synthesis of different aspects of being."
+  },
+  "Differentiation": {
+    "short_description": "The process by which entities develop distinct characteristics."
+  },
+  "Abstraction": {
+    "short_description": "Generalized representations of the nature of being."
+  },
+  "Manifestation": {
+    "short_description": "The expression or realization of being in observable form."
+  },
+  "Transition": {
+    "short_description": "Movements or shifts between states of being."
+  },
+  "Constraint": {
+    "short_description": "Limitations or conditions that shape the nature of being."
+  },
+  "Extension": {
+    "short_description": "Expansions or elaborations of the scope of being."
+  },
+  "Inheritance": {
+    "short_description": "Transmission of characteristics or essence across entities."
+  },
+  "Dependency": {
+    "short_description": "Relationships where one entity's existence relies on another."
+  },
+  "Autonomy": {
+    "short_description": "The capacity for self-directed existence or identity."
+  },
+  "Interdependence": {
+    "short_description": "Mutual reliance between entities in their existence."
+  },
+  "Coherence": {
+    "short_description": "The unity or consistency of an entity's being."
+  },
+  "Fragmentation": {
+    "short_description": "The division or dispersal of aspects of being."
+  }
+}

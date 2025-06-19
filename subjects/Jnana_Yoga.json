@@ -1,0 +1,615 @@
+[
+  {
+    "id": "subj_jnana_yoga_foundations_001",
+    "title": "Jnana Yoga",
+    "description": "A progressive exploration of Jnana Yoga, the path of knowledge and wisdom, its core philosophies, practices, and goal of liberation.",
+    "sections": [
+      {
+        "heading": "Jnana Yoga Defined",
+        "topic_summary": "Path of discriminative knowledge.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_topic_intro",
+            "summary": "An introduction to Jnana Yoga as one of the primary paths to spiritual liberation in Hindu philosophy, emphasizing the pursuit of wisdom through discriminative knowledge and self-inquiry."
+          }
+        ]
+      },
+      {
+        "heading": "Goal: Moksha",
+        "topic_summary": "Liberation from samsara.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_topic_moksha",
+            "summary": "The ultimate aim of Jnana Yoga: liberation (Moksha) from the cycle of birth and death (samsara) and realization of one's true Self (Atman) as identical with Brahman."
+          }
+        ]
+      },
+      {
+        "heading": "Avidya (Ignorance)",
+        "topic_summary": "Root cause of bondage.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_topic_avidya",
+            "summary": "Spiritual ignorance; the fundamental misapprehension of reality, particularly mistaking the non-Self (ego, body-mind) for the true Self (Atman)."
+          }
+        ]
+      },
+      {
+        "heading": "Maya (Illusion)",
+        "topic_summary": "Cosmic illusory power.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_topic_maya",
+            "summary": "The cosmic power that veils the ultimate reality (Brahman) and projects the appearance of the manifold, illusory world of names and forms."
+          }
+        ]
+      },
+      {
+        "heading": "Brahman",
+        "topic_summary": "Ultimate, Absolute Reality.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_topic_brahman",
+            "summary": "The ultimate, impersonal, and unconditioned Reality in Hinduism; the ground of all existence, often described as Sat-Chit-Ananda."
+          }
+        ]
+      },
+      {
+        "heading": "Atman",
+        "topic_summary": "Individual True Self.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_topic_atman",
+            "summary": "The true, innermost Self of the individual, which is eternal, unchanging, and ultimately identical with Brahman."
+          }
+        ]
+      },
+      {
+        "heading": "Atman is Brahman",
+        "topic_summary": "Identity of Self, Absolute.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_topic_atman_brahman",
+            "summary": "The core realization of Advaita Vedanta: the individual Self (Atman) is non-different from the ultimate Reality (Brahman)."
+          }
+        ]
+      },
+      {
+        "heading": "Neti Neti",
+        "topic_summary": "'Not this, not that'.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_topic_neti_neti",
+            "summary": "A method of inquiry ('not this, not that') used to negate all that is not the Self (Atman/Brahman), leading to the realization of what remains."
+          }
+        ]
+      },
+      {
+        "heading": "Discernment (Viveka)",
+        "topic_summary": "Real from unreal distinction.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_topic_viveka",
+            "summary": "The crucial faculty of discriminating between the eternal (Real, Atman) and the ephemeral (unreal, anātman, world-appearances)."
+          }
+        ]
+      },
+      {
+        "heading": "Dispassion (Vairagya)",
+        "topic_summary": "Detachment from worldly.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_topic_vairagya",
+            "summary": "Non-attachment or indifference to sensual pleasures and worldly objects, arising from the understanding of their impermanent nature."
+          }
+        ]
+      },
+      {
+        "heading": "Upanishads",
+        "topic_summary": "Core Jnana Yoga texts.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_text_upanishads",
+            "summary": "Ancient Sanskrit texts containing central philosophical concepts of Hinduism, forming the foundation of Vedanta and Jnana Yoga."
+          }
+        ]
+      },
+      {
+        "heading": "Brahma Sutras",
+        "topic_summary": "Vedanta aphorisms systematized.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_text_brahma_sutras",
+            "summary": "A Sanskrit text, attributed to Badarayana, that systematizes and summarizes the philosophical and spiritual ideas in the Upanishads."
+          }
+        ]
+      },
+      {
+        "heading": "Bhagavad Gita (Jnana)",
+        "topic_summary": "Knowledge path within Gita.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_text_bhagavad_gita_jnana",
+            "summary": "The aspects of the Bhagavad Gita that emphasize the path of knowledge, self-realization, and understanding the nature of reality."
+          }
+        ]
+      },
+      {
+        "heading": "Advaita Vedanta",
+        "topic_summary": "Non-dualistic philosophy (Shankara).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_school_advaita_vedanta",
+            "summary": "A major school of Vedanta philosophy, most famously expounded by Adi Shankaracharya, asserting the non-dual nature of Brahman and Atman."
+          }
+        ]
+      },
+      {
+        "heading": "Gaudapada's Karika",
+        "topic_summary": "Early Advaita systematic work.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_text_gaudapada_karika",
+            "summary": "An influential text by Gaudapada, often considered a foundational work for Advaita Vedanta, commenting on the Mandukya Upanishad."
+          }
+        ]
+      },
+      {
+        "heading": "Shankara's Commentaries",
+        "topic_summary": "Key Advaita expositions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_text_shankara_commentaries",
+            "summary": "Adi Shankaracharya's extensive commentaries (Bhashyas) on the Upanishads, Brahma Sutras, and Bhagavad Gita, which are seminal texts for Advaita Vedanta."
+          }
+        ]
+      },
+      {
+        "heading": "Ribhu Gita",
+        "topic_summary": "Advaitic text, Self-realization.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_text_ribhu_gita",
+            "summary": "A song of the sage Ribhu, part of the Shivarahasya Purana, expounding non-dual (Advaitic) truth and the path to Self-realization."
+          }
+        ]
+      },
+      {
+        "heading": "Ashtavakra Gita",
+        "topic_summary": "Radical non-dual dialogue.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_text_ashtavakra_gita",
+            "summary": "A classical Advaita Vedanta scripture written as a dialogue between the sage Ashtavakra and King Janaka, known for its direct and uncompromising non-dual teachings."
+          }
+        ]
+      },
+      {
+        "heading": "Avadhuta Gita",
+        "topic_summary": "Song of free soul.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_text_avadhuta_gita",
+            "summary": "A text of Advaita Vedanta attributed to Dattatreya, expressing the state and wisdom of an Avadhuta (a liberated, unconventional sage)."
+          }
+        ]
+      },
+      {
+        "heading": "Three States (Avasthas)",
+        "topic_summary": "Waking, Dream, Deep Sleep.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_three_states",
+            "summary": "The three ordinary states of consciousness (Jagrat - waking, Svapna - dreaming, Sushupti - deep dreamless sleep) analyzed in Vedanta to point to the underlying Witness."
+          }
+        ]
+      },
+      {
+        "heading": "Turiya",
+        "topic_summary": "The Fourth, transcendent state.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_turiya",
+            "summary": "The 'fourth' state of consciousness, beyond the three ordinary states; pure awareness, the Witness, the nature of Atman."
+          }
+        ]
+      },
+      {
+        "heading": "Self-Inquiry (Atma Vichara)",
+        "topic_summary": "Investigating 'Who am I?'.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_practice_atma_vichara",
+            "summary": "The practice of investigating the nature of the 'I'-thought or ego-sense, typically by persistently asking 'Who am I?', to trace it back to its source in the Self (Atman)."
+          }
+        ]
+      },
+      {
+        "heading": "Nature of Mind (Manas)",
+        "topic_summary": "Thought-constructs, instrument.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_nature_of_mind",
+            "summary": "Understanding the mind as a flow of thoughts, an instrument of perception and cognition, but not the true Self; its tendencies and how to transcend them."
+          }
+        ]
+      },
+      {
+        "heading": "Ego (Ahamkara)",
+        "topic_summary": "I-maker, false identification.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_ahamkara",
+            "summary": "The principle of 'I-making' or ego-sense; the identification of the Self with the limited body-mind complex, which is the root of bondage."
+          }
+        ]
+      },
+      {
+        "heading": "Intellect (Buddhi)",
+        "topic_summary": "Discriminative, reasoning faculty.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_buddhi",
+            "summary": "The higher mental faculty of discrimination, reason, judgment, and decision-making; when purified, it aids in discerning the Real."
+          }
+        ]
+      },
+      {
+        "heading": "Witness (Sakshi)",
+        "topic_summary": "Observing, detached consciousness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_sakshi",
+            "summary": "The pure, detached awareness that observes all mental and physical phenomena without involvement or identification; a key aspect of Atman."
+          }
+        ]
+      },
+      {
+        "heading": "Bondage (Bandha)",
+        "topic_summary": "Perceived limitation, suffering.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_bondage",
+            "summary": "The state of perceived limitation, suffering, and entrapment in the cycle of samsara, arising from ignorance (avidya) of one's true nature."
+          }
+        ]
+      },
+      {
+        "heading": "Karma & Jnana",
+        "topic_summary": "Action's role in knowledge.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_karma_jnana",
+            "summary": "The relationship between action (Karma) and knowledge (Jnana); often, selfless action purifies the mind, making it fit for the path of knowledge."
+          }
+        ]
+      },
+      {
+        "heading": "Sadhana Chatushtaya",
+        "topic_summary": "Fourfold means to liberation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_practice_sadhana_chatushtaya",
+            "summary": "The 'fourfold qualification' or means prescribed in Vedanta for a spiritual aspirant: Viveka, Vairagya, Shatsampat, and Mumukshutva."
+          }
+        ]
+      },
+      {
+        "heading": "Shatsampat",
+        "topic_summary": "Six virtues/accomplishments.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_practice_shatsampat",
+            "summary": "The 'six treasures' or virtues: Shama (mental quietude), Dama (sense control), Uparati (cessation/withdrawal), Titiksha (forbearance), Shraddha (faith), Samadhana (concentration)."
+          }
+        ]
+      },
+      {
+        "heading": "Shama",
+        "topic_summary": "Tranquility of mind.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_virtue_shama",
+            "summary": "Calmness or tranquility of the mind, achieved by detaching from desires and mental agitations."
+          }
+        ]
+      },
+      {
+        "heading": "Dama",
+        "topic_summary": "Control of senses.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_virtue_dama",
+            "summary": "Control or restraint of the outer sense organs, preventing them from pursuing external objects."
+          }
+        ]
+      },
+      {
+        "heading": "Uparati",
+        "topic_summary": "Cessation from worldly action.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_virtue_uparati",
+            "summary": "Cessation from worldly activities or distractions; self-withdrawal and independence from external dependencies."
+          }
+        ]
+      },
+      {
+        "heading": "Titiksha",
+        "topic_summary": "Forbearance, endurance.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_virtue_titiksha",
+            "summary": "The capacity to endure all afflictions and dualities (pleasure/pain, heat/cold) without agitation or complaint."
+          }
+        ]
+      },
+      {
+        "heading": "Shraddha",
+        "topic_summary": "Faith in scriptures/Guru.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_virtue_shraddha",
+            "summary": "Faith or trust in the teachings of the scriptures and the words of the Guru, essential for steady progress."
+          }
+        ]
+      },
+      {
+        "heading": "Samadhana",
+        "topic_summary": "Single-pointed concentration.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_virtue_samadhana",
+            "summary": "Deep concentration or single-pointedness of the mind, keeping it steadily focused on the goal."
+          }
+        ]
+      },
+      {
+        "heading": "Mumukshutva",
+        "topic_summary": "Burning desire for liberation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_practice_mumukshutva",
+            "summary": "An intense, burning desire or yearning for Moksha (liberation) from the cycle of samsara."
+          }
+        ]
+      },
+      {
+        "heading": "Shravana",
+        "topic_summary": "Hearing spiritual teachings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_method_shravana",
+            "summary": "The practice of systematically hearing or studying the sacred texts (especially Upanishads) under the guidance of a qualified Guru."
+          }
+        ]
+      },
+      {
+        "heading": "Manana",
+        "topic_summary": "Reflection on teachings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_method_manana",
+            "summary": "Deep intellectual reflection and contemplation upon the truths heard or read, to remove doubts and gain conviction."
+          }
+        ]
+      },
+      {
+        "heading": "Nididhyasana",
+        "topic_summary": "Profound meditation on Truth.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_method_nididhyasana",
+            "summary": "Deep and sustained meditation on the non-dual Reality (Brahman/Atman) to directly realize the truth established through shravana and manana."
+          }
+        ]
+      },
+      {
+        "heading": "Aham Brahmasmi",
+        "topic_summary": "'I am Brahman' affirmation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_mahavakya_aham_brahmasmi",
+            "summary": "One of the Mahavakyas ('Great Sayings') from the Upanishads, meaning 'I am Brahman,' used for affirmation and realization of non-duality."
+          }
+        ]
+      },
+      {
+        "heading": "Tat Tvam Asi",
+        "topic_summary": "'That Thou Art' teaching.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_mahavakya_tat_tvam_asi",
+            "summary": "Another Mahavakya, meaning 'That Thou Art,' asserting the identity of the individual self (tvam/Atman) with the ultimate Reality (tat/Brahman)."
+          }
+        ]
+      },
+      {
+        "heading": "Mahavakyas",
+        "topic_summary": "Great Upanishadic utterances.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_mahavakyas",
+            "summary": "The 'Great Sayings' of the Upanishads that encapsulate the highest Vedantic truths, often used as objects of contemplation."
+          }
+        ]
+      },
+      {
+        "heading": "Samadhi",
+        "topic_summary": "Meditative absorption, trance.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_state_samadhi",
+            "summary": "A state of profound meditative absorption or trance where the mind becomes completely still and identified with the object of meditation or pure consciousness."
+          }
+        ]
+      },
+      {
+        "heading": "Nirvikalpa Samadhi",
+        "topic_summary": "Absorption without thought.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_state_nirvikalpa_samadhi",
+            "summary": "The highest state of Samadhi, characterized by complete cessation of thought and absorption in formless, undifferentiated Reality."
+          }
+        ]
+      },
+      {
+        "heading": "Sahaja Samadhi",
+        "topic_summary": "Natural, continuous realization.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_state_sahaja_samadhi",
+            "summary": "The state of natural, effortless, and continuous Self-realization, maintained even amidst worldly activities; the state of a Jivanmukta."
+          }
+        ]
+      },
+      {
+        "heading": "Jivanmukta",
+        "topic_summary": "Liberated while living.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_jivanmukta",
+            "summary": "One who has attained liberation (Moksha) and Self-realization while still living in a physical body."
+          }
+        ]
+      },
+      {
+        "heading": "Videhamukta",
+        "topic_summary": "Liberation after body's death.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_concept_videhamukta",
+            "summary": "Liberation achieved at or after the death of the physical body, where the individual self merges completely with Brahman without future rebirth."
+          }
+        ]
+      },
+      {
+        "heading": "Spiritual Ego",
+        "topic_summary": "Pride in spiritual attainment.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_pitfall_spiritual_ego",
+            "summary": "A subtle form of egoism characterized by pride, superiority, or attachment related to one's spiritual progress or experiences."
+          }
+        ]
+      },
+      {
+        "heading": "Adi Shankaracharya",
+        "topic_summary": "Foremost Advaita philosopher.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_figure_shankara",
+            "summary": "An early Indian philosopher and theologian who consolidated the doctrine of Advaita Vedanta and is credited with unifying and establishing the main currents of thought in Hinduism."
+          }
+        ]
+      },
+      {
+        "heading": "Ramana Maharshi",
+        "topic_summary": "Sage of Self-Inquiry.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_figure_ramana",
+            "summary": "A renowned Indian sage of the 20th century who taught the path of Self-Inquiry ('Who am I?') as the most direct means to Self-realization."
+          }
+        ]
+      },
+      {
+        "heading": "Nisargadatta Maharaj",
+        "topic_summary": "Advaitin teacher, 'I Am That'.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_figure_nisargadatta",
+            "summary": "An Indian spiritual teacher and philosopher of Advaita (Nondualism), known for his direct and impactful teachings, compiled in the book 'I Am That'."
+          }
+        ]
+      },
+      {
+        "heading": "Jnana & Bhakti",
+        "topic_summary": "Knowledge and devotion paths.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_relation_bhakti",
+            "summary": "Exploring the relationship and potential integration of the path of knowledge (Jnana) with the path of devotion (Bhakti)."
+          }
+        ]
+      },
+      {
+        "heading": "Jnana & Karma",
+        "topic_summary": "Knowledge and action paths.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_relation_karma",
+            "summary": "Understanding how the path of knowledge (Jnana) relates to and can be supported by the path of selfless action (Karma Yoga)."
+          }
+        ]
+      },
+      {
+        "heading": "Neo-Vedanta",
+        "topic_summary": "Modern interpretations of Vedanta.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "jy_school_neo_vedanta",
+            "summary": "Modern interpretations and adaptations of Vedanta philosophy, often seeking to reconcile traditional teachings with contemporary thought and science."
+          }
+        ]
+      }
+    ]
+  }
+]
+

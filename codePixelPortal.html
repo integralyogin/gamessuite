@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Portal - Enchanted Spiral</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        #gameContainer {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        #instructions {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            background-color: rgba(0,0,0,0.7);
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer"></div>
+    <div id="instructions">Move your mouse to interact with the portal. Click to enter.</div>
+
+    <script>
+        const PixelPortalGame = {
+            id: 'PixelPortalGame',
+            gameContainer: null,
+            successCallback: null,
+            failureCallback: null,
+            sharedData: null,
+
+            // Three.js components
+            scene: null,
+            camera: null,
+            renderer: null,
+            portalParticles: null,
+            raycaster: null,
+            mouse: null,
+            animationFrameId: null,
+            clock: null, // For time-based animations like breathing
+
+            // Trail effect components
+            trailScene: null,
+            trailCamera: null,
+            trailMaterial: null,
+            trailPlane: null,
+
+            // Particle properties
+            particleInitialHues: [], 
+            particleBaseOpacities: [], // Store base opacity for variation
+
+            // Animation and interaction parameters
+            globalHueShift: 0, 
+            rotationSpeed: 0.008, 
+            mouseInfluenceFactor: 0.08,
+            trailFadeOpacity: 0.035, // << DECREASED FURTHER for stronger comet tails
+            particleMinSize: 0.06, 
+            particleMaxSize: 0.14, 
+            breathingSpeed: 0.4, 
+            breathingMagnitude: 0.05,
+
+            // --- Initialization and Teardown ---
+            init: function(containerId, successCallback, failureCallback, sharedData) {
+                this.gameContainer = document.getElementById(containerId);
+                if (!this.gameContainer) {
+                    console.error("PixelPortalGame: Container '" + containerId + "' not found!");
+                    if (failureCallback) failureCallback("Container not found");
+                    return;
+                }
+
+                this.successCallback = successCallback;
+                this.failureCallback = failureCallback;
+                this.sharedData = sharedData;
+                this.particleInitialHues = [];
+                this.particleBaseOpacities = [];
+                this.clock = new THREE.Clock();
+
+
+                console.log("PixelPortalGame: Initializing (Enchanted Spiral with Stronger Comet Tails)...");
+
+                this._setupThreeJS();
+                this._setupTrailEffect();
+                this._createPortal();
+                this._setupEventListeners();
+                this._animate();
+            },
+
+            destroy: function() {
+                console.log("PixelPortalGame: Destroying...");
+                this._removeEventListeners();
+                if (this.animationFrameId) {
+                    cancelAnimationFrame(this.animationFrameId);
+                }
+
+                if (this.trailMaterial) this.trailMaterial.dispose();
+                if (this.trailPlane && this.trailPlane.geometry) this.trailPlane.geometry.dispose();
+                
+                if (this.renderer) {
+                    this.renderer.autoClear = true;
+                    this.renderer.dispose();
+                    if (this.renderer.domElement.parentNode) {
+                         this.renderer.domElement.parentNode.removeChild(this.renderer.domElement);
+                    }
+                }
+                if (this.scene) {
+                    this.scene.traverse(object => {
+                        if (object.geometry) object.geometry.dispose();
+                        if (object.material) {
+                            if (Array.isArray(object.material)) {
+                                object.material.forEach(material => material.dispose());
+                            } else {
+                                object.material.dispose();
+                            }
+                        }
+                    });
+                }
+                 if (this.gameContainer) {
+                    this.gameContainer.innerHTML = '';
+                }
+                
+                const preservedId = this.id;
+                Object.keys(this).forEach(key => {
+                    if (typeof this[key] !== 'function') {
+                        this[key] = null;
+                    }
+                });
+                this.id = preservedId;
+                this.successCallback = typeof this.successCallback === 'function' ? this.successCallback : () => {};
+                this.failureCallback = typeof this.failureCallback === 'function' ? this.failureCallback : () => {};
+                this.particleInitialHues = [];
+                this.particleBaseOpacities = [];
+
+
+                console.log("PixelPortalGame: Destroyed.");
+            },
+
+            // --- Three.js Setup ---
+            _setupThreeJS: function() {
+                const width = this.gameContainer.clientWidth;
+                const height = this.gameContainer.clientHeight;
+
+                this.scene = new THREE.Scene();
+                this.camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
+                this.camera.position.z = 2.3; 
+
+                this.renderer = new THREE.WebGLRenderer({ antialias: true });
+                this.renderer.setSize(width, height);
+                this.renderer.setPixelRatio(window.devicePixelRatio);
+                this.renderer.autoClear = false; 
+                this.gameContainer.appendChild(this.renderer.domElement);
+
+                this.raycaster = new THREE.Raycaster();
+                this.mouse = new THREE.Vector2();
+                this.raycaster.params.Points.threshold = (this.particleMinSize + this.particleMaxSize) / 2 * 1.5;
+            },
+
+            _setupTrailEffect: function() {
+                this.trailScene = new THREE.Scene();
+                this.trailCamera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
+                this.trailMaterial = new THREE.MeshBasicMaterial({
+                    color: 0x000000,
+                    transparent: true,
+                    opacity: this.trailFadeOpacity 
+                });
+                const trailPlaneGeometry = new THREE.PlaneGeometry(2, 2);
+                this.trailPlane = new THREE.Mesh(trailPlaneGeometry, this.trailMaterial);
+                this.trailScene.add(this.trailPlane);
+            },
+
+            // --- Portal Creation ---
+            _createPortal: function() {
+                const particleCount = 2200; 
+                const particlesGeometry = new THREE.BufferGeometry();
+                const positions = [];
+                const colors = [];
+                const sizes = []; 
+                const opacities = []; 
+
+                const baseColor = new THREE.Color();
+                const portalRadius = 1.75; 
+
+                this.particleInitialHues = []; 
+                this.particleBaseOpacities = [];
+
+                for (let i = 0; i < particleCount; i++) {
+                    const randomAngle = Math.random() * Math.PI * 2;
+                    const normalizedRadius = Math.sqrt(Math.random()); 
+                    const r = portalRadius * normalizedRadius; 
+                    
+                    const x = Math.cos(randomAngle) * r;
+                    const y = Math.sin(randomAngle) * r;
+                    positions.push(x, y, (Math.random() - 0.5) * 0.02);
+                    
+                    const angleHue = randomAngle / (Math.PI * 2);
+                    this.particleInitialHues.push(angleHue);
+                    
+                    const finalInitialHue = (angleHue + (Math.random() - 0.5) * 0.02) % 1; 
+                    
+                    baseColor.setHSL(finalInitialHue, 1.0, 0.65); 
+                    colors.push(baseColor.r, baseColor.g, baseColor.b);
+
+                    const particleSize = this.particleMinSize + (this.particleMaxSize - this.particleMinSize) * normalizedRadius;
+                    sizes.push(particleSize);
+
+                    const baseOpacity = 0.75 + Math.random() * 0.2; 
+                    this.particleBaseOpacities.push(baseOpacity);
+                    opacities.push(baseOpacity);
+                }
+
+                particlesGeometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
+                particlesGeometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+                particlesGeometry.setAttribute('size', new THREE.Float32BufferAttribute(sizes, 1));
+                particlesGeometry.setAttribute('alpha', new THREE.Float32BufferAttribute(opacities, 1));
+
+
+                const particleMaterial = new THREE.ShaderMaterial({
+                    uniforms: {
+                        pointTexture: { value: new THREE.TextureLoader().load( 'https://threejs.org/examples/textures/sprites/disc.png' ) } 
+                    },
+                    vertexShader: `
+                        attribute float size;
+                        attribute float alpha;
+                        varying vec3 vColor;
+                        varying float vAlpha;
+                        void main() {
+                            vColor = color; 
+                            vAlpha = alpha;
+                            vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+                            gl_PointSize = size * ( 300.0 / -mvPosition.z ); 
+                            gl_Position = projectionMatrix * mvPosition;
+                        }
+                    `,
+                    fragmentShader: `
+                        uniform sampler2D pointTexture;
+                        varying vec3 vColor;
+                        varying float vAlpha;
+                        void main() {
+                            gl_FragColor = vec4( vColor, vAlpha );
+                            gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
+                        }
+                    `,
+                    blending: THREE.AdditiveBlending,
+                    depthWrite: false,
+                    transparent: true,
+                    vertexColors: true 
+                });
+
+
+                this.portalParticles = new THREE.Points(particlesGeometry, particleMaterial);
+                this.scene.add(this.portalParticles);
+            },
+
+            // --- Animation Loop ---
+            _animate: function() {
+                this.animationFrameId = requestAnimationFrame(this._animate.bind(this));
+                const elapsedTime = this.clock.getElapsedTime();
+
+                this.renderer.render(this.trailScene, this.trailCamera);
+                this.renderer.clearDepth();
+
+                if (this.portalParticles) {
+                    this.portalParticles.rotation.z += this.rotationSpeed;
+                    
+                    const scaleFactor = 1.0 + Math.sin(elapsedTime * this.breathingSpeed) * this.breathingMagnitude;
+                    this.portalParticles.scale.set(scaleFactor, scaleFactor, scaleFactor);
+
+                    this.globalHueShift = (this.globalHueShift + 0.002) % 1; 
+                    
+                    const particleColors = this.portalParticles.geometry.attributes.color;
+                    const particleAlphas = this.portalParticles.geometry.attributes.alpha;
+                    const tempColor = new THREE.Color();
+
+                    for (let i = 0; i < particleColors.count / 3; i++) { 
+                        const currentHue = (this.globalHueShift + this.particleInitialHues[i]) % 1; 
+                        
+                        const lightness = 0.5 + Math.sin(elapsedTime * 2.0 + i * 0.5) * 0.2 + Math.random() * 0.1;
+                        tempColor.setHSL(currentHue, 1.0, Math.max(0.3, Math.min(0.8, lightness))); 
+                        
+                        particleColors.setXYZ(i, tempColor.r, tempColor.g, tempColor.b);
+                        
+                        particleAlphas.setX(i, this.particleBaseOpacities[i] * (0.7 + Math.sin(elapsedTime * 1.5 + i * 0.8) * 0.3));
+                    }
+                    particleColors.needsUpdate = true;
+                    particleAlphas.needsUpdate = true;
+                }
+                
+                this.renderer.render(this.scene, this.camera);
+            },
+
+            // --- Event Handling ---
+            _setupEventListeners: function() {
+                this.boundOnMouseMove = this._onMouseMove.bind(this);
+                this.boundOnClick = this._onClick.bind(this);
+                this.boundOnResize = this._onWindowResize.bind(this);
+
+                this.gameContainer.addEventListener('mousemove', this.boundOnMouseMove);
+                this.gameContainer.addEventListener('click', this.boundOnClick);
+                window.addEventListener('resize', this.boundOnResize);
+            },
+
+            _removeEventListeners: function() {
+                if (this.gameContainer) {
+                    this.gameContainer.removeEventListener('mousemove', this.boundOnMouseMove);
+                    this.gameContainer.removeEventListener('click', this.boundOnClick);
+                }
+                window.removeEventListener('resize', this.boundOnResize);
+            },
+
+            _onMouseMove: function(event) {
+                if (!this.portalParticles || !this.camera || !this.gameContainer) return;
+                const rect = this.gameContainer.getBoundingClientRect();
+                this.mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+                this.mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+
+                const targetRotationX = -this.mouse.y * this.mouseInfluenceFactor;
+                const targetRotationY = this.mouse.x * this.mouseInfluenceFactor;
+                this.portalParticles.rotation.x += (targetRotationX - this.portalParticles.rotation.x) * 0.05;
+                this.portalParticles.rotation.y += (targetRotationY - this.portalParticles.rotation.y) * 0.05;
+            },
+
+            _onClick: function(event) {
+                if (!this.camera || !this.scene || !this.portalParticles || !this.gameContainer) return;
+                const rect = this.gameContainer.getBoundingClientRect();
+                this.mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+                this.mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+
+                this.raycaster.setFromCamera(this.mouse, this.camera);
+                const intersects = this.raycaster.intersectObject(this.portalParticles);
+
+                if (intersects.length > 0) {
+                    console.log("PixelPortalGame: Portal clicked!");
+                    this._portalClickedEffect(); 
+                    if (this.successCallback) {
+                        setTimeout(() => {
+                           this.successCallback({ portalEntered: true, gameId: this.id });
+                        }, 800); 
+                    }
+                }
+            },
+            
+            _portalClickedEffect: function() {
+                if (!this.portalParticles) return;
+                const targetScaleFactor = 1.6; 
+                let currentStep = 0;
+                const totalSteps = 45; 
+                const originalRotationSpeed = this.rotationSpeed;
+                this.rotationSpeed *= 8; 
+                
+                const originalTrailFade = this.trailMaterial.opacity;
+                this.trailMaterial.opacity = Math.min(1.0, originalTrailFade * 3.5); 
+
+
+                function animateEffect() {
+                    currentStep++;
+                    const progress = currentStep / totalSteps;
+                    const baseScale = this.portalParticles.scale.x; 
+                    const clickEffectScale = baseScale + (targetScaleFactor -1) * Math.sin(progress * Math.PI * 0.5) * baseScale; 
+                    this.portalParticles.scale.set(clickEffectScale, clickEffectScale, clickEffectScale);
+                    
+                    const colors = this.portalParticles.geometry.attributes.color;
+                    const flashColor = new THREE.Color(0xffffff);
+                    for (let i = 0; i < colors.count / 3 ; i++) { 
+                        const p = Math.min(1, progress * 3); 
+                        colors.setXYZ(
+                            i,
+                            colors.getX(i) + (flashColor.r - colors.getX(i)) * p,
+                            colors.getY(i) + (flashColor.g - colors.getY(i)) * p,
+                            colors.getZ(i) + (flashColor.b - colors.getZ(i)) * p
+                        );
+                    }
+                    colors.needsUpdate = true;
+
+                    if (currentStep < totalSteps) {
+                        requestAnimationFrame(animateEffect.bind(this));
+                    } else {
+                        this.rotationSpeed = originalRotationSpeed;
+                        this.trailMaterial.opacity = originalTrailFade; 
+                    }
+                }
+                requestAnimationFrame(animateEffect.bind(this));
+            },
+
+            _onWindowResize: function() {
+                if (!this.camera || !this.renderer || !this.gameContainer) return;
+                const width = this.gameContainer.clientWidth;
+                const height = this.gameContainer.clientHeight;
+                this.camera.aspect = width / height;
+                this.camera.updateProjectionMatrix();
+                this.renderer.setSize(width, height);
+            }
+        };
+
+        // --- Game Initialization Example ---
+        window.onload = () => {
+            PixelPortalGame.init(
+                'gameContainer',
+                (data) => {
+                    console.log("Game Succeeded:", data);
+                    document.getElementById('instructions').textContent = 'Portal Entered! The enchantment unfolds...';
+                },
+                (error) => {
+                    console.error("Game Failed:", error);
+                    document.getElementById('instructions').textContent = 'Error: The magic fizzled!';
+                },
+                null
+            );
+        };
+    </script>
+</body>
+</html>
+

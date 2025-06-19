@@ -1,0 +1,582 @@
+[
+  {
+    "id": "subj_psychotherapy_foundations_001",
+    "title": "Psychotherapy: Understanding Mind & Healing",
+    "description": "A progressive exploration of psychotherapeutic theories, approaches, techniques, and ethical considerations for mental health and well-being.",
+    "sections": [
+      {
+        "heading": "Psychotherapy Defined",
+        "topic_summary": "Healing through talk therapy.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_intro",
+            "summary": "An overview of psychotherapy as a collaborative treatment based on the relationship between an individual and a psychologist or therapist, aimed at improving mental health and well-being."
+          }
+        ]
+      },
+      {
+        "heading": "History of Psychotherapy",
+        "topic_summary": "Evolution of talk therapies.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_history",
+            "summary": "A brief overview of the historical development of psychotherapy, from early philosophical roots and psychoanalysis to modern evidence-based approaches."
+          }
+        ]
+      },
+      {
+        "heading": "Goals of Psychotherapy",
+        "topic_summary": "Alleviating distress, fostering growth.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_goals",
+            "summary": "Common aims of psychotherapy, including symptom relief, improved interpersonal relationships, personal growth, increased self-awareness, and better coping mechanisms."
+          }
+        ]
+      },
+      {
+        "heading": "Therapeutic Alliance",
+        "topic_summary": "Client-therapist collaborative bond.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_alliance",
+            "summary": "The trusting and collaborative relationship between a therapist and a client, considered a crucial factor for successful therapy outcomes across modalities."
+          }
+        ]
+      },
+      {
+        "heading": "Ethical Principles",
+        "topic_summary": "Guiding professional conduct.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_ethics",
+            "summary": "Core ethical guidelines for psychotherapists, including confidentiality, informed consent, competence, beneficence, non-maleficence, and maintaining professional boundaries."
+          }
+        ]
+      },
+      {
+        "heading": "Confidentiality",
+        "topic_summary": "Protecting client privacy.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_confidentiality",
+            "summary": "The ethical and legal obligation of therapists to keep client information private, with specific limits and exceptions (e.g., harm to self/others)."
+          }
+        ]
+      },
+      {
+        "heading": "Informed Consent",
+        "topic_summary": "Client agreement to treatment.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_informed_consent",
+            "summary": "The process of providing clients with adequate information about the therapy process, risks, benefits, and alternatives, enabling them to make an autonomous decision about participation."
+          }
+        ]
+      },
+      {
+        "heading": "Psychoanalytic Theory",
+        "topic_summary": "Freud, unconscious conflicts.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_psychoanalysis_theory",
+            "summary": "Sigmund Freud's theory emphasizing the influence of unconscious drives, early childhood experiences, and defense mechanisms on behavior and psychological problems."
+          }
+        ]
+      },
+      {
+        "heading": "Psychodynamic Therapy",
+        "topic_summary": "Exploring unconscious patterns.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_psychodynamic",
+            "summary": "A therapeutic approach derived from psychoanalysis, focusing on understanding how unconscious thoughts and past experiences shape current behavior and relationships."
+          }
+        ]
+      },
+      {
+        "heading": "Behavioral Therapy",
+        "topic_summary": "Changing maladaptive behaviors.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_behavioral",
+            "summary": "A therapeutic approach focused on identifying and changing observable maladaptive behaviors through learning principles like conditioning and reinforcement."
+          }
+        ]
+      },
+      {
+        "heading": "Cognitive Therapy",
+        "topic_summary": "Modifying thought patterns.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_cognitive",
+            "summary": "A therapeutic approach focused on identifying and changing dysfunctional or negative thought patterns that contribute to emotional distress and maladaptive behavior."
+          }
+        ]
+      },
+      {
+        "heading": "CBT",
+        "topic_summary": "Cognitive Behavioral Therapy.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_cbt",
+            "summary": "A widely used, evidence-based approach combining cognitive and behavioral techniques to address thoughts, feelings, and behaviors."
+          }
+        ]
+      },
+      {
+        "heading": "Humanistic Therapy",
+        "topic_summary": "Focus on self-actualization.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_humanistic",
+            "summary": "An approach emphasizing personal growth, self-actualization, free will, and the individual's inherent capacity for positive change (e.g., Person-Centered Therapy, Gestalt)."
+          }
+        ]
+      },
+      {
+        "heading": "Person-Centered Therapy",
+        "topic_summary": "Rogers; empathy, genuineness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_person_centered",
+            "summary": "Developed by Carl Rogers, this approach emphasizes empathy, unconditional positive regard, and genuineness from the therapist to facilitate client growth."
+          }
+        ]
+      },
+      {
+        "heading": "Gestalt Therapy",
+        "topic_summary": "Perls; awareness, whole self.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_gestalt",
+            "summary": "Developed by Fritz Perls, focusing on present-moment awareness, personal responsibility, and integrating different aspects of the self into a whole."
+          }
+        ]
+      },
+      {
+        "heading": "Existential Therapy",
+        "topic_summary": "Meaning, freedom, responsibility.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_existential",
+            "summary": "A philosophical approach focusing on universal human concerns like death, freedom, isolation, and meaninglessness, helping clients find meaning and take responsibility."
+          }
+        ]
+      },
+      {
+        "heading": "Family Systems Therapy",
+        "topic_summary": "Viewing family as unit.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_family_systems",
+            "summary": "An approach that views the family as an emotional unit and uses systems thinking to understand complex interactions and relationship patterns."
+          }
+        ]
+      },
+      {
+        "heading": "Group Therapy",
+        "topic_summary": "Healing in group setting.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_group_therapy",
+            "summary": "A form of psychotherapy where one or more therapists treat a small group of clients together, leveraging group dynamics for therapeutic benefit."
+          }
+        ]
+      },
+      {
+        "heading": "Mindfulness-Based Therapies",
+        "topic_summary": "Present moment awareness focus.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_mindfulness_based",
+            "summary": "Approaches integrating mindfulness meditation practices to help clients develop present-moment awareness and non-judgmental acceptance (e.g., MBSR, MBCT)."
+          }
+        ]
+      },
+      {
+        "heading": "DBT",
+        "topic_summary": "Dialectical Behavior Therapy.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_dbt",
+            "summary": "A cognitive-behavioral therapy developed by Marsha Linehan, primarily for borderline personality disorder, emphasizing emotion regulation, distress tolerance, and interpersonal effectiveness."
+          }
+        ]
+      },
+      {
+        "heading": "ACT",
+        "topic_summary": "Acceptance & Commitment Therapy.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_act",
+            "summary": "A therapy approach that uses acceptance and mindfulness strategies, together with commitment and behavior-change strategies, to increase psychological flexibility."
+          }
+        ]
+      },
+      {
+        "heading": "EMDR",
+        "topic_summary": "Eye Movement Desensitization.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_emdr",
+            "summary": "Eye Movement Desensitization and Reprocessing, a psychotherapy developed to alleviate distress associated with traumatic memories."
+          }
+        ]
+      },
+      {
+        "heading": "Solution-Focused Therapy",
+        "topic_summary": "Focus on solutions, not problems.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_solution_focused",
+            "summary": "A brief therapy approach that focuses on clients' strengths and future goals, emphasizing solutions rather than dwelling on problems."
+          }
+        ]
+      },
+      {
+        "heading": "Narrative Therapy",
+        "topic_summary": "Reshaping personal stories.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_narrative_therapy",
+            "summary": "A respectful, non-blaming approach that views people as separate from their problems and helps them re-author their life stories."
+          }
+        ]
+      },
+      {
+        "heading": "Interpersonal Therapy (IPT)",
+        "topic_summary": "Focus on relationships.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_ipt",
+            "summary": "A time-limited therapy that focuses on interpersonal relationships and social functioning as a way to alleviate psychological distress."
+          }
+        ]
+      },
+      {
+        "heading": "Attachment Theory",
+        "topic_summary": "Early bonds impact later life.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_attachment_theory",
+            "summary": "A psychological model (Bowlby, Ainsworth) describing the dynamics of long-term interpersonal relationships, particularly between a child and caregiver, and its impact on development."
+          }
+        ]
+      },
+      {
+        "heading": "Trauma-Informed Care",
+        "topic_summary": "Understanding trauma's impact.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_trauma_informed",
+            "summary": "An approach to service delivery that recognizes and responds to the widespread impact of trauma, emphasizing physical, psychological, and emotional safety."
+          }
+        ]
+      },
+      {
+        "heading": "Psychological Assessment",
+        "topic_summary": "Evaluating mental functioning.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_assessment_psych",
+            "summary": "The process of using tests, interviews, and observations to understand a person's psychological functioning, diagnose conditions, and inform treatment planning."
+          }
+        ]
+      },
+      {
+        "heading": "Diagnosis (DSM/ICD)",
+        "topic_summary": "Classifying mental disorders.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_diagnosis",
+            "summary": "The process of identifying and classifying mental health disorders based on standardized criteria, such as those in the DSM (Diagnostic and Statistical Manual) or ICD (International Classification of Diseases)."
+          }
+        ]
+      },
+      {
+        "heading": "Case Formulation",
+        "topic_summary": "Understanding client's problems.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_case_formulation",
+            "summary": "A hypothesis about the psychological mechanisms that cause and maintain an individual's problems, guiding the therapeutic approach."
+          }
+        ]
+      },
+      {
+        "heading": "Treatment Planning",
+        "topic_summary": "Developing therapy roadmap.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_treatment_planning",
+            "summary": "The process of collaboratively developing specific, measurable, achievable, relevant, and time-bound (SMART) goals and strategies for therapy."
+          }
+        ]
+      },
+      {
+        "heading": "Transference",
+        "topic_summary": "Client feelings onto therapist.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_transference",
+            "summary": "In psychoanalysis, the redirection of a patient's feelings from a significant person in their past to the therapist."
+          }
+        ]
+      },
+      {
+        "heading": "Countertransference",
+        "topic_summary": "Therapist feelings onto client.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_countertransference",
+            "summary": "The therapist's emotional reaction to the client, often stemming from the therapist's own unresolved issues or experiences."
+          }
+        ]
+      },
+      {
+        "heading": "Defense Mechanisms",
+        "topic_summary": "Unconscious ego protection.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_defense_mechanisms",
+            "summary": "Unconscious psychological strategies used to cope with anxiety arising from unacceptable thoughts or feelings (e.g., repression, denial, projection)."
+          }
+        ]
+      },
+      {
+        "heading": "Resistance",
+        "topic_summary": "Client opposition to therapy.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_resistance",
+            "summary": "Conscious or unconscious opposition by the client to the process of therapy, often seen as a defense against painful material."
+          }
+        ]
+      },
+      {
+        "heading": "Active Listening",
+        "topic_summary": "Fully engaged hearing.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_active_listening",
+            "summary": "A communication technique requiring the listener to fully concentrate, understand, respond, and then remember what is being said."
+          }
+        ]
+      },
+      {
+        "heading": "Empathy",
+        "topic_summary": "Understanding others' feelings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_empathy",
+            "summary": "The ability to understand and share the feelings of another person from their perspective."
+          }
+        ]
+      },
+      {
+        "heading": "Cultural Competence",
+        "topic_summary": "Respecting diverse backgrounds.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_cultural_competence",
+            "summary": "The ability of therapists to understand, appreciate, and interact effectively with people from cultures or belief systems different from their own."
+          }
+        ]
+      },
+      {
+        "heading": "Psychopharmacology Intro",
+        "topic_summary": "Medication in mental health.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_psychopharmacology",
+            "summary": "The study of the use of medications in treating mental disorders; understanding when medication may be an adjunct to psychotherapy."
+          }
+        ]
+      },
+      {
+        "heading": "Evidence-Based Practice",
+        "topic_summary": "Integrating research, expertise, client.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_ebp",
+            "summary": "The integration of the best available research with clinical expertise and patient values/characteristics in making decisions about psychological care."
+          }
+        ]
+      },
+      {
+        "heading": "Common Factors",
+        "topic_summary": "Shared therapeutic elements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_common_factors",
+            "summary": "Elements common to most effective psychotherapies, such as the therapeutic alliance, hope, and client engagement, regardless of specific modality."
+          }
+        ]
+      },
+      {
+        "heading": "Termination of Therapy",
+        "topic_summary": "Ending therapeutic relationship.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_termination",
+            "summary": "The planned and collaborative process of ending the therapeutic relationship when goals have been met or therapy is no longer beneficial."
+          }
+        ]
+      },
+      {
+        "heading": "Self-Care for Therapists",
+        "topic_summary": "Preventing burnout, maintaining well-being.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_therapist_self_care",
+            "summary": "Practices and strategies therapists use to maintain their own psychological, emotional, and physical well-being to prevent burnout and ensure effective practice."
+          }
+        ]
+      },
+      {
+        "heading": "Neuroscience & Therapy",
+        "topic_summary": "Brain's role in healing.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_neuroscience",
+            "summary": "Exploring how an understanding of brain structure and function can inform and enhance psychotherapeutic interventions."
+          }
+        ]
+      },
+      {
+        "heading": "Positive Psychology",
+        "topic_summary": "Focus on strengths, flourishing.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_positive_psych",
+            "summary": "A branch of psychology focused on the study of human flourishing, strengths, and virtues that enable individuals and communities to thrive."
+          }
+        ]
+      },
+      {
+        "heading": "Teletherapy",
+        "topic_summary": "Therapy via remote tech.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_teletherapy",
+            "summary": "The delivery of psychotherapy services remotely using telecommunications technologies, such as video conferencing."
+          }
+        ]
+      },
+      {
+        "heading": "Crisis Intervention",
+        "topic_summary": "Immediate short-term help.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_crisis_intervention",
+            "summary": "Emergency psychological care aimed at assisting individuals in a crisis situation to restore equilibrium to their biopsychosocial functioning."
+          }
+        ]
+      },
+      {
+        "heading": "Grief Counseling",
+        "topic_summary": "Support through loss.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_grief_counseling",
+            "summary": "Specialized therapy to help individuals cope with loss, navigate the grieving process, and adapt to life after loss."
+          }
+        ]
+      },
+      {
+        "heading": "Addiction Counseling",
+        "topic_summary": "Treating substance use disorders.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_addiction_counseling",
+            "summary": "Therapeutic approaches specifically designed to treat substance use disorders and other addictive behaviors."
+          }
+        ]
+      },
+      {
+        "heading": "Child & Adolescent Therapy",
+        "topic_summary": "Therapy for young people.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_child_adolescent",
+            "summary": "Psychotherapeutic interventions tailored to the developmental needs and specific challenges faced by children and adolescents."
+          }
+        ]
+      },
+      {
+        "heading": "Geriatric Psychotherapy",
+        "topic_summary": "Mental health for older adults.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_geriatric_psych",
+            "summary": "Psychotherapy adapted to address the unique psychological and emotional needs of older adults."
+          }
+        ]
+      },
+      {
+        "heading": "Research in Psychotherapy",
+        "topic_summary": "Studying therapy effectiveness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "psy_topic_research",
+            "summary": "The scientific investigation of the processes, outcomes, and effectiveness of different psychotherapeutic approaches."
+          }
+        ]
+      }
+    ]
+  }
+]
+

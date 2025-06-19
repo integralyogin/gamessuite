@@ -1,0 +1,107 @@
+{
+  "Sign System": {
+    "short_description": "Organized network of elements that create and convey meaning."
+  },
+  "Code": {
+    "short_description": "System of rules governing how signs relate and produce meaning."
+  },
+  "Signification": {
+    "short_description": "Process by which something becomes meaningful within a system."
+  },
+  "Representation": {
+    "short_description": "System by which one thing stands for or indicates another."
+  },
+  "Symbol Order": {
+    "short_description": "Hierarchical structure of symbolic meanings and their relationships."
+  },
+  "Semantic Field": {
+    "short_description": "Network of related meanings within a conceptual domain."
+  },
+  "Semiosphere": {
+    "short_description": "Total environment of sign systems and meaning-making processes."
+  },
+  "Modal System": {
+    "short_description": "Framework for how different modes of expression create meaning."
+  },
+  "Discourse": {
+    "short_description": "System of meaning-making through language and social practice."
+  },
+  "Syntax": {
+    "short_description": "Rules governing relationships between signs in a system."
+  },
+  "Paradigm": {
+    "short_description": "Set of elements that can be substituted within a sign system."
+  },
+  "Reference Frame": {
+    "short_description": "Context system within which signs acquire specific meanings."
+  },
+  "Meaning Matrix": {
+    "short_description": "Interconnected network of signification possibilities."
+  },
+  "Sign Function": {
+    "short_description": "Fundamental ways signs operate to create meaning."
+  },
+  "Interpretant Field": {
+    "short_description": "Domain of possible interpretations within sign system."
+  },
+  "Symbolic Order": {
+    "short_description": "Structure of symbolic relationships in cultural system."
+  },
+  "Semiotic Space": {
+    "short_description": "Conceptual realm where meaning-making occurs."
+  },
+  "Sign Domain": {
+    "short_description": "Area of reality organized by particular type of signs."
+  },
+  "Meaning Level": {
+    "short_description": "Distinct layer or degree of signification in system."
+  },
+  "Encoding System": {
+    "short_description": "Framework for converting meaning into sign patterns."
+  },
+  "Decoding Frame": {
+    "short_description": "System for interpreting signs back into meaning."
+  },
+  "Metalanguage": {
+    "short_description": "System for describing and analyzing other sign systems."
+  },
+  "Sign Process": {
+    "short_description": "Dynamic system of how signs operate and evolve."
+  },
+  "Meaning Chain": {
+    "short_description": "Sequential linking of signification elements."
+  },
+  "Semiotic Mode": {
+    "short_description": "Distinct channel or method of meaning creation."
+  },
+  "Symbol Space": {
+    "short_description": "Realm where symbolic relationships manifest."
+  },
+  "Sign Vehicle": {
+    "short_description": "Material or medium through which signs are expressed."
+  },
+  "Meaning Structure": {
+    "short_description": "Organizational framework of signification system."
+  },
+  "Code System": {
+    "short_description": "Organized set of conventions for sign interpretation."
+  },
+  "Reference System": {
+    "short_description": "Framework connecting signs to what they signify."
+  },
+  "Semiotic Grid": {
+    "short_description": "Underlying structure organizing sign relationships."
+  },
+  "Meaning Field": {
+    "short_description": "Space of possible significations within system."
+  },
+  "Sign Hierarchy": {
+    "short_description": "Levels of organization in sign system."
+  },
+  "Semiotic Web": {
+    "short_description": "Network of interconnected sign relationships."
+  },
+  "Meaning Plane": {
+    "short_description": "Fundamental dimension of signification."
+  }
+}

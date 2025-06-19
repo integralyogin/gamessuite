@@ -1,0 +1,104 @@
+{
+"Working Memory": {
+    "short_description": "The limited-capacity system for temporarily holding and manipulating information, typically constrained to processing 4-7 items simultaneously, forming a fundamental bottleneck in cognitive processing."
+},
+"Attention Span": {
+    "short_description": "The finite capacity to focus on specific information or tasks, representing a primary constraint on cognitive processing and learning efficiency."
+},
+"Processing Speed": {
+    "short_description": "The rate at which cognitive operations can be performed, creating a temporal bottleneck that limits the speed of perception, decision-making, and response execution."
+},
+"Decision Fatigue": {
+    "short_description": "The deterioration of decision-making quality after prolonged periods of choice-making, reflecting the depletion of cognitive resources and executive function capacity."
+},
+"Cognitive Load": {
+    "short_description": "The total amount of mental effort being used in working memory, representing the cumulative demand on cognitive resources during task performance."
+},
+"Channel Capacity": {
+    "short_description": "The maximum rate at which information can be processed through a specific cognitive pathway, limiting the speed and accuracy of perception and response."
+},
+"Task Switching Cost": {
+    "short_description": "The performance penalty incurred when shifting attention between different tasks, reflecting limitations in cognitive flexibility and resource allocation."
+},
+"Information Overload": {
+    "short_description": "The state of cognitive processing being overwhelmed by excessive input, leading to decreased performance and decision-making ability."
+},
+"Attentional Blink": {
+    "short_description": "The temporal gap in attention following the processing of a target stimulus, during which subsequent targets are often missed or poorly processed."
+},
+"Resource Depletion": {
+    "short_description": "The gradual exhaustion of cognitive resources through sustained mental effort, leading to decreased performance and increased error rates."
+},
+"Perceptual Bottleneck": {
+    "short_description": "The limitation in processing multiple sensory inputs simultaneously, forcing sequential processing and creating delays in response."
+},
+"Response Selection": {
+    "short_description": "The constrained capacity to choose appropriate actions from multiple options, creating a bottleneck in the translation of perception to action."
+},
+"Memory Consolidation": {
+    "short_description": "The limited rate at which new information can be transferred from short-term to long-term memory, affecting learning efficiency and retention."
+},
+"Cognitive Interference": {
+    "short_description": "The disruption of ongoing mental processes by competing information or tasks, reflecting limitations in parallel processing capability."
+},
+"Executive Control": {
+    "short_description": "The finite capacity for managing and coordinating multiple cognitive processes, creating a bottleneck in complex task performance."
+},
+"Mental Bandwidth": {
+    "short_description": "The overall capacity for simultaneous cognitive processing, representing the upper limit of mental resources available for task execution."
+},
+"Cognitive Throughput": {
+    "short_description": "The rate at which information can be processed and utilized effectively, limited by various stages of mental processing."
+},
+"Attention Filter": {
+    "short_description": "The selective mechanism that limits incoming information to prevent overwhelming cognitive resources, sometimes excluding relevant information."
+},
+"Processing Bottleneck": {
+    "short_description": "The point in cognitive processing where limited resources create a constraint on information flow and task completion."
+},
+"Resource Competition": {
+    "short_description": "The conflict between concurrent mental processes for limited cognitive resources, leading to performance trade-offs."
+},
+"Cognitive Recovery": {
+    "short_description": "The time-dependent process of restoring depleted mental resources, necessary for maintaining optimal cognitive performance."
+},
+"Attention Residue": {
+    "short_description": "The lingering cognitive engagement with previous tasks that impairs performance on current activities, reflecting limited attention allocation."
+},
+"Information Integration": {
+    "short_description": "The constrained ability to combine multiple sources of information into coherent understanding, limited by processing capacity."
+},
+"Mental Fatigue": {
+    "short_description": "The progressive decline in cognitive performance due to sustained mental activity, reflecting the limits of cognitive endurance."
+},
+"Cognitive Flexibility": {
+    "short_description": "The limited capacity to adapt mental processes to changing task demands, constrained by available cognitive resources."
+},
+"Processing Depth": {
+    "short_description": "The trade-off between deep, thorough cognitive processing and faster, superficial processing due to resource limitations."
+},
+"Response Latency": {
+    "short_description": "The delay between stimulus perception and response execution, reflecting processing time requirements and capacity limitations."
+},
+"Cognitive Bandwidth": {
+    "short_description": "The maximum amount of information that can be processed simultaneously across different cognitive domains."
+},
+"Attentional Control": {
+    "short_description": "The limited ability to maintain focus and suppress distractions, representing a key constraint in cognitive performance."
+},
+"Resource Allocation": {
+    "short_description": "The process of distributing limited cognitive resources among competing tasks and processes, requiring trade-offs in performance."
+},
+"Processing Capacity": {
+    "short_description": "The upper limit of cognitive operations that can be performed simultaneously, constraining overall mental performance."
+},
+"Cognitive Efficiency": {
+    "short_description": "The optimal use of limited mental resources to achieve task goals, bounded by various processing constraints."
+},
+"Mental Workload": {
+    "short_description": "The cumulative cognitive demand imposed by tasks and environmental factors, limited by available processing resources."
+},
+"Performance Ceiling": {
+    "short_description": "The maximum level of achievement possible given cognitive processing limitations and resource constraints."
+}
+}

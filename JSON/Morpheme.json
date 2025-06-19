@@ -1,0 +1,77 @@
+{
+    "Morpheme": {
+        "short_description": "The smallest meaningful unit in a language that carries semantic or grammatical significance, serving as the fundamental building block of word formation and meaning."
+    },
+    "Free Morpheme": {
+        "short_description": "A morpheme that can stand alone as a complete word, functioning independently while carrying its own meaning without requiring attachment to other morphemes."
+    },
+    "Bound Morpheme": {
+        "short_description": "A morpheme that must attach to another morpheme to form a complete word, unable to occur independently while contributing to word meaning or grammatical function."
+    },
+    "Root": {
+        "short_description": "The core morpheme of a word carrying its primary meaning, serving as the base to which other morphemes can be attached to modify or expand the semantic content."
+    },
+    "Affix": {
+        "short_description": "A bound morpheme that attaches to a root or stem to modify its meaning or grammatical function, occurring in various positions relative to the root."
+    },
+    "Prefix": {
+        "short_description": "An affix that attaches to the beginning of a root or stem, modifying the meaning of the base word while maintaining its grammatical category."
+    },
+    "Suffix": {
+        "short_description": "An affix that attaches to the end of a root or stem, potentially changing both the meaning and grammatical category of the base word."
+    },
+    "Infix": {
+        "short_description": "An affix inserted within a root morpheme, modifying the word's meaning through internal alteration rather than external attachment."
+    },
+    "Circumfix": {
+        "short_description": "A discontinuous affix that attaches simultaneously to both the beginning and end of a root, creating a single morphological unit with modified meaning."
+    },
+    "Derivational Morpheme": {
+        "short_description": "A morpheme that creates a new word with a different meaning or grammatical category when added to a base, enabling vocabulary expansion."
+    },
+    "Inflectional Morpheme": {
+        "short_description": "A morpheme that modifies a word's grammatical properties without changing its core meaning or lexical category, expressing relationships within sentences."
+    },
+    "Allomorph": {
+        "short_description": "A variant form of a morpheme that appears in different phonological contexts while maintaining the same grammatical function and meaning."
+    },
+    "Zero Morpheme": {
+        "short_description": "An unmarked morpheme that carries grammatical meaning through its absence, functioning without physical representation in the word structure."
+    },
+    "Compound": {
+        "short_description": "A combination of two or more free morphemes creating a single word with a potentially unique meaning distinct from its component parts."
+    },
+    "Stem": {
+        "short_description": "The base form of a word to which inflectional morphemes can be added, potentially already containing derivational morphemes."
+    },
+    "Lexeme": {
+        "short_description": "The abstract unit representing all morphological variants of a word, encompassing the core meaning shared across different forms."
+    },
+    "Morphological Process": {
+        "short_description": "The systematic pattern by which morphemes combine or modify to create new word forms, including affixation, compounding, and internal change."
+    },
+    "Agglutination": {
+        "short_description": "The process of combining multiple morphemes sequentially with clear boundaries, each contributing distinct meaning to the resulting word."
+    },
+    "Fusion": {
+        "short_description": "The merging of multiple morphemes into a single form where individual boundaries become unclear while maintaining combined meaning."
+    },
+    "Suppletion": {
+        "short_description": "The replacement of one morpheme with a completely different form in certain grammatical contexts, representing irregular morphological patterns."
+    },
+    "Morph": {
+        "short_description": "The physical realization of a morpheme in speech or writing, representing its concrete manifestation in language use."
+    },
+    "Morphotactics": {
+        "short_description": "The rules governing the possible combinations and ordering of morphemes in a language, determining valid word formation patterns."
+    },
+    "Morphophonology": {
+        "short_description": "The study of phonological changes that occur when morphemes combine, explaining sound alterations at morpheme boundaries."
+    },
+    "Productivity": {
+        "short_description": "The degree to which a morphological pattern can be applied to create new words, indicating its active role in language development."
+    },
+    "Blocking": {
+        "short_description": "The prevention of regular morphological processes due to existing lexical items, maintaining irregularities in word formation patterns."
+    }
+}

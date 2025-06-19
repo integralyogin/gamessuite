@@ -1,0 +1,92 @@
+{
+  "Digital Repository": {
+    "short_description": "The core infrastructure that stores, manages, and preserves digital objects and their metadata, ensuring long-term access and maintenance of digital collections."
+  },
+  "Metadata Schema": {
+    "short_description": "Structured framework for describing digital objects, including standardized elements for cataloging, discovery, and interoperability across different systems and platforms."
+  },
+  "Digital Object": {
+    "short_description": "Any form of electronic content that can be stored, accessed, and preserved, including text, images, audio, video, and complex multimedia materials."
+  },
+  "Digital Preservation": {
+    "short_description": "The set of processes and strategies ensuring long-term access to digital content through technology migration, format conversion, and maintenance of authenticity."
+  },
+  "Interoperability": {
+    "short_description": "The capability of different systems to exchange data and work together seamlessly through shared standards, protocols, and interfaces."
+  },
+  "Collection Development": {
+    "short_description": "The systematic process of building and curating digital collections, including selection, acquisition, organization, and maintenance of digital resources."
+  },
+  "Discovery System": {
+    "short_description": "The search and browsing interface that enables users to find, identify, and access digital objects within the library's collections."
+  },
+  "Digital Rights Management": {
+    "short_description": "Systems and protocols managing access, usage, and reproduction rights for digital content, protecting intellectual property while enabling authorized use."
+  },
+  "Content Management": {
+    "short_description": "The processes and tools for creating, organizing, storing, and delivering digital content throughout its lifecycle within the library system."
+  },
+  "User Authentication": {
+    "short_description": "Methods and systems for verifying user identity and authorization levels, controlling access to restricted digital resources and services."
+  },
+  "Digital Curation": {
+    "short_description": "The active management and enhancement of digital objects throughout their lifecycle, ensuring their value for current and future use."
+  },
+  "Persistent Identifier": {
+    "short_description": "Unique, permanent reference codes assigned to digital objects ensuring consistent access and citation regardless of physical location or system changes."
+  },
+  "Harvesting Protocol": {
+    "short_description": "Standardized methods for automatically collecting metadata and content from multiple digital repositories to enable unified access and discovery."
+  },
+  "Version Control": {
+    "short_description": "System for tracking and managing changes to digital objects over time, maintaining the integrity and authenticity of content through multiple iterations."
+  },
+  "Digital Archive": {
+    "short_description": "Specialized storage system designed for long-term preservation of digital materials, ensuring their authenticity, integrity, and accessibility over time."
+  },
+  "Access Control": {
+    "short_description": "Framework governing who can access specific digital resources and under what conditions, implementing security and privacy policies."
+  },
+  "Metadata Harvesting": {
+    "short_description": "The automated collection of descriptive information about digital objects from multiple sources to create unified discovery systems."
+  },
+  "Digital Collection": {
+    "short_description": "Organized group of digital objects selected and maintained according to specific criteria, serving particular user communities or research needs."
+  },
+  "Repository Architecture": {
+    "short_description": "The technical design and infrastructure supporting digital library operations, including storage, processing, and delivery systems."
+  },
+  "Format Migration": {
+    "short_description": "The process of converting digital objects from obsolete formats to current ones while maintaining their essential characteristics and accessibility."
+  },
+  "Resource Discovery": {
+    "short_description": "Tools and methods enabling users to locate and evaluate digital resources through search, browse, and recommendation functions."
+  },
+  "Digital Workflow": {
+    "short_description": "Systematic processes for managing digital objects from acquisition through processing, storage, and delivery to end users."
+  },
+  "Preservation Metadata": {
+    "short_description": "Technical and administrative information necessary for long-term management and access to digital objects in the repository."
+  },
+  "Content Aggregation": {
+    "short_description": "The process of gathering and organizing digital objects from multiple sources into coherent collections for unified access and discovery."
+  },
+  "Search Interface": {
+    "short_description": "The user-facing system providing tools for querying and retrieving digital objects from the repository through various access points."
+  },
+  "Digital Asset": {
+    "short_description": "Any digital resource of value to the organization, including both primary content and supporting materials requiring management and preservation."
+  },
+  "Indexing System": {
+    "short_description": "Technology for organizing and retrieving digital content through automated analysis and classification of object characteristics and metadata."
+  },
+  "Repository Network": {
+    "short_description": "Interconnected system of digital libraries sharing resources and services through standardized protocols and interfaces."
+  },
+  "Digital Stewardship": {
+    "short_description": "The responsibility for managing and preserving digital collections over time, ensuring their continued accessibility and usability."
+  },
+  "Metadata Standard": {
+    "short_description": "Formal specifications for describing digital objects, enabling consistent documentation and exchange of information across systems."
+  }
+}

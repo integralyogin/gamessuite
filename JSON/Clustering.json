@@ -1,0 +1,22 @@
+{
+  "Clustering Fundamentals": { "quote": "Grouping unlabeled data into meaningful structures: minimize intra-cluster distance, maximize inter-cluster distance." },
+  "K-Means Clustering": { "quote": "Partitioning via centroids: argmin ∑_{i=1}^k ∑_{x∈C_i} ||x - μ_i||² (Lloyd's algorithm)." },
+  "Hierarchical Clustering": { "quote": "Dendrogram-based merging: Agglomerative (bottom-up) vs. Divisive (top-down) linkage (e.g., Ward's method)." },
+  "DBSCAN": { "quote": "Density-based clusters: Core points (minPts neighbors within ε-radius) define dense regions (Ester et al., 1996)." },
+  "Gaussian Mixture Models (GMM)": { "quote": "Probabilistic clusters: p(x) = ∑_{k=1}^K π_k N(x|μ_k, Σ_k) (EM algorithm for π, μ, Σ)." },
+  "Spectral Clustering": { "quote": "Graph-based partitioning: Eigen decomposition of Laplacian matrix → k smallest eigenvectors." },
+  "Mean Shift Clustering": { "quote": "Mode-seeking: Iteratively shift kernels toward density maxima ∇f(x) = 0." },
+  "Affinity Propagation": { "quote": "Exemplar-based: Messages (responsibility/availability) between data points (Frey & Dueck, 2007)." },
+  "BIRCH": { "quote": "Scalability for large datasets: CF-Trees (Clustering Features: n, LS, SS) compress data." },
+  "OPTICS": { "quote": "Generalizing DBSCAN: Reachability plots for multi-scale density analysis (Ankerst et al., 1999)." },
+  "Cluster Validation": { "quote": "Silhouette Score: s(i) = (b(i) - a(i)) / max(a(i), b(i)) ∈ [-1,1]." },
+  "Curse of Dimensionality": { "quote": "Distance metrics lose meaning in high-D spaces: d(x,y) ≈ constant ∀x,y (Beyer et al., 1999)." },
+  "Density-Based Clustering": { "quote": "Arbitrary shapes: Clusters = connected dense regions separated by sparse areas." },
+  "Fuzzy Clustering": { "quote": "Soft assignments: C-means with membership weights u_ij ∈ [0,1] (Bezdek, 1981)." },
+  "Subspace Clustering": { "quote": "High-D data: CLIQUE partitions feature space into grid cells (Agrawal et al., 1998)." },
+  "Biclustering": { "quote": "Simultaneous row-column grouping: δ(X_{IJ}) = X_{IJ} - X_{I•} - X_{•J} + X_{••} (Cheng & Church, 2000)." },
+  "Cluster Ensembles": { "quote": "Combine multiple partitions: Consensus via co-association matrix or hypergraphs." },
+  "Applications": { "quote": "Customer segmentation: RFM (Recency, Frequency, Monetary) → K-Means clusters." },
+  "Limitations": { "quote": "K-Means assumes spherical clusters; GMM requires Gaussianity; DBSCAN needs density uniformity." },
+  "Comparison": { "quote": "K-Means (scalable) vs. DBSCAN (arbitrary shapes) vs. GMM (probabilistic)." }
+}

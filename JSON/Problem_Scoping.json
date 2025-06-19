@@ -1,0 +1,22 @@
+{
+  "Problem Definition": { "quote": "Clearly defining the problem statement ensures alignment: 'What is the AI system intended to solve?' (CRISP-DM Phase 1: Business Understanding)." },
+  "Stakeholder Identification": { "quote": "Identify decision-makers, users, and impacted groups: 'Whose needs and values shape the AI solution?' (Sommerville, Requirements Engineering)." },
+  "Problem Boundaries": { "quote": "Delineate scope constraints: 'Not all problems require deep learning; rule-based systems may suffice.' (Herbert Simon, Bounded Rationality)." },
+  "Data Requirements": { "quote": "Assess data availability and relevance: 'Garbage in, garbage out.' (CRISP-DM Phase 2: Data Understanding)." },
+  "Ethical Considerations": { "quote": "Evaluate fairness, bias, and societal impact: 'Ethical AI requires transparency and accountability.' (EU AI Ethics Guidelines)." },
+  "Feasibility Analysis": { "quote": "Technical, financial, and operational viability: 'Prioritize must-haves vs. nice-to-haves.' (MoSCoW Method)." },
+  "Success Criteria": { "quote": "Define measurable KPIs: 'Accuracy, F1-score, or business ROI?' (SMART Goals)." },
+  "Risk Assessment": { "quote": "Anticipate model drift, adversarial attacks, or data leakage: 'Plan for failure modes early.' (PMBOK Guide)." },
+  "Iterative Refinement": { "quote": "Scope evolves with feedback: 'Embrace agile, not rigid waterfall planning.' (Agile Manifesto)." },
+  "Contextual Analysis": { "quote": "Understand domain-specific constraints: 'Healthcare AI ≠ gaming AI.' (Checkland, Soft Systems Methodology)." },
+  "Constraints Identification": { "quote": "Technical limits (e.g., latency, compute), regulations (GDPR), or ethics: 'Trade-offs define the solution space.' (Triple Constraint Model)." },
+  "Assumptions Clarification": { "quote": "Document implicit beliefs: 'Assuming labeled data exists' vs. 'Assuming real-time inference.' (Kahneman, Thinking, Fast and Slow)." },
+  "Solution Pathways": { "quote": "Select algorithms and tools: 'Supervised vs. unsupervised? PyTorch vs. TensorFlow?' (IEEE P7000 Standard)." },
+  "Problem Validation": { "quote": "Verify alignment with stakeholders: 'Are we solving the right problem?' (Drucker, Effective Decision-Making)." },
+  "Scope Documentation": { "quote": "Formalize requirements: 'User stories, acceptance criteria, and system boundaries.' (ISO/IEC/IEEE 29148)." },
+  "Alignment with Objectives": { "quote": "Ensure AI goals match organizational strategy: 'Does this model drive business value?' (OKR Framework)." },
+  "Impact Assessment": { "quote": "Predict downstream effects: 'Automating hiring may perpetuate bias.' (Utilitarian Ethics)." },
+  "Resource Allocation": { "quote": "Budget time, talent, and infrastructure: 'Training LLMs requires GPUs, not CPUs.' (COCOMO Model)." },
+  "Communication Plan": { "quote": "Bridge gaps between technical and non-technical teams: 'RACI matrix clarifies roles.' (PMI)." },
+  "Scope Review": { "quote": "Continuous validation: 'Revisit scope as new data or feedback emerges.' (Deming's PDCA Cycle)." }
+}

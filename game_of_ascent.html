@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>The Ascent: A Game of Sadhana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-color: #020008;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            width: 100vw;
+            font-family: 'Jost', sans-serif;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        canvas {
+            background-color: #0a0814;
+            box-shadow: 0 0 20px rgba(173, 216, 230, 0.3);
+            border-radius: 15px;
+            border: 1px solid rgba(173, 216, 230, 0.2);
+            touch-action: none;
+        }
+        .instructions {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.5);
+            max-width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; font-weight: 600; margin-bottom: 0.5rem; color: #fff; text-shadow: 0 0 10px rgba(173, 216, 230, 0.5);">The Ascent</h1>
+        <p>A Game of Sadhana</p>
+        <canvas id="gameCanvas"></canvas>
+        <div class="instructions">
+            Move to choose your contact. Hold to Aspire.<br/>
+            Trust the inner sense to discern the Light from the Shadow.
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+
+        const aspectRatio = 9 / 16;
+        let canvasHeight = window.innerHeight * 0.7;
+        let canvasWidth = canvasHeight / aspectRatio;
+        if (canvasWidth > window.innerWidth * 0.95) {
+            canvasWidth = window.innerWidth * 0.95;
+            canvasHeight = canvasWidth * aspectRatio;
+        }
+        if (canvasWidth < 300) canvasWidth = 300;
+        if (canvasHeight < 400) canvasHeight = 400;
+
+        canvas.width = canvasWidth;
+        canvas.height = canvasHeight;
+        
+        // --- The Lexicon of Forces ---
+        const forces = [
+            { name: "Faith", type: 'light', effect: 0.04, symbol: '△' },
+            { name: "Peace", type: 'light', effect: 0.04, symbol: '○' },
+            { name: "Love", type: 'light', effect: 0.05, symbol: '♡' },
+            { name: "Grace", type: 'light', effect: 0.06, symbol: '✧' },
+            { name: "Surrender", type: 'light', effect: 0.05, symbol: '▽' },
+            { name: "Doubt", type: 'dark', effect: -0.05, symbol: '?' },
+            { name: "Fear", type: 'dark', effect: -0.06, symbol: '⚡' },
+            { name: "Ego", type: 'dark', effect: -0.05, symbol: '◇' },
+            { name: "Desire", type: 'dark', effect: -0.04, symbol: '⬩' },
+            { name: "Inertia", type: 'dark', effect: -0.04, symbol: '⬚' }
+        ];
+
+        // --- The Player: The Sadhak's Consciousness ---
+        const player = {
+            x: canvas.width / 2,
+            y: canvas.height - 60,
+            radius: 15,
+            lightLevel: 0.5, // 0 = dark, 1 = pure light
+            auraRadius: 120,
+            draw() {
+                if (aspiring) {
+                    const auraGrad = ctx.createRadialGradient(this.x, this.y, this.radius, this.x, this.y, this.auraRadius);
+                    const auraOpacity = 0.1 + (this.lightLevel) * 0.2;
+                    auraGrad.addColorStop(0, `rgba(173, 216, 230, ${auraOpacity * 1.5})`);
+                    auraGrad.addColorStop(1, 'rgba(173, 216, 230, 0)');
+                    ctx.fillStyle = auraGrad;
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.auraRadius, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+
+                const r = Math.floor(180 + 75 * this.lightLevel);
+                const g = Math.floor(220 + 35 * this.lightLevel);
+                const b = 255;
+                const coreColor = `rgb(${r}, ${g}, ${b})`;
+
+                const grad = ctx.createRadialGradient(this.x, this.y, 1, this.x, this.y, this.radius);
+                grad.addColorStop(0, 'white');
+                grad.addColorStop(0.6, coreColor);
+                grad.addColorStop(1, 'rgba(135, 206, 250, 0)');
+                
+                ctx.fillStyle = grad;
+                ctx.shadowColor = coreColor;
+                ctx.shadowBlur = 30;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+        };
+
+        // --- Controls ---
+        let aspiring = false;
+        let targetX = player.x;
+        document.addEventListener('keydown', e => { if (e.code === 'Space') aspiring = true; });
+        document.addEventListener('keyup', e => { if (e.code === 'Space') aspiring = false; });
+        canvas.addEventListener('mousedown', e => aspiring = true);
+        canvas.addEventListener('mouseup', e => aspiring = false);
+        canvas.addEventListener('touchstart', e => { e.preventDefault(); aspiring = true; });
+        canvas.addEventListener('touchend', e => { e.preventDefault(); aspiring = false; });
+        canvas.addEventListener('mousemove', e => {
+            let rect = canvas.getBoundingClientRect();
+            targetX = (e.clientX - rect.left) * (canvas.width / rect.width);
+        });
+        canvas.addEventListener('touchmove', e => {
+            e.preventDefault();
+            let rect = canvas.getBoundingClientRect();
+            let touch = e.touches[0];
+            targetX = (touch.clientX - rect.left) * (canvas.width / rect.width);
+        });
+
+        // --- Falling Forces & Revelations ---
+        let particles = [];
+        let revelations = [];
+        class Particle {
+            constructor() {
+                this.force = forces[Math.floor(Math.random() * forces.length)];
+                this.x = Math.random() * canvas.width;
+                this.y = -30;
+                this.radius = 20;
+                this.speed = Math.random() * 1.5 + 1;
+                this.rotation = 0;
+                this.rotationSpeed = (Math.random() - 0.5) * 0.02;
+                this.opacity = 0;
+            }
+            update() {
+                this.y += this.speed;
+                this.rotation += this.rotationSpeed;
+                if(this.opacity < 1) this.opacity += 0.02;
+
+                if (aspiring) {
+                    const dist = Math.hypot(player.x - this.x, player.y - this.y);
+                    if (dist < player.auraRadius) {
+                        if (this.force.type === 'light') {
+                            const angle = Math.atan2(player.y - this.y, player.x - this.x);
+                            this.x += Math.cos(angle) * 1.5;
+                            this.y += Math.sin(angle) * 1.5;
+                        } else {
+                             const angle = Math.atan2(player.y - this.y, player.x - this.x);
+                             this.x -= Math.cos(angle) * 0.7;
+                             this.y -= Math.sin(angle) * 0.7;
+                        }
+                    }
+                }
+            }
+            draw() {
+                ctx.save();
+                ctx.translate(this.x, this.y);
+                ctx.rotate(this.rotation);
+                ctx.globalAlpha = this.opacity;
+                
+                const fontSize = this.radius * 1.2;
+                ctx.font = `600 ${fontSize}px 'Cormorant Garamond'`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+
+                if (this.force.type === 'light') {
+                    ctx.shadowColor = '#FFD700';
+                    ctx.shadowBlur = 15;
+                    ctx.fillStyle = '#FFD700';
+                } else {
+                    ctx.shadowColor = '#9370DB';
+                    ctx.shadowBlur = 10;
+                    ctx.fillStyle = '#9370DB';
+                }
+                ctx.fillText(this.force.symbol, 0, 0);
+                
+                ctx.restore();
+            }
+        }
+
+        class Revelation {
+            constructor(x, y, text, type) {
+                this.x = x; this.y = y; this.text = text; this.type = type;
+                this.life = 100;
+            }
+            update() { this.life--; this.y -= 0.5; }
+            draw() {
+                ctx.globalAlpha = this.life / 100;
+                const fontSize = 18;
+                ctx.font = `400 ${fontSize}px 'Jost'`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillStyle = this.type === 'light' ? '#FFD700' : '#c3a8ff';
+                ctx.fillText(this.text, this.x, this.y);
+            }
+        }
+        
+        // --- Game Logic ---
+        function handleGameLogic() {
+            if (Math.random() < 0.05) particles.push(new Particle());
+
+            for (let i = particles.length - 1; i >= 0; i--) {
+                const p = particles[i];
+                p.update();
+                
+                const dist = Math.hypot(player.x - p.x, player.y - p.y);
+                if (dist < player.radius + p.radius) {
+                    player.lightLevel += p.force.effect;
+                    player.lightLevel = Math.max(0, Math.min(1, player.lightLevel));
+                    revelations.push(new Revelation(p.x, p.y, p.force.name, p.force.type));
+                    particles.splice(i, 1);
+                    continue;
+                }
+                
+                if (p.y > canvas.height + p.radius) particles.splice(i, 1);
+            }
+            
+            for (let i = revelations.length - 1; i >= 0; i--) {
+                revelations[i].update();
+                if (revelations[i].life <= 0) revelations.splice(i, 1);
+            }
+        }
+        
+        let backgroundLightness = 0.5;
+        // --- The Main Game Loop: The Continuous Play of Consciousness ---
+        function animate() {
+            player.x += (targetX - player.x) * 0.1;
+
+            backgroundLightness += (player.lightLevel - backgroundLightness) * 0.005;
+            const bg_r = Math.floor(2 + 10 * backgroundLightness);
+            const bg_g = Math.floor(0 + 8 * backgroundLightness);
+            const bg_b = Math.floor(8 + 22 * backgroundLightness);
+            ctx.fillStyle = `rgb(${bg_r}, ${bg_g}, ${bg_b})`;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            handleGameLogic();
+            particles.forEach(p => p.draw());
+            revelations.forEach(r => r.draw());
+            player.draw();
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,116 @@
+{
+  "Control Structures": {
+    "short_description": "The organizational principles governing computational flow and logical progression, shaping the execution and transformation of operations through intentional design."
+  },
+  "Flow": {
+    "short_description": "The movement of execution through instructions, governing the order and progression of operations while maintaining coherence and intentional direction."
+  },
+  "Decision": {
+    "short_description": "The selection between alternative paths based on evaluation of conditions, embodying the capacity for logical branching and adaptive behavior."
+  },
+  "Loop": {
+    "short_description": "The cyclical repetition of operations until termination conditions are met, representing persistence, iteration, and the transformation through recurrence."
+  },
+  "Branch": {
+    "short_description": "The divergence of execution paths into distinct possibilities, enabling complex behavior through conditional splitting and merging of control streams."
+  },
+  "State": {
+    "short_description": "The current configuration of data and context that influences control flow decisions, serving as the dynamic memory shaping computational behavior."
+  },
+  "Abstraction": {
+    "short_description": "The encapsulation of complex operations into reusable units, allowing management of complexity through layered conceptual interfaces."
+  },
+  "Recursion": {
+    "short_description": "The self-referential invocation of processes, where solutions emerge through decomposition into smaller instances of the same problem."
+  },
+  "Invocation": {
+    "short_description": "The activation of predefined operations through explicit calls, establishing hierarchical relationships between components."
+  },
+  "Composition": {
+    "short_description": "The combination of simple control structures into complex behaviors through nested arrangements and sequential logic."
+  },
+  "Hierarchy": {
+    "short_description": "The layered organization of control structures, where higher-level operations coordinate and abstract lower-level implementations."
+  },
+  "Synchronization": {
+    "short_description": "The coordination of concurrent processes to maintain orderly execution and prevent conflicting resource access."
+  },
+  "Parallelism": {
+    "short_description": "The simultaneous execution of independent operations, harnessing multiplicity to achieve efficiency and scale."
+  },
+  "Concurrency": {
+    "short_description": "The interleaved management of multiple overlapping processes, maintaining progress through strategic task switching."
+  },
+  "Exception": {
+    "short_description": "The interruption of normal flow to handle unexpected conditions, providing structured error recovery and system resilience."
+  },
+  "Iteration": {
+    "short_description": "The systematic traversal of data collections or repeated operations, applying consistent processing across elements."
+  },
+  "Closure": {
+    "short_description": "The bundling of code with its execution context, preserving environmental variables for deferred or remote execution."
+  },
+  "Modularity": {
+    "short_description": "The division of systems into independent interchangeable components, enabling localized control and system-wide coordination."
+  },
+  "Interface": {
+    "short_description": "The defined boundary between system components, specifying interaction protocols while hiding implementation details."
+  },
+  "Protocol": {
+    "short_description": "The formalized rules governing communication and interaction between distributed or concurrent processes."
+  },
+  "Template": {
+    "short_description": "The reusable pattern defining control structure skeletons, allowing customization through parameter substitution."
+  },
+  "Directive": {
+    "short_description": "The compile-time instruction modifying translation processes, influencing code generation and preprocessing."
+  },
+  "Operator": {
+    "short_description": "The elemental symbol triggering specific transformations or evaluations, serving as atomic control modifiers."
+  },
+  "Expression": {
+    "short_description": "The evaluated combination of values and operations producing results, forming the fundamental units of computational logic."
+  },
+  "Predicate": {
+    "short_description": "The logical condition determining truth values to guide control flow decisions and filtering operations."
+  },
+  "Continuation": {
+    "short_description": "The abstract representation of remaining computational work at a given point, enabling advanced flow control patterns."
+  },
+  "Stack": {
+    "short_description": "The last-in-first-out structure managing function invocations and local contexts, underpinning hierarchical control flow."
+  },
+  "Scope": {
+    "short_description": "The bounded context defining identifier visibility and lifetime, structuring access and modification of variables."
+  },
+  "Namespace": {
+    "short_description": "The conceptual container preventing identifier collisions through logical grouping and access qualification."
+  },
+  "Lambda": {
+    "short_description": "The anonymous function capturing context for deferred execution, enabling flexible inline control definitions."
+  },
+  "Generator": {
+    "short_description": "The pausable iterative process yielding values on demand, supporting memory-efficient sequence processing."
+  },
+  "Coroutine": {
+    "short_description": "The collaborative concurrent unit maintaining state between suspensions, enabling cooperative multitasking."
+  },
+  "Promise": {
+    "short_description": "The placeholder for future asynchronous results, orchestrating flow continuation upon event resolution."
+  },
+  "Transition": {
+    "short_description": "The change between defined states in state-driven systems, governed by rules and input conditions."
+  },
+  "Selector": {
+    "short_description": "The mechanism choosing between multiple input sources or channels, directing data flow through configured pathways."
+  },
+  "Pipeline": {
+    "short_description": "The sequential chaining of processing stages, transforming data through a series of modular operations."
+  },
+  "Pattern": {
+    "short_description": "The recurring solution template to common control problems, encoding best practices in reusable structural forms."
+  },
+  "Mechanism": {
+    "short_description": "The underlying implementation strategy for control features, balancing efficiency with conceptual clarity."
+  }
+}

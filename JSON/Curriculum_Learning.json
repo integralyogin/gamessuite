@@ -1,0 +1,110 @@
+{
+"Curriculum Learning": {
+    "short_description": "A machine learning training strategy that structures the learning process from simple to complex examples, mimicking human educational approaches to improve learning efficiency and final performance."
+},
+"Learning Progression": {
+    "short_description": "The planned sequence of increasingly difficult tasks or concepts that guides the model's learning journey from basic to advanced capabilities."
+},
+"Difficulty Metric": {
+    "short_description": "A quantitative measure used to assess and rank the complexity of training examples, enabling their systematic organization into a curriculum."
+},
+"Task Decomposition": {
+    "short_description": "The breaking down of complex learning objectives into simpler subtasks that can be mastered incrementally through the curriculum."
+},
+"Scaffold Learning": {
+    "short_description": "The practice of providing temporary support structures in early learning stages that are gradually removed as the model gains competence."
+},
+"Competency Level": {
+    "short_description": "A measure of the model's current mastery over specific tasks or concepts, used to determine readiness for advancement in the curriculum."
+},
+"Progression Gate": {
+    "short_description": "A performance threshold that must be met before the model can advance to more challenging aspects of the curriculum."
+},
+"Sample Selection": {
+    "short_description": "The strategy for choosing appropriate training examples based on their difficulty and the model's current competency level."
+},
+"Pacing Function": {
+    "short_description": "The mathematical function that controls the rate at which new, more difficult examples are introduced into the training process."
+},
+"Knowledge Transfer": {
+    "short_description": "The ability to apply learning from simpler tasks to more complex ones, facilitated by the curriculum's structured progression."
+},
+"Learning Stability": {
+    "short_description": "The consistent improvement in model performance achieved through gradual exposure to complexity, reducing training volatility."
+},
+"Curriculum Design": {
+    "short_description": "The systematic planning of learning sequences, including task ordering, difficulty progression, and evaluation criteria."
+},
+"Anti-Curriculum": {
+    "short_description": "A reverse approach starting with difficult examples, sometimes used to challenge conventional curriculum learning assumptions."
+},
+"Self-Paced Learning": {
+    "short_description": "A variant where the model's own performance determines the progression through the curriculum rather than a fixed schedule."
+},
+"Multi-Task Curriculum": {
+    "short_description": "A curriculum structure that coordinates learning across multiple related tasks, managing their interdependencies and progression."
+},
+"Domain Adaptation": {
+    "short_description": "The use of curriculum learning to gradually bridge the gap between source and target domains in transfer learning scenarios."
+},
+"Complexity Scheduling": {
+    "short_description": "The temporal planning of when to introduce more complex examples or concepts based on learning progress and stability."
+},
+"Task Hierarchy": {
+    "short_description": "The organized structure of learning objectives showing their dependencies and relationships within the curriculum."
+},
+"Competency Assessment": {
+    "short_description": "The methods and metrics used to evaluate the model's mastery of current curriculum elements and readiness for advancement."
+},
+"Learning Trajectory": {
+    "short_description": "The path taken by the model through the curriculum space, including both planned progression and actual learning outcomes."
+},
+"Curriculum Metrics": {
+    "short_description": "Quantitative measures used to evaluate the effectiveness of the curriculum design and its impact on learning outcomes."
+},
+"Task Family": {
+    "short_description": "A group of related learning objectives or examples that share common characteristics or difficulty levels within the curriculum."
+},
+"Difficulty Distribution": {
+    "short_description": "The statistical spread of training example complexities at each stage of the curriculum, affecting learning dynamics."
+},
+"Adaptive Curriculum": {
+    "short_description": "A dynamic curriculum that adjusts its progression based on ongoing assessment of model performance and learning needs."
+},
+"Learning Plateau": {
+    "short_description": "A period of stalled progress in the curriculum, often requiring adjustment of the learning strategy or difficulty progression."
+},
+"Mastery Criterion": {
+    "short_description": "The specific performance standards that define successful completion of a curriculum stage or learning objective."
+},
+"Transfer Regime": {
+    "short_description": "The strategy for leveraging knowledge gained from earlier curriculum stages to accelerate learning in later, more complex stages."
+},
+"Curriculum Optimization": {
+    "short_description": "The process of refining the curriculum structure and progression to maximize learning efficiency and final performance."
+},
+"Learning Window": {
+    "short_description": "The optimal period during which specific concepts or skills should be introduced in the curriculum for effective learning."
+},
+"Task Sequencing": {
+    "short_description": "The ordering of learning objectives to maximize knowledge transfer and minimize negative interference between tasks."
+},
+"Difficulty Gradient": {
+    "short_description": "The rate at which task complexity increases through the curriculum, affecting learning stability and effectiveness."
+},
+"Performance Envelope": {
+    "short_description": "The range of tasks and difficulty levels within which the model can effectively learn at its current stage of development."
+},
+"Curriculum Validation": {
+    "short_description": "The empirical testing of curriculum effectiveness through controlled experiments and performance comparisons."
+},
+"Learning Readiness": {
+    "short_description": "The state where a model has acquired sufficient prerequisite knowledge to effectively engage with new curriculum elements."
+},
+"Task Alignment": {
+    "short_description": "The degree to which curriculum tasks support and build upon each other to achieve the overall learning objectives."
+},
+"Progress Monitoring": {
+    "short_description": "The continuous assessment of learning advancement through the curriculum to ensure effective knowledge acquisition."
+}
+}

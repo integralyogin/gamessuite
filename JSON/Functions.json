@@ -1,0 +1,62 @@
+{
+  "Functions": {
+    "short_description": "Blocks of reusable code that perform specific tasks, encapsulating logic to promote modularity and reusability in programming."
+  },
+  "Pure Function": {
+    "short_description": "A function whose return value is only determined by its input values, without observable side effects, ensuring predictable behavior."
+  },
+  "Higher-Order Function": {
+    "short_description": "A function that does at least one of: take one or more functions as arguments, return a function as its result."
+  },
+  "First-Class Function": {
+    "short_description": "Functions treated as first-class citizens in a language, meaning they can be assigned to variables, passed as arguments, or returned from other functions."
+  },
+  "Recursive Function": {
+    "short_description": "A function that calls itself to solve progressively smaller pieces of a larger problem, often used in problems with recursive structures like tree traversal."
+  },
+  "Lambda Function": {
+    "short_description": "An anonymous function defined inline, typically used for short, one-time use functions, especially in functional programming paradigms."
+  },
+  "Closure": {
+    "short_description": "A function bundled together with references to its surrounding state (the lexical environment), allowing it to access variables from an enclosing scope."
+  },
+  "Callback Function": {
+    "short_description": "A function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action."
+  },
+  "Partial Application": {
+    "short_description": "The process of fixing a number of arguments to a function, producing a new function with fewer parameters."
+  },
+  "Currying": {
+    "short_description": "Transforming a function that takes multiple arguments into a sequence of functions, each with a single argument."
+  },
+  "Memoization": {
+    "short_description": "An optimization technique where the results of expensive function calls are stored and returned when the same inputs occur again."
+  },
+  "Function Composition": {
+    "short_description": "The process of combining two or more functions in such a way that the output of one is used as the input to another, creating a new function."
+  },
+  "Infix Function": {
+    "short_description": "A function notation where the operator is placed between its operands, commonly seen in languages like Haskell for custom operators."
+  },
+  "Method": {
+    "short_description": "A function associated with an object or class, typically used in object-oriented programming to define behaviors of objects."
+  },
+  "Variadic Function": {
+    "short_description": "A function that accepts a varying number of arguments, allowing for flexible parameter lists."
+  },
+  "Function Overloading": {
+    "short_description": "A language feature where multiple functions can have the same name but different parameters, allowing for different implementations based on argument types."
+  },
+  "Default Parameters": {
+    "short_description": "Function parameters that have default values assigned, which are used if the argument is omitted when the function is called."
+  },
+  "Named Arguments": {
+    "short_description": "A way to call functions where arguments are explicitly labeled, allowing for more readable and flexible function calls."
+  },
+  "Tail Recursion": {
+    "short_description": "A special case of recursion where the recursive call is the last operation in the function, potentially optimizing stack usage."
+  },
+  "Thunk": {
+    "short_description": "A function with no arguments that is used to delay the computation of an expression until its result is needed."
+  }
+}

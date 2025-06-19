@@ -1,0 +1,77 @@
+{
+"Cybernetics": {
+"short_description": "The transdisciplinary study of regulatory and control systems in living organisms, machines, organizations, and their interconnected patterns of communication, feedback, and adaptation."
+},
+"Feedback": {
+"short_description": "The fundamental process where system outputs return as inputs, creating circular causality and enabling self-regulation, learning, and adaptation through continuous information flow and response."
+},
+"Homeostasis": {
+"short_description": "The capacity of a system to maintain internal stability and optimal functioning through dynamic self-regulation despite external changes or disturbances."
+},
+"Control": {
+"short_description": "The mechanisms and processes by which systems maintain desired states or behaviors through monitoring, comparison with goals, and corrective actions based on feedback information."
+},
+"Emergence": {
+"short_description": "The phenomenon where complex patterns, properties, or behaviors arise from simpler interactions between system components, creating higher-order organization not predictable from individual parts."
+},
+"Entropy": {
+"short_description": "The measure of disorder or uncertainty in a system, relating to information content and the tendency of organized systems to degrade without constant energy input and maintenance."
+},
+"Recursion": {
+"short_description": "The self-referential property where patterns or processes repeat at different scales within a system, creating nested hierarchies of organization and control."
+},
+"Autopoiesis": {
+"short_description": "The capacity of living systems to continuously create and maintain themselves through self-production of their own components and organizational patterns."
+},
+"Variety": {
+"short_description": "The range of possible states or behaviors available to a system, with Ashby's Law stating that control systems must match or exceed the variety of what they regulate."
+},
+"Black Box": {
+"short_description": "A system or component viewed solely through its inputs and outputs, without knowledge of internal workings, requiring experimental interaction to understand its behavior."
+},
+"Coupling": {
+"short_description": "The degree and nature of interdependence between system components or between systems, affecting information flow and mutual influence in behavior."
+},
+"Attractor": {
+"short_description": "States or patterns toward which a system tends to evolve regardless of starting conditions, representing stable modes of operation or organization."
+},
+"Amplification": {
+"short_description": "The process where small changes or signals are increased in magnitude through system dynamics, potentially leading to significant effects or transformations."
+},
+"Regulation": {
+"short_description": "The active maintenance of system variables within viable ranges through monitoring and corrective actions, essential for system survival and function."
+},
+"Information": {
+"short_description": "Patterns of organization that reduce uncertainty and enable system control, distinct from raw data through its relevance to system goals and functions."
+},
+"Network": {
+"short_description": "The pattern of connections and relationships between system components that enables information flow, coordination, and collective behavior emergence."
+},
+"Adaptation": {
+"short_description": "The process by which systems modify their structure or behavior in response to environmental changes, enabling survival and improved performance."
+},
+"Hierarchy": {
+"short_description": "The nested organization of control levels in complex systems, where higher levels constrain and coordinate lower levels while emerging from their interactions."
+},
+"Viability": {
+"short_description": "The capacity of a system to maintain its essential organization and functions despite perturbations, through effective adaptation and control mechanisms."
+},
+"Complexity": {
+"short_description": "The degree of internal differentiation and interconnection in a system, affecting its behavior, adaptability, and requirements for effective control."
+},
+"Synchronization": {
+"short_description": "The coordination of system components through information exchange and mutual influence, enabling coherent collective behavior and function."
+},
+"Learning": {
+"short_description": "The process of system modification based on experience and feedback, improving performance and adaptation through pattern recognition and response optimization."
+},
+"Stability": {
+"short_description": "The tendency of a system to return to equilibrium or maintain desired states despite disturbances, through active control and feedback mechanisms."
+},
+"Interface": {
+"short_description": "The boundary or medium through which systems interact and exchange information, crucial for coordination and control between different components or levels."
+},
+"Resonance": {
+"short_description": "The amplification of system responses through matching of natural frequencies or patterns, enabling efficient energy and information transfer."
+}
+}

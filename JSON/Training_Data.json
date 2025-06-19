@@ -1,0 +1,138 @@
+{
+	"Data Types": { "quote": "Structured (tables), Unstructured (text/images), Semi-structured (JSON/XML), Time Series data." },
+"Data Splitting": { "quote": "Training (60-80%), Validation (10-20%), Test (10-20%) sets for model evaluation." },
+"Data Cleaning": { "quote": "Handle missing values, remove duplicates, fix inconsistencies, correct errors." },
+"Data Preprocessing": { "quote": "Normalization (0-1), Standardization (μ=0, σ=1), Encoding, Feature scaling." },
+"Feature Engineering": { "quote": "Create new features, transform existing ones, extract meaningful patterns." },
+"Data Augmentation": { "quote": "Generate synthetic samples: rotation, scaling, noise addition, perturbation." },
+"Data Quality": { "quote": "Accuracy, Completeness, Consistency, Timeliness, Relevancy measures." },
+"Data Labeling": { "quote": "Manual annotation, Semi-supervised labeling, Active learning approaches." },
+"Data Balance": { "quote": "Handle class imbalance: oversampling, undersampling, SMOTE techniques." },
+"Data Validation": { "quote": "Schema validation, Cross-validation, Distribution checks, Anomaly detection." },
+"Data Pipeline": { "quote": "Extract → Transform → Load (ETL) processes for data preparation." },
+"Data Storage": { "quote": "Databases, Data warehouses, Data lakes, Cloud storage solutions." },
+"Data Formats": { "quote": "CSV, JSON, Parquet, HDF5, TFRecord, binary formats for efficient storage." },
+"Data Sampling": { "quote": "Random, Stratified, Systematic, Cluster sampling methods." },
+"Data Versioning": { "quote": "Track changes, maintain versions, ensure reproducibility of datasets." },
+"Data Documentation": { "quote": "Metadata, Data dictionaries, Schema definitions, Usage guidelines." },
+"Feature Selection": { "quote": "Choose relevant features: correlation analysis, importance ranking, dimensionality reduction." },
+"Data Distribution": { "quote": "Normal, Skewed, Multimodal distributions and their handling." },
+"Data Visualization": { "quote": "Exploratory Data Analysis (EDA), Distribution plots, Correlation matrices." },
+"Data Bias": { "quote": "Selection bias, Sampling bias, Reporting bias, Observer bias detection." },
+"Data Privacy": { "quote": "Anonymization, Encryption, Access control, Compliance requirements." },
+"Data Governance": { "quote": "Policies, Procedures, Standards for data management and usage." },
+"Edge Cases": { "quote": "Boundary conditions, Rare scenarios, Extreme values in training data." },
+"Cross-Validation": { "quote": "K-fold, Leave-one-out, Stratified cross-validation techniques." },
+"Data Drift": { "quote": "Monitor and handle concept drift, feature drift, label drift over time." },
+"Data Generation": { "quote": "Synthetic data creation, GANs, Simulation-based data generation." },
+"Transfer Sets": { "quote": "Domain adaptation, Cross-domain transfer, Knowledge distillation data." },
+"Active Learning": { "quote": "Selective sampling, Query strategies, Interactive learning approaches." },
+"Data Security": { "quote": "Protection against unauthorized access, tampering, and data breaches." },
+"Performance Metrics": { "quote": "Accuracy, Precision, Recall, F1-score for model evaluation." }
+,
+"Dataset": {
+    "short_description": "A structured collection of data samples used for training machine learning models, containing input features and corresponding output labels or values organized for systematic learning."
+},
+"Feature": {
+    "short_description": "An individual measurable property or characteristic of a phenomenon being observed, serving as input variables for model training and prediction."
+},
+"Label": {
+    "short_description": "The target output or answer associated with input features in supervised learning, representing the ground truth that models aim to predict or approximate."
+},
+"Data Point": {
+    "short_description": "A single instance or example in a dataset, consisting of features and potentially labels, representing one complete unit of information for learning."
+},
+"Data Pipeline": {
+    "short_description": "The sequence of operations and transformations applied to raw data to prepare it for model training, including cleaning, normalization, and feature engineering."
+},
+"Preprocessing": {
+    "short_description": "The initial phase of data preparation involving cleaning, formatting, and standardizing raw data to make it suitable for model consumption."
+},
+"Data Augmentation": {
+    "short_description": "Techniques for artificially expanding a training dataset by creating modified versions of existing samples while preserving their essential characteristics."
+},
+"Feature Engineering": {
+    "short_description": "The process of creating new features from existing data through domain knowledge and mathematical transformations to improve model performance."
+},
+"Data Split": {
+    "short_description": "The division of a dataset into separate training, validation, and testing sets to enable proper model evaluation and prevent overfitting."
+},
+"Training Set": {
+    "short_description": "The primary portion of data used to train the model, containing examples from which the model learns patterns and relationships."
+},
+"Validation Set": {
+    "short_description": "A subset of data used to tune hyperparameters and evaluate model performance during training, separate from the training and test sets."
+},
+"Test Set": {
+    "short_description": "The held-out portion of data used for final model evaluation, providing an unbiased assessment of model performance on unseen examples."
+},
+"Data Distribution": {
+    "short_description": "The statistical properties and patterns present in the dataset, including the frequency and relationships of different features and labels."
+},
+"Data Drift": {
+    "short_description": "The gradual change in the statistical properties of features or labels over time, potentially degrading model performance if not addressed."
+},
+"Data Quality": {
+    "short_description": "The degree to which data is accurate, complete, consistent, and representative of the real-world phenomenon being modeled."
+},
+"Data Cleaning": {
+    "short_description": "The process of identifying and correcting errors, inconsistencies, and missing values in raw data to improve its quality and reliability."
+},
+"Data Normalization": {
+    "short_description": "The transformation of numeric features to a common scale to ensure fair comparison and prevent dominance of large-magnitude features."
+},
+"Data Encoding": {
+    "short_description": "The conversion of categorical variables into numeric representations suitable for machine learning algorithms."
+},
+"Data Sampling": {
+    "short_description": "The selection of a subset of data points from a larger dataset, using various strategies to maintain representativeness and balance."
+},
+"Class Balance": {
+    "short_description": "The relative proportion of examples across different categories in a dataset, affecting model learning and performance on minority classes."
+},
+"Data Annotation": {
+    "short_description": "The process of adding labels or metadata to raw data points, often performed by human experts to create ground truth for supervised learning."
+},
+"Data Versioning": {
+    "short_description": "The tracking and management of different versions of datasets over time, enabling reproducibility and systematic improvement of training data."
+},
+"Data Lineage": {
+    "short_description": "The documentation of data's origins, transformations, and usage throughout its lifecycle, ensuring transparency and accountability."
+},
+"Data Schema": {
+    "short_description": "The formal structure and organization of a dataset, defining the types, formats, and relationships of different data elements."
+},
+"Data Bias": {
+    "short_description": "Systematic errors or underrepresentation in training data that can lead to unfair or discriminatory model behavior."
+},
+"Data Privacy": {
+    "short_description": "The protection of sensitive information within training data, including methods for anonymization and secure handling of personal data."
+},
+"Data Governance": {
+    "short_description": "The framework of policies and procedures for managing data quality, security, and compliance throughout its lifecycle."
+},
+"Data Documentation": {
+    "short_description": "The comprehensive recording of dataset characteristics, including collection methods, preprocessing steps, and known limitations."
+},
+"Data Validation": {
+    "short_description": "The systematic verification of data quality and consistency against predefined rules and expectations before use in training."
+},
+"Cross-Validation": {
+    "short_description": "A technique for assessing model performance by repeatedly training and evaluating on different subsets of the available data."
+},
+"Data Leakage": {
+    "short_description": "The inadvertent inclusion of information during training that would not be available in real-world prediction scenarios."
+},
+"Data Augmentation Pipeline": {
+    "short_description": "The systematic sequence of transformations applied to existing data points to create additional training examples while preserving validity."
+},
+"Data Synthesis": {
+    "short_description": "The artificial generation of new training examples using algorithms or models to supplement or replace real-world data collection."
+},
+"Data Filtering": {
+    "short_description": "The selective removal or modification of data points based on quality criteria or specific requirements for model training."
+},
+"Data Collection": {
+    "short_description": "The systematic gathering of raw information from various sources to create training datasets for specific machine learning tasks."
+}
+}

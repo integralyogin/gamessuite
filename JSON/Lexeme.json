@@ -1,0 +1,77 @@
+{
+  "Lexeme": {
+    "short_description": "The fundamental unit of meaning in a language's lexicon, encompassing all forms and inflections of a word while representing its core semantic concept and grammatical properties."
+  },
+  "Morpheme": {
+    "short_description": "The smallest meaningful unit in a language that cannot be further divided, serving as the building block for word formation and grammatical expression."
+  },
+  "Allomorph": {
+    "short_description": "A variant form of a morpheme that appears in different phonological or morphological contexts while maintaining the same fundamental meaning."
+  },
+  "Lemma": {
+    "short_description": "The canonical or dictionary form of a word that represents all its possible inflected forms, serving as the standard reference for lexical entries."
+  },
+  "Inflection": {
+    "short_description": "The modification of a word's form to express grammatical categories such as tense, number, gender, or case while preserving its core meaning."
+  },
+  "Derivation": {
+    "short_description": "The process of forming new words from existing ones through the addition of affixes or other modifications, creating related but distinct lexical items."
+  },
+  "Compound": {
+    "short_description": "A lexical unit formed by combining two or more independent words to create a new meaning distinct from its component parts."
+  },
+  "Polysemy": {
+    "short_description": "The capacity of a single lexeme to carry multiple related meanings, representing the natural semantic extension of words through usage and time."
+  },
+  "Homonymy": {
+    "short_description": "The relationship between lexemes that share the same form but have distinct, unrelated meanings, arising from historical coincidence or convergence."
+  },
+  "Synonymy": {
+    "short_description": "The relationship between lexemes that share similar or identical meanings while potentially differing in register, connotation, or usage contexts."
+  },
+  "Antonymy": {
+    "short_description": "The relationship between lexemes that express opposing or contrasting meanings within the same semantic domain."
+  },
+  "Register": {
+    "short_description": "The level of formality or social context associated with a lexeme's usage, determining its appropriateness in different communicative situations."
+  },
+  "Collocation": {
+    "short_description": "The habitual co-occurrence of lexemes in natural language, reflecting conventional patterns of word combination and usage."
+  },
+  "Valency": {
+    "short_description": "The capacity of a lexeme to combine with specific numbers and types of arguments, determining its syntactic and semantic relationships."
+  },
+  "Productivity": {
+    "short_description": "The extent to which a lexeme or morphological pattern can generate new words or forms, indicating its active role in language expansion."
+  },
+  "Lexicalization": {
+    "short_description": "The process by which new expressions or combinations become established as fixed lexical units with specific meanings and usage patterns."
+  },
+  "Semantic Field": {
+    "short_description": "The network of lexemes that share related meanings within a specific conceptual domain, forming organized patterns of vocabulary."
+  },
+  "Etymology": {
+    "short_description": "The historical origin and development of a lexeme, tracing its form and meaning changes through time and language contact."
+  },
+  "Cognate": {
+    "short_description": "Lexemes in different languages that share a common historical origin, revealing relationships between linguistic families and development."
+  },
+  "Borrowing": {
+    "short_description": "The adoption of lexemes from one language into another through cultural contact, enriching vocabulary while maintaining or adapting original meanings."
+  },
+  "Neologism": {
+    "short_description": "A newly created or recently adopted lexeme that expresses new concepts or experiences, representing language's adaptation to changing needs."
+  },
+  "Archaism": {
+    "short_description": "A lexeme that has fallen out of common usage in contemporary language but persists in specific contexts or historical references."
+  },
+  "Denotation": {
+    "short_description": "The direct, explicit meaning of a lexeme independent of context or connotation, representing its core semantic content."
+  },
+  "Connotation": {
+    "short_description": "The additional meanings, associations, or emotional qualities that a lexeme carries beyond its basic denotation, shaped by cultural and social factors."
+  },
+  "Lexical Aspect": {
+    "short_description": "The inherent temporal properties of a lexeme that influence its grammatical behavior and semantic interpretation in different contexts."
+  }
+}

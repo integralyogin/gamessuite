@@ -1,0 +1,107 @@
+{
+"Q-Learning": {
+    "short_description": "A model-free reinforcement learning algorithm that learns an optimal action-selection policy by estimating the value of action-state pairs through iterative updates of Q-values."
+},
+"Q-Value": {
+    "short_description": "A numeric estimate of the expected cumulative future reward for taking a specific action in a given state, representing the quality of an action choice."
+},
+"Q-Table": {
+    "short_description": "A data structure storing Q-values for all possible state-action pairs, serving as the learned policy representation in tabular Q-learning."
+},
+"State": {
+    "short_description": "A complete description of the environment's current condition, containing all relevant information needed for decision-making by the agent."
+},
+"Action": {
+    "short_description": "A possible choice or decision that an agent can make in a given state, affecting the transition to the next state and the received reward."
+},
+"Reward": {
+    "short_description": "The immediate numerical feedback received by the agent after taking an action in a state, guiding the learning process toward desired behaviors."
+},
+"Policy": {
+    "short_description": "A strategy or mapping from states to actions that determines which action the agent should take in each state to maximize expected rewards."
+},
+"Episode": {
+    "short_description": "A complete sequence of state-action-reward interactions from an initial state to a terminal state, representing one learning iteration."
+},
+"Learning Rate": {
+    "short_description": "A parameter controlling how much new information overrides old information in Q-value updates, balancing adaptation and stability."
+},
+"Discount Factor": {
+    "short_description": "A parameter determining the relative importance of immediate versus future rewards, affecting the agent's long-term versus short-term behavior."
+},
+"Exploration": {
+    "short_description": "The strategy of trying new actions to discover potentially better alternatives, essential for finding optimal policies in unknown environments."
+},
+"Exploitation": {
+    "short_description": "The strategy of selecting actions known to yield high rewards based on current Q-values, maximizing immediate performance."
+},
+"Epsilon-Greedy": {
+    "short_description": "A common exploration strategy where random actions are taken with probability epsilon, while exploiting learned values otherwise."
+},
+"Terminal State": {
+    "short_description": "A state that ends an episode, either by achieving the goal or reaching a failure condition, after which no further actions are possible."
+},
+"Bellman Equation": {
+    "short_description": "The mathematical formula underlying Q-learning updates, expressing the relationship between current and future Q-values through recursive definition."
+},
+"State Space": {
+    "short_description": "The set of all possible states in the environment, defining the scope of situations the agent must learn to handle."
+},
+"Action Space": {
+    "short_description": "The set of all possible actions available to the agent, which may be discrete or continuous depending on the environment."
+},
+"Transition Function": {
+    "short_description": "The underlying dynamics of how actions in states lead to new states, which Q-learning learns implicitly through experience."
+},
+"Value Iteration": {
+    "short_description": "The process of repeatedly updating Q-values based on the Bellman equation until convergence to optimal values."
+},
+"Experience Replay": {
+    "short_description": "A technique of storing and randomly sampling past state-action-reward transitions to improve learning efficiency and stability."
+},
+"Deep Q-Network": {
+    "short_description": "An extension of Q-learning using neural networks to approximate Q-values, enabling learning in environments with large or continuous state spaces."
+},
+"Target Network": {
+    "short_description": "A separate neural network used to generate target Q-values, stabilizing learning by reducing correlation between predictions and targets."
+},
+"Q-Learning Update": {
+    "short_description": "The mathematical operation that adjusts Q-values based on observed rewards and estimated future returns, implementing the core learning mechanism."
+},
+"Convergence": {
+    "short_description": "The state where Q-values stabilize and accurately represent the optimal action-value function, indicating successful learning."
+},
+"Off-Policy Learning": {
+    "short_description": "The ability to learn optimal behavior while following a different exploration policy, a key feature of Q-learning."
+},
+"Action-Value Function": {
+    "short_description": "The mathematical function that Q-learning attempts to approximate, mapping state-action pairs to their expected long-term rewards."
+},
+"Environment": {
+    "short_description": "The system with which the agent interacts, providing states and rewards in response to actions, defining the learning context."
+},
+"Markov Property": {
+    "short_description": "The assumption that the next state depends only on the current state and action, not on the history of previous states and actions."
+},
+"Double Q-Learning": {
+    "short_description": "A variant using two Q-functions to reduce overestimation bias in action-value estimates, improving learning stability."
+},
+"Prioritized Experience": {
+    "short_description": "A technique for sampling transitions based on their estimated importance or learning potential, accelerating learning of critical experiences."
+},
+"Exploration Schedule": {
+    "short_description": "A plan for gradually reducing exploration probability over time, transitioning from learning to exploiting the learned policy."
+},
+"Reward Shaping": {
+    "short_description": "The modification of the reward function to provide more informative feedback, guiding learning toward desired behaviors more effectively."
+},
+"State Aggregation": {
+    "short_description": "The technique of grouping similar states together to reduce the state space and simplify learning in large environments."
+},
+"Action Selection": {
+    "short_description": "The process of choosing actions based on current Q-values and exploration strategy, balancing learning and performance."
+},
+"Learning Curve": {
+    "short_description": "The graph showing how the agent's performance improves over time during training, used to evaluate learning progress and efficiency."
+}
+}

@@ -1,0 +1,104 @@
+{
+  "Lexicon": {
+    "short_description": "The living repository of words and symbols within a language, representing both individual knowledge and collective cultural identity through evolving linguistic patterns."
+  },
+  "Semantics": {
+    "short_description": "The study of meaning's fluid architecture, mapping the relationship between signifiers and the conceptual worlds they construct and transform."
+  },
+  "Etymology": {
+    "short_description": "The archeological dimension of language revealing words' hidden histories and ancestral connections across time and cultural boundaries."
+  },
+  "Morphology": {
+    "short_description": "The alchemical study of word-formation, examining how meaning transmutes through prefixes, suffixes, and root transformations."
+  },
+  "Phonology": {
+    "short_description": "The vibrational essence of language, organizing sound patterns into meaningful systems that shape perception and communication."
+  },
+  "Syntax": {
+    "short_description": "The cosmic architecture of sentence structures, governing how words coalesce into ordered expressions of thought and meaning."
+  },
+  "Pragmatics": {
+    "short_description": "The contextual alchemy of language use, where meaning emerges through the interplay of intention, situation, and cultural codes."
+  },
+  "Dialect": {
+    "short_description": "The living fingerprint of regional or social identity expressed through linguistic variation, preserving unique worldviews within dominant language streams."
+  },
+  "Jargon": {
+    "short_description": "The specialized linguistic crucible where professional or subcultural groups forge precise terminology to contain complex concepts."
+  },
+  "Neologism": {
+    "short_description": "The linguistic primordial matter - newborn words emerging from cultural shifts, technological advances, or creative consciousness."
+  },
+  "Cognate": {
+    "short_description": "Etymological twins across languages revealing hidden linguistic kinships and the shared ancestry of human expression."
+  },
+  "Idiom": {
+    "short_description": "Cultural wisdom crystallized in phrases whose collective meaning transcends literal interpretation, encoding shared experience."
+  },
+  "Thesaurus": {
+    "short_description": "The symbolic network mapping conceptual relationships, revealing the spectrum of meaning through synonymic constellations."
+  },
+  "Orthography": {
+    "short_description": "The ceremonial encoding of speech into written symbols, balancing phonetic representation with historical tradition."
+  },
+  "Philology": {
+    "short_description": "The temporal dimension of language study, examining textual evolution across centuries to understand cultural consciousness shifts."
+  },
+  "Lexeme": {
+    "short_description": "The fundamental unit of meaning's potential - abstract word-essences awaiting contextual activation in speech or writing."
+  },
+  "Denotation": {
+    "short_description": "The manifest meaning anchored in consensus reality - the public face of a word's significance."
+  },
+  "Connotation": {
+    "short_description": "The shadow meanings and emotional resonances that accompany words, forming the subconscious dimension of communication."
+  },
+  "Polysemy": {
+    "short_description": "The quantum state of words existing in multiple meanings simultaneously, resolved only through contextual observation."
+  },
+  "Homonym": {
+    "short_description": "Linguistic doppelgängers sharing form but diverging in essence, challenging perception to discern true meaning."
+  },
+  "Synonym": {
+    "short_description": "Meaning's multifaceted reflections - different linguistic vessels carrying similar conceptual essences."
+  },
+  "Antonym": {
+    "short_description": "The polar twins of semantic fields, defining concepts through opposition and contrastive balance."
+  },
+  "Phoneme": {
+    "short_description": "The quantum particles of spoken language - minimal sound units distinguishing meaning through subtle vibration."
+  },
+  "Grapheme": {
+    "short_description": "The visual sigils encoding language into written form, bridging abstract thought and physical representation."
+  },
+  "Register": {
+    "short_description": "The situational mask of language, adapting lexical choices to align with social context and communicative intent."
+  },
+  "Lingua Franca": {
+    "short_description": "The alchemical crucible where diverse languages merge to create common ground for cross-cultural exchange."
+  },
+  "Lexicography": {
+    "short_description": "The cartographic art of mapping linguistic territories, capturing the living essence of language in dictionary form."
+  },
+  "Alliteration": {
+    "short_description": "The rhythmic incantation of initial sounds, weaving words together through sonic resonance and poetic patterning."
+  },
+  "Onomatopoeia": {
+    "short_description": "The mimetic magic where words embody the essence of their referents through direct sound symbolism."
+  },
+  "Semiotics": {
+    "short_description": "The universal study of signs and symbols, revealing how meaning is created and transmitted across all communicative systems."
+  },
+  "Discourse": {
+    "short_description": "The extended ritual of language in action - structured expressions that shape and reflect social reality."
+  },
+  "Prosody": {
+    "short_description": "The musical dimension of speech, where rhythm, stress, and intonation convey meaning beyond lexical content."
+  },
+  "Metonymy": {
+    "short_description": "The symbolic shorthand where parts represent wholes, compressing complex concepts into potent linguistic fragments."
+  },
+  "Sociolinguistics": {
+    "short_description": "The study of language's social alchemy - how human interactions transmute linguistic forms and functions."
+  }
+}

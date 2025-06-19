@@ -1,0 +1,122 @@
+{
+  "Dialectic": {
+    "short_description": "Method of truth-seeking through opposition and synthesis of ideas."
+  },
+  "Praxis": {
+    "short_description": "Method of learning and transformation through practical action."
+  },
+  "Gnosis": {
+    "short_description": "Direct experiential method of knowing through inner realization."
+  },
+  "Analysis": {
+    "short_description": "Method of understanding through breaking into constituent parts."
+  },
+  "Synthesis": {
+    "short_description": "Method of creating understanding by combining elements into whole."
+  },
+  "Intuition": {
+    "short_description": "Direct knowing without conscious reasoning process."
+  },
+  "Revelation": {
+    "short_description": "Method of receiving knowledge through divine or higher disclosure."
+  },
+  "Empiricism": {
+    "short_description": "Knowledge-gathering through direct observation and experience."
+  },
+  "Rationalism": {
+    "short_description": "Method of deriving truth through logical reasoning and deduction."
+  },
+  "Contemplation": {
+    "short_description": "Deep reflective observation leading to understanding."
+  },
+  "Transmission": {
+    "short_description": "Direct passing of knowledge or power from source to recipient."
+  },
+  "Ritual": {
+    "short_description": "Transformation through prescribed symbolic actions and patterns."
+  },
+  "Emergence": {
+    "short_description": "Development through spontaneous arising of higher-order patterns."
+  },
+  "Integration": {
+    "short_description": "Method of harmonizing different elements into coherent whole."
+  },
+  "Recursion": {
+    "short_description": "Method applying pattern repeatedly at different scales."
+  },
+  "Reduction": {
+    "short_description": "Understanding complex phenomena by simplifying to basic elements."
+  },
+  "Induction": {
+    "short_description": "Deriving general principles from specific observations."
+  },
+  "Deduction": {
+    "short_description": "Deriving specific conclusions from general principles."
+  },
+  "Abduction": {
+    "short_description": "Forming best explanation for observed phenomena."
+  },
+  "Iteration": {
+    "short_description": "Repeated application of process to refine or improve."
+  },
+  "Initiation": {
+    "short_description": "Transformative method through staged revelation of mysteries."
+  },
+  "Embodiment": {
+    "short_description": "Learning through direct physical experience and practice."
+  },
+  "Mimesis": {
+    "short_description": "Learning through imitation and representation."
+  },
+  "Negation": {
+    "short_description": "Understanding through elimination of what is not."
+  },
+  "Alignment": {
+    "short_description": "Method of bringing elements into correct relationship."
+  },
+  "Attunement": {
+    "short_description": "Harmonizing with specific qualities or frequencies."
+  },
+  "Resonance": {
+    "short_description": "Method of change through sympathetic vibration."
+  },
+  "Entrainment": {
+    "short_description": "Synchronization of systems through mutual influence."
+  },
+  "Differentiation": {
+    "short_description": "Development through increasing distinction and complexity."
+  },
+  "Compression": {
+    "short_description": "Condensing complex information into simpler forms."
+  },
+  "Expansion": {
+    "short_description": "Development through elaboration and increasing scope."
+  },
+  "Polarization": {
+    "short_description": "Method using tension between opposites to create change."
+  },
+  "Catalysis": {
+    "short_description": "Facilitating change without being changed oneself."
+  },
+  "Crystallization": {
+    "short_description": "Formation of stable patterns from fluid potential."
+  },
+  "Dissolution": {
+    "short_description": "Return of forms to undifferentiated state."
+  },
+  "Calibration": {
+    "short_description": "Adjusting system to align with standard or ideal."
+  },
+  "Amplification": {
+    "short_description": "Strengthening signal or pattern to reveal structure."
+  },
+  "Purification": {
+    "short_description": "Removal of elements that obstruct or distort."
+  },
+  "Transformation": {
+    "short_description": "Fundamental change of form or nature."
+  },
+  "Transcendence": {
+    "short_description": "Moving beyond current limitations or conditions."
+  }
+}

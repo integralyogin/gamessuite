@@ -1,0 +1,582 @@
+[
+  {
+    "id": "subj_visual_arts_foundations_001",
+    "title": "Visual Arts",
+    "description": "A progressive journey through the core elements, principles, mediums, history, and theories of the visual arts.",
+    "sections": [
+      {
+        "heading": "Visual Arts Defined",
+        "topic_summary": "Creating aesthetic objects.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_topic_intro",
+            "summary": "An introduction to visual arts as a broad category of art forms that create works primarily visual in nature, such as drawing, painting, sculpture, and photography."
+          }
+        ]
+      },
+      {
+        "heading": "Purpose of Art",
+        "topic_summary": "Expression, communication, beauty.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_topic_purpose",
+            "summary": "Exploring the diverse functions of art, including self-expression, communication of ideas, social commentary, aesthetic pleasure, and ritualistic or symbolic purposes."
+          }
+        ]
+      },
+      {
+        "heading": "Observation Skills",
+        "topic_summary": "Seeing with artist's eye.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_topic_observation",
+            "summary": "Developing the ability to carefully observe and perceive visual details, relationships, and nuances in the world, crucial for artistic representation."
+          }
+        ]
+      },
+      {
+        "heading": "Line (Element)",
+        "topic_summary": "Path of moving point.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_element_line",
+            "summary": "Understanding line as a fundamental visual element defined by a point moving in space; exploring its types (straight, curved, implied) and qualities (thick, thin, broken)."
+          }
+        ]
+      },
+      {
+        "heading": "Shape (Element)",
+        "topic_summary": "Two-dimensional enclosed area.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_element_shape",
+            "summary": "Defining shape as a two-dimensional area enclosed by lines or defined by changes in color or value; categorizing shapes (geometric, organic)."
+          }
+        ]
+      },
+      {
+        "heading": "Form (Element)",
+        "topic_summary": "Three-dimensional object, volume.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_element_form",
+            "summary": "Understanding form as a three-dimensional object possessing height, width, and depth, or the illusion of three-dimensionality on a 2D surface."
+          }
+        ]
+      },
+      {
+        "heading": "Space (Element)",
+        "topic_summary": "Area around/within objects.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_element_space",
+            "summary": "Exploring space as the area around, between, or within components of a piece; includes positive and negative space, and creating depth."
+          }
+        ]
+      },
+      {
+        "heading": "Texture (Element)",
+        "topic_summary": "Surface quality, tactile/visual.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_element_texture",
+            "summary": "The perceived surface quality of a work of art, which can be actual (tactile, physical) or implied (visual)."
+          }
+        ]
+      },
+      {
+        "heading": "Value (Element)",
+        "topic_summary": "Lightness or darkness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_element_value",
+            "summary": "The lightness or darkness of tones or colors. White is the lightest value; black is the darkest. Value creates contrast and form."
+          }
+        ]
+      },
+      {
+        "heading": "Color Theory Basics",
+        "topic_summary": "Hue, value, saturation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_topic_color_theory_basics",
+            "summary": "Introduction to the fundamental properties of color: hue (the pure color), value (lightness/darkness), and saturation (intensity/purity)."
+          }
+        ]
+      },
+      {
+        "heading": "Color Wheel",
+        "topic_summary": "Organizing color relationships.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_topic_color_wheel",
+            "summary": "A circular diagram illustrating relationships between primary, secondary, and tertiary colors."
+          }
+        ]
+      },
+      {
+        "heading": "Color Harmonies",
+        "topic_summary": "Pleasing color combinations.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_topic_color_harmonies",
+            "summary": "Principles for combining colors in visually pleasing ways, such as complementary, analogous, triadic, and monochromatic schemes."
+          }
+        ]
+      },
+      {
+        "heading": "Composition",
+        "topic_summary": "Arrangement of visual elements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_principle_composition",
+            "summary": "The organization and arrangement of visual elements (line, shape, color, etc.) within a work of art according to principles of design."
+          }
+        ]
+      },
+      {
+        "heading": "Balance (Principle)",
+        "topic_summary": "Visual weight distribution.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_principle_balance",
+            "summary": "The distribution of visual weight in a composition, which can be symmetrical, asymmetrical, or radial."
+          }
+        ]
+      },
+      {
+        "heading": "Contrast (Principle)",
+        "topic_summary": "Juxtaposing different elements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_principle_contrast",
+            "summary": "The arrangement of opposite elements (light vs. dark, rough vs. smooth, large vs. small) to create visual interest or excitement."
+          }
+        ]
+      },
+      {
+        "heading": "Emphasis (Focal Point)",
+        "topic_summary": "Drawing attention to area.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_principle_emphasis",
+            "summary": "Creating a center of interest or focal point in a work of art that draws the viewer's attention."
+          }
+        ]
+      },
+      {
+        "heading": "Rhythm & Movement",
+        "topic_summary": "Guiding viewer's eye.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_principle_rhythm_movement",
+            "summary": "The use of recurring elements to create a sense of rhythm, or visual pathways that direct the viewer's eye through the artwork."
+          }
+        ]
+      },
+      {
+        "heading": "Pattern & Repetition",
+        "topic_summary": "Recurring motifs, elements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_principle_pattern_repetition",
+            "summary": "The regular repetition of lines, shapes, colors, or motifs to create pattern and visual structure."
+          }
+        ]
+      },
+      {
+        "heading": "Unity & Harmony",
+        "topic_summary": "Sense of wholeness, cohesion.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_principle_unity_harmony",
+            "summary": "Creating a sense of cohesion and completeness in a work of art, where all elements work together harmoniously."
+          }
+        ]
+      },
+      {
+        "heading": "Proportion & Scale",
+        "topic_summary": "Size relationships, relative size.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_principle_proportion_scale",
+            "summary": "Proportion refers to the relative size and scale of the various elements in a design. Scale refers to the size of an object in relation to another object."
+          }
+        ]
+      },
+      {
+        "heading": "Perspective (Drawing)",
+        "topic_summary": "Creating illusion of depth.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_topic_perspective_drawing",
+            "summary": "Techniques used to represent three-dimensional objects and space on a two-dimensional surface, such as linear and atmospheric perspective."
+          }
+        ]
+      },
+      {
+        "heading": "Drawing Media",
+        "topic_summary": "Pencils, charcoal, ink, pastels.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_medium_drawing_media",
+            "summary": "Overview of common materials used for drawing, including graphite pencils, charcoal, conte crayons, ink (pen and brush), and pastels."
+          }
+        ]
+      },
+      {
+        "heading": "Contour Drawing",
+        "topic_summary": "Outlines and edges.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_technique_contour_drawing",
+            "summary": "A drawing technique focused on capturing the outlines and essential edges of a subject, defining its form and volume."
+          }
+        ]
+      },
+      {
+        "heading": "Gesture Drawing",
+        "topic_summary": "Capturing action, movement.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_technique_gesture_drawing",
+            "summary": "Quick, expressive drawings that capture the essential movement, action, and form of a subject, often a figure."
+          }
+        ]
+      },
+      {
+        "heading": "Shading Techniques",
+        "topic_summary": "Creating light and shadow.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_technique_shading",
+            "summary": "Methods used to create the illusion of light, shadow, and form, such as hatching, cross-hatching, stippling, and blending."
+          }
+        ]
+      },
+      {
+        "heading": "Painting Media",
+        "topic_summary": "Watercolor, acrylic, oil.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_medium_painting_media",
+            "summary": "Overview of common painting mediums, including watercolor, gouache, acrylics, and oil paints, and their distinct characteristics."
+          }
+        ]
+      },
+      {
+        "heading": "Brushwork",
+        "topic_summary": "Application of paint.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_technique_brushwork",
+            "summary": "The characteristic way an artist applies paint with a brush, influencing texture, form, and expressive quality."
+          }
+        ]
+      },
+      {
+        "heading": "Sculpture Media",
+        "topic_summary": "Clay, stone, metal, wood.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_medium_sculpture_media",
+            "summary": "Common materials used in sculpture, including clay (modeling), stone and wood (carving), metal (casting, welding), and found objects (assemblage)."
+          }
+        ]
+      },
+      {
+        "heading": "Additive Sculpture",
+        "topic_summary": "Building up form.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_technique_additive_sculpture",
+            "summary": "Sculptural processes where material is added to build up the form, such as modeling with clay or assemblage."
+          }
+        ]
+      },
+      {
+        "heading": "Subtractive Sculpture",
+        "topic_summary": "Removing material, carving.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_technique_subtractive_sculpture",
+            "summary": "Sculptural processes where material is removed from a larger block to reveal the form, primarily carving in wood or stone."
+          }
+        ]
+      },
+      {
+        "heading": "Printmaking Intro",
+        "topic_summary": "Creating multiple impressions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_medium_printmaking_intro",
+            "summary": "The artistic process of creating artworks by printing, normally on paper, from a prepared plate or block, allowing for multiple originals."
+          }
+        ]
+      },
+      {
+        "heading": "Relief Printing",
+        "topic_summary": "Ink on raised surface.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_technique_relief_printing",
+            "summary": "Printmaking techniques (e.g., woodcut, linocut) where the image is printed from the raised areas of a carved block."
+          }
+        ]
+      },
+      {
+        "heading": "Intaglio Printing",
+        "topic_summary": "Ink in incised lines.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_technique_intaglio",
+            "summary": "Printmaking techniques (e.g., engraving, etching) where the image is incised into a surface, and the incised line or sunken area holds the ink."
+          }
+        ]
+      },
+      {
+        "heading": "Photography Basics",
+        "topic_summary": "Capturing light, composition.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_medium_photography_basics",
+            "summary": "Fundamental principles of photography, including camera operation (aperture, shutter speed, ISO), lighting, and composition."
+          }
+        ]
+      },
+      {
+        "heading": "Digital Art",
+        "topic_summary": "Art using digital tech.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_medium_digital_art",
+            "summary": "Artistic work or practice that uses digital technologies as an essential part of the creative or presentation process."
+          }
+        ]
+      },
+      {
+        "heading": "Mixed Media",
+        "topic_summary": "Combining different materials.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_medium_mixed_media",
+            "summary": "Artworks composed from a combination of different materials and media."
+          }
+        ]
+      },
+      {
+        "heading": "Art History: Ancient",
+        "topic_summary": "Egypt, Greece, Rome.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_history_ancient",
+            "summary": "Overview of art from ancient civilizations, including Egyptian, Greek, and Roman periods, focusing on key styles and iconic works."
+          }
+        ]
+      },
+      {
+        "heading": "Art History: Renaissance",
+        "topic_summary": "Rebirth of classical ideals.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_history_renaissance",
+            "summary": "The period of European history marking the transition from the Middle Ages to modernity, characterized by a revival of classical learning and art."
+          }
+        ]
+      },
+      {
+        "heading": "Art History: Impressionism",
+        "topic_summary": "Capturing light, fleeting moments.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_history_impressionism",
+            "summary": "A 19th-century art movement characterized by relatively small, thin, yet visible brush strokes, open composition, emphasis on accurate depiction of light and its changing qualities."
+          }
+        ]
+      },
+      {
+        "heading": "Art History: Modernism",
+        "topic_summary": "Early 20th-century movements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_history_modernism",
+            "summary": "A broad movement in Western art, architecture and design which flouted traditional styles, encompassing Cubism, Fauvism, Surrealism, Abstract Expressionism, etc."
+          }
+        ]
+      },
+      {
+        "heading": "Art History: Contemporary",
+        "topic_summary": "Art of today, diverse.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_history_contemporary",
+            "summary": "Art produced in the present day or recent past, characterized by its global nature, diversity of materials, forms, and concepts."
+          }
+        ]
+      },
+      {
+        "heading": "Aesthetics",
+        "topic_summary": "Philosophy of art, beauty.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_theory_aesthetics",
+            "summary": "A branch of philosophy dealing with the nature of beauty, art, and taste, and with the creation and appreciation of beauty."
+          }
+        ]
+      },
+      {
+        "heading": "Art Criticism",
+        "topic_summary": "Interpreting, evaluating art.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_theory_art_criticism",
+            "summary": "The discussion or evaluation of visual art, often involving interpretation of meaning, analysis of form, and judgment of quality."
+          }
+        ]
+      },
+      {
+        "heading": "Iconography",
+        "topic_summary": "Study of symbols, images.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_theory_iconography",
+            "summary": "The branch of art history which studies the identification, description, and the interpretation of the content of images: the subjects depicted, the particular compositions and details used to do so, and other elements that are distinct from artistic style."
+          }
+        ]
+      },
+      {
+        "heading": "Semiotics in Art",
+        "topic_summary": "Art as signs, symbols.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_theory_semiotics",
+            "summary": "The study of signs and symbols and their interpretation, applied to visual art to understand how meaning is constructed and communicated."
+          }
+        ]
+      },
+      {
+        "heading": "Art & Culture",
+        "topic_summary": "Art reflecting societal values.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_context_art_culture",
+            "summary": "Examining the relationship between art and its cultural context, including how art reflects and shapes societal values, beliefs, and identities."
+          }
+        ]
+      },
+      {
+        "heading": "Art & Politics",
+        "topic_summary": "Art as social commentary.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_context_art_politics",
+            "summary": "Exploring how art can be used as a form of political expression, social critique, propaganda, or activism."
+          }
+        ]
+      },
+      {
+        "heading": "The Art Market",
+        "topic_summary": "Economics of art world.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_context_art_market",
+            "summary": "Understanding the economic systems surrounding the creation, buying, selling, and valuation of art, including galleries, auctions, and collectors."
+          }
+        ]
+      },
+      {
+        "heading": "Art Conservation",
+        "topic_summary": "Preserving artworks for future.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_practice_conservation",
+            "summary": "The profession devoted to the preservation of cultural heritage for the future, involving examination, documentation, treatment, and preventative care."
+          }
+        ]
+      },
+      {
+        "heading": "Developing Personal Style",
+        "topic_summary": "Unique artistic voice.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_practice_personal_style",
+            "summary": "The process of an artist cultivating a distinctive and recognizable manner of creating art, reflecting their unique vision, techniques, and influences."
+          }
+        ]
+      },
+      {
+        "heading": "Critique & Feedback",
+        "topic_summary": "Giving, receiving art critique.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_practice_critique",
+            "summary": "The process of giving and receiving constructive feedback on artworks to foster growth, understanding, and refinement."
+          }
+        ]
+      },
+      {
+        "heading": "Portfolio Development",
+        "topic_summary": "Showcasing artistic work.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "va_practice_portfolio",
+            "summary": "Curating a collection of an artist's best work to showcase their skills, style, and artistic development for academic or professional purposes."
+          }
+        ]
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Explorer - Enhanced Interactive Learning Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/graph.css" rel="stylesheet">
+    <link href="css/themes.css" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h2>Knowledge Explorer</h2>
+            <p>Loading the universe of knowledge...</p>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="app" class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <i class="fas fa-brain logo-icon"></i>
+                    <h1 class="app-title">Knowledge Explorer</h1>
+                    <span class="version-badge">Enhanced</span>
+                </div>
+                
+                <div class="header-controls">
+                    <button id="theme-toggle" class="control-btn" title="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="settings-btn" class="control-btn" title="Settings">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <button id="help-btn" class="control-btn" title="Help">
+                        <i class="fas fa-question-circle"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Sidebar -->
+            <aside id="sidebar" class="sidebar">
+                <div class="sidebar-header">
+                    <h3>Navigation</h3>
+                    <button id="sidebar-toggle" class="sidebar-toggle">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                </div>
+
+                <!-- Search Section -->
+                <div class="search-section">
+                    <div class="search-container">
+                        <div class="search-input-wrapper">
+                            <i class="fas fa-search search-icon"></i>
+                            <input type="text" id="search-input" class="search-input" 
+                                   placeholder="Explore concepts..." autocomplete="off">
+                            <div id="search-suggestion" class="search-suggestion"></div>
+                            <button id="clear-search" class="clear-search-btn">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div id="search-filters" class="search-filters">
+                            <button class="filter-btn active" data-filter="all">All</button>
+                            <button class="filter-btn" data-filter="favorites">Favorites</button>
+                            <button class="filter-btn" data-filter="recent">Recent</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="stats-section">
+                    <div class="stat-item">
+                        <span class="stat-number" id="total-concepts">0</span>
+                        <span class="stat-label">Concepts</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="connections">0</span>
+                        <span class="stat-label">Connections</span>
+                    </div>
+                </div>
+
+                <!-- Recent & Favorites -->
+                <div class="sidebar-section">
+                    <h4>Recent Explorations</h4>
+                    <div id="recent-list" class="concept-list"></div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h4>Favorites</h4>
+                    <div id="favorites-list" class="concept-list"></div>
+                </div>
+
+                <!-- Categories -->
+                <div class="sidebar-section">
+                    <h4>Categories</h4>
+                    <div id="categories-list" class="categories-list"></div>
+                </div>
+            </aside>
+
+            <!-- Content Area -->
+            <div class="content-area">
+                <!-- Toolbar -->
+                <div class="toolbar">
+                    <div class="toolbar-left">
+                        <div class="breadcrumb" id="breadcrumb"></div>
+                    </div>
+                    <div class="toolbar-right">
+                        <div class="view-controls">
+                            <button id="graph-view-btn" class="view-btn active" title="Graph View">
+                                <i class="fas fa-project-diagram"></i>
+                            </button>
+                            <button id="tree-view-btn" class="view-btn" title="Tree View">
+                                <i class="fas fa-sitemap"></i>
+                            </button>
+                            <button id="list-view-btn" class="view-btn" title="List View">
+                                <i class="fas fa-list"></i>
+                            </button>
+                        </div>
+                        <div class="action-controls">
+                            <button id="zoom-in-btn" class="action-btn" title="Zoom In">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                            <button id="zoom-out-btn" class="action-btn" title="Zoom Out">
+                                <i class="fas fa-search-minus"></i>
+                            </button>
+                            <button id="center-view-btn" class="action-btn" title="Center View">
+                                <i class="fas fa-crosshairs"></i>
+                            </button>
+                            <button id="export-btn" class="action-btn" title="Export">
+                                <i class="fas fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visualization Area -->
+                <div class="visualization-container">
+                    <!-- Graph View -->
+                    <div id="graph-view" class="view-panel active">
+                        <div id="graph-canvas" class="graph-canvas"></div>
+                        <div id="graph-minimap" class="graph-minimap"></div>
+                        <div id="graph-controls" class="graph-controls">
+                            <div class="control-group">
+                                <label>Layout:</label>
+                                <select id="layout-select">
+                                    <option value="force">Force Directed</option>
+                                    <option value="hierarchical">Hierarchical</option>
+                                    <option value="circular">Circular</option>
+                                    <option value="grid">Grid</option>
+                                </select>
+                            </div>
+                            <div class="control-group">
+                                <label>Node Size:</label>
+                                <input type="range" id="node-size-slider" min="5" max="50" value="20">
+                            </div>
+                            <div class="control-group">
+                                <label>Link Distance:</label>
+                                <input type="range" id="link-distance-slider" min="50" max="300" value="150">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tree View -->
+                    <div id="tree-view" class="view-panel">
+                        <div id="tree-canvas" class="tree-canvas"></div>
+                    </div>
+
+                    <!-- List View -->
+                    <div id="list-view" class="view-panel">
+                        <div id="concept-grid" class="concept-grid"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Details Panel -->
+            <div id="details-panel" class="details-panel">
+                <div class="panel-header">
+                    <h3 id="concept-title">Select a Concept</h3>
+                    <div class="panel-actions">
+                        <button id="favorite-btn" class="panel-action-btn" title="Add to Favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button id="share-btn" class="panel-action-btn" title="Share">
+                            <i class="fas fa-share"></i>
+                        </button>
+                        <button id="close-panel-btn" class="panel-action-btn" title="Close">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="panel-content" id="panel-content">
+                    <div class="welcome-message">
+                        <i class="fas fa-lightbulb welcome-icon"></i>
+                        <h4>Welcome to Knowledge Explorer</h4>
+                        <p>Search for a concept or click on a node in the graph to explore the interconnected world of knowledge.</p>
+                        <div class="quick-start">
+                            <h5>Quick Start:</h5>
+                            <ul>
+                                <li>Type in the search box to find concepts</li>
+                                <li>Click on nodes to explore relationships</li>
+                                <li>Use the view controls to change perspectives</li>
+                                <li>Save favorites for quick access</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Modals -->
+        <!-- Settings Modal -->
+        <div id="settings-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Settings</h3>
+                    <button class="modal-close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="settings-section">
+                        <h4>Appearance</h4>
+                        <div class="setting-item">
+                            <label>Theme:</label>
+                            <select id="theme-select">
+                                <option value="light">Light</option>
+                                <option value="dark">Dark</option>
+                                <option value="auto">Auto</option>
+                            </select>
+                        </div>
+                        <div class="setting-item">
+                            <label>Animation Speed:</label>
+                            <input type="range" id="animation-speed" min="0.5" max="2" step="0.1" value="1">
+                        </div>
+                    </div>
+                    <div class="settings-section">
+                        <h4>Behavior</h4>
+                        <div class="setting-item">
+                            <label>
+                                <input type="checkbox" id="auto-expand"> Auto-expand related concepts
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label>
+                                <input type="checkbox" id="show-tooltips" checked> Show tooltips
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Export Modal -->
+        <div id="export-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Export Knowledge Map</h3>
+                    <button class="modal-close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="export-options">
+                        <button class="export-btn" data-format="png">
+                            <i class="fas fa-image"></i>
+                            Export as PNG
+                        </button>
+                        <button class="export-btn" data-format="svg">
+                            <i class="fas fa-vector-square"></i>
+                            Export as SVG
+                        </button>
+                        <button class="export-btn" data-format="json">
+                            <i class="fas fa-code"></i>
+                            Export Data (JSON)
+                        </button>
+                        <button class="export-btn" data-format="pdf">
+                            <i class="fas fa-file-pdf"></i>
+                            Export as PDF
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Modal -->
+        <div id="help-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Help & Shortcuts</h3>
+                    <button class="modal-close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="help-section">
+                        <h4>Keyboard Shortcuts</h4>
+                        <div class="shortcut-list">
+                            <div class="shortcut-item">
+                                <kbd>Ctrl</kbd> + <kbd>/</kbd>
+                                <span>Focus search</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <kbd>Esc</kbd>
+                                <span>Clear selection</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <kbd>Space</kbd>
+                                <span>Center view</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <kbd>+</kbd> / <kbd>-</kbd>
+                                <span>Zoom in/out</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="help-section">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li>Click and drag to pan the view</li>
+                            <li>Scroll to zoom in and out</li>
+                            <li>Click on nodes to select and explore</li>
+                            <li>Double-click to focus on a concept</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/graph.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,302 @@
+{
+"Objects": {
+"short_description": "Physical or metaphysical items of significance that embody power, meaning, or purpose beyond their material form, serving as focal points for human experience and intention."
+},
+  "Form": {
+    "short_description": "Essential pattern or structure that gives something its nature."
+  },
+  "Entity": {
+    "short_description": "Distinct unit of existence with its own identity and attributes."
+  },
+  "Substance": {
+    "short_description": "Fundamental material or essence from which things are made."
+  },
+  "Pattern": {
+    "short_description": "Recurring arrangement or organization that structures objects."
+  },
+  "Symbol": {
+    "short_description": "Object that represents or points to meaning beyond itself."
+  },
+  "Vehicle": {
+    "short_description": "Carrier or container that transmits or holds other things."
+  },
+  "Tool": {
+    "short_description": "Object that extends capability or enables function."
+  },
+  "Element": {
+    "short_description": "Basic component or principle from which things are composed."
+  },
+  "Instrument": {
+    "short_description": "Object that serves as means for accomplishing purpose."
+  },
+  "Artifact": {
+    "short_description": "Object modified or created through intentional action."
+  },
+  "Token": {
+    "short_description": "Physical manifestation or instance of abstract category."
+  },
+  "Container": {
+    "short_description": "Object that holds, bounds, or encompasses other things."
+  },
+  "Composite": {
+    "short_description": "Object formed from combination of distinct elements."
+  },
+  "Node": {
+    "short_description": "Point of connection or interaction in larger system."
+  },
+  "Interface": {
+    "short_description": "Boundary or medium where different systems interact."
+  },
+  "Archetype": {
+    "short_description": "Primordial pattern that structures classes of objects."
+  },
+  "Matrix": {
+    "short_description": "Environment or medium that generates or supports objects."
+  },
+  "Vessel": {
+    "short_description": "Container that holds and shapes content within it."
+  },
+  "Circuit": {
+    "short_description": "System of connected elements forming functional whole."
+  },
+  "Crystal": {
+    "short_description": "Object with internal order and geometric structure."
+  },
+  "Seed": {
+    "short_description": "Object containing potential for development and growth."
+  },
+  "Field": {
+    "short_description": "Region of influence or force that affects other objects."
+  },
+  "Wave": {
+    "short_description": "Pattern of disturbance or energy moving through medium."
+  },
+  "Membrane": {
+    "short_description": "Selective barrier between different domains or states."
+  },
+  "Construct": {
+    "short_description": "Object assembled or created for specific purpose."
+  },
+  "Signature": {
+    "short_description": "Distinctive pattern that identifies or characterizes."
+  },
+  "Channel": {
+    "short_description": "Conduit through which force or information flows."
+  },
+  "Lens": {
+    "short_description": "Object that focuses, transforms, or mediates."
+  },
+  "Catalyst": {
+    "short_description": "Object that enables or accelerates transformation."
+  },
+  "Resonator": {
+    "short_description": "Object that amplifies or maintains vibrations."
+  },
+  "Script": {
+    "short_description": "Pattern that guides or determines sequence of events."
+  },
+  "Fragment": {
+    "short_description": "Part separated from whole but retaining its nature."
+  },
+  "Module": {
+    "short_description": "Self-contained unit that functions within larger system."
+  },
+  "Portal": {
+    "short_description": "Object enabling transition between states or domains."
+  },
+  "Engine": {
+    "short_description": "System that transforms or generates energy or change."
+  },
+  "Network": {
+    "short_description": "Interconnected system of objects or relations."
+  },
+  "Medium": {
+    "short_description": "Substance or context through which effects propagate."
+  },
+  "Marker": {
+    "short_description": "Object that indicates position or state in system."
+  },
+  "Device": {
+    "short_description": "Object designed to perform specific function."
+  },
+   "Entity": {
+    "short_description": "A distinct unit or item with identifiable characteristics."
+  },
+  "Item": {
+    "short_description": "A specific tangible or intangible object."
+  },
+  "Artifact": {
+    "short_description": "An object created or shaped by intentional action."
+  },
+  "Substance": {
+    "short_description": "The material or essence that constitutes an object."
+  },
+  "Form": {
+    "short_description": "The shape, structure, or configuration of an object."
+  },
+  "Property": {
+    "short_description": "The inherent characteristics or attributes of an object."
+  },
+  "Attribute": {
+    "short_description": "Specific qualities or features that define an object."
+  },
+  "Identity": {
+    "short_description": "The unique characteristics that distinguish an object."
+  },
+  "Category": {
+    "short_description": "The classification or grouping of objects based on shared traits."
+  },
+  "Class": {
+    "short_description": "A defined set or type of objects with common properties."
+  },
+  "Instance": {
+    "short_description": "A specific occurrence or example of an object within a category."
+  },
+  "Component": {
+    "short_description": "Individual parts or elements that make up an object."
+  },
+  "Element": {
+    "short_description": "Fundamental units or pieces of an object."
+  },
+  "Structure": {
+    "short_description": "The arrangement or organization of an object's components."
+  },
+  "Composition": {
+    "short_description": "The combination of elements that form an object."
+  },
+  "Material": {
+    "short_description": "The physical or conceptual substance of which an object is made."
+  },
+  "Dimension": {
+    "short_description": "The measurable aspects or scales of an object."
+  },
+  "Scale": {
+    "short_description": "The relative size or scope of an object in context."
+  },
+  "Position": {
+    "short_description": "The placement or location of an object within a system or space."
+  },
+  "Orientation": {
+    "short_description": "The directional alignment or perspective of an object."
+  },
+  "State": {
+    "short_description": "The condition or mode of an object at a given time."
+  },
+  "Function": {
+    "short_description": "The purpose or role that an object serves."
+  },
+  "Behavior": {
+    "short_description": "The actions or responses exhibited by an object in context."
+  },
+  "Interaction": {
+    "short_description": "The reciprocal influence or relationship between objects."
+  },
+  "Relationship": {
+    "short_description": "Connections or associations between objects."
+  },
+  "Dependency": {
+    "short_description": "Relationships where an object's existence or function relies on another."
+  },
+  "Interdependence": {
+    "short_description": "Mutual reliance between objects in a system."
+  },
+  "Connection": {
+    "short_description": "The links or bonds between objects."
+  },
+  "Interface": {
+    "short_description": "Points of interaction or connection between objects."
+  },
+  "Boundary": {
+    "short_description": "The limits or delineations that define an object."
+  },
+  "Context": {
+    "short_description": "The circumstances or environment in which an object exists."
+  },
+  "Transformation": {
+    "short_description": "Processes of change in the nature or form of an object."
+  },
+  "Evolution": {
+    "short_description": "Patterns of development and change in objects over time."
+  },
+  "Decomposition": {
+    "short_description": "The breakdown or division of an object into smaller components."
+  },
+  "Integration": {
+    "short_description": "The unification or synthesis of objects into a cohesive system."
+  },
+  "Differentiation": {
+    "short_description": "The development of distinct characteristics between objects."
+  },
+  "Abstraction": {
+    "short_description": "Generalized representations of the nature of objects."
+  },
+  "Manifestation": {
+    "short_description": "The expression or realization of an object in observable form."
+  },
+  "Representation": {
+    "short_description": "The depiction or conceptualization of an object."
+  },
+  "Constraint": {
+    "short_description": "Limitations or conditions that shape an object's properties or behavior."
+  },
+  "Frame": {
+    "short_description": "Structure that bounds or organizes content within."
+  },
+    "Entity": {
+    "short_description": "An independently existing item with definable boundaries and identity."
+  },
+  "Artifact": {
+    "short_description": "An object created or modified by an agent, reflecting design, purpose, or cultural significance."
+  },
+  "Substance": {
+    "short_description": "The essential material nature or the intrinsic matter that composes an object."
+  },
+  "Material": {
+    "short_description": "The physical or conceptual medium from which objects are constructed."
+  },
+  "Form": {
+    "short_description": "The external shape or configuration that gives an object its recognizable appearance."
+  },
+  "Structure": {
+    "short_description": "The internal organization and arrangement of an object's components or elements."
+  },
+  "Component": {
+    "short_description": "A fundamental part or building block that contributes to the whole object."
+  },
+  "Instance": {
+    "short_description": "A specific occurrence or embodiment of an object in space or time."
+  },
+  "Property": {
+    "short_description": "An inherent quality or characteristic that defines the nature of an object."
+  },
+  "Attribute": {
+    "short_description": "A measurable trait that distinguishes one object from another."
+  },
+  "State": {
+    "short_description": "The condition or configuration of an object at a particular moment."
+  },
+  "Boundary": {
+    "short_description": "The defined edges or limits that demarcate an object from its surroundings."
+  },
+  "Configuration": {
+    "short_description": "The particular arrangement of an object's components that determines its function and identity."
+  },
+  "Manifestation": {
+    "short_description": "The observable expression or realization of an object in a given context."
+  },
+  "Representation": {
+    "short_description": "A depiction or model that encapsulates the essential features of an object."
+  },
+  "Aspect": {
+    "short_description": "A distinct facet or perspective of an object, highlighting specific attributes."
+  },
+  "Phenomenon": {
+    "short_description": "An object as experienced through observation, encompassing its dynamic qualities and behaviors."
+  },
+  "Essence": {
+    "short_description": "The distilled core or indispensable nature that underlies the identity of an object."
+  },
+  "Dimension": {
+    "short_description": "A fundamental measure or conceptual parameter through which an object is defined and understood."
+  }
+}

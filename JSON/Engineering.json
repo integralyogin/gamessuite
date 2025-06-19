@@ -1,0 +1,65 @@
+{
+  "Engineering": {
+    "short_description": "The application of scientific principles to design, develop, and maintain structures, machines, systems, and processes for practical purposes."
+  },
+  "Mechanical Engineering": {
+    "short_description": "The discipline that applies engineering, physics, and materials science principles for the design, analysis, manufacturing, and maintenance of mechanical systems."
+  },
+  "Electrical Engineering": {
+    "short_description": "Focused on the study and application of electricity, electronics, and electromagnetism, including power generation, transmission, control, and communications."
+  },
+  "Civil Engineering": {
+    "short_description": "Deals with the design, construction, and maintenance of the physical and naturally built environment, including public works like roads, bridges, canals, dams, and buildings."
+  },
+  "Chemical Engineering": {
+    "short_description": "Involves the application of physical sciences and life sciences with mathematics and economics to produce, transform, transport, and properly use chemicals, materials, and energy."
+  },
+  "Aerospace Engineering": {
+    "short_description": "Concerned with the design, construction, and science of aircraft and spacecraft, including both aeronautical (aircraft) and astronautical (spacecraft) engineering."
+  },
+  "Software Engineering": {
+    "short_description": "The systematic approach to the development, operation, maintenance, and retirement of software, emphasizing methodologies, techniques, and processes."
+  },
+  "Biomedical Engineering": {
+    "short_description": "Combines engineering principles with medical and biological sciences to design and create equipment, devices, computer systems, and software used in healthcare."
+  },
+  "Environmental Engineering": {
+    "short_description": "Applies scientific and engineering principles to improve and maintain the environment, focusing on water purification, waste management, pollution control, and sustainable development."
+  },
+  "Industrial Engineering": {
+    "short_description": "Optimizes complex processes, systems, or organizations by developing, improving, and implementing integrated systems of people, money, knowledge, information, equipment, energy, and materials."
+  },
+  "Materials Science Engineering": {
+    "short_description": "The study of the properties of matter and how to manipulate these properties to design new materials with specific characteristics for various applications."
+  },
+  "Structural Engineering": {
+    "short_description": "A specialty within civil engineering ensuring the stability, strength, and rigidity of structures like buildings, bridges, and towers."
+  },
+  "Systems Engineering": {
+    "short_description": "An interdisciplinary field of engineering that focuses on how to design and manage complex systems over their life cycles, ensuring they meet performance specifications."
+  },
+  "Control Systems Engineering": {
+    "short_description": "Deals with the design of systems that control other devices or systems, using feedback to dynamically adjust behavior to desired outputs."
+  },
+  "Geotechnical Engineering": {
+    "short_description": "Concerned with the engineering behavior of earth materials, including soil and rock, and their application in civil engineering contexts like foundations and retaining structures."
+  },
+  "Robotics Engineering": {
+    "short_description": "Involves the design, construction, operation, and use of robots, as well as computer systems for their control, sensory feedback, and information processing."
+  },
+  "Thermal Engineering": {
+    "short_description": "Focuses on systems where heat transfer and thermodynamics play critical roles, such as in energy conversion, refrigeration, and HVAC systems."
+  },
+  "Manufacturing Engineering": {
+    "short_description": "Applies the principles of engineering to the processes of converting raw materials into finished products, optimizing efficiency, quality, and cost."
+  },
+  "Project Management": {
+    "short_description": "The discipline of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria within engineering projects."
+  },
+  "Innovation": {
+    "short_description": "The process by which new ideas are transformed into practical applications, a core aspect of engineering involving creativity, research, and development."
+  },
+  "Ethics in Engineering": {
+    "short_description": "The moral principles by which engineers conduct their work, ensuring safety, honesty, fairness, and respect for societal impacts of their creations."
+  }
+}

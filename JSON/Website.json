@@ -1,0 +1,39 @@
+{
+ "Websites":{
+  "address": ""
+  ,"category": ""
+ },
+ "AI":{
+  "address": ""
+  ,"category": ""
+ },
+
+
+ "llm-arena": {  "address": 
+"https://lmarena.ai/"
+,"category": 
+"AI"
+ },
+"chapt-gpt": {  "address": 
+"https://chatgpt.com/"
+,"category": 
+"AI"
+ },
+"Anthropic - Claude": {  "address": 
+"https://claude.ai/"
+,"category": 
+"AI"
+ },
+"perplexity-ai": {  "address": 
+"https://perplexity.ai/"
+,"category": 
+"AI"
+ },
+"DeepSeek": {  "address": 
+"https://chat.deepseek.com/"
+,"category": 
+"AI"
+ }
+
+
+}

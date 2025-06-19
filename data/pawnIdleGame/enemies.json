@@ -1,0 +1,56 @@
+[
+  {
+    "id": "goblin_scout",
+    "name": "Goblin Scout",
+    "health": 20,
+    "attack": 4,
+    "defense": 1,
+    "agility": 5,
+    "xpReward": 10,
+    "lootTable": [
+      { "type": "gold", "min": 1, "max": 5, "chance": 0.8 },
+      { "type": "item", "itemId": "goblin_ear", "chance": 0.6 }
+    ]
+  },
+  {
+    "id": "goblin_warrior",
+    "name": "Goblin Warrior",
+    "health": 35,
+    "attack": 6,
+    "defense": 3,
+    "agility": 3,
+    "xpReward": 20,
+    "lootTable": [
+      { "type": "gold", "min": 3, "max": 8, "chance": 0.9 },
+      { "type": "item", "itemId": "goblin_ear", "chance": 0.7 },
+      { "type": "item", "itemId": "basic_sword", "chance": 0.05 }
+    ]
+  },
+  {
+    "id": "goblin_shaman",
+    "name": "Goblin Shaman",
+    "health": 25,
+    "attack": 3,
+    "defense": 2,
+    "magicAttack": 7,
+    "agility": 4,
+    "xpReward": 25,
+    "lootTable": [
+      { "type": "gold", "min": 5, "max": 10, "chance": 0.9 },
+      { "type": "item", "itemId": "health_potion_s", "chance": 0.1 }
+    ]
+  },
+  {
+    "id": "goblin_chieftain",
+    "name": "Goblin Chieftain",
+    "health": 100,
+    "attack": 10,
+    "defense": 5,
+    "agility": 2,
+    "xpReward": 100,
+    "lootTable": [
+      { "type": "gold", "min": 50, "max": 100, "chance": 1.0 },
+      { "type": "item", "itemId": "leather_armor", "chance": 0.5 }
+    ]
+  }
+]

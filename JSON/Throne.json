@@ -1,0 +1,62 @@
+{
+"Sovereignty": {
+"short_description": "The fundamental principle of supreme authority and ruling power, embodied in the physical throne as the seat of governance and divine right."
+},
+"Regalia": {
+"short_description": "The ceremonial objects and symbols associated with throne authority, including crown, scepter, and orb, representing different aspects of royal power."
+},
+"Succession": {
+"short_description": "The established system of inheritance or transfer of throne authority, determining the continuity of power through generations or designated heirs."
+},
+"Divine Right": {
+"short_description": "The doctrine asserting that a monarch's right to rule comes directly from divine authority, legitimizing the throne's power through spiritual sanction."
+},
+"Court": {
+"short_description": "The social and administrative sphere surrounding the throne, comprising nobles, advisors, and officials who support and execute royal authority."
+},
+"Coronation": {
+"short_description": "The sacred ceremony of throne ascension, marking the formal investiture of royal power and public recognition of sovereign authority."
+},
+"Dynasty": {
+"short_description": "The hereditary lineage of throne holders, establishing continuity of rule through familial succession and shared royal bloodlines."
+},
+"Mandate": {
+"short_description": "The recognized authority and responsibility to rule, whether derived from divine, popular, or constitutional sources of legitimacy."
+},
+"Protocol": {
+"short_description": "The formal rules and ceremonies governing behavior around the throne, maintaining order and reinforcing hierarchical relationships."
+},
+"Audience": {
+"short_description": "The formal reception of subjects or ambassadors before the throne, symbolizing the sovereign's role in diplomacy and governance."
+},
+"Abdication": {
+"short_description": "The voluntary surrender or renunciation of throne authority, marking a formal transfer of power outside normal succession."
+},
+"Usurpation": {
+"short_description": "The illegitimate seizure of throne power, disrupting established succession and challenging traditional authority structures."
+},
+"Interregnum": {
+"short_description": "The period between successive throne occupants, often marked by temporary governance arrangements and potential political instability."
+},
+"Vassalage": {
+"short_description": "The hierarchical relationship between dominant and subordinate thrones, establishing networks of loyalty and obligation."
+},
+"Legitimacy": {
+"short_description": "The recognized right to occupy the throne, supported by legal, traditional, or popular acknowledgment of authority."
+},
+"Accession": {
+"short_description": "The process of assuming throne power, including both formal ceremonies and practical transfer of governmental authority."
+},
+"Regency": {
+"short_description": "Temporary throne authority exercised on behalf of an incapacitated or underage monarch, maintaining continuity of governance."
+},
+"Prerogative": {
+"short_description": "The special rights and privileges exclusively held by the throne, distinguishing sovereign authority from other forms of power."
+},
+"Ceremony": {
+"short_description": "The ritualized practices surrounding throne authority, reinforcing power through symbolic actions and traditional observances."
+},
+"Patronage": {
+"short_description": "The throne's role in dispensing favors, positions, and resources, maintaining loyalty through controlled distribution of benefits."
+}
+}

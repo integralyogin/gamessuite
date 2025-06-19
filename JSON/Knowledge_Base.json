@@ -1,0 +1,95 @@
+{
+  "Knowledge Base": {
+    "short_description": "A centralized repository of information, organized and structured to provide quick access to knowledge, used for support, learning, and decision-making processes."
+  },
+
+"Knowledge Types": { "quote": "Declarative (knowing that) vs Procedural (knowing how) vs Meta-knowledge (knowing about knowing)" },
+"Knowledge Representation": { "quote": "Methods include semantic networks, frames, rules, ontologies, and logic programming" },
+"Ontologies": { "quote": "Formal specification of concepts: entities, relations, attributes, and hierarchies" },
+"Semantic Networks": { "quote": "Graph structures linking concepts through relationships: Node→Relation→Node" },
+"Expert Knowledge": { "quote": "Domain-specific expertise captured through rules and heuristics" },
+"Rule-Based Systems": { "quote": "IF condition THEN action rules for knowledge representation and reasoning" },
+"Case-Based Reasoning": { "quote": "Problem solving based on similar past cases: problem→retrieve→reuse→revise" },
+"Inference Engines": { "quote": "Forward chaining (data→conclusion) and backward chaining (goal→supporting evidence)" },
+"Knowledge Acquisition": { "quote": "Process of extracting, structuring, and organizing knowledge from sources" },
+"Knowledge Engineering": { "quote": "Methods and tools for building knowledge-based systems" },
+"Knowledge Management": { "quote": "Creating, sharing, using, and managing organizational knowledge" },
+"Knowledge Discovery": { "quote": "Extracting patterns and insights from large datasets: data→patterns→knowledge" },
+"Knowledge Integration": { "quote": "Combining knowledge from multiple sources into coherent whole" },
+"Knowledge Validation": { "quote": "Verifying accuracy, consistency, and completeness of knowledge" },
+"Knowledge Maintenance": { "quote": "Updating, revising, and keeping knowledge current and relevant" },
+"Knowledge Sharing": { "quote": "Methods for distributing and accessing knowledge across systems/users" },
+"Knowledge Models": { "quote": "Structured representations of domain knowledge and relationships" },
+"Knowledge Graphs": { "quote": "Network of real-world entities and their interrelations" },
+"Knowledge Mining": { "quote": "Extracting implicit knowledge from unstructured data sources" },
+"Knowledge Base Query": { "quote": "Methods for retrieving information: query language → knowledge access" },
+"Knowledge Organization": { "quote": "Taxonomies, classifications, and hierarchies for structuring knowledge" },
+"Knowledge Reasoning": { "quote": "Logical inference mechanisms: premises → conclusions" },
+"Knowledge Retrieval": { "quote": "Techniques for accessing stored knowledge effectively" },
+"Knowledge Updates": { "quote": "Mechanisms for adding, modifying, and removing knowledge" },
+"Knowledge Visualization": { "quote": "Visual representations of knowledge structures and relationships" },
+"Knowledge Security": { "quote": "Protecting knowledge assets and controlling access" },
+"Knowledge Quality": { "quote": "Measures of accuracy, completeness, and consistency" },
+"Knowledge Architecture": { "quote": "Overall structure and organization of knowledge systems" },
+"Knowledge Federation": { "quote": "Linking and integrating distributed knowledge bases" },
+"Knowledge Lifecycle": { "quote": "Creation → Organization → Distribution → Application → Evolution" }
+,
+
+  "Information": {
+    "short_description": "Data that has been processed, organized, or presented in a way that makes it useful or meaningful, forming the content of a knowledge base."
+  },
+  "Database": {
+    "short_description": "A systematized collection of data, often used as the backend for storing knowledge base entries, allowing for efficient retrieval and management."
+  },
+  "Content Management": {
+    "short_description": "The processes and technologies used to collect, manage, and publish information, crucial for maintaining an up-to-date and accurate knowledge base."
+  },
+  "Search Functionality": {
+    "short_description": "The feature that allows users to find information within the knowledge base by entering keywords, queries, or using filters."
+  },
+  "User Interface (UI)": {
+    "short_description": "The means by which users interact with the knowledge base, designed for ease of use, accessibility, and efficiency in navigating the system."
+  },
+  "Documentation": {
+    "short_description": "Written content that describes products, processes, or procedures, often the primary content within a knowledge base."
+  },
+  "FAQs (Frequently Asked Questions)": {
+    "short_description": "A list of common questions and answers, providing quick solutions to typical inquiries users might have."
+  },
+  "Taxonomy": {
+    "short_description": "The categorization scheme for organizing content within a knowledge base, using hierarchies or classifications to make navigation intuitive."
+  },
+  "Version Control": {
+    "short_description": "The management of changes to documents, articles, or any informational content over time, ensuring historical accuracy and relevance."
+  },
+  "Knowledge Sharing": {
+    "short_description": "The process by which knowledge is disseminated across an organization or community, often facilitated by the knowledge base."
+  },
+  "Collaboration Tools": {
+    "short_description": "Features or integrations that allow multiple users to work on or contribute to the knowledge base, enhancing collective intelligence."
+  },
+  "Accessibility": {
+    "short_description": "Ensuring that the knowledge base can be used by people with a wide range of abilities, complying with standards for accessibility."
+  },
+  "Multimedia Content": {
+    "short_description": "Incorporating various forms of media like videos, images, or audio to explain concepts, making the knowledge base more engaging and comprehensive."
+  },
+  "Updates and Maintenance": {
+    "short_description": "The ongoing process of adding new information, updating existing content, and removing obsolete data to keep the knowledge base current."
+  },
+  "User Feedback": {
+    "short_description": "Mechanisms for users to provide input on the knowledge base, helping to improve content accuracy, completeness, and user experience."
+  },
+  "Knowledge Graph": {
+    "short_description": "A structured representation of knowledge that uses nodes and edges to represent entities and relationships, enhancing semantic understanding within the knowledge base."
+  },
+  "Security": {
+    "short_description": "Measures to protect the integrity, confidentiality, and availability of the knowledge base from unauthorized access or data breaches."
+  },
+  "Integration": {
+    "short_description": "The ability to connect the knowledge base with other systems or tools, such as customer support software or AI assistants, to streamline processes."
+  },
+  "Analytics": {
+    "short_description": "Tools or methods to analyze how the knowledge base is used, what information is most sought after, aiding in content strategy and improvement."
+  }
+}

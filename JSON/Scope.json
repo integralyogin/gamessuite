@@ -1,0 +1,77 @@
+{
+    "Scope": {
+        "short_description": "The boundary defining the extent, reach, and limitations of an endeavor, system, or context, establishing what elements are included or excluded from consideration or influence."
+    },
+    "Boundary": {
+        "short_description": "The defined perimeter or limit that contains and defines a scope, determining what falls within and outside the area of consideration or influence."
+    },
+    "Context": {
+        "short_description": "The environmental, situational, and relational factors that influence and give meaning to elements within a defined scope."
+    },
+    "Limitation": {
+        "short_description": "The constraints, restrictions, or parameters that define what cannot or should not be included within a particular scope."
+    },
+    "Inclusion": {
+        "short_description": "The deliberate incorporation of elements, factors, or considerations within the defined boundaries of a scope."
+    },
+    "Exclusion": {
+        "short_description": "The intentional omission of elements, factors, or considerations from the defined boundaries of a scope."
+    },
+    "Hierarchy": {
+        "short_description": "The structured arrangement of scopes in relationships of containment, inheritance, or influence, from broader to more specific contexts."
+    },
+    "Inheritance": {
+        "short_description": "The transmission of properties, rules, or characteristics from broader scopes to more specific ones contained within them."
+    },
+    "Resolution": {
+        "short_description": "The level of detail or granularity at which elements within a scope are defined, examined, or manipulated."
+    },
+    "Encapsulation": {
+        "short_description": "The bundling of related elements within a defined scope, creating a cohesive unit with controlled interactions with external elements."
+    },
+    "Interface": {
+        "short_description": "The defined points of interaction between different scopes, establishing how information or influence can flow across boundaries."
+    },
+    "Visibility": {
+        "short_description": "The degree to which elements within one scope can be perceived, accessed, or influenced from other scopes."
+    },
+    "Namespace": {
+        "short_description": "A container for identifiers, ensuring unique identification and organization of elements within a particular scope."
+    },
+    "Chain": {
+        "short_description": "The sequential linking of scopes in a hierarchical or processual relationship, establishing paths of influence or reference."
+    },
+    "Isolation": {
+        "short_description": "The degree of separation between scopes, preventing unintended interactions or influences between distinct contexts."
+    },
+    "Permeability": {
+        "short_description": "The extent to which a scope's boundaries allow interaction, influence, or information flow between internal and external elements."
+    },
+    "Nesting": {
+        "short_description": "The containment of smaller, more specific scopes within larger, more general ones, creating hierarchical relationships."
+    },
+    "Overlap": {
+        "short_description": "The intersection of multiple scopes, creating areas where elements are subject to multiple contexts or influences simultaneously."
+    },
+    "Resolution": {
+        "short_description": "The process of determining which definition, rule, or influence takes precedence when multiple scopes affect the same element."
+    },
+    "Lifecycle": {
+        "short_description": "The temporal existence and evolution of a scope, including its creation, maintenance, and eventual dissolution or transformation."
+    },
+    "Binding": {
+        "short_description": "The association of elements with particular scopes, establishing their context and applicable rules or influences."
+    },
+    "Extension": {
+        "short_description": "The deliberate expansion of a scope's boundaries to include additional elements or influences while maintaining coherence."
+    },
+    "Contraction": {
+        "short_description": "The intentional reduction of a scope's boundaries to focus on a more specific or manageable context."
+    },
+    "Coherence": {
+        "short_description": "The logical consistency and unity of elements and rules within a scope, ensuring meaningful and predictable interactions."
+    },
+    "Governance": {
+        "short_description": "The principles, rules, and mechanisms that control and manage the definition, maintenance, and evolution of scopes."
+    }
+}

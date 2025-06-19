@@ -1,0 +1,78 @@
+
+{
+"Hacking": {
+"short_description": "The practice of exploring, analyzing, modifying, and understanding systems to innovate solutions and identify potential vulnerabilities, encompassing both constructive development and security research."
+},
+"Penetration Testing": {
+"short_description": "Authorized security assessment of systems, networks, and applications to identify and validate vulnerabilities through systematic testing and analysis, providing actionable insights for improvement."
+},
+"Vulnerability Research": {
+"short_description": "Systematic investigation of systems and software to discover previously unknown security weaknesses, including analysis of code, protocols, and implementation flaws through various methodologies."
+},
+"Exploit Development": {
+"short_description": "The technical process of creating proof-of-concept code to demonstrate security vulnerabilities, requiring deep understanding of systems, architectures, and programming to validate findings responsibly."
+},
+"Reverse Engineering": {
+"short_description": "The process of analyzing software, hardware, or systems to understand their internal workings, structure, and functionality by examining components and their relationships."
+},
+"Social Engineering": {
+"short_description": "The study and analysis of human psychology and behavior in security contexts, understanding how trust relationships and decision-making processes affect system security."
+},
+"Network Analysis": {
+"short_description": "Examination of network protocols, traffic patterns, and infrastructure to understand communication flows, identify anomalies, and assess security configurations."
+},
+"Binary Analysis": {
+"short_description": "Detailed examination of compiled software to understand program behavior, security mechanisms, and potential vulnerabilities through static and dynamic analysis techniques."
+},
+"Fuzzing": {
+"short_description": "Automated testing technique that provides invalid, unexpected, or random data to systems to identify potential security vulnerabilities and processing errors."
+},
+"Security Research": {
+"short_description": "Academic and practical investigation of security principles, attack methodologies, and defense mechanisms to advance understanding of system protection."
+},
+"Bug Bounty": {
+"short_description": "Structured programs allowing security researchers to discover and responsibly disclose vulnerabilities in systems in exchange for recognition and compensation."
+},
+"Red Teaming": {
+"short_description": "Advanced security assessment simulating real adversary behavior to test organizational detection and response capabilities across technical and procedural domains."
+},
+"Blue Teaming": {
+"short_description": "Defensive security operations focused on protecting systems, detecting threats, and responding to security incidents through monitoring and analysis."
+},
+"Malware Analysis": {
+"short_description": "The study of malicious software to understand its functionality, behavior, and impact, including static analysis of code and dynamic observation of execution."
+},
+"Hardware Hacking": {
+"short_description": "Physical manipulation and analysis of electronic devices to understand their operation, modify functionality, or assess security through direct interaction."
+},
+"Protocol Analysis": {
+"short_description": "Examination of communication protocols to understand their structure, identify weaknesses, and assess implementation security through various testing methods."
+},
+"Web Security": {
+"short_description": "Analysis of web applications and services to identify security vulnerabilities in design, implementation, and deployment through systematic testing approaches."
+},
+"Authentication Testing": {
+"short_description": "Assessment of systems that verify identity and access rights, examining implementation of security controls and potential bypass mechanisms."
+},
+"Cryptanalysis": {
+"short_description": "Study of cryptographic systems to understand their strengths and weaknesses, including analysis of implementation and protocol security."
+},
+"Security Architecture": {
+"short_description": "Analysis and design of system security structures, examining how components interact and identifying potential weaknesses in overall design."
+},
+"Threat Modeling": {
+"short_description": "Systematic approach to identifying potential security threats and vulnerabilities in systems through analysis of components, data flows, and trust boundaries."
+},
+"Zero-Day Research": {
+"short_description": "Discovery and analysis of previously unknown vulnerabilities in systems, requiring deep technical knowledge and responsible disclosure practices."
+},
+"Code Auditing": {
+"short_description": "Systematic review of source code to identify security vulnerabilities, logic flaws, and implementation errors through manual and automated analysis."
+},
+"Incident Response": {
+"short_description": "Analysis of security incidents to understand attack methodologies, system vulnerabilities, and necessary improvements to prevent future compromises."
+},
+"Security Testing": {
+"short_description": "Structured assessment of system security controls through various methodologies to validate effectiveness and identify potential improvements."
+}
+}

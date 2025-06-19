@@ -1,0 +1,122 @@
+{
+  "Transformation": {
+    "short_description": "Fundamental change in the nature or structure of something."
+  },
+  "Cycle": {
+    "short_description": "Recurring pattern of stages or phases returning to origin."
+  },
+  "Evolution": {
+    "short_description": "Progressive development from simple to complex forms."
+  },
+  "Involution": {
+    "short_description": "Process of manifestation from subtle to gross states."
+  },
+  "Emergence": {
+    "short_description": "Arising of new properties or patterns from simpler components."
+  },
+  "Dissolution": {
+    "short_description": "Breaking down of complex structures into simpler elements."
+  },
+  "Flow": {
+    "short_description": "Continuous movement or transfer of energy/information."
+  },
+  "Oscillation": {
+    "short_description": "Regular alternation between different states or poles."
+  },
+  "Integration": {
+    "short_description": "Process of unifying separate elements into coherent whole."
+  },
+  "Differentiation": {
+    "short_description": "Development of distinction and specialization from unity."
+  },
+  "Recursion": {
+    "short_description": "Process that contains or generates copies of itself."
+  },
+  "Transcendence": {
+    "short_description": "Movement beyond current limitations or conditions."
+  },
+  "Emanation": {
+    "short_description": "Flowing forth from source to manifestation."
+  },
+  "Entropy": {
+    "short_description": "Tendency toward increasing disorder or equilibrium."
+  },
+  "Negentropy": {
+    "short_description": "Organization increasing in complexity against entropy."
+  },
+  "Dialectic": {
+    "short_description": "Development through opposition and reconciliation."
+  },
+  "Synergy": {
+    "short_description": "Cooperative interaction producing enhanced effects."
+  },
+  "Bifurcation": {
+    "short_description": "Division of one path into two distinct trajectories."
+  },
+  "Autopoiesis": {
+    "short_description": "Self-creating and self-maintaining system processes."
+  },
+  "Morphogenesis": {
+    "short_description": "Development of form and structure in systems."
+  },
+  "Resonance": {
+    "short_description": "Mutual amplification through synchronized vibration."
+  },
+  "Phase Transition": {
+    "short_description": "Fundamental shift between different states or modes."
+  },
+  "Polarization": {
+    "short_description": "Development of opposite qualities or tendencies."
+  },
+  "Synthesis": {
+    "short_description": "Combination of elements into new unified whole."
+  },
+  "Catalysis": {
+    "short_description": "Facilitation or acceleration of change processes."
+  },
+  "Homeostasis": {
+    "short_description": "Self-regulation maintaining stable conditions."
+  },
+  "Metamorphosis": {
+    "short_description": "Complete transformation of form or nature."
+  },
+  "Entrainment": {
+    "short_description": "Synchronization of rhythms between systems."
+  },
+  "Iteration": {
+    "short_description": "Repeated application of process or operation."
+  },
+  "Individuation": {
+    "short_description": "Development of distinct individual identity."
+  },
+  "Fragmentation": {
+    "short_description": "Breaking of unity into separate parts."
+  },
+  "Crystallization": {
+    "short_description": "Organization into fixed, regular patterns."
+  },
+  "Turbulence": {
+    "short_description": "Complex, chaotic interaction of flows and forces."
+  },
+  "Transmutation": {
+    "short_description": "Change in fundamental nature or substance."
+  },
+  "Assimilation": {
+    "short_description": "Incorporation of external elements into system."
+  },
+  "Dissipation": {
+    "short_description": "Gradual dispersal of energy or structure."
+  },
+  "Convergence": {
+    "short_description": "Movement toward unity or common point."
+  },
+  "Divergence": {
+    "short_description": "Movement away from common point toward diversity."
+  },
+  "Recursion": {
+    "short_description": "Self-referential or nested repetition of process."
+  },
+  "Emergence": {
+    "short_description": "Appearance of new properties from underlying processes."
+  }
+}

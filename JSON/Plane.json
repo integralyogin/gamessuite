@@ -1,0 +1,110 @@
+{
+  "Physical Plane": {
+    "short_description": "The tangible, material realm where physical bodies and objects exist, governed by the laws of physics and perceivable through the five senses."
+  },
+  "Astral Plane": {
+    "short_description": "The realm of emotions, desires, and mental images, where the astral body resides and interacts with the physical world through dreams and out-of-body experiences."
+  },
+  "Mental Plane": {
+    "short_description": "The domain of thoughts, ideas, and intellectual pursuits, where the mind creates, analyzes, and understands concepts and abstract ideas."
+  },
+  "Causal Plane": {
+    "short_description": "The plane of cause and effect, where the underlying patterns and principles of existence are understood, and the roots of physical and astral phenomena are revealed."
+  },
+  "Buddhic Plane": {
+    "short_description": "The realm of pure love and compassion, where the soul experiences unity and oneness with all beings, transcending individuality and ego."
+  },
+  "Atmic Plane": {
+    "short_description": "The plane of pure will and divine purpose, where the individual will aligns with the universal will, and the soul's true purpose is realized."
+  },
+  "Monadic Plane": {
+    "short_description": "The highest plane of individual existence, where the monad, or spiritual essence, resides and experiences unity with the divine source."
+  },
+  "Adi Plane": {
+    "short_description": "The plane of pure consciousness, where the individual self merges with the universal self, experiencing absolute unity and transcendence."
+  },
+  "Anupadaka Plane": {
+    "short_description": "The plane of unconditioned existence, where the soul experiences pure being, free from the limitations of form and time."
+  },
+  "Nirvana": {
+    "short_description": "The ultimate state of enlightenment and liberation, where the individual self is dissolved into the universal self, achieving eternal peace and bliss."
+  },
+  "Kama": {
+    "short_description": "The plane of desire and sensual pleasure, where the astral body experiences emotions, passions, and attachments."
+  },
+  "Manas": {
+    "short_description": "The plane of the mind, where thoughts, ideas, and intellectual pursuits are formed and analyzed, influencing the physical and astral realms."
+  },
+  "Buddhi": {
+    "short_description": "The plane of higher mind and intuition, where the soul experiences pure love, compassion, and wisdom, transcending the limitations of the lower mind."
+  },
+  "Atma": {
+    "short_description": "The plane of the soul, where the individual self experiences unity with the divine will, realizing its true purpose and potential."
+  },
+  "Astral Body": {
+    "short_description": "The subtle energy body that exists on the astral plane, capable of experiencing emotions, desires, and mental images."
+  },
+  "Mental Body": {
+    "short_description": "The subtle energy body that exists on the mental plane, capable of thinking, analyzing, and understanding abstract concepts."
+  },
+  "Causal Body": {
+    "short_description": "The subtle energy body that exists on the causal plane, capable of understanding the underlying patterns and principles of existence."
+  },
+  "Buddhic Body": {
+    "short_description": "The subtle energy body that exists on the buddhic plane, capable of experiencing pure love, compassion, and unity with all beings."
+  },
+  "Atmic Body": {
+    "short_description": "The subtle energy body that exists on the atmic plane, capable of aligning with the divine will and realizing the soul's true purpose."
+  },
+  "Monadic Body": {
+    "short_description": "The subtle energy body that exists on the monadic plane, capable of experiencing unity with the divine source and the universal self."
+  },
+  "Adi Body": {
+    "short_description": "The subtle energy body that exists on the adi plane, capable of experiencing pure consciousness and absolute unity."
+  },
+  "Anupadaka Body": {
+    "short_description": "The subtle energy body that exists on the anupadaka plane, capable of experiencing pure being, free from the limitations of form and time."
+  },
+  "Kama Loka": {
+    "short_description": "The realm of desire and sensual pleasure, where the astral body experiences emotions, passions, and attachments."
+  },
+  "Manas Loka": {
+    "short_description": "The realm of the mind, where thoughts, ideas, and intellectual pursuits are formed and analyzed, influencing the physical and astral realms."
+  },
+  "Buddhi Loka": {
+    "short_description": "The realm of higher mind and intuition, where the soul experiences pure love, compassion, and wisdom, transcending the limitations of the lower mind."
+  },
+  "Atma Loka": {
+    "short_description": "The realm of the soul, where the individual self experiences unity with the divine will, realizing its true purpose and potential."
+  },
+  "Monadic Loka": {
+    "short_description": "The realm of the monad, where the spiritual essence resides and experiences unity with the divine source."
+  },
+  "Adi Loka": {
+    "short_description": "The realm of pure consciousness, where the individual self merges with the universal self, experiencing absolute unity and transcendence."
+  },
+  "Anupadaka Loka": {
+    "short_description": "The realm of unconditioned existence, where the soul experiences pure being, free from the limitations of form and time."
+  },
+  "Nirvana Loka": {
+    "short_description": "The ultimate realm of enlightenment and liberation, where the individual self is dissolved into the universal self, achieving eternal peace and bliss."
+  },
+  "Kama Manas": {
+    "short_description": "The combined realm of desire and mind, where emotions, thoughts, and intellectual pursuits interact and influence each other."
+  },
+  "Buddhi Atma": {
+    "short_description": "The combined realm of higher mind and soul, where pure love, compassion, and wisdom are experienced in unity with the divine will."
+  },
+  "Monadic Atma": {
+    "short_description": "The combined realm of the monad and soul, where the spiritual essence and individual self experience unity with the divine source."
+  },
+  "Adi Monad": {
+    "short_description": "The combined realm of pure consciousness and the monad, where the individual self merges with the universal self and the divine source."
+  },
+  "Anupadaka Adi": {
+    "short_description": "The combined realm of unconditioned existence and pure consciousness, where the soul experiences pure being and absolute unity."
+  },
+  "Nirvana Anupadaka": {
+    "short_description": "The ultimate combined realm of enlightenment and unconditioned existence, where the individual self is dissolved into the universal self, achieving eternal peace and bliss."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "Knowledge Representation": {
+    "short_description": "The field in artificial intelligence and cognitive science concerned with how to represent, organize, and use knowledge in computer systems to mimic or understand human reasoning."
+  },
+  "Semantic Networks": { "quote": "Nodes connected by meaningful relationships: concept→relationship→concept" },
+"Frames": { "quote": "Structured objects with slots and values: object{slot1:value1, slot2:value2}" },
+"Ontologies": { "quote": "Formal specification of conceptualization: classes + properties + relationships" },
+"Logic Programming": { "quote": "Rules and facts for reasoning: IF antecedent THEN consequent" },
+"First-Order Logic": { "quote": "Formal reasoning with predicates: ∀x(P(x) → Q(x))" },
+"Description Logic": { "quote": "Formal knowledge modeling: concepts + roles + individuals" },
+"Production Rules": { "quote": "Condition-action pairs: IF condition THEN action" },
+"Scripts": { "quote": "Structured sequences of events: event1 → event2 → event3" },
+"Conceptual Graphs": { "quote": "Visual knowledge representation: [Concept]→(Relation)→[Concept]" },
+"Propositional Logic": { "quote": "Boolean logic with propositions: P ∧ Q → R" },
+"Temporal Logic": { "quote": "Time-dependent knowledge: BEFORE(event1, event2)" },
+"Modal Logic": { "quote": "Necessity and possibility: □P (necessarily P), ◇P (possibly P)" },
+"Case-Based Reasoning": { "quote": "Problem solving using past cases: problem → similar case → solution" },
+"Decision Trees": { "quote": "Tree-structured knowledge: root → decision nodes → leaves" },
+"Bayesian Networks": { "quote": "Probabilistic relationships: P(A|B,C) = probability graph" },
+"Neural Knowledge": { "quote": "Distributed representations: knowledge in network weights" },
+"RDF Triples": { "quote": "Subject-Predicate-Object: resource → property → value" },
+"Knowledge Graphs": { "quote": "Interconnected facts: entity → relationship → entity" },
+"Taxonomies": { "quote": "Hierarchical classification: superclass → subclass → instance" },
+"State Space": { "quote": "Problem states and transitions: state → action → new state" },
+"Constraint Networks": { "quote": "Variables with constraints: variable + constraints = solution space" },
+"Fuzzy Logic": { "quote": "Degrees of truth: membership ∈ [0,1]" },
+"Inheritance Hierarchies": { "quote": "Property inheritance: parent → child(inherited properties)" },
+"Semantic Web": { "quote": "Machine-readable web: URI + RDF + OWL" },
+"Mental Models": { "quote": "Cognitive representations: internal structure of knowledge" },
+"Rule-Based Systems": { "quote": "Collections of if-then rules: rule base + inference engine" },
+"Causal Networks": { "quote": "Cause-effect relationships: cause → mechanism → effect" },
+"Qualitative Reasoning": { "quote": "Non-numeric relationships: increase → affects → decrease" },
+"Contextual Knowledge": { "quote": "Context-dependent information: knowledge(context) = interpretation" },
+"Procedural Knowledge": { "quote": "How-to knowledge: step1 → step2 → goal" }
+,
+  "Ontology": {
+    "short_description": "A formal representation of knowledge within a domain, describing concepts, properties, and relations between them, used to structure information."
+  },
+  "Semantic Networks": {
+    "short_description": "A network which represents semantic relations between concepts in a graphical form, where nodes represent concepts and arcs describe relations."
+  },
+  "Frames": {
+    "short_description": "A data structure for representing a stereotyped situation, like an object or concept, by describing its attributes and their values."
+  },
+  "Production Rules": {
+    "short_description": "Condition-action pairs used to represent knowledge in systems like expert systems, where if certain conditions are met, an action is triggered."
+  },
+  "Description Logics": {
+    "short_description": "A family of formal knowledge representation languages, providing a basis for ontology languages like OWL, used for reasoning about concepts and roles."
+  },
+  "Logic Programming": {
+    "short_description": "A programming paradigm based on formal logic, where programs are sets of logical statements, used for representing and reasoning about knowledge."
+  },
+  "First-Order Logic": {
+    "short_description": "A formal system used in mathematics, philosophy, linguistics, and computer science to express statements about objects and their properties and relations."
+  },
+  "Knowledge Base": {
+    "short_description": "A central repository for information about a particular domain, structured in a way that supports inferencing and reasoning."
+  },
+  "Inference Engine": {
+    "short_description": "A component of an expert system that applies logical rules to the knowledge base to deduce new information or make decisions."
+  },
+  "Taxonomy": {
+    "short_description": "A hierarchical classification system organizing knowledge into categories and subcategories, showing relationships like 'is-a' and 'part-of'."
+  },
+  "Concept": {
+    "short_description": "A mental grouping of similar objects, events, ideas, or people, often represented in knowledge systems by nodes or symbols."
+  },
+  "Relation": {
+    "short_description": "Links or connections between concepts or entities, defining how they interact or are associated, like 'parent-of' or 'located-in'."
+  },
+  "Attribute": {
+    "short_description": "Properties or characteristics of concepts or entities, used to describe features or states, like color, size, or temperature."
+  },
+  "Instance": {
+    "short_description": "Specific examples or realizations of a concept, providing concrete data to populate the knowledge representation system."
+  },
+  "Rules": {
+    "short_description": "Statements that infer or deduce new knowledge from existing knowledge, often expressed in if-then form."
+  },
+  "Reasoning": {
+    "short_description": "The process of deriving conclusions from premises, using the knowledge representation to answer queries or solve problems."
+  },
+  "Default Reasoning": {
+    "short_description": "A method of reasoning where conclusions are drawn with the assumption that certain conditions hold unless explicitly stated otherwise."
+  },
+  "Uncertainty": {
+    "short_description": "Dealing with incomplete or imprecise knowledge, often using probabilistic or fuzzy logic in knowledge representation systems."
+  },
+  "Temporal Logic": {
+    "short_description": "Logic concerned with representing and reasoning about propositions qualified in terms of time, essential for dynamic systems."
+  },
+  "Common Sense Knowledge": {
+    "short_description": "The basic knowledge and understanding that most humans possess about everyday life, challenging to encode in computational systems."
+  }
+}

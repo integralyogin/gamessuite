@@ -1,0 +1,90 @@
+{
+"Computing Machinery and Intelligence": { "quote": "Alan Turing (1950) introduced the Turing Test, proposing that a machine could be considered intelligent if its responses were indistinguishable from a human's." },
+"A Logical Calculus of the Ideas Immanent in Nervous Activity": { "quote": "Warren McCulloch and Walter Pitts (1943) developed the first mathematical model of a neural network, showing how neurons could perform logical operations." },
+"A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence": { "quote": "John McCarthy et al. (1955) formally introduced the term 'artificial intelligence' and outlined a research agenda that helped establish AI as a field." },
+"The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain": { "quote": "Frank Rosenblatt (1958) introduced the perceptron, an early neural network capable of pattern recognition through supervised learning." },
+"Perceptrons: An Introduction to Computational Geometry": { "quote": "Marvin Minsky and Seymour Papert (1969) demonstrated limitations of single-layer perceptrons, temporarily slowing neural network research." },
+"LISP 1.5 Programmer's Manual": { "quote": "John McCarthy (1962) described LISP, the first language designed for AI, introducing symbolic processing and recursive functions." },
+"Steps Toward Artificial Intelligence": { "quote": "Marvin Minsky (1961) surveyed early AI techniques including problem-solving, search, and pattern recognition, setting a research framework." },
+"A Framework for Representing Knowledge": { "quote": "Marvin Minsky (1974) introduced frames as a way to organize knowledge in AI systems, influencing semantic networks and object-oriented programming." },
+"The Logic of Plausible Reasoning": { "quote": "Ray Solomonoff (1964) developed algorithmic probability theory, laying foundations for machine learning and Bayesian methods." },
+"SHRDLU: A Program for Understanding Natural Language": { "quote": "Terry Winograd (1971) demonstrated natural language understanding within a blocks world, marking an early success in NLP." },
+"Outline of a Theory of Statistical Machine Translation": { "quote": "Rajeev Motwani and Prabhakar Raghavan (1997) formalized the statistical approach to machine translation that revolutionized the field." },
+"A Theory of the Learnable": { "quote": "Leslie Valiant (1984) introduced Probably Approximately Correct (PAC) learning, providing a mathematical framework for machine learning." },
+"Learning Representations by Back-Propagating Errors": { "quote": "David Rumelhart, Geoffrey Hinton, and Ronald Williams (1986) popularized backpropagation, enabling practical training of multi-layer neural networks." },
+"Induction of Decision Trees": { "quote": "J. Ross Quinlan (1986) formalized ID3 algorithm for decision tree learning, a foundational technique in machine learning." },
+"Explanation-Based Generalization: A Unifying View": { "quote": "Tom Mitchell et al. (1986) integrated explanation-based learning with similarity-based learning, bridging symbolic and statistical AI." },
+"Long Short-Term Memory": { "quote": "Sepp Hochreiter and Jürgen Schmidhuber (1997) introduced LSTM networks that effectively model sequential data with long-term dependencies." },
+"Statistical Learning Theory": { "quote": "Vladimir Vapnik (1995) developed the mathematical foundations of modern machine learning, including Support Vector Machines." },
+"Attention Is All You Need": { "quote": "Ashish Vaswani et al. (2017) introduced the Transformer architecture that revolutionized natural language processing and became foundational for large language models." },
+"The Game of Go Applied to AI": { "quote": "Mastering the Game of Go with Deep Neural Networks and Tree Search by David Silver et al. (2016) demonstrated superhuman performance in a complex domain previously thought to require human intuition." },
+"Generative Adversarial Networks": { "quote": "Ian Goodfellow et al. (2014) introduced GANs, establishing a new paradigm for generative models through adversarial training." },
+"A Few Useful Things to Know About Machine Learning": { "quote": "Pedro Domingos (2012) synthesized machine learning wisdom, highlighting the practical aspects often overlooked in theoretical treatments." },
+"Random Forests": { "quote": "Leo Breiman (2001) introduced the random forest algorithm, combining multiple decision trees to improve prediction accuracy and reduce overfitting." },
+"ImageNet Classification with Deep Convolutional Neural Networks": { "quote": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton (2012) demonstrated the power of deep learning for computer vision, sparking the deep learning revolution." },
+"Reinforcement Learning: An Introduction": { "quote": "Richard Sutton and Andrew Barto (1998) provided the definitive framework for reinforcement learning, connecting it to dynamic programming and neuroscience." },
+"A Methodology for the Study of Human-Computer Interface": { "quote": "Stuart Card, Thomas Moran, and Allen Newell (1983) developed the GOMS model, bringing cognitive science to interface design." },
+"The Complexity of Theorem-Proving Procedures": { "quote": "Stephen Cook (1971) proved that the Boolean satisfiability problem is NP-complete, laying foundations for computational complexity theory in AI." },
+"STUDENT: A Program That Understands Algebra Word Problems": { "quote": "Daniel Bobrow (1964) created an early system that could translate natural language algebra problems into equations and solve them." },
+"Playing Atari with Deep Reinforcement Learning": { "quote": "Volodymyr Mnih et al. (2013) demonstrated how deep learning could be combined with reinforcement learning to master video games from raw pixel input." },
+"Artificial Intelligence: A Modern Approach": { "quote": "Stuart Russell and Peter Norvig (1995) created the definitive AI textbook that unified various approaches under the intelligent agent framework." },
+"Elephants Don't Play Chess": { "quote": "Rodney Brooks (1990) argued for embodied, behavior-based robotics over symbolic reasoning approaches, influencing the direction of AI and robotics." },
+
+"Sequence to Sequence Learning with Neural Networks": {
+    "quote": "Ilya Sutskever, Oriol Vinyals, and Quoc V. Le (2014) introduced the seq2seq architecture, revolutionizing machine translation and sequence modeling via encoder-decoder frameworks."
+  },
+  "Dropout: A Simple Way to Prevent Neural Networks from Overfitting": {
+    "quote": "Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov (2014) formalized dropout regularization, a cornerstone of modern deep learning."
+  },
+  "Neural Machine Translation by Jointly Learning to Align and Translate": {
+    "quote": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio (2015) introduced attention mechanisms, later refined in Transformers, enhancing sequence-to-sequence tasks."
+  },
+  "Deep Learning": {
+    "quote": "Yoshua Bengio, Ian Goodfellow, and Aaron Courville (2015) produced the definitive textbook systematizing deep learning principles and architectures."
+  },
+  "Deep Residual Learning for Image Recognition": {
+    "quote": "Kaiming He et al. (2016) introduced ResNets with skip connections, enabling training of ultra-deep networks (1000+ layers) for computer vision."
+  },
+  "Efficient Estimation of Word Representations in Vector Space": {
+    "quote": "Tomas Mikolov et al. (2013) proposed Word2Vec, embedding words in dense vectors and revolutionizing NLP with semantic similarity metrics."
+  },
+  "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding": {
+    "quote": "Jacob Devlin et al. (2018) introduced BERT, establishing state-of-the-art NLP via masked language modeling and bidirectional context."
+  },
+  "Gradient-Based Learning Applied to Document Recognition": {
+    "quote": "Yann LeCun et al. (1998) pioneered convolutional networks (LeNet-5) for digit recognition, laying groundwork for modern CNNs."
+  },
+  "You Only Look Once: Unified, Real-Time Object Detection": {
+    "quote": "Joseph Redmon et al. (2016) introduced YOLO, a breakthrough in real-time object detection via unified grid-based prediction."
+  },
+  "Denoising Diffusion Probabilistic Models": {
+    "quote": "Jonathan Ho et al. (2020) formalized diffusion models, enabling high-quality image generation through iterative denoising processes."
+  },
+  "Language Models are Few-Shot Learners": {
+    "quote": "Tom B. Brown et al. (2020) unveiled GPT-3, demonstrating few-shot learning via 175B-parameter autoregressive language models."
+  },
+  "Improving Language Understanding by Generative Pre-Training": {
+    "quote": "Alec Radford et al. (2018) introduced GPT-1, establishing transformer-based autoregressive pretraining for language tasks."
+  },
+  "Neural Turing Machines": {
+    "quote": "Alex Graves, Greg Wayne, and Ivo Danihelka (2014) proposed neural networks with external memory, inspiring architectures like differentiable RAM."
+  },
+  "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm": {
+    "quote": "David Silver et al. (2018) introduced AlphaZero, achieving superhuman performance in games via self-play and Monte Carlo tree search."
+  },
+  "The Helmholtz Machine": {
+    "quote": "Peter Dayan, Geoffrey Hinton, Radford Neal, and Richard Zemel (1995) developed wake-sleep algorithms for unsupervised learning in generative models."
+  },
+  "Neural Architecture Search with Reinforcement Learning": {
+    "quote": "Barret Zoph and Quoc V. Le (2017) automated neural network design via RL, paving the way for AutoML systems."
+  },
+  "TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems": {
+    "quote": "Martín Abadi et al. (2016) introduced TensorFlow, co-authored by Ilya Sutskever, enabling scalable deep learning across hardware."
+  },
+  "Learning to Generate Reviews and Discovering Sentiment": {
+    "quote": "Ilya Sutskever et al. (2017) demonstrated unsupervised sentiment neuron discovery via language model pretraining on Amazon reviews."
+  },
+  "Recurrent Neural Network Regularization": {
+    "quote": "Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals (2015) advanced LSTM regularization, improving RNN robustness for sequence tasks."
+  }
+}

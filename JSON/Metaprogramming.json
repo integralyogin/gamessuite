@@ -1,0 +1,77 @@
+{
+  "Metaprogramming": {
+    "short_description": "The practice of writing programs that generate, analyze, or modify other programs, treating code as data that can be manipulated to extend or transform the programming language's capabilities."
+  },
+  "Reflection": {
+    "short_description": "The ability of a program to examine, introspect, and modify its own structure and behavior during runtime, enabling dynamic access to type information and program state."
+  },
+  "Code Generation": {
+    "short_description": "The process of producing source code or bytecode programmatically, allowing dynamic creation of program functionality based on templates, patterns, or runtime conditions."
+  },
+  "Macro System": {
+    "short_description": "A language facility that enables transformation of source code before compilation, allowing the creation of new syntax and semantic extensions to the base language."
+  },
+  "Abstract Syntax Tree": {
+    "short_description": "The hierarchical representation of program structure used in parsing and analysis, serving as the primary data structure for code manipulation in metaprogramming."
+  },
+  "Meta-object Protocol": {
+    "short_description": "The interface that defines how objects, classes, and other language constructs behave, allowing customization of language semantics through programmatic intervention."
+  },
+  "Dynamic Evaluation": {
+    "short_description": "The capability to execute code constructed or modified at runtime, enabling programs to extend themselves with new behaviors based on runtime conditions."
+  },
+  "Type Introspection": {
+    "short_description": "The ability to examine and query type information of objects and classes at runtime, enabling dynamic dispatch and generic programming patterns."
+  },
+  "Metaclass": {
+    "short_description": "A class whose instances are themselves classes, providing a mechanism for controlling class creation and behavior throughout a program."
+  },
+  "Metaobject": {
+    "short_description": "An object that describes or manipulates other objects, providing an interface for customizing object behavior and structure."
+  },
+  "Template System": {
+    "short_description": "A mechanism for generating code or classes based on parameterized types or values, enabling generic programming and static metaprogramming."
+  },
+  "Bytecode Manipulation": {
+    "short_description": "The practice of modifying compiled program instructions directly, allowing runtime transformation of program behavior at the lowest level."
+  },
+  "Aspect Weaving": {
+    "short_description": "The process of injecting cross-cutting concerns into program code, either at compile time or runtime, through automated code transformation."
+  },
+  "Symbol Resolution": {
+    "short_description": "The process of mapping identifiers to their definitions in the program, crucial for implementing correct code analysis and transformation."
+  },
+  "Compile-time Computation": {
+    "short_description": "The evaluation of expressions and generation of code during compilation, enabling optimization and static metaprogramming techniques."
+  },
+  "Dynamic Dispatch": {
+    "short_description": "The mechanism for selecting which implementation of a polymorphic operation to call at runtime, enabling flexible object behavior."
+  },
+  "Method Interception": {
+    "short_description": "The capability to intercept and modify method calls at runtime, enabling dynamic behavior modification and monitoring."
+  },
+  "Code Rewriting": {
+    "short_description": "The automated transformation of source code or bytecode to modify program behavior or implement new features without manual intervention."
+  },
+  "Syntactic Abstraction": {
+    "short_description": "The creation of new syntactic forms that expand into more complex underlying code, enabling domain-specific language features."
+  },
+  "Dynamic Loading": {
+    "short_description": "The ability to load and integrate new code modules into a running program, enabling runtime extensibility and plugin systems."
+  },
+  "Meta-circular Interpreter": {
+    "short_description": "An interpreter for a language written in the same language it interprets, providing a foundation for language exploration and extension."
+  },
+  "Homoiconicity": {
+    "short_description": "The property of a language where code is represented using the language's own data structures, enabling straightforward code manipulation."
+  },
+  "Protocol Extension": {
+    "short_description": "The ability to add new methods or behaviors to existing types or classes without modifying their original definitions."
+  },
+  "Static Analysis": {
+    "short_description": "The examination of code without execution to determine properties and potential issues, supporting automated code transformation and validation."
+  },
+  "Runtime Compilation": {
+    "short_description": "The process of compiling and executing code during program execution, enabling dynamic optimization and code generation strategies."
+  }
+}

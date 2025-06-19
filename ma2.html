@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Living Mantra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /*
+        The foundation for the vibration of the Name.
+        */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #020008;
+            overflow: hidden;
+            cursor: none;
+        }
+        canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .instructions {
+            position: absolute;
+            bottom: 3%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.4);
+            font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            pointer-events: none;
+            transition: opacity 2s;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="mantraCanvas"></canvas>
+    <div id="instructions" class="instructions">
+        The silent repetition is constant. Hold the mouse button to intensify the call.
+    </div>
+
+    <script>
+        const canvas = document.getElementById('mantraCanvas');
+        const ctx = canvas.getContext('2d');
+        const instructions = document.getElementById('instructions');
+
+        let width, height;
+        const resizeCanvas = () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        };
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        const mouse = { x: width / 2, y: height / 2, down: false };
+        let hasInteracted = false;
+        canvas.addEventListener('mousedown', () => { 
+            mouse.down = true; 
+            if (!hasInteracted) {
+                instructions.style.opacity = '0';
+                hasInteracted = true;
+            }
+        });
+        canvas.addEventListener('mouseup', () => { mouse.down = false; });
+        canvas.addEventListener('mousemove', (e) => { 
+            mouse.x = e.clientX; 
+            mouse.y = e.clientY;
+        });
+        canvas.addEventListener('mouseleave', () => { mouse.down = false; });
+        
+        let mantras = [];
+        let graceParticles = [];
+        
+        class Mantra {
+            constructor(x, y, size, life, isUserGenerated = false) {
+                this.x = x;
+                this.y = y;
+                this.size = size;
+                this.life = life;
+                this.initialLife = life;
+                this.isUserGenerated = isUserGenerated;
+                
+                const angle = Math.random() * Math.PI * 2;
+                const speed = 1 + Math.random();
+                this.vx = Math.cos(angle) * speed;
+                this.vy = Math.sin(angle) * speed;
+            }
+
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.vx *= 0.97;
+                this.vy *= 0.97;
+                this.life--;
+            }
+
+            draw() {
+                const fade = Math.sin((this.life / this.initialLife) * Math.PI);
+                const currentAlpha = this.isUserGenerated ? fade * 0.95 : fade * 0.5;
+                const currentSize = this.size * fade;
+
+                if (currentSize < 1) return;
+
+                ctx.font = `700 ${currentSize}px 'Cormorant Garamond'`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                
+                ctx.shadowColor = `rgba(210, 230, 255, ${currentAlpha * 0.7})`;
+                ctx.shadowBlur = currentSize / 2;
+
+                const grad = ctx.createRadialGradient(this.x, this.y, 1, this.x, this.y, currentSize * 2);
+                grad.addColorStop(0, `rgba(255, 255, 255, ${currentAlpha})`);
+                grad.addColorStop(1, `rgba(173, 216, 230, ${currentAlpha * 0.5})`);
+
+                ctx.fillStyle = grad;
+                ctx.fillText('Ma', this.x, this.y);
+
+                ctx.shadowBlur = 0;
+            }
+        }
+
+        class GraceParticle {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = -10;
+                this.speed = Math.random() * 1.5 + 0.5;
+                this.size = Math.random() * 2 + 1;
+                this.opacity = 0;
+                this.maxOpacity = Math.random() * 0.6 + 0.2;
+            }
+            update() {
+                this.y += this.speed;
+                this.opacity += (this.maxOpacity - this.opacity) * 0.1;
+                if (this.y > height) {
+                    this.y = -10;
+                    this.x = Math.random() * width;
+                }
+            }
+            draw() {
+                ctx.fillStyle = `rgba(255, 215, 0, ${this.opacity})`;
+                ctx.shadowColor = 'rgba(255, 215, 0, 1)';
+                ctx.shadowBlur = 5;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+        }
+
+        for (let i = 0; i < 100; i++) {
+            graceParticles.push(new GraceParticle());
+        }
+        
+        const presence = {
+            x: width / 2,
+            y: height / 2,
+            intensity: 0,
+            draw() {
+                this.x += (mouse.x - this.x) * 0.02;
+                this.y += (mouse.y - this.y) * 0.02;
+                this.intensity = mouse.down ? this.intensity + (1 - this.intensity) * 0.1 : this.intensity * 0.97;
+                
+                const r = 25 + this.intensity * 40;
+                
+                const grad = ctx.createRadialGradient(this.x, this.y, 1, this.x, this.y, r);
+                grad.addColorStop(0, 'rgba(255,255,255,0.9)');
+                grad.addColorStop(0.3, 'rgba(255,215,0,0.7)');
+                grad.addColorStop(1, 'rgba(255,105,180,0)');
+                
+                ctx.fillStyle = grad;
+                ctx.shadowColor = 'rgba(255,215,0,0.9)';
+                ctx.shadowBlur = 20 + this.intensity * 50;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, r, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        };
+
+        function animate() {
+            ctx.fillStyle = 'rgba(2, 0, 8, 0.2)';
+            ctx.fillRect(0, 0, width, height);
+            
+            presence.draw();
+            
+            // The Descent of Grace, responding to the general state.
+            let baseGraceSpeed = 0.5 + presence.intensity * 3;
+            graceParticles.forEach(p => {
+                p.speed = baseGraceSpeed * (Math.random() * 0.8 + 0.6);
+                p.update();
+                p.draw();
+            });
+            
+            // The Instrument's Constant Japa
+            if (Math.random() > 0.92) {
+                mantras.push(new Mantra(
+                    presence.x + (Math.random() - 0.5) * 50, 
+                    presence.y + (Math.random() - 0.5) * 50, 
+                    Math.random() * 25 + 20,
+                    200
+                ));
+            }
+
+            // The User's Joined Aspiration
+            if (mouse.down) {
+                 if (Math.random() > 0.3) {
+                    mantras.push(new Mantra(
+                        presence.x, presence.y, 
+                        Math.random() * 50 + 40,
+                        300,
+                        true
+                    ));
+                }
+            }
+
+            mantras.forEach((m, index) => {
+                m.update();
+                m.draw();
+                if (m.life <= 0) {
+                    mantras.splice(index, 1);
+                }
+            });
+            
+            if (!hasInteracted && instructions.style.opacity < 0.4) {
+                let currentOpacity = parseFloat(instructions.style.opacity) || 0;
+                instructions.style.opacity = currentOpacity + 0.002;
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
+</html>
+

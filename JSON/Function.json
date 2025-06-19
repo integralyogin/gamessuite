@@ -1,0 +1,107 @@
+{
+  "Process": {
+    "short_description": "Sequential transformation or development of elements over time."
+  },
+  "Operation": {
+    "short_description": "Fundamental pattern of action or change upon elements."
+  },
+  "Flow": {
+    "short_description": "Movement or transfer of energy, information, or substance between points."
+  },
+  "Cycle": {
+    "short_description": "Recurring pattern of processes returning to initial conditions."
+  },
+  "Exchange": {
+    "short_description": "Reciprocal transfer or interaction between systems or elements."
+  },
+  "Integration": {
+    "short_description": "Combining or unifying separate elements into coherent whole."
+  },
+  "Differentiation": {
+    "short_description": "Separation or specialization of elements from unified whole."
+  },
+  "Transformation": {
+    "short_description": "Fundamental change in nature or structure of element or system."
+  },
+  "Mediation": {
+    "short_description": "Facilitation of relationship or exchange between different elements."
+  },
+  "Regulation": {
+    "short_description": "Maintenance of balance or control within system parameters."
+  },
+  "Generation": {
+    "short_description": "Creation or emergence of new elements or patterns."
+  },
+  "Dissolution": {
+    "short_description": "Breaking down or return of elements to undifferentiated state."
+  },
+  "Adaptation": {
+    "short_description": "Modification of system in response to environmental conditions."
+  },
+  "Resonance": {
+    "short_description": "Sympathetic response or alignment between systems or elements."
+  },
+  "Catalysis": {
+    "short_description": "Facilitation or acceleration of process without being consumed."
+  },
+  "Translation": {
+    "short_description": "Conversion of patterns between different forms or mediums."
+  },
+  "Organization": {
+    "short_description": "Arrangement of elements into coherent patterns or structures."
+  },
+  "Distribution": {
+    "short_description": "Allocation or spreading of elements across space or system."
+  },
+  "Channeling": {
+    "short_description": "Directed flow or transmission through specific pathways."
+  },
+  "Reflection": {
+    "short_description": "Mirroring or feedback of patterns between levels of system."
+  },
+  "Emergence": {
+    "short_description": "Arising of new properties from interaction of elements."
+  },
+  "Containment": {
+    "short_description": "Holding or bounding of elements within defined parameters."
+  },
+  "Amplification": {
+    "short_description": "Increase in magnitude or intensity of pattern or process."
+  },
+  "Attenuation": {
+    "short_description": "Decrease in magnitude or intensity of pattern or process."
+  },
+  "Synchronization": {
+    "short_description": "Alignment of timing or phase between different processes."
+  },
+  "Oscillation": {
+    "short_description": "Regular variation between different states or conditions."
+  },
+  "Polarization": {
+    "short_description": "Development of opposite or complementary aspects."
+  },
+  "Manifestation": {
+    "short_description": "Expression of potential or pattern into actualized form."
+  },
+  "Absorption": {
+    "short_description": "Taking in or incorporation of external elements into system."
+  },
+  "Transmission": {
+    "short_description": "Transfer of pattern or information between systems."
+  },
+  "Filtration": {
+    "short_description": "Selective passage or blocking of elements based on criteria."
+  },
+  "Coordination": {
+    "short_description": "Harmonious organization of multiple processes or elements."
+  },
+  "Preservation": {
+    "short_description": "Maintenance of pattern or state against entropy."
+  },
+  "Evolution": {
+    "short_description": "Progressive development of system through selective change."
+  },
+  "Involution": {
+    "short_description": "Return or descent of higher principles into manifestation."
+  }
+}

@@ -1,0 +1,51 @@
+{
+    "chassis": {
+        "interceptor": { "name": "Interceptor", "desc": "A light, agile frame.", "health": 100, "size": 15, "baseThrust": 0.1, "baseStrafe": 0.08, "baseTurn": 5, "color": "#00aaff", "art": "interceptor" },
+        "juggernaut": { "name": "Juggernaut", "desc": "Heavy and tough, but slow.", "health": 200, "size": 20, "baseThrust": 0.07, "baseStrafe": 0.04, "baseTurn": 2, "color": "#ff8800", "art": "juggernaut" },
+        "wraith": { "name": "Wraith", "desc": "Fragile but high energy capacity.", "health": 80, "size": 14, "baseThrust": 0.12, "baseStrafe": 0.09, "baseTurn": 6, "color": "#9966ff", "art": "interceptor" },
+        "goliath": { "name": "Goliath", "desc": "The ultimate defensive platform.", "health": 350, "size": 25, "baseThrust": 0.05, "baseStrafe": 0.03, "baseTurn": 1, "color": "#cccccc", "art": "juggernaut" },
+        "phantom": { "name": "Phantom", "desc": "Advanced stealth capabilities.", "health": 90, "size": 13, "baseThrust": 0.11, "baseStrafe": 0.1, "baseTurn": 7, "color": "#7f8c8d", "art": "interceptor" },
+        "leviathan": { "name": "Leviathan", "desc": "A true behemoth of a ship.", "health": 500, "size": 30, "baseThrust": 0.04, "baseStrafe": 0.02, "baseTurn": 0.5, "color": "#34495e", "art": "juggernaut" }
+    },
+    "weapon": {
+        "pulse_laser": { "name": "Pulse Laser", "desc": "Standard energy weapon.", "damage": 10, "cooldown": 15, "speed": 7, "color": "#00ff00", "size": 3, "type": "pulse" },
+        "spread_shot": { "name": "Spread Shot", "desc": "Fires three projectiles.", "damage": 7, "cooldown": 30, "speed": 6, "color": "#ffff00", "size": 2, "type": "spread" },
+        "homing_missiles": { "name": "Homing Missile Pod", "desc": "Fires a seeking projectile.", "damage": 25, "cooldown": 80, "speed": 4, "turn": 0.05, "color": "#ff6600", "size": 4, "type": "missile" },
+        "beam_laser": { "name": "Beam Laser", "desc": "A continuous damage beam.", "damage": 2.5, "cooldown": 0, "speed": 20, "color": "#ff0000", "size": 2, "type": "beam" },
+        "railgun": { "name": "Railgun", "desc": "High-velocity piercing shot.", "damage": 40, "cooldown": 90, "speed": 25, "color": "#00ffff", "size": 2, "type": "railgun" },
+        "plasma_cannon": { "name": "Plasma Cannon", "desc": "Area-of-effect explosive.", "damage": 30, "cooldown": 60, "speed": 5, "color": "#ff00ff", "size": 5, "type": "plasma" },
+        "flak_cannon": { "name": "Flak Cannon", "desc": "Fires a cloud of shrapnel.", "damage": 5, "cooldown": 40, "speed": 7, "type": "spread" },
+        "tachyon_lance": { "name": "Tachyon Lance", "desc": "Massive damage, long cooldown.", "damage": 100, "cooldown": 200, "speed": 30, "type": "railgun" },
+        "singularity_cannon": { "name": "Singularity Cannon", "desc": "Creates a damaging vortex.", "damage": 5, "cooldown": 180, "speed": 4, "type": "vortex" }
+    },
+    "engine": {
+        "standard_ion": { "name": "Standard Ion", "desc": "A reliable, basic engine.", "thrustMultiplier": 1.0 },
+        "overcharged_fusion": { "name": "Overcharged Fusion", "desc": "Higher thrust, less efficient.", "thrustMultiplier": 1.4 },
+        "vector_drive": { "name": "Vector Drive", "desc": "Improves strafing effectiveness.", "thrustMultiplier": 1.1 },
+        "warp_core": { "name": "Warp Core", "desc": "Experimental, unstable power.", "thrustMultiplier": 1.8 }
+    },
+    "shield": {
+        "basic_shield": { "name": "Basic Shield", "desc": "Standard deflector shield.", "health": 50, "regen": 1 },
+        "reactive_shield": { "name": "Reactive Shield", "desc": "Hardened against kinetic impact.", "health": 75, "regen": 0.5 },
+        "energy_barrier": { "name": "Energy Barrier", "desc": "High capacity, slow to recharge.", "health": 120, "regen": 0.2 },
+        "phase_field": { "name": "Phase Field", "desc": "Chance to ignore damage.", "health": 40, "regen": 2 }
+    },
+    "thrusters": {
+        "maneuvering_jets": { "name": "Maneuvering Jets", "desc": "Improves turning and strafing.", "turnBonus": 2, "strafeBonus": 0.02 },
+        "inertial_dampeners": { "name": "Inertial Dampeners", "desc": "Improves handling and drift.", "turnBonus": 1, "strafeBonus": 0.04 },
+        "phase_thrusters": { "name": "Phase Thrusters", "desc": "Allows short-range phase jumps.", "turnBonus": 3, "strafeBonus": 0.03 }
+    },
+    "special": {
+        "burst_thruster": { "name": "Burst Thruster", "desc": "A short, powerful forward boost.", "type": "boost", "boostMultiplier": 4, "duration": 15, "cooldown": 120 },
+        "emp_blast": { "name": "EMP Blast", "desc": "Disables nearby opponents.", "type": "emp", "duration": 180, "cooldown": 300 },
+        "cloak_field": { "name": "Cloaking Field", "desc": "Renders ship invisible.", "type": "cloak", "duration": 240, "cooldown": 400 },
+        "repair_drones": { "name": "Repair Drones", "desc": "Deploys drones to heal your ship.", "type": "repair" }
+    },
+    "tech": {
+        "fire_rate_controller": { "name": "Fire-Rate Controller", "desc": "Reduces weapon cooldowns.", "cooldownReduction": 5 },
+        "energy_siphon": { "name": "Energy Siphon", "desc": "Converts a portion of damage to energy." },
+        "targeting_cpu": { "name": "Targeting CPU", "desc": "Improves projectile accuracy." },
+        "augmented_projectiles": { "name": "Augmented Projectiles", "desc": "Increases projectile speed." }
+    }
+}
+

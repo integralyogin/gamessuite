@@ -1,0 +1,62 @@
+{
+    "Module": {
+        "short_description": "A self-contained component or unit that can be integrated into a larger system, often designed to perform a specific function."
+    },
+    "Component": {
+        "short_description": "One of the parts that make up a whole, often referring to the individual parts of a module."
+    },
+    "Functionality": {
+        "short_description": "The ability to function in a particular way, often the primary purpose of a module."
+    },
+    "Integration": {
+        "short_description": "The process of combining different parts into a whole, often involving the integration of modules into a larger system."
+    },
+    "Interface": {
+        "short_description": "The point at which two systems, subjects, organizations, etc., come into contact and communicate, often used to connect modules."
+    },
+    "Encapsulation": {
+        "short_description": "The process of enclosing something in a protective layer, often used to isolate the internal workings of a module."
+    },
+    "Reusability": {
+        "short_description": "The ability to use a module in different contexts or applications, enhancing its value and efficiency."
+    },
+    "Modularity": {
+        "short_description": "The quality of being composed of separate, interchangeable parts, often referring to the design of modules."
+    },
+    "Abstraction": {
+        "short_description": "The process of hiding the complex reality while exposing only the necessary parts, often used in module design."
+    },
+    "Dependency": {
+        "short_description": "A state in which one entity is reliant on another, often referring to the relationships between modules."
+    },
+    "Versioning": {
+        "short_description": "The process of managing different versions of a module to ensure compatibility and stability."
+    },
+    "Configuration": {
+        "short_description": "The arrangement of components or settings, often used to customize the behavior of a module."
+    },
+    "Deployment": {
+        "short_description": "The process of installing or positioning a module in a system or environment."
+    },
+    "Maintenance": {
+        "short_description": "The process of keeping a module in good working order, often involving updates and repairs."
+    },
+    "Documentation": {
+        "short_description": "The written records that detail the steps, processes, and guidelines for using or maintaining a module."
+    },
+    "Testing": {
+        "short_description": "The process of evaluating a module to ensure it meets specified requirements and functions correctly."
+    },
+    "Performance": {
+        "short_description": "The efficiency and effectiveness with which a module performs its intended function."
+    },
+    "Scalability": {
+        "short_description": "The ability of a module to handle increased workload or complexity without significant changes."
+    },
+    "Portability": {
+        "short_description": "The ease with which a module can be moved to different environments or systems."
+    },
+    "Compatibility": {
+        "short_description": "The ability of a module to work with other components or systems without conflict."
+    }
+}

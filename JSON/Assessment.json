@@ -1,0 +1,92 @@
+{
+  "Assessment": {
+    "short_description": "The systematic process of documenting and evaluating knowledge, skills, attitudes, and competencies against defined criteria to make informed judgments about learning, performance, or capabilities."
+  },
+  "Evaluation": {
+    "short_description": "The comprehensive analysis and interpretation of assessment data to make value judgments about the quality, worth, or effectiveness of learning, programs, or outcomes."
+  },
+  "Measurement": {
+    "short_description": "The process of assigning numerical values or quantitative indicators to attributes, abilities, or performances according to standardized rules and procedures."
+  },
+  "Criterion": {
+    "short_description": "The specific standard, benchmark, or reference point against which performance or achievement is measured and evaluated."
+  },
+  "Rubric": {
+    "short_description": "A structured scoring guide that defines levels of performance or proficiency for specific criteria, providing detailed descriptions of quality at each level."
+  },
+  "Validity": {
+    "short_description": "The extent to which an assessment accurately measures what it claims to measure, encompassing content, construct, and criterion-related evidence."
+  },
+  "Reliability": {
+    "short_description": "The consistency and stability of assessment results across different occasions, raters, or versions, indicating the dependability of measurements."
+  },
+  "Formative Assessment": {
+    "short_description": "Ongoing evaluation process used to monitor learning progress and provide immediate feedback for improving teaching and learning strategies."
+  },
+  "Summative Assessment": {
+    "short_description": "End-point evaluation used to measure achievement of learning outcomes and make final judgments about performance or competency levels."
+  },
+  "Diagnostic Assessment": {
+    "short_description": "Pre-learning evaluation to identify baseline knowledge, skills gaps, or learning needs before instruction begins."
+  },
+  "Portfolio": {
+    "short_description": "Curated collection of evidence demonstrating learning progress, achievements, and competencies over time through selected artifacts and reflections."
+  },
+  "Performance Assessment": {
+    "short_description": "Direct evaluation of complex skills or competencies through authentic tasks, demonstrations, or real-world applications."
+  },
+  "Standardization": {
+    "short_description": "The process of ensuring uniform conditions, procedures, and scoring criteria for assessment administration and interpretation."
+  },
+  "Calibration": {
+    "short_description": "The alignment of raters or evaluators to ensure consistent interpretation and application of assessment criteria and standards."
+  },
+  "Benchmark": {
+    "short_description": "Reference point or standard of performance used to compare and evaluate achievement levels across individuals or groups."
+  },
+  "Outcome": {
+    "short_description": "Specific, measurable result or demonstration of learning that indicates achievement of educational or performance goals."
+  },
+  "Indicator": {
+    "short_description": "Observable and measurable evidence that demonstrates progress toward or achievement of specific outcomes or standards."
+  },
+  "Metric": {
+    "short_description": "Quantitative measure or parameter used to track, evaluate, and compare performance or progress over time."
+  },
+  "Artifact": {
+    "short_description": "Tangible evidence or product that demonstrates learning, skill development, or achievement of specific outcomes."
+  },
+  "Moderation": {
+    "short_description": "Quality assurance process of reviewing and adjusting assessment judgments to ensure consistency and fairness across different contexts."
+  },
+  "Authentication": {
+    "short_description": "Process of verifying the identity and originality of assessment work to ensure integrity and prevent academic misconduct."
+  },
+  "Feedback": {
+    "short_description": "Information provided about performance or understanding to guide improvement and support learning progression."
+  },
+  "Norm": {
+    "short_description": "Statistical reference point derived from the performance of a defined population, used for comparative interpretation of scores."
+  },
+  "Scale": {
+    "short_description": "Systematic framework for measuring and recording performance levels or achievement across defined dimensions."
+  },
+  "Competency": {
+    "short_description": "Integrated set of knowledge, skills, and abilities required to perform specific tasks or functions to defined standards."
+  },
+  "Proficiency": {
+    "short_description": "Demonstrated level of skill or knowledge mastery measured against established performance standards or criteria."
+  },
+  "Analytics": {
+    "short_description": "Systematic analysis of assessment data to identify patterns, trends, and insights for improving learning and performance outcomes."
+  },
+  "Accommodation": {
+    "short_description": "Modification to assessment conditions or procedures to ensure fair access and demonstration of ability for diverse learners."
+  },
+  "Objectivity": {
+    "short_description": "Degree to which assessment judgments are free from personal bias and based on clear, measurable criteria."
+  },
+  "Fairness": {
+    "short_description": "Principle ensuring all individuals have equitable opportunity to demonstrate their abilities without disadvantage or bias."
+  }
+}

@@ -1,0 +1,130 @@
+{
+
+"Grades of Computer Science": { "quote": "" },
+"Grades of English": { "quote": "" },
+"Grades of God": { "quote": "" },
+"Grades of Mathematics": { "quote": "" },
+"Grades of Artificial Intelligence": { "quote": "" },
+
+
+  "Initiation": {
+    "short_description": "Threshold stage marking entrance into new level of understanding or being."
+  },
+  "Degree": {
+    "short_description": "Measured level of attainment within hierarchical system of knowledge."
+  },
+  "Stage": {
+    "short_description": "Distinct phase in progressive development or unfoldment."
+  },
+  "Order": {
+    "short_description": "Hierarchical classification indicating level of mastery or authority."
+  },
+  "Rank": {
+    "short_description": "Position within structured system of advancement or recognition."
+  },
+  "Level": {
+    "short_description": "Horizontal plane of achievement or understanding in vertical progression."
+  },
+  "Station": {
+    "short_description": "Fixed point of attainment in spiritual or mystical journey."
+  },
+  "State": {
+    "short_description": "Condition of being or consciousness achieved through development."
+  },
+  "Belt": {
+    "short_description": "Visible marker of progression in martial or disciplinary arts."
+  },
+  "Circle": {
+    "short_description": "Contained sphere of knowledge or power within larger system."
+  },
+  "Ray": {
+    "short_description": "Specific line of development or specialization in evolution."
+  },
+  "Path": {
+    "short_description": "Sequential route of advancement through stages of mastery."
+  },
+  "Gate": {
+    "short_description": "Point of transition between distinct levels of attainment."
+  },
+  "Veil": {
+    "short_description": "Layer of understanding that must be penetrated for advancement."
+  },
+  "Seal": {
+    "short_description": "Marker of completion or mastery of specific level."
+  },
+  "Current": {
+    "short_description": "Stream of tradition or teaching leading to higher development."
+  },
+  "Chord": {
+    "short_description": "Harmonious combination of attainments creating new level."
+  },
+  "Sphere": {
+    "short_description": "Complete domain of knowledge or power at particular level."
+  },
+  "Mark": {
+    "short_description": "Sign or indication of achieved standard or quality."
+  },
+  "Step": {
+    "short_description": "Distinct movement upward in progressive development."
+  },
+  "Mystery": {
+    "short_description": "Level of sacred or hidden knowledge revealed through progression."
+  },
+  "Crown": {
+    "short_description": "Summit achievement in hierarchical system of advancement."
+  },
+  "Key": {
+    "short_description": "Essential understanding unlocking next level of development."
+  },
+  "Chamber": {
+    "short_description": "Contained space of learning or transformation in sequence."
+  },
+  "Octave": {
+    "short_description": "Complete cycle of development leading to higher resonance."
+  },
+  "Threshold": {
+    "short_description": "Point of transition requiring specific attainment to cross."
+  },
+  "Wing": {
+    "short_description": "Specialized branch of development within larger system."
+  },
+  "Tide": {
+    "short_description": "Cyclical flow of progressive development and return."
+  },
+  "Scale": {
+    "short_description": "Graduated sequence of achievements or understandings."
+  },
+  "Fire": {
+    "short_description": "Level of energetic or spiritual intensity in development."
+  },
+  "Wave": {
+    "short_description": "Moving front of advancement carrying development forward."
+  },
+  "Eye": {
+    "short_description": "Level of perception or insight achieved through progression."
+  },
+  "Mount": {
+    "short_description": "Elevated state of consciousness or achievement to be scaled."
+  },
+  "Forge": {
+    "short_description": "Transformative process creating new level of development."
+  },
+  "Star": {
+    "short_description": "Point of illumination marking achieved understanding."
+  },
+  "Court": {
+    "short_description": "Level of authority or responsibility within hierarchy."
+  },
+  "Temple": {
+    "short_description": "Sacred space of transformation in graduated system."
+  },
+  "Bridge": {
+    "short_description": "Connection between different levels of understanding."
+  },
+  "Flame": {
+    "short_description": "Intensity of realization or enlightenment at different levels."
+  },
+  "Crown": {
+    "short_description": "Highest achievement or completion in developmental system."
+  }
+}

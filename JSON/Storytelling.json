@@ -1,0 +1,77 @@
+{
+  "Storytelling": {
+    "short_description": "The art and practice of conveying experiences, messages, and meaning through narrative, combining elements of craft, psychology, and cultural transmission to create impactful and memorable communications."
+  },
+  "Narrative": {
+    "short_description": "The structured flow of events, ideas, and experiences that forms the backbone of a story, organizing information into meaningful patterns that engage human consciousness and memory."
+  },
+  "Plot": {
+    "short_description": "The deliberate arrangement of story events to create tension, meaning, and satisfaction, incorporating causality and consequence to drive emotional and intellectual engagement."
+  },
+  "Character": {
+    "short_description": "The representations of consciousness and agency within a story that serve as vehicles for action, emotion, and transformation, allowing audiences to experience narrative through personal identification."
+  },
+  "Archetype": {
+    "short_description": "Universal patterns of character, situation, and meaning that resonate across cultures and time periods, providing deep psychological connection to fundamental human experiences."
+  },
+  "Hero's Journey": {
+    "short_description": "The fundamental pattern of transformation through adventure, incorporating stages of departure, initiation, and return that mirror psychological and spiritual development."
+  },
+  "Conflict": {
+    "short_description": "The central tension or opposition that drives story movement, whether internal, interpersonal, or environmental, creating the necessary friction for character growth and plot development."
+  },
+  "Theme": {
+    "short_description": "The underlying message, question, or truth being explored through the story's events and characters, providing deeper meaning and resonance beyond surface entertainment."
+  },
+  "Setting": {
+    "short_description": "The context in which the story unfolds, including time, place, and circumstance, shaping the possibilities for action and providing symbolic resonance with theme."
+  },
+  "Voice": {
+    "short_description": "The distinctive perspective and style through which the story is told, incorporating personality, attitude, and cultural context to create unique narrative flavor."
+  },
+  "Dialogue": {
+    "short_description": "The verbal exchanges between characters that reveal personality, advance plot, and create dramatic tension while maintaining the illusion of natural speech."
+  },
+  "Pacing": {
+    "short_description": "The manipulation of narrative time and energy to create rhythm, tension, and release, controlling audience engagement through strategic acceleration and deceleration."
+  },
+  "Suspense": {
+    "short_description": "The creation and maintenance of uncertainty about future events, generating emotional investment through anticipation and controlled information release."
+  },
+  "Revelation": {
+    "short_description": "The strategic disclosure of information that changes understanding of past events or future possibilities, creating emotional and intellectual impact through discovery."
+  },
+  "Symbolism": {
+    "short_description": "The use of objects, events, or characters to represent deeper meanings or themes, creating layers of significance beyond literal interpretation."
+  },
+  "Climax": {
+    "short_description": "The point of highest tension and transformation in the story where central conflicts reach resolution and character arcs achieve completion."
+  },
+  "Resolution": {
+    "short_description": "The final settlement of story tensions and conflicts, providing closure and satisfaction while potentially opening new possibilities."
+  },
+  "Perspective": {
+    "short_description": "The chosen viewpoint through which the story is experienced, determining what information is available and how it's filtered through consciousness."
+  },
+  "Tension": {
+    "short_description": "The emotional and intellectual energy created through opposition, uncertainty, or desire that drives audience engagement and story momentum."
+  },
+  "Metaphor": {
+    "short_description": "The use of comparative imagery and situation to illuminate meaning and create emotional resonance through parallel understanding."
+  },
+  "Structure": {
+    "short_description": "The organizational framework that supports story elements and guides audience experience through carefully planned progression and development."
+  },
+  "Beats": {
+    "short_description": "The fundamental units of dramatic action that build scenes and sequences, creating rhythm and progression through emotional and narrative punctuation."
+  },
+  "Stakes": {
+    "short_description": "The potential consequences of success or failure that give weight to character actions and decisions, driving investment in outcome."
+  },
+  "Backstory": {
+    "short_description": "The relevant history that precedes and influences current story events, providing context and depth to character motivation and situation."
+  },
+  "World-building": {
+    "short_description": "The creation of comprehensive and coherent story universes with their own rules, histories, and cultures that provide rich context for narrative."
+  }
+}

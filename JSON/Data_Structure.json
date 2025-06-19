@@ -1,0 +1,92 @@
+{
+  "Data Structure": {
+    "short_description": "The fundamental organization of digital information, providing systematic patterns for storing, accessing, and modifying data elements while maintaining logical relationships and operational efficiency."
+  },
+  "Array": {
+    "short_description": "The sequential collection of elements stored in contiguous memory locations, offering direct access through numerical indexing and forming the foundation for many complex data organizations."
+  },
+  "Linked List": {
+    "short_description": "The chain of nodes containing data elements and references, enabling dynamic memory allocation and efficient insertion operations through sequential access patterns."
+  },
+  "Stack": {
+    "short_description": "The last-in-first-out (LIFO) collection maintaining temporal ordering, supporting push and pop operations for managing hierarchical processes and nested operations."
+  },
+  "Queue": {
+    "short_description": "The first-in-first-out (FIFO) collection preserving sequential order, enabling controlled flow of elements for managing sequential processes and ordered operations."
+  },
+  "Tree": {
+    "short_description": "The hierarchical structure of nodes connected through parent-child relationships, enabling representation of nested relationships and efficient searching through branching paths."
+  },
+  "Binary Tree": {
+    "short_description": "The specialized tree structure limiting each node to two children, providing balanced organization for efficient searching, sorting, and hierarchical data representation."
+  },
+  "Binary Search Tree": {
+    "short_description": "The ordered binary tree maintaining specific value relationships between nodes, enabling efficient searching and sorting through logarithmic time complexity."
+  },
+  "Heap": {
+    "short_description": "The specialized tree structure maintaining parent-child value relationships, enabling efficient access to maximum or minimum elements through complete binary tree organization."
+  },
+  "Hash Table": {
+    "short_description": "The key-value mapping structure using hash functions, enabling constant-time access to elements through direct addressing and collision resolution strategies."
+  },
+  "Graph": {
+    "short_description": "The network structure of vertices connected through edges, representing complex relationships and enabling analysis of connections, paths, and network properties."
+  },
+  "Vertex": {
+    "short_description": "The fundamental unit of graph structure representing distinct entities, serving as connection points for edges and holding relevant data elements."
+  },
+  "Edge": {
+    "short_description": "The connection between vertices in a graph structure, representing relationships or transitions and potentially carrying weights or directional properties."
+  },
+  "Balance": {
+    "short_description": "The optimal distribution of elements within a structure, ensuring efficient operations through maintained proportions and regulated growth patterns."
+  },
+  "Traversal": {
+    "short_description": "The systematic process of visiting elements within a structure, enabling ordered access and processing through defined navigation patterns."
+  },
+  "Insertion": {
+    "short_description": "The operation of adding elements to a structure, maintaining organizational properties and relationships while adapting to new data."
+  },
+  "Deletion": {
+    "short_description": "The operation of removing elements from a structure, preserving integrity and relationships while managing structural changes and reorganization."
+  },
+  "Search": {
+    "short_description": "The process of locating specific elements within a structure, utilizing organizational properties to achieve efficient element discovery."
+  },
+  "Sort": {
+    "short_description": "The process of ordering elements within a structure, establishing specific sequences through comparison and exchange operations."
+  },
+  "Complexity": {
+    "short_description": "The measure of resource requirements for structural operations, quantifying efficiency through time and space utilization patterns."
+  },
+  "Algorithm": {
+    "short_description": "The systematic procedure for manipulating structural elements, defining specific steps for achieving desired transformations and results."
+  },
+  "Iterator": {
+    "short_description": "The mechanism for sequential access to structural elements, providing controlled traversal and element processing capabilities."
+  },
+  "Reference": {
+    "short_description": "The pointer or link to specific elements or locations within a structure, enabling indirect access and relationship maintenance."
+  },
+  "Node": {
+    "short_description": "The foundational unit of linked and hierarchical structures, containing data elements and structural references for maintaining relationships."
+  },
+  "Index": {
+    "short_description": "The numerical or key-based identifier for direct element access, enabling efficient retrieval through positional or mapped references."
+  },
+  "Recursion": {
+    "short_description": "The self-referential process in structural operations, enabling complex manipulations through repeated application of simple patterns."
+  },
+  "Memory": {
+    "short_description": "The physical or virtual space for storing structural elements, requiring efficient allocation and management for optimal performance."
+  },
+  "Optimization": {
+    "short_description": "The refinement of structural organization and operations, enhancing efficiency through improved patterns and reduced resource usage."
+  },
+  "Encapsulation": {
+    "short_description": "The bundling of data and operations within structural units, providing controlled access and manipulation through defined interfaces."
+  },
+  "Abstraction": {
+    "short_description": "The simplified representation of complex structural relationships, enabling high-level understanding and manipulation without implementation details."
+  }
+}

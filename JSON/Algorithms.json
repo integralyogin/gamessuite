@@ -1,0 +1,65 @@
+{
+  "Algorithms": {
+    "short_description": "Step-by-step procedures for solving problems or achieving specific tasks, foundational in computer science for efficiency and correctness."
+  },
+  "Sorting": {
+    "short_description": "Methods for arranging data in a specific order, like Quick Sort, Merge Sort, or Bubble Sort, with varying time and space complexities."
+  },
+  "Searching": {
+    "short_description": "Techniques to find an item in a collection, including Binary Search for sorted lists and Linear Search for unsorted ones."
+  },
+  "Graph Algorithms": {
+    "short_description": "Procedures for manipulating graphs, such as Breadth-First Search (BFS), Depth-First Search (DFS), Dijkstra's for shortest path, and Kruskal's for minimum spanning trees."
+  },
+  "Dynamic Programming": {
+    "short_description": "An optimization over plain recursion by solving complex problems by breaking them down into simpler subproblems, reusing their solutions."
+  },
+  "Greedy Algorithms": {
+    "short_description": "Approaches making the locally optimal choice at each stage with the hope of finding a global optimum, like Kruskal's algorithm for MST."
+  },
+  "Divide and Conquer": {
+    "short_description": "A strategy that solves a problem by dividing it into smaller subproblems, solving them independently, then combining their solutions, e.g., Merge Sort."
+  },
+  "Backtracking": {
+    "short_description": "A general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems."
+  },
+  "String Matching": {
+    "short_description": "Algorithms for finding all occurrences of a pattern within text, including the Knuth-Morris-Pratt (KMP) and Boyer-Moore algorithms."
+  },
+  "Hashing": {
+    "short_description": "Techniques for indexing and retrieving items in a database using hash functions, crucial for hash tables."
+  },
+  "Compression": {
+    "short_description": "Methods to reduce data size for storage or transmission, including lossless algorithms like Huffman coding or Lempel-Ziv-Welch (LZW)."
+  },
+  "Cryptographic Algorithms": {
+    "short_description": "Procedures ensuring data security, like RSA for encryption, SHA for hashing, and AES for symmetric key encryption."
+  },
+  "Numerical Algorithms": {
+    "short_description": "Methods for solving mathematical problems numerically, including root finding, numerical integration, and solving systems of equations."
+  },
+  "Randomized Algorithms": {
+    "short_description": "Algorithms that employ a degree of randomness as part of their logic or for performance, like Quick Sort with randomized pivot selection."
+  },
+  "Approximation Algorithms": {
+    "short_description": "Techniques for finding near-optimal solutions to optimization problems when exact solutions are computationally infeasible."
+  },
+  "Parallel Algorithms": {
+    "short_description": "Algorithms designed to be executed on multiple processors at the same time to speed up problem-solving."
+  },
+  "Machine Learning Algorithms": {
+    "short_description": "Methods for enabling machines to improve their performance based on data, including supervised (like SVM, Decision Trees), unsupervised (like K-means), and reinforcement learning algorithms."
+  },
+  "Optimization Algorithms": {
+    "short_description": "Strategies for finding the best solution from all feasible solutions, like Gradient Descent for minimizing functions."
+  },
+  "Geometric Algorithms": {
+    "short_description": "Algorithms dealing with geometric shapes and spatial data, useful in computer graphics and GIS systems, like Convex Hull algorithms."
+  },
+  "Computational Geometry": {
+    "short_description": "Algorithms and data structures for solving problems in geometric settings, including line segment intersection and point location."
+  },
+  "Network Flow Algorithms": {
+    "short_description": "Methods for optimizing flow in networks, like Ford-Fulkerson for maximum flow and Edmonds-Karp for efficient implementation."
+  }
+}

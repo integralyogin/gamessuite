@@ -1,0 +1,77 @@
+{
+"Occultism": {
+"short_description": "The study and practice of hidden knowledge and forces beyond ordinary perception, encompassing various traditions of esoteric wisdom and techniques for working with subtle realities."
+},
+"Ceremonial Magic": {
+"short_description": "Formal system of ritual practices designed to invoke and direct spiritual forces through precise protocols, utilizing symbols, gestures, words of power, and carefully prepared spaces and tools."
+},
+"Grimoire": {
+"short_description": "Traditional books of magical instructions and theory containing rituals, spirit catalogues, sigils, invocations, and detailed procedures for working with supernatural forces and entities."
+},
+"Astral Plane": {
+"short_description": "The subtle dimension of reality between physical and spiritual realms, containing the patterns and energies that shape manifestation and accessible through various techniques of consciousness expansion."
+},
+"Egregore": {
+"short_description": "A collective thought-form or psychic entity created and sustained by the combined mental and emotional energy of a group of people united in a common purpose or belief system."
+},
+"Initiation": {
+"short_description": "The process and ceremonies of progressive awakening to occult realities, involving both formal ritual admission to secret traditions and internal transformation of consciousness."
+},
+"Theurgy": {
+"short_description": "The practice of ritual magic aimed at spiritual development and divine communion, working with higher spiritual forces for transformation and illumination rather than mundane effects."
+},
+"Goetia": {
+"short_description": "System of ceremonial magic focusing on the evocation and commanding of spirits, particularly those catalogued in grimoires like the Lesser Key of Solomon, for various practical purposes."
+},
+"Familiar": {
+"short_description": "A spiritual entity or animal companion bonded to a practitioner, serving as assistant in magical operations and mediator between visible and invisible realms."
+},
+"Hermetics": {
+"short_description": "Philosophical and practical system based on the Hermetic tradition, working with universal principles of correspondence and vibration to achieve spiritual and material transformation."
+},
+"Divination": {
+"short_description": "Techniques and practices for gaining information about past, present, or future through interaction with subtle forces and interpretation of symbols, omens, and patterns."
+},
+"Sigil": {
+"short_description": "A symbol designed and charged with magical intent, concentrating will and purpose into a form that can operate autonomously in subtle realms to achieve specific effects."
+},
+"Scrying": {
+"short_description": "The practice of gazing into reflective or translucent surfaces to receive psychic impressions and visions, accessing information from subtle planes of reality."
+},
+"Evocation": {
+"short_description": "The practice of calling forth spiritual entities into visible or sensible manifestation outside the operator, typically within a protected magical circle or triangle."
+},
+"Invocation": {
+"short_description": "The practice of drawing spiritual forces or entities into oneself, temporarily merging consciousness with higher principles for enlightenment or empowerment."
+},
+"Circle": {
+"short_description": "The primary protective boundary in ceremonial magic, creating a sacred space between worlds where operations can be conducted safely and effectively."
+},
+"Elements": {
+"short_description": "The fundamental forces and qualities of nature (Earth, Air, Fire, Water, Spirit) used in magical work as building blocks of reality and channels of power."
+},
+"Planetary Magic": {
+"short_description": "System of working with the powers and intelligences of celestial bodies, utilizing their influences for specific purposes through timing, symbolism, and ritual."
+},
+"Etheric": {
+"short_description": "The subtle energy field or body intermediary between physical and astral planes, serving as the medium for vital force and magical influences."
+},
+"Glamour": {
+"short_description": "Magical influence affecting perception and appearance, creating illusions or altered impressions through manipulation of subtle energies and consciousness."
+},
+"Thoughtform": {
+"short_description": "An artificial psychic entity created through concentrated thought and emotion, programmed to perform specific functions in subtle reality."
+},
+"Servitor": {
+"short_description": "A specifically created and programmed thoughtform designed to accomplish particular tasks, functioning as a magical assistant or agent."
+},
+"Lodge": {
+"short_description": "An organized body of occult practitioners sharing common traditions and practices, often operating through formal degrees of initiation and ritual work."
+},
+"Correspondences": {
+"short_description": "The system of symbolic relationships between different levels of reality, used to establish magical connections and channel specific forces."
+},
+"Banishing": {
+"short_description": "Rituals and techniques for clearing space of unwanted influences and establishing proper boundaries between different planes of reality."
+}
+}

@@ -1,0 +1,69 @@
+{
+  "Machine Learning": {
+    "short_description": "A subset of artificial intelligence that involves the development of algorithms that can learn from and make decisions on data, improving performance over time without explicit programming."
+  },
+  "Machine Learning Basics": { "short_description": "" },
+  "Supervised Learning": {
+    "short_description": "A type of machine learning where the model is trained on a labeled dataset, learning to map input to output based on example input-output pairs."
+  },
+  "Unsupervised Learning": {
+    "short_description": "Machine learning techniques where the algorithm works on unlabeled data, finding structure, relationships, or patterns without explicit guidance."
+  },
+  "Reinforcement Learning": {
+    "short_description": "A learning method where an agent learns to make decisions by performing actions and receiving rewards or penalties, aiming to maximize cumulative reward."
+  },
+  "Neural Networks": {
+    "short_description": "A series of algorithms that endeavor to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates."
+  },
+  "Deep Learning": {
+    "short_description": "A subset of machine learning that uses neural networks with multiple layers (deep structures) to learn complex patterns in data."
+  },
+  "Feature Extraction": {
+    "short_description": "The process of reducing the number of variables in a dataset by creating new features from the existing ones, aiming to improve model performance."
+  },
+  "Overfitting": {
+    "short_description": "A modeling error where a function is too closely fit to a limited set of data points, capturing noise rather than the underlying distribution."
+  },
+  "Underfitting": {
+    "short_description": "When a statistical model or machine learning algorithm cannot capture the underlying trend of the data, often due to oversimplification."
+  },
+  "Bias-Variance Tradeoff": {
+    "short_description": "The balance between the error introduced by the bias and the variance of a model, aiming for an optimal model complexity."
+  },
+  "Cross-Validation": {
+    "short_description": "A technique for assessing how the results of a statistical analysis will generalize to an independent dataset, used to prevent overfitting."
+  },
+  "Gradient Descent": {
+    "short_description": "An optimization algorithm for finding the local minimum of a function by taking steps proportional to the negative of the gradient."
+  },
+  "Backpropagation": {
+    "short_description": "An algorithm for training neural networks by adjusting the weights of connections based on the error rate obtained in the previous epoch."
+  },
+  "Hyperparameter Tuning": {
+    "short_description": "The process of choosing a set of optimal hyperparameters for a learning algorithm, often through methods like grid search, random search, or Bayesian optimization."
+  },
+  "Ensemble Methods": {
+    "short_description": "Techniques that combine several machine learning techniques into one predictive model to decrease variance (bagging), bias (boosting), or improve predictions."
+  },
+  "Feature Selection": {
+    "short_description": "The process of selecting a subset of relevant features for use in model construction, enhancing model accuracy and reducing computational cost."
+  },
+  "Natural Language Processing (NLP)": {
+    "short_description": "A field of machine learning that focuses on the interaction between computers and humans in natural language, enabling computers to process and analyze large amounts of natural language data."
+  },
+  "Computer Vision": {
+    "short_description": "An interdisciplinary field that deals with how computers can gain high-level understanding from digital images or videos, often using machine learning techniques."
+  },
+  "Regression": {
+    "short_description": "A statistical method for estimating the relationships among variables, used to predict continuous outcomes."
+  },
+  "Classification": {
+    "short_description": "A type of supervised learning where the output is a category, predicting which class or label an instance belongs to."
+  },
+  "Anomaly Detection": {
+    "short_description": "The identification of items, events or observations which do not conform to an expected pattern or other items in a dataset."
+  },
+  "Transfer Learning": {
+    "short_description": "A research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem."
+  }
+}

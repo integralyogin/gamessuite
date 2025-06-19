@@ -1,0 +1,110 @@
+{
+"Classification": {
+    "short_description": "The task of categorizing input data into predefined classes or categories, using patterns learned from labeled training examples to make predictions."
+},
+"Binary Classification": {
+    "short_description": "A classification task where the target variable has exactly two possible classes, such as true/false, positive/negative, or spam/not-spam."
+},
+"Multiclass Classification": {
+    "short_description": "A classification task where instances can belong to one of three or more distinct classes, requiring discrimination between multiple categories."
+},
+"Multilabel Classification": {
+    "short_description": "A classification scenario where each instance can simultaneously belong to multiple classes, allowing for overlapping category assignments."
+},
+"Decision Boundary": {
+    "short_description": "The surface that separates different classes in the feature space, determined by the classifier to make predictions on new instances."
+},
+"Class Probability": {
+    "short_description": "The estimated likelihood of an instance belonging to each possible class, often output by classifiers alongside their predictions."
+},
+"Confusion Matrix": {
+    "short_description": "A table showing the counts of true and false predictions for each class, enabling detailed analysis of classification performance."
+},
+"True Positive": {
+    "short_description": "An instance correctly predicted as belonging to the positive class, representing successful identification of positive cases."
+},
+"True Negative": {
+    "short_description": "An instance correctly predicted as belonging to the negative class, representing successful identification of negative cases."
+},
+"False Positive": {
+    "short_description": "An instance incorrectly predicted as belonging to the positive class when it actually belongs to the negative class, also known as Type I error."
+},
+"False Negative": {
+    "short_description": "An instance incorrectly predicted as belonging to the negative class when it actually belongs to the positive class, also known as Type II error."
+},
+"Precision": {
+    "short_description": "The proportion of positive predictions that are correct, measuring the classifier's ability to avoid false positive predictions."
+},
+"Recall": {
+    "short_description": "The proportion of actual positive instances that are correctly identified, measuring the classifier's ability to find all positive cases."
+},
+"F1 Score": {
+    "short_description": "The harmonic mean of precision and recall, providing a single score that balances the trade-off between these metrics."
+},
+"Accuracy": {
+    "short_description": "The proportion of all predictions that are correct, measuring overall classification performance across all classes."
+},
+"ROC Curve": {
+    "short_description": "A plot of true positive rate versus false positive rate at various classification thresholds, visualizing classifier performance across different operating points."
+},
+"AUC-ROC": {
+    "short_description": "The area under the ROC curve, providing a single score for classifier performance independent of any specific threshold."
+},
+"Threshold": {
+    "short_description": "The decision boundary value used to convert probability estimates into class predictions, affecting the trade-off between different types of errors."
+},
+"Class Weight": {
+    "short_description": "The relative importance assigned to different classes during training, often used to handle class imbalance or prioritize certain types of errors."
+},
+"One-vs-All": {
+    "short_description": "A strategy for handling multiclass classification by training multiple binary classifiers, each distinguishing one class from all others."
+},
+"One-vs-One": {
+    "short_description": "A strategy for multiclass classification that trains binary classifiers for each pair of classes, combining their predictions through voting."
+},
+"Ensemble Classification": {
+    "short_description": "The combination of multiple classifiers to make predictions, often improving performance through diversity and error averaging."
+},
+"Label Smoothing": {
+    "short_description": "A regularization technique that softens target labels to prevent overconfident predictions and improve generalization."
+},
+"Calibration": {
+    "short_description": "The adjustment of classifier probability estimates to better reflect true class probabilities, improving reliability of confidence scores."
+},
+"Decision Function": {
+    "short_description": "The mathematical function learned by a classifier to map input features to class predictions or probability estimates."
+},
+"Classification Rule": {
+    "short_description": "A logical statement or condition used to assign instances to classes, often expressed in if-then form for interpretability."
+},
+"Error Analysis": {
+    "short_description": "The systematic examination of misclassified instances to understand patterns in errors and identify opportunities for improvement."
+},
+"Classification Report": {
+    "short_description": "A summary of various performance metrics for each class, providing a comprehensive view of classifier behavior."
+},
+"Cross-Entropy Loss": {
+    "short_description": "A loss function measuring the difference between predicted class probabilities and true labels, commonly used for training classifiers."
+},
+"Classification Margin": {
+    "short_description": "The distance between an instance and the decision boundary, indicating the confidence of the classification."
+},
+"Hard Classification": {
+    "short_description": "The assignment of instances to specific classes without probability estimates, providing discrete category predictions."
+},
+"Soft Classification": {
+    "short_description": "The output of probability distributions over possible classes, providing more nuanced information about class membership."
+},
+"Classification Uncertainty": {
+    "short_description": "The degree of doubt in classification decisions, often quantified through probability distributions or confidence scores."
+},
+"Hierarchical Classification": {
+    "short_description": "Classification into a tree-structured system of categories, where classes are organized in levels of increasing specificity."
+},
+"Zero-Shot Classification": {
+    "short_description": "The ability to classify instances into previously unseen classes using semantic information or class descriptions."
+},
+"Few-Shot Classification": {
+    "short_description": "Classification tasks where only a small number of training examples are available for some or all classes."
+}
+}

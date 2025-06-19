@@ -1,0 +1,593 @@
+[
+  {
+    "id": "subj_linguistics_foundations_001",
+    "title": "Linguistics",
+    "description": "A progressive exploration of the core concepts, subfields, and methodologies used in the scientific study of human language.",
+    "sections": [
+      {
+        "heading": "Linguistics Defined",
+        "topic_summary": "Scientific study of language.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_intro",
+            "summary": "An introduction to Linguistics as the scientific study of language, encompassing its structure, history, acquisition, use, and cognitive underpinnings."
+          }
+        ]
+      },
+      {
+        "heading": "Language Properties",
+        "topic_summary": "Defining features of language.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_lang_properties",
+            "summary": "Exploring key characteristics of human language, such as arbitrariness, duality of patterning, productivity (creativity), displacement, and cultural transmission."
+          }
+        ]
+      },
+      {
+        "heading": "Prescriptive vs. Descriptive",
+        "topic_summary": "Rules vs. actual usage.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_prescriptive_descriptive",
+            "summary": "Distinguishing prescriptive grammar (how language 'should' be used) from descriptive grammar (how language is actually used by speakers)."
+          }
+        ]
+      },
+      {
+        "heading": "Phonetics: Articulatory",
+        "topic_summary": "Speech sound production.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_phonetics_articulatory",
+            "summary": "The study of how speech sounds are produced by the human vocal apparatus (lips, tongue, vocal cords, etc.)."
+          }
+        ]
+      },
+      {
+        "heading": "Phonetics: Acoustic",
+        "topic_summary": "Physical properties of sound.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_phonetics_acoustic",
+            "summary": "The study of the physical properties of speech sounds as they travel through the air (e.g., frequency, amplitude, duration)."
+          }
+        ]
+      },
+      {
+        "heading": "Phonetics: Auditory",
+        "topic_summary": "Perception of speech sounds.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_phonetics_auditory",
+            "summary": "The study of how speech sounds are perceived by the listener's auditory system and processed by the brain."
+          }
+        ]
+      },
+      {
+        "heading": "IPA Chart",
+        "topic_summary": "International Phonetic Alphabet.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_ipa",
+            "summary": "An alphabetic system of phonetic notation based primarily on the Latin script, used to represent all known speech sounds."
+          }
+        ]
+      },
+      {
+        "heading": "Phonology",
+        "topic_summary": "Sound systems, patterns.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_phonology_intro",
+            "summary": "The study of the sound systems of languages and the abstract patterns of sounds and their permissible combinations."
+          }
+        ]
+      },
+      {
+        "heading": "Phonemes",
+        "topic_summary": "Smallest meaning-distinguishing sounds.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_phonemes",
+            "summary": "The smallest units of sound in a language that can distinguish one word from another (e.g., /p/ and /b/ in 'pat' vs. 'bat')."
+          }
+        ]
+      },
+      {
+        "heading": "Allophones",
+        "topic_summary": "Phoneme variations, predictable.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_allophones",
+            "summary": "Variations in the pronunciation of a phoneme that do not change meaning and occur in predictable phonetic environments."
+          }
+        ]
+      },
+      {
+        "heading": "Minimal Pairs",
+        "topic_summary": "Words differing by one sound.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_minimal_pairs",
+            "summary": "Pairs of words that differ by only one phoneme in the same position, used to identify the phonemes of a language."
+          }
+        ]
+      },
+      {
+        "heading": "Phonological Rules",
+        "topic_summary": "Governing sound changes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_phonological_rules",
+            "summary": "Rules that describe how phonemes are realized as allophones in different phonetic contexts or how sounds change when morphemes combine."
+          }
+        ]
+      },
+      {
+        "heading": "Syllable Structure",
+        "topic_summary": "Onset, nucleus, coda.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_syllable_structure",
+            "summary": "The organization of sounds within a syllable, typically consisting of an onset (initial consonant(s)), nucleus (vowel), and coda (final consonant(s))."
+          }
+        ]
+      },
+      {
+        "heading": "Prosody",
+        "topic_summary": "Stress, intonation, rhythm.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_prosody",
+            "summary": "Features of speech that go beyond individual phonemes, such as stress, pitch (intonation), rhythm, and tempo, conveying meaning and emotion."
+          }
+        ]
+      },
+      {
+        "heading": "Morphology",
+        "topic_summary": "Word structure, formation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_morphology_intro",
+            "summary": "The study of the internal structure of words and the rules by which words are formed from smaller meaningful units."
+          }
+        ]
+      },
+      {
+        "heading": "Morphemes",
+        "topic_summary": "Smallest units of meaning.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_morphemes",
+            "summary": "The smallest grammatical units in a language that carry meaning (e.g., 'un-', 'kind', '-ness' in 'unkindness')."
+          }
+        ]
+      },
+      {
+        "heading": "Free & Bound Morphemes",
+        "topic_summary": "Stand alone vs. attached.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_free_bound_morphemes",
+            "summary": "Free morphemes can stand alone as words (e.g., 'cat'), while bound morphemes must be attached to other morphemes (e.g., prefixes like 'un-', suffixes like '-ed')."
+          }
+        ]
+      },
+      {
+        "heading": "Inflectional Morphology",
+        "topic_summary": "Grammatical word changes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_inflectional_morph",
+            "summary": "The modification of a word's form to express grammatical functions or attributes such as tense, mood, person, number, gender, and case."
+          }
+        ]
+      },
+      {
+        "heading": "Derivational Morphology",
+        "topic_summary": "Creating new words.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_derivational_morph",
+            "summary": "The process of forming new words from existing words, often by adding affixes, which may change the word's meaning or part of speech."
+          }
+        ]
+      },
+      {
+        "heading": "Word Formation Processes",
+        "topic_summary": "Affixation, compounding, etc.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_word_formation",
+            "summary": "Various ways new words are created in a language, including affixation (prefixes, suffixes), compounding, conversion, clipping, and blending."
+          }
+        ]
+      },
+      {
+        "heading": "Syntax",
+        "topic_summary": "Sentence structure rules.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_syntax_intro",
+            "summary": "The study of the rules and principles that govern how words are combined to form phrases and sentences in a language."
+          }
+        ]
+      },
+      {
+        "heading": "Constituency",
+        "topic_summary": "Grammatical units in sentences.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_constituency",
+            "summary": "The concept that sentences are not just strings of words but are organized into hierarchical grammatical units called constituents (phrases)."
+          }
+        ]
+      },
+      {
+        "heading": "Phrase Structure Rules",
+        "topic_summary": "Generating sentence structures.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_phrase_structure_rules",
+            "summary": "Formal rules that describe how phrases can be constructed from smaller phrases or words, often represented as tree diagrams."
+          }
+        ]
+      },
+      {
+        "heading": "Grammatical Relations",
+        "topic_summary": "Subject, object, etc.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_grammatical_relations",
+            "summary": "The functional relationships between constituents in a sentence, such as subject, direct object, indirect object, and predicate."
+          }
+        ]
+      },
+      {
+        "heading": "Transformational Grammar",
+        "topic_summary": "Chomsky, deep/surface structure.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_transformational_grammar",
+            "summary": "A theory of grammar (notably by Noam Chomsky) that posits underlying 'deep structures' which are converted into 'surface structures' (actual sentences) by transformational rules."
+          }
+        ]
+      },
+      {
+        "heading": "Universal Grammar (UG)",
+        "topic_summary": "Innate linguistic principles.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_universal_grammar",
+            "summary": "A linguistic theory proposing that humans are born with an innate set of grammatical principles common to all languages."
+          }
+        ]
+      },
+      {
+        "heading": "Semantics",
+        "topic_summary": "Study of meaning.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_semantics_intro",
+            "summary": "The branch of linguistics concerned with the meaning of words, phrases, and sentences, and how meaning is constructed and interpreted."
+          }
+        ]
+      },
+      {
+        "heading": "Lexical Semantics",
+        "topic_summary": "Word meanings, relations.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_lexical_semantics",
+            "summary": "The study of word meanings and the relationships between them (e.g., synonymy, antonymy, hyponymy)."
+          }
+        ]
+      },
+      {
+        "heading": "Compositional Semantics",
+        "topic_summary": "Phrase/sentence meaning construction.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_compositional_semantics",
+            "summary": "The study of how the meanings of individual words combine to form the meanings of phrases and sentences, based on syntactic structure (Principle of Compositionality)."
+          }
+        ]
+      },
+      {
+        "heading": "Pragmatics",
+        "topic_summary": "Meaning in context, use.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_pragmatics_intro",
+            "summary": "The study of how context contributes to meaning; how language is used in social situations and how speakers convey more than what is literally said."
+          }
+        ]
+      },
+      {
+        "heading": "Speech Acts",
+        "topic_summary": "Language as action.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_speech_acts",
+            "summary": "The theory that uttering a sentence is not just saying something but also performing an action (e.g., requesting, promising, warning)."
+          }
+        ]
+      },
+      {
+        "heading": "Implicature",
+        "topic_summary": "Implied, unstated meaning.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_implicature",
+            "summary": "Information that is conveyed by an utterance beyond its literal meaning, inferred by the listener based on context and conversational principles (Gricean maxims)."
+          }
+        ]
+      },
+      {
+        "heading": "Historical Linguistics",
+        "topic_summary": "Language change over time.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_historical_linguistics",
+            "summary": "The study of how languages change over time, including sound changes, grammatical changes, and the reconstruction of proto-languages."
+          }
+        ]
+      },
+      {
+        "heading": "Language Families",
+        "topic_summary": "Genetically related languages.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_language_families",
+            "summary": "Groups of languages that are related through descent from a common ancestral language or proto-language (e.g., Indo-European, Sino-Tibetan)."
+          }
+        ]
+      },
+      {
+        "heading": "Language Acquisition",
+        "topic_summary": "How children learn language.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_language_acquisition",
+            "summary": "The process by which humans acquire the capacity to perceive and comprehend language, as well as to produce and use words and sentences to communicate."
+          }
+        ]
+      },
+      {
+        "heading": "Second Language Acquisition",
+        "topic_summary": "Learning additional languages.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_sla",
+            "summary": "The study of how individuals learn languages other than their native tongue, including factors affecting the process and theories of learning."
+          }
+        ]
+      },
+      {
+        "heading": "Sociolinguistics",
+        "topic_summary": "Language and society interplay.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_sociolinguistics",
+            "summary": "The study of the relationship between language and society, including language variation, dialects, language attitudes, and language policy."
+          }
+        ]
+      },
+      {
+        "heading": "Dialectology",
+        "topic_summary": "Study of regional dialects.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_dialectology",
+            "summary": "The study of linguistic dialects, regional or social varieties of a language distinguished by pronunciation, grammar, or vocabulary."
+          }
+        ]
+      },
+      {
+        "heading": "Psycholinguistics",
+        "topic_summary": "Language and mind/brain.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_psycholinguistics",
+            "summary": "The study of the psychological and neurobiological factors that enable humans to acquire, use, comprehend, and produce language."
+          }
+        ]
+      },
+      {
+        "heading": "Neurolinguistics",
+        "topic_summary": "Brain mechanisms for language.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_neurolinguistics",
+            "summary": "The study of the neural mechanisms in the human brain that control the comprehension, production, and acquisition of language."
+          }
+        ]
+      },
+      {
+        "heading": "Computational Linguistics",
+        "topic_summary": "Computers processing language.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_computational_linguistics",
+            "summary": "An interdisciplinary field concerned with the statistical or rule-based modeling of natural language from a computational perspective, as well as the study of computational approaches to linguistic questions."
+          }
+        ]
+      },
+      {
+        "heading": "Corpus Linguistics",
+        "topic_summary": "Analyzing large text collections.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_corpus_linguistics",
+            "summary": "The study of language as expressed in samples (corpora) of 'real world' text, using computational methods to analyze patterns of language use."
+          }
+        ]
+      },
+      {
+        "heading": "Discourse Analysis",
+        "topic_summary": "Language beyond sentence level.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_discourse_analysis",
+            "summary": "The study of language in use beyond the sentence level, examining how larger linguistic units like conversations, texts, or narratives are structured and understood."
+          }
+        ]
+      },
+      {
+        "heading": "Stylistics",
+        "topic_summary": "Linguistic analysis of style.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_stylistics",
+            "summary": "The study and interpretation of texts from a linguistic perspective, focusing on the style of language used and its effects."
+          }
+        ]
+      },
+      {
+        "heading": "Language Typology",
+        "topic_summary": "Classifying languages by structure.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_typology",
+            "summary": "The classification of languages according to their structural features (e.g., word order, morphological type) to identify patterns and universals."
+          }
+        ]
+      },
+      {
+        "heading": "Language Endangerment",
+        "topic_summary": "Languages at risk of dying.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_language_endangerment",
+            "summary": "The study of languages that are at risk of falling out of use as their speakers die out or shift to speaking another language."
+          }
+        ]
+      },
+      {
+        "heading": "Language Revitalization",
+        "topic_summary": "Efforts to save languages.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_language_revitalization",
+            "summary": "Attempts by linguists and community members to halt or reverse the decline of an endangered language or to revive an extinct one."
+          }
+        ]
+      },
+      {
+        "heading": "Forensic Linguistics",
+        "topic_summary": "Language analysis in law.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_forensic_linguistics",
+            "summary": "The application of linguistic knowledge, methods, and insights to the forensic context of law, including authorship attribution and language analysis in legal cases."
+          }
+        ]
+      },
+      {
+        "heading": "Sign Languages",
+        "topic_summary": "Visual-gestural languages.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_sign_languages",
+            "summary": "Languages that use manual communication and body language to convey meaning, as opposed to acoustically conveyed sound patterns; fully formed natural languages with their own grammar and lexicon."
+          }
+        ]
+      },
+      {
+        "heading": "Writing Systems",
+        "topic_summary": "Visual representation of language.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_writing_systems",
+            "summary": "Methods of visually representing verbal communication, based on a script and a set of rules regulating its use (e.g., alphabetic, syllabic, logographic)."
+          }
+        ]
+      },
+      {
+        "heading": "Language & Thought",
+        "topic_summary": "Sapir-Whorf hypothesis.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_language_thought",
+            "summary": "Exploring the relationship between the language one speaks and the way one perceives and conceptualizes the world (linguistic relativity/determinism)."
+          }
+        ]
+      },
+      {
+        "heading": "Language & Culture",
+        "topic_summary": "Interplay of linguistic, cultural norms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_language_culture",
+            "summary": "The study of the intricate connections between language and cultural practices, beliefs, values, and social structures."
+          }
+        ]
+      },
+      {
+        "heading": "Applied Linguistics",
+        "topic_summary": "Practical language problem-solving.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "ling_topic_applied_linguistics",
+            "summary": "An interdisciplinary field that identifies, investigates, and offers solutions to language-related real-life problems, such as language education, translation, and policy."
+          }
+        ]
+      }
+    ]
+  }
+]
+

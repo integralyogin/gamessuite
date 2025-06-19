@@ -1,0 +1,119 @@
+{
+  "Lexeme": {
+    "short_description": "The fundamental unit of lexical meaning, existing as an abstract entity beyond its various grammatical forms and contextual manifestations."
+  },
+  "Morphology": {
+    "short_description": "The architectural study of word formation and structural patterns that govern linguistic building blocks and their combinatorial possibilities."
+  },
+  "Phoneme": {
+    "short_description": "The elemental sound particle of language that carries distinctive meaning potential through oppositional relationships within sound systems."
+  },
+  "Semantics": {
+    "short_description": "The dynamic interplay between linguistic signs and their referents, encompassing both literal meaning and contextual significance."
+  },
+  "Syntax": {
+    "short_description": "The hidden geometry of language that governs how words coalesce into structured expressions of thought and relational meaning."
+  },
+  "Pragmatics": {
+    "short_description": "The art of meaning-making through contextual language use, negotiating the space between literal utterance and interpreted significance."
+  },
+  "Etymology": {
+    "short_description": "The archeological dimension of language revealing historical transformations and ancestral connections buried within modern words."
+  },
+  "Orthography": {
+    "short_description": "The frozen architecture of written language that captures living speech in visual symbols and standardized conventions."
+  },
+  "Dialect": {
+    "short_description": "The geographical and social embodiment of language variation that maps human diversity onto linguistic practice."
+  },
+  "Idiolect": {
+    "short_description": "The unique linguistic fingerprint that emerges from individual consciousness interacting with communal language systems."
+  },
+  "Phonology": {
+    "short_description": "The organizational framework governing sound patterns and their functional relationships within linguistic systems."
+  },
+  "Polysemy": {
+    "short_description": "The prismatic capacity of linguistic signs to refract multiple meanings simultaneously through contextual activation."
+  },
+  "Neologism": {
+    "short_description": "The creative eruption of new lexical formations that expand language's capacity to conceptualize emerging realities."
+  },
+  "Cognate": {
+    "short_description": "The genetic memory of language revealed through words sharing ancestral roots across temporal and spatial divides."
+  },
+  "Lexicography": {
+    "short_description": "The alchemical art of capturing living language in descriptive systems, balancing prescription and organic evolution."
+  },
+  "Sociolinguistics": {
+    "short_description": "The study of language as social organism, examining how human interactions shape and are shaped by linguistic practice."
+  },
+  "Pidgin": {
+    "short_description": "The emergent linguistic hybrid born from cultural collision and the urgent need for basic communication between groups."
+  },
+  "Creole": {
+    "short_description": "The linguistic phoenix rising from pidgin origins to become a complete native language system with full expressive range."
+  },
+  "Protolanguage": {
+    "short_description": "The reconstructed linguistic ancestor posited through comparative analysis of descendant language features."
+  },
+  "Isogloss": {
+    "short_description": "The cartographic manifestation of linguistic diversity marking boundaries of feature distribution across speech communities."
+  },
+  "Allomorph": {
+    "short_description": "The shape-shifting manifestations of morphemes adapting to their phonological and morphological environments."
+  },
+  "Grapheme": {
+    "short_description": "The minimal meaningful unit of writing systems that interfaces spoken language with visual representation."
+  },
+  "Lexical Field": {
+    "short_description": "The conceptual ecosystem of interrelated words that map domains of human experience and knowledge."
+  },
+  "Metathesis": {
+    "short_description": "The phonological metamorphosis where sounds transpose positions in the evolutionary dance of word forms."
+  },
+  "Register": {
+    "short_description": "The linguistic wardrobe of style levels adapted to situational contexts and social performance requirements."
+  },
+  "Semiotic": {
+    "short_description": "The broader ecology of sign systems and meaning-making practices that contextualize linguistic communication."
+  },
+  "Signifier": {
+    "short_description": "The perceptible form that carries linguistic meaning, whether acoustic, visual, or tactile in manifestation."
+  },
+  "Signified": {
+    "short_description": "The conceptual counterpart evoked through the signifier, existing in the mental space of communicative exchange."
+  },
+  "Synchronic": {
+    "short_description": "The analytical perspective examining language as a frozen moment in time, abstracted from historical change."
+  },
+  "Diachronic": {
+    "short_description": "The longitudinal study of language as a river of change flowing through historical time and cultural space."
+  },
+  "Collocation": {
+    "short_description": "The habitual companionship of words that naturally co-occur, revealing hidden patterns of linguistic expectation."
+  },
+  "Derivation": {
+    "short_description": "The morphological alchemy that creates new lexical entities through affixation and compositional processes."
+  },
+  "Inflection": {
+    "short_description": "The grammatical modulation of word forms to express syntactic relationships and morphological categories."
+  },
+  "Metalanguage": {
+    "short_description": "The self-referential linguistic apparatus used to describe and analyze language itself as an object of study."
+  },
+  "Paradigm": {
+    "short_description": "The systematic organization of word forms that models grammatical relationships and morphological patterns."
+  },
+  "Phonetics": {
+    "short_description": "The scientific study of speech sounds as physical phenomena, analyzing their production and acoustic properties."
+  },
+  "Prosody": {
+    "short_description": "The musical dimension of language that shapes meaning through rhythm, stress, and intonation patterns."
+  },
+  "Sapir-Whorf Hypothesis": {
+    "short_description": "The controversial proposition that language structure fundamentally shapes cognitive patterns and worldview."
+  },
+  "Lexical Gap": {
+    "short_description": "The absence of a word for a particular concept within a language's current expressive repertoire."
+  }
+}

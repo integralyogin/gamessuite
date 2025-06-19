@@ -1,0 +1,77 @@
+{
+"Zen": {
+"short_description": "A tradition of direct realization emphasizing immediate experience of reality beyond conceptual thought, primarily transmitted through meditation, daily practice, and direct teacher-student interaction."
+},
+"Zazen": {
+"short_description": "The fundamental practice of seated meditation in Zen, involving precise posture, breath awareness, and intimate attention to present experience without attachment to thought or perception."
+},
+"Satori": {
+"short_description": "Sudden awakening or breakthrough to direct realization of reality, transcending dualistic perception and revealing the original nature of mind and phenomena in immediate experience."
+},
+"Kensho": {
+"short_description": "Initial glimpse or insight into true nature, often marking the beginning of genuine practice and understanding while requiring further development and integration."
+},
+"Mu": {
+"short_description": "The void or emptiness that is simultaneously the fullness of all potential, often used as a fundamental koan pointing to reality beyond conceptual affirmation or negation."
+},
+"Koan": {
+"short_description": "Paradoxical statements or questions used to exhaust the discriminating mind and precipitate direct insight, requiring resolution beyond intellectual understanding."
+},
+"Shikantaza": {
+"short_description": "The practice of 'just sitting' without any technique or goal, embodying the direct expression of enlightened nature through pure presence and attention."
+},
+"Dharma Hall": {
+"short_description": "The sacred space where formal teachings are given and sangha gathers, embodying the transmission of wisdom and maintenance of practice tradition."
+},
+"Dokusan": {
+"short_description": "Private meeting between teacher and student for direct transmission and verification of understanding, maintaining the integrity of practice and realization."
+},
+"Kinhin": {
+"short_description": "Walking meditation practiced between periods of zazen, maintaining mindful presence while moving and transitioning between activities."
+},
+"Teisho": {
+"short_description": "Direct pointing to truth through formal discourse by a realized teacher, expressing living dharma beyond traditional sutra exposition."
+},
+"Zendo": {
+"short_description": "The meditation hall where practitioners engage in formal sitting practice, embodying the discipline and support of collective practice."
+},
+"Sesshin": {
+"short_description": "Intensive meditation retreat periods focused on continuous practice, creating conditions for deep insight and realization."
+},
+"Samadhi": {
+"short_description": "States of absorbed concentration and unity arising through practice, transcending usual subject-object duality while maintaining clear awareness."
+},
+"Original Face": {
+"short_description": "The fundamental nature of mind before conceptual thought arises, pointing to direct recognition of reality prior to mental elaboration."
+},
+"Buddha Nature": {
+"short_description": "The inherent potential for awakening present in all beings, manifesting as the ground and fruit of practice despite apparent obscurations."
+},
+"Mondo": {
+"short_description": "Spontaneous exchanges between teacher and student or between practitioners, demonstrating direct pointing to truth through immediate response."
+},
+"Oryoki": {
+"short_description": "Formal meal practice incorporating mindfulness, gratitude, and precise attention to detail as expressions of awakened activity in daily life."
+},
+"Dharma Combat": {
+"short_description": "Challenging exchanges testing and demonstrating understanding through spontaneous response to spiritual questions and situations."
+},
+"Samu": {
+"short_description": "Work practice integrating meditation awareness with daily activities, expressing realization through mindful engagement with practical tasks."
+},
+"Lineage": {
+"short_description": "The direct transmission of understanding from teacher to student through generations, maintaining the vitality of living practice tradition."
+},
+"Three Seals": {
+"short_description": "Impermanence, non-self, and nirvana as fundamental characteristics of reality recognized through direct experience in practice."
+},
+"Four Vows": {
+"short_description": "Fundamental bodhisattva commitments expressing the scope and intention of Zen practice for the benefit of all beings."
+},
+"Ten Oxherding Pictures": {
+"short_description": "Sequential illustrations depicting stages of practice and realization, from initial seeking through complete integration of awakening."
+},
+"Great Doubt": {
+"short_description": "Fundamental questioning that exhausts conceptual mind and opens possibility of direct realization through complete not-knowing."
+}
+}

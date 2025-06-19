@@ -1,0 +1,122 @@
+{
+  "Domain": {
+    "short_description": "Distinct field of knowledge with its own concepts, methods and discourse."
+  },
+  "Discipline": {
+    "short_description": "Organized body of knowledge with formal methods and principles."
+  },
+  "Paradigm": {
+    "short_description": "Fundamental pattern of thinking and inquiry in field of study."
+  },
+  "Discourse": {
+    "short_description": "System of thought and communication around particular subjects."
+  },
+  "Category": {
+    "short_description": "Fundamental division or classification of knowledge or phenomena."
+  },
+  "Framework": {
+    "short_description": "Structured system for organizing and understanding information."
+  },
+  "Schema": {
+    "short_description": "Pattern or structure for organizing and interpreting knowledge."
+  },
+  "Archive": {
+    "short_description": "Collected body of knowledge preserved in systematic way."
+  },
+  "Canon": {
+    "short_description": "Authorized or accepted body of works or principles."
+  },
+  "Tradition": {
+    "short_description": "Transmitted body of knowledge and practices through time."
+  },
+  "System": {
+    "short_description": "Organized body of knowledge with internal coherence."
+  },
+  "Method": {
+    "short_description": "Organized approach to acquiring or organizing knowledge."
+  },
+  "Practice": {
+    "short_description": "Applied body of knowledge expressed through action."
+  },
+  "Art": {
+    "short_description": "Domain of creative or skilled knowledge expression."
+  },
+  "Science": {
+    "short_description": "Systematic study using empirical methods and evidence."
+  },
+  "Doctrine": {
+    "short_description": "Formally stated system of beliefs or principles."
+  },
+  "Wisdom": {
+    "short_description": "Deep understanding transcending ordinary knowledge."
+  },
+  "Theory": {
+    "short_description": "Systematic framework explaining phenomena or practice."
+  },
+  "Philosophy": {
+    "short_description": "Investigation of fundamental nature of knowledge and reality."
+  },
+  "Language": {
+    "short_description": "System of symbols and meanings for expressing knowledge."
+  },
+  "Branch": {
+    "short_description": "Major division or subfamily within larger field."
+  },
+  "School": {
+    "short_description": "Distinct tradition of thought or practice within field."
+  },
+  "Movement": {
+    "short_description": "Evolution of thought or practice in particular direction."
+  },
+  "Dialectic": {
+    "short_description": "Development of knowledge through opposing viewpoints."
+  },
+  "Gnosis": {
+    "short_description": "Direct experiential knowledge of reality."
+  },
+  "Episteme": {
+    "short_description": "Historical system of understanding and knowledge formation."
+  },
+  "Taxonomy": {
+    "short_description": "Hierarchical system for classifying knowledge."
+  },
+  "Corpus": {
+    "short_description": "Complete body of knowledge or work in field."
+  },
+  "Medium": {
+    "short_description": "Form or vehicle through which knowledge is transmitted."
+  },
+  "Narrative": {
+    "short_description": "Knowledge structured through storytelling and meaning-making."
+  },
+  "Praxis": {
+    "short_description": "Integration of theory and practice in knowledge application."
+  },
+  "Hermeneutics": {
+    "short_description": "Theory and methodology of interpretation."
+  },
+  "Metaphysics": {
+    "short_description": "Study of fundamental nature of reality and knowledge."
+  },
+  "Logic": {
+    "short_description": "System of reasoning and knowledge validation."
+  },
+  "Ideology": {
+    "short_description": "System of ideas and ideals forming worldview."
+  },
+  "Discourse Field": {
+    "short_description": "Space of possible statements and knowledge claims."
+  },
+  "Semiotics": {
+    "short_description": "Study of signs and symbols in meaning-making."
+  },
+  "Ontology": {
+    "short_description": "Classification of entities and their relationships."
+  },
+  "Epistemology": {
+    "short_description": "Theory of knowledge and how it is acquired."
+  },
+  "Phenomenology": {
+    "short_description": "Study of structures of consciousness and experience."
+  }
+}

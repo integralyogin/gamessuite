@@ -1,0 +1,92 @@
+{
+  "Algorithm": {
+    "short_description": "The systematic sequence of precise instructions designed to solve a specific problem or perform a computation, representing the fundamental unit of computational thinking and problem-solving."
+  },
+  "Complexity": {
+    "short_description": "The measure of computational resources required by an algorithm, particularly focusing on how resource usage scales with input size in terms of time and space requirements."
+  },
+  "Recursion": {
+    "short_description": "The problem-solving approach where a solution is expressed in terms of smaller instances of the same problem, creating self-referential processes that build toward complete solutions."
+  },
+  "Iteration": {
+    "short_description": "The repetitive execution of a sequence of operations until a specific condition is met, forming the basis of systematic problem traversal and solution refinement."
+  },
+  "Data Structure": {
+    "short_description": "The organized arrangement of data elements and their relationships, providing the foundational framework for efficient data manipulation and algorithm implementation."
+  },
+  "Optimization": {
+    "short_description": "The process of improving an algorithm's efficiency by minimizing resource usage while maintaining correctness, seeking the balance between various performance metrics."
+  },
+  "Abstraction": {
+    "short_description": "The principle of hiding implementation details while preserving essential features, enabling the management of complexity through hierarchical layers of understanding."
+  },
+  "Decomposition": {
+    "short_description": "The systematic breaking down of complex problems into smaller, manageable subproblems, enabling modular solution development and problem-solving clarity."
+  },
+  "State": {
+    "short_description": "The collection of all information that defines a system at a particular moment, representing the dynamic context in which algorithmic operations occur."
+  },
+  "Pattern": {
+    "short_description": "The recurring solution structure that can be applied to similar problems across different contexts, forming the basis of algorithmic design templates."
+  },
+  "Invariant": {
+    "short_description": "The condition that remains true throughout algorithm execution, providing the foundation for correctness proofs and algorithm validation."
+  },
+  "Heuristic": {
+    "short_description": "The practical approach to problem-solving that sacrifices optimality for speed, using experience-based techniques to find satisfactory solutions quickly."
+  },
+  "Parallelism": {
+    "short_description": "The simultaneous execution of multiple algorithmic operations, leveraging concurrent processing to achieve improved performance and resource utilization."
+  },
+  "Sorting": {
+    "short_description": "The fundamental operation of arranging elements in a specified order, representing a core algorithmic problem with numerous solution approaches."
+  },
+  "Searching": {
+    "short_description": "The process of locating specific elements within a data collection, embodying fundamental techniques for information retrieval and validation."
+  },
+  "Graph": {
+    "short_description": "The abstract structure representing relationships between entities, providing the framework for modeling and solving complex interconnected problems."
+  },
+  "Tree": {
+    "short_description": "The hierarchical data structure organizing elements in parent-child relationships, enabling efficient organization and traversal of hierarchical information."
+  },
+  "Queue": {
+    "short_description": "The sequential structure managing elements in first-in-first-out order, implementing controlled access patterns for sequential processing."
+  },
+  "Stack": {
+    "short_description": "The sequential structure managing elements in last-in-first-out order, facilitating depth-first processing and nested operation management."
+  },
+  "Hash": {
+    "short_description": "The transformation of data into fixed-size values, enabling rapid data retrieval and efficient element comparison operations."
+  },
+  "Greedy": {
+    "short_description": "The strategy of making locally optimal choices at each step, seeking global solutions through successive immediate optimizations."
+  },
+  "Dynamic Programming": {
+    "short_description": "The technique of solving complex problems by breaking them into simpler subproblems, storing solutions to avoid redundant computation."
+  },
+  "Divide and Conquer": {
+    "short_description": "The strategy of recursively breaking down problems into smaller instances, solving them independently and combining results for complete solutions."
+  },
+  "Backtracking": {
+    "short_description": "The systematic exploration of solution spaces by building candidates incrementally and abandoning those that fail to satisfy constraints."
+  },
+  "Branch and Bound": {
+    "short_description": "The technique of systematic solution space exploration using bounds to eliminate unpromising branches, optimizing search efficiency."
+  },
+  "Randomization": {
+    "short_description": "The introduction of probabilistic elements into algorithmic decision-making, achieving efficiency through controlled uncertainty."
+  },
+  "Approximation": {
+    "short_description": "The strategy of finding near-optimal solutions when exact solutions are impractical, trading accuracy for computational efficiency."
+  },
+  "Compression": {
+    "short_description": "The process of encoding information using fewer bits, optimizing data representation while preserving essential content."
+  },
+  "Cryptography": {
+    "short_description": "The algorithmic techniques for securing information through transformation, enabling protected data storage and communication."
+  },
+  "Machine Learning": {
+    "short_description": "The algorithmic approach to improving performance through experience, creating systems that adapt and evolve with data exposure."
+  }
+}

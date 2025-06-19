@@ -1,0 +1,1706 @@
+{
+  "Aasdach": {
+    "description": "special roof construction",
+    "instance of": "domestic roof construction, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q303392"
+  },
+  "Abditum mentis": {
+    "description": "postulated part of the soul",
+    "instance of": "Latin phrase, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q308232"
+  },
+  "Addextrator": {
+    "description": "the companion of a person of high rank, who sat to the right or left, term from the Middle Ages",
+    "instance of": "title, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q352879"
+  },
+  "Admissio": {
+    "description": "Term for the ceremonial admission to an audience of senior officials or the emperor in the Roman Empire",
+    "instance of": "concept, ceremony",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q359287"
+  },
+  "Adventizien": {
+    "description": "owning of the housechild, which was managed by the guardian (usually the father)",
+    "instance of": "concept, property",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q379841"
+  },
+  "Aerarier": {
+    "description": "in ancient times, an unspecified class of citizens of the Roman Republic",
+    "instance of": "social structure, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q381091"
+  },
+  "Aesthetic Concept": {
+    "description": "concept used in the philosophical field of aesthetics",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q55387456"
+  },
+  "Akuem": {
+    "description": "class of states of feeling and a term used in phonetics",
+    "instance of": "group, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q423696"
+  },
+  "Biological Process": {
+    "description": "process specifically pertinent to the functioning of integrated living units",
+    "instance of": "concept, type of process",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2996394"
+  },
+  "Bit": {
+    "description": "basic unit of information in computing and digital communications",
+    "instance of": "unit of information, concept, UCUM derived unit",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q8805"
+  },
+  "Christian religious occupation": {
+    "description": "occupation or profession that serves a purpose within the context of Christianity",
+    "instance of": "second-order class, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q63188683"
+  },
+  "Class of Fictional Entities": {
+    "description": "collection of fictional entities defined by common characteristics",
+    "instance of": "variable-order class",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q15831596"
+  },
+  "Classic": {
+    "description": "outstanding example of a particular style",
+    "instance of": "quality, concept, art term, literary term",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2976603"
+  },
+  "Concept in Physics": {
+    "description": "type of concept",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q33104303"
+  },
+  "Economic Concept": {
+    "description": "concept used in economic sciences",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q29028649"
+  },
+  "Entity": {
+    "description": "anything that can be considered, discussed, or observed",
+    "instance of": "variable-order class, counting unit",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q35120"
+  },
+  "Ethical Concept": {
+    "description": "concept used in ethics",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q55979391"
+  },
+  "Fixed-Order Class": {
+    "description": "class whose instances are all either individuals or same-fixed-order classes",
+    "instance of": "variable-order class",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q23959932"
+  },
+  "Game Engine": {
+    "description": "",
+    "instance of": "",
+    "en wikipedia url": "",
+    "wikidata_qid": ""
+  },
+  "Good": {
+    "description": "term in religion, ethics, and philosophy",
+    "instance of": "notion, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q15290"
+  },
+  "JUMAN": {
+    "description": "morphological analysis system",
+    "instance of": "concept, morphological analysis engine, system",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q11226604"
+  },
+  "Jahannam": {
+    "description": "mythological place of suffering in Islam",
+    "instance of": "mythical location, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q58418"
+  },
+  "Jewish religious occupation": {
+    "description": "occupation or profession that serves a purpose within the context of Judaism",
+    "instance of": "second-order class, concept, job",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q63187384"
+  },
+  "Kalos kagathos": {
+    "description": "Greek ideal of beauty and goodness",
+    "instance of": "ancient Greek phrase, concept, ideal",
+    "en wikipedia url": "Kalos_kagathos",
+    "wikidata_qid": "Q1414901"
+  },
+  "Koenigs function": {
+    "description": "",
+    "instance of": "function, concept",
+    "en wikipedia url": "Koenigs_function",
+    "wikidata_qid": "Q4493449"
+  },
+  "L-stability": {
+    "description": "a stability property of some Runge–Kutta methods",
+    "instance of": "concept, stability property",
+    "en wikipedia url": "L-stability",
+    "wikidata_qid": "Q277932"
+  },
+  "Lactatio Bernardi": {
+    "description": "miracle and artistic theme of feeding Saint Bernard of Clairvaux from the breast of the Madonna",
+    "instance of": "concept, miracle",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q97103906"
+  },
+  "Legal Concept": {
+    "description": "lexeme with a specific meaning in jurisprudence",
+    "instance of": "[]",
+    "en wikipedia url": "Legal_term",
+    "wikidata_qid": "Q2135465"
+  },
+  "Lidlohn": {
+    "description": "term in the Swiss family law",
+    "instance of": "indemnity, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1408315"
+  },
+  "Mathematical Concept": {
+    "description": "abstract entity in mathematics",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q24034552"
+  },
+  "Monism": {
+    "description": "view that attributes oneness or singleness to a concept",
+    "instance of": "concept, theory, philosophical theory, philosophical movement",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q178801"
+  },
+  "Notion": {
+    "description": "reflection in the mind of real objects and phenomena in their essential features and relations, distinct from concept",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q595523"
+  },
+  "Philosophical Concept": {
+    "description": "concept used in philosophy",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q33104279"
+  },
+  "Reality": {
+    "description": "sum or aggregate of all that is real or existent",
+    "instance of": "psychology term, concept",
+    "en wikipedia url": "Reality",
+    "wikidata_qid": "Q9510"
+  },
+  "Religious Concept": {
+    "description": "abstract object associated with religion",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q23847174"
+  },
+  "Rules": {
+    "description": "prescription, including laws, regulations, instructions, guidelines, and social conventions; determinate method for performing any operation",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1151067"
+  },
+  "Sacred": {
+    "description": "revered due to association with holiness",
+    "instance of": "concept, biblical concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1151419"
+  },
+  "Scram": {
+    "description": "emergency shutdown of a nuclear reactor",
+    "instance of": "acronym, concept",
+    "en wikipedia url": "Scram",
+    "wikidata_qid": "Q1591311"
+  },
+  "Second-Order Class": {
+    "description": "metaclass containing as instances all classes of individuals",
+    "instance of": "third-order class",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q24017414"
+  },
+  "Sega Meganet": {
+    "description": "online game service for the Mega Drive",
+    "instance of": "concept, digital distribution platform, online service, software",
+    "en wikipedia url": "Sega_Meganet",
+    "wikidata_qid": "Q1851885"
+  },
+  "Society of control": {
+    "description": "",
+    "instance of": "syntagma, concept",
+    "en wikipedia url": "Society_of_control",
+    "wikidata_qid": "Q3487923"
+  },
+  "Solar gravitational lens": {
+    "description": "concept of using the Sun as a large lens",
+    "instance of": "telescope, concept",
+    "en wikipedia url": "Solar_gravitational_lens",
+    "wikidata_qid": "Q98113986"
+  },
+  "Source Type": {
+    "description": "metaclass of source or origin of object, which could be concrete or abstract",
+    "instance of": "variable-order class",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q112234259"
+  },
+  "Spider design by Marcel Douwe Dekker": {
+    "description": "Design concept",
+    "instance of": "concept, design",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q113501744"
+  },
+  "Sraosha": {
+    "description": "the Avestan language name of the Zoroastrian divinity of \"Obedience\" or \"Observance\"",
+    "instance of": "concept, Yazata",
+    "en wikipedia url": "Sraosha",
+    "wikidata_qid": "Q3267977"
+  },
+  "State": {
+    "description": "abstract term that denotes the presence of stable values of a set of variables of an object",
+    "instance of": "concept, type of property",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q3505845"
+  },
+  "Term": {
+    "description": "word or phrase from a specialized area of knowledge",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1969448"
+  },
+  "Variable-Order Class": {
+    "description": "abstract entity representing classes whose instances may be classes of different orders or even non-classes",
+    "instance of": "variable-order class",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q23958852"
+  },
+  "Venturi Echelon 1": {
+    "description": "concept of an electric civil aircraft",
+    "instance of": "civil aircraft, high wing, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q110709447"
+  },
+  "Virtue": {
+    "description": "morally positive trait or quality deemed to be morally good",
+    "instance of": "concept, pattern of behavior",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q157811"
+  },
+  "original sin": {
+    "description": "",
+    "instance of": "",
+    "en wikipedia url": "Original_sin",
+    "wikidata_qid": "Q184186"
+  },
+  "Freedom Index": {
+    "description": "annual survey by Freedom House",
+    "instance of": "",
+    "en wikipedia url": "Freedom_in_the_World",
+    "wikidata_qid": "Q1417780"
+  },
+  "Ground News": {
+    "description": "news aggregation service",
+    "instance of": "",
+    "en wikipedia url": "Ground_News",
+    "wikidata_qid": "Q124353171"
+  },
+  "mathematical notation": {
+    "description": "system of symbolic representations of mathematical objects and ideas",
+    "instance of": "",
+    "en wikipedia url": "Mathematical_notation",
+    "wikidata_qid": "Q1140046"
+  },
+  "Ariadnes thread (logic)": {
+    "description": "",
+    "instance of": "",
+    "en wikipedia url": "Ariadne%27s_thread_(logic)",
+    "wikidata_qid": "Q3655970"
+  },
+  "meaning1": {
+    "description": "what the source or sender expresses, communicates, or conveys in their message to the observer or receiver, and what the receiver infers from the current context, for a word, phrase, sentence, or other particular linguistic form",
+    "instance of": "",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q183046"
+  },
+  "meaning2": {
+    "description": "nebulously defined concept used in psychology as well as in other fields such as philosophy, linguistics, semiotics and sociology",
+    "instance of": "",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q16877783"
+  },
+  "Sign system": {
+    "description": "key concept in semiotics and is used to refer to any system of signs and relations between signs",
+    "instance of": "",
+    "en wikipedia url": "Sign system",
+    "wikidata_qid": "Q7512598"
+  },
+  "Allegory": {
+    "description": "narrative, whether in prose or verse, in which a character, place or event is used to deliver a broader message about real-world issues and occurrences",
+    "instance of": "[\"literary genre\"]",
+    "en wikipedia url": "Allegory",
+    "wikidata_qid": "Q18535"
+  },
+  "Metonymy": {
+    "description": "figure of speech where a thing or concept is referred to indirectly by the name of something closely associated with it",
+    "instance of": "[\"stylistic device\"]",
+    "en wikipedia url": "Metonymy",
+    "wikidata_qid": "Q41966"
+  },
+  "Metaphor": {
+    "description": "figure of speech in which one thing is asserted to be another when it is in fact not so, based on properties of the latter that apply to the former, pointing to similarity",
+    "instance of": "stylistic device",
+    "en wikipedia url": "Metaphor",
+    "wikidata_qid": "Q18534"
+  },
+  "Figure of speech": {
+    "description": "intentional deviation from ordinary (literal) language, chosen to produce a rhetorical effect or for other purposes, such as metaphor, metonymy, synecdoche, personification or simile",
+    "instance of": "",
+    "en wikipedia url": "Figure_of_speech",
+    "wikidata_qid": "Q10690215"
+  },
+  "stylistic device": {
+    "description": "technique used to give an auxiliary meaning, idea, or feeling to a literal message, including assonance, consonance and alliteration",
+    "instance of": "",
+    "en wikipedia url": "Stylistic_device",
+    "wikidata_qid": "Q182545"
+  },
+  "Completeness (knowledge bases)": {
+    "description": "The term completeness as applied to knowledge bases refers to two different concepts. ",
+    "instance of": "",
+    "en wikipedia url": "Completeness_(knowledge_bases)",
+    "wikidata_qid": "Q5156539"
+  },
+  "metatheory": {
+    "description": "theory whose subject matter is itself a theory",
+    "instance of": "",
+    "en wikipedia url": "Metatheory",
+    "wikidata_qid": "Q1096708"
+  },
+  "theory": {
+    "description": "contemplative and rational type of abstract or generalizing thinking, or the results of such thinking",
+    "instance of": "",
+    "en wikipedia url": "Theory",
+    "wikidata_qid": "Q17737"
+  },
+  "argument": {
+    "description": "attempt to persuade or to determine the truth of a conclusion",
+    "instance of": "",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q186619"
+  },
+  "proof of concept": {
+    "description": "realization of a certain method or idea in order to demonstrate its feasibility",
+    "instance of": "",
+    "en wikipedia url": "Proof_of_concept",
+    "wikidata_qid": "Q1201019"
+  },
+  "quotation": {
+    "description": "repetition of one expression as part of another one",
+    "instance of": "",
+    "en wikipedia url": "Quotation",
+    "wikidata_qid": "Q206287"
+  },
+  "proverb": {
+    "description": "saying that gives advice, usually as a metaphor",
+    "instance of": "",
+    "en wikipedia url": "Proverb",
+    "wikidata_qid": "Q35102"
+  },
+  "right to quote": {
+    "description": "copyright exception under the Berne Convention",
+    "instance of": "",
+    "en wikipedia url": "Right_to_quote",
+    "wikidata_qid": "Q2083900"
+  },
+  "Berne Convention for the Protection of Literary and Artistic Works": {
+    "description": "1880s international copyright treaty adopted by 160+ countries",
+    "instance of": "",
+    "en wikipedia url": "Berne_Convention",
+    "wikidata_qid": "Q217398"
+  },
+  "Apocryphal quote": {
+    "description": "Quote attributed to someone who did not say it",
+    "instance of": "",
+    "en wikipedia url": "Citation_apocryphe",
+    "wikidata_qid": "Q2974412"
+  },
+  "Abstract Entity": {
+    "description": "entity that exists outside physical reality, including abstract objects and properties",
+    "instance of": "[\"type of object\", \"variable-order class\"]",
+    "en wikipedia url": "Non-physical entity",
+    "wikidata_qid": "Q7048977"
+  },
+  "Class": {
+    "description": "in ontology, a collection of items sharing common characteristics; classes provide an abstraction mechanism for grouping resources with similar characteristics",
+    "instance of": "variable-order class, metaclass",
+    "en wikipedia url": "Class (knowledge representation)",
+    "wikidata_qid": "Q16889133"
+  },
+  "Classification System": {
+    "description": "system of descriptive information for an arrangement or division of objects into groups based on characteristics, which the objects have in common",
+    "instance of": "variable-order class, type of system",
+    "en wikipedia url": "Classification scheme (information science)",
+    "wikidata_qid": "Q5962346"
+  },
+  "Explanation": {
+    "description": "set of statements constructed to describe a set of facts",
+    "instance of": "academic discipline, field of study, specialty",
+    "en wikipedia url": "Explanation",
+    "wikidata_qid": "Q7958"
+  },
+  "Object": {
+    "description": "anything that may be observed or acted upon by a subject",
+    "instance of": "variable-order class, concept",
+    "en wikipedia url": "Object (philosophy)",
+    "wikidata_qid": "Q488383"
+  },
+  "rhetoric": {
+    "description": "art of persuasion, one of the three ancient arts of discourse",
+    "instance of": "specialty, academic discipline, academic major",
+    "en wikipedia url": "Rhetoric",
+    "wikidata_qid": "Q81009"
+  },
+  "Blockchain": {
+    "description": "distributed data store for digital transactions",
+    "instance of": "academic discipline, concept, field of study, specialty",
+    "en wikipedia url": "Blockchain",
+    "wikidata_qid": "Q20514253"
+  },
+  "Collective Entity": {
+    "description": "entity that is a composite of other entities",
+    "instance of": "variable-order class",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q99527517"
+  },
+  "longest hierarchy chains": {
+    "description": "",
+    "instance of": "",
+    "en wikipedia url": "",
+    "wikidata_qid": ""
+  },
+  "abstract and concrete": {
+    "description": "classifications that denote whether a term describes an object with a physical referent or one with no physical referents",
+    "instance of": "dualism, concept, duality",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q18205125"
+  },
+  "accounts payable": {
+    "description": "money owed by a business to its suppliers",
+    "instance of": "account, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q250058"
+  },
+  "accounts receivable": {
+    "description": "legally enforceable claim for payment to a business by its customer/ clients for goods supplied and/or services rendered in execution of the customer’s order",
+    "instance of": "concept, action",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q328554"
+  },
+  "acoustic cloud": {
+    "description": "change in density of the air, which generates a reflection or deflection of the sound",
+    "instance of": "occurrence, concept, property",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q424095"
+  },
+  "action Quotient": {
+    "description": "stylistic feature of texts to differentiate \"action phases\" and \"quality phases\" in the development of children and adolescents",
+    "instance of": "stylistic device, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q422677"
+  },
+  "action bias": {
+    "description": "referred to in the behavioral sciences, the tendency to act active when the action is probably useless, possibly even harmful",
+    "instance of": "trait theory, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q343601"
+  },
+  "activism": {
+    "description": "efforts to make change in society toward a perceived greater good",
+    "instance of": "occupation, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q203764"
+  },
+  "additional charges": {
+    "description": "cost category, which is not based on corresponding expense; a concept of cost accounting",
+    "instance of": "concept, cost",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q230696"
+  },
+  "additive functor": {
+    "description": "concept",
+    "instance of": "mathematical concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q353285"
+  },
+  "admissibility": {
+    "description": "legality of an action",
+    "instance of": "concept, condition",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q228914"
+  },
+  "adrenaline reversal": {
+    "description": "process and concept in the pharmacology",
+    "instance of": "concept, technical process",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q366802"
+  },
+  "affect lability": {
+    "description": "mental state",
+    "instance of": "symptom, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q382255"
+  },
+  "agujero de oro": {
+    "description": "term used for a powerful group in El Salvador",
+    "instance of": "concept, human social group",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q398485"
+  },
+  "archetype": {
+    "description": "concept in textual criticism and stemmatics",
+    "instance of": "concept, text",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q3621504"
+  },
+  "attributes of God": {
+    "description": "attributes of God in theology and religion",
+    "instance of": "map, thing, concept, class",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q126957583"
+  },
+  "currently empty class": {
+    "description": "class which currently contains no elements, but elements may have existed in the past and may exist in the future",
+    "instance of": "variable-order class",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q86098365"
+  },
+  "fixed order metaclass of higher order": {
+    "description": "class of order strictly higher than 5",
+    "instance of": "variable-order class",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q24027526"
+  },
+  "job satisfaction": {
+    "description": "attitude of a person towards work",
+    "instance of": "attitude, concept",
+    "en wikipedia url": "Job_satisfaction",
+    "wikidata_qid": "Q629463"
+  },
+  "knowledge equity": {
+    "description": "distribution of economic value of information",
+    "instance of": "concept, buzzword",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q99744286"
+  },
+  "lending business": {
+    "description": "all banking transactions that are reflected in the assets side of the bank balance sheet",
+    "instance of": "sum, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q423041"
+  },
+  "libertarian socialism": {
+    "description": "Anti-authoritarian political philosophy",
+    "instance of": "political ideology, concept",
+    "en wikipedia url": "Libertarian_socialism",
+    "wikidata_qid": "Q1852084"
+  },
+  "metaclass": {
+    "description": "a class which has instances that are all themselves classes",
+    "instance of": "variable-order class, formal ontology concept, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q19478619"
+  },
+  "product design": {
+    "description": "process that leads to new products",
+    "instance of": "skill, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1043226"
+  },
+  "saygi": {
+    "description": "\"respect\"  in Turkish language",
+    "instance of": "concept, ethical principle",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1337047"
+  },
+  "school pick-up and drop-off traffic": {
+    "description": "concept from traffic pedagogy",
+    "instance of": "concept, pseudo-anglicism",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1425472"
+  },
+  "semantic frame": {
+    "description": "",
+    "instance of": "[]",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q115792501"
+  },
+  "sexual capital": {
+    "description": "social value from sexual attractiveness",
+    "instance of": "forms of capital, concept",
+    "en wikipedia url": "Sexual_capital",
+    "wikidata_qid": "Q1888913"
+  },
+  "shooting the messenger": {
+    "description": "metaphoric phrase",
+    "instance of": "concept, idiom",
+    "en wikipedia url": "Shooting_the_messenger",
+    "wikidata_qid": "Q2515525"
+  },
+  "shrinkflation": {
+    "description": "reduction of quantity/quality of a good without corresponding price reduction",
+    "instance of": "phenomenon, concept, strategic management",
+    "en wikipedia url": "Shrinkflation",
+    "wikidata_qid": "Q18378367"
+  },
+  "siblingshood": {
+    "description": "",
+    "instance of": "concept, inclusive language",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q114728717"
+  },
+  "site plan": {
+    "description": "drawing of an area's existing & proposed conditions",
+    "instance of": "concept, document",
+    "en wikipedia url": "Site_plan",
+    "wikidata_qid": "Q1284677"
+  },
+  "social alienation": {
+    "description": "condition in social relationships",
+    "instance of": "concept, negative emotion",
+    "en wikipedia url": "Social_alienation",
+    "wikidata_qid": "Q545825"
+  },
+  "social capital": {
+    "description": "This is a set of shared values or resources that allows individuals to work together in a group to effectively achieve a common purpose.",
+    "instance of": "forms of capital, concept",
+    "en wikipedia url": "Social_capital",
+    "wikidata_qid": "Q214693"
+  },
+  "social license": {
+    "description": "the acceptance granted to a company or organisation by the community",
+    "instance of": "concept, methodology",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q102210740"
+  },
+  "sotsgorod": {
+    "description": "urbanist concept, type of new towns and a common toponym in interwar Soviet Union",
+    "instance of": "classification of human settlements, concept, theory",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q4430166"
+  },
+  "syntaxon": {
+    "description": "in plant sociology, a unit of vegetation of any rank",
+    "instance of": "variable-order class",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2471463"
+  },
+  "zone of the truth": {
+    "description": "football",
+    "instance of": "metaphor, concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q19928210"
+  },
+  "Sins of the Father": {
+    "description": "",
+    "instance of": "",
+    "en wikipedia url": "Sins_of_the_Father",
+    "wikidata_qid": ""
+  },
+  "Ancestral sin": {
+    "description": "",
+    "instance of": "",
+    "en wikipedia url": "Ancestral_sin",
+    "wikidata_qid": "Q4752573"
+  },
+  "access control": {
+    "description": "selective restriction of access to a place or other resource, allowing only authorized users",
+    "instance of": "computer security model, field of study, type of regulation and control, specialty, method, concept",
+    "en wikipedia url": "Access control",
+    "wikidata_qid": "Q228502"
+  },
+  "software portability": {
+    "description": "usability of the same software in different environments",
+    "instance of": "quality, concept, field of study, specialty",
+    "en wikipedia url": "Software%20portability",
+    "wikidata_qid": "Q3080428"
+  },
+  "willpower": {
+    "description": "ability to control one's own actions, emotions, or urges",
+    "instance of": "concept, psychology terminology",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1562976"
+  },
+  "ABC-aruhaz": {
+    "description": "Hungarian term for a food market with self-service",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q430289"
+  },
+  "AGM-Region": {
+    "description": "region in the vertebrate embryo",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q292573"
+  },
+  "Abhyudaya": {
+    "description": "Term used in Hindu and Buddhist religion",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q320691"
+  },
+  "Abluation": {
+    "description": "Term from the geomorphology",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q322414"
+  },
+  "Absolute Measurement": {
+    "description": "the quantitative determination of a measured variable, giving the units – this requires a calibration of the measuring apparatus, a term used in metrology",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q332718"
+  },
+  "Abuse of notation": {
+    "description": "mathematical term around presentation of concepts",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q842159"
+  },
+  "Access to information": {
+    "description": "possibility of seeking, obtaining and disseminating information produced or held in custody by public bodies",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q114457533"
+  },
+  "Acinus": {
+    "description": "considered by some (but not all) sources to be synonymous with Alveolus",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q346854"
+  },
+  "Ad-hoc-Workflow": {
+    "description": "term used in computer science and process management",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q345310"
+  },
+  "Aequale hours": {
+    "description": "time units of equal duration",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q255497"
+  },
+  "African Renaissance": {
+    "description": "African concept",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q386503"
+  },
+  "Afriziden": {
+    "description": "describes in the geosciences the Precambrian mountains of Africa",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q387935"
+  },
+  "Afromontane": {
+    "description": "subregion of the Afrotropical realm",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q388515"
+  },
+  "Afterdrop": {
+    "description": "further lowering of the core body temperature due to a cold exposure even after heating has started",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q389179"
+  },
+  "Akashic records": {
+    "description": "theosophist compendium",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q416171"
+  },
+  "Akkordanz": {
+    "description": "Term used in geology",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q419833"
+  },
+  "Akusmata": {
+    "description": "Term from the Greek philosophy of the ancient world",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q423899"
+  },
+  "Anal retentive": {
+    "description": "the act of paying such attention to detail that it becomes an obsession",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q3244134"
+  },
+  "Anthropomorphism": {
+    "description": "attribution of human traits, emotions, or intentions to non-human entities",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q132987"
+  },
+  "Autonomy": {
+    "description": "concept found in moral, political, and bioethical philosophy",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q484105"
+  },
+  "Condition": {
+    "description": "state or circumstances of some object or event",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q813912"
+  },
+  "Culture": {
+    "description": "shared aspects of a society's way of life",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q11042"
+  },
+  "First Principle": {
+    "description": "concept",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q536351"
+  },
+  "GLAM": {
+    "description": "acronym for \"galleries, libraries, archives, and museums\" that refers to cultural institutions that have access to knowledge as their mission",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1030034"
+  },
+  "Individuation": {
+    "description": "the manner in which a thing is identified as distinguished from other things",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q681449"
+  },
+  "Infallibility": {
+    "description": "inability to be wrong; exact correctness for sure",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q16847489"
+  },
+  "Intention": {
+    "description": "mental state representing commitment to perform an action",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q706622"
+  },
+  "Jewish views on sin": {
+    "description": "In Judaism, violation of any of the 613 commandments",
+    "instance of": "concept",
+    "en wikipedia url": "Jewish_views_on_sin",
+    "wikidata_qid": "Q3514883"
+  },
+  "Jocasta complex": {
+    "description": "incestuous sexual desire that a mother has towards her child",
+    "instance of": "concept",
+    "en wikipedia url": "Jocasta_complex",
+    "wikidata_qid": "Q6207067"
+  },
+  "Judenfrei": {
+    "description": "Area that was \"cleansed\" of Jews during The Holocaust",
+    "instance of": "concept",
+    "en wikipedia url": "Judenfrei",
+    "wikidata_qid": "Q375916"
+  },
+  "Kokoro": {
+    "description": "Japanese concept in Budo",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q11872188"
+  },
+  "Kosian": {
+    "description": "South Korean term for people of Korean and South East Asian heritage",
+    "instance of": "concept",
+    "en wikipedia url": "Kosian",
+    "wikidata_qid": "Q12620595"
+  },
+  "Kul": {
+    "description": "Old Dutch term",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2774380"
+  },
+  "Kulapati": {
+    "description": "Sanskrit word for Chancellor or Rector",
+    "instance of": "concept",
+    "en wikipedia url": "Kulapati",
+    "wikidata_qid": "Q6442806"
+  },
+  "L-AUS": {
+    "description": "Danish health and safety concept",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q12323477"
+  },
+  "Leaking pipeline": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q15720661"
+  },
+  "Leapfrogging": {
+    "description": "Omitting / jumping over a stage in a development process",
+    "instance of": "concept",
+    "en wikipedia url": "Leapfrogging",
+    "wikidata_qid": "Q493754"
+  },
+  "Least Developed Countries": {
+    "description": "list of countries that exhibits the lowest indicators of socioeconomic development",
+    "instance of": "concept",
+    "en wikipedia url": "Least_developed_countries",
+    "wikidata_qid": "Q752401"
+  },
+  "Lelybus": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2304637"
+  },
+  "Library 2.0": {
+    "description": "model for a modernized form of library service",
+    "instance of": "concept",
+    "en wikipedia url": "Library_2.0",
+    "wikidata_qid": "Q387956"
+  },
+  "Lifnei iver": {
+    "description": "a prohibition against misleading people by use of a \"stumbling block\"",
+    "instance of": "concept",
+    "en wikipedia url": "Lifnei_iver",
+    "wikidata_qid": "Q6545580"
+  },
+  "Literacy": {
+    "description": "ability to read for knowledge, write coherently, and think critically about the written word; ability to read, write, and use arithmetic",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q8236"
+  },
+  "Metaclass": {
+    "description": "in a programming language, class whose instances are classes",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1924819"
+  },
+  "Nothing": {
+    "description": "complete absence of anything",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q154242"
+  },
+  "Originality": {
+    "description": "aspect of created or invented works as being new or novel, and thus distinguishable from reproductions, clones, forgeries, or derivative works",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2914681"
+  },
+  "Overfitting": {
+    "description": "production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit additional data or predict future observations reliably",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q331309"
+  },
+  "Project": {
+    "description": "collaborative enterprise, frequently involving research or design, that is carefully planned to achieve a particular aim",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q170584"
+  },
+  "Relativism": {
+    "description": "philosophical view rejecting universalism about truth",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q83188"
+  },
+  "SMOF": {
+    "description": "term used within the science fiction fan community",
+    "instance of": "concept",
+    "en wikipedia url": "SMOF",
+    "wikidata_qid": "Q7391264"
+  },
+  "SSMO": {
+    "description": "Single Source/Multi-channel Outputs",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q108209830"
+  },
+  "Sankalpa": {
+    "description": "Sanskrit term; determination in Hindu philosophy",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q6126865"
+  },
+  "Sanskrit poetics": {
+    "description": "area of inquiry in Sanskrit thought",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q105724367"
+  },
+  "Santosha": {
+    "description": "ethical concept in Indian philosophy",
+    "instance of": "concept",
+    "en wikipedia url": "Santosha",
+    "wikidata_qid": "Q2376355"
+  },
+  "Satipatthana": {
+    "description": "mindfulness in Buddhism",
+    "instance of": "concept",
+    "en wikipedia url": "Satipatthana",
+    "wikidata_qid": "Q2585596"
+  },
+  "Schwerpunkt": {
+    "description": "military strategy",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1535470"
+  },
+  "Selfness": {
+    "description": "Concept in the field of \"wellness\"",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1286901"
+  },
+  "Sentience": {
+    "description": "capacity to feel, perceive, or experience subjectively",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2488994"
+  },
+  "Shapley value": {
+    "description": "concept in game theory",
+    "instance of": "concept",
+    "en wikipedia url": "Shapley_value",
+    "wikidata_qid": "Q240046"
+  },
+  "Shared space": {
+    "description": "urban design approach that minimises the segregation between modes of road user in order to induce a greater sense of uncertainty, reducing road casualty rates and improving safety for other road users",
+    "instance of": "concept",
+    "en wikipedia url": "Shared_space",
+    "wikidata_qid": "Q578801"
+  },
+  "Shes pa": {
+    "description": "knowledge (Tibetan) Buddhist concept",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q105431023"
+  },
+  "Simmo": {
+    "description": "Simulation of the Music Movement",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q28170276"
+  },
+  "Small government": {
+    "description": "political princible",
+    "instance of": "concept",
+    "en wikipedia url": "Small_government",
+    "wikidata_qid": "Q7543063"
+  },
+  "Snow Saucer": {
+    "description": "(Category 09: Recreational Objects> Recreational Devices> Recreational Devices (blank sub-class)> Snow Coaster)",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q86863470"
+  },
+  "Social Identification": {
+    "description": "The process by which an aspect of self image is developed based on in-group preference or ethnocentrism and a perception of belonging to a social or cultural group. (From APA, Thesaurus of Psychological Index Terms, 8th ed.)",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q58879677"
+  },
+  "Social condenser": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "Social_condenser",
+    "wikidata_qid": "Q2992242"
+  },
+  "Social determinism": {
+    "description": "theory of human behavior",
+    "instance of": "concept",
+    "en wikipedia url": "Social_determinism",
+    "wikidata_qid": "Q3045364"
+  },
+  "Social uterus": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "Social_uterus",
+    "wikidata_qid": "Q17405790"
+  },
+  "Social-ecological transformation": {
+    "description": "concept in environmental  policy",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q114679112"
+  },
+  "Socialists of the chair": {
+    "description": "concept",
+    "instance of": "concept",
+    "en wikipedia url": "Socialists_of_the_chair",
+    "wikidata_qid": "Q837076"
+  },
+  "Spaceship Earth": {
+    "description": "metaphor for Humankind's conditions in the Anthropocene",
+    "instance of": "concept",
+    "en wikipedia url": "Spaceship_Earth",
+    "wikidata_qid": "Q2778319"
+  },
+  "Spirit of place": {
+    "description": "the unique, distinctive and cherished aspects of a place",
+    "instance of": "concept",
+    "en wikipedia url": "Spirit_of_place",
+    "wikidata_qid": "Q30317892"
+  },
+  "Well-Being": {
+    "description": "general term for condition of individual or group",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q7981051"
+  },
+  "World View": {
+    "description": "fundamental cognitive orientation of an individual or society encompassing the entirety of the individual or society's knowledge and point of view",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q49447"
+  },
+  "abbreviation": {
+    "description": "in zoology, shortening of the individual development of an individual through the elimination of individual stages of development",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q306824"
+  },
+  "abrasion rate": {
+    "description": "sum of the loss of endogenous substances or body cells",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q322574"
+  },
+  "absense": {
+    "description": "object of philosophical inquiry",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q105670057"
+  },
+  "absolute time and space": {
+    "description": "theoretical foundation of Newtonian mechanics",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q19314"
+  },
+  "accrual": {
+    "description": "in finance, adding together of interest or different investments over a period of time",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q384475"
+  },
+  "acta iure imperii": {
+    "description": "concept of international law",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q343193"
+  },
+  "activation level": {
+    "description": "general nervous excitatory states of the organism",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q422811"
+  },
+  "actual genesis": {
+    "description": "term derived from Gestalt psychology",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q423459"
+  },
+  "actual neurosis": {
+    "description": "concept in psychoanalysis",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q423509"
+  },
+  "adaptogen": {
+    "description": "substance used in herbal medicine to promote homeostasis",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q352551"
+  },
+  "addition chain": {
+    "description": "a sequence of operations for computing a given integer by summing smaller integers",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q4681316"
+  },
+  "adjustable peg": {
+    "description": "a term from the monetary policy",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q357859"
+  },
+  "affect insulation": {
+    "description": "defense mechanism and a concept in psychoanalysis",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q382242"
+  },
+  "affection": {
+    "description": "feeling or type of love",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1124198"
+  },
+  "affine subspace": {
+    "description": "concept",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q382734"
+  },
+  "affrication": {
+    "description": "term used in phonetics",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q382961"
+  },
+  "agricultural colonisation": {
+    "description": "cultivation of previously unused agricultural areas",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q396115"
+  },
+  "allocentric hearing": {
+    "description": "the auditorial location objects centered around position with respect to other objects",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q55435937"
+  },
+  "alter ego": {
+    "description": "Latin phrase; alternate self",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q201662"
+  },
+  "autonomy (concept)": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2991637"
+  },
+  "jnanakaya": {
+    "description": "Buddhist concept of \"gnostic body\"",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q105842364"
+  },
+  "jizz": {
+    "description": "the overall impression or appearance of a bird",
+    "instance of": "concept",
+    "en wikipedia url": "Jizz_%28birding%29",
+    "wikidata_qid": "Q6203568"
+  },
+  "ksanabhanga": {
+    "description": "Buddhist doctrine of radical impermanence",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q105477306"
+  },
+  "kaitiaki": {
+    "description": "Māori term for the concept of guardianship",
+    "instance of": "concept",
+    "en wikipedia url": "Kaitiakitanga",
+    "wikidata_qid": "Q6348626"
+  },
+  "key escrow": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "Key_escrow",
+    "wikidata_qid": "Q1367345"
+  },
+  "khvostism": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q25523756"
+  },
+  "know your customer": {
+    "description": "identifying a customer and the risks associated with them",
+    "instance of": "concept",
+    "en wikipedia url": "Know_your_customer",
+    "wikidata_qid": "Q106145"
+  },
+  "knowledge creation": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2467405"
+  },
+  "labor relationship": {
+    "description": "legal and sociological relationship between employer and employee",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q10359055"
+  },
+  "laksana": {
+    "description": "Indian philosophical concept; meaning-generating faculty of language",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q105665446"
+  },
+  "land and water hemispheres": {
+    "description": "hemispheres on the Earth containing the largest possible total areas of land and ocean respectively",
+    "instance of": "concept",
+    "en wikipedia url": "Land_and_water_hemispheres",
+    "wikidata_qid": "Q17651246"
+  },
+  "langue and parole": {
+    "description": "two terms of Saussure",
+    "instance of": "concept",
+    "en wikipedia url": "Langue_and_parole",
+    "wikidata_qid": "Q19973772"
+  },
+  "lethal concentration": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q18023312"
+  },
+  "level playing field": {
+    "description": "ensuring fairness",
+    "instance of": "concept",
+    "en wikipedia url": "Level_playing_field",
+    "wikidata_qid": "Q2513555"
+  },
+  "lexical gap": {
+    "description": "word or form that does not exist in a language but would be permitted by the grammatical rules of that language",
+    "instance of": "concept",
+    "en wikipedia url": "Accidental_gap",
+    "wikidata_qid": "Q176857"
+  },
+  "lifelong learning": {
+    "description": "ongoing, voluntary, and self-motivated pursuit of knowledge for either personal or professional reasons",
+    "instance of": "concept",
+    "en wikipedia url": "Lifelong_learning",
+    "wikidata_qid": "Q368475"
+  },
+  "line frequency": {
+    "description": "the repetition of lines on a display device",
+    "instance of": "concept",
+    "en wikipedia url": "Horizontal_scan_rate",
+    "wikidata_qid": "Q184893"
+  },
+  "line of departure": {
+    "description": "German technical term from the vehicle safety",
+    "instance of": "concept",
+    "en wikipedia url": "Line_of_departure",
+    "wikidata_qid": "Q322205"
+  },
+  "linguistic landscape": {
+    "description": "language on public signs",
+    "instance of": "concept",
+    "en wikipedia url": "Linguistic_landscape",
+    "wikidata_qid": "Q6554052"
+  },
+  "linguistic phenomenon": {
+    "description": "observable fact in a language",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q94255074"
+  },
+  "linguistic repertoire": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q66842964"
+  },
+  "linguistic variability": {
+    "description": "concept of linguistics",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q63380932"
+  },
+  "literary element": {
+    "description": "constituent of all works of narrative fiction—a necessary feature of verbal storytelling that can be found in any written or spoken narrative",
+    "instance of": "concept",
+    "en wikipedia url": "Literary_element",
+    "wikidata_qid": "Q6647660"
+  },
+  "safe space": {
+    "description": "place for individuals to gather",
+    "instance of": "concept",
+    "en wikipedia url": "Safe_space",
+    "wikidata_qid": "Q4080972"
+  },
+  "sales risk": {
+    "description": "all negative sales related reference values​​, which are associated with potential losses after the completion of the products",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q331823"
+  },
+  "salutogenesis": {
+    "description": "factors favouring health",
+    "instance of": "concept",
+    "en wikipedia url": "Salutogenesis",
+    "wikidata_qid": "Q1752840"
+  },
+  "sandhya": {
+    "description": "Transition of time in Hindu cosmology. Manvantara-sandhyā is a universal flood with a duration of Satya Yuga; separates two Manvantaras or starts/ends a Kalpa. A yuga-sandhyā (dawn) and yuga-sandhyāṃśa (dusk) are each 10% the yuga's main period.",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q105663860"
+  },
+  "school supplies": {
+    "description": "equipment used in educational settings",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q5359605"
+  },
+  "scope of control": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q13921307"
+  },
+  "script analysis": {
+    "description": "method of uncovering the 'early decisions, made unconsciously, as to how life shall be lived",
+    "instance of": "concept",
+    "en wikipedia url": "Script_analysis",
+    "wikidata_qid": "Q4447737"
+  },
+  "seafloor depth versus age": {
+    "description": "term in geology",
+    "instance of": "concept",
+    "en wikipedia url": "Seafloor_depth_versus_age",
+    "wikidata_qid": "Q87247788"
+  },
+  "self-actualization": {
+    "description": "term used in various psychology theories",
+    "instance of": "concept",
+    "en wikipedia url": "Self-actualization",
+    "wikidata_qid": "Q198827"
+  },
+  "self-hosting": {
+    "description": "practice of running and maintaining a website using a private web server",
+    "instance of": "concept",
+    "en wikipedia url": "Self-hosting_%28web_services%29",
+    "wikidata_qid": "Q65090673"
+  },
+  "semanteme": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1923075"
+  },
+  "semantic field": {
+    "description": "set of words grouped by meaning referring to a specific subject",
+    "instance of": "concept",
+    "en wikipedia url": "Semantic_field",
+    "wikidata_qid": "Q176377"
+  },
+  "semelparity and iteroparity": {
+    "description": "classes of possible reproductive strategies",
+    "instance of": "concept",
+    "en wikipedia url": "Semelparity_and_iteroparity",
+    "wikidata_qid": "Q522960"
+  },
+  "separation of duties": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "Separation_of_duties",
+    "wikidata_qid": "Q1474665"
+  },
+  "seriation": {
+    "description": "concept in semiotics",
+    "instance of": "concept",
+    "en wikipedia url": "Seriation_%28semiotics%29",
+    "wikidata_qid": "Q7454724"
+  },
+  "sewage fungus": {
+    "description": "slang term for a community of diverse bacteria",
+    "instance of": "concept",
+    "en wikipedia url": "Sewage_fungus",
+    "wikidata_qid": "Q336161"
+  },
+  "shape language": {
+    "description": "design concept in art and animation",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q106880819"
+  },
+  "siecle europeen": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q3485790"
+  },
+  "siddhadarsana": {
+    "description": "siddhic vision",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q105683402"
+  },
+  "signaling channel": {
+    "description": "transmission channel in the switching technology",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q184734"
+  },
+  "signals and slots": {
+    "description": "concept",
+    "instance of": "concept",
+    "en wikipedia url": "Signals_and_slots",
+    "wikidata_qid": "Q786614"
+  },
+  "significs": {
+    "description": "linguistic and philosophical term",
+    "instance of": "concept",
+    "en wikipedia url": "Significs",
+    "wikidata_qid": "Q2131430"
+  },
+  "single version of the truth": {
+    "description": "ideal where all of an organisation's data is stored in a consistent and non-redundant form",
+    "instance of": "concept",
+    "en wikipedia url": "Single_version_of_the_truth",
+    "wikidata_qid": "Q7523999"
+  },
+  "situated knowledge": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q5783426"
+  },
+  "smart city": {
+    "description": "urban area that uses different types of electronic Internet of things sensors to collect data and then use these data to manage assets and resources efficiently",
+    "instance of": "concept",
+    "en wikipedia url": "Smart_city",
+    "wikidata_qid": "Q1231558"
+  },
+  "smeren en verteren": {
+    "description": "form of bribery or corrupt influence identified in the Netherlands",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q19945648"
+  },
+  "social category": {
+    "description": "set of individuals with common socially relevant and particularly important demographic characteristics",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2305862"
+  },
+  "social exploitation": {
+    "description": "social relationship in which one agent takes unfair advantage of another agent",
+    "instance of": "concept",
+    "en wikipedia url": "Exploitation_%28Marxism%29",
+    "wikidata_qid": "Q859884"
+  },
+  "social fact": {
+    "description": "sociological term defined by Émile Durkheim",
+    "instance of": "concept",
+    "en wikipedia url": "Social_fact",
+    "wikidata_qid": "Q972877"
+  },
+  "social indicator": {
+    "description": "measuring instrument of the social sciences, refer to the society",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1464352"
+  },
+  "social segregation": {
+    "description": "sociological term",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2776390"
+  },
+  "social space": {
+    "description": "physical or virtual space such as a social center, online social media, or other gathering place where people gather and interact",
+    "instance of": "concept",
+    "en wikipedia url": "Social_space",
+    "wikidata_qid": "Q7551384"
+  },
+  "social threefolding": {
+    "description": "social theory",
+    "instance of": "concept",
+    "en wikipedia url": "Social_threefolding",
+    "wikidata_qid": "Q1927853"
+  },
+  "socialist city": {
+    "description": "socialist urban planning project",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q2305818"
+  },
+  "software patents and free software": {
+    "description": "Opposition to software patents",
+    "instance of": "concept",
+    "en wikipedia url": "Software_patents_and_free_software",
+    "wikidata_qid": "Q7554334"
+  },
+  "soil resilience": {
+    "description": "",
+    "instance of": "concept",
+    "en wikipedia url": "Soil_resilience",
+    "wikidata_qid": "Q7554953"
+  },
+  "soundscape": {
+    "description": "combination of all the acoustic resources within a given area",
+    "instance of": "concept",
+    "en wikipedia url": "Soundscape",
+    "wikidata_qid": "Q1358257"
+  },
+  "span of control": {
+    "description": "the ability of one person",
+    "instance of": "concept",
+    "en wikipedia url": "Span_of_control",
+    "wikidata_qid": "Q1816351"
+  },
+  "specific speed": {
+    "description": "term",
+    "instance of": "concept",
+    "en wikipedia url": "Specific_speed",
+    "wikidata_qid": "Q41987"
+  },
+  "veil of ignorance": {
+    "description": "political-moral framework centered on decision making without regard to personal effect",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q476478"
+  },
+  "zone of proximal development": {
+    "description": "difference between what a learner can do without help and what they can do with help",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1053392"
+  },
+  "Three marks of existence": {
+    "description": "Buddhist concept; consists of impermanence (anicca), suffering (dukkha), and non-self (anattā)",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1054156"
+  },
+  "imagined community": {
+    "description": "concept in sociology and political science, introduced by Benedict Anderson in the homonym book",
+    "instance of": "concept",
+    "en wikipedia url": "",
+    "wikidata_qid": "Q1261621"
+  },
+  "Meaning": {
+    "description": "nature of meaning in the philosophy of language, semantics, methaphysics and metasemantics",
+    "instance of": "concept",
+    "en wikipedia url": "Meaning_(philosophy)",
+    "wikidata_qid": "Q16877777"
+  }
+}

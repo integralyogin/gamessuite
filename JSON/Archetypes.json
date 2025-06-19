@@ -1,0 +1,143 @@
+{
+  "Hero": {
+    "short_description": "Courageous protagonist who embarks on transformative journey, overcomes challenges for greater good."
+  },
+  "Wise Old Man/Woman": {
+    "short_description": "Mentor figure providing guidance, knowledge, and spiritual wisdom to others."
+  },
+  "Great Mother": {
+    "short_description": "Nurturing, creative force representing fertility, protection, and unconditional love."
+  },
+  "Trickster": {
+    "short_description": "Clever, disruptive figure who challenges conventions through wit and deception."
+  },
+  "Shadow": {
+    "short_description": "Dark aspect of psyche, representing repressed qualities and unconscious elements."
+  },
+  "Anima/Animus": {
+    "short_description": "Feminine/masculine aspects within opposite gender, bridging conscious and unconscious."
+  },
+  "Child": {
+    "short_description": "Symbol of innocence, potential, and new beginnings, representing hope and trust."
+  },
+  "Warrior": {
+    "short_description": "Disciplined fighter archetype embodying courage, skill, and protective strength."
+  },
+  "Magician": {
+    "short_description": "Transformer who connects with hidden knowledge and supernatural forces."
+  },
+  "Lover": {
+    "short_description": "Passionate figure representing emotional connection, intimacy, and devotion."
+  },
+  "King/Queen": {
+    "short_description": "Sovereign leader embodying order, authority, and benevolent power."
+  },
+  "Rebel": {
+    "short_description": "Revolutionary who challenges existing order and fights for change."
+  },
+  "Sage": {
+    "short_description": "Seeker of truth and wisdom, dedicated to understanding and sharing knowledge."
+  },
+  "Creator": {
+    "short_description": "Innovative force bringing new things into being through imagination and skill."
+  },
+  "Innocent": {
+    "short_description": "Pure, optimistic figure representing untainted goodness and faith."
+  },
+  "Orphan": {
+    "short_description": "Abandoned one seeking belonging, often developing resilience through hardship."
+  },
+  "Wanderer": {
+    "short_description": "Seeker on perpetual journey, discovering truth through exploration and independence."
+  },
+  "Martyr": {
+    "short_description": "Self-sacrificing figure who surrenders for higher cause or others' benefit."
+  },
+  "Devil": {
+    "short_description": "Tempter representing destructive forces, rebellion against divine, and materialism."
+  },
+  "Divine Child": {
+    "short_description": "Miraculous youth embodying supernatural power and spiritual potential."
+  },
+  "Eternal Youth": {
+    "short_description": "Ever-young spirit representing vitality, joy, and resistance to aging."
+  },
+  "Earth Mother": {
+    "short_description": "Nurturing feminine force connected to nature, fertility, and sustenance."
+  },
+  "Priestess": {
+    "short_description": "Spiritual mediator between divine and human realms, keeper of mysteries."
+  },
+  "Wounded Healer": {
+    "short_description": "One who transforms personal suffering into ability to heal others."
+  },
+  "Sacred King": {
+    "short_description": "Divine ruler whose life force is connected to land's prosperity."
+  },
+  "Cosmic Man": {
+    "short_description": "Primordial being whose body represents structure of universe."
+  },
+  "Shapeshifter": {
+    "short_description": "Transformative figure representing change, adaptability, and uncertainty."
+  },
+  "Guardian": {
+    "short_description": "Protective figure who defends boundaries and tests worthiness."
+  },
+  "Scapegoat": {
+    "short_description": "Bearer of community's sins or problems, sacrificed for collective cleansing."
+  },
+  "Hermit": {
+    "short_description": "Solitary seeker who finds wisdom through isolation and contemplation."
+  },
+  "Fool": {
+    "short_description": "Divine idiot whose innocence reveals deeper truths through apparent ignorance."
+  },
+  "Judge": {
+    "short_description": "Discerning figure who weighs moral choices and dispenses justice."
+  },
+  "Crone": {
+    "short_description": "Wise elderly woman representing death, rebirth, and transformative power."
+  },
+  "Divine Twins": {
+    "short_description": "Dual aspects of single principle, often representing complementary forces."
+  },
+  "Medicine Man/Woman": {
+    "short_description": "Spiritual healer bridging physical and supernatural realms."
+  },
+  "Threshold Guardian": {
+    "short_description": "Challenger testing readiness for transformation or new stage."
+  },
+  "Green Man": {
+    "short_description": "Vegetation deity representing cycles of nature and seasonal renewal."
+  },
+  "Sacred Prostitute": {
+    "short_description": "Temple priestess embodying divine feminine and sacred sexuality."
+  },
+  "Wolf": {
+    "short_description": "Wild instinctual nature, representing both threat and guidance."
+  },
+  "Dragon": {
+    "short_description": "Powerful primordial force guarding treasure or wisdom."
+  },
+  "Phoenix": {
+    "short_description": "Immortal bird symbolizing death, rebirth, and transformation through fire."
+  },
+  "World Tree": {
+    "short_description": "Cosmic axis connecting different realms of existence."
+  },
+  "Devil's Advocate": {
+    "short_description": "Challenger who tests beliefs by arguing opposite perspective."
+  },
+  "Alchemist": {
+    "short_description": "Transformer who seeks to turn base materials into gold, physically or spiritually."
+  },
+  "Fisher King": {
+    "short_description": "Wounded ruler whose illness affects entire kingdom's vitality."
+  },
+  "Divine Androgyne": {
+    "short_description": "Being uniting masculine and feminine principles in perfect balance."
+  },
+  "Prometheus": {
+    "short_description": "Cultural hero who brings divine gifts to humanity despite personal cost."
+  }
+}

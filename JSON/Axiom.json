@@ -1,0 +1,194 @@
+{
+  "Axiom": {
+    "short_description": "The self-evident principle serving as foundation for systems of knowledge, requiring no demonstration while enabling derivation of subsequent truths through logical necessity."
+  },
+  "Proposition": {
+    "short_description": "The declarative statement affirming or denying a predicate, forming the atomic unit of logical discourse and the building block of formal reasoning."
+  },
+  "Theorem": {
+    "short_description": "The demonstrated truth derived through rigorous application of inference rules to axioms, representing crystallized knowledge within a formal system."
+  },
+  "Proof": {
+    "short_description": "The formal verification process establishing irrefutable connections between propositions through sanctioned transformations preserving truth-value."
+  },
+  "Premise": {
+    "short_description": "The foundational proposition anchoring chains of reasoning, providing the initial truth-content from which conclusions necessarily unfold."
+  },
+  "Deduction": {
+    "short_description": "The truth-preserving movement from general principles to specific instances through strict application of logical operators and inference rules."
+  },
+  "Tautology": {
+    "short_description": "The necessary truth revealed through analysis of logical form rather than empirical content, remaining invariant across all possible interpretations."
+  },
+  "Contradiction": {
+    "short_description": "The explosive proposition pair signaling systemic inconsistency, demanding resolution through premise rejection or logical framework revision."
+  },
+  "Entailment": {
+    "short_description": "The necessary consequence relation binding premises to conclusions through strict implication, forming the backbone of valid reasoning structures."
+  },
+  "Syntax": {
+    "short_description": "The formal architecture governing symbol manipulation rules, establishing permissible configurations independent of semantic meaning."
+  },
+  "Semantics": {
+    "short_description": "The interpretive framework assigning meaning to formal symbols through correspondence with conceptual or empirical referents."
+  },
+  "Consistency": {
+    "short_description": "The systemic virtue prohibiting derivation of contradictory propositions, ensuring harmonious coexistence of all affirmed truths."
+  },
+  "Completeness": {
+    "short_description": "The ideal state where all truths expressible within a system find formal demonstration through its axiomatic apparatus."
+  },
+  "Necessity": {
+    "short_description": "The modal characteristic binding truths that hold across all possible worlds, constrained only by logical structure rather than contingent fact."
+  },
+  "Primitive": {
+    "short_description": "The undefined conceptual atom serving as bedrock for axiomatic systems, receiving meaning through implicit use in postulates."
+  },
+  "Lemma": {
+    "short_description": "The intermediary truth demonstrated en route to significant theorems, functioning as both stepping stone and structural support in complex proofs."
+  },
+  "Conjecture": {
+    "short_description": "The provisional proposition posited through intuitive insight, awaiting formal verification or refutation within the axiomatic framework."
+  },
+  "Paradox": {
+    "short_description": "The self-referential proposition challenging systemic boundaries, exposing hidden assumptions or limitations in logical frameworks."
+  },
+  "Formal System": {
+    "short_description": "The self-contained universe of discourse defined by its axioms and transformation rules, enabling mechanical derivation of propositional relationships."
+  },
+  "Soundness": {
+    "short_description": "The dual virtue combining valid reasoning with true premises, ensuring conclusions reflect both logical rigor and empirical adequacy."
+  },
+  "Universality": {
+    "short_description": "The scope characteristic of axiomatic principles applying without exception across their domain of discourse."
+  },
+  "Inference": {
+    "short_description": "The sanctioned transition between propositional states through application of logical operators, constituting the motion of formal reasoning."
+  },
+  "Corollary": {
+    "short_description": "The immediate consequence flowing from demonstrated theorems, requiring minimal additional proof to establish derivative truths."
+  },
+  "Intuition": {
+    "short_description": "The pre-formal apprehension of logical relationships guiding discovery while remaining subject to subsequent formal verification."
+  },
+  "Axiomatic Method": {
+    "short_description": "The constructive approach erecting knowledge systems from explicit primitives through disciplined application of deduction rules."
+  },
+  "Validity": {
+    "short_description": "The structural integrity of arguments where conclusions necessarily follow from premises regardless of content truth-value."
+  },
+  "Hypostasis": {
+    "short_description": "The reification of abstract relations into propositional entities capable of serving as terms in logical operations."
+  },
+  "Demonstration": {
+    "short_description": "The systematic unfolding of truth through sequenced application of inference rules to axiomatic foundations."
+  },
+  "Abstraction": {
+    "short_description": "The process of isolating formal patterns from particular instances to create generalized propositional templates."
+  },
+  "Consilience": {
+    "short_description": "The convergence of independently derived truths through axiomatic frameworks, demonstrating systemic coherence and explanatory power."
+  },
+  "Antinomy": {
+    "short_description": "The fundamental contradiction arising when axiomatic systems attempt self-reference, revealing inherent limitations of formalization."
+  },
+  "Apodictic": {
+    "short_description": "The modality of necessary truth demonstrated through axiomatic derivation rather than empirical observation or probabilistic reasoning."
+  },
+  "Isomorphism": {
+    "short_description": "The structural correspondence between distinct formal systems permitting translation of truths across different axiomatic bases."
+  },
+  "Recursion": {
+    "short_description": "The self-referential application of logical rules to their own outputs, generating complex structures from simple axiomatic beginnings."
+  },
+  "Logical Primitive": {
+    "short_description": "Basic rules of reasoning that cannot be reduced to simpler principles."
+  },
+  "Ontological Foundation": {
+    "short_description": "Fundamental assumptions about the nature of being and existence."
+  },
+  "Epistemic Ground": {
+    "short_description": "Basic principles about the possibility and nature of knowledge."
+  },
+  "First Principle": {
+    "short_description": "Self-evident truth from which other truths must necessarily follow."
+  },
+  "Metaphysical Necessity": {
+    "short_description": "Truths that must hold across all possible worlds or realities."
+  },
+  "Formal Rule": {
+    "short_description": "Basic principles governing manipulation of symbols and structures."
+  },
+  "Operational Law": {
+    "short_description": "Fundamental rules governing transformations and processes."
+  },
+  "System Foundation": {
+    "short_description": "Core assumptions required for a system of thought to function."
+  },
+  "Truth Condition": {
+    "short_description": "Basic criteria for determining truth within a framework."
+  },
+  "Semantic Primitive": {
+    "short_description": "Fundamental units of meaning that cannot be further defined."
+  },
+  "Modal Base": {
+    "short_description": "Basic principles about necessity, possibility, and impossibility."
+  },
+  "Inferential Root": {
+    "short_description": "Foundational rules governing valid derivation of conclusions."
+  },
+  "Conceptual Schema": {
+    "short_description": "Basic framework determining how concepts relate and combine."
+  },
+  "Structural Law": {
+    "short_description": "Fundamental principles governing relations between elements."
+  },
+  "Generative Principle": {
+    "short_description": "Basic rules determining how complex structures can arise."
+  },
+  "Identity Condition": {
+    "short_description": "Fundamental principles determining sameness and difference."
+  },
+  "Causal Foundation": {
+    "short_description": "Basic assumptions about the nature of causation and influence."
+  },
+  "Normative Ground": {
+    "short_description": "Fundamental principles about value, rightness, and obligation."
+  },
+  "Existential Premise": {
+    "short_description": "Basic assumptions about what exists and how it exists."
+  },
+  "Developmental Law": {
+    "short_description": "Fundamental principles governing change and evolution."
+  },
+  "Unity Principle": {
+    "short_description": "Basic rules determining how parts combine into wholes."
+  },
+  "Temporal Frame": {
+    "short_description": "Fundamental assumptions about the nature of time and sequence."
+  },
+  "Categorical Base": {
+    "short_description": "Basic principles determining how things can be classified."
+  },
+  "Relational Matrix": {
+    "short_description": "Fundamental framework of possible connections between elements."
+  },
+  "Ordinal Structure": {
+    "short_description": "Basic principles governing ranking and hierarchical relations."
+  },
+  "Quantitative Ground": {
+    "short_description": "Fundamental assumptions about number and measurement."
+  },
+  "Qualitative Base": {
+    "short_description": "Basic principles about the nature of properties and attributes."
+  },
+  "Boundary Condition": {
+    "short_description": "Fundamental principles defining limits and transitions."
+  },
+  "Symmetry Principle": {
+    "short_description": "Basic laws governing invariance and transformation."
+  },
+  "Conservation Law": {
+    "short_description": "Fundamental principles about what must remain unchanged."
+  }
+}

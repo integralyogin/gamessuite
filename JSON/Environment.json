@@ -1,0 +1,104 @@
+{
+  "Gaia": {
+    "short_description": "The self-regulating planetary system maintaining equilibrium through complex biological-physical interactions and life-sustaining processes."
+  },
+  "Biosphere": {
+    "short_description": "The living membrane encircling Earth where ecosystems exchange energy and matter through intricate webs of interdependence."
+  },
+  "Sustainability": {
+    "short_description": "The dynamic equilibrium between human needs and ecological limits, ensuring intergenerational continuity through balanced resource flows."
+  },
+  "Symbiosis": {
+    "short_description": "The foundational pattern of reciprocal exchange where diverse organisms co-create survival strategies through mutualistic interdependence."
+  },
+  "Stewardship": {
+    "short_description": "The ethical imperative of responsible resource guardianship, recognizing humanity's transitional role in Earth's evolutionary journey."
+  },
+  "Anthropocene": {
+    "short_description": "The proposed geological epoch marked by human activity as the dominant force reshaping planetary systems and biogeochemical cycles."
+  },
+  "Resilience": {
+    "short_description": "The capacity of ecological systems to absorb disturbances while maintaining core functions through adaptive reorganization."
+  },
+  "Circularity": {
+    "short_description": "The regenerative economic model mimicking nature's closed-loop systems where outputs become inputs in perpetual cycles."
+  },
+  "Biodiversity": {
+    "short_description": "The multidimensional variety of life sustaining ecosystem functionality through genetic, species, and habitat complexity."
+  },
+  "Restoration": {
+    "short_description": "The intentional facilitation of ecological recovery processes to reestablish historical trajectories and functional integrity."
+  },
+  "Conservation": {
+    "short_description": "The protective practice preserving natural capital through sustainable yield management and habitat preservation."
+  },
+  "Regeneration": {
+    "short_description": "The active renewal of degraded systems through synergistic collaboration between natural processes and human design."
+  },
+  "Mitigation": {
+    "short_description": "The strategic reduction of harmful impacts through technological, behavioral, and systemic interventions."
+  },
+  "Adaptation": {
+    "short_description": "The evolutionary adjustment of socio-ecological systems to thrive within changing environmental conditions."
+  },
+  "Decarbonization": {
+    "short_description": "The systemic transition from carbon-intensive energy regimes to renewable flows aligning with planetary boundaries."
+  },
+  "Pollution": {
+    "short_description": "The introduction of disruptive substances/energies into ecosystems, degrading life-support systems across multiple scales."
+  },
+  "Greenhouse": {
+    "short_description": "The atmospheric process balancing planetary temperature through radiative forcing, now dangerously amplified."
+  },
+  "Commons": {
+    "short_description": "Shared natural resources requiring cooperative governance to prevent depletion through collective action dilemmas."
+  },
+  "Footprint": {
+    "short_description": "The measurable human demand on biospheric productivity relative to Earth's regenerative capacity."
+  },
+  "Permaculture": {
+    "short_description": "The design philosophy creating sustainable human habitats through emulation of ecological patterns and relationships."
+  },
+  "Justice": {
+    "short_description": "The equitable distribution of environmental benefits and burdens across human communities and generations."
+  },
+  "Rewilding": {
+    "short_description": "The conservation approach restoring self-regulating wilderness through keystone species reintroduction and connectivity."
+  },
+  "Tipping Points": {
+    "short_description": "Critical thresholds in Earth systems where incremental changes trigger irreversible regime shifts."
+  },
+  "Ecocide": {
+    "short_description": "The large-scale destruction of natural systems constituting crimes against planetary integrity and future life."
+  },
+  "Carrying Capacity": {
+    "short_description": "The maximum population supportable within ecosystem constraints through sustainable resource flows."
+  },
+  "Ecosystem Balance": {
+    "short_description": "The dynamic equilibrium maintained through feedback loops between biotic communities and abiotic factors."
+  },
+  "Green Networks": {
+    "short_description": "Interconnected natural corridors maintaining biodiversity and ecological services in human-dominated landscapes."
+  },
+  "Carbon Sink": {
+    "short_description": "Natural reservoirs absorbing atmospheric CO2 through biological and geochemical sequestration processes."
+  },
+  "Zero-Waste": {
+    "short_description": "The systemic elimination of disposal through circular material flows and regenerative product design."
+  },
+  "Ozone Layer": {
+    "short_description": "The stratospheric shield filtering harmful ultraviolet radiation through continuous oxygen cycle processes."
+  },
+  "Desertification": {
+    "short_description": "The degradation of arid ecosystems into barren landscapes through climatic and anthropogenic stressors."
+  },
+  "Deforestation": {
+    "short_description": "The large-scale conversion of forest ecosystems disrupting carbon cycles and biodiversity hotspots."
+  },
+  "Urban Sprawl": {
+    "short_description": "The uncontrolled expansion of built environments fragmenting ecological networks and resource bases."
+  },
+  "Coral Bleaching": {
+    "short_description": "The breakdown of marine symbiotic relationships indicating oceanic stress and ecosystem collapse thresholds."
+  }
+}

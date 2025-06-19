@@ -1,0 +1,50 @@
+{
+  "Parchment": {
+    "short_description": "A writing material made from animal skin, often used in the creation of codices due to its durability and smooth surface."
+  },
+  "Quill": {
+    "short_description": "A writing instrument made from a bird's feather, traditionally used to inscribe texts onto parchment or paper in codices."
+  },
+  "Ink": {
+    "short_description": "A liquid substance used for writing or drawing, available in various colors and formulations for artistic or textual purposes in codices."
+  },
+  "Illuminations": {
+    "short_description": "Decorative illustrations or designs found in codices, often featuring intricate patterns, colors, and sometimes gold or silver leaf."
+  },
+  "Calligraphy": {
+    "short_description": "The artistic practice of beautiful handwriting, used to enhance the aesthetic appeal and readability of texts within codices."
+  },
+  "Binding Techniques": {
+    "short_description": "Methods used to attach pages or sections together and to the cover of a codex, ensuring durability and facilitating handling."
+  },
+  "Leather Binding": {
+    "short_description": "A traditional method of attaching a cover made from leather to a codex, providing protection and a luxurious feel."
+  },
+  "Chain Stitch": {
+    "short_description": "A sewing technique used to bind pages together in a codex, characterized by a series of interlocking loops."
+  },
+  "Sewn Binding": {
+    "short_description": "A method of attaching pages together in a codex using thread, allowing for flexibility and durability."
+  },
+  "Conservation": {
+    "short_description": "The practice of preserving and restoring codices to maintain their condition and extend their lifespan."
+  },
+  "Restoration": {
+    "short_description": "The process of repairing or reconstructing damaged or deteriorated parts of a codex, often involving specialized techniques and materials."
+  },
+  "Storage Conditions": {
+    "short_description": "Environmental factors, such as temperature, humidity, and lighting, that affect the condition and longevity of codices."
+  },
+  "Cataloging": {
+    "short_description": "The systematic process of recording and organizing information about codices, facilitating their discovery and study."
+  },
+  "Indexing": {
+    "short_description": "The creation of detailed lists or indexes to facilitate navigation and reference within codices."
+  },
+  "Paleography": {
+    "short_description": "The study of ancient and historical writing systems, scripts, and handwriting styles found in codices."
+  },
+  "Codicology": {
+    "short_description": "The interdisciplinary study of codices, encompassing aspects of book history, material culture, and textual analysis."
+  }
+}

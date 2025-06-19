@@ -1,0 +1,65 @@
+{
+    "Vector": {
+        "short_description": "A quantity that has both magnitude and direction, often used in mathematics, physics, and computer graphics."
+    },
+    "Magnitude": {
+        "short_description": "The size or amount of a quantity, often a component of a vector."
+    },
+    "Direction": {
+        "short_description": "The orientation or path along which something moves or lies, often a component of a vector."
+    },
+    "Displacement": {
+        "short_description": "The change in position of an object, often represented as a vector."
+    },
+    "Velocity": {
+        "short_description": "The speed of something in a given direction, often represented as a vector."
+    },
+    "Acceleration": {
+        "short_description": "The rate of change of velocity of an object, often represented as a vector."
+    },
+    "Force": {
+        "short_description": "An interaction that, when unopposed, will change the motion of an object, often represented as a vector."
+    },
+    "Field": {
+        "short_description": "A region of space around a body or object in which a force is exerted, often involving vectors."
+    },
+    "Component": {
+        "short_description": "One of the parts that make up a whole, often referring to the individual parts of a vector."
+    },
+    "Resolution": {
+        "short_description": "The ability to distinguish between two closely spaced objects, often referring to the clarity of vector graphics."
+    },
+    "Path": {
+        "short_description": "The route or course taken in getting from one point to another, often described by a vector."
+    },
+    "Trajectory": {
+        "short_description": "The path that a moving object follows through space, often described by a vector."
+    },
+    "Gradient": {
+        "short_description": "A rate or vector of change in a scalar field, often involving vectors."
+    },
+    "Normal": {
+        "short_description": "A vector that is perpendicular to a surface or object, often used in physics and computer graphics."
+    },
+    "Tangent": {
+        "short_description": "A vector that touches a curve or surface at a single point without crossing it, often used in mathematics and physics."
+    },
+    "Span": {
+        "short_description": "The set of all possible linear combinations of a given set of vectors, often used in linear algebra."
+    },
+    "Norm": {
+        "short_description": "A function that assigns a strictly positive length or size to all vectors in a vector space, except for the zero vector."
+    },
+    "Orthogonality": {
+        "short_description": "The state of being perpendicular, often referring to vectors that are orthogonal to each other."
+    },
+    "Linear Independence": {
+        "short_description": "The property of a set of vectors where no vector in the set can be written as a linear combination of the others."
+    },
+    "Eigenvector": {
+        "short_description": "A special vector associated with a linear system of equations that, when multiplied by a matrix, results in a scalar multiple of itself."
+    },
+    "Eigenvalue": {
+        "short_description": "A scalar associated with a given linear transformation of a vector space and a corresponding eigenvector."
+    }
+}

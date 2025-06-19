@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "subj_integral_yoga_detailed_001",
+    "title": "Integral Yoga",
+    "description": "A progressive exploration of the core tenets, practices, and transformative aims of Integral Yoga as envisioned by Sri Aurobindo and The Mother.",
+    "sections": [
+      {
+        "heading": "The Call",
+        "topic_summary": "Life's deeper purpose.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_human_aspiration",
+            "summary": "The inherent human seeking for a greater Truth, Light, Bliss, and Immortality beyond ordinary existence."
+          }
+        ]
+      },
+      {
+        "heading": "The Problem",
+        "topic_summary": "Ignorance, suffering, division.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_problem_ignorance",
+            "summary": "The fundamental state of limited consciousness, separation from the Divine, and its consequences: suffering, falsehood, and death."
+          }
+        ]
+      },
+      {
+        "heading": "The Goal",
+        "topic_summary": "Divine life on Earth.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_goal_divine_life",
+            "summary": "Not merely individual liberation, but the transformation of human nature and the establishment of a divine life in a divine body upon Earth."
+          }
+        ]
+      },
+      {
+        "heading": "Sachchidananda",
+        "topic_summary": "Existence-Consciousness-Bliss Absolute.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_sachchidananda",
+            "summary": "The nature of the ultimate Reality: Sat (Existence), Chit (Consciousness-Force), Ananda (Bliss)."
+          }
+        ]
+      },
+      {
+        "heading": "Involution",
+        "topic_summary": "Spirit's descent into Matter.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_involution",
+            "summary": "The process by which the Divine Consciousness involves or veils itself in successive gradations, culminating in the apparent inconscience of Matter."
+          }
+        ]
+      },
+      {
+        "heading": "Evolution",
+        "topic_summary": "Matter's ascent to Spirit.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_evolution",
+            "summary": "The progressive emergence and unfolding of the involved Consciousness in Matter, through life and mind, towards its divine origin."
+          }
+        ]
+      },
+      {
+        "heading": "The Divine",
+        "topic_summary": "Supreme Reality, source, goal.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_the_divine",
+            "summary": "The ultimate, transcendent and immanent Reality; the Conscious Being who is the origin, support, and aim of all existence."
+          }
+        ]
+      },
+      {
+        "heading": "Consciousness",
+        "topic_summary": "Awareness, force, fundamental reality.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_consciousness",
+            "summary": "Not merely thought, but a fundamental reality and power (Chit-Tapas) that can be concentrated, expanded, and transformed."
+          }
+        ]
+      },
+      {
+        "heading": "The Supermind",
+        "topic_summary": "Truth-Consciousness, divine gnosis.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_supermind",
+            "summary": "The Divine's plenary self-knowledge and world-knowledge; a Truth-Consciousness that can directly manifest the Divine in life."
+          }
+        ]
+      },
+      {
+        "heading": "Outer Being",
+        "topic_summary": "Surface mind, life, body.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_outer_being",
+            "summary": "The instrumental nature composed of the ordinary mental, vital, and physical consciousness, typically governed by ignorance and ego."
+          }
+        ]
+      },
+      {
+        "heading": "Inner Being",
+        "topic_summary": "Subliminal mind, life, physical.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_inner_being",
+            "summary": "The larger, truer mental, vital, and subtle-physical consciousness behind the surface, open to universal forces and higher planes."
+          }
+        ]
+      },
+      {
+        "heading": "Psychic Being",
+        "topic_summary": "Evolving soul, Divine's deputy.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_psychic_being",
+            "summary": "The Chaitya Purusha, the soul-spark of the Divine within, growing through experiences and guiding the being towards the Divine."
+          }
+        ]
+      },
+      {
+        "heading": "Central Being",
+        "topic_summary": "Jivatman, eternal Self.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_central_being",
+            "summary": "The Jivatman, the true individual Self, eternally one with the Transcendent, presiding over the psychic being's evolution."
+          }
+        ]
+      },
+      {
+        "heading": "Ego",
+        "topic_summary": "Knot of separative consciousness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_ego",
+            "summary": "The sense of a separate self, a formation of nature based on ignorance, which is a primary obstacle to divine union."
+          }
+        ]
+      },
+      {
+        "heading": "Desire",
+        "topic_summary": "Vital craving, ego's demand.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_desire",
+            "summary": "The impulse of the vital being to possess, enjoy, or control, rooted in a sense of lack and separation."
+          }
+        ]
+      },
+      {
+        "heading": "Synthesis of Yogas",
+        "topic_summary": "Integrating Knowledge, Works, Love.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_synthesis_yogas",
+            "summary": "The core method of Integral Yoga, combining and transforming the traditional paths of Jnana (Knowledge), Karma (Works), and Bhakti (Love/Devotion)."
+          }
+        ]
+      },
+      {
+        "heading": "Yoga of Knowledge",
+        "topic_summary": "Realization through consciousness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_jnana_yoga",
+            "summary": "The path of realizing the Divine through purification and expansion of consciousness, discrimination, and meditation."
+          }
+        ]
+      },
+      {
+        "heading": "Yoga of Works",
+        "topic_summary": "Consecration of all action.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_karma_yoga",
+            "summary": "The path of offering all life-activities to the Divine, acting without desire for fruits, as an instrument of the Divine Will."
+          }
+        ]
+      },
+      {
+        "heading": "Yoga of Devotion",
+        "topic_summary": "Union through love, aspiration.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_bhakti_yoga",
+            "summary": "The path of uniting with the Divine through the heart's aspiration, love, worship, and consecration of emotions."
+          }
+        ]
+      },
+      {
+        "heading": "Aspiration",
+        "topic_summary": "Soul's upward call, intense.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_aspiration",
+            "summary": "The constant, ardent, and sincere call or will arising from the soul and heart for the Divine, Truth, and Transformation."
+          }
+        ]
+      },
+      {
+        "heading": "Rejection",
+        "topic_summary": "Refusal of lower movements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_rejection",
+            "summary": "The active dismissal of all that is undivine or an obstacle: egoism, desire, falsehood, doubt, negative vital impulses."
+          }
+        ]
+      },
+      {
+        "heading": "Surrender",
+        "topic_summary": "Self-giving to Divine Will.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_surrender",
+            "summary": "The progressive offering of one's entire being and life to the Divine (specifically the Divine Mother), allowing Her to guide and transform."
+          }
+        ]
+      },
+      {
+        "heading": "Psychic Transformation",
+        "topic_summary": "Soul governs outer nature.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_psychic_transformation",
+            "summary": "The emergence of the Psychic Being to the forefront, purifying and orienting the mind, vital, and physical towards the Divine."
+          }
+        ]
+      },
+      {
+        "heading": "Spiritual Transformation",
+        "topic_summary": "Ascent above mind, descent.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_spiritual_transformation",
+            "summary": "The ascent of consciousness to higher spiritual planes (Higher Mind, Illumined Mind, Intuition, Overmind) and the descent of their powers into the being."
+          }
+        ]
+      },
+      {
+        "heading": "Supramental Transformation",
+        "topic_summary": "Truth-Consciousness remakes nature.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_supramental_transformation",
+            "summary": "The ultimate stage: the descent and establishment of the Supermind, leading to a radical transformation of the entire being into a divine nature."
+          }
+        ]
+      },
+      {
+        "heading": "Peace (Shanti)",
+        "topic_summary": "Foundation of spiritual experience.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_peace",
+            "summary": "A deep, unshakable inner quietude and stillness, independent of outer circumstances; a basis for higher consciousness."
+          }
+        ]
+      },
+      {
+        "heading": "Calm (Sthirata)",
+        "topic_summary": "Steady, undisturbed poise.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_calm",
+            "summary": "A state of mental and vital stability that is not easily disturbed by impacts or internal movements."
+          }
+        ]
+      },
+      {
+        "heading": "Equality (Samata)",
+        "topic_summary": "Evenness amidst dualities.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_equality",
+            "summary": "Maintaining an inner equanimity and poise in the face of all dualities: pleasure/pain, success/failure, honor/dishonor."
+          }
+        ]
+      },
+      {
+        "heading": "Faith (Shraddha)",
+        "topic_summary": "Inner certitude, trust.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_faith",
+            "summary": "A dynamic inner certitude and trust in the Divine, the Divine Grace, and the truth of the spiritual path."
+          }
+        ]
+      },
+      {
+        "heading": "Divine Grace",
+        "topic_summary": "Supreme's help, transformative power.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_divine_grace",
+            "summary": "The compassionate intervention and power of the Divine that helps, guides, protects, and transforms the sadhaka."
+          }
+        ]
+      },
+      {
+        "heading": "Divine Love",
+        "topic_summary": "Self-existent, unitive force.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_divine_love",
+            "summary": "The intense, pure, and self-giving love for and from the Divine; a powerful force for union and transformation."
+          }
+        ]
+      },
+      {
+        "heading": "Truth",
+        "topic_summary": "Ultimate Reality, divine Law.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_truth",
+            "summary": "The essential Reality beyond appearances; the divine Law (Rita) governing existence. Living in Truth is a core aim."
+          }
+        ]
+      },
+      {
+        "heading": "Sincerity",
+        "topic_summary": "Integral adherence to Truth.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_sincerity",
+            "summary": "An integral and transparent alignment of all parts of the being with the central aspiration for the Divine and Truth."
+          }
+        ]
+      },
+      {
+        "heading": "Transformation of Mind",
+        "topic_summary": "From Ignorance to Light.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_transform_mind",
+            "summary": "The process of purifying the mind, silencing its habitual chatter, and opening it to higher levels of consciousness and illumination."
+          }
+        ]
+      },
+      {
+        "heading": "Transformation of Vital",
+        "topic_summary": "Desires to Divine Force.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_transform_vital",
+            "summary": "The purification and conversion of the life-energy (prana), desires, emotions, and impulses into a dynamic force for the Divine."
+          }
+        ]
+      },
+      {
+        "heading": "Transformation of Physical",
+        "topic_summary": "Body becomes Divine's instrument.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_transform_physical",
+            "summary": "The most difficult part: making the physical consciousness and even the body receptive to and an expression of the Divine Light and Force."
+          }
+        ]
+      },
+      {
+        "heading": "The Subconscient",
+        "topic_summary": "Hidden realm below consciousness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_subconscient",
+            "summary": "The part of the being below waking consciousness, storing past impressions, habits, and obscure forces that resist transformation."
+          }
+        ]
+      },
+      {
+        "heading": "The Inconscient",
+        "topic_summary": "Apparent negation of Consciousness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_inconscient",
+            "summary": "The ultimate basis of Matter, appearing as a total absence of Consciousness, yet holding the Divine involved within it."
+          }
+        ]
+      },
+      {
+        "heading": "Difficulties in Yoga",
+        "topic_summary": "Obstacles as opportunities.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_difficulties",
+            "summary": "Challenges, resistances, and attacks encountered in sadhana, viewed as tests and opportunities for strengthening aspiration and purification."
+          }
+        ]
+      },
+      {
+        "heading": "Hostile Forces",
+        "topic_summary": "Adversaries of Divine Work.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_hostile_forces",
+            "summary": "Universal forces that oppose the divine manifestation and seek to maintain ignorance, falsehood, and suffering."
+          }
+        ]
+      },
+      {
+        "heading": "The Divine Mother",
+        "topic_summary": "Executive Force, Divine Shakti.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_divine_mother",
+            "summary": "The Mahashakti, the Consciousness-Force of the Divine, who carries out the Yoga and transformation in the sadhaka."
+          }
+        ]
+      },
+      {
+        "heading": "Sri Aurobindo",
+        "topic_summary": "Avatar, guide, philosopher.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_sri_aurobindo",
+            "summary": "The formulator of Integral Yoga, providing the vision, knowledge, and force for the supramental manifestation."
+          }
+        ]
+      },
+      {
+        "heading": "Work as Offering",
+        "topic_summary": "Karma Yoga's core practice.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_work_offering",
+            "summary": "Performing all actions, regardless of their nature, as a consecrated offering to the Divine, without attachment to results."
+          }
+        ]
+      },
+      {
+        "heading": "Meditation",
+        "topic_summary": "Concentration, inner opening.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_meditation",
+            "summary": "Practices of focused attention, mental silence, and inner contemplation to quiet the mind and open to higher states of consciousness."
+          }
+        ]
+      },
+      {
+        "heading": "Self-Observation",
+        "topic_summary": "Witnessing inner movements.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_self_observation",
+            "summary": "Developing a detached awareness of one's thoughts, feelings, and impulses without identifying with them."
+          }
+        ]
+      },
+      {
+        "heading": "Silence",
+        "topic_summary": "Inner quiet, receptivity's space.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_silence",
+            "summary": "Not just absence of outer noise, but a profound mental and vital stillness, essential for receiving higher guidance and force."
+          }
+        ]
+      },
+      {
+        "heading": "Vigilance",
+        "topic_summary": "Constant awareness, guard against.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_vigilance",
+            "summary": "Maintaining a constant state of self-awareness and alertness to discern and reject wrong movements or suggestions."
+          }
+        ]
+      },
+      {
+        "heading": "Perseverance",
+        "topic_summary": "Steady effort despite obstacles.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_perseverance",
+            "summary": "The quality of sustained effort and unwavering will in the face of difficulties, delays, or apparent failures in sadhana."
+          }
+        ]
+      },
+      {
+        "heading": "Gratitude",
+        "topic_summary": "Recognition of Divine's help.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_gratitude",
+            "summary": "A heartfelt recognition and appreciation for the Divine's constant help, grace, and guidance in all circumstances."
+          }
+        ]
+      },
+      {
+        "heading": "Humility",
+        "topic_summary": "Recognition of Divine's greatness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_humility",
+            "summary": "The understanding that the individual self is nothing without the Divine; an absence of egoistic pride and self-assertion."
+          }
+        ]
+      },
+      {
+        "heading": "The Gnostic Being",
+        "topic_summary": "Supramental individual, divine life.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_gnostic_being",
+            "summary": "The individual who has achieved supramental transformation, living a life of truth, unity, and divine consciousness on Earth."
+          }
+        ]
+      },
+      {
+        "heading": "The Divine Body",
+        "topic_summary": "Physical transformed by Supermind.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_divine_body",
+            "summary": "The ultimate aim for the physical: a body transformed by the Supramental Force, free from disease, decay, and death, capable of expressing divine qualities."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Perfection",
+        "topic_summary": "Harmonizing all being parts.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_integral_perfection",
+            "summary": "The harmonious perfection of all parts of the being – mental, vital, physical, psychic – around the divine center."
+          }
+        ]
+      },
+      {
+        "heading": "Collective Yoga",
+        "topic_summary": "Spiritual effort for Earth.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_collective_yoga",
+            "summary": "The understanding that individual sadhana contributes to a larger, collective spiritual evolution and the transformation of Earth-consciousness."
+          }
+        ]
+      },
+      {
+        "heading": "Auroville",
+        "topic_summary": "City of Dawn, human unity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_auroville",
+            "summary": "The international township founded by The Mother as a place for collective experimentation in actualizing human unity and a divine life."
+          }
+        ]
+      },
+      {
+        "heading": "Higher Mind",
+        "topic_summary": "Thought from spiritual plane.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_higher_mind",
+            "summary": "A plane of consciousness above the ordinary thinking mind, characterized by global thought, conceptual spiritual knowledge, and direct ideation."
+          }
+        ]
+      },
+      {
+        "heading": "Illumined Mind",
+        "topic_summary": "Spiritual light, inner vision.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_illumined_mind",
+            "summary": "A plane of consciousness above Higher Mind, characterized by an influx of spiritual light, direct vision, and truth-seeing through illumination."
+          }
+        ]
+      },
+      {
+        "heading": "Intuitive Mind (Intuition)",
+        "topic_summary": "Direct truth-perception flashes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_intuitive_mind",
+            "summary": "A plane of consciousness above Illumined Mind, characterized by direct, intimate contact with truth through flashes of intuitive knowledge and revelatory insight."
+          }
+        ]
+      },
+      {
+        "heading": "Overmind",
+        "topic_summary": "Cosmic consciousness gateway.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_overmind",
+            "summary": "The highest plane of the mental hemisphere, a global consciousness of cosmic gods and forces, capable of holding multiple truths in harmony; the gateway to the Supermind."
+          }
+        ]
+      },
+      {
+        "heading": "Subtle Physical",
+        "topic_summary": "Inner body, life-force sheath.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_subtle_physical",
+            "summary": "The plane of consciousness closest to the material, forming a subtle-physical body that underlies and supports the gross physical form."
+          }
+        ]
+      },
+      {
+        "heading": "True Vital Being",
+        "topic_summary": "Purified life-energy, dynamism.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_true_vital",
+            "summary": "The essential vital being, when purified from desire and ego, becomes a powerful, dynamic instrument of the Divine Will and Life-Force."
+          }
+        ]
+      },
+      {
+        "heading": "True Mental Being",
+        "topic_summary": "Mind of light, silent.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_true_mental",
+            "summary": "The essential mental being, when stilled and purified, becomes a channel for higher knowledge, intuition, and silent spiritual thought."
+          }
+        ]
+      },
+      {
+        "heading": "True Physical Being",
+        "topic_summary": "Conscious, receptive body.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_true_physical",
+            "summary": "The essential physical consciousness, when opened and transformed, becomes a stable, receptive, and conscious basis for divine manifestation."
+          }
+        ]
+      },
+      {
+        "heading": "Transcendent Divine",
+        "topic_summary": "Beyond all manifestation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_transcendent_divine",
+            "summary": "The aspect of the Divine that is beyond all creation, manifestation, and individual or cosmic consciousness; the ultimate Unmanifest."
+          }
+        ]
+      },
+      {
+        "heading": "Universal Divine",
+        "topic_summary": "Divine pervading cosmos.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_universal_divine",
+            "summary": "The aspect of the Divine that is immanent in and pervades the entire cosmos, as the Self and Spirit of all beings and things."
+          }
+        ]
+      },
+      {
+        "heading": "Individual Divine",
+        "topic_summary": "Divine within each being.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_individual_divine",
+            "summary": "The aspect of the Divine that is present as the inmost Self (Atman) and evolving soul (Psychic Being) within each individual."
+          }
+        ]
+      },
+      {
+        "heading": "Divine Shakti",
+        "topic_summary": "Consciousness-Force executing Will.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_divine_shakti",
+            "summary": "The dynamic Consciousness-Force or Power of the Divine, the executive energy that creates, sustains, and transforms the universe and carries out the Yoga."
+          }
+        ]
+      },
+      {
+        "heading": "Lila",
+        "topic_summary": "Cosmic play of Divine.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_lila",
+            "summary": "The concept of the universe as a divine 'play' or 'sport' of the Absolute, an expression of its infinite potentialities and delight."
+          }
+        ]
+      },
+      {
+        "heading": "One and Many",
+        "topic_summary": "Unity in multiplicity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_one_many",
+            "summary": "The philosophical understanding that the ultimate Reality is One, yet manifests as the diverse Many, without losing its essential unity."
+          }
+        ]
+      },
+      {
+        "heading": "Ishwara-Shakti",
+        "topic_summary": "Lord and His Power.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_ishwara_shakti",
+            "summary": "The dual aspect of the Divine as the conscious Lord (Ishwara) and His inherent dynamic Power (Shakti), inseparable in manifestation."
+          }
+        ]
+      },
+      {
+        "heading": "Brahman: Static/Dynamic",
+        "topic_summary": "Silent Self, Active Power.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_brahman_static_dynamic",
+            "summary": "The two aspects of Brahman: the static, silent, immutable Self (Akshara Brahman) and the dynamic, active, creative Power (Kshara Brahman or Shakti)."
+          }
+        ]
+      },
+      {
+        "heading": "Opening (Receptivity)",
+        "topic_summary": "Allowing Divine to work.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_opening",
+            "summary": "The state of being receptive and open to the Divine Influence, Light, Force, and Grace, allowing it to work within the being."
+          }
+        ]
+      },
+      {
+        "heading": "Plasticity (Spiritual)",
+        "topic_summary": "Adaptability to Divine Force.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_plasticity",
+            "summary": "The capacity of the mind, vital, and physical nature to be malleable and adaptable to the workings of the Divine Force for transformation."
+          }
+        ]
+      },
+      {
+        "heading": "Endurance (Spiritual)",
+        "topic_summary": "Steadfastness through trials.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_endurance",
+            "summary": "The spiritual capacity to remain steadfast and persevere through prolonged difficulties, pressures, and ordeals in sadhana."
+          }
+        ]
+      },
+      {
+        "heading": "Patience (Spiritual)",
+        "topic_summary": "Trust in Divine timing.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_patience_spiritual",
+            "summary": "The quality of calm waiting and trust in the Divine's timing and process, without anxiety or impatience for results."
+          }
+        ]
+      },
+      {
+        "heading": "Courage (Spiritual)",
+        "topic_summary": "Facing inner, outer foes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_courage_spiritual",
+            "summary": "The strength and fearlessness to face inner resistances (ego, desire) and outer oppositions or hostile forces on the spiritual path."
+          }
+        ]
+      },
+      {
+        "heading": "Self-Giving",
+        "topic_summary": "Total offering of being.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_self_giving",
+            "summary": "The act of offering all parts of one's being—thoughts, feelings, actions, will—to the Divine without reservation or demand."
+          }
+        ]
+      },
+      {
+        "heading": "Consecration (Detailed)",
+        "topic_summary": "Dedicating all to Divine.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_consecration_detailed",
+            "summary": "The methodical practice of dedicating every movement, activity, and part of the being to the Divine, making life itself a Yoga."
+          }
+        ]
+      },
+      {
+        "heading": "Purification (Chitta Shuddhi)",
+        "topic_summary": "Cleansing inner instrument.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_purification",
+            "summary": "The process of cleansing the mind-stuff (chitta) of impurities like egoism, desire, attachments, and negative emotions to make it fit for spiritual realization."
+          }
+        ]
+      },
+      {
+        "heading": "Concentration (Dharana)",
+        "topic_summary": "Focused mental attention.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_dharana",
+            "summary": "The practice of fixing the mind on a single point or object of concentration, a key preliminary for meditation."
+          }
+        ]
+      },
+      {
+        "heading": "Samyama",
+        "topic_summary": "Concentration, meditation, absorption.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_samyama",
+            "summary": "In Patanjali's Yoga, the combined practice of Dharana (concentration), Dhyana (meditation), and Samadhi (absorption) on a single object."
+          }
+        ]
+      },
+      {
+        "heading": "Detachment (Anasakti)",
+        "topic_summary": "Freedom from ego-attachments.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_detachment",
+            "summary": "The state of being free from attachment to worldly objects, outcomes, or egoistic desires; a key aspect of Vairagya."
+          }
+        ]
+      },
+      {
+        "heading": "Witness Attitude (Sakshi)",
+        "topic_summary": "Observing without identification.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_witness_attitude",
+            "summary": "Cultivating the stance of a detached observer (Sakshi) of one's own thoughts, emotions, and actions without identifying with them."
+          }
+        ]
+      },
+      {
+        "heading": "Inner Guide (Antaryamin)",
+        "topic_summary": "Indwelling Divine guidance.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_inner_guide",
+            "summary": "The 'Indweller' or 'Inner Controller'; the Divine presence within that guides the soul from within, often felt through the Psychic Being."
+          }
+        ]
+      },
+      {
+        "heading": "Divine Will",
+        "topic_summary": "Recognizing, aligning with It.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_divine_will",
+            "summary": "The ultimate intention and dynamic action of the Divine in the cosmos and in the individual; aligning one's personal will with it is a key to Yoga."
+          }
+        ]
+      },
+      {
+        "heading": "Nature of Progress",
+        "topic_summary": "Spiritual growth patterns.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_nature_of_progress",
+            "summary": "Understanding that spiritual progress is often not linear but involves periods of ascent, descent, assimilation, and overcoming obstacles."
+          }
+        ]
+      },
+      {
+        "heading": "Spiritual Experiences",
+        "topic_summary": "Validation and pitfalls.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_spiritual_experiences",
+            "summary": "The nature of various spiritual experiences, their role in sadhana, how to validate them, and potential pitfalls like ego-inflation or misinterpretation."
+          }
+        ]
+      },
+      {
+        "heading": "Obstacles in Yoga",
+        "topic_summary": "Inner, outer resistances detailed.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_obstacles_detailed",
+            "summary": "A deeper look into common obstacles in Integral Yoga, such as inertia, doubt, vital revolt, mental rigidity, and external difficulties."
+          }
+        ]
+      },
+      {
+        "heading": "Descent & Ascent",
+        "topic_summary": "Dual movement of Force.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_descent_ascent",
+            "summary": "The dual process in Integral Yoga: the ascent of individual consciousness to higher planes and the descent of Divine Consciousness and Force to transform the lower nature."
+          }
+        ]
+      },
+      {
+        "heading": "Psychicisation",
+        "topic_summary": "Soul's influence transforming nature.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_psychicisation_process",
+            "summary": "The detailed process of the Psychic Being coming forward to influence and govern the mind, life, and body, infusing them with its qualities."
+          }
+        ]
+      },
+      {
+        "heading": "Spiritualisation",
+        "topic_summary": "Infusion of higher consciousness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_spiritualisation_process",
+            "summary": "The process by which the being is infused with the peace, light, power, and vastness of the higher spiritual planes of consciousness."
+          }
+        ]
+      },
+      {
+        "heading": "Supramentalisation",
+        "topic_summary": "Radical Truth-Consciousness action.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_topic_supramentalisation_process",
+            "summary": "The ultimate transformation where the Supramental Truth-Consciousness descends and acts directly to divinize the entire mental, vital, and physical nature."
+          }
+        ]
+      },
+      {
+        "heading": "Sevenfold Ignorance",
+        "topic_summary": "Veils obscuring Reality.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_concept_sevenfold_ignorance",
+            "summary": "Sri Aurobindo's analysis of the seven fundamental forms of cosmic and individual ignorance that Integral Yoga seeks to overcome."
+          }
+        ]
+      },
+      {
+        "heading": "Triple Cord of Bondage",
+        "topic_summary": "Ego, Desire, Ignorance knot.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_concept_triple_cord",
+            "summary": "The fundamental knots of ego, desire, and ignorance that bind the soul to the lower nature and prevent divine realization."
+          }
+        ]
+      },
+      {
+        "heading": "Overcoming Ego (Detailed)",
+        "topic_summary": "Process of ego dissolution.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_practice_overcoming_ego",
+            "summary": "Practical methods and stages in the dissolution of the ego-sense, a central aim of Integral Yoga."
+          }
+        ]
+      },
+      {
+        "heading": "Transformation of Desire",
+        "topic_summary": "Vital energies to Divine.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_process_transform_desire",
+            "summary": "The conversion of the vital being's desires and impulses from egoistic cravings into a consecrated force for the Divine."
+          }
+        ]
+      },
+      {
+        "heading": "Physical Consciousness",
+        "topic_summary": "Body's mind, transformation.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_concept_physical_consciousness",
+            "summary": "The consciousness inherent in the physical body itself, its habits, inertia, and its potential for transformation and receptivity to spiritual force."
+          }
+        ]
+      },
+      {
+        "heading": "Cellular Consciousness",
+        "topic_summary": "Yoga in body's cells.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_concept_cellular_consciousness",
+            "summary": "The Mother's exploration of a yoga acting directly on the consciousness within the cells of the body for radical physical transformation."
+          }
+        ]
+      },
+      {
+        "heading": "Sleep & Dreams (Yoga)",
+        "topic_summary": "Consciousness in other states.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_practice_sleep_dreams",
+            "summary": "Understanding and utilizing the states of sleep and dream from a yogic perspective for inner exploration and progress."
+          }
+        ]
+      },
+      {
+        "heading": "Death & After (Yoga)",
+        "topic_summary": "Soul's journey, rebirth.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_concept_death_after",
+            "summary": "The Integral Yoga perspective on death as a transition, the soul's journey after leaving the body, and the process of rebirth."
+          }
+        ]
+      },
+      {
+        "heading": "The Life Divine (Text)",
+        "topic_summary": "Metaphysical magnum opus.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_text_life_divine_detailed",
+            "summary": "Sri Aurobindo's principal philosophical work, elaborating the metaphysical foundations, evolutionary vision, and transformative goal of Integral Yoga."
+          }
+        ]
+      },
+      {
+        "heading": "Synthesis of Yoga (Text)",
+        "topic_summary": "Practical yogic framework.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_text_synthesis_detailed",
+            "summary": "Sri Aurobindo's comprehensive exposition of the methods and principles of Integral Yoga, detailing the paths of Works, Knowledge, Love, and Self-Perfection."
+          }
+        ]
+      },
+      {
+        "heading": "Savitri (Spiritual Document)",
+        "topic_summary": "Epic poem of consciousness.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_text_savitri_detailed",
+            "summary": "Sri Aurobindo's epic spiritual poem, a symbolic narrative of the human soul's journey and the conquest of death by divine love and power."
+          }
+        ]
+      },
+      {
+        "heading": "The Mother's Agenda",
+        "topic_summary": "Record of supramental yoga.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_text_agenda_detailed",
+            "summary": "A 13-volume record of The Mother's conversations, chronicling her experiences in the yoga of cellular transformation and the supramental descent."
+          }
+        ]
+      },
+      {
+        "heading": "New Race (Supramental)",
+        "topic_summary": "Future gnostic humanity.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_vision_new_race",
+            "summary": "The vision of a future humanity transformed by the Supermind, a 'gnostic race' living a divine life of truth, harmony, and unity on Earth."
+          }
+        ]
+      },
+      {
+        "heading": "Evolution of Consciousness",
+        "topic_summary": "Cosmic, individual unfolding.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_vision_evolution_consciousness",
+            "summary": "The central theme of an ongoing evolution of consciousness in the cosmos and in the individual, from inconscience towards the Supermind."
+          }
+        ]
+      },
+      {
+        "heading": "Integral Education",
+        "topic_summary": "Holistic development principles.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "iy_application_education",
+            "summary": "Principles of education based on Integral Yoga, aiming for the harmonious and integral development of all parts of the being: physical, vital, mental, psychic, and spiritual."
+          }
+        ]
+      }
+    ]
+  }
+]
+

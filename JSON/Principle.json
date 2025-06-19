@@ -1,0 +1,107 @@
+{
+  "First": {
+    "short_description": "Foundational truth or axiom from which other principles derive."
+  },
+  "Organizing": {
+    "short_description": "Pattern or law that structures relationships and arrangements."
+  },
+  "Governing": {
+    "short_description": "Rule or law that controls behavior or development of systems."
+  },
+  "Causal": {
+    "short_description": "Pattern determining how causes produce effects in any domain."
+  },
+  "Formative": {
+    "short_description": "Pattern that shapes development and manifestation of forms."
+  },
+  "Operative": {
+    "short_description": "Pattern determining how processes and operations function."
+  },
+  "Creative": {
+    "short_description": "Pattern governing how new forms and realities come into being."
+  },
+  "Integrative": {
+    "short_description": "Pattern that unifies and harmonizes different elements."
+  },
+  "Archetypal": {
+    "short_description": "Primordial pattern expressing fundamental nature of reality."
+  },
+  "Universal": {
+    "short_description": "Pattern that operates consistently across all domains."
+  },
+  "Metaphysical": {
+    "short_description": "Pattern governing fundamental nature of reality and being."
+  },
+  "Logos": {
+    "short_description": "Pattern expressing divine reason and creative order."
+  },
+  "Dialectical": {
+    "short_description": "Pattern of development through opposition and synthesis."
+  },
+  "Cyclic": {
+    "short_description": "Pattern of recurring phases and transformations."
+  },
+  "Hierarchical": {
+    "short_description": "Pattern organizing reality in graduated levels of manifestation."
+  },
+  "Emanative": {
+    "short_description": "Pattern by which reality proceeds from higher to lower levels."
+  },
+  "Transcendent": {
+    "short_description": "Pattern that operates beyond normal limitations."
+  },
+  "Immanent": {
+    "short_description": "Pattern inherent within and pervading manifestation."
+  },
+  "Dynamic": {
+    "short_description": "Pattern governing change and transformation."
+  },
+  "Static": {
+    "short_description": "Pattern maintaining stability and permanence."
+  },
+  "Recursive": {
+    "short_description": "Pattern that applies to itself at different scales."
+  },
+  "Reflective": {
+    "short_description": "Pattern mirroring between different levels of reality."
+  },
+  "Generative": {
+    "short_description": "Pattern producing new forms and manifestations."
+  },
+  "Limiting": {
+    "short_description": "Pattern defining boundaries and constraints."
+  },
+  "Mediating": {
+    "short_description": "Pattern connecting different levels or domains."
+  },
+  "Regulatory": {
+    "short_description": "Pattern maintaining balance and proper function."
+  },
+  "Teleological": {
+    "short_description": "Pattern directing development toward specific ends."
+  },
+  "Analogical": {
+    "short_description": "Pattern of correspondence between different domains."
+  },
+  "Holistic": {
+    "short_description": "Pattern relating parts to wholes across reality."
+  },
+  "Complementary": {
+    "short_description": "Pattern of mutual completion between opposites."
+  },
+  "Resonant": {
+    "short_description": "Pattern of harmonic influence between similar forms."
+  },
+  "Evolutionary": {
+    "short_description": "Pattern of progressive development and complexification."
+  },
+  "Involutionary": {
+    "short_description": "Pattern of descent from higher to more limited states."
+  },
+  "Equilibrial": {
+    "short_description": "Pattern maintaining dynamic balance in systems."
+  },
+  "Synchronic": {
+    "short_description": "Pattern coordinating events and meanings in time."
+  }
+}

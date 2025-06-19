@@ -1,0 +1,571 @@
+[
+  {
+    "id": "subj_mathematics_journey_001",
+    "title": "Mathematics",
+    "description": "A comprehensive journey through mathematical concepts, ordered by typical learning progression, from foundational ideas to advanced topics.",
+    "sections": [
+      {
+        "heading": "Counting",
+        "topic_summary": "Assigning numbers to objects.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_counting",
+            "summary": "Understanding the concept of quantity and the process of enumerating items one by one to determine a total."
+          }
+        ]
+      },
+      {
+        "heading": "Number Recognition",
+        "topic_summary": "Identifying numeral symbols.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_num_recognition",
+            "summary": "The ability to identify and name written numerals (e.g., '3', '7', '12') and connect them to their quantities."
+          }
+        ]
+      },
+      {
+        "heading": "Comparing Numbers",
+        "topic_summary": "More, less, or equal.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_comparing_nums",
+            "summary": "Determining relationships between quantities, such as greater than, less than, or equal to."
+          }
+        ]
+      },
+      {
+        "heading": "Basic Shapes",
+        "topic_summary": "Circles, squares, triangles.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_basic_shapes",
+            "summary": "Identifying and describing common two-dimensional geometric shapes like circles, squares, triangles, and rectangles."
+          }
+        ]
+      },
+      {
+        "heading": "Simple Patterns",
+        "topic_summary": "Repeating sequences, predicting next.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_simple_patterns",
+            "summary": "Recognizing, describing, and extending simple repeating sequences of objects, colors, or numbers."
+          }
+        ]
+      },
+      {
+        "heading": "Addition: Concept",
+        "topic_summary": "Combining quantities together.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_addition_concept",
+            "summary": "Understanding addition as the process of combining sets of objects or numbers to find a total sum."
+          }
+        ]
+      },
+      {
+        "heading": "Subtraction: Concept",
+        "topic_summary": "Taking away, finding difference.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_subtraction_concept",
+            "summary": "Understanding subtraction as taking away a quantity from another, finding the difference, or determining 'how many more'."
+          }
+        ]
+      },
+      {
+        "heading": "Place Value: Tens & Ones",
+        "topic_summary": "Value based on position.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_place_value_tens",
+            "summary": "Understanding that the position of a digit in a two-digit number represents amounts of tens and ones."
+          }
+        ]
+      },
+      {
+        "heading": "Measurement: Length (Non-Std)",
+        "topic_summary": "Comparing lengths directly.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_measure_len_nonstd",
+            "summary": "Comparing and ordering objects by length using non-standard units (e.g., paperclips, hands) or direct comparison."
+          }
+        ]
+      },
+      {
+        "heading": "Measurement: Time (Basic)",
+        "topic_summary": "Day, night, hour, half-hour.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_measure_time_basic",
+            "summary": "Basic concepts of time, including parts of the day, days of the week, and telling time to the hour and half-hour on an analog clock."
+          }
+        ]
+      },
+      {
+        "heading": "Multiplication: Concept",
+        "topic_summary": "Repeated addition, arrays.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_multiplication_concept",
+            "summary": "Understanding multiplication as repeated addition, equal groups, or the area of arrays."
+          }
+        ]
+      },
+      {
+        "heading": "Division: Concept",
+        "topic_summary": "Sharing equally, grouping.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_division_concept",
+            "summary": "Understanding division as sharing a quantity into equal groups or finding how many equal groups can be made."
+          }
+        ]
+      },
+      {
+        "heading": "Fractions: Unit Fractions",
+        "topic_summary": "One part of a whole.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_fractions_unit",
+            "summary": "Introducing fractions as equal parts of a whole, focusing on unit fractions (e.g., 1/2, 1/3, 1/4)."
+          }
+        ]
+      },
+      {
+        "heading": "Place Value: Hundreds+",
+        "topic_summary": "Extending to larger numbers.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_place_value_hundreds",
+            "summary": "Understanding place value for three-digit numbers and beyond, including hundreds, thousands."
+          }
+        ]
+      },
+      {
+        "heading": "Measurement: Standard Units",
+        "topic_summary": "Inches, feet, cm, meters.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_measure_std_units",
+            "summary": "Using standard units to measure length (e.g., inches, feet, centimeters, meters) and weight/mass (e.g., pounds, kilograms)."
+          }
+        ]
+      },
+      {
+        "heading": "Area & Perimeter: Basics",
+        "topic_summary": "Space inside, distance around.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_area_perimeter_basics",
+            "summary": "Introducing area as the measure of space inside a 2D shape and perimeter as the distance around its boundary, typically for rectangles."
+          }
+        ]
+      },
+      {
+        "heading": "Data Analysis: Basic Graphs",
+        "topic_summary": "Picture, bar graphs, tally.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_data_basic_graphs",
+            "summary": "Collecting, organizing, and representing data using simple picture graphs, bar graphs, and tally charts."
+          }
+        ]
+      },
+      {
+        "heading": "Decimals: Introduction",
+        "topic_summary": "Parts of whole (tenths, hundredths).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_decimals_intro",
+            "summary": "Introducing decimals as another way to represent parts of a whole, focusing on tenths and hundredths and their relation to fractions."
+          }
+        ]
+      },
+      {
+        "heading": "Fractions: Equivalence & Compare",
+        "topic_summary": "Same value, different forms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_fractions_equiv_compare",
+            "summary": "Understanding equivalent fractions (e.g., 1/2 = 2/4) and comparing fractions with like or unlike denominators."
+          }
+        ]
+      },
+      {
+        "heading": "Fractions: Add & Subtract",
+        "topic_summary": "Combining, taking away fractions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_fractions_add_subtract",
+            "summary": "Adding and subtracting fractions, typically starting with like denominators and then progressing to unlike denominators."
+          }
+        ]
+      },
+      {
+        "heading": "Decimals: Operations",
+        "topic_summary": "Add, subtract, multiply, divide.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_decimals_ops",
+            "summary": "Performing addition, subtraction, multiplication, and division with decimal numbers."
+          }
+        ]
+      },
+      {
+        "heading": "Order of Operations (PEMDAS)",
+        "topic_summary": "Rules for calculation sequence.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_order_ops",
+            "summary": "Understanding and applying the conventional order for performing arithmetic operations (Parentheses, Exponents, Multiplication/Division, Addition/Subtraction)."
+          }
+        ]
+      },
+      {
+        "heading": "Ratios & Proportions",
+        "topic_summary": "Comparing quantities; equal ratios.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_ratios_proportions",
+            "summary": "Understanding ratios as a comparison of two quantities and proportions as a statement that two ratios are equal. Solving proportion problems."
+          }
+        ]
+      },
+      {
+        "heading": "Percentages",
+        "topic_summary": "Parts per hundred.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_percentages",
+            "summary": "Understanding percentages as a way to represent parts of a whole per hundred, and converting between percentages, fractions, and decimals."
+          }
+        ]
+      },
+      {
+        "heading": "Negative Numbers",
+        "topic_summary": "Values less than zero.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_negative_numbers",
+            "summary": "Introducing integers less than zero, their representation on a number line, and basic operations involving them."
+          }
+        ]
+      },
+      {
+        "heading": "Coordinate Plane: Quadrants",
+        "topic_summary": "Plotting points (x, y).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_coordinate_plane",
+            "summary": "Introducing the Cartesian coordinate system with x and y axes, four quadrants, and plotting ordered pairs (x, y)."
+          }
+        ]
+      },
+      {
+        "heading": "Variables & Expressions",
+        "topic_summary": "Symbols for unknown values.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_variables_expressions",
+            "summary": "Using letters (variables) to represent unknown numbers and writing algebraic expressions involving variables and operations."
+          }
+        ]
+      },
+      {
+        "heading": "Solving Equations: One-Step",
+        "topic_summary": "Finding unknown variable value.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_equations_one_step",
+            "summary": "Solving simple linear equations in one variable using inverse operations (e.g., x + 5 = 10)."
+          }
+        ]
+      },
+      {
+        "heading": "Linear Equations: Graphing",
+        "topic_summary": "Visualizing y = mx + b.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_linear_eq_graphing",
+            "summary": "Understanding the relationship between linear equations in two variables and their straight-line graphs on the coordinate plane; slope and y-intercept."
+          }
+        ]
+      },
+      {
+        "heading": "Inequalities",
+        "topic_summary": "Greater/less than relationships.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_inequalities",
+            "summary": "Solving and graphing linear inequalities in one variable, and understanding inequality symbols."
+          }
+        ]
+      },
+      {
+        "heading": "Systems of Equations",
+        "topic_summary": "Solving multiple equations together.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_systems_equations",
+            "summary": "Solving systems of two linear equations with two variables using methods like substitution or elimination."
+          }
+        ]
+      },
+      {
+        "heading": "Polynomials: Operations",
+        "topic_summary": "Add, subtract, multiply polynomials.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_polynomials_ops",
+            "summary": "Performing addition, subtraction, and multiplication of polynomial expressions."
+          }
+        ]
+      },
+      {
+        "heading": "Factoring Polynomials",
+        "topic_summary": "Finding polynomial components.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_factoring_polynomials",
+            "summary": "Factoring polynomials, including greatest common factor, difference of squares, and trinomials."
+          }
+        ]
+      },
+      {
+        "heading": "Quadratic Equations",
+        "topic_summary": "Solving ax²+bx+c=0 equations.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_quadratic_equations",
+            "summary": "Solving quadratic equations by factoring, completing the square, and using the quadratic formula."
+          }
+        ]
+      },
+      {
+        "heading": "Functions: Definition & Notation",
+        "topic_summary": "Input-output relationships, f(x).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_functions_def",
+            "summary": "Understanding functions as rules that assign a unique output to each input; using function notation f(x)."
+          }
+        ]
+      },
+      {
+        "heading": "Geometry: Points & Lines",
+        "topic_summary": "Basic undefined geometric terms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_geometry_points_lines",
+            "summary": "Understanding points, lines, segments, rays, and planes as fundamental building blocks of geometry."
+          }
+        ]
+      },
+      {
+        "heading": "Angles: Types & Measure",
+        "topic_summary": "Acute, obtuse, right, straight.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_angles_types_measure",
+            "summary": "Classifying angles (acute, obtuse, right, straight, reflex) and measuring angles in degrees."
+          }
+        ]
+      },
+      {
+        "heading": "Triangles: Classification",
+        "topic_summary": "By sides and angles.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_triangles_classification",
+            "summary": "Classifying triangles based on their side lengths (scalene, isosceles, equilateral) and angle measures (acute, obtuse, right)."
+          }
+        ]
+      },
+      {
+        "heading": "Congruence & Similarity",
+        "topic_summary": "Same shape/size; same shape.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_congruence_similarity",
+            "summary": "Understanding congruence (same size and shape) and similarity (same shape, proportional sizes) in geometric figures."
+          }
+        ]
+      },
+      {
+        "heading": "Pythagorean Theorem",
+        "topic_summary": "Right triangle side relationship.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_pythagorean_theorem",
+            "summary": "Applying the theorem a² + b² = c² to find unknown side lengths in right triangles."
+          }
+        ]
+      },
+      {
+        "heading": "Circles: Terminology",
+        "topic_summary": "Radius, diameter, circumference, area.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_circles_terminology",
+            "summary": "Understanding key terms related to circles (radius, diameter, chord, tangent, secant) and formulas for circumference and area."
+          }
+        ]
+      },
+      {
+        "heading": "Volume: Basic Solids",
+        "topic_summary": "Space in 3D shapes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_volume_solids",
+            "summary": "Calculating the volume of basic three-dimensional shapes like prisms, cylinders, pyramids, cones, and spheres."
+          }
+        ]
+      },
+      {
+        "heading": "Trigonometry: Ratios",
+        "topic_summary": "Sine, cosine, tangent (SOHCAHTOA).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_trig_ratios",
+            "summary": "Defining and using the basic trigonometric ratios (sine, cosine, tangent) in right triangles to find unknown sides or angles."
+          }
+        ]
+      },
+      {
+        "heading": "Exponential Functions",
+        "topic_summary": "Growth and decay patterns.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_exponential_functions",
+            "summary": "Understanding functions of the form y = ab^x, representing exponential growth or decay."
+          }
+        ]
+      },
+      {
+        "heading": "Logarithmic Functions",
+        "topic_summary": "Inverse of exponential functions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_logarithmic_functions",
+            "summary": "Understanding logarithms as the inverse of exponentiation; properties and graphs of logarithmic functions."
+          }
+        ]
+      },
+      {
+        "heading": "Sequences & Series",
+        "topic_summary": "Ordered lists; sum of terms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_sequences_series",
+            "summary": "Understanding arithmetic and geometric sequences and series, and formulas for their terms and sums."
+          }
+        ]
+      },
+      {
+        "heading": "Probability: Basic",
+        "topic_summary": "Likelihood of events.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_probability_basic",
+            "summary": "Calculating the probability of simple events, understanding sample spaces, and basic probability rules."
+          }
+        ]
+      },
+      {
+        "heading": "Statistics: Basic Measures",
+        "topic_summary": "Mean, median, mode, range.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_statistics_basic",
+            "summary": "Calculating and interpreting measures of central tendency (mean, median, mode) and spread (range) for data sets."
+          }
+        ]
+      },
+      {
+        "heading": "Limits: Intuitive",
+        "topic_summary": "Approaching a value.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_limits_intuitive",
+            "summary": "An intuitive introduction to the concept of a limit, exploring how function values behave as the input approaches a certain point."
+          }
+        ]
+      },
+      {
+        "heading": "Derivatives: Concept",
+        "topic_summary": "Instantaneous rate of change.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_derivatives_concept",
+            "summary": "Understanding the derivative as the instantaneous rate of change of a function, or the slope of the tangent line to its graph."
+          }
+        ]
+      },
+      {
+        "heading": "Integrals: Concept",
+        "topic_summary": "Area under a curve.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "math_topic_integrals_concept",
+            "summary": "Understanding the definite integral as the area under a curve and the indefinite integral as an antiderivative."
+          }
+        ]
+      }
+    ]
+  }
+]
+

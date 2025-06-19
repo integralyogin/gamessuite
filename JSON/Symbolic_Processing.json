@@ -1,0 +1,134 @@
+{
+  "Symbolic Processing": {
+    "short_description": "The systematic manipulation and interpretation of representational units through formal operations, creating bridges between abstract concepts and concrete implementations across cognitive, linguistic, and computational domains."
+  },
+  "Symbol": {
+    "short_description": "A representational entity that carries meaning through conventional agreement, existing in the tension between its perceptible form and conceptual content within structured systems of interpretation."
+  },
+  "Abstraction": {
+    "short_description": "The cognitive process of elevating specific instances to general patterns, creating layered representations that distill essential qualities while temporarily suspending concrete particulars."
+  },
+  "Interpretation": {
+    "short_description": "The dynamic assignment of meaning through contextual frameworks, mediating between formal structures and experiential understanding in recursive cycles of analysis."
+  },
+  "Semiotics": {
+    "short_description": "The study of signification processes that examines how symbols acquire and transmit meaning through cultural codes, personal associations, and systemic relationships."
+  },
+  "Syntax": {
+    "short_description": "The structural architecture governing valid combinations of symbols, establishing formal relationships independent of semantic content through recursive rule systems."
+  },
+  "Semantics": {
+    "short_description": "The web of meaning that connects symbolic representations to conceptual referents, mediated through cultural consensus and individual cognitive frameworks."
+  },
+  "Parsing": {
+    "short_description": "The decomposition of symbolic sequences into constituent elements, revealing hierarchical relationships and structural patterns through analytical segmentation."
+  },
+  "Transformation": {
+    "short_description": "The systematic alteration of symbolic configurations according to defined rules, enabling the translation between different representational systems while preserving essential meaning."
+  },
+  "Representation": {
+    "short_description": "The mediated expression of concepts through symbolic proxies, creating cognitive interfaces between raw experience and structured understanding."
+  },
+  "Encoding": {
+    "short_description": "The translation of meaning into symbolic forms through constrained notation systems, balancing expressive power with systematic rigor in information preservation."
+  },
+  "Decoding": {
+    "short_description": "The reconstruction of intended meaning from symbolic patterns, requiring navigation of both formal structures and contextual frameworks for accurate interpretation."
+  },
+  "Grammar": {
+    "short_description": "The generative rule system that defines valid symbolic constructions, establishing the boundaries and possibilities for meaningful expression within a formal system."
+  },
+  "Logic": {
+    "short_description": "The formal framework for systematic reasoning, providing symbolic mechanisms for validating truth relationships and preserving consistency in derived conclusions."
+  },
+  "Model": {
+    "short_description": "A simplified symbolic construct that preserves essential features of complex phenomena while ignoring incidental details, enabling focused analysis and prediction."
+  },
+  "Framework": {
+    "short_description": "The conceptual scaffolding that organizes symbolic manipulation, providing structural constraints and methodological guidelines for systematic processing."
+  },
+  "Heuristic": {
+    "short_description": "A pragmatic strategy for symbolic problem-solving that prioritizes effectiveness over completeness, using pattern recognition and analogy to navigate complex systems."
+  },
+  "Algorithm": {
+    "short_description": "A deterministic procedure for symbolic transformation, guaranteeing specific outcomes through rigorously defined sequential operations."
+  },
+  "Ontology": {
+    "short_description": "The formal specification of conceptual categories and their interrelationships, creating structured semantic frameworks for knowledge organization."
+  },
+  "Taxonomy": {
+    "short_description": "A hierarchical classification system that organizes symbolic concepts through graded distinctions and categorical relationships."
+  },
+  "Metaphor": {
+    "short_description": "The cognitive mapping between disparate symbolic domains, enabling understanding of abstract concepts through concrete analogical projection."
+  },
+  "Analogy": {
+    "short_description": "The recognition and exploitation of structural similarities between symbolic systems, facilitating knowledge transfer and inferential reasoning."
+  },
+  "Schema": {
+    "short_description": "A cognitive template that organizes symbolic information into predictable patterns, enabling efficient processing and expectation-driven interpretation."
+  },
+  "Prototype": {
+    "short_description": "The exemplary instance that embodies the essential characteristics of a symbolic category, serving as a reference point for conceptual classification."
+  },
+  "Archetype": {
+    "short_description": "A fundamental symbolic pattern emerging from collective human experience, expressing universal themes through culturally variable manifestations."
+  },
+  "Recursion": {
+    "short_description": "The self-referential application of symbolic rules, generating complex structures through repetitive application of simple operations."
+  },
+  "Inference": {
+    "short_description": "The derivation of new symbolic knowledge through logical operations, extending understanding beyond directly encoded information."
+  },
+  "Syntax Tree": {
+    "short_description": "A hierarchical representation of grammatical relationships, visualizing the nested structure of symbolic expressions through branching nodes."
+  },
+  "Lexicon": {
+    "short_description": "The repository of symbolic units within a system, containing both formal representations and their associated semantic potentials."
+  },
+  "Discourse": {
+    "short_description": "Extended symbolic communication that constructs meaning through sequenced interactions and contextual coherence across multiple expressions."
+  },
+  "Context": {
+    "short_description": "The surrounding framework that shapes symbolic interpretation, providing disambiguating constraints and enriching layers of meaning."
+  },
+  "Pragmatics": {
+    "short_description": "The study of meaning in actual use, examining how context, intention, and consequence influence symbolic interpretation and effectiveness."
+  },
+  "Sign": {
+    "short_description": "The basic unit of symbolic communication, consisting of a triadic relationship between form, concept, and interpretant within semiotic systems."
+  },
+  "Signifier": {
+    "short_description": "The perceptible aspect of a sign that carries representational potential, existing as the material vehicle for conceptual meaning."
+  },
+  "Signified": {
+    "short_description": "The conceptual content evoked by a signifier, existing as a mental construct that completes the symbolic relationship through interpretation."
+  },
+  "Code": {
+    "short_description": "A systematic mapping between symbolic systems, establishing translation rules that preserve information across different representational formats."
+  },
+  "Cipher": {
+    "short_description": "A reversible symbolic transformation algorithm that systematically alters representations while preserving recoverable meaning."
+  },
+  "Pattern": {
+    "short_description": "A recognizable configuration in symbolic data that enables prediction and classification through repetition of structural features."
+  },
+  "Rule System": {
+    "short_description": "The formal specification of permissible symbolic operations, defining both generative possibilities and constraints within a processing framework."
+  },
+  "Knowledge Representation": {
+    "short_description": "The symbolic encoding of information structures that preserves conceptual relationships and enables systematic reasoning operations."
+  },
+  "Conceptual Mapping": {
+    "short_description": "The establishment of correspondences between symbolic domains, creating bridges that enable analogical reasoning and cross-system translation."
+  },
+  "Dimensionality": {
+    "short_description": "The measure of independent attributes in symbolic representations, balancing expressive completeness against processing complexity."
+  },
+  "Ambiguity": {
+    "short_description": "The property of symbolic expressions having multiple valid interpretations, requiring contextual resolution to determine intended meaning."
+  },
+  "Precision": {
+    "short_description": "The quality of unambiguous symbolic representation that minimizes interpretive variance through rigorous formal specification."
+  }
+}

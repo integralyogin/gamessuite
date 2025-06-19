@@ -1,0 +1,65 @@
+{
+  "Logic Programming": {
+    "short_description": "A programming paradigm where computation is expressed as relations, and program execution involves logical deduction from these relations."
+  },
+  "Prolog": {
+    "short_description": "The most widely known logic programming language, based on formal logic, where programs consist of facts and rules, and queries are used to ask questions about these facts."
+  },
+  "Horn Clause": {
+    "short_description": "A type of clause in logic programming used to define rules, consisting of a head (conclusion) and a body (conditions), where the head is implied by the body."
+  },
+  "Unification": {
+    "short_description": "The process of finding a substitution that makes two terms identical, a fundamental operation in logic programming for variable binding and pattern matching."
+  },
+  "Backtracking": {
+    "short_description": "A method used in logic programming to find solutions by systematically trying different choices and undoing them if they lead to failure, enabling exploration of multiple possibilities."
+  },
+  "Resolution": {
+    "short_description": "The primary inference rule in logic programming, used to derive new clauses from existing ones, fundamental in proving or disproving logical statements."
+  },
+  "Query": {
+    "short_description": "In logic programming, a statement or question posed to the system to find solutions or facts consistent with the knowledge base."
+  },
+  "Fact": {
+    "short_description": "A basic statement in the knowledge base of a logic program that represents a true condition, without conditions or variables."
+  },
+  "Rule": {
+    "short_description": "A statement in logic programming that defines a logical relationship between facts, allowing for conditional statements with variables."
+  },
+  "Predicate": {
+    "short_description": "A relation or function symbol used to describe properties or relationships in logic programming, forming the basis of facts and rules."
+  },
+  "Cut": {
+    "short_description": "An operator in Prolog that commits to the choices made up to its point, preventing backtracking beyond it, used to control the search space."
+  },
+  "Negation as Failure": {
+    "short_description": "A method in logic programming where the absence of proving a fact is taken as evidence for its negation, often used in Prolog."
+  },
+  "Constraint Logic Programming (CLP)": {
+    "short_description": "An extension of logic programming that allows the expression of constraints alongside traditional logic formulas, enhancing problem-solving capabilities."
+  },
+  "Definite Clause Grammar (DCG)": {
+    "short_description": "A syntactic extension of Prolog for grammars, where grammatical rules are written as logic program clauses for parsing and generation."
+  },
+  "Answer Set Programming (ASP)": {
+    "short_description": "A form of declarative programming oriented towards difficult search problems, where programs define sets of stable models representing solutions."
+  },
+  "Logical Inference": {
+    "short_description": "The process of deriving new facts from known facts using rules or axioms in logic programming, akin to deductive reasoning."
+  },
+  "Herbrand Universe": {
+    "short_description": "The set of all ground terms that can be constructed from the function symbols and constants in a logic program, used in semantic interpretations."
+  },
+  "Fixpoint Semantics": {
+    "short_description": "A method of defining the meaning of a logic program by finding the least fixpoint of a set of Horn clauses, representing the stable states of computation."
+  },
+  "Declarative Programming": {
+    "short_description": "A style of programming where the programmer specifies what the program should accomplish rather than how to accomplish it, central to logic programming."
+  },
+  "Non-Monotonic Reasoning": {
+    "short_description": "A type of reasoning where conclusions can be withdrawn when new information is added, relevant in logic programming for handling incomplete or uncertain data."
+  },
+  "Logic Variables": {
+    "short_description": "Variables in logic programming that can be bound to values through unification, allowing for flexible pattern matching and query solving."
+  }
+}

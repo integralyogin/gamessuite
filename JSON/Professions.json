@@ -1,0 +1,152 @@
+{
+  "Healer": {
+    "short_description": "Traditional practitioner using natural remedies and spiritual methods to cure ailments."
+  },
+  "Scribe": {
+    "short_description": "Ancient professional writer and copier of documents and sacred texts."
+  },
+  "Shaman": {
+    "short_description": "Tribal medicine person who mediates between human and spirit worlds."
+  },
+  "Blacksmith": {
+    "short_description": "Craftsperson who forges metal into tools, weapons, and ceremonial items."
+  },
+  "Merchant": {
+    "short_description": "Trader of goods between communities, cultures, and regions."
+  },
+  "Scholar": {
+    "short_description": "Professional devoted to study, research, and advancement of knowledge."
+  },
+  "Warrior": {
+    "short_description": "Professional fighter trained in combat and military arts."
+  },
+  "Priest/Priestess": {
+    "short_description": "Religious official performing sacred rites and spiritual guidance."
+  },
+  "Farmer": {
+    "short_description": "Cultivator of land for food production and agricultural development."
+  },
+  "Artisan": {
+    "short_description": "Skilled craftsperson creating functional and decorative objects."
+  },
+  "Teacher": {
+    "short_description": "Educator who transmits knowledge and skills to others."
+  },
+  "Navigator": {
+    "short_description": "Expert in guiding journeys using stars, maps, and natural signs."
+  },
+  "Midwife": {
+    "short_description": "Traditional birth attendant assisting in pregnancy and childbirth."
+  },
+  "Storyteller": {
+    "short_description": "Keeper and transmitter of cultural traditions through oral narratives."
+  },
+  "Alchemist": {
+    "short_description": "Practitioner combining chemistry, spirituality, and transformation."
+  },
+  "Architect": {
+    "short_description": "Designer of buildings and structures, combining art and engineering."
+  },
+  "Astrologer": {
+    "short_description": "Interpreter of celestial influences on human affairs."
+  },
+  "Physician": {
+    "short_description": "Medical practitioner trained in diagnosis and treatment of illness."
+  },
+  "Judge": {
+    "short_description": "Official interpreter and enforcer of law and justice."
+  },
+  "Philosopher": {
+    "short_description": "Professional thinker exploring fundamental questions of existence."
+  },
+  "Artist": {
+    "short_description": "Creator of visual, auditory, or performance works."
+  },
+  "Musician": {
+    "short_description": "Performer and composer of musical works."
+  },
+  "Potter": {
+    "short_description": "Craftsperson specializing in creating ceramic vessels and objects."
+  },
+  "Weaver": {
+    "short_description": "Textile maker creating cloth from fibers using traditional methods."
+  },
+  "Carpenter": {
+    "short_description": "Craftsperson working with wood to create structures and objects."
+  },
+  "Counselor": {
+    "short_description": "Guide helping others navigate personal and emotional challenges."
+  },
+  "Engineer": {
+    "short_description": "Designer and builder of machines, structures, and systems."
+  },
+  "Scientist": {
+    "short_description": "Researcher investigating natural phenomena through systematic study."
+  },
+  "Writer": {
+    "short_description": "Creator of written works for information or entertainment."
+  },
+  "Diplomat": {
+    "short_description": "Negotiator managing relationships between different groups."
+  },
+  "Hunter": {
+    "short_description": "Skilled pursuer of animals for food and resources."
+  },
+  "Fisher": {
+    "short_description": "Harvester of aquatic life for food and trade."
+  },
+  "Guard": {
+    "short_description": "Protector of people, property, and valuable resources."
+  },
+  "Chef": {
+    "short_description": "Professional food preparer combining culinary arts and nutrition."
+  },
+  "Herbalist": {
+    "short_description": "Expert in medicinal properties of plants and natural remedies."
+  },
+  "Mathematician": {
+    "short_description": "Student of numbers, patterns, and abstract structures."
+  },
+  "Astronomer": {
+    "short_description": "Observer and interpreter of celestial bodies and phenomena."
+  },
+  "Lawyer": {
+    "short_description": "Professional interpreter and advocate of legal systems."
+  },
+  "Dancer": {
+    "short_description": "Performer expressing ideas and emotions through movement."
+  },
+  "Actor": {
+    "short_description": "Performer portraying characters in dramatic presentations."
+  },
+  "Poet": {
+    "short_description": "Creator of verbal art focusing on rhythm and metaphor."
+  },
+  "Surgeon": {
+    "short_description": "Medical specialist performing physical interventions for healing."
+  },
+  "Explorer": {
+    "short_description": "Professional adventurer seeking new territories and knowledge."
+  },
+  "Linguist": {
+    "short_description": "Student of language structure, evolution, and use."
+  },
+  "Diplomat": {
+    "short_description": "Professional negotiator between different cultures and interests."
+  },
+  "Sailor": {
+    "short_description": "Navigator of watercraft and expert in maritime skills."
+  },
+  "Stonemason": {
+    "short_description": "Craftsperson working with stone for buildings and monuments."
+  },
+  "Goldsmith": {
+    "short_description": "Artisan creating ornamental and precious metal works."
+  },
+  "Scribe": {
+    "short_description": "Professional copyist and creator of written documents."
+  },
+  "Glassblower": {
+    "short_description": "Artisan shaping glass through traditional heating methods."
+  }
+}

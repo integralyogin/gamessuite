@@ -1,0 +1,77 @@
+{
+"Structural Mapping": {
+    "short_description": "The systematic process of identifying and analyzing correspondences between two domains or systems, establishing meaningful relationships between their elements, patterns, and organizational principles."
+},
+"Domain": {
+    "short_description": "A distinct conceptual or physical space with its own elements, relationships, and organizing principles, serving as either the source or target in mapping operations."
+},
+"Correspondence": {
+    "short_description": "The identified relationship between elements across domains, representing meaningful connections in structure, function, or behavior that support systematic comparison and understanding."
+},
+"Isomorphism": {
+    "short_description": "A complete structural correspondence between two systems where elements and relationships in one domain have exact matching counterparts in another, preserving all structural properties."
+},
+"Homomorphism": {
+    "short_description": "A partial structural correspondence where elements and relationships in one domain map to another while preserving some but not all structural properties."
+},
+"Base Domain": {
+    "short_description": "The foundational or source system from which structural elements and relationships are mapped to understand or analyze another domain."
+},
+"Target Domain": {
+    "short_description": "The system or concept to which base domain structures are mapped, enabling new understanding through established correspondences."
+},
+"Structural Alignment": {
+    "short_description": "The process of identifying and matching corresponding elements and relationships between domains based on their structural roles and relationships."
+},
+"Analogical Transfer": {
+    "short_description": "The mechanism of applying knowledge from one domain to another through established structural mappings, enabling inference and problem-solving."
+},
+"Structural Constraint": {
+    "short_description": "Rules and limitations governing valid mappings between domains, ensuring consistency and meaningful correspondence in the mapping process."
+},
+"Systematicity": {
+    "short_description": "The principle that coherent mappings tend to form interconnected systems of relationships rather than isolated correspondences, preserving higher-order structural patterns."
+},
+"Inference Pattern": {
+    "short_description": "Recurring logical structures that guide the transfer of knowledge between domains through established mappings, enabling predictive reasoning."
+},
+"Structure Preservation": {
+    "short_description": "The maintenance of relational patterns and hierarchies when mapping between domains, ensuring meaningful correspondence of system organization."
+},
+"Mapping Function": {
+    "short_description": "The formal representation of relationships between elements across domains, defining how structures in one system correspond to another."
+},
+"Cross-Domain Bridge": {
+    "short_description": "Conceptual frameworks that enable systematic translation between different domains through established structural correspondences."
+},
+"Structural Hierarchy": {
+    "short_description": "The organization of elements and relationships into levels of increasing complexity and abstraction within each domain being mapped."
+},
+"Relation Network": {
+    "short_description": "The web of interconnected relationships between elements within a domain that must be preserved or transformed in the mapping process."
+},
+"Mapping Coherence": {
+    "short_description": "The logical consistency and completeness of structural correspondences between domains, ensuring meaningful and useful mappings."
+},
+"Abstraction Level": {
+    "short_description": "The degree of generality or specificity at which structural features are identified and mapped between domains."
+},
+"Structure Schema": {
+    "short_description": "Abstract patterns of organization that can be recognized and mapped across different domains, serving as templates for structural correspondence."
+},
+"Mapping Validation": {
+    "short_description": "The process of verifying that established structural correspondences maintain meaningful relationships and support valid inference between domains."
+},
+"Structural Invariant": {
+    "short_description": "Properties and relationships that remain constant across different mappings, representing fundamental patterns shared between domains."
+},
+"Transformation Rule": {
+    "short_description": "Principles governing how structures in one domain are converted or adapted when mapped to another domain while preserving essential relationships."
+},
+"Mapping Space": {
+    "short_description": "The conceptual framework within which structural correspondences between domains are identified, analyzed, and manipulated."
+},
+"Structure Resolution": {
+    "short_description": "The level of detail at which structural features are identified and mapped between domains, affecting the granularity of correspondence."
+}
+}

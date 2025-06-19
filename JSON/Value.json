@@ -1,0 +1,107 @@
+{
+  "Intrinsic Value": {
+    "short_description": "Worth inherent to thing itself, independent of external relations or use."
+  },
+  "Instrumental Value": {
+    "short_description": "Worth derived from utility or effectiveness in achieving ends."
+  },
+  "Exchange Value": {
+    "short_description": "Worth in terms of what can be traded or exchanged for."
+  },
+  "Use Value": {
+    "short_description": "Worth based on practical utility or beneficial application."
+  },
+  "Spiritual Value": {
+    "short_description": "Worth in terms of connection to divine or transcendent reality."
+  },
+  "Moral Value": {
+    "short_description": "Worth in terms of rightness, goodness, or ethical merit."
+  },
+  "Aesthetic Value": {
+    "short_description": "Worth in terms of beauty, harmony, or artistic merit."
+  },
+  "Cultural Value": {
+    "short_description": "Worth derived from meaning within social or cultural context."
+  },
+  "Emotional Value": {
+    "short_description": "Worth based on affective or feeling-based significance."
+  },
+  "Symbolic Value": {
+    "short_description": "Worth as representation or embodiment of deeper meaning."
+  },
+  "Potential Value": {
+    "short_description": "Worth based on future possibilities or development."
+  },
+  "Scarcity Value": {
+    "short_description": "Worth derived from limited availability or uniqueness."
+  },
+  "Network Value": {
+    "short_description": "Worth emerging from connections and relationships within system."
+  },
+  "Evolutionary Value": {
+    "short_description": "Worth in terms of survival, adaptation, or development of life."
+  },
+  "Information Value": {
+    "short_description": "Worth based on knowledge, meaning, or reduction of uncertainty."
+  },
+  "Energy Value": {
+    "short_description": "Worth in terms of power, capacity, or potential for change."
+  },
+  "Absolute Value": {
+    "short_description": "Worth independent of comparison or relative measure."
+  },
+  "Relative Value": {
+    "short_description": "Worth determined by comparison or context."
+  },
+  "Emergent Value": {
+    "short_description": "Worth arising from complex interactions of system elements."
+  },
+  "Heritage Value": {
+    "short_description": "Worth derived from historical or ancestral significance."
+  },
+  "Generative Value": {
+    "short_description": "Worth based on capacity to produce or create new value."
+  },
+  "Experiential Value": {
+    "short_description": "Worth derived from quality of subjective experience."
+  },
+  "Sacred Value": {
+    "short_description": "Worth considered inviolable or beyond material measure."
+  },
+  "Social Value": {
+    "short_description": "Worth emerging from human relationships and community."
+  },
+  "Ecological Value": {
+    "short_description": "Worth within context of environmental systems and life web."
+  },
+  "Transformative Value": {
+    "short_description": "Worth based on capacity to effect meaningful change."
+  },
+  "Cognitive Value": {
+    "short_description": "Worth in terms of mental or intellectual significance."
+  },
+  "Vitality Value": {
+    "short_description": "Worth related to life force, health, or organic wholeness."
+  },
+  "Legacy Value": {
+    "short_description": "Worth in terms of enduring impact or influence."
+  },
+  "Identity Value": {
+    "short_description": "Worth derived from role in defining self or group."
+  },
+  "Strategic Value": {
+    "short_description": "Worth based on advantage or position within larger system."
+  },
+  "Developmental Value": {
+    "short_description": "Worth in terms of growth, learning, or maturation."
+  },
+  "Foundational Value": {
+    "short_description": "Worth as basis or ground for other forms of value."
+  },
+  "Integrative Value": {
+    "short_description": "Worth emerging from unity or harmonization of elements."
+  },
+  "Archetypal Value": {
+    "short_description": "Worth as embodiment of fundamental pattern or principle."
+  }
+}

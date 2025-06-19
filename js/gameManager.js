@@ -1,103 +1,170 @@
-// js/gameManager.js
 const GameManager = {
-    gameContainer: null,
-    games: [], // This will hold the original list of game modules
-    gameModules: [], // To store the initial configuration for restart
-    currentGameIndex: -1,
-    sharedData: {},
+    gameContainer: null,
+    games: [], // Full list of game modules for the current playthrough
+    gameModules: [], // Initial configuration of game modules
+    
+    gameModulesMap: new Map(), // For quick lookup of game modules by ID
 
-    init: function(containerId, gameModuleConfig) {
-        this.gameContainer = document.getElementById(containerId);
-        if (!this.gameContainer) {
-            console.error(`Game container with ID '${containerId}' not found!`);
-            this.gameContainer = document.createElement('div');
-            document.body.appendChild(this.gameContainer);
-        }
-        this.gameModules = gameModuleConfig; // Store the original configuration
-        this.games = [...this.gameModules]; // Make a mutable copy for current playthrough
-        this.currentGameIndex = -1;
-        this.sharedData = {};
-    },
+    currentGameIndex: -1,
+    sharedData: {}, // Data shared between games
 
-    startGame: function() {
-        console.log("Starting game sequence from scratch...");
-        this.sharedData = {}; // Clear shared data for a fresh start
-        this.games = [...this.gameModules]; // Reset to the full list of games
-        this.currentGameIndex = -1;   // Reset game progress
+    init: function(containerId, gameModuleConfig) {
+        this.gameContainer = document.getElementById(containerId);
+        if (!this.gameContainer) {
+            console.error(`Game container with ID '${containerId}' not found! Creating a fallback.`);
+            this.gameContainer = document.createElement('div');
+            document.body.appendChild(this.gameContainer);
+        }
+        
+        // Ensure gameModuleConfig is an array
+        this.gameModules = Array.isArray(gameModuleConfig) ? gameModuleConfig : []; 
+        
+        this.gameModulesMap.clear(); 
+        this.gameModules.forEach(module => {
+            if (module && typeof module.id !== 'undefined') { 
+                this.gameModulesMap.set(module.id, module);
+            } else {
+                let moduleIdentifier = 'Unknown Module';
+                if (module && module.constructor && module.constructor.name && module.constructor.name !== 'Object') {
+                    moduleIdentifier = module.constructor.name;
+                } else if (module && typeof module === 'object' && module !== null) {
+                    moduleIdentifier = JSON.stringify(module).substring(0, 50) + "...";
+                } else if (typeof module !== 'undefined') {
+                    moduleIdentifier = String(module);
+                }
+                console.warn(`GameManager.init: A game module is undefined, null, or missing an 'id' property and cannot be mapped. Module details: ${moduleIdentifier}`, module);
+            }
+        });
+        
+        this.games = [...this.gameModules.filter(m => m && typeof m.id !== 'undefined')]; 
+        this.currentGameIndex = -1;
+        this.sharedData = {}; 
+        
+        console.log("GameManager: Initialized. Game modules map created with IDs:", Array.from(this.gameModulesMap.keys()));
+        if (this.games.length !== this.gameModules.length) {
+            console.warn("GameManager: Some modules were filtered from the active game sequence due to being undefined or missing an ID. Original count:", this.gameModules.length, "Active count:", this.games.length);
+        }
+        console.log("GameManager: Active game sequence (IDs):", this.games.map(g => g.id));
+    },
 
-        if (this.games && this.games.length > 0) {
-            this.loadGame(0); // Load the first game
-        } else {
-            this.gameContainer.innerHTML = "<p>No games configured to start.</p>";
-            console.warn("No games available in GameManager to start.");
-        }
-    },
+    startGame: function() {
+        console.log("GameManager: Starting game sequence from scratch...");
+        this.sharedData = { returnStack: [] }; // Initialize with an empty return stack
+        this.games = [...this.gameModules.filter(m => m && typeof m.id !== 'undefined')]; // Reset games list, filtering invalid
+        this.currentGameIndex = -1;
+        
+        if (this.games && this.games.length > 0) {
+            this.loadGame(0); 
+        } else {
+            this.gameContainer.innerHTML = "<p>No games configured to start. Check GameManager.init array and module definitions.</p>";
+            console.warn("GameManager: No valid games available to start. The 'this.games' array is empty after filtering.");
+        }
+    },
 
-    loadGame: function(gameIndexToLoad) {
-        if (this.currentGameIndex !== -1 && this.games[this.currentGameIndex]) {
-            const oldGameModule = this.games[this.currentGameIndex];
-            if (typeof oldGameModule.destroy === 'function') {
-                console.log(`Destroying game: ${oldGameModule.id || this.currentGameIndex}`);
-                oldGameModule.destroy();
-            }
-        }
+    loadGame: function(gameIndexToLoad) {
+        if (this.currentGameIndex !== -1 && this.games[this.currentGameIndex] && typeof this.games[this.currentGameIndex].destroy === 'function') {
+            console.log(`GameManager: Destroying game: ${this.games[this.currentGameIndex].id || `index ${this.currentGameIndex}`}`);
+            this.games[this.currentGameIndex].destroy();
+        }
 
-        if (gameIndexToLoad >= this.games.length) {
-            this.gameContainer.innerHTML = `
-                <div style="padding: 20px; text-align: center;">
-                    <h2>🎉 Congratulations! 🎉</h2>
-                    <p>You've completed all mini-games!</p>
-                    <p>Final shared data: ${JSON.stringify(this.sharedData)}</p>
-                    <button id="restartButton" style="padding: 10px 15px; font-size: 1em;">Play Again?</button>
-                </div>`;
-            document.getElementById('restartButton').onclick = () => {
-                this.startGame(); // Restart the whole sequence
-            };
-            this.currentGameIndex = -1;
-            console.log("All games completed.");
-            return;
-        }
+        if (gameIndexToLoad >= this.games.length || gameIndexToLoad < 0) {
+            this.showCompletionScreen("Main game sequence appears to be complete.");
+            return;
+        }
+        
+        const gameModuleToLoad = this.games[gameIndexToLoad];
+        if (!gameModuleToLoad) { 
+            console.error(`GameManager: No valid game module found for index ${gameIndexToLoad}.`);
+            this.showCompletionScreen("Error: Game module not found.");
+            return;
+        }
 
-        this.currentGameIndex = gameIndexToLoad;
-        const gameModule = this.games[this.currentGameIndex];
-        console.log(`Loading game: ${gameModule.id || this.currentGameIndex}`);
+        this.currentGameIndex = gameIndexToLoad;
+        const currentModule = gameModuleToLoad;
 
-        this.gameContainer.innerHTML = '';
-        this.gameContainer.className = 'game-area';
+        console.log(`GameManager: Loading game: ${currentModule.id} (index ${this.currentGameIndex}). SharedData snapshot:`, JSON.parse(JSON.stringify(this.sharedData)));
 
-        const successCallback = (dataFromGame) => {
-            this.sharedData = { ...this.sharedData, ...dataFromGame };
-            console.log(`Game '${gameModule.id || 'Unknown'}' completed successfully. Data:`, dataFromGame);
-            this.loadNextGame();
-        };
+        this.gameContainer.innerHTML = ''; 
+        this.gameContainer.className = 'game-area'; 
 
-        const globalFailureCallback = (dataFromFailure) => {
-            console.warn(`GLOBAL GAME OVER triggered by ${gameModule.id || 'a game'}. Reason: ${dataFromFailure.reason || 'unspecified'}`);
-            this.sharedData = {}; // Clear shared data on global failure.
-
-            this.gameContainer.innerHTML = `
-                <div class="game-over-screen" style="padding: 30px; text-align: center; width: 100%; color: #D32F2F; background-color: #FFEBEE; border: 2px solid #D32F2F; box-sizing: border-box;">
-                    <h2>GAME OVER</h2>
-                    <p style="font-size: 1.2em; margin-bottom: 20px;">${dataFromFailure.reason || 'A critical failure occurred.'}</p>
-                    <p>You have to start from the very beginning!</p>
-                    <button id="restartGameSequenceButton" style="padding: 12px 25px; font-size: 1.1em; cursor: pointer; background-color: #C62828; color: white; border: none; border-radius: 5px; margin-top: 20px;">Try Again</button>
-                </div>`;
+        const successCallback = (dataFromGame) => {
+            console.log(`GameManager: Game '${currentModule.id}' reported success. Data received:`, dataFromGame);
             
-            document.getElementById('restartGameSequenceButton').onclick = () => {
-                this.startGame(); // This will call loadGame(0) and reset everything.
-            };
-        };
+            // --- NAVIGATION LOGIC REBUILT ---
+            // 1. Update shared data with results from the game that just finished.
+            this.sharedData = { ...this.sharedData, ...dataFromGame };
+            
+            let nextGameIdToLoad = null;
 
-        gameModule.init(
-            this.gameContainer,
-            successCallback,
-            globalFailureCallback, // New callback for permadeath
-            this.sharedData
-        );
-    },
+            // 2. Determine the next destination.
+            if (dataFromGame.nextGame) {
+                // If the game explicitly tells us where to go next.
+                nextGameIdToLoad = dataFromGame.nextGame;
+                
+                // If it also specifies a 'returnTo' location, push the current return target onto the stack.
+                if (dataFromGame.returnTo) {
+                    if (!this.sharedData.returnStack) this.sharedData.returnStack = [];
+                    this.sharedData.returnStack.push(this.sharedData.returnToId); // Save where we were supposed to go
+                    this.sharedData.returnToId = dataFromGame.returnTo; // Set the new return target
+                }
+            } else if (this.sharedData.returnToId) {
+                // If there's no explicit next game, check if we need to return from a sub-task.
+                nextGameIdToLoad = this.sharedData.returnToId;
+                
+                // We've completed the return journey, so clear the target and pop from the stack if available.
+                this.sharedData.returnToId = this.sharedData.returnStack?.pop();
+            }
 
-    loadNextGame: function() {
-        const nextIndex = this.currentGameIndex + 1;
-        this.loadGame(nextIndex);
-    }
+            // 3. Load the next game.
+            if (nextGameIdToLoad) {
+                const nextGameActualIndex = this.games.findIndex(g => g && g.id === nextGameIdToLoad);
+                if (nextGameActualIndex !== -1) {
+                    this.loadGame(nextGameActualIndex);
+                } else {
+                    console.error(`GameManager: Game ID ${nextGameIdToLoad} is not in the active sequence. Fallback to sequential.`);
+                    this.loadNextSequentialGame(); 
+                }
+            } else {
+                // If no navigation logic applies, continue the main sequence.
+                this.loadNextSequentialGame(); 
+            }
+        };
+
+        const globalFailureCallback = (dataFromFailure) => {
+            console.warn(`GameManager: GLOBAL GAME OVER triggered by ${currentModule.id || 'a game'}. Reason: ${dataFromFailure.reason || 'unspecified'}`);
+            this.sharedData = {}; 
+            this.gameContainer.innerHTML = `<div class="game-over-screen"><h2>GAME OVER</h2><p>${dataFromFailure.reason || 'A critical failure occurred.'}</p><button id="restartGameSequenceButtonGM2">Try Again</button></div>`;
+            const restartBtn = this.gameContainer.querySelector('#restartGameSequenceButtonGM2');
+            if(restartBtn) restartBtn.onclick = () => this.startGame();
+        };
+
+        if (typeof currentModule.init === 'function') {
+            currentModule.init(this.gameContainer, successCallback, globalFailureCallback, { ...this.sharedData });
+        } else {
+            console.error(`GameManager: Game module ${currentModule.id} does not have an init function! Skipping.`);
+            this.loadNextSequentialGame();
+        }
+    },
+
+    loadNextSequentialGame: function() {
+        const nextSequentialIndex = this.currentGameIndex + 1;
+        if (nextSequentialIndex < this.games.length) {
+            this.loadGame(nextSequentialIndex);
+        } else {
+            this.showCompletionScreen("You've completed the main sequence of games!");
+        }
+    },
+    
+    getModuleById: function(id) {
+        return this.gameModulesMap.get(id);
+    },
+
+    showCompletionScreen: function(message = "You've completed all mini-games!") {
+        this.gameContainer.innerHTML = `<div class="completion-screen"><h2>🎉 Congratulations! 🎉</h2><p>${message}</p><button id="restartButtonGM2">Play Again?</button></div>`;
+        const restartBtn = this.gameContainer.querySelector('#restartButtonGM2');
+        if(restartBtn) restartBtn.onclick = () => this.startGame();
+        this.currentGameIndex = -1; 
+        console.log("GameManager: Game sequence ended or all games completed.");
+    }
 };
+

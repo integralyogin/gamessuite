@@ -1,0 +1,566 @@
+SAVITRI-DESK:/var/www/html/games/gamessuite$cat kea.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Explorer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        /* Style for the greyed-out autocomplete suggestion text */
+        .search-suggestion-text {
+            position: absolute;
+            /* Vertically center the suggestion text to match the input */
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            color: #a0aec0; /* gray-500 */
+            background-color: transparent;
+            pointer-events: none;
+            z-index: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            font-size: 0.875rem; /* Match input's text-sm */
+        }
+        .search-input {
+            position: relative;
+            background-color: transparent;
+            z-index: 2;
+        }
+        /* Animation for cards */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .fade-in {
+            animation: fadeIn 0.2s ease-out forwards;
+        }
+        .other-match-item {
+            transition: all 0.2s ease-in-out;
+        }
+        .other-match-item:hover {
+            transform: translateX(2px);
+            color: #6d28d9; /* purple-700 */
+        }
+        
+        /* Styles for the Mind Map Layout */
+        .mind-map-node {
+            border: 1px solid #e2e8f0;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: all 0.2s ease-in-out;
+            display: inline-block; /* Ensure nodes size to content */
+        }
+        .mind-map-node.main-node {
+            background-color: #f3e8ff; /* purple-100 */
+            border-color: #c084fc; /* purple-400 */
+            font-weight: 600;
+        }
+        .mind-map-node a:hover {
+            text-decoration: underline;
+        }
+         .mind-map-container .connector {
+            width: 1px;
+            background-color: #cbd5e1; /* gray-300 */
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div id="explorer-container" class="w-full h-screen p-2">
+        </div>
+
+    <script>
+    const KnowledgeExplorer = {
+        // --- Properties ---
+        container: null,
+        _searchIndexData: null,
+        _searchTermIndex: [],
+        _debounceTimer: null,
+        _jsonBasePath: './', // Adjusted base path to look in the same directory
+
+        // --- Core Methods ---
+        init: function(containerId) {
+            this.container = document.getElementById(containerId);
+            if (!this.container) {
+                console.error("Knowledge Explorer: Container element not found.");
+                return;
+            }
+            console.log("Knowledge Explorer: Initializing.");
+            this.renderBaseLayout();
+            this._loadSearchIndex();
+        },
+
+        renderBaseLayout: function() {
+            this.container.innerHTML = `
+                <div class="max-w-5xl mx-auto flex flex-col h-full">
+                    <main id="main-content-area" class="flex-grow w-full grid grid-cols-4 gap-4 overflow-hidden">
+                        <div id="focused-result-container" class="col-span-3 bg-white rounded-xl shadow-lg p-3 md:p-4 overflow-y-auto">
+                            <div id="welcome-message" class="text-center text-gray-400 h-full flex items-center justify-center">
+                                <p class="text-sm">Begin typing to explore, or select a concept from the list.</p>
+                            </div>
+                        </div>
+                        <div id="other-matches-container" class="col-span-1 bg-white rounded-xl shadow-lg p-3 md:p-4 overflow-y-auto">
+                            </div>
+                    </main>
+                    
+                    <header class="w-full mt-2 flex-shrink-0">
+                        <div id="unified-search-container" class="flex items-center w-full p-2 pl-3 bg-white border-2 border-gray-300 rounded-full focus-within:ring-2 focus-within:ring-purple-500 focus-within:border-purple-500 transition duration-200">
+                            <div id="search-container" class="relative flex-grow">
+                                <form id="search-form" class="relative" autocomplete="off" novalidate>
+                                    <div class="relative h-full flex items-center">
+                                        <div class="search-suggestion-text" id="search-suggestion"></div>
+                                        <input type="text" id="search-input" class="search-input w-full border-0 focus:ring-0 p-0 text-sm" placeholder="Explore..." autofocus>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="search-separator" class="w-px h-5 bg-gray-200 mx-3 hidden"></div>
+                            <div id="search-definition-display" class="flex-shrink-0 w-4/5 text-gray-400 text-xs truncate">
+                                Type to find a concept...
+                            </div>
+                        </div>
+                    </header>
+                </div>
+            `;
+            this._attachEventListeners();
+        },
+
+        _attachEventListeners: function() {
+            const searchInput = document.getElementById('search-input');
+            const searchForm = document.getElementById('search-form');
+            searchInput.oninput = (e) => this._handleAutocompleteInput(e);
+            searchInput.onkeydown = (e) => this._handleAutocompleteKeydown(e);
+            searchForm.onsubmit = (e) => this._handleSearchSubmit(e);
+        },
+        
+        _buildInferredGraph: function(data) {
+            console.log("Building inferred relationship graph...");
+            const processedData = JSON.parse(JSON.stringify(data)); 
+
+            for (const term in processedData) {
+                const entry = processedData[term];
+                entry.parents = entry.parents || (entry.parent ? [entry.parent] : []);
+                entry.children = entry.children || [];
+                entry.siblings = entry.siblings || [];
+                if (entry.definition && !entry.definitions) {
+                    entry.definitions = [entry.definition];
+                } else {
+                    entry.definitions = entry.definitions || [];
+                }
+                entry.quotes = entry.quotes || [];
+                delete entry.parent; 
+                delete entry.definition;
+            }
+            
+            for (const term in processedData) {
+                const entry = processedData[term];
+
+                for (const parentName of entry.parents) {
+                    if (processedData[parentName]) {
+                        if (!processedData[parentName].children.includes(term)) {
+                            processedData[parentName].children.push(term);
+                        }
+                    } else {
+                        console.warn(`Term "${term}" lists non-existent parent: "${parentName}"`);
+                    }
+                }
+
+                for (const childName of entry.children) {
+                    if (processedData[childName]) {
+                        if (!processedData[childName].parents.includes(term)) {
+                            processedData[childName].parents.push(term);
+                        }
+                    } else {
+                        console.warn(`Term "${term}" lists non-existent child: "${childName}"`);
+                    }
+                }
+
+                for (const siblingName of entry.siblings) {
+                    if (processedData[siblingName]) {
+                        if (!processedData[siblingName].siblings.includes(term)) {
+                            processedData[siblingName].siblings.push(term);
+                        }
+                    } else {
+                        console.warn(`Term "${term}" lists non-existent sibling: "${siblingName}"`);
+                    }
+                }
+            }
+            console.log("Inference complete.");
+            return processedData;
+        },
+
+        _loadSearchIndex: function() {
+            console.log("Loading knowledge base...");
+            fetch(`${this._jsonBasePath}knowledge_base.json`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    this._searchIndexData = this._buildInferredGraph(data);
+                    this._searchTermIndex = Object.keys(this._searchIndexData).sort();
+                    this._renderInitialState();
+                })
+                .catch(error => {
+                    console.error("Failed to load knowledge_base.json:", error);
+                    const focusedContainer = document.getElementById('focused-result-container');
+                    focusedContainer.innerHTML = `<div class="p-4 text-red-600">Error: Could not load data source. Please ensure 'knowledge_base.json' is available and you are running this from a local web server.</div>`;
+                    document.getElementById('other-matches-container').innerHTML = '';
+                });
+        },
+        
+        _handleAutocompleteInput: function(event) {
+            const input = event.target;
+            const suggestionEl = document.getElementById('search-suggestion');
+            const term = input.value;
+            const termLower = term.toLowerCase();
+
+            clearTimeout(this._debounceTimer);
+            suggestionEl.textContent = '';
+            input.dataset.suggestion = '';
+
+            if (term.length === 0) {
+                this._renderInitialState();
+                this._updateSearchDefinition(null);
+                return;
+            }
+
+            this._debounceTimer = setTimeout(async () => {
+                const startsWithMatches = this._searchTermIndex
+                    .filter(indexedTerm => indexedTerm.toLowerCase().startsWith(termLower))
+                    .sort(); 
+
+                if (startsWithMatches.length > 0) {
+                    const topMatch = startsWithMatches[0];
+                    const otherMatches = startsWithMatches.slice(1);
+
+                    if (topMatch.toLowerCase() !== termLower) {
+                        suggestionEl.textContent = term + topMatch.substring(term.length);
+                        suggestionEl.style.width = input.offsetWidth + 'px';
+                        input.dataset.suggestion = topMatch;
+                    }
+
+                    this.displayConceptCard(topMatch, otherMatches);
+                    this._updateSearchDefinition(topMatch);
+                } else {
+                    this._renderNoResults(term);
+                    this._updateSearchDefinition(null);
+                }
+            }, 100);
+        },
+        
+        _handleAutocompleteKeydown: function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                const searchInput = event.target;
+                const term = (searchInput.dataset.suggestion || searchInput.value).trim();
+                searchInput.dataset.suggestion = ''; // Clear suggestion regardless
+                this.handleTermSelection(term);
+            } else if (event.key === 'Tab' && event.target.dataset.suggestion) {
+                event.preventDefault();
+                event.target.value = event.target.dataset.suggestion;
+                event.target.dataset.suggestion = '';
+                document.getElementById('search-suggestion').textContent = '';
+            }
+        },
+        
+        _handleSearchSubmit: function(event) {
+            event.preventDefault();
+        },
+
+        handleTermSelection: function(term) {
+            if (!term) return;
+
+            document.getElementById('search-input').value = term;
+            document.getElementById('search-suggestion').textContent = '';
+            clearTimeout(this._debounceTimer);
+            
+            this._updateSearchDefinition(term);
+
+            const termData = this._searchIndexData[term];
+            const isTermIncomplete = !termData || !termData.definitions || termData.definitions.length === 0;
+
+            if (isTermIncomplete) {
+                console.log(`Term "${term}" is new or incomplete. Initiating AI fetch.`);
+                this._addNewTerm(term);
+            } else {
+                console.log(`Term "${term}" found and is complete. Displaying card.`);
+                this.displayConceptCard(term, []);
+            }
+        },
+
+        _addNewTerm: async function(term) {
+            console.log(`Attempting to add/update term: "${term}"`);
+            const focusedContainer = document.getElementById('focused-result-container');
+            focusedContainer.innerHTML = `<div class="text-center p-4">Fetching AI data for "${this._escapeHtml(term)}"...</div>`;
+            
+            try {
+                const response = await fetch('add_new_term.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ term: term }),
+                });
+
+                const result = await response.json();
+                
+                if (!result.success) {
+                    throw new Error(result.message);
+                }
+                console.log('Term fully added/updated.');
+
+                this._searchIndexData[result.term] = result.data;
+                if (!this._searchTermIndex.includes(result.term)) {
+                    this._searchTermIndex.push(result.term);
+                    this._searchTermIndex.sort();
+                }
+                this.displayConceptCard(result.term, []);
+
+            } catch (error) {
+                console.error('Failed to add/update new term:', error);
+                focusedContainer.innerHTML = `<div class="p-4 text-red-600">Error: ${this._escapeHtml(error.message)}</div>`;
+            }
+        },
+        
+        _updateSearchDefinition: function(term) {
+            const definitionDisplay = document.getElementById('search-definition-display');
+            const separator = document.getElementById('search-separator');
+            if (!definitionDisplay || !separator) return;
+
+            // Default state: no term or input is empty
+            if (!term) {
+                definitionDisplay.textContent = 'Type to find a concept...';
+                definitionDisplay.classList.add('text-gray-400');
+                definitionDisplay.classList.remove('text-gray-700');
+                separator.classList.add('hidden');
+                return;
+            }
+
+            const termData = this._searchIndexData[term];
+            // If term doesn't exist in data, treat as default state for now
+            if (!termData) {
+                definitionDisplay.textContent = 'Type to find a concept...';
+                definitionDisplay.classList.add('text-gray-400');
+                definitionDisplay.classList.remove('text-gray-700');
+                separator.classList.add('hidden');
+                return;
+            }
+
+            const definition = (termData.definitions && termData.definitions.find(d => d.trim() !== ''))
+                ? termData.definitions.find(d => d.trim() !== '')
+                : null;
+
+            if (definition) {
+                // We have a definition, display it and show the separator
+                definitionDisplay.textContent = definition;
+                definitionDisplay.classList.remove('text-gray-400');
+                definitionDisplay.classList.add('text-gray-700');
+                separator.classList.remove('hidden');
+            } else {
+                // Term exists but no definition, show a specific message
+                definitionDisplay.textContent = `No definition for "${this._escapeHtml(term)}". Press Enter to generate one.`;
+                definitionDisplay.classList.add('text-gray-400');
+                definitionDisplay.classList.remove('text-gray-700');
+                separator.classList.remove('hidden');
+            }
+        },
+
+        // --- Content Rendering ---
+
+        _renderInitialState: function() {
+            const focusedContainer = document.getElementById('focused-result-container');
+            focusedContainer.innerHTML = `
+                <div id="welcome-message" class="text-center text-gray-400 h-full flex items-center justify-center fade-in">
+                    <p class="text-sm">Begin typing to explore, or select a concept from the list.</p>
+                </div>
+            `;
+            const initialItems = this._searchTermIndex.slice(0, 100);
+            this._renderOtherMatches(initialItems);
+        },
+        
+        displayConceptCard: async function(term, otherMatches = null) {
+            const focusedContainer = document.getElementById('focused-result-container');
+            const termData = this._searchIndexData[term];
+            if (!termData) {
+                this._renderNoResults(term);
+                return;
+            }
+            
+            const fileChildren = await this._fetchChildren(term); 
+            const allChildren = [...new Set([...(termData.children || []), ...fileChildren])];
+            const displayData = { ...termData, children: allChildren };
+            
+            const cardHtml = this._generateMindMapHtml(term, displayData);
+            focusedContainer.innerHTML = cardHtml;
+
+            if (otherMatches !== null) {
+                this._renderOtherMatches(otherMatches);
+            }
+
+            this._addCardEventListeners(document.body);
+        },
+        
+        _generateMindMapHtml: function(term, termData) {
+            const createNode = (text, type = 'related') => {
+                const nodeClass = type === 'main' ? 'main-node' : '';
+                return `<div class="mind-map-node ${nodeClass}"><a href="#" data-term="${this._escapeHtml(text)}">${this._escapeHtml(text)}</a></div>`;
+            };
+
+            const hasParents = termData.parents && termData.parents.length > 0;
+            const hasSiblings = termData.siblings && termData.siblings.length > 0;
+            const hasChildren = termData.children && termData.children.length > 0;
+
+            // Alphabetically sort all relationship arrays
+            if (hasParents) termData.parents.sort();
+            if (hasSiblings) termData.siblings.sort();
+            if (hasChildren) termData.children.sort();
+
+            const parentHtml = hasParents ? termData.parents.map(p => createNode(p)).join('') : '';
+            const siblingsHtml = hasSiblings ? termData.siblings.map(s => createNode(s)).join(' ') : '';
+            
+            const firstDefinition = (termData.definitions && termData.definitions.length > 0) ? termData.definitions[0] : 'No definition available. Click to generate one.';
+
+            return `
+                <div class="fade-in mind-map-container flex flex-col items-center w-full text-sm p-4 space-y-4">
+            
+                    ${hasParents ? `
+                        <div class="w-full text-center">
+                            <h4 class="text-xs text-gray-400 tracking-wider font-semibold mb-2">PARENTS</h4>
+                            <div class="flex flex-wrap gap-2 justify-center">${parentHtml}</div>
+                        </div>
+                        <div class="connector" style="height: 1.5rem;"></div>
+                    ` : ''}
+            
+                    <div class="grid grid-cols-3 items-start gap-4 w-full">
+                        <div class="text-center">
+                            ${hasSiblings ? `
+                                <div>
+                                    <h4 class="text-xs text-gray-400 tracking-wider font-semibold mb-2">SIBLINGS</h4>
+                                    <div class="flex flex-wrap gap-2 justify-center">${siblingsHtml}</div>
+                                </div>
+                            ` : ''}
+                        </div>
+            
+                        <div class="text-center pt-5">
+                            <div class="group relative mind-map-node main-node inline-block">
+                                <a href="#" data-term="${this._escapeHtml(term)}">${this._escapeHtml(term)}</a>
+                                <div class="absolute bottom-full mb-2 w-max max-w-xs p-2 bg-gray-800 text-white text-xs rounded-md pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity z-10">
+                                    ${this._escapeHtml(firstDefinition)}
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div></div>
+                    </div>
+            
+                    ${hasChildren ? `
+                        <div class="connector" style="height: 1.5rem;"></div>
+                        <div class="w-full pt-4">
+                            <h4 class="text-xs text-gray-400 tracking-wider font-semibold mb-3 text-center">CHILDREN</h4>
+                            <div class="columns-2 md:columns-3 xl:columns-4 gap-x-4">
+                                ${termData.children.map(c => `
+                                    <div class="mind-map-node text-center break-words mb-2 break-inside-avoid w-full">
+                                        <a href="#" data-term="${this._escapeHtml(c)}">${this._escapeHtml(c)}</a>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+        },
+
+        _renderOtherMatches: function(otherMatches) {
+            const container = document.getElementById('other-matches-container');
+            if (otherMatches.length > 0) {
+                const listItems = otherMatches.map(term => `
+                    <li>
+                        <a href="#" data-term="${this._escapeHtml(term)}" class="other-match-item block p-1.5 rounded-md text-sm font-semibold text-gray-600">
+                            ${this._escapeHtml(term)}
+                        </a>
+                    </li>
+                `).join('');
+                container.innerHTML = `<ul class="fade-in">${listItems}</ul>`;
+            } else {
+                container.innerHTML = '';
+            }
+            this._addCardEventListeners(container);
+        },
+
+        _addCardEventListeners: function(container) {
+            container.querySelectorAll('[data-term]').forEach(link => {
+                link.onclick = (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const newTerm = e.currentTarget.dataset.term;
+                    this.handleTermSelection(newTerm);
+                };
+            });
+        },
+        
+        _renderNoResults: function(term) {
+            const container = document.getElementById('focused-result-container');
+            container.innerHTML = `
+                <div class="text-center text-gray-500 text-sm p-4 fade-in">
+                    <p>No concepts match "${this._escapeHtml(term)}". Click or Press Enter to create it.</p>
+                </div>
+            `;
+             document.getElementById('other-matches-container').innerHTML = '';
+        },
+
+        _fetchChildren: async function(termName) {
+            const fileName = termName.replace(/ /g, '_') + '.json';
+            const fullPath = `JSON/${fileName}`;
+
+            try {
+                const response = await fetch(fullPath);
+                if (!response.ok) {
+                    return []; 
+                }
+                const data = await response.json();
+                if (typeof data === 'object' && data !== null) {
+                    return Object.keys(data);
+                } else {
+                    console.warn(`Invalid data structure in ${fullPath}. Expected a JSON object.`);
+                    return [];
+                }
+            } catch (error) {
+                return [];
+            }
+        },
+        
+        _escapeHtml: function(unsafe) {
+            return String(unsafe ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[m]);
+        },
+    };
+
+    window.onload = function() {
+        KnowledgeExplorer.init('explorer-container');
+    };
+    </script>
+
+</body>
+</html>

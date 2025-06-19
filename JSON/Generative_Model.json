@@ -1,0 +1,33 @@
+{
+  "Generative Adversarial Networks (GANs)": { 
+    "quote": "Minimax game: min_G max_D V(D, G) = 𝔼[log D(x)] + 𝔼[log(1 - D(G(z)))]. (Goodfellow et al., 2014)"
+  },
+  "Variational Autoencoders (VAEs)": { 
+    "quote": "Maximizing ELBO: 𝔼[log p(x|z)] - D_KL(q(z|x) || p(z)), where q is the approximate posterior. (Kingma & Welling, 2013)"
+  },
+  "Autoregressive Models (e.g., PixelRNN)": { 
+    "quote": "Chain rule for sequences: p(x) = ∏ p(x_i | x_1, ..., x_{i-1}). (van den Oord et al., 2016)"
+  },
+  "Normalizing Flows": { 
+    "quote": "Invertible transformations: log p(x) = log p(z) + log |det ∂f^{-1}(x)/∂x |. (Rezende & Mohamed, 2015)"
+  },
+  "Diffusion Models": { 
+    "quote": "Gradual denoising: q(x_t | x_{t-1}) = 𝒩(x_t; √(1-β_t)x_{t-1}, β_t𝐈). (Sohl-Dickstein et al., 2015)"
+  },
+  "Energy-Based Models (EBMs)": { 
+    "quote": "Unnormalized density: p(x) = exp(-E(x))/Z, where Z is the partition function. (LeCun et al., 2006)"
+  },
+  "Boltzmann Machines": { 
+    "quote": "Stochastic neurons: p(x) = exp(-E(x))/Z, E(x) = -∑W_ij x_i x_j. (Hinton & Sejnowski, 1986)"
+  },
+  "Generative Pre-trained Transformers (GPT)": { 
+    "quote": "Autoregressive language modeling: p(x) = ∏ p(x_i | x_{<i}; θ). (Radford et al., 2018)",
+    "type": "Semi-Supervised"
+  },
+  "Moment Matching Networks": { 
+    "quote": "Matching moments: 𝔼[ϕ(x)] ≈ 𝔼[ϕ(G(z))]. (Li et al., 2015)"
+  },
+  "Adversarial Autoencoders": { 
+    "quote": "Latent space alignment: min_G max_D 𝔼[log D(z)] + 𝔼[log(1 - D(G(x)))]. (Makhzani et al., 2015)"
+  }
+}

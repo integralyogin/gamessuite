@@ -1,0 +1,77 @@
+{
+"Christianity": {
+"short_description": "A monotheistic religion centered on the life, teachings, death, and resurrection of Jesus Christ, emphasizing salvation through divine grace and the transformation of human consciousness through spiritual rebirth."
+},
+"Trinity": {
+"short_description": "The fundamental Christian doctrine of one God existing eternally as three distinct but inseparable persons: Father, Son (Jesus Christ), and Holy Spirit, unified in essence while distinct in function and relationship."
+},
+"Incarnation": {
+"short_description": "The central mystery of God becoming human in Jesus Christ, uniting divine and human natures perfectly and completely while maintaining both distinct identities, enabling direct divine-human communion."
+},
+"Salvation": {
+"short_description": "The divine act of rescuing humanity from sin and death through Christ's sacrificial death and resurrection, offering eternal life and spiritual transformation through faith and grace."
+},
+"Grace": {
+"short_description": "The free and unmerited favor of God that enables human salvation and spiritual growth, operating as both transformative power and sustaining presence in Christian life."
+},
+"Church": {
+"short_description": "The universal community of Christian believers, understood as both the visible institutional body and the mystical Body of Christ, united by faith, sacraments, and divine life."
+},
+"Sacraments": {
+"short_description": "Sacred rites instituted by Christ that serve as visible signs of invisible grace, including Baptism, Eucharist, Confirmation, Penance, Anointing, Holy Orders, and Matrimony in Catholic tradition."
+},
+"Eucharist": {
+"short_description": "The central Christian sacrament commemorating Christ's Last Supper, understood variously as true presence, spiritual communion, or memorial, forming the heart of Christian worship."
+},
+"Scripture": {
+"short_description": "The Holy Bible comprising Old and New Testaments, recognized as divinely inspired revelation containing God's message to humanity and authoritative for faith and practice."
+},
+"Resurrection": {
+"short_description": "The bodily rising of Christ from death, central to Christian faith as both historical event and promise of universal resurrection, demonstrating God's power over death and sin."
+},
+"Cross": {
+"short_description": "The primary symbol of Christian faith representing Christ's sacrificial death, victory over evil, and the reconciliation between God and humanity through suffering love."
+},
+"Kingdom": {
+"short_description": "The reign or rule of God announced by Jesus, present now in part through the Church and Christian life, awaiting full manifestation at the end of history."
+},
+"Sanctification": {
+"short_description": "The ongoing process of spiritual transformation through which believers grow in holiness and Christlikeness, enabled by the Holy Spirit's indwelling presence."
+},
+"Prayer": {
+"short_description": "Direct communication with God through various forms including praise, petition, intercession, and contemplation, central to Christian spiritual practice and relationship with God."
+},
+"Worship": {
+"short_description": "The collective and individual acts of devotion, praise, and service to God, expressing faith through liturgy, music, prayer, and life dedication."
+},
+"Saints": {
+"short_description": "Holy persons recognized for exceptional virtue and spiritual attainment, serving as models of Christian life and intercessors in Catholic and Orthodox traditions."
+},
+"Angels": {
+"short_description": "Spiritual beings serving as God's messengers and agents, organized in hierarchies and participating in both divine worship and human salvation history."
+},
+"Eschatology": {
+"short_description": "The study of last things including death, judgment, heaven, hell, and the final consummation of history in Christ's return and the new creation."
+},
+"Covenant": {
+"short_description": "The sacred bond between God and humanity, fulfilled and renewed in Christ, establishing promises and obligations that structure religious life and history."
+},
+"Mission": {
+"short_description": "The divine commission to spread the Gospel worldwide, making disciples through evangelism, service, and witness to Christ's love and truth."
+},
+"Creed": {
+"short_description": "Formal statements of essential Christian beliefs, particularly the Nicene and Apostles' Creeds, defining orthodox faith and uniting believers across traditions."
+},
+"Tradition": {
+"short_description": "The living transmission of Christian faith through teaching, practice, and worship, complementing Scripture in preserving and interpreting divine revelation."
+},
+"Theology": {
+"short_description": "Systematic study and reflection on Christian faith and practice, developing understanding of God, humanity, and creation through reason illuminated by faith."
+},
+"Ministry": {
+"short_description": "Various forms of service within the Church, including ordained offices and lay ministries, exercising Christ's authority and care for his people."
+},
+"Confession": {
+"short_description": "The acknowledgment of sins before God and the Church, receiving forgiveness through Christ's mercy and the Church's ministry of reconciliation."
+}
+}

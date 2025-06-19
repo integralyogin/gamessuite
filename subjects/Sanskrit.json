@@ -1,0 +1,571 @@
+[
+  {
+    "id": "subj_sanskrit_foundations_001",
+    "title": "Sanskrit",
+    "description": "A progressive exploration of Sanskrit grammar, script, vocabulary, and foundational texts, ordered for systematic learning.",
+    "sections": [
+      {
+        "heading": "Sanskrit Intro",
+        "topic_summary": "Ancient Indo-Aryan language.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_intro",
+            "summary": "An overview of Sanskrit (Saṃskṛtam), its historical significance as a classical language of India, and its role in religious, philosophical, and literary traditions."
+          }
+        ]
+      },
+      {
+        "heading": "Devanāgarī Script",
+        "topic_summary": "Writing system for Sanskrit.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_devanagari",
+            "summary": "Introduction to the Devanāgarī script, an abugida used for writing Sanskrit and several modern Indian languages, covering its structure and basic letter forms."
+          }
+        ]
+      },
+      {
+        "heading": "Vowels (Svarāḥ)",
+        "topic_summary": "Independent sound units.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_vowels",
+            "summary": "Recognition and pronunciation of Sanskrit vowels (svarāḥ), including simple vowels, diphthongs, and their short/long distinctions."
+          }
+        ]
+      },
+      {
+        "heading": "Consonants (Vyañjanāni)",
+        "topic_summary": "Sounds needing vowel support.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_consonants",
+            "summary": "Recognition and pronunciation of Sanskrit consonants (vyañjanāni), categorized by place and manner of articulation (e.g., stops, nasals, sibilants)."
+          }
+        ]
+      },
+      {
+        "heading": "Conjunct Consonants",
+        "topic_summary": "Combined consonant forms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_conjuncts",
+            "summary": "Understanding Saṃyuktākṣarāṇi, where two or more consonants combine to form a single written ligature or cluster."
+          }
+        ]
+      },
+      {
+        "heading": "Anusvāra & Visarga",
+        "topic_summary": "Nasal sound, final aspiration.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_anusvara_visarga",
+            "summary": "Understanding the pronunciation and function of Anusvāra (ṁ, nasalization) and Visarga (ḥ, voiceless aspiration)."
+          }
+        ]
+      },
+      {
+        "heading": "Numerals (Saṅkhyāḥ)",
+        "topic_summary": "Sanskrit number symbols.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_numerals",
+            "summary": "Recognition and usage of Sanskrit numerals for numbers 1-10 and beyond, and cardinal/ordinal distinctions."
+          }
+        ]
+      },
+      {
+        "heading": "Pronunciation (Uccāraṇam)",
+        "topic_summary": "Accurate sound production.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_pronunciation",
+            "summary": "Basic principles of correct Sanskrit pronunciation, including aspiration, vowel length, and the sounds of specific letters."
+          }
+        ]
+      },
+      {
+        "heading": "Sandhi: Introduction",
+        "topic_summary": "Euphonic sound combination rules.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_sandhi_intro",
+            "summary": "An introduction to Sandhi, the rules governing sound changes when words or morphemes meet, crucial for reading and understanding texts."
+          }
+        ]
+      },
+      {
+        "heading": "Nouns (Nāma)",
+        "topic_summary": "Naming words, substantives.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_nouns",
+            "summary": "Understanding nouns (nāmapadam) as words that name persons, places, things, or ideas, and their grammatical properties."
+          }
+        ]
+      },
+      {
+        "heading": "Gender (Liṅgam)",
+        "topic_summary": "Masculine, Feminine, Neuter.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_gender",
+            "summary": "The concept of grammatical gender in Sanskrit (Pum̐liṅga, Strīliṅga, Napuṃsakaliṅga) and how it affects noun and adjective forms."
+          }
+        ]
+      },
+      {
+        "heading": "Number (Vacanam)",
+        "topic_summary": "Singular, Dual, Plural.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_number",
+            "summary": "The three grammatical numbers in Sanskrit: Ekavacanam (singular), Dvivacanam (dual), and Bahuvacanam (plural)."
+          }
+        ]
+      },
+      {
+        "heading": "Cases (Vibhakti)",
+        "topic_summary": "Noun roles in sentence.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_cases",
+            "summary": "Introduction to the eight cases (vibhaktis) that indicate a noun's grammatical function in a sentence (e.g., subject, object, instrument)."
+          }
+        ]
+      },
+      {
+        "heading": "Declension: 'a'-stems (Masc.)",
+        "topic_summary": "Noun ending patterns.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_decl_a_masc",
+            "summary": "Learning the declension patterns for masculine nouns ending in short 'a' (e.g., rāma - Rama)."
+          }
+        ]
+      },
+      {
+        "heading": "Declension: 'ā'-stems (Fem.)",
+        "topic_summary": "Feminine noun endings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_decl_aa_fem",
+            "summary": "Learning the declension patterns for feminine nouns ending in long 'ā' (e.g., sītā - Sita)."
+          }
+        ]
+      },
+      {
+        "heading": "Pronouns: Personal",
+        "topic_summary": "I, you, he/she/it.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_pronouns_personal",
+            "summary": "Introduction to personal pronouns (asmad - I/we, yuṣmad - you, tad - he/she/it/they) and their declensions."
+          }
+        ]
+      },
+      {
+        "heading": "Verbs (Kriyā)",
+        "topic_summary": "Action or state words.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_verbs",
+            "summary": "Understanding verbs (kriyāpadam) as words denoting action, state, or occurrence, and their core components."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Roots (Dhātu)",
+        "topic_summary": "Core meaning of verb.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_verb_roots",
+            "summary": "The concept of the dhātu, the fundamental semantic core from which verb forms are derived."
+          }
+        ]
+      },
+      {
+        "heading": "Present Tense (Laṭ)",
+        "topic_summary": "Actions happening now.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_present_tense",
+            "summary": "Introduction to the present indicative tense (Laṭ Lakāra), used for actions occurring in the present."
+          }
+        ]
+      },
+      {
+        "heading": "Parasmaipada/Ātmanepada",
+        "topic_summary": "Verb voice distinctions.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_pada",
+            "summary": "Understanding the two main 'voices' or sets of endings for verbs: Parasmaipada (active, for others) and Ātmanepada (middle, for oneself)."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Conjugation: Basics",
+        "topic_summary": "Changing verb forms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_verb_conj_basics",
+            "summary": "Basic principles of verb conjugation according to person (puruṣa) and number (vacana) in the present tense."
+          }
+        ]
+      },
+      {
+        "heading": "Common Verbs (Class 1)",
+        "topic_summary": "Basic action words.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_common_verbs_c1",
+            "summary": "Learning to conjugate common verbs from the first class (gaṇa), e.g., √bhū (to be/become), √gam (to go)."
+          }
+        ]
+      },
+      {
+        "heading": "Simple Sentence Structure",
+        "topic_summary": "Subject-Object-Verb (SOV).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_sentence_structure",
+            "summary": "Understanding the typical Subject-Object-Verb word order in Sanskrit sentences and basic sentence construction."
+          }
+        ]
+      },
+      {
+        "heading": "Avyayas (Indeclinables)",
+        "topic_summary": "Unchanging words (particles).",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_avyayas",
+            "summary": "Introduction to indeclinable words (avyayas) such as conjunctions (ca - and), adverbs (api - also), and particles (eva - indeed)."
+          }
+        ]
+      },
+      {
+        "heading": "Imperative Mood (Loṭ)",
+        "topic_summary": "Commands, requests, wishes.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_imperative_mood",
+            "summary": "Forming and using the imperative mood (Loṭ Lakāra) for expressing commands, requests, blessings, or permissions."
+          }
+        ]
+      },
+      {
+        "heading": "Past Imperfect (Laṅ)",
+        "topic_summary": "Actions in past time.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_past_imperfect",
+            "summary": "Introduction to the past imperfect tense (Laṅ Lakāra), used for actions that occurred in the past, often with an augment 'a-'. "
+          }
+        ]
+      },
+      {
+        "heading": "Adjectives (Viśeṣaṇa)",
+        "topic_summary": "Describing nouns.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_adjectives",
+            "summary": "Understanding adjectives (viśeṣaṇam) and their agreement with the nouns they modify in gender, number, and case."
+          }
+        ]
+      },
+      {
+        "heading": "Declension: 'i' & 'u' stems",
+        "topic_summary": "More noun patterns.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_decl_i_u",
+            "summary": "Learning declension patterns for common masculine and feminine nouns ending in short 'i' (e.g., kavi - poet) and 'u' (e.g., guru - teacher)."
+          }
+        ]
+      },
+      {
+        "heading": "Declension: Neuter 'a'-stems",
+        "topic_summary": "Neuter noun endings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_decl_a_neuter",
+            "summary": "Learning the declension patterns for neuter nouns ending in short 'a' (e.g., phala - fruit)."
+          }
+        ]
+      },
+      {
+        "heading": "Sandhi: Vowel (Svara)",
+        "topic_summary": "Vowel combination rules.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_sandhi_vowel",
+            "summary": "Basic rules of Svara Sandhi (vowel combination), such as dīrgha (lengthening), guṇa, and vṛddhi changes."
+          }
+        ]
+      },
+      {
+        "heading": "Sandhi: Consonant (Vyañjana)",
+        "topic_summary": "Consonant change rules.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_sandhi_consonant",
+            "summary": "Introduction to basic rules of Vyañjana Sandhi (consonant combination) when consonants meet at word boundaries or within words."
+          }
+        ]
+      },
+      {
+        "heading": "Future Tense (Lṛṭ)",
+        "topic_summary": "Actions yet to happen.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_future_tense",
+            "summary": "Forming and using the simple future tense (Lṛṭ Lakāra) to describe actions that will take place in the future."
+          }
+        ]
+      },
+      {
+        "heading": "Potential Mood (Vidhi Liṅ)",
+        "topic_summary": "Possibility, obligation, advice.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_potential_mood",
+            "summary": "Using the potential/optative mood (Vidhi Liṅ Lakāra) to express possibility, probability, advice, or gentle commands ('should', 'ought to')."
+          }
+        ]
+      },
+      {
+        "heading": "Participles: Past Passive (kta)",
+        "topic_summary": "Adjectives from past verbs.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_participle_kta",
+            "summary": "Understanding and using the past passive participle (ending in -kta), which functions as an adjective describing something that has undergone an action."
+          }
+        ]
+      },
+      {
+        "heading": "Absolutive/Gerund (ktvā)",
+        "topic_summary": "'Having done X', prior action.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_absolutive_ktva",
+            "summary": "Using the absolutive or gerund (indeclinable participle ending in -tvā or -ya with prefix) to indicate a prior action performed by the same subject."
+          }
+        ]
+      },
+      {
+        "heading": "Infinitive (tumun)",
+        "topic_summary": "'To do X', purpose.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_infinitive_tumun",
+            "summary": "Using the infinitive of purpose (ending in -tum) to express 'in order to do X' or 'for the purpose of doing X'."
+          }
+        ]
+      },
+      {
+        "heading": "Vocabulary: Everyday Objects",
+        "topic_summary": "Common household items.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_vocab_objects",
+            "summary": "Learning Sanskrit names for common objects found in daily life and nature."
+          }
+        ]
+      },
+      {
+        "heading": "Vocabulary: Relations",
+        "topic_summary": "Family and social terms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_vocab_relations",
+            "summary": "Learning Sanskrit terms for family members and common social relationships."
+          }
+        ]
+      },
+      {
+        "heading": "Compounds (Samāsa): Intro",
+        "topic_summary": "Combining words into one.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_samasa_intro",
+            "summary": "An initial look at samāsas (compound words), where multiple words are joined to form a single complex nominal stem."
+          }
+        ]
+      },
+      {
+        "heading": "Reading: Simple Stories",
+        "topic_summary": "Pañcatantra, Hitopadeśa excerpts.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_reading_stories",
+            "summary": "Beginning to read and comprehend simplified stories or excerpts from texts like the Pañcatantra or Hitopadeśa."
+          }
+        ]
+      },
+      {
+        "heading": "Subhāṣitāni",
+        "topic_summary": "Wise sayings, epigrams.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_reading_subhashitani",
+            "summary": "Reading and understanding Subhāṣitāni – short, memorable verses conveying ethical, practical, or philosophical wisdom."
+          }
+        ]
+      },
+      {
+        "heading": "Kāraka Theory: Intro",
+        "topic_summary": "Deep noun-verb relations.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_karaka_intro",
+            "summary": "An introduction to the Kāraka system, which describes the semantic roles of nouns in relation to the action of the verb, underlying case endings."
+          }
+        ]
+      },
+      {
+        "heading": "Passive Voice (Karmaṇi)",
+        "topic_summary": "Subject receives action.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_passive_voice",
+            "summary": "Forming and understanding the passive voice (Karmaṇi Prayoga), where the grammatical subject is the recipient of the verb's action."
+          }
+        ]
+      },
+      {
+        "heading": "Verb Prefixes (Upasarga)",
+        "topic_summary": "Modifying verb meanings.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_upasarga",
+            "summary": "Understanding how prefixes (upasargas) like 'pra-', 'ā-', 'sam-' attach to verb roots to modify or specify their meaning."
+          }
+        ]
+      },
+      {
+        "heading": "Causative Verbs (Ṇijanta)",
+        "topic_summary": "Making someone do something.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_causative_verbs",
+            "summary": "Forming causative verbs (Ṇijanta), which express the idea of causing someone or something to perform an action."
+          }
+        ]
+      },
+      {
+        "heading": "Desiderative Verbs (Sannanta)",
+        "topic_summary": "Wishing to do something.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_desiderative_verbs",
+            "summary": "Forming desiderative verbs (Sannanta), which express the wish or desire to perform the action of the root verb."
+          }
+        ]
+      },
+      {
+        "heading": "Nominal Stems: Advanced",
+        "topic_summary": "Consonant, ṛ-stems.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_decl_consonant_r",
+            "summary": "Learning declension patterns for nouns ending in consonants and an ṛ-vowel (e.g., pitṛ - father)."
+          }
+        ]
+      },
+      {
+        "heading": "Irregular Verbs",
+        "topic_summary": "Verbs with unique forms.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_irregular_verbs",
+            "summary": "Studying common verbs that have irregular or significantly varied forms in different tenses and moods."
+          }
+        ]
+      },
+      {
+        "heading": "Chandas (Metrics): Intro",
+        "topic_summary": "Poetic meters, Anushṭubh.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_topic_chandas_intro",
+            "summary": "An introduction to Sanskrit prosody (Chandas), focusing on common syllabic meters like Anushṭubh (śloka)."
+          }
+        ]
+      },
+      {
+        "heading": "Reading: Bhagavad Gītā",
+        "topic_summary": "Key philosophical text.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_reading_gita",
+            "summary": "Beginning to read and analyze selected verses from the Bhagavad Gītā, a central text of Hindu philosophy."
+          }
+        ]
+      },
+      {
+        "heading": "Reading: Rāmāyaṇa/Mahābhārata",
+        "topic_summary": "Epic narrative excerpts.",
+        "paragraphs": [
+          {
+            "type": "topic_definition",
+            "id": "sanskrit_reading_epics",
+            "summary": "Reading simplified or original excerpts from the great Indian epics, the Rāmāyaṇa and Mahābhārata."
+          }
+        ]
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,107 @@
+{
+  "Archetype": {
+    "short_description": "Primordial pattern or image expressing universal principles or experiences."
+  },
+  "Glyph": {
+    "short_description": "Visual encoding system using fundamental geometric or pictorial elements."
+  },
+  "Mudra": {
+    "short_description": "Gestural system encoding meanings through bodily positions and movements."
+  },
+  "Yantra": {
+    "short_description": "Geometric pattern system representing cosmic or metaphysical principles."
+  },
+  "Cipher": {
+    "short_description": "System of encoded meanings through deliberate transformation of signs."
+  },
+  "Icon": {
+    "short_description": "Representative image system carrying direct spiritual or cultural significance."
+  },
+  "Sigil": {
+    "short_description": "Constructed symbol system for focusing and directing intention or power."
+  },
+  "Attribute": {
+    "short_description": "Associated object or quality system representing larger concepts or entities."
+  },
+  "Element": {
+    "short_description": "Fundamental component system expressing basic principles of nature or reality."
+  },
+  "Pattern": {
+    "short_description": "Recurring design system revealing underlying structure or principle."
+  },
+  "Number": {
+    "short_description": "Quantitative symbol system expressing qualitative cosmic principles."
+  },
+  "Mark": {
+    "short_description": "Basic sign system indicating presence, ownership, or significance."
+  },
+  "Emblem": {
+    "short_description": "Representative device system carrying established collective meaning."
+  },
+  "Seal": {
+    "short_description": "Authority-marking system conferring or protecting power or authenticity."
+  },
+  "Token": {
+    "short_description": "Physical representation system standing for abstract values or rights."
+  },
+  "Script": {
+    "short_description": "Written encoding system for language and meaning."
+  },
+  "Signal": {
+    "short_description": "Communication system using agreed indicators for specific meanings."
+  },
+  "Oracle": {
+    "short_description": "Divinatory symbol system for accessing hidden knowledge."
+  },
+  "Gesture": {
+    "short_description": "Body language system conveying meaning through movement and position."
+  },
+  "Color": {
+    "short_description": "Chromatic system encoding meanings through visual wavelengths."
+  },
+  "Sound": {
+    "short_description": "Acoustic symbol system conveying meaning through vibration patterns."
+  },
+  "Form": {
+    "short_description": "Shape-based system expressing archetypal qualities through structure."
+  },
+  "Matrix": {
+    "short_description": "Grid-like symbol system showing relationships and correspondences."
+  },
+  "Code": {
+    "short_description": "Rule-based system for systematic transformation of meanings."
+  },
+  "Index": {
+    "short_description": "Pointing system indicating relationships between signs and meanings."
+  },
+  "Threshold": {
+    "short_description": "Transitional symbol system marking passages between states."
+  },
+  "Vehicle": {
+    "short_description": "Carrier system transporting meaning between levels of understanding."
+  },
+  "Field": {
+    "short_description": "Space of symbolic resonance and meaningful correspondences."
+  },
+  "Web": {
+    "short_description": "Network system of interconnected symbolic relationships."
+  },
+  "Key": {
+    "short_description": "System for unlocking or accessing encoded symbolic meanings."
+  },
+  "Signature": {
+    "short_description": "Distinctive marking system indicating essential nature or quality."
+  },
+  "Algorithm": {
+    "short_description": "Process-based system for generating or transforming symbols."
+  },
+  "Crystal": {
+    "short_description": "Structure system expressing perfect form and inner order."
+  },
+  "Wave": {
+    "short_description": "Oscillation system conveying meaning through frequency patterns."
+  },
+  "Node": {
+    "short_description": "Point system marking intersections of symbolic forces or meanings."
+  }
+}

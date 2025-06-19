@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>The Ascent: A Game of Sadhana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-color: #020008;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        .container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        canvas {
+            box-shadow: 0 0 20px rgba(173, 216, 230, 0.3);
+            border-radius: 15px;
+            border: 1px solid rgba(173, 216, 230, 0.2);
+            touch-action: none;
+            background: #0a0814;
+        }
+        .ui-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+        .instructions {
+            position: absolute;
+            top: 20px;
+            color: rgba(255,255,255,0.6);
+            font-size: 0.9rem;
+            text-shadow: 0 0 5px black;
+            font-family: 'Jost', sans-serif;
+        }
+        .evolution-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3rem;
+            color: white;
+            text-shadow: 0 0 20px white;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="ui-overlay">
+            <div class="instructions">Witness the Sadhana. Click or Touch to call down the Grace.</div>
+            <div id="evolutionText" class="evolution-text"></div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        const evolutionText = document.getElementById('evolutionText');
+
+        const aspectRatio = 9 / 16;
+        let canvasHeight = window.innerHeight * 0.85;
+        let canvasWidth = canvasHeight / aspectRatio;
+        if (canvasWidth > window.innerWidth * 0.98) {
+            canvasWidth = window.innerWidth * 0.98;
+            canvasHeight = canvasWidth * aspectRatio;
+        }
+        canvas.width = canvasWidth;
+        canvas.height = canvasHeight;
+        
+        const forces = [
+            { name: "Faith", type: 'light', effect: 0.04, symbol: '△' }, { name: "Peace", type: 'light', effect: 0.04, symbol: '○' },
+            { name: "Love", type: 'light', effect: 0.05, symbol: '♡' }, { name: "Grace", type: 'light', effect: 0.06, symbol: '✧' },
+            { name: "Ananda", type: 'light', effect: 0.07, symbol: '❁' }, { name: "Doubt", type: 'dark', effect: -0.05, symbol: '?' },
+            { name: "Fear", type: 'dark', effect: -0.06, symbol: '⚡' }, { name: "Ego", type: 'dark', effect: -0.05, symbol: '◇' },
+            { name: "Desire", type: 'dark', effect: -0.04, symbol: '⬩' }, { name: "Inertia", type: 'dark', effect: -0.04, symbol: '⬚' }
+        ];
+
+        const player = {
+            x: canvas.width / 2, y: canvas.height - 60, radius: 15, lightLevel: 0.5,
+            evolutionLevel: 0, evolutionPoints: 0,
+            targetX: canvas.width / 2,
+            draw(time) {
+                this.x += (this.targetX - this.x) * 0.05;
+
+                ctx.save();
+                ctx.translate(this.x, this.y);
+
+                const pulse = 1 + Math.sin(time * 0.002) * 0.1;
+                switch (this.evolutionLevel) {
+                    case 0: // Psychic Spark
+                        const r0=Math.floor(180+75*this.lightLevel),g0=Math.floor(220+35*this.lightLevel),b0=255;
+                        const c0=`rgb(${r0},${g0},${b0})`;
+                        const gr0=ctx.createRadialGradient(0,0,1,0,0,this.radius*pulse);
+                        gr0.addColorStop(0,'white');gr0.addColorStop(0.6,c0);gr0.addColorStop(1,'rgba(135,206,250,0)');
+                        ctx.fillStyle=gr0;ctx.shadowColor=c0;ctx.shadowBlur=30;
+                        ctx.beginPath();ctx.arc(0,0,this.radius,0,Math.PI*2);ctx.fill();
+                        break;
+                    case 1: // Psychic Being (Lotus)
+                        ctx.shadowColor = 'white'; ctx.shadowBlur = 30;
+                        for(let j=0; j<2; j++) {
+                            ctx.beginPath(); ctx.moveTo(0,0);
+                            for (let i=0;i<6;i++) {
+                                let a=(i/6)*Math.PI*2+time*0.001*(j===0?1:-1);
+                                let x1=Math.cos(a)*this.radius*(1.2+j*0.5)*pulse;let y1=Math.sin(a)*this.radius*(1.2+j*0.5)*pulse;
+                                let x2=Math.cos(a+Math.PI/6)*this.radius*0.5;let y2=Math.sin(a+Math.PI/6)*this.radius*0.5;
+                                ctx.quadraticCurveTo(x2, y2, x1, y1);
+                            }
+                            ctx.closePath();
+                            ctx.fillStyle = `rgba(${255},${220-50*j},${255-100*j}, ${0.5+0.5*j})`;
+                            ctx.fill();
+                        }
+                        break;
+                    default: // Supramental Sun
+                        const grad3 = ctx.createRadialGradient(0,0,this.radius*0.5,0,0,this.radius*1.8*pulse);
+                        grad3.addColorStop(0,'rgba(255,255,255,1)');grad3.addColorStop(0.4,'rgba(255,223,100,1)');grad3.addColorStop(1,'rgba(255,165,0,0)');
+                        ctx.fillStyle = grad3;ctx.shadowColor = '#FFA500';ctx.shadowBlur = 50;
+                        ctx.beginPath();ctx.arc(0,0,this.radius*1.8,0,Math.PI*2);ctx.fill();
+                        break;
+                }
+                ctx.restore();
+            },
+            act(particles) {
+                let closestLight = null, closestDark = null;
+                let minLightDist = Infinity, minDarkDist = Infinity;
+                particles.forEach(p => {
+                    const dist = Math.hypot(this.x - p.x, this.y - p.y);
+                    if (p.force.type === 'light' && dist < minLightDist) { minLightDist = dist; closestLight = p; } 
+                    else if (p.force.type === 'dark' && dist < minDarkDist) { minDarkDist = dist; closestDark = p; }
+                });
+                if (closestLight && (!closestDark || minLightDist < minDarkDist * (1.8 - this.lightLevel) || this.lightLevel > 0.7)) {
+                    this.targetX = closestLight.x;
+                } else if (closestDark) {
+                    if (this.x < closestDark.x) this.targetX = closestDark.x - 200;
+                    else this.targetX = closestDark.x + 200;
+                }
+                this.targetX = Math.max(this.radius, Math.min(canvas.width - this.radius, this.targetX));
+            }
+        };
+
+        // --- Game Elements ---
+        let particles = [], revelations = [], graceEffects = [];
+
+        class Particle {
+            constructor() {
+                this.force = forces[Math.floor(Math.random() * forces.length)];
+                this.x = Math.random() * canvas.width; this.y = -30;
+                this.radius = Math.random() * 5 + 18;
+                this.speed = Math.random() * 1.5 + 1.2;
+                this.rotation = Math.random() * Math.PI * 2; this.rotationSpeed = (Math.random() - 0.5) * 0.02;
+            }
+            update() { this.y += this.speed; this.rotation += this.rotationSpeed; }
+            draw() {
+                ctx.save(); ctx.translate(this.x,this.y); ctx.rotate(this.rotation);
+                ctx.font = `600 ${this.radius * 0.8}px 'Cormorant Garamond'`;
+                ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.shadowBlur=15;
+                if (this.force.type==='light') { ctx.fillStyle='#FFD700'; ctx.shadowColor='#FFD700';} 
+                else { ctx.fillStyle='#9370DB'; ctx.shadowColor='#9370DB';}
+                ctx.fillText(this.force.symbol, 0, 0);
+                ctx.restore();
+            }
+        }
+        
+        class Revelation {
+            constructor(x, y, text, type) { this.x=x;this.y=y;this.text=text;this.type=type; this.life=120; }
+            update() { this.life--; this.y -= 0.3; }
+            draw() {
+                ctx.globalAlpha = Math.sin((this.life/120)*Math.PI);
+                ctx.font=`400 18px 'Jost'`; ctx.textAlign='center';
+                ctx.fillStyle = this.type==='light' ? '#FFD700' : '#d8bfff';
+                ctx.fillText(this.text, this.x, this.y);
+            }
+        }
+        
+        class GraceDescent {
+            constructor(x, y) { this.x = x; this.y = y; this.life = 120; }
+            update() { this.life--; }
+            draw() {
+                const p = (120 - this.life) / 120; const r = p * canvas.height;
+                const o = Math.sin(p * Math.PI);
+                const grad = ctx.createRadialGradient(this.x,this.y,0,this.x,this.y,r);
+                grad.addColorStop(0, `rgba(255,215,0,${o*0.3})`); grad.addColorStop(0.2, `rgba(255,215,0,${o*0.1})`); grad.addColorStop(1, 'rgba(255,215,0,0)');
+                ctx.fillStyle = grad; ctx.beginPath(); ctx.arc(this.x,this.y,r,0,Math.PI*2); ctx.fill();
+            }
+        }
+
+        function callGrace(e) {
+            let rect = canvas.getBoundingClientRect();
+            let x = (e.clientX-rect.left)*(canvas.width/rect.width); let y = (e.clientY-rect.top)*(canvas.height/rect.height);
+            graceEffects.push(new GraceDescent(x,y));
+            particles.forEach(p => {
+                if(p.force.type==='dark') {
+                    const dist=Math.hypot(p.x-x, p.y-y);
+                    if(dist < canvas.height/3) p.force = forces.find(f => f.name === "Grace") || p.force;
+                }
+            });
+        }
+        canvas.addEventListener('click', callGrace);
+        canvas.addEventListener('touchstart', e => { e.preventDefault(); callGrace(e.touches[0]); });
+        
+        // --- Game Logic ---
+        function handleGameLogic() {
+            if (Math.random() < 0.08) particles.push(new Particle());
+            for (let i = particles.length - 1; i >= 0; i--) {
+                const p = particles[i]; p.update();
+                const dist = Math.hypot(player.x-p.x, player.y-p.y);
+                if (dist < player.radius + p.radius) {
+                    player.lightLevel=Math.max(0,Math.min(1, player.lightLevel+p.force.effect));
+                    revelations.push(new Revelation(p.x,p.y,p.force.name,p.force.type));
+                    particles.splice(i,1); continue;
+                }
+                if (p.y > canvas.height + p.radius) particles.splice(i, 1);
+            }
+            if (player.lightLevel>0.98 && player.evolutionLevel < 2) {
+                player.evolutionPoints += 0.05;
+            }
+            const thresholds=[100, 300];
+            if (player.evolutionLevel<thresholds.length && player.evolutionPoints>thresholds[player.evolutionLevel]) {
+                player.evolutionLevel++; player.evolutionPoints=0;
+                const names=["The Psychic Being", "The Supramental Sun"];
+                evolutionText.textContent=names[player.evolutionLevel-1];
+                evolutionText.style.opacity=1;
+                setTimeout(() => { evolutionText.style.opacity=0; }, 3000);
+            }
+            revelations.forEach((r,i) => { r.update(); if(r.life<=0) revelations.splice(i,1); });
+            graceEffects.forEach((g,i) => { g.update(); if(g.life<=0) graceEffects.splice(i,1); });
+        }
+        
+        let backgroundState = {r:10,g:8,b:20};
+        function animate() {
+            const time = Date.now();
+            player.act(particles);
+            
+            const sattva=player.lightLevel;
+            const targetR=2+player.evolutionLevel*10+10*sattva; const targetG=player.evolutionLevel*5+8*sattva; const targetB=8+player.evolutionLevel*20+22*sattva;
+            backgroundState.r+=(targetR-backgroundState.r)*0.01; backgroundState.g+=(targetG-backgroundState.g)*0.01; backgroundState.b+=(targetB-backgroundState.b)*0.01;
+            
+            ctx.fillStyle = `rgb(${Math.floor(backgroundState.r)},${Math.floor(backgroundState.g)},${Math.floor(backgroundState.b)})`;
+            ctx.fillRect(0,0,canvas.width,canvas.height);
+
+            handleGameLogic();
+            particles.forEach(p => p.draw());
+            graceEffects.forEach(g => g.draw());
+
+            // Draw revelations on top of particles
+            ctx.save();
+            ctx.shadowColor = 'black';
+            ctx.shadowBlur = 5;
+            revelations.forEach(r => r.draw());
+            ctx.restore();
+
+            player.draw(time);
+            requestAnimationFrame(animate);
+        }
+        animate();
+    </script>
+</body>
+</html>
+

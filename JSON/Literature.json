@@ -1,0 +1,122 @@
+{
+  "Narrative": {
+    "short_description": "The fundamental structure through which human experience is organized into meaningful sequences, creating patterns of causality and emotional resonance across time."
+  },
+  "Protagonist": {
+    "short_description": "The conscious vessel through which a story's transformative journey manifests, embodying both individual will and universal human struggles."
+  },
+  "Antagonist": {
+    "short_description": "The necessary opposition that shapes narrative evolution, representing both external conflict and internal psychological shadows."
+  },
+  "Theme": {
+    "short_description": "The universal currents flowing beneath surface events, revealing the essential questions and patterns that connect stories to human consciousness."
+  },
+  "Metaphor": {
+    "short_description": "The linguistic alchemy that transforms literal meaning into multidimensional significance through symbolic correspondence."
+  },
+  "Symbolism": {
+    "short_description": "The network of hidden correspondences that binds surface narrative to deeper realities, creating layered dimensions of interpretation."
+  },
+  "Genre": {
+    "short_description": "The evolving categorical frameworks that shape creative expression and audience expectation through cultural conversation."
+  },
+  "Plot": {
+    "short_description": "The intentional architecture of events that constructs meaning through causal relationships and dramatic revelation."
+  },
+  "Setting": {
+    "short_description": "The dimensional container that both grounds and transcends narrative, shaping character possibilities while embodying thematic essence."
+  },
+  "Dialogue": {
+    "short_description": "The dynamic interplay of voices that reveals character consciousness while advancing the alchemy of narrative transformation."
+  },
+  "Archetype": {
+    "short_description": "The primordial patterns recurring across stories, forming the collective unconscious foundation of human narrative experience."
+  },
+  "Catharsis": {
+    "short_description": "The transformative purification achieved through emotional engagement with narrative's symbolic trials and revelations."
+  },
+  "Motif": {
+    "short_description": "The recurring symbolic elements that accumulate resonance through narrative repetition, creating thematic harmonics."
+  },
+  "Irony": {
+    "short_description": "The layered consciousness that perceives simultaneous truths, creating depth through juxtaposition of apparent and actual meaning."
+  },
+  "Foreshadowing": {
+    "short_description": "The temporal alchemy that binds future to present in narrative, creating patterns of anticipation and revelation."
+  },
+  "Allusion": {
+    "short_description": "The intertextual communion that expands a work's significance through conscious dialogue with cultural memory."
+  },
+  "Epiphany": {
+    "short_description": "The sudden crystallization of understanding that marks a character's irreversible transformation in consciousness."
+  },
+  "Allegory": {
+    "short_description": "The multidimensional narrative plane where surface events systematically mirror philosophical or spiritual realities."
+  },
+  "Diction": {
+    "short_description": "The alchemical selection of words that transforms base language into significant artistic expression."
+  },
+  "Syntax": {
+    "short_description": "The rhythmic architecture of language that shapes meaning through temporal flow and structural relationships."
+  },
+  "Meter": {
+    "short_description": "The measured pulse that binds chaos to order in poetic expression, mirroring natural rhythms and emotional cadences."
+  },
+  "Sonnet": {
+    "short_description": "The crystalline form that compresses human emotion into disciplined structure, revealing infinity within finite bounds."
+  },
+  "Haiku": {
+    "short_description": "The momentary capture of eternity through minimalist form, uniting temporal perception with timeless essence."
+  },
+  "Bildungsroman": {
+    "short_description": "The archetypal journey from innocence to experiential wisdom, mapping the individual's negotiation with societal consciousness."
+  },
+  "Canon": {
+    "short_description": "The evolving body of works that a culture preserves as vessels of collective memory and ongoing cultural dialogue."
+  },
+  "Subtext": {
+    "short_description": "The unspoken reality flowing beneath textual surfaces, where true meaning resides in conscious omission and implication."
+  },
+  "Parody": {
+    "short_description": "The reflective distortion that critiques cultural forms through exaggerated imitation, revealing essence through contrast."
+  },
+  "Satire": {
+    "short_description": "The corrective mirror that exposes societal imperfections through humorous exaggeration and critical inversion."
+  },
+  "Stream of Consciousness": {
+    "short_description": "The unfiltered transcription of mental reality, dissolving boundaries between thought and expression in psychological verisimilitude."
+  },
+  "Verisimilitude": {
+    "short_description": "The crafted illusion of reality that enables suspension of disbelief while maintaining artistic truth beyond factual accuracy."
+  },
+  "Ekphrasis": {
+    "short_description": "The transcendent translation between artistic mediums, where language attempts to capture and converse with visual essence."
+  },
+  "Ambiguity": {
+    "short_description": "The deliberate openness that invites active co-creation of meaning, sustaining multiple truths in simultaneous manifestation."
+  },
+  "Pathos": {
+    "short_description": "The emotional bridge connecting narrative experience to audience vulnerability, enabling empathic transformation."
+  },
+  "Ethos": {
+    "short_description": "The persuasive authority derived from perceived integrity and credibility within narrative's rhetorical framework."
+  },
+  "Logos": {
+    "short_description": "The structural logic that binds narrative elements into persuasive coherence, appealing to intellectual recognition of truth."
+  },
+  "Deus ex Machina": {
+    "short_description": "The narrative intervention that resolves conflict through external means, testing the boundaries of artistic causality."
+  },
+  "Foil": {
+    "short_description": "The contrasting mirror that reveals essential qualities through strategic juxtaposition of character elements."
+  },
+  "In Media Res": {
+    "short_description": "The temporal dislocation that begins narrative in essential complexity, demanding active reconstruction of causality."
+  },
+  "Unreliable Narrator": {
+    "short_description": "The fractured lens that requires audiences to participate in meaning-making through critical discernment of perspective."
+  },
+  "Trope": {
+    "short_description": "The recurring narrative patterns that achieve cultural significance through collective recognition and evolving usage."
+  }
+}

@@ -1,0 +1,248 @@
+{
+ "Places": {
+	 "short_description": ""
+ },
+  "World": {
+    "short_description": "Complete system or realm of existence with its own laws and patterns."
+  },
+  "Plane": {
+    "short_description": "Fundamental level or dimension of reality or consciousness."
+  },
+  "Heaven": {
+"short_description": "Supreme realm or state of divine perfection and ultimate fulfillment."
+},
+  "Realm": {
+    "short_description": "Distinct sphere of existence defined by specific qualities or vibrations."
+  },
+  "Dimension": {
+    "short_description": "Fundamental aspect or direction through which reality is structured."
+  },
+  "Loka": {
+    "short_description": "Hindu/Buddhist concept of distinct planes or worlds of existence."
+  },
+  "Body": {
+    "short_description": "Container or vehicle of consciousness at different levels of manifestation."
+  },
+  "Field": {
+    "short_description": "Space of influence or activity defined by specific forces or principles."
+  },
+  "Matrix": {
+    "short_description": "Underlying structure or medium in which phenomena manifest."
+  },
+  "Sphere": {
+    "short_description": "Complete domain of existence defined by particular qualities."
+  },
+  "Kingdom": {
+    "short_description": "Fundamental category of being or manifestation in nature."
+  },
+  "Cosmos": {
+    "short_description": "Ordered system of reality with coherent principles and structure."
+  },
+  "Universe": {
+    "short_description": "Total system of manifested existence within certain parameters."
+  },
+  "Domain": {
+    "short_description": "Area of reality governed by specific laws or principles."
+  },
+  "State": {
+    "short_description": "Mode or condition of existence or consciousness."
+  },
+  "Level": {
+    "short_description": "Distinct grade or degree of manifestation in hierarchical reality."
+  },
+  "Order": {
+    "short_description": "Fundamental pattern or arrangement of existence."
+  },
+  "System": {
+    "short_description": "Interconnected set of elements functioning as unified whole."
+  },
+  "Chain": {
+    "short_description": "Hierarchical sequence of beings or states of existence."
+  },
+  "Hierarchy": {
+    "short_description": "Graduated system of levels or orders of reality."
+  },
+  "Web": {
+    "short_description": "Interconnected network of relationships and influences."
+  },
+  "Mandala": {
+    "short_description": "Sacred organizational structure representing cosmic or psychic order."
+  },
+  "Bhuvana": {
+    "short_description": "Level of existence in Indian cosmology."
+  },
+  "Olam": {
+    "short_description": "Jewish concept of world or plane of existence."
+  },
+  "Aether": {
+    "short_description": "Subtle medium or plane permeating all existence."
+  },
+  "Pleroma": {
+    "short_description": "Gnostic concept of spiritual fullness and divine reality."
+  },
+  "Axis Mundi": {
+    "short_description": "Central pole or structure connecting different levels of reality."
+  },
+  "Emanation": {
+    "short_description": "Level of reality proceeding from higher source."
+  },
+  "Location": {
+    "short_description": "A specific point or position within space."
+  },
+  "Space": {
+    "short_description": "The physical or conceptual expanse where places exist."
+  },
+  "Environment": {
+    "short_description": "The surrounding conditions or context of a place."
+  },
+  "Site": {
+    "short_description": "A designated or identifiable area within a larger space."
+  },
+  "Region": {
+    "short_description": "A broader area defined by shared characteristics or boundaries."
+  },
+  "Territory": {
+    "short_description": "A defined area under specific control or influence."
+  },
+  "Locale": {
+    "short_description": "A particular setting or area with distinct features."
+  },
+  "Area": {
+    "short_description": "A measurable expanse or segment of space."
+  },
+  "Zone": {
+    "short_description": "A designated section of space with specific attributes or purposes."
+  },
+  "Boundary": {
+    "short_description": "The limits or delineations that define a place."
+  },
+  "Context": {
+    "short_description": "The circumstances or conditions that shape a place."
+  },
+  "Landscape": {
+    "short_description": "The visible features and arrangement of a place."
+  },
+  "Structure": {
+    "short_description": "The physical or conceptual organization of a place."
+  },
+  "Layout": {
+    "short_description": "The spatial arrangement of elements within a place."
+  },
+  "Dimension": {
+    "short_description": "The measurable aspects or scales of a place."
+  },
+  "Proximity": {
+    "short_description": "The nearness or relational distance between places."
+  },
+  "Distance": {
+    "short_description": "The measurable separation between places."
+  },
+  "Scale": {
+    "short_description": "The relative size or scope of a place in context."
+  },
+  "Position": {
+    "short_description": "The relative placement of a place within a larger system."
+  },
+  "Orientation": {
+    "short_description": "The directional alignment or perspective of a place."
+  },
+  "Connection": {
+    "short_description": "The relationships or links between places."
+  },
+  "Network": {
+    "short_description": "Interconnected systems of places and their relationships."
+  },
+  "Node": {
+    "short_description": "Points of connection or significance within a network of places."
+  },
+  "Hub": {
+    "short_description": "A central or focal place within a network."
+  },
+  "Intersection": {
+    "short_description": "The point where multiple places or paths converge."
+  },
+  "Transition": {
+    "short_description": "The movement or shift between places."
+  },
+  "Flow": {
+    "short_description": "The continuous movement or exchange within or between places."
+  },
+  "Accessibility": {
+    "short_description": "The ease of reaching or entering a place."
+  },
+  "Isolation": {
+    "short_description": "The separation or disconnection of a place from others."
+  },
+  "Integration": {
+    "short_description": "The unification or synthesis of places into a cohesive system."
+  },
+  "Differentiation": {
+    "short_description": "The development of distinct characteristics between places."
+  },
+  "Identity": {
+    "short_description": "The unique attributes that define a place."
+  },
+  "Significance": {
+    "short_description": "The meaning or importance attributed to a place."
+  },
+  "Transformation": {
+    "short_description": "Processes of change in the nature or structure of a place."
+  },
+  "Evolution": {
+    "short_description": "Patterns of development and change in places over time."
+  },
+  "Preservation": {
+    "short_description": "Efforts to maintain or protect the integrity of a place."
+  },
+  "Degradation": {
+    "short_description": "The decline or deterioration of a place's qualities."
+  },
+  "Representation": {
+    "short_description": "The depiction or conceptualization of a place."
+  },
+  "Abstraction": {
+    "short_description": "Generalized representations of the nature of place."
+  },
+  "Manifestation": {
+    "short_description": "The expression or realization of a place in observable form."
+  },
+  "Subtle Body": {
+    "short_description": "Non-physical vehicle of consciousness in esoteric traditions."
+  },
+  "Astral Plane": {
+    "short_description": "Intermediate dimension between physical and mental realms."
+  },
+  "Causal Plane": {
+    "short_description": "Level of reality where patterns and archetypes originate."
+  },
+  "Elemental Realm": {
+    "short_description": "Domain governed by fundamental forces or qualities of nature."
+  },
+  "Archetype": {
+    "short_description": "Primordial pattern or template structuring reality."
+  },
+  "Grid": {
+    "short_description": "Underlying energetic or geometric structure of reality."
+  },
+  "Void": {
+    "short_description": "Primordial space or nothingness from which phenomena arise."
+  },
+  "Continuum": {
+    "short_description": "Continuous sequence or progression of states or phenomena."
+  },
+  "Membrane": {
+    "short_description": "Boundary layer between different domains or dimensions."
+  },
+  "Multiverse": {
+    "short_description": "Total system of multiple universes or reality streams."
+  },
+  "Hyperspace": {
+    "short_description": "Space of higher dimensions beyond normal spacetime."
+  },
+  "Noosphere": {
+    "short_description": "Sphere of human thought and consciousness around Earth."
+  },
+  "Morphic Field": {
+    "short_description": "Field containing patterns and information shaping development."
+  }
+}

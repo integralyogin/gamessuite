@@ -1,0 +1,242 @@
+{
+    "Pencil Sketch": {
+      "short_description": "A foundational drawing medium using graphite to create lines, tones, and textures, ranging from quick preliminary studies to highly detailed finished works.",
+      "img": "images/mediums/pencil_sketch.jpg"
+    },
+    "Colored Pencil": {
+      "short_description": "A drawing medium composed of a narrow, pigmented core encased in a wooden cylindrical case. Used for creating detailed, layered, and richly colored drawings.",
+      "img": "images/mediums/colored_pencil.jpg"
+    },
+    "Charcoal Drawing": {
+      "short_description": "A dry art medium made of finely ground organic material. It's known for creating rich, dark tones and is easily blended and smudged for expressive effects.",
+      "img": "images/mediums/charcoal_drawing.jpg"
+    },
+    "Pen and Ink": {
+      "short_description": "A drawing technique involving the use of pens to apply ink to a surface. It excels at creating strong lines, hatching, and high-contrast imagery.",
+      "img": "images/mediums/pen_and_ink.jpg"
+    },
+    "Ballpoint Pen Art": {
+      "short_description": "The use of a common ballpoint pen to create photorealistic portraits, sketches, and complex artworks through meticulous layering and pressure control.",
+      "img": "images/mediums/ballpoint_pen_art.jpg"
+    },
+    "Pastel Drawing": {
+      "short_description": "Art created using sticks of pure powdered pigment and a binder. Includes both soft pastels for painterly effects and oil pastels for dense, vibrant strokes.",
+      "img": [ "images/mediums/pastel_drawing.jpg", "images/mediums/pastel_drawing2.jpg" ]
+    },
+    "Silverpoint": {
+      "short_description": "A traditional drawing technique using a silver stylus on a prepared, abrasive surface. It creates delicate, fine lines that tarnish over time, shifting in color.",
+      "img": [ "images/mediums/silverpoint.jpg", "images/mediums/silverpoint2.jpg" ]
+    },
+    "Marker Art": {
+      "short_description": "Artwork created with felt-tip markers containing alcohol-based or water-based inks, known for producing smooth, vibrant, and uniform areas of color.",
+      "img": "images/mediums/marker_art.jpg"
+    },
+    "Oil Painting": {
+      "short_description": "A traditional painting method using pigments mixed with drying oils, known for its rich colors, luminous quality, and slow drying time which allows for extensive blending.",
+      "img": "images/mediums/oil_painting.jpg"
+    },
+    "Acrylic Painting": {
+      "short_description": "A versatile painting medium using fast-drying acrylic polymer emulsion. Can mimic the look of watercolor or oil paints and is known for its bright, durable finish.",
+      "img": "images/mediums/acrylic_painting.jpg"
+    },
+    "Watercolor": {
+      "short_description": "A painting method using water-soluble pigments. Known for its transparency and luminosity, it's often applied in thin layers or washes on paper.",
+      "img": "images/mediums/watercolor.jpg"
+    },
+    "Gouache": {
+      "short_description": "An opaque watercolor paint. Unlike transparent watercolor, it creates a flat, matte, and vibrant layer of color, often used in illustration and design.",
+      "img": "images/mediums/gouache.jpg"
+    },
+    "Tempera Painting": {
+      "short_description": "A permanent, fast-drying painting medium consisting of colored pigments mixed with a water-soluble binder, typically egg yolk. Known for its matte finish and crisp details.",
+      "img": "images/mediums/tempera_painting.jpg"
+    },
+    "Fresco": {
+      "short_description": "A mural painting technique involving applying water-based pigments onto freshly laid (buon fresco) or dry (fresco secco) lime plaster.",
+      "img": "images/mediums/fresco.jpg"
+    },
+    "Encaustic Painting": {
+      "short_description": "Also known as hot wax painting, this technique involves using heated beeswax to which colored pigments are added. The liquid/paste is then applied to a surface.",
+      "img": "images/mediums/encaustic_painting.jpg"
+    },
+    "Ink Wash Painting": {
+      "short_description": "An East Asian type of brush painting that uses black ink in various concentrations to create different tones and shades, similar in feel to watercolor.",
+      "img": "images/mediums/ink_wash_painting.jpg"
+    },
+    "Airbrush Art": {
+      "short_description": "A technique where paint is sprayed onto a surface using an airbrush tool, allowing for highly realistic, smooth, and blended gradients.",
+      "img": "images/mediums/airbrush_art.jpg"
+    },
+    "Street Art": {
+      "short_description": "Visual art created in public locations. Encompasses spray paint murals (graffiti), stenciling, and wheatpaste posters, often carrying social commentary.",
+      "img": "images/mediums/street_art.jpg"
+    },
+    "Sand Painting": {
+      "short_description": "The art of pouring colored sands, powdered pigments, or other fine-grained materials onto a surface to make a fixed or unfixed painting.",
+      "img": "images/mediums/sand_painting.jpg"
+    },
+    "Woodcut Print": {
+      "short_description": "A relief printing technique where an image is carved into a block of wood. The printing parts remain level with the surface while non-printing parts are removed.",
+      "img": "images/mediums/woodcut_print.jpg"
+    },
+    "Linocut Print": {
+      "short_description": "A relief printing technique similar to woodcut, but using a sheet of linoleum. The soft material allows for cleaner lines and curved shapes.",
+      "img": "images/mediums/linocut_print.jpg"
+    },
+    "Etching": {
+      "short_description": "An intaglio printmaking process where lines or areas are incised into a metal plate with acid to hold the ink, resulting in fine, detailed lines.",
+      "img": "images/mediums/etching.jpg"
+    },
+    "Engraving": {
+      "short_description": "An intaglio printmaking technique where the design is cut directly into a hard surface, usually a metal plate, using a sharp tool (a burin).",
+      "img": "images/mediums/engraving.jpg"
+    },
+    "Lithography": {
+      "short_description": "A printmaking method based on the principle that oil and water do not mix. An image is drawn with a greasy substance onto a stone or plate, which is then printed.",
+      "img": "images/mediums/lithography.jpg"
+    },
+    "Screen Printing": {
+      "short_description": "A printing technique where a mesh is used to transfer ink onto a substrate, except in areas made impermeable to the ink by a blocking stencil.",
+      "img": "images/mediums/screen_printing.jpg"
+    },
+    "Monotype": {
+      "short_description": "A unique, one-of-a-kind print made by painting or drawing on a smooth, non-absorbent surface and then transferring the image to paper.",
+      "img": "images/mediums/monotype.jpg"
+    },
+    "Marble Sculpture": {
+      "short_description": "The art of creating three-dimensional forms from marble stone. It has been prized since antiquity for its translucence and ability to hold fine detail.",
+      "img": "images/mediums/marble_sculpture.jpg"
+    },
+    "Bronze Sculpture": {
+      "short_description": "A sculpture made from the metal alloy bronze, typically created through casting. Known for its tensile strength, durability, and rich patina.",
+      "img": "images/mediums/bronze_sculpture.jpg"
+    },
+    "Clay Sculpture": {
+      "short_description": "The creation of forms from clay, which may be fired to create ceramics (like terracotta) or left to air-dry. It is one of the oldest art forms.",
+      "img": "images/mediums/clay_sculpture.jpg"
+    },
+    "Wood Carving": {
+      "short_description": "The act of shaping wood using cutting tools to create a sculptural object. The grain of the wood is often an integral part of the final design.",
+      "img": "images/mediums/wood_carving.jpg"
+    },
+    "Ice Sculpture": {
+      "short_description": "A form of sculpture that uses ice as the raw material. Its ephemeral nature makes it a temporary art form often associated with events and festivals.",
+      "img": "images/mediums/ice_sculpture.jpg"
+    },
+    "Glass Sculpture": {
+      "short_description": "Art made from glass, often through processes like glassblowing, casting, or lampworking. It can be transparent, opaque, and highly colorful.",
+      "img": "images/mediums/glass_sculpture.jpg"
+    },
+    "Assemblage": {
+      "short_description": "An artistic form or medium usually created on a defined substrate that consists of three-dimensional elements projecting out of or from the substrate.",
+      "img": "images/mediums/assemblage.jpg"
+    },
+    "Installation Art": {
+      "short_description": "Three-dimensional works that are often site-specific and designed to transform the perception of a space.",
+      "img": "images/mediums/installation_art.jpg"
+    },
+    "Kinetic Sculpture": {
+      "short_description": "Sculpture that contains moving parts or depends on motion for its effect. The movement can be powered by wind, motors, or the viewer.",
+      "img": "images/mediums/kinetic_sculpture.jpg"
+    },
+    "Origami": {
+      "short_description": "The Japanese art of paper folding, where a flat square sheet of paper is transformed into a finished sculpture through folding and sculpting techniques.",
+      "img": "images/mediums/origami.jpg"
+    },
+    "Photograph": {
+      "short_description": "The art of capturing light with a camera to create an image. This medium can range from realistic documentation to abstract and manipulated compositions.",
+      "img": "images/mediums/photograph.jpg"
+    },
+    "Black and White Photography": {
+      "short_description": "Photography that uses tones of black, white, and gray rather than color. It emphasizes composition, texture, light, and shadow.",
+      "img": "images/mediums/black_and_white_photography.jpg"
+    },
+    "Long Exposure Photography": {
+      "short_description": "A photographic technique involving a long-duration shutter speed to sharply capture static elements while blurring, smearing, or obscuring the moving elements.",
+      "img": "images/mediums/long_exposure_photography.jpg"
+    },
+    "Macro Photography": {
+      "short_description": "Extreme close-up photography, usually of very small subjects, in which the size of the subject in the photograph is greater than life size.",
+      "img": "images/mediums/macro_photography.jpg"
+    },
+    "Double Exposure": {
+      "short_description": "A photographic technique of combining two different exposures or images into a single image, often creating surreal and layered effects.",
+      "img": "images/mediums/double_exposure.jpg"
+    },
+    "Cyanotype": {
+      "short_description": "A photographic printing process that produces a cyan-blue print. Engineers used the process well into the 20th century as a simple and low-cost process to produce copies of drawings, referred to as blueprints.",
+      "img": "images/mediums/cyanotype.jpg"
+    },
+    "Cinemagraph": {
+      "short_description": "A still photograph in which a minor and repeated movement occurs, forming a video clip. They are published as an animated GIF or in other video formats, and can give the illusion that the viewer is watching an animation.",
+      "img": "images/mediums/cinemagraph.jpg"
+    },
+    "Digital Painting": {
+      "short_description": "The creation of artwork directly on a computer using digital tools like styluses and software that simulate traditional painting techniques.",
+      "img": "images/mediums/digital_painting.jpg"
+    },
+    "Vector Art": {
+      "short_description": "A type of digital illustration that uses mathematical equations to create clean lines and shapes, allowing for infinite scaling without loss of quality.",
+      "img": "images/mediums/vector_art.jpg"
+    },
+    "Pixel Art": {
+      "short_description": "A form of digital art, created on the level of individual pixels. It is characterized by a deliberately blocky, retro aesthetic reminiscent of early video games.",
+      "img": "images/mediums/pixel_art.jpg"
+    },
+    "3D Render": {
+      "short_description": "A computer-generated two-dimensional image from a three-dimensional model, often striving for photorealism or stylized visual effects.",
+      "img": "images/mediums/3d_render.jpg"
+    },
+    "Voxel Art": {
+      "short_description": "Art created from 3D pixels (volumetric pixels). Similar to pixel art but in three dimensions, it results in a distinct, blocky 3D aesthetic.",
+      "img": "images/mediums/voxel_art.jpg"
+    },
+    "Fractal Art": {
+      "short_description": "A form of algorithmic art created by calculating fractal objects and representing the calculation results as still images, animations, or media.",
+      "img": "images/mediums/fractal_art.jpg"
+    },
+    "Glitch Art": {
+      "short_description": "The aestheticization of digital or analog errors, such as software bugs, by either corrupting digital data or physically manipulating electronic devices.",
+      "img": "images/mediums/glitch_art.jpg"
+    },
+    "Algorithmic Art": {
+      "short_description": "Art, particularly visual art, in which the design is generated by an algorithm. A broader category that includes fractal art and generative art.",
+      "img": "images/mediums/algorithmic_art.jpg"
+    },
+    "Photobashing": {
+      "short_description": "A technique where artists merge and blend photos or 3D assets together to create a new, realistic-looking digital painting or concept art piece.",
+      "img": "images/mediums/photobashing.jpg"
+    },
+    "Collage": {
+      "short_description": "An artwork made from an assemblage of different forms, thus creating a new whole. Often, collages are made from paper, photographs, and other found objects.",
+      "img": "images/mediums/collage.jpg"
+    },
+    "Mosaic": {
+      "short_description": "A picture or pattern produced by arranging together small colored pieces of hard material (tesserae), such as stone, tile, or glass.",
+      "img": "images/mediums/mosaic.jpg"
+    },
+    "Stained Glass": {
+      "short_description": "Art made from pieces of colored glass arranged to form patterns or pictures, held together by strips of lead. It is defined by its interaction with light.",
+      "img": "images/mediums/stained_glass.jpg"
+    },
+    "Tapestry": {
+      "short_description": "A form of textile art, traditionally woven by hand on a loom. It involves weaving weft threads through plain warp threads to create a pictorial design.",
+      "img": "images/mediums/tapestry.jpg"
+    },
+    "Embroidery": {
+      "short_description": "The craft of decorating fabric or other materials using a needle to apply thread or yarn. It can create detailed and textured images.",
+      "img": "images/mediums/embroidery.jpg"
+    },
+    "Ceramics": {
+      "short_description": "Art made from clay hardened by heat. It includes pottery, figurines, and other sculptural objects, and can be glazed for color and finish.",
+      "img": "images/mediums/ceramics.jpg"
+    },
+    "Pyrography": {
+      "short_description": "The art of decorating wood or other materials with burn marks resulting from the controlled application of a heated object like a poker.",
+      "img": "images/mediums/pyrography.jpg"
+    },
+    "Scrimshaw": {
+      "short_description": "The art of carving or engraving on bone or ivory, where the engraved lines are typically filled with pigment to make them stand out.",
+      "img": "images/mediums/scrimshaw.jpg"
+    }
+  }

@@ -1,0 +1,92 @@
+{
+  "Operating System": {
+    "short_description": "The fundamental software layer managing hardware resources, providing services to applications, and enabling user interaction through systematic abstraction and control of computer hardware."
+  },
+  "Kernel": {
+    "short_description": "The core component of an operating system that manages system resources, handles hardware communication, and provides essential services through privileged execution mode."
+  },
+  "Process": {
+    "short_description": "An executing program instance with allocated resources, maintaining its own memory space, program counter, and system resources under operating system management."
+  },
+  "Thread": {
+    "short_description": "A lightweight unit of execution within a process, sharing process resources while maintaining independent program counters and stack spaces for concurrent execution."
+  },
+  "Memory Management": {
+    "short_description": "The systematic organization and control of physical and virtual memory spaces, enabling efficient allocation, protection, and sharing of memory resources among processes."
+  },
+  "Virtual Memory": {
+    "short_description": "The abstraction of physical memory providing processes with isolated address spaces, utilizing disk storage to extend available memory beyond physical limitations."
+  },
+  "File System": {
+    "short_description": "The organized structure for storing, retrieving, and managing data on storage devices, providing hierarchical organization and abstract interfaces for data access."
+  },
+  "Scheduler": {
+    "short_description": "The component responsible for allocating processor time to processes, implementing policies for fair and efficient utilization of computing resources."
+  },
+  "Device Driver": {
+    "short_description": "Specialized software interface managing communication between the operating system and specific hardware devices through standardized protocols."
+  },
+  "System Call": {
+    "short_description": "The interface mechanism allowing user programs to request operating system services through controlled entry points into privileged operations."
+  },
+  "Interrupt": {
+    "short_description": "The signal indicating events requiring immediate attention, triggering the operating system to pause current execution and handle the event through predetermined handlers."
+  },
+  "Context Switch": {
+    "short_description": "The process of saving and restoring processor state when switching between different processes, maintaining isolation and enabling multitasking."
+  },
+  "Deadlock": {
+    "short_description": "The system state where processes are permanently blocked waiting for resources held by each other, requiring detection and resolution mechanisms."
+  },
+  "Semaphore": {
+    "short_description": "The synchronization mechanism controlling access to shared resources through atomic operations, enabling process coordination and mutual exclusion."
+  },
+  "Page Table": {
+    "short_description": "The data structure mapping virtual memory addresses to physical memory locations, enabling memory virtualization and protection mechanisms."
+  },
+  "Buffer Cache": {
+    "short_description": "The temporary storage area for frequently accessed data, improving system performance by reducing direct storage device access."
+  },
+  "Shell": {
+    "short_description": "The command interpreter providing user interface to operating system services through command processing and script execution capabilities."
+  },
+  "Privilege Level": {
+    "short_description": "The hierarchical protection mechanism separating system and user operations, ensuring security and stability through controlled access to resources."
+  },
+  "Daemon": {
+    "short_description": "The background process providing system services without direct user interaction, maintaining continuous operation for essential functions."
+  },
+  "IPC": {
+    "short_description": "The mechanisms enabling communication and data sharing between processes through controlled channels and protocols."
+  },
+  "File Descriptor": {
+    "short_description": "The abstract reference to input/output resources, providing unified access interface to files, devices, and communication channels."
+  },
+  "Process Control Block": {
+    "short_description": "The data structure maintaining process state information, including resource allocations, priorities, and execution context."
+  },
+  "Boot Loader": {
+    "short_description": "The initial program loading the operating system kernel into memory, establishing basic system environment during startup sequence."
+  },
+  "System Clock": {
+    "short_description": "The hardware component providing timing services for process scheduling, synchronization, and system event management."
+  },
+  "Memory Segment": {
+    "short_description": "The contiguous section of virtual memory allocated for specific program components, including code, data, and stack regions."
+  },
+  "Process Group": {
+    "short_description": "The collection of related processes sharing certain attributes and signals, enabling coordinated management of process hierarchies."
+  },
+  "Mutex": {
+    "short_description": "The synchronization object ensuring mutual exclusion in accessing shared resources through binary semaphore mechanisms."
+  },
+  "File Buffer": {
+    "short_description": "The temporary memory area holding file data during input/output operations, optimizing storage access through buffering mechanisms."
+  },
+  "Syscall Table": {
+    "short_description": "The mapping structure connecting system call numbers to their corresponding kernel function implementations, enabling user-space service requests."
+  },
+  "Memory Page": {
+    "short_description": "The fixed-size block of virtual or physical memory serving as the basic unit of memory management and protection."
+  }
+}

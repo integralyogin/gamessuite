@@ -1,0 +1,170 @@
+{
+  "Downward-Dog": {
+    "sanskrit": "Adho Mukha Svanasana",
+    "description": "An inversion that stretches the entire body.",
+    "img": "images/asanas/Adho_Mukha_Svanasana.png",
+    "benefits": "Calms the mind and helps relieve stress and mild depression. Promotes introspection by turning your awareness inward. Energizes the body and spirit."
+  },
+  "Crane": {
+    "sanskrit": "Bakasana",
+    "description": "An arm-balancing pose that builds upper body strength.",
+    "img": "images/asanas/Bakasana_crane.png",
+    "benefits": "Builds concentration, focus, and a sense of fearlessness. Cultivates inner strength and determination by facing the challenge of balancing."
+  },
+  "Cobra": {
+    "sanskrit": "Bhujangasana",
+    "description": "A gentle backbend that opens the chest and shoulders.",
+    "img": "images/asanas/Bhujangasana.png",
+    "benefits": "Opens the heart (Anahata chakra), encouraging self-love and compassion. Can help alleviate feelings of depression and fatigue by invigorating the spirit."
+  },
+  "Wheel": {
+    "sanskrit": "Chakrasana",
+    "description": "A deep back-bending posture.",
+    "img": "images/asanas/phy_asanas-chakrasana.png",
+    "benefits": "Generates a feeling of vitality and energy. It's a powerful heart-opener that can release stored emotions and foster courage and openness to new experiences."
+  },
+  "Bow Pose": {
+    "sanskrit": "Dhanurasana",
+    "description": "A back-bending yoga asana that resembles an archer's bow.",
+    "img": "images/asanas/Dhanurasana.png",
+    "benefits": "Promotes a sense of empowerment and confidence. Opens the heart center, increases energy, and helps to combat feelings of lethargy and depression."
+  },
+  "Pigeon": {
+    "sanskrit": "Kapotasana",
+    "description": "A hip-opening forward bend.",
+    "img": "images/asanas/kapotasana.png",
+    "benefits": "Facilitates the release of stored emotions and stress held in the hips. Encourages surrender and the letting go of tension and past traumas."
+  },
+  "Pendant": {
+    "sanskrit": "Lolasana",
+    "description": "A hand-balancing posture.",
+    "img": "images/asanas/lolasana_pendant.png",
+    "benefits": "Develops mental focus and a playful spirit. The swinging motion can create a feeling of lightness and joy, encouraging one to not take things too seriously."
+  },
+  "Circle Pose": {
+    "sanskrit": "Mandalasana",
+    "description": "A dynamic, circular movement around the mat.",
+    "img": "images/asanas/mandalasana.png",
+    "benefits": "Represents the cyclical nature of life, promoting acceptance and flow. Its fluid motion encourages creativity and a break from rigid thinking."
+  },
+  "Fish Pose": {
+    "sanskrit": "Matsyasana",
+    "description": "Known as the 'destroyer of diseases', this pose opens the chest.",
+    "img": "images/asanas/matsyasana.png",
+    "benefits": "Opens the throat chakra (Vishuddha), facilitating clear communication and self-expression. Helps to release emotional blockages in the heart and throat."
+  },
+  "Lord of the Dance": {
+    "sanskrit": "Natarajasana",
+    "description": "A standing, balancing, back-bending asana.",
+    "img": "images/asanas/natarajasana.png",
+    "benefits": "Cultivates a state of active meditation, requiring intense focus. Embodies grace and cosmic energy, fostering a sense of inner power and poise."
+  },
+  "Lotus": {
+    "sanskrit": "Padmasana",
+    "description": "A cross-legged sitting meditation pose.",
+    "img": "images/asanas/padmasana.png",
+    "benefits": "The quintessential meditation pose, it promotes stillness, calms the mind, and enhances concentration, allowing for deeper spiritual connection and awareness."
+  },
+  "Full Bow Pose": {
+    "sanskrit": "Poorna Dhanurasana",
+    "description": "An advanced backbend that deeply opens the front body.",
+    "img": "images/asanas/phy_asanas-purna_dhanurasana.png",
+    "benefits": "Evokes a profound sense of openness and vulnerability. Encourages fearlessness and a deep release of emotional tension stored in the heart and solar plexus."
+  },
+  "Prayer": {
+    "sanskrit": "Pranama",
+    "description": "A gesture of respect and surrender.",
+    "img": "images/asanas/pranama.png",
+    "benefits": "A gesture of humility and reverence (Anjali Mudra), it centers the mind and connects the right and left hemispheres of the brain, promoting inner harmony."
+  },
+  "Prayer Pose": {
+    "sanskrit": "Pranamasana",
+    "description": "The first and last pose in the Sun Salutation sequence.",
+    "img": "images/asanas/pranamasana.png",
+    "benefits": "Sets an intention of gratitude and devotion. Calms the nervous system and prepares the mind for a meditative and respectful practice."
+  },
+  "Upward Facing Plank": {
+    "sanskrit": "Purvottanasana",
+    "description": "A reverse plank that strengthens the back of the body.",
+    "img": "images/asanas/Purvottanasana_upward_facing.png",
+    "benefits": "Acts as a powerful counterpose to sitting, promoting an open and receptive heart. Can boost mood and build confidence and courage."
+  },
+  "Locust": {
+    "sanskrit": "Salabhasana",
+    "description": "A back-bend yoga asana that strengthens the back body.",
+    "img": "images/asanas/salabhasana.png",
+    "benefits": "Builds inner strength, determination, and stamina. Encourages a positive outlook and the power to move through challenging circumstances."
+  },
+  "Bridge": {
+    "sanskrit": "Sarvangasan",
+    "description": "A gentle backbend and inversion.",
+    "img": "images/asanas/sarvangasan-bridge-pose.png",
+    "benefits": "Calms the mind, reduces anxiety, stress, and depression. The gentle inversion can shift one's perspective, providing emotional and mental relief."
+  },
+  "Shoulder Stand": {
+    "sanskrit": "Sarvangasana",
+    "description": "Considered the 'queen of all asanas', it is a powerful inversion.",
+    "img": "images/asanas/sarvangasana.png",
+    "benefits": "Harmonizes the nervous system, leading to emotional stability and peace. Encourages introspection and is believed to balance the body's energetic systems."
+  },
+  "Headstand": {
+    "sanskrit": "Shirshasana",
+    "description": "Known as the 'king of all asanas', this is a full inversion.",
+    "img": "images/asanas/shirshasana_headstand.png",
+    "benefits": "Increases mental clarity, focus, and memory by improving blood flow to the brain. Can help overcome fear and build confidence and spiritual awareness."
+  },
+  "Mountain": {
+    "sanskrit": "Tadasana",
+    "description": "The foundation for all standing poses.",
+    "img": "images/asanas/tadasana.png",
+    "benefits": "Promotes a sense of stillness, stability, and being grounded. Cultivates centeredness and a quiet confidence from the ground up."
+  },
+  "Upward-Facing Dog": {
+    "sanskrit": "Urdhva Mukha Svanasana",
+    "description": "A backbend that opens the chest and strengthens the spine.",
+    "img": "images/asanas/Urdhva_Mukha_Svanasana.png",
+    "benefits": "Encourages an open heart and a feeling of upward-reaching joy. It is empowering and can help to alleviate fatigue and mild feelings of depression."
+  },
+  "Camel": {
+    "sanskrit": "Ustrasana",
+    "description": "A deep back-bending yoga asana.",
+    "img": "images/asanas/ustrasana_camel.png",
+    "benefits": "A profound heart-opening pose that can release deep-seated emotions. It encourages vulnerability, trust, and openness to the divine."
+  },
+  "Standing Forward Bend": {
+    "sanskrit": "Uttanasana",
+    "description": "An intense forward stretch for the entire back of the body.",
+    "img": "images/asanas/uttanasana.png",
+    "benefits": "Represents an act of surrender and letting go. Calms the nervous system, alleviates anxiety, and encourages introspection and humility."
+  },
+  "Thunderbolt": {
+    "sanskrit": "Vajrasana",
+    "description": "A simple sitting pose, often used for meditation and pranayama.",
+    "img": "images/asanas/vajrasana.png",
+    "benefits": "Provides a strong, stable foundation for meditation and pranayama. It grounds the practitioner, calms the mind, and aids in digestive-pranic energy flow."
+  },
+  "Inverted Staff": {
+    "sanskrit": "Viparita Dandasana",
+    "description": "A challenging backbend that is a hybrid of headstand and wheel pose.",
+    "img": "images/asanas/Viparita_Dandasana.png",
+    "benefits": "Energizes the body and mind, fighting fatigue and depression. The combination of an inversion and backbend opens the heart while shifting perspective."
+  },
+  "Warrior": {
+    "sanskrit": "Virabhadrasana",
+    "description": "A series of standing asanas that build strength and confidence.",
+    "img": "images/asanas/Virabhadrasana.png",
+    "benefits": "Cultivates courage, focus, and inner strength. Embodies the spirit of a 'spiritual warrior' who battles self-doubt and ignorance."
+  },
+  "Tree": {
+    "sanskrit": "Vrikshasana",
+    "description": "A standing balancing yoga asana.",
+    "img": "images/asanas/vrikshasana.png",
+    "benefits": "Improves focus, concentration, and mental stability. Teaches poise and the ability to remain grounded and calm amidst the sway of life."
+  },
+  "Scorpion": {
+    "sanskrit": "Vrischikasana",
+    "description": "An advanced inverted back-bending asana.",
+    "img": "images/asanas/vrischikasan_scorpion_pose.png",
+    "benefits": "Transforms fear into confidence and self-awareness. It requires immense focus and control, symbolizing the conquering of the ego and lower self."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "Informatics": {
+    "short_description": "A broad academic field studying the structure, behavior, and interactions of natural and artificial systems, focusing on information processing, storage, and communication."
+  },
+  "Data Structures": {
+    "short_description": "Organizational schemes for storing and accessing data in a computer's memory, like arrays, lists, trees, or graphs, optimizing for efficiency in operations."
+  },
+  "Algorithms": {
+    "short_description": "Step-by-step procedures for solving problems or achieving specific tasks, with efficiency, correctness, and scalability as key considerations."
+  },
+  "Information Theory": {
+    "short_description": "The study of quantifying information, its storage, transmission, and processing, including concepts like entropy and data compression."
+  },
+  "Database Systems": {
+    "short_description": "Organized collections of data, managed by database management systems (DBMS), allowing for efficient storage, retrieval, and manipulation of data."
+  },
+  "Network Theory": {
+    "short_description": "The study of complex networks in various domains, focusing on structure, dynamics, and interactions, applicable in computing, biology, social sciences, etc."
+  },
+  "Computer Architecture": {
+    "short_description": "The design and organization of computer systems, including the structure of CPUs, memory systems, and I/O peripherals, aiming for performance and efficiency."
+  },
+  "Software Engineering": {
+    "short_description": "The systematic approach to the development, operation, maintenance, and retirement of software, emphasizing methodologies, tools, and best practices."
+  },
+  "Human-Computer Interaction (HCI)": {
+    "short_description": "The study of interaction between users and computers, focusing on designing interfaces that are accessible, efficient, and user-friendly."
+  },
+  "Artificial Intelligence": {
+    "short_description": "The development of computer systems able to perform tasks that normally require human intelligence, like visual perception, speech recognition, decision-making."
+  },
+  "Cybersecurity": {
+    "short_description": "The practice of protecting internet-connected systems, including hardware, software, and data, from attack, damage, or unauthorized access."
+  },
+  "Bioinformatics": {
+    "short_description": "An interdisciplinary field combining biology, computer science, and statistics to analyze and interpret biological data, particularly genomic data."
+  },
+  "Health Informatics": {
+    "short_description": "The intersection of information science, computer science, and health care, focusing on managing health data to improve patient outcomes."
+  },
+  "Geoinformatics": {
+    "short_description": "The science and technology of acquiring, storing, processing, and presenting geographic data, often used in GIS (Geographic Information Systems)."
+  },
+  "Digital Libraries": {
+    "short_description": "Organized collections of digital content, including texts, images, videos, and data, accessible over computer networks, emphasizing preservation and access."
+  },
+  "Information Retrieval": {
+    "short_description": "The activity of obtaining information resources relevant to an information need from a collection of information resources, often through search engines."
+  },
+  "Machine Learning": {
+    "short_description": "A subset of AI that involves the development of algorithms that can learn from and make decisions on data, improving without explicit programming."
+  },
+  "Cryptography": {
+    "short_description": "The practice and study of techniques for secure communication in the presence of third parties, ensuring confidentiality, integrity, and authenticity of information."
+  },
+  "Natural Language Processing (NLP)": {
+    "short_description": "The field of computing that focuses on the interaction between computers and humans in natural language, including language translation, sentiment analysis."
+  },
+  "Computational Complexity": {
+    "short_description": "The study of the time and space resources required for algorithms to solve problems, classifying problems based on their inherent difficulty."
+  },
+  "Visual Informatics": {
+    "short_description": "The study of visual representation and processing of information, including computer vision, image analysis, and visual data mining."
+  }
+}

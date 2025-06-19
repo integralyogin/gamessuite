@@ -1,0 +1,77 @@
+{
+  "Devanagari": {
+    "short_description": "The primary writing system of Sanskrit, consisting of systematic phonetic characters that represent the complete range of speech sounds, organized according to precise articulatory principles and spiritual significance."
+  },
+  "Sandhi": {
+    "short_description": "The sophisticated system of phonological modification where adjacent sounds influence each other according to precise rules, reflecting the natural flow and harmony of speech in both written and spoken forms."
+  },
+  "Dhatu": {
+    "short_description": "The fundamental verbal roots from which all words are derived, containing the essential semantic meaning and serving as the basis for the systematic derivation of the entire Sanskrit vocabulary."
+  },
+  "Pratyaya": {
+    "short_description": "The system of affixes and suffixes that modify root words, enabling the precise expression of complex meanings through systematic combination with verbal and nominal roots."
+  },
+  "Samasa": {
+    "short_description": "The process of compound word formation, allowing multiple word elements to combine into single units that express complex meanings with precision and economy of expression."
+  },
+  "Vibhakti": {
+    "short_description": "The system of eight grammatical cases that indicate the precise relationship between words in a sentence, enabling clear expression of complex ideas through systematic nominal declension."
+  },
+  "Karaka": {
+    "short_description": "The fundamental relationships between verbs and their arguments, describing how different elements in a sentence relate to the action being expressed through systematic semantic roles."
+  },
+  "Upasarga": {
+    "short_description": "Verbal prefixes that modify the meaning of root words in systematic ways, allowing for subtle variations and extensions of basic semantic concepts through regular modification."
+  },
+  "Chandas": {
+    "short_description": "The science of prosody governing poetic meter and rhythm, organizing sound patterns according to precise mathematical principles to create aesthetic and spiritual effects."
+  },
+  "Alamkara": {
+    "short_description": "The system of literary ornaments and figures of speech, employing systematic techniques to enhance the aesthetic and emotional impact of literary expression."
+  },
+  "Rasa": {
+    "short_description": "The theory of aesthetic experience and emotional essence, categorizing the fundamental flavors of artistic expression and their effects on consciousness through systematic analysis."
+  },
+  "Vyakarana": {
+    "short_description": "The comprehensive science of grammar and linguistic analysis, describing the complete system of language formation and usage through precise operational rules."
+  },
+  "Lakshana": {
+    "short_description": "The system of semantic indication and implied meaning, analyzing how words convey meaning beyond their literal sense through systematic principles of interpretation."
+  },
+  "Shabda": {
+    "short_description": "The eternal principle of sound and word, representing the fundamental connection between form and meaning in language through systematic philosophical analysis."
+  },
+  "Sphoṭa": {
+    "short_description": "The theory of linguistic meaning as an instantaneous flash of understanding, describing how meaning emerges from sound through systematic cognitive processes."
+  },
+  "Varna": {
+    "short_description": "The fundamental sound units of the language, organized according to precise articulatory features and spiritual correspondences in a systematic phonological framework."
+  },
+  "Pada": {
+    "short_description": "The fully formed word unit that carries complete meaning, derived through systematic application of grammatical rules to express specific semantic content."
+  },
+  "Vakya": {
+    "short_description": "The complete sentence structure that expresses a unified meaning, organized according to precise syntactic principles and semantic relationships."
+  },
+  "Dhatupatha": {
+    "short_description": "The systematic compilation and organization of verbal roots, cataloging the fundamental building blocks of the language according to meaning and form."
+  },
+  "Unadipatha": {
+    "short_description": "The collection of special suffixes and their application rules, enabling the derivation of nouns from verbal roots through systematic morphological processes."
+  },
+  "Vrddhi": {
+    "short_description": "The systematic strengthening of vowels in word formation, indicating specific semantic modifications through regular phonological changes."
+  },
+  "Guna": {
+    "short_description": "The system of vowel gradation used in word formation and inflection, reflecting regular patterns of phonological modification in linguistic expression."
+  },
+  "Taddhita": {
+    "short_description": "The system of secondary suffixes used to derive new words, enabling the expression of complex relationships and qualities through systematic word formation."
+  },
+  "Svarita": {
+    "short_description": "The system of pitch accent marking specific syllables, contributing to both meaning and proper pronunciation through systematic tonal patterns."
+  },
+  "Anubandha": {
+    "short_description": "Metalinguistic markers in grammatical operations, indicating specific conditions and modifications in the systematic application of linguistic rules."
+  }
+}

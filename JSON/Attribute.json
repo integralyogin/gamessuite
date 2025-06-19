@@ -1,0 +1,191 @@
+{
+  "Attribute": {
+    "short_description": "A distinguishing feature or characteristic of an entity, defining its nature, quality, or behavior in a specific context."
+  },
+  "Quality": {
+    "short_description": "The inherent characteristic or property of an attribute that defines its essence and distinguishes it from others."
+  },
+  "Property": {
+    "short_description": "A specific aspect or feature of an attribute that contributes to its overall nature and behavior."
+  },
+  "Characteristic": {
+    "short_description": "A defining trait or feature of an attribute that makes it unique and identifiable within a given context."
+  },
+  "Trait": {
+    "short_description": "A particular quality or feature that is consistently exhibited by an attribute, influencing its behavior and interactions."
+  },
+  "Feature": {
+    "short_description": "A notable aspect or component of an attribute that contributes to its overall functionality and recognition."
+  },
+  "Essence": {
+    "short_description": "The fundamental nature or core of an attribute, representing its most basic and intrinsic qualities."
+  },
+  "Nature": {
+    "short_description": "The inherent disposition or character of an attribute, defining its typical behavior and responses."
+  },
+  "Behavior": {
+    "short_description": "The manner in which an attribute manifests or acts, influenced by its qualities and properties."
+  },
+  "Manifestation": {
+    "short_description": "The visible or tangible expression of an attribute, demonstrating its presence and influence in a specific context."
+  },
+  "Expression": {
+    "short_description": "The way in which an attribute is conveyed or displayed, reflecting its underlying qualities and characteristics."
+  },
+  "Dimension": {
+    "short_description": "A measurable aspect or facet of an attribute, providing a specific perspective or angle of understanding."
+  },
+  "Aspect": {
+    "short_description": "A particular part or element of an attribute, contributing to its overall complexity and depth."
+  },
+  "Component": {
+    "short_description": "A constituent part of an attribute, essential for its structure and functionality."
+  },
+  "Element": {
+    "short_description": "A fundamental part or constituent of an attribute, contributing to its overall composition and behavior."
+  },
+  "Factor": {
+    "short_description": "A contributing element or influence that affects the nature and behavior of an attribute."
+  },
+  "Influence": {
+    "short_description": "The power or effect that an attribute exerts on other entities or contexts, shaping their behavior and outcomes."
+  },
+  "Impact": {
+    "short_description": "The result or consequence of an attribute's presence or action, affecting the surrounding environment or entities."
+  },
+  "Effect": {
+    "short_description": "The outcome or result of an attribute's behavior or interaction, demonstrating its influence and power."
+  },
+  "Outcome": {
+    "short_description": "The final result or consequence of an attribute's actions or interactions, reflecting its impact and influence."
+  },
+  "Result": {
+    "short_description": "The end product or consequence of an attribute's behavior or influence, demonstrating its effectiveness and power."
+  },
+  "Consequence": {
+    "short_description": "The inevitable outcome or effect of an attribute's actions or interactions, reflecting its impact and significance."
+  },
+  "Significance": {
+    "short_description": "The importance or relevance of an attribute, determining its value and impact in a specific context."
+  },
+  "Relevance": {
+    "short_description": "The applicability or pertinence of an attribute to a particular situation or context, influencing its significance and impact."
+  },
+  "Value": {
+    "short_description": "The worth or importance of an attribute, determining its usefulness and desirability in a specific context."
+  },
+  "Usefulness": {
+    "short_description": "The practical benefit or advantage provided by an attribute, influencing its value and significance."
+  },
+  "Utility": {
+    "short_description": "The practical application or function of an attribute, demonstrating its usefulness and value in a specific context."
+  },
+  "Function": {
+    "short_description": "The role or purpose of an attribute, defining its behavior and interactions within a specific context."
+  },
+  "Role": {
+    "short_description": "The part or position that an attribute plays within a system or context, influencing its behavior and interactions."
+  },
+  "Purpose": {
+    "short_description": "The intended goal or objective of an attribute, guiding its behavior and actions within a specific context."
+  },
+  "Objective": {
+    "short_description": "The specific aim or target that an attribute seeks to achieve, influencing its behavior and actions."
+  },
+  "Goal": {
+    "short_description": "The desired outcome or end result that an attribute aims to accomplish, guiding its behavior and actions."
+  },
+  "Target": {
+    "short_description": "The specific focus or aim of an attribute's actions or interactions, influencing its behavior and outcomes."
+  },
+  "Focus": {
+    "short_description": "The central point or area of attention for an attribute, guiding its behavior and actions within a specific context."
+  },
+  "Context": {
+    "short_description": "The surrounding environment or situation in which an attribute exists and operates, influencing its behavior and interactions."
+  },
+  "Environment": {
+    "short_description": "The external conditions or circumstances that affect an attribute's behavior and interactions within a specific context."
+  },
+  "Situation": {
+    "short_description": "The particular set of circumstances or conditions in which an attribute operates, influencing its behavior and outcomes."
+  },
+  "Condition": {
+    "short_description": "The specific state or circumstance that affects an attribute's behavior and interactions within a given context."
+  },
+  "Circumstance": {
+    "short_description": "The particular set of conditions or factors that influence an attribute's behavior and outcomes within a specific context."
+  },
+  "Factor": {
+    "short_description": "A contributing element or influence that affects the nature and behavior of an attribute."
+  },
+  "Influence": {
+    "short_description": "The power or effect that an attribute exerts on other entities or contexts, shaping their behavior and outcomes."
+  },
+  "Impact": {
+    "short_description": "The result or consequence of an attribute's presence or action, affecting the surrounding environment or entities."
+  },
+  "Effect": {
+    "short_description": "The outcome or result of an attribute's behavior or interaction, demonstrating its influence and power."
+  },
+  "Outcome": {
+    "short_description": "The final result or consequence of an attribute's actions or interactions, reflecting its impact and influence."
+  },
+  "Result": {
+    "short_description": "The end product or consequence of an attribute's behavior or influence, demonstrating its effectiveness and power."
+  },
+  "Consequence": {
+    "short_description": "The inevitable outcome or effect of an attribute's actions or interactions, reflecting its impact and significance."
+  },
+  "Significance": {
+    "short_description": "The importance or relevance of an attribute, determining its value and impact in a specific context."
+  },
+  "Relevance": {
+    "short_description": "The applicability or pertinence of an attribute to a particular situation or context, influencing its significance and impact."
+  },
+  "Value": {
+    "short_description": "The worth or importance of an attribute, determining its usefulness and desirability in a specific context."
+  },
+  "Usefulness": {
+    "short_description": "The practical benefit or advantage provided by an attribute, influencing its value and significance."
+  },
+  "Utility": {
+    "short_description": "The practical application or function of an attribute, demonstrating its usefulness and value in a specific context."
+  },
+  "Function": {
+    "short_description": "The role or purpose of an attribute, defining its behavior and interactions within a specific context."
+  },
+  "Role": {
+    "short_description": "The part or position that an attribute plays within a system or context, influencing its behavior and interactions."
+  },
+  "Purpose": {
+    "short_description": "The intended goal or objective of an attribute, guiding its behavior and actions within a specific context."
+  },
+  "Objective": {
+    "short_description": "The specific aim or target that an attribute seeks to achieve, influencing its behavior and actions."
+  },
+  "Goal": {
+    "short_description": "The desired outcome or end result that an attribute aims to accomplish, guiding its behavior and actions."
+  },
+  "Target": {
+    "short_description": "The specific focus or aim of an attribute's actions or interactions, influencing its behavior and outcomes."
+  },
+  "Focus": {
+    "short_description": "The central point or area of attention for an attribute, guiding its behavior and actions within a specific context."
+  },
+  "Context": {
+    "short_description": "The surrounding environment or situation in which an attribute exists and operates, influencing its behavior and interactions."
+  },
+  "Environment": {
+    "short_description": "The external conditions or circumstances that affect an attribute's behavior and interactions within a specific context."
+  },
+  "Situation": {
+    "short_description": "The particular set of circumstances or conditions in which an attribute operates, influencing its behavior and outcomes."
+  },
+  "Condition": {
+    "short_description": "The specific state or circumstance that affects an attribute's behavior and interactions within a given context."
+  },
+  "Circumstance": {
+    "short_description": "The particular set of conditions or factors that influence an attribute's behavior and outcomes within a specific context."
+  }
+}

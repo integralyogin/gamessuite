@@ -1,0 +1,77 @@
+{
+  "Object": {
+  "short_description": "Physical or metaphysical items of significance that embody power, meaning, or purpose beyond their material form, serving as focal points for human experience and intention."
+  },
+  "Sacred Object": {
+  "short_description": "Items consecrated or inherently holy that serve as bridges between mundane and divine realms, embodying spiritual power and facilitating worship, meditation, or communion with higher forces."
+  },
+  "Relic": {
+  "short_description": "Objects of religious or historical veneration, including bodily remains or possessions of sacred figures, believed to retain their spiritual essence and power, serving as direct links to their source."
+  },
+  "Artifact": {
+  "short_description": "Human-made objects of historical, cultural, or archaeological significance that embody the knowledge, skills, and values of their creators while preserving information about past civilizations."
+  },
+  "Icon": {
+  "short_description": "Visual representations of sacred beings or principles that serve as windows into divine reality, designed to facilitate spiritual connection and transformation through contemplation and worship."
+  },
+  "Talisman": {
+  "short_description": "Objects imbued with protective or beneficial powers through ritual consecration or inherent properties, worn or carried to influence the bearer's circumstances and environment."
+  },
+  "Instrument": {
+  "short_description": "Tools designed for specific purposes in ritual, ceremony, or practical application, embodying the principles of their function through form and consecration."
+  },
+  "Vessel": {
+  "short_description": "Containers that hold, preserve, or transform physical or spiritual substances, ranging from simple utility to profound symbolic significance in sacred contexts."
+  },
+  "Token": {
+  "short_description": "Objects that represent or embody specific meanings, rights, or relationships, serving as physical manifestations of abstract concepts or agreements between parties."
+  },
+  "Offering": {
+  "short_description": "Items presented in religious or ceremonial contexts as gifts to divine beings or ancestors, embodying devotion, gratitude, or specific requests through their substance and presentation."
+  },
+  "Weapon": {
+  "short_description": "Tools of power designed for combat or protection, often carrying symbolic significance beyond their practical function and representing spiritual warfare or transformation."
+  },
+  "Book": {
+  "short_description": "Repositories of knowledge, wisdom, and power through written or symbolic content, ranging from practical instruction to sacred texts that embody divine revelation."
+  },
+  "Stone": {
+  "short_description": "Natural minerals valued for their physical properties, beauty, or spiritual significance, often used as focal points for meditation, healing, or energy work."
+  },
+  "Symbol": {
+  "short_description": "Physical representations of abstract concepts or principles that concentrate meaning and power through their form and use in various contexts of human activity."
+  },
+  "Garment": {
+  "short_description": "Clothing items that signify role, status, or transformation, particularly in religious or ceremonial contexts where they embody the wearer's function or spiritual state."
+  },
+  "Key": {
+  "short_description": "Objects that control access to physical or metaphysical spaces, embodying authority and the power to open or close pathways between different realms or states."
+  },
+  "Mirror": {
+  "short_description": "Reflective surfaces used for divination, self-examination, or magical practice, representing the interface between visible and invisible realms of reality."
+  },
+  "Scroll": {
+  "short_description": "Ancient or ceremonial documents containing sacred writings, spells, or wisdom teachings, often preserved through generations as vessels of traditional knowledge."
+  },
+  "Bell": {
+  "short_description": "Sound-producing instruments used to mark sacred time, clear space, or call spirits, their vibrations serving to align physical and spiritual dimensions."
+  },
+  "Crown": {
+  "short_description": "Symbols of authority, achievement, or divine connection worn on the head, representing the wearer's status, power, or relationship with higher realms."
+  },
+  "Staff": {
+  "short_description": "Vertical implements representing authority, support, or channeling of power, used in religious, magical, or ceremonial contexts to direct energy or signify office."
+  },
+  "Altar": {
+  "short_description": "Consecrated surfaces or structures that serve as focal points for worship, sacrifice, or communion between human and divine realms, embodying sacred space in physical form."
+  },
+  "Wheel": {
+  "short_description": "Circular objects representing cycles of existence, movement through states of being, or the turning of cosmic forces in manifestation."
+  },
+  "Seal": {
+  "short_description": "Devices used to authenticate, protect, or empower documents or objects, embodying authority and the power to bind or release through their application."
+  },
+  "Chalice": {
+  "short_description": "Sacred vessels used to contain and dispense liquids in ritual contexts, symbolizing reception and transformation of spiritual essences through physical substance."
+  }
+  }

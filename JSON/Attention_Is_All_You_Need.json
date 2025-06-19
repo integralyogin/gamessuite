@@ -1,0 +1,22 @@
+{
+  "Abstract": { "quote": "We propose the Transformer, a model architecture eschewing recurrence and convolution, relying solely on attention mechanisms. (Vaswani et al., 2017)" },
+  "Introduction": { "quote": "Recurrent models (RNNs, LSTMs) struggle with long-range dependencies and parallelization. Attention mechanisms enable global context." },
+  "Model Architecture": { "quote": "Encoder-decoder structure with stacked self-attention and pointwise feed-forward layers. N = 6 identical layers." },
+  "Scaled Dot-Product Attention": { "quote": "Attention(Q,K,V) = softmax(QKᵀ/√d_k)V, where d_k is the dimension of queries/keys." },
+  "Multi-Head Attention": { "quote": "Concatenate h parallel attention heads: MultiHead(Q,K,V) = Concat(head₁,...,headₕ)Wᴼ. (h=8, d_model=512)" },
+  "Positional Encoding": { "quote": "Inject positional info: PE(pos,2i) = sin(pos/10000²ⁱ⁄d), PE(pos,2i+1) = cos(pos/10000²ⁱ⁄d)." },
+  "Self-Attention": { "quote": "Each position attends to all positions in the same layer. Complexity: O(n²·d) vs. O(n·d²) for convolution." },
+  "Encoder Structure": { "quote": "Each encoder layer: Multi-head self-attention → LayerNorm → FFN → LayerNorm. Residual connections around all sub-layers." },
+  "Decoder Structure": { "quote": "Masked multi-head attention (prevent positions from attending to future tokens) + encoder-decoder attention." },
+  "Layer Normalization": { "quote": "Normalize across features: LN(x) = γ(x−μ)/σ + β. Applied after residual connections." },
+  "Position-wise Feed-Forward Networks": { "quote": "FFN(x) = max(0, xW₁ + b₁)W₂ + b₂. Inner layer expands d_model=512 → d_ff=2048." },
+  "Residual Connections": { "quote": "x + Sublayer(x), with dropout (P=0.1) to stabilize training and ease gradient flow." },
+  "Training Objectives": { "quote": "Minimize cross-entropy loss with label smoothing (ε=0.1) for regularization." },
+  "Optimizer": { "quote": "Adam (β₁=0.9, β₂=0.98, ε=1e-9) with learning rate warmup: lrate = d_model⁻⁰·⁵ · min(step⁻⁰·⁵, step·warmup⁻¹·⁵)." },
+  "Regularization": { "quote": "Dropout (P=0.1), residual dropout, and attention dropout applied during training." },
+  "Evaluation Metrics": { "quote": "BLEU score on WMT 2014 English-German (28.4) and English-French (41.8) translation tasks." },
+  "Results": { "quote": "Outperforms ConvS2S and LSTMs in quality (BLEU↑), training speed (step time↓), and generalization." },
+  "Ablation Studies": { "quote": "Ablating multi-head attention or positional encoding degrades performance by 1.5-2.0 BLEU." },
+  "Computational Efficiency": { "quote": "Transformer trains in 3.5 days on 8 GPUs vs. 8.5 days for ConvS2S, despite higher accuracy." },
+  "Impact": { "quote": "Foundational for BERT, GPT, T5, and modern LLMs. Introduced self-attention as the dominant paradigm." }
+}

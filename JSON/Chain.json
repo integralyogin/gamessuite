@@ -1,0 +1,65 @@
+{
+  "Causality": {
+    "short_description": "The relationship between events or actions where one is the direct result of the other, forming a chain of cause and effect."
+  },
+  "Sequence": {
+    "short_description": "A series of events or actions that follow one another in a specific order, forming a chain of progression."
+  },
+  "Link": {
+    "short_description": "A single unit or element that connects to others to form a chain, representing a point of intersection or transmission."
+  },
+  "Node": {
+    "short_description": "A point of connection or intersection within a chain, representing a hub of activity or transmission."
+  },
+  "Path": {
+    "short_description": "A sequence of nodes or links that form a chain, representing a trajectory or journey."
+  },
+  "Process": {
+    "short_description": "A series of actions or events that are linked together to achieve a specific goal or outcome, forming a chain of operations."
+  },
+  "System": {
+    "short_description": "A network of interconnected chains or processes that work together to achieve a common goal or maintain a state of balance."
+  },
+  "Feedback Loop": {
+    "short_description": "A chain of events or actions that returns to its starting point, creating a cycle of feedback and iteration."
+  },
+  "Cascade": {
+    "short_description": "A chain reaction where one event or action triggers a series of subsequent events or actions, often with increasing magnitude or impact."
+  },
+  "Propagation": {
+    "short_description": "The transmission or spreading of information, energy, or influence through a chain or network, often with a specific goal or outcome."
+  },
+  "Iteration": {
+    "short_description": "The repetition of a process or sequence of events, often with refinement or modification, to achieve a specific goal or outcome."
+  },
+  "Recursion": {
+    "short_description": "A process or sequence of events that repeats itself, often with a smaller or modified version of the original, to achieve a specific goal or outcome."
+  },
+  "Chain Reaction": {
+    "short_description": "A series of events or actions that are triggered by a single initial event or action, often with unpredictable or far-reaching consequences."
+  },
+  "Ripple Effect": {
+    "short_description": "The spreading of influence or impact through a chain or network, often with a specific goal or outcome, and often with decreasing magnitude or intensity."
+  },
+  "Tipping Point": {
+    "short_description": "The point at which a chain reaction or process reaches a critical threshold, often triggering a significant change or outcome."
+  },
+  "Chain of Command": {
+    "short_description": "A hierarchical structure or sequence of authority, where each link or node has a specific role or responsibility."
+  },
+  "Supply Chain": {
+    "short_description": "A network of interconnected chains or processes that work together to produce, distribute, and deliver goods or services."
+  },
+  "Value Chain": {
+    "short_description": "A sequence of activities or processes that create value for a product, service, or organization, often through a chain of transformations or improvements."
+  },
+  "Root Cause": {
+    "short_description": "The initial event or action that triggers a chain reaction or process, often the underlying reason for a problem or issue."
+  },
+  "Bottleneck": {
+    "short_description": "A point of congestion or blockage within a chain or process, often limiting the flow of resources, information, or energy."
+  },
+  "Single Point of Failure": {
+    "short_description": "A node or link within a chain that, if failed or compromised, can bring down the entire system or process."
+  }
+}

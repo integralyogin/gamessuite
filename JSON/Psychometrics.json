@@ -1,0 +1,86 @@
+{
+  "Latent Construct": {
+    "short_description": "The hidden psychological trait or attribute inferred through measured indicators, forming the foundational substrate of all psychometric inquiry and measurement systems."
+  },
+  "Measurement Invariance": {
+    "short_description": "The essential property ensuring equivalent measurement functioning across diverse groups and contexts, maintaining the integrity of comparisons and universal applicability."
+  },
+  "Test Theory": {
+    "short_description": "The conceptual framework governing the relationship between observed responses and underlying psychological attributes, manifesting through both classical and modern measurement paradigms."
+  },
+  "Reliability": {
+    "short_description": "The consistent replication of measurement outcomes across temporal and contextual variations, representing the stable essence of assessment instruments."
+  },
+  "Validity": {
+    "short_description": "The authentic alignment between measurement interpretations and theoretical constructs, serving as the ultimate criterion for meaningful psychological assessment."
+  },
+  "Factor Analysis": {
+    "short_description": "The alchemical separation of variance into essential components and error, revealing the underlying structure of psychological phenomena through statistical purification."
+  },
+  "Item Bank": {
+    "short_description": "The curated repository of assessment elements, maintaining potential for multiple measurement configurations while preserving psychometric integrity."
+  },
+  "Standardization": {
+    "short_description": "The rigorous protocolization of administration and interpretation processes, creating universal conditions for meaningful measurement comparisons."
+  },
+  "Psychometrician": {
+    "short_description": "The practitioner of measurement science, skilled in both quantitative arcana and the translation of human experience into measurable form."
+  },
+  "Response Bias": {
+    "short_description": "The systematic distortion of measurement outcomes through non-construct influences, representing the chaotic element requiring control in the measurement crucible."
+  },
+  "Norm-Referencing": {
+    "short_description": "The comparative framework anchoring individual scores to population distributions, creating meaning through relative positioning in the measurement cosmos."
+  },
+  "Cross-Validation": {
+    "short_description": "The cyclical process of verifying measurement properties across independent samples, ensuring the stability and generalizability of psychometric insights."
+  },
+  "Item Characteristic Curve": {
+    "short_description": "The sigil mapping probability of response to latent trait levels, encoding the essential nature of assessment elements in graphical form."
+  },
+  "Construct Drift": {
+    "short_description": "The temporal metamorphosis of measurement meaning, requiring continuous monitoring and adjustment to maintain validity in evolving contexts."
+  },
+  "Differential Item Functioning": {
+    "short_description": "The hidden variability in measurement properties across subgroups, representing the critical test of a construct's universal essence."
+  },
+  "Psychometric Network": {
+    "short_description": "The interconnected web of observed variables and latent traits, revealing the complex dynamics of psychological phenomena through associative patterns."
+  },
+  "Rasch Model": {
+    "short_description": "The refined formulation ensuring conjoint measurement of persons and items, achieving invariant interval scaling through probabilistic alchemy."
+  },
+  "Cognitive Diagnostic Models": {
+    "short_description": "The intricate frameworks decoding specific knowledge states and processing skills from response patterns, illuminating the microstructure of mental abilities."
+  },
+  "Generalizability Theory": {
+    "short_description": "The comprehensive system accounting for multiple variance sources, expanding reliability conceptualization through multifaceted measurement designs."
+  },
+  "Cut-Score": {
+    "short_description": "The critical threshold separating measurement categories, wielding transformative power over individual fates through classificatory decisions."
+  },
+  "Psychometric Soundness": {
+    "short_description": "The ultimate goal of measurement systems, achieving perfect harmony between theoretical fidelity and empirical evidence across all validity dimensions."
+  },
+  "Calibration": {
+    "short_description": "The process of aligning item properties with measurement models through iterative refinement, distilling raw questions into precise assessment elements."
+  },
+  "Scaling": {
+    "short_description": "The transformation of raw responses into interpretable metrics, bridging the chasm between observable behavior and quantitative psychological reality."
+  },
+  "Convergent Validity": {
+    "short_description": "The sacred correspondence between distinct measures of related constructs, affirming measurement essence through harmonious empirical relationships."
+  },
+  "Item Stem": {
+    "short_description": "The primordial presentation of measurement challenges, containing unrefined potential for eliciting construct-relevant responses."
+  },
+  "Test Blueprint": {
+    "short_description": "The architectural plan governing assessment construction, balancing content domains and cognitive demands through systematic specification."
+  },
+  "IRT Parameters": {
+    "short_description": "The essential characteristics defining item functioning within measurement models, encoding difficulty, discrimination, and guessing properties in quantitative form."
+  },
+  "Psychometric Sovereignty": {
+    "short_description": "The ethical imperative maintaining human control over algorithmic measurement systems, preserving interpretative authority in increasingly automated assessment landscapes."
+  }
+}

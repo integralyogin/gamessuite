@@ -1,0 +1,36 @@
+{
+  "name": "Adventurer",
+  "level": 1,
+  "experience": 0,
+  "xpToNextLevel": 100,
+  "currentHealth": 50,
+  "maxHealth": 50,
+  "currentEnergy": 20,
+  "maxEnergy": 20,
+  "stats": {
+    "strength": 5,
+    "defense": 2,
+    "agility": 3,
+    "intelligence": 3
+  },
+  "gold": 10,
+  "currentLocation": "Town",
+  "currentAction": "Idle",
+  "currentActionProgress": 0,
+  "currentActionDuration": 0,
+  "inventory": [
+    { "itemId": "basic_sword", "quantity": 1 }
+  ],
+  "equipment": {
+    "mainHand": "basic_sword",
+    "armor": null,
+    "accessory": null
+  },
+  "dungeon": {
+    "currentLevel": 1,
+    "deepestLevelReached": 0,
+    "progressInLevel": 0,
+    "currentEncounter": null
+  },
+  "lastUpdate": null
+}

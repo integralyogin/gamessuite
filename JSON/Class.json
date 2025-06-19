@@ -1,0 +1,233 @@
+{
+  "Classes": {
+    "short_description": "A fundamental entity that defines attributes, behaviors, and relationships within a system."
+  },
+  "Definition": {
+    "short_description": "The act of specifying what constitutes a class, its boundaries, and characteristics."
+  },
+  "Blueprint": {
+    "short_description": "A template or model from which instances of objects are created."
+  },
+  "Entity": {
+    "short_description": "An abstract representation of something with distinct identity and properties."
+  },
+  "Abstraction": {
+    "short_description": "The process of simplifying complex realities into manageable constructs."
+  },
+  "Hierarchy": {
+    "short_description": "Levels of organization where classes inherit properties from parent classes."
+  },
+  "Inheritance": {
+    "short_description": "The mechanism by which one class derives properties and methods from another."
+  },
+  "Polymorphism": {
+    "short_description": "The ability of different classes to be treated as instances of the same type."
+  },
+  "Encapsulation": {
+    "short_description": "The bundling of data and functions into a single unit or class."
+  },
+  "Interface": {
+    "short_description": "A contract specifying methods and properties a class must implement."
+  },
+  "Attribute": {
+    "short_description": "Characteristics or properties associated with a class instance."
+  },
+  "Method": {
+    "short_description": "Functions or procedures defined within a class to manipulate its state."
+  },
+  "Instance": {
+    "short_description": "A specific realization or occurrence of a class at runtime."
+  },
+  "Object": {
+    "short_description": "A concrete manifestation of a class containing both data and behavior."
+  },
+  "Association": {
+    "short_description": "Relationships between classes indicating how they interact."
+  },
+  "Aggregation": {
+    "short_description": "A 'has-a' relationship where one class contains another but can exist independently."
+  },
+  "Composition": {
+    "short_description": "A 'part-of' relationship where one class is integral to another's existence."
+  },
+  "Dependency": {
+    "short_description": "A relationship where one class relies on another for functionality."
+  },
+  "Generalization": {
+    "short_description": "The process of creating a more general class from specific ones."
+  },
+  "Specialization": {
+    "short_description": "The process of creating more specific subclasses from a general class."
+  },
+  "Prototype": {
+    "short_description": "An original model or example upon which other classes are based."
+  },
+  "Taxonomy": {
+    "short_description": "A classification system organizing classes into categories and subcategories."
+  },
+  "Behavior": {
+    "short_description": "Actions or operations that define how a class interacts with its environment."
+  },
+  "State": {
+    "short_description": "The current condition or values of a class's attributes at any given time."
+  },
+  "Identity": {
+    "short_description": "The unique identifier distinguishing one class or object from others."
+  },
+  "Scope": {
+    "short_description": "The visibility or accessibility of a class or its members within a program."
+  },
+  "Lifecycle": {
+    "short_description": "The stages through which a class or object passes during execution."
+  },
+  "Design Pattern": {
+    "short_description": "Reusable solutions addressing common problems in class design."
+  },
+  "Framework": {
+    "short_description": "A structured context providing tools and guidelines for building classes."
+  },
+  "Paradigm": {
+    "short_description": "A conceptual framework shaping how classes are understood and implemented."
+  },
+  "Ontology": {
+    "short_description": "A formal description of entities and their relationships within a domain."
+  },
+  "Meta-Class": {
+    "short_description": "A class whose instances are themselves classes."
+  },
+  "Domain": {
+    "short_description": "The field or area where certain types of classes naturally belong."
+  },
+  "Dimension": {
+    "short_description": "Aspects or perspectives through which classes can be analyzed or understood."
+  },
+  "Constraint": {
+    "short_description": "Rules or limitations governing the behavior or structure of a class."
+  },
+  "Invariant": {
+    "short_description": "Properties that remain true throughout the lifecycle of a class."
+  },
+  "Potential": {
+    "short_description": "Latent capabilities or extensions of a class yet to be realized."
+  },
+  "Limit": {
+    "short_description": "Boundaries or restrictions defining the scope of a class."
+  },
+  "Vector": {
+    "short_description": "Directional trends or developments influencing class evolution."
+  },
+  "Universal": {
+    "short_description": "Classes that apply across all possible contexts and realities."
+  },
+  "Category": {
+    "short_description": "Fundamental divisions or classifications of entities based on shared traits."
+  },
+  "Type": {
+    "short_description": "Specific kinds or forms of classes defined by distinct characteristics."
+  },
+  "Taxonomy": {
+    "short_description": "System for organizing and classifying classes into hierarchical structures."
+  },
+  "Prototype": {
+    "short_description": "An exemplary or original model from which other classes derive."
+  },
+  "Hierarchy": {
+    "short_description": "Ordered relationships between levels or ranks of classes."
+  },
+  "Structure": {
+    "short_description": "Organizational patterns that define how classes are composed or related."
+  },
+  "Schema": {
+    "short_description": "Mental frameworks or patterns for organizing and understanding classes."
+  },
+  "Domain": {
+    "short_description": "A sphere or area where specific types of classes naturally belong."
+  },
+  "Field": {
+    "short_description": "A domain of related classes operating within a shared context."
+  },
+  "System": {
+    "short_description": "An organized whole of interrelated classes and their relationships."
+  },
+  "Network": {
+    "short_description": "Interconnected web of classes and their associations."
+  },
+  "Pattern": {
+    "short_description": "Recurring arrangements or sequences in the formation of classes."
+  },
+  "Relation": {
+    "short_description": "Ways in which classes are connected, compared, or contrasted."
+  },
+  "Quality": {
+    "short_description": "Fundamental attributes or characteristics that define classes."
+  },
+  "Essence": {
+    "short_description": "Core nature or defining aspect of a class."
+  },
+  "Form": {
+    "short_description": "Essential patterns or structures that classes embody."
+  },
+  "Paradigm": {
+    "short_description": "Framework or model that structures the understanding of classes."
+  },
+  "Ideal": {
+    "short_description": "Perfect or complete forms of classes as theoretical constructs."
+  },
+  "Element": {
+    "short_description": "Basic components or building blocks from which classes are formed."
+  },
+  "Archetype": {
+    "short_description": "Primordial patterns or templates that define classes."
+  },
+  "Invariant": {
+    "short_description": "Aspects of classes that remain constant across variations."
+  },
+  "Prototype": {
+    "short_description": "Original model or example from which similar classes are derived."
+  },
+  "Emergent": {
+    "short_description": "Classes that arise from the interaction of simpler elements."
+  },
+  "Potential": {
+    "short_description": "Latent or possible developments or relationships within classes."
+  },
+  "Limit": {
+    "short_description": "Boundaries or constraints of classes within a system."
+  },
+  "Interface": {
+    "short_description": "Points of interaction or overlap between different classes."
+  },
+  "Vector": {
+    "short_description": "Directional forces or tendencies within the space of classes."
+  },
+  "Meta-Class": {
+    "short_description": "Classes about the nature and structure of classes themselves."
+  },
+  "Transcendental": {
+    "short_description": "Classes that exist beyond ordinary categorical limitations."
+  },
+  "Primitive": {
+    "short_description": "Basic, irreducible classes or elements within a system."
+  },
+  "Dimension": {
+    "short_description": "Fundamental aspects or parameters through which classes can be understood."
+  },
+  "Modality": {
+    "short_description": "Different ways or modes in which classes can exist or operate."
+  },
+  "Process": {
+    "short_description": "Patterns of change or development in the formation of classes."
+  },
+  "Symbol": {
+    "short_description": "Representative forms through which classes manifest meaning."
+  },
+  "Metaphor": {
+    "short_description": "Structural mappings between different domains of classes."
+  },
+  "Logic": {
+    "short_description": "Formal systems of relationship and inference within classes."
+  },
+  "Operation": {
+    "short_description": "Ways in which classes interact or transform within a system."
+  }
+}

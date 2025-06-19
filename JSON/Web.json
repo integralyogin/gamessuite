@@ -1,0 +1,173 @@
+{
+"Network": {
+"short_description": "The interconnected system of nodes and links forming the basic structure of web-like patterns, enabling communication and resource distribution across multiple points."
+},
+"Node": {
+"short_description": "A point of connection or intersection within a web structure, serving as a hub for information exchange or resource distribution."
+},
+"Thread": {
+"short_description": "The connecting element between nodes, forming the basic structural lines of the web and enabling transmission across the network."
+},
+"Mesh": {
+"short_description": "The pattern created by multiple intersecting threads, forming a resilient structure through distributed connections and redundant pathways."
+},
+"Interface": {
+"short_description": "The point of interaction between different elements of the web system, enabling exchange and communication between distinct components."
+},
+"Protocol": {
+"short_description": "The established rules and standards governing how elements within the web interact and communicate with each other."
+},
+"Gateway": {
+"short_description": "Points of entry and exit within the web structure, controlling access and managing transitions between different network domains."
+},
+"Bandwidth": {
+"short_description": "The capacity for information or resource flow through web connections, determining the volume and speed of transmission."
+},
+"Architecture": {
+"short_description": "The overall design and organization of web structures, determining patterns of connection and interaction within the system."
+},
+"Topology": {
+"short_description": "The spatial and logical arrangement of web elements, defining relationships and pathways between different parts of the network."
+},
+"Cluster": {
+"short_description": "Concentrated groupings of nodes and connections within the web, forming areas of increased density and interaction."
+},
+"Domain": {
+"short_description": "Distinct regions or zones within the web structure, often characterized by specific functions or governance patterns."
+},
+"Router": {
+"short_description": "Elements that direct and manage flow through the web, determining optimal pathways for resource distribution."
+},
+"Cache": {
+"short_description": "Storage points within the web where frequently accessed resources are maintained for quick retrieval."
+},
+"Filter": {
+"short_description": "Mechanisms for selecting, screening, or modifying content as it moves through web pathways."
+},
+"Anchor": {
+"short_description": "Points of stability and attachment within the web structure, providing foundation for expanding connections."
+},
+"Bridge": {
+"short_description": "Connections linking separate web segments or networks, enabling communication between otherwise isolated systems."
+},
+"Recursion": {
+"short_description": "The self-similar patterns appearing at different scales within web structures, creating nested levels of organization."
+},
+"Resilience": {
+"short_description": "The capacity of web structures to maintain function despite damage or disruption through redundant pathways and adaptive response."
+},
+"Synchronization": {
+"short_description": "The coordination of activities and states across web elements, maintaining coherent function across the network."
+},
+"Propagation": {
+"short_description": "The movement and spread of information or effects through web structures, following connected pathways."
+},
+"Encryption": {
+"short_description": "Methods for securing information as it travels through web pathways, protecting content during transmission."
+},
+"Latency": {
+"short_description": "The time delay between initiation and completion of web-based interactions, affecting system responsiveness."
+},
+"Load": {
+"short_description": "The distribution of activity and resource demands across web structures, influencing system performance and stability."
+},
+"Redundancy": {
+"short_description": "Multiple parallel pathways and backup systems ensuring continued web function despite individual component failure."
+},
+"Scalability": {
+"short_description": "The capacity for web structures to expand or contract while maintaining functional integrity and performance."
+},
+"Interconnection": {
+    "short_description": "The state of being linked or connected to one another, forming a web of relationships, dependencies, and shared pathways."
+  },
+  "Hyperlink": {
+    "short_description": "A digital link that connects one resource to another, enabling users to navigate seamlessly between web pages, documents, and multimedia content."
+  },
+  "Website": {
+    "short_description": "A collection of related web pages, images, and other digital assets hosted on a web server, providing information, services, or entertainment to users."
+  },
+  "Webpage": {
+    "short_description": "A single document accessible on the World Wide Web, typically written in HTML and containing text, images, videos, and interactive elements."
+  },
+  "Node": {
+    "short_description": "A fundamental unit within a network, representing a point of connection, processing, or data storage, contributing to the overall structure and function."
+  },
+  "Link": {
+    "short_description": "A connection or relationship between two nodes or elements, facilitating the transfer of information, energy, or resources within a system."
+  },
+  "Topology": {
+    "short_description": "The arrangement and interconnection of nodes and links in a network, influencing its performance, resilience, and communication patterns."
+  },
+  "Spider": {
+    "short_description": "A program which browses the World Wide Web in a methodical, automated manner. Other terms for spider include crawler, bot, and automatic indexer."
+  },
+  "Search Engine": {
+    "short_description": "A software system designed to search for information on the World Wide Web, indexing web pages and providing relevant results in response to user queries."
+  },
+  "Protocol": {
+    "short_description": "A set of rules and standards that govern the exchange of data between devices or systems, ensuring reliable communication and interoperability."
+  },
+  "Algorithm": {
+    "short_description": "A step-by-step procedure for solving a problem or performing a task, used in computer science and programming to automate processes and decision-making."
+  },
+  "Connectivity": {
+    "short_description": "The ability of devices, systems, or individuals to communicate and interact with each other through a network or medium."
+  },
+  "Interoperability": {
+    "short_description": "The capability of different systems, devices, or applications to work together seamlessly, exchanging data and resources without compatibility issues."
+  },
+  "Accessibility": {
+    "short_description": "The degree to which a product, device, service, or environment is available to as many people as possible."
+  },
+  "Browser": {
+    "short_description": "A software application used to access and view web pages, interpreting HTML and other web technologies to display content to the user."
+  },
+  "Server": {
+    "short_description": "A computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network."
+  },
+    "Domain": {
+    "short_description": "A unique name that identifies a website or server on the Internet, allowing users to access resources using a memorable and human-readable address."
+  },
+  "URL": {
+    "short_description": "A Uniform Resource Locator; is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it."
+  },
+  "HTML": {
+    "short_description": "The standard markup language for creating web pages, defining the structure, content, and presentation of documents displayed in a web browser."
+  },
+  "CSS": {
+    "short_description": "A style sheet language used to describe the presentation of a document written in HTML or XML, controlling the layout, colors, fonts, and other visual aspects."
+  },
+  "JavaScript": {
+    "short_description": "A programming language used to add interactivity, dynamic behavior, and complex functionality to web pages, enhancing the user experience."
+  },
+  "API": {
+    "short_description": "Application Programming Interface: a set of subroutine definitions, communication protocols, and tools for building software."
+  },
+  "Database": {
+    "short_description": "A structured collection of data organized for efficient storage, retrieval, and management, enabling applications to access and manipulate information."
+  },
+  "Security": {
+    "short_description": "Measures taken to protect data and systems from unauthorized access, use, disclosure, disruption, modification, or destruction."
+  },
+  "Encryption": {
+    "short_description": "The process of encoding information in such a way that only authorized parties can access it."
+  },
+  "Firewall": {
+    "short_description": "A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules."
+  },
+"Cloud": {
+    "short_description": "A network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer."
+  },
+"Algorithm": {
+    "short_description": "A set of rules or a step-by-step procedure for solving a problem, especially by a computer."
+  },
+"Cybersecurity": {
+    "short_description": "The practice of protecting computer systems, networks, and data from digital attacks."
+  },
+"Big Data": {
+    "short_description": "Extremely large data sets that may be analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions."
+  },
+"Metadata": {
+    "short_description": "Data that provides information about other data."
+  }
+}

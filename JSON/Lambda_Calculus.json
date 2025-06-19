@@ -1,0 +1,89 @@
+{
+    "Lambda Calculus": {
+        "short_description": "A formal system in mathematical logic and computer science for expressing computation through function abstraction and application, serving as a universal model of computation."
+    },
+    "Lambda Expression": {
+        "short_description": "The fundamental building block of lambda calculus, consisting of variables, abstractions, and applications, representing both functions and their arguments in a unified form."
+    },
+    "Beta Reduction": {
+        "short_description": "The primary computation rule in lambda calculus where function applications are evaluated by substituting arguments for variables, representing the essence of function execution."
+    },
+    "Alpha Conversion": {
+        "short_description": "The renaming of bound variables to avoid name conflicts while preserving the function's meaning, ensuring correct variable scope during computation."
+    },
+    "Eta Conversion": {
+        "short_description": "The transformation rule stating that functions with identical input-output behavior are equivalent, allowing simplification of function expressions."
+    },
+    "Free Variable": {
+        "short_description": "A variable in a lambda expression that is not bound by any enclosing lambda abstraction, representing external values referenced by the function."
+    },
+    "Bound Variable": {
+        "short_description": "A variable that is declared within a lambda abstraction, representing the formal parameter that will be replaced during function application."
+    },
+    "Church Encoding": {
+        "short_description": "The representation of data and operators as lambda expressions, enabling the expression of all computable functions using only functions."
+    },
+    "Church Numeral": {
+        "short_description": "The representation of natural numbers as lambda expressions, defining numbers as functions that apply an operation a specific number of times."
+    },
+    "Beta Normal Form": {
+        "short_description": "A lambda expression that cannot be further reduced through beta reduction, representing the final result of a computation."
+    },
+    "Currying": {
+        "short_description": "The technique of transforming multi-argument functions into a sequence of single-argument functions, enabling partial application and composition."
+    },
+    "Combinator": {
+        "short_description": "A lambda expression with no free variables, serving as a fundamental building block for constructing more complex functions."
+    },
+    "Fixed-Point": {
+        "short_description": "A lambda expression that remains unchanged when applied to itself, enabling the implementation of recursive functions in pure lambda calculus."
+    },
+    "Y Combinator": {
+        "short_description": "A special combinator that enables recursive definitions in lambda calculus without explicit recursion, implementing fixed-point computation."
+    },
+    "Church Boolean": {
+        "short_description": "The representation of boolean values and operations as lambda expressions, enabling logical computation within pure lambda calculus."
+    },
+    "Lazy Evaluation": {
+        "short_description": "A reduction strategy where expressions are only evaluated when their values are needed, optimizing computation through delayed execution."
+    },
+    "Eager Evaluation": {
+        "short_description": "A reduction strategy where expressions are evaluated as soon as they are bound to variables, providing immediate computation of all terms."
+    },
+    "Type System": {
+        "short_description": "A formal system for assigning types to lambda expressions, ensuring consistent function application and preventing invalid computations."
+    },
+    "Simply Typed Lambda Calculus": {
+        "short_description": "An extension of lambda calculus with simple types, providing a foundation for type theory and typed programming languages."
+    },
+    "Lambda Abstraction": {
+        "short_description": "The creation of a function by binding a variable, representing the fundamental operation of function definition in lambda calculus."
+    },
+    "Function Application": {
+        "short_description": "The operation of applying a function to an argument, representing the fundamental computation step in lambda calculus."
+    },
+    "Substitution": {
+        "short_description": "The process of replacing variables with expressions during beta reduction, implementing the core mechanism of function execution."
+    },
+    "Capture-Avoiding Substitution": {
+        "short_description": "A substitution that prevents free variables from becoming bound, maintaining correct variable scoping during reduction."
+    },
+    "Normal Order Reduction": {
+        "short_description": "A reduction strategy that evaluates the leftmost, outermost redex first, guaranteeing termination when a normal form exists."
+    },
+    "Applicative Order Reduction": {
+        "short_description": "A reduction strategy that evaluates arguments before function application, matching the evaluation order of most programming languages."
+    },
+    "Church-Rosser Theorem": {
+        "short_description": "The fundamental theorem stating that different reduction sequences of the same expression converge to the same result, ensuring consistency."
+    },
+    "Redex": {
+        "short_description": "A reducible expression in lambda calculus consisting of a function application that can undergo beta reduction."
+    },
+    "Confluence": {
+        "short_description": "The property that different reduction paths lead to equivalent results, ensuring the deterministic nature of lambda calculus computation."
+    },
+    "SKI Combinator Calculus": {
+        "short_description": "A complete system of combinators that can express all lambda calculus computations using only three fundamental combinators."
+    }
+}

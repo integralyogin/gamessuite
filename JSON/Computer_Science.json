@@ -1,0 +1,312 @@
+{
+"Computer Science": {
+"short_description": "The systematic study of computation, information processing, and algorithmic thinking, encompassing both theoretical foundations and practical applications in computing systems."
+},
+"Classic Books of Computer Science": { "quote": "" },
+
+"Theoretical Foundations": { "quote": "Computer Science is no more about computers than astronomy is about telescopes. - Edsger Dijkstra" },
+"Algorithm Design": { "quote": "An algorithm must be seen to be believed. - Donald Knuth" },
+"Programming Languages": { "quote": "A programming language is low level when its programs require attention to the irrelevant. - Alan Perlis" },
+"Data Structures": { "quote": "Bad programmers worry about the code. Good programmers worry about data structures and their relationships. - Linus Torvalds" },
+"Software Engineering": { "quote": "First, solve the problem. Then, write the code. - John Johnson" },
+"Operating Systems": { "quote": "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity. - Dennis Ritchie" },
+"Computer Architecture": { "quote": "Hardware is the platform that software dances on. - Unknown" },
+"Database Systems": { "quote": "Data is not information, information is not knowledge, knowledge is not understanding, understanding is not wisdom. - Clifford Stoll" },
+"Computer Networks": { "quote": "The Internet is not just one thing, it's a collection of things - of numerous communications networks that all speak the same digital language. - Jim Clark" },
+"Artificial Intelligence": { "quote": "AI is whatever hasn't been done yet. - Larry Tesler" },
+"Machine Learning": { "quote": "Machine learning is the science of getting computers to learn without being explicitly programmed. - Arthur Samuel" },
+"Computer Graphics": { "quote": "Computer graphics is the art of creating visual content using computers. - Ivan Sutherland" },
+"Information Security": { "quote": "Security is always going to be a cat and mouse game because there'll be people out there that are hunting for the zero day award. - Kevin Mitnick" },
+"Human-Computer Interaction": { "quote": "Design is not just what it looks like and feels like. Design is how it works. - Steve Jobs" },
+"Computational Theory": { "quote": "In theory, there is no difference between theory and practice. In practice, there is. - Yogi Berra" },
+"Distributed Systems": { "quote": "A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable. - Leslie Lamport" },
+"Software Testing": { "quote": "Testing shows the presence, not the absence of bugs. - Edsger Dijkstra" },
+"Version Control": { "quote": "The only way to go fast is to go well. - Robert C. Martin" },
+"Web Development": { "quote": "The web is like a dominatrix. Everywhere I turn, I see little buttons ordering me to Submit. - Nytwind" },
+"Mobile Computing": { "quote": "Mobile computing is not about the device, it's about the experience. - Unknown" },
+"Cloud Computing": { "quote": "The cloud is just someone else's computer. - Unknown" },
+"Internet of Things": { "quote": "IoT is transforming the everyday physical objects that surround us into an ecosystem of information. - Unknown" },
+"Quantum Computing": { "quote": "If you think you understand quantum mechanics, you don't understand quantum mechanics. - Richard Feynman" },
+"Blockchain Technology": { "quote": "The blockchain is an incorruptible digital ledger of economic transactions. - Don & Alex Tapscott" },
+"Parallel Computing": { "quote": "The way the processor industry is going is to add more and more cores, but nobody knows how to program those things. - Steve Jobs" },
+"Computer Ethics": { "quote": "The ethical issues surrounding computer technology are becoming more complex, not simpler. - James H. Moor" },
+"Data Science": { "quote": "Data scientists are involved with gathering data, massaging it into a tractable form, making it tell its story, and presenting that story to others. - Mike Loukides" },
+"Robotics": { "quote": "A robot may not injure a human being or, through inaction, allow a human being to come to harm. - Isaac Asimov" },
+"Augmented Reality": { "quote": "AR will be the operating system of human life. - Robert Scoble" },
+"Virtual Reality": { "quote": "Virtual reality is the first step in a grand adventure into the landscape of the imagination. - Frank Biocca" }
+,
+"Algorithms": {
+"short_description": "Systematic procedures for solving computational problems, including their design, analysis, efficiency, correctness, and implementation across different contexts and requirements."
+},
+"Data Structures": {
+"short_description": "Organized methods for storing and managing data to enable efficient access and modification, including arrays, lists, trees, graphs, and hash tables with their associated operations and complexities."
+},
+"Complexity Theory": {
+"short_description": "The study of computational resource requirements for algorithms, analyzing time and space complexity to understand fundamental limits and efficiency classifications of computational problems."
+},
+"Programming Languages": {
+"short_description": "Formal systems for expressing computational instructions, including their syntax, semantics, type systems, compilation, interpretation, and theoretical foundations."
+},
+"Operating Systems": {
+"short_description": "Software systems managing hardware resources and providing services for computer programs, including process management, memory management, file systems, and security mechanisms."
+},
+"Computer Architecture": {
+"short_description": "The design and organization of computer systems, including instruction sets, processor design, memory hierarchy, and the integration of hardware components into functional systems."
+},
+"Networks": {
+"short_description": "Systems for communication between computing devices, including protocols, routing, security, distributed systems, and the principles of reliable data transmission."
+},
+"Database Systems": {
+"short_description": "Systems for organizing, storing, and retrieving structured data, including relational algebra, query optimization, transaction processing, and data modeling."
+},
+"Artificial Intelligence": {
+"short_description": "The study of creating intelligent agents capable of perceiving their environment and taking actions to maximize success, including machine learning, natural language processing, and reasoning systems."
+},
+"Software Engineering": {
+"short_description": "Systematic approaches to designing, implementing, testing, and maintaining complex software systems, including methodologies, tools, and practices for reliable software development."
+},
+"Compiler Design": {
+"short_description": "The theory and practice of translating high-level programming languages into executable machine code, including lexical analysis, parsing, optimization, and code generation."
+},
+"Computer Graphics": {
+"short_description": "Techniques for creating, manipulating, and displaying visual content using computers, including rendering, modeling, animation, and computational geometry."
+},
+"Information Theory": {
+"short_description": "The mathematical study of information encoding, transmission, and compression, including entropy, channel capacity, and error correction."
+},
+"Cryptography": {
+"short_description": "Methods for secure communication and computation in the presence of adversaries, including encryption, authentication, and protocols for maintaining information security."
+},
+"Distributed Systems": {
+"short_description": "Systems of interconnected computers working together to achieve common goals, including consistency, fault tolerance, and scalability considerations."
+},
+"Quantum Computing": {
+"short_description": "Computing systems exploiting quantum mechanical phenomena for computation, including quantum algorithms, error correction, and physical implementation challenges."
+},
+"Parallel Computing": {
+"short_description": "Simultaneous execution of computational tasks for increased performance, including architectures, algorithms, and programming models for parallel systems."
+},
+"Computer Vision": {
+"short_description": "Systems for understanding and processing visual information from the world, including image processing, pattern recognition, and scene understanding."
+},
+"Natural Language Processing": {
+"short_description": "Technologies for processing and understanding human language, including parsing, semantic analysis, machine translation, and text generation."
+},
+"Machine Learning": {
+"short_description": "Systems that improve performance through experience, including supervised and unsupervised learning, deep learning, and reinforcement learning algorithms."
+},
+"Human-Computer Interaction": {
+"short_description": "The study of interfaces between humans and computers, including design principles, user experience, and methods for effective human-computer communication."
+},
+"Cybersecurity": {
+"short_description": "Protection of computer systems from theft, damage, and unauthorized access, including network security, system hardening, and threat analysis."
+},
+"Data Mining": {
+"short_description": "Processes for discovering patterns and knowledge from large datasets, including statistical analysis, machine learning, and data visualization techniques."
+},
+"Robotics": {
+"short_description": "The design, construction, and use of robots, including control systems, sensor processing, motion planning, and human-robot interaction."
+},
+ "Algorithm": {
+    "short_description": "A step-by-step procedure for solving a problem or achieving a specific task, fundamental to computation and data processing."
+  },
+  "Data Structure": {
+    "short_description": "A way of organizing and storing data that enables efficient access and modification, like arrays, linked lists, trees, and graphs."
+  },
+  "Programming Language": {
+    "short_description": "A formal language comprising a set of instructions that produce various kinds of output, used to implement algorithms."
+  },
+  "Software Engineering": {
+    "short_description": "The systematic approach to the development, operation, maintenance, and retirement of software, emphasizing quality, cost-effectiveness, and reliability."
+  },
+  "Operating System": {
+    "short_description": "Software that manages computer hardware, software resources, and provides common services for computer programs, like file management and process scheduling."
+  },
+  "Database Systems": {
+    "short_description": "Organized collections of data, typically stored and accessed electronically from a computer system, managed by database management systems (DBMS)."
+  },
+  "Networking": {
+    "short_description": "The interconnection of computers and devices to enable communication and sharing of resources, involving protocols, hardware, and software."
+  },
+  "Artificial Intelligence": {
+    "short_description": "The simulation of human intelligence processes by computer systems, including machine learning, natural language processing, and cognitive computing."
+  },
+  "Computer Architecture": {
+    "short_description": "The design and organization of a computer system's hardware components and their interactions to achieve high performance, including CPU design and memory systems."
+  },
+  "Human-Computer Interaction": {
+    "short_description": "The study of how people interact with computers and to what extent computers are or are not developed for successful interaction with human users."
+  },
+  "Cryptography": {
+    "short_description": "The practice and study of techniques for secure communication in the presence of third parties, ensuring confidentiality, integrity, and authentication."
+  },
+  "Theory of Computation": {
+    "short_description": "The branch dealing with whether and how efficiently problems can be solved on a computer, including automata theory, computability theory, and complexity theory."
+  },
+  "Graphics and Visualization": {
+    "short_description": "The art and science of generating visual images, animations, or data representations on computers, crucial for fields like gaming and data science."
+  },
+  "Software Development": {
+    "short_description": "The process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components."
+  },
+  "Machine Learning": {
+    "short_description": "A subset of AI that involves the development of algorithms that can learn from and make decisions on data, improving performance over time."
+  },
+  "Cybersecurity": {
+    "short_description": "The practice of protecting internet-connected systems, including hardware, software, and data, from attack, damage, or unauthorized access."
+  },
+  "Parallel and Distributed Computing": {
+    "short_description": "The study of systems where multiple processing elements simultaneously execute to solve a computational problem, enhancing speed and efficiency."
+  },
+  "Compiler Design": {
+    "short_description": "The construction of programs that translate high-level programming languages into machine-readable instructions, optimizing code for execution."
+  },
+  "Information Retrieval": {
+    "short_description": "The activity of obtaining information resources relevant to an information need from a collection, primarily involving search engines and databases."
+  },
+  "Systems Programming": {
+    "short_description": "Writing system software, which provides essential services to other software, like device drivers, operating systems, and low-level applications."
+  },
+   "Abstraction": {
+    "short_description": "The conceptual process of simplifying complex systems by focusing on essential features while ignoring irrelevant details, enabling the management of complexity through layered models."
+  },
+  "Computation": {
+    "short_description": "The fundamental act of processing information through mechanical or logical operations, representing the execution of algorithms to derive results from symbolic representations."
+  },
+  "Turing Machine": {
+    "short_description": "A theoretical construct modeling computational processes through an infinite tape and read/write head, establishing the foundational limits and possibilities of mechanical computation."
+  },
+  "Encryption": {
+    "short_description": "The art of securing information by transforming data into concealed forms using mathematical techniques, ensuring confidentiality and integrity through algorithmic ciphers."
+  },
+  "Artificial Intelligence": {
+    "short_description": "The pursuit of creating systems capable of perception, reasoning, and learning by simulating cognitive processes through algorithmic models and data-driven adaptation."
+  },
+  "Complexity": {
+    "short_description": "The study of resource requirements in computational processes, analyzing how time and space constraints shape problem solvability and algorithmic efficiency."
+  },
+  "Recursion": {
+    "short_description": "A method where solutions depend on smaller instances of the same problem, reflecting self-similar structures in both algorithmic design and system organization."
+  },
+  "Syntax": {
+    "short_description": "The formal rules governing the structure of symbols in programming languages, defining valid combinations while remaining separate from semantic meaning."
+  },
+  "Semantics": {
+    "short_description": "The study of meaning in computational systems, interpreting how symbols and operations correspond to real-world behaviors and logical outcomes."
+  },
+  "Programming Paradigm": {
+    "short_description": "A conceptual framework shaping software design through distinct approaches to problem decomposition and solution expression, such as object-oriented or functional styles."
+  },
+  "Compilation": {
+    "short_description": "The transformative process of converting human-readable code into machine-executable instructions through layered translation and optimization phases."
+  },
+  "Debugging": {
+    "short_description": "The systematic identification and resolution of discrepancies between intended and actual program behavior, ensuring alignment through iterative refinement."
+  },
+  "Protocol": {
+    "short_description": "Established conventions governing data exchange between systems, enabling reliable communication through standardized interaction patterns."
+  },
+  "Automaton": {
+    "short_description": "An abstract model of self-operating machines following predefined rules, exploring the boundaries between deterministic behavior and adaptive systems."
+  },
+  "Optimization": {
+    "short_description": "The pursuit of maximizing computational efficiency by refining algorithms and resource usage, balancing performance against practical constraints."
+  },
+  "Heuristic": {
+    "short_description": "Experience-based techniques for problem-solving that prioritize feasible solutions over guaranteed optimality, embracing pragmatic approximation in complex scenarios."
+  },
+  "Interface": {
+    "short_description": "The boundary layer facilitating interaction between system components or users, designing accessible pathways while hiding underlying complexity."
+  },
+  "Virtualization": {
+    "short_description": "The creation of simulated environments abstracted from physical hardware, enabling flexible resource allocation and system isolation through software layers."
+  },
+  "Quantum Computing": {
+    "short_description": "The computational paradigm leveraging quantum mechanical phenomena to process information, transcending classical limitations through superposition and entanglement."
+  },
+  "Machine Learning": {
+    "short_description": "The automated development of analytical models through exposure to data patterns, enabling systems to adapt and predict without explicit programming."
+  },
+  "Big O Notation": {
+    "short_description": "A symbolic representation describing algorithm scalability by characterizing performance relative to input size growth, categorizing computational complexity."
+  },
+  "Binary Logic": {
+    "short_description": "The foundational system of reasoning using two truth values, forming the basis of digital circuitry and Boolean operations in computational processes."
+  },
+  "Cache": {
+    "short_description": "A high-speed memory layer storing frequently accessed data to reduce latency, exemplifying the trade-off between speed and capacity in hierarchical architectures."
+  },
+  "Parsing": {
+    "short_description": "The structural analysis of input data according to formal grammars, converting raw information into interpretable hierarchical representations."
+  },
+  "Concurrency": {
+    "short_description": "The simultaneous execution of computational tasks through managed coordination, addressing challenges of resource sharing and timing dependencies."
+  },
+  "Lambda Calculus": {
+    "short_description": "A formal system for expressing computation through function abstraction and application, providing the theoretical foundation for functional programming."
+  },
+  "Metadata": {
+    "short_description": "Descriptive information about data's characteristics and context, enabling organization, discovery, and interpretation through structured annotations."
+  },
+  "Token": {
+    "short_description": "A discrete unit of meaning in lexical analysis, representing categorized elements such as identifiers or operators during language processing."
+  },
+  "Kernel": {
+    "short_description": "The core component of an operating system managing hardware interactions and essential services, acting as the mediator between software and physical resources."
+  },
+  "Syntax Tree": {
+    "short_description": "A hierarchical representation of program structure derived from grammatical rules, facilitating semantic analysis and code generation."
+  },
+  "Overflow": {
+    "short_description": "A computational state where numerical operations exceed representational capacity, highlighting the finite nature of digital systems and error conditions."
+  },
+  "Middleware": {
+    "short_description": "Software infrastructure connecting disparate systems and components, enabling communication and data management across heterogeneous environments."
+  },
+  "Compiler": {
+    "short_description": "A specialized program transforming source code into executable form through lexical, syntactic, and semantic analysis with optimization phases."
+  },
+  "Debugger": {
+    "short_description": "A diagnostic tool for inspecting and manipulating program execution states, allowing controlled observation and alteration of runtime behavior."
+  },
+  "Firewall": {
+    "short_description": "A protective barrier monitoring and controlling network traffic based on security rules, enforcing boundaries between trusted and untrusted domains."
+  },
+  "Backpropagation": {
+    "short_description": "A learning algorithm adjusting neural network parameters by propagating error gradients backward through layers, enabling adaptive weight optimization."
+  },
+  "Lexicon": {
+    "short_description": "The complete set of meaningful units in a programming language, encompassing reserved keywords and symbol conventions that define expressible operations."
+  },
+  "Garbage Collection": {
+    "short_description": "Automatic memory management through identification and reclamation of unused resources, balancing performance with developer convenience."
+  },
+  "Interpreter": {
+    "short_description": "A runtime system executing source code directly by translating instructions incrementally, contrasting with batch compilation approaches."
+  },
+  "Packet": {
+    "short_description": "A formatted unit of data transmitted across networks, structured with headers and payloads to enable routing and delivery verification."
+  },
+  "Blockchain": {
+    "short_description": "A decentralized ledger technology recording transactions in immutable, timestamped blocks linked through cryptographic hashes, ensuring transparency and security."
+  },
+  "Syntax Error": {
+    "short_description": "A violation of grammatical rules in code structure detected during parsing, preventing execution until conformity is restored."
+  },
+  "Semaphore": {
+    "short_description": "A synchronization mechanism controlling access to shared resources in concurrent systems through signaling states and wait operations."
+  },
+  "Regex": {
+    "short_description": "A symbolic pattern-matching language for string processing, enabling flexible text search and manipulation through concise expression syntax."
+  },
+  "API": {
+    "short_description": "A defined interface enabling software components to communicate by specifying request formats and response protocols, promoting modular system design."
+  },
+  "Firmware": {
+    "short_description": "Permanent software embedded in hardware devices, providing low-level control and initialization routines for device operation."
+  },
+  "Hypervisor": {
+    "short_description": "A software layer enabling multiple operating systems to run concurrently on shared hardware through virtualization and resource allocation."
+  }
+}
+

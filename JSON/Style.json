@@ -1,0 +1,186 @@
+{
+    "Renaissance": {
+      "short_description": "A revival of classical Greek and Roman art, characterized by realism, perspective, harmony, and a focus on humanism. Key figures include Leonardo da Vinci and Michelangelo.",
+      "img": "images/styles/renaissance.jpg"
+    },
+    "Baroque": {
+      "short_description": "A highly ornate and extravagant style known for its drama, emotion, and movement. It features deep color, intense light, and dark shadows. Key figures include Caravaggio and Rembrandt.",
+      "img": "images/styles/baroque.jpg"
+    },
+    "Rococo": {
+      "short_description": "An evolution of Baroque, characterized by lightness, elegance, and an exuberant use of curving, natural forms in ornamentation. Often depicts themes of love, nature, and playful leisure.",
+      "img": "images/styles/rococo.jpg"
+    },
+    "Neoclassicism": {
+      "short_description": "A return to the order, simplicity, and grand themes of classical antiquity. It emphasizes strong lines, sober colors, and moral narratives, reacting against the frivolity of Rococo.",
+      "img": "images/styles/neoclassicism.jpg"
+    },
+    "Romanticism": {
+      "short_description": "An artistic and literary movement that emphasized emotion, individualism, and the awe-inspiring power of nature. It often features dramatic, sublime landscapes and heroic struggles.",
+      "img": "images/styles/romanticism.jpg"
+    },
+    "Realism": {
+      "short_description": "A movement that sought to portray subjects truthfully, without artificiality and avoiding artistic conventions, exotic subjects, and supernatural elements.",
+      "img": "images/styles/realism.jpg"
+    },
+    "Impressionism": {
+      "short_description": "Characterized by small, thin, yet visible brush strokes, open composition, and an emphasis on the accurate depiction of light in its changing qualities and the passage of time.",
+      "img": "images/styles/impressionism.jpg"
+    },
+    "Post-Impressionism": {
+      "short_description": "A diverse movement that rejected Impressionism's limitations. Artists like Van Gogh and Cézanne used symbolic colors, geometric forms, and expressive brushwork.",
+      "img": "images/styles/post_impressionism.jpg"
+    },
+    "Pointillism": {
+      "short_description": "A technique of painting in which small, distinct dots of color are applied in patterns to form an image, blending optically in the viewer's eye.",
+      "img": "images/styles/pointillism.jpg"
+    },
+    "Art Nouveau": {
+      "short_description": "An international style characterized by its use of long, sinuous, organic lines and floral or insect-inspired motifs. It was applied to art, architecture, and applied art.",
+      "img": "images/styles/art_nouveau.jpg"
+    },
+    "Ukiyo-e": {
+      "short_description": "A Japanese genre of woodblock prints and paintings produced between the 17th and 20th centuries, featuring subjects from everyday life, famous kabuki actors, and landscapes.",
+      "img": "images/styles/ukiyo_e.jpg"
+    },
+
+    "Fauvism": {
+      "short_description": "A style that emphasized painterly qualities and strong, unrealistic color over the representational or realistic values retained by Impressionism.",
+      "img": "images/styles/fauvism.jpg"
+    },
+    "Expressionism": {
+      "short_description": "A modernist movement originating in Germany, presenting the world solely from a subjective perspective, distorting it radically for emotional effect in order to evoke moods or ideas.",
+      "img": "images/styles/expressionism.jpg"
+    },
+    "Cubism": {
+      "short_description": "An early-20th-century avant-garde art movement that revolutionized painting and sculpture by analyzing objects, breaking them up and reassembling them in an abstracted form.",
+      "img": "images/styles/cubism.jpg"
+    },
+    "Futurism": {
+      "short_description": "An artistic and social movement that emphasized dynamism, speed, technology, youth, violence, and objects such as the car, the airplane, and the industrial city.",
+      "img": "images/styles/futurism.jpg"
+    },
+    "Suprematism": {
+      "short_description": "An art movement focused on basic geometric forms, such as circles, squares, lines, and rectangles, painted in a limited range of colors, emphasizing 'the supremacy of pure artistic feeling'.",
+      "img": "images/styles/suprematism.jpg"
+    },
+    "Constructivism": {
+      "short_description": "An artistic and architectural philosophy that originated in Russia, rejecting the idea of 'art for art's sake' in favor of art as a practice for social purposes.",
+      "img": "images/styles/constructivism.jpg"
+    },
+    "Dada": {
+      "short_description": "An art movement of the European avant-garde that rejected logic, reason, and aestheticism of modern capitalist society, instead expressing nonsense, irrationality, and anti-bourgeois protest.",
+      "img": "images/styles/dada.jpg"
+    },
+    "Surrealism": {
+      "short_description": "A movement known for its visual artworks and writings which feature element of surprise, unexpected juxtapositions and non-sequitur; many Surrealist artists and writers regard their work as an expression of the philosophical movement first and foremost.",
+      "img": "images/styles/surrealism.jpg"
+    },
+    "Art Deco": {
+      "short_description": "A style of visual arts, architecture and design that first appeared in France just before WWI. It is characterized by bold geometric shapes, lavish ornamentation, and rich materials.",
+      "img": "images/styles/art_deco.jpg"
+    },
+    "Bauhaus": {
+      "short_description": "A German art school operational from 1919 to 1933 that combined crafts and the fine arts. The style is characterized by a focus on function, clean lines, and geometric forms.",
+      "img": "images/styles/bauhaus.jpg"
+    },
+    "Abstract Expressionism": {
+      "short_description": "A post–World War II art movement in American painting, developed in New York in the 1940s. It was the first specifically American movement to achieve international influence and put New York at the center of the western art world, a role formerly filled by Paris.",
+      "img": "images/styles/abstract_expressionism.jpg"
+    },
+
+    "Pop Art": {
+      "short_description": "An art movement that emerged in the 1950s and 60s, drawing inspiration from sources in popular and commercial culture, such as advertising, comic books, and mundane objects.",
+      "img": "images/styles/pop_art.jpg"
+    },
+    "Minimalism": {
+      "short_description": "A style that uses pared-down design elements. It is characterized by extreme simplicity of form and a deliberate lack of expressive content.",
+      "img": "images/styles/minimalism.jpg"
+    },
+    "Op Art": {
+      "short_description": "A style of visual art that uses optical illusions. Artworks are abstract, with many better known pieces created in black and white.",
+      "img": "images/styles/op_art.jpg"
+    },
+    "Photorealism": {
+      "short_description": "A genre of art that encompasses painting, drawing and other graphic media, in which an artist studies a photograph and then attempts to reproduce it as realistically as possible in another medium.",
+      "img": "images/styles/photorealism.jpg"
+    },
+    "Hyperrealism": {
+      "short_description": "A genre of painting and sculpture resembling a high-resolution photograph. It is considered an advancement of Photorealism by the methods used to create the resulting paintings or sculptures.",
+      "img": "images/styles/hyperrealism.jpg"
+    },
+    "Conceptual Art": {
+      "short_description": "Art in which the concept(s) or idea(s) involved in the work take precedence over traditional aesthetic, technical, and material concerns.",
+      "img": "images/styles/conceptual_art.jpg"
+    },
+    "Lowbrow Art (Pop Surrealism)": {
+      "short_description": "An underground visual art movement that arose in the Los Angeles, California, area in the late 1970s. It has a populist appeal and often has a sense of humor.",
+      "img": "images/styles/lowbrow_art.jpg"
+    },
+    "Street Art / Graffiti Style": {
+      "short_description": "Refers to the visual style originating from unauthorized public art. It includes a wide range of techniques, from freehand spray paint to intricate stenciling and lettering.",
+      "img": "images/styles/street_art_style.jpg"
+    },
+    "Contemporary": {
+      "short_description": "Art of today, produced in the second half of the 20th century or in the 21st century. It is dynamic and reflects a globally influenced, culturally diverse, and technologically advancing world.",
+      "img": "images/styles/contemporary.jpg"
+    },
+
+    "Fantasy": {
+      "short_description": "A genre of speculative fiction set in a fictional universe, often inspired by real world myth and folklore. It is characterized by magical elements, mythical creatures, and epic quests.",
+      "img": "images/styles/fantasy.jpg"
+    },
+    "Sci-Fi (Science Fiction)": {
+      "short_description": "A genre of speculative fiction that typically deals with imaginative and futuristic concepts such as advanced science and technology, space exploration, time travel, and extraterrestrial life.",
+      "img": "images/styles/sci_fi.jpg"
+    },
+    "Cyberpunk": {
+      "short_description": "A subgenre of science fiction in a futuristic setting that tends to focus on a 'combination of low-life and high tech' featuring advanced technological and scientific achievements, such as artificial intelligence and cybernetics, juxtaposed with a degree of societal collapse or decay.",
+      "img": "images/styles/cyberpunk.jpg"
+    },
+    "Steampunk": {
+      "short_description": "A subgenre of science fiction that incorporates retrofuturistic technology and aesthetics inspired by 19th-century industrial steam-powered machinery.",
+      "img": "images/styles/steampunk.jpg"
+    },
+    "Dieselpunk": {
+      "short_description": "A retrofuturistic subgenre of science fiction similar to steampunk or cyberpunk that combines the aesthetics of the diesel-based technology of the interwar period through to the 1950s with retro-futuristic technology and postmodern sensibilities.",
+      "img": "images/styles/dieselpunk.jpg"
+    },
+    "Solarpunk": {
+      "short_description": "A science fiction subgenre that envisions how the future might look if humanity succeeded in solving major contemporary challenges with an emphasis on sustainability, renewable energy, and community.",
+      "img": "images/styles/solarpunk.jpg"
+    },
+    "Gothic": {
+      "short_description": "A style of art and architecture characterized by darkness, mystery, horror, and gloom. It often includes elements like ruined castles, supernatural beings, and dramatic, emotional scenes.",
+      "img": "images/styles/gothic.jpg"
+    },
+    "Film Noir": {
+      "short_description": "A cinematic term used primarily to describe stylish Hollywood crime dramas, particularly those that emphasize cynical attitudes and sexual motivations. Visually characterized by low-key, black-and-white visuals with stark light/dark contrasts (chiaroscuro).",
+      "img": "images/styles/film_noir.jpg"
+    },
+    "Biopunk": {
+      "short_description": "A subgenre of science fiction that focuses on biotechnology and genetic engineering, often in a dystopian context. It explores the dark side of body modification and organic technology.",
+      "img": "images/styles/biopunk.jpg"
+    },
+
+    "Anime / Manga Style": {
+      "short_description": "A style of Japanese film and television animation or a style of Japanese comics, typically aimed at adults as well as children. Characterized by large expressive eyes, detailed hair, and stylized linework.",
+      "img": "images/styles/anime_manga_style.jpg"
+    },
+    "Chibi": {
+      "short_description": "A specific style within anime/manga where characters are drawn in an exaggeratedly cute and small form, with large heads and diminutive bodies.",
+      "img": "images/styles/chibi.jpg"
+    },
+    "Cartoon": {
+      "short_description": "A style of drawing that is typically non-realistic and often humorous. Includes a wide range from classic American animation to modern web cartoons, characterized by simplified forms and expressive motion.",
+      "img": "images/styles/cartoon.jpg"
+    },
+    "Psychedelic / Trippy": {
+      "short_description": "Art, graphics or literature inspired by the psychedelic experiences induced by drugs such as LSD. Characterized by abstract swirls of intense color, kaleidoscopic patterns, and surreal subject matter.",
+      "img": "images/styles/psychedelic_trippy.jpg"
+    },
+    "Vaporwave": {
+      "short_description": "A microgenre of electronic music and an associated visual aesthetic that emerged in the early 2010s. The visual style includes themes of 80s and 90s nostalgia, glitch art, Roman busts, and Japanese characters.",
+      "img": "images/styles/vaporwave.jpg"
+    }
+  }

@@ -1,0 +1,122 @@
+{
+"Working Memory": {
+    "short_description": "The temporary storage and manipulation system for active information processing, serving as the workspace for conscious thought and problem-solving operations."
+},
+"Long-term Memory": {
+    "short_description": "The persistent storage system for knowledge and experiences, including declarative, procedural, and episodic information accumulated over time."
+},
+"Attention Mechanism": {
+    "short_description": "The system responsible for selecting and focusing on relevant information while filtering out distractions, managing cognitive resource allocation."
+},
+"Executive Function": {
+    "short_description": "The control system managing cognitive processes including planning, decision-making, error correction, and response inhibition."
+},
+"Knowledge Representation": {
+    "short_description": "The formal encoding of information and relationships in formats that enable efficient storage, retrieval, and reasoning operations."
+},
+"Pattern Recognition": {
+    "short_description": "The process of identifying and categorizing regularities in sensory input, matching current stimuli to stored templates and concepts."
+},
+"Cognitive Cycle": {
+    "short_description": "The recurring sequence of perception, understanding, and action that forms the basic unit of cognitive processing and behavior generation."
+},
+"Learning Mechanism": {
+    "short_description": "The systems responsible for acquiring and integrating new information, skills, and behavioral patterns through experience and instruction."
+},
+"Reasoning Engine": {
+    "short_description": "The component responsible for logical inference, problem-solving, and decision-making based on available knowledge and goals."
+},
+"Perception Module": {
+    "short_description": "The system processing sensory inputs into meaningful representations, including feature extraction and initial pattern recognition."
+},
+"Action Selection": {
+    "short_description": "The process of choosing appropriate behaviors or responses from available options based on current goals and environmental conditions."
+},
+"Goal Management": {
+    "short_description": "The system maintaining and prioritizing objectives, coordinating behavior and resource allocation to achieve desired outcomes."
+},
+"Emotion System": {
+    "short_description": "The mechanism processing affective information and generating emotional states that influence decision-making and behavior selection."
+},
+"Mental Models": {
+    "short_description": "Internal representations of external reality used for understanding, prediction, and simulation of outcomes in problem-solving."
+},
+"Semantic Network": {
+    "short_description": "The interconnected structure of concepts and their relationships, enabling meaning-based storage and retrieval of information."
+},
+"Procedural Memory": {
+    "short_description": "The storage system for skills, habits, and action sequences, enabling automatic execution of learned behaviors and operations."
+},
+"Metacognition": {
+    "short_description": "The system monitoring and controlling cognitive processes, enabling self-awareness and strategic adaptation of thinking strategies."
+},
+"Belief System": {
+    "short_description": "The network of accepted propositions about reality, influencing interpretation of new information and decision-making processes."
+},
+"Information Processing": {
+    "short_description": "The sequence of operations transforming input data into meaningful representations and appropriate responses through cognitive mechanisms."
+},
+"Schema": {
+    "short_description": "Organized patterns of thought and behavior that categorize and interpret information based on past experiences and knowledge."
+},
+"Cognitive Control": {
+    "short_description": "The regulatory system managing attention, inhibition, and flexibility in thinking and behavior based on current goals and context."
+},
+"Memory Consolidation": {
+    "short_description": "The process of stabilizing and integrating new information into long-term memory structures through rehearsal and association."
+},
+"Cognitive Load": {
+    "short_description": "The amount of mental effort being used in working memory, affecting processing capacity and performance in cognitive tasks."
+},
+"Knowledge Acquisition": {
+    "short_description": "The process of incorporating new information into existing knowledge structures through learning and experience."
+},
+"Symbolic Processing": {
+    "short_description": "The manipulation of abstract representations and symbols according to formal rules for reasoning and problem-solving."
+},
+"Neural Architecture": {
+    "short_description": "The organization and connectivity patterns of processing units designed to simulate brain-like information processing."
+},
+"Cognitive Bias": {
+    "short_description": "Systematic patterns of deviation from norm or rationality in judgment, influenced by cognitive architecture limitations and heuristics."
+},
+"Decision Network": {
+    "short_description": "The interconnected system of evaluation and choice mechanisms determining action selection based on current state and goals."
+},
+"Temporal Processing": {
+    "short_description": "The system managing time-based aspects of cognition, including sequence learning, timing, and temporal reasoning."
+},
+"Cognitive Buffer": {
+    "short_description": "Temporary storage areas for specific types of information during processing, enabling coordination between different cognitive components."
+},
+"Resource Allocation": {
+    "short_description": "The distribution of limited cognitive resources among competing processes and tasks based on priorities and demands."
+},
+"Learning Transfer": {
+    "short_description": "The application of knowledge and skills learned in one context to new situations through recognition of relevant patterns."
+},
+"Cognitive Map": {
+    "short_description": "Internal representation of spatial and conceptual relationships enabling navigation and understanding of complex domains."
+},
+"Production System": {
+    "short_description": "Rule-based mechanism for generating responses and behaviors through pattern-matching and condition-action pairs."
+},
+"Memory Retrieval": {
+    "short_description": "The process of accessing and activating stored information based on current needs and contextual cues."
+},
+"Cognitive Bottleneck": {
+    "short_description": "Processing limitations that constrain the flow of information through the cognitive system, affecting performance and capacity."
+},
+"Adaptive Behavior": {
+    "short_description": "The ability to modify responses based on environmental feedback and changing conditions through learning and flexibility."
+},
+"Information Integration": {
+    "short_description": "The combination of multiple sources of information into coherent representations for decision-making and understanding."
+},
+"Cognitive Development": {
+    "short_description": "The evolution and maturation of cognitive capabilities over time through experience and biological processes."
+},
+"Mental State": {
+    "short_description": "The current configuration of active cognitive processes, including attention, emotion, and goal orientations."
+}
+}

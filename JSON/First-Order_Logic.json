@@ -1,0 +1,65 @@
+{
+  "First-Order Logic": {
+    "short_description": "A formal system used in mathematics, philosophy, and computer science to express statements about objects and their properties, relations, and functions."
+  },
+  "Syntax": {
+    "short_description": "The rules for constructing well-formed formulas in first-order logic, including symbols for variables, constants, predicates, functions, logical connectives, and quantifiers."
+  },
+  "Semantics": {
+    "short_description": "The study of meaning in first-order logic, defining how statements can be interpreted in terms of truth values within models or structures."
+  },
+  "Model": {
+    "short_description": "A structure that gives meaning to a first-order language by interpreting its symbols over a domain of discourse, determining the truth of statements."
+  },
+  "Formula": {
+    "short_description": "A sequence of symbols from the language of first-order logic that follows the syntactic rules, representing a statement or a proposition."
+  },
+  "Predicate": {
+    "short_description": "A symbol that expresses a property or relation, used to form statements about elements in the domain, e.g., 'P(x)' might mean 'x is prime'."
+  },
+  "Function": {
+    "short_description": "A symbol used to denote operations on elements of the domain, mapping elements to other elements or values, e.g., 'f(x)' might represent 'the successor of x'."
+  },
+  "Quantifier": {
+    "short_description": "Symbols like ∀ (for all) and ∃ (there exists) used to specify the scope of variables in formulas, indicating universal or existential claims."
+  },
+  "Universal Quantifier": {
+    "short_description": "The symbol ∀, used to assert that a statement is true for every element in the domain, e.g., '∀x P(x)' means 'P is true for all x'."
+  },
+  "Existential Quantifier": {
+    "short_description": "The symbol ∃, used to indicate there is at least one element in the domain for which a statement holds, e.g., '∃x P(x)' means 'there exists an x such that P(x) is true'."
+  },
+  "Logical Connectives": {
+    "short_description": "Symbols like ∧ (and), ∨ (or), ¬ (not), → (implies), and ↔ (if and only if) that combine formulas to create compound statements."
+  },
+  "Inference Rules": {
+    "short_description": "Rules like modus ponens or universal instantiation that allow deriving new theorems from given axioms or premises within first-order logic."
+  },
+  "Axiom": {
+    "short_description": "A statement or proposition in first-order logic accepted without proof, serving as a starting point for deriving other truths."
+  },
+  "Theorem": {
+    "short_description": "A statement that has been proven to be true using the axioms, definitions, and inference rules of first-order logic."
+  },
+  "Interpretation": {
+    "short_description": "An assignment of meanings to the symbols of first-order logic within a specific model, where each symbol is mapped to actual objects or relations."
+  },
+  "Satisfiability": {
+    "short_description": "The property of a formula or set of formulas being true under at least one interpretation, indicating that there exists a model where the statements hold."
+  },
+  "Validity": {
+    "short_description": "The property of a formula being true under every possible interpretation, meaning it is a logical truth in all models."
+  },
+  "Deduction Theorem": {
+    "short_description": "A meta-theorem stating that if a formula B can be derived from a set of premises A, then the implication A → B is a theorem."
+  },
+  "Completeness Theorem": {
+    "short_description": "States that any first-order logical statement that is true in every model can be proved within the system, linking semantic truth with syntactic provability."
+  },
+  "Soundness": {
+    "short_description": "The property that if a formula is provable from a set of axioms, then it is true in all models where those axioms are true, ensuring logical consistency."
+  },
+  "Skolemization": {
+    "short_description": "A process in first-order logic to eliminate existential quantifiers by introducing new function symbols, used in proof theory and automated reasoning."
+  }
+}

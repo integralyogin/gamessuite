@@ -1,0 +1,68 @@
+{
+  "Town": {
+    "displayName": "Town Square",
+    "defaultAction": "Idle",
+    "actions": ["GoToInn", "GoToHospital", "GoToSchool", "GoToShop", "GoToDungeonGate"],
+    "passiveEffect": { "energyRegenPerSecond": 0.1 }
+  },
+  "Inn": {
+    "displayName": "The Prancing Pony",
+    "actions": [
+      {
+        "id": "rest_cheap", "name": "Rest (Cheap Room)",
+        "duration": 30, "cost": 5, "energyRestored": 20, "healthRestored": 10,
+        "description": "A somewhat comfy bed. Restores some HP and Energy."
+      },
+      {
+        "id": "rest_good", "name": "Rest (Good Room)",
+        "duration": 60, "cost": 15, "energyRestored": 50, "healthRestored": 30,
+        "description": "A quality bed. Restores good amount of HP and Energy."
+      }
+    ],
+    "passiveEffect": { "energyRegenPerSecond": 0.5, "healthRegenPerSecond": 0.2 }
+  },
+  "Hospital": {
+    "displayName": "Healing Hands Clinic",
+    "actions": [
+      {
+        "id": "minor_heal", "name": "Minor Healing",
+        "duration": 15, "cost": 10, "healthRestored": 25,
+        "description": "Heals minor wounds."
+      },
+      {
+        "id": "full_heal", "name": "Full Restoration",
+        "duration": 45, "cost": 50, "healthRestored": "full",
+        "description": "Heals all wounds and restores to max HP."
+      }
+    ]
+  },
+  "School": {
+    "displayName": "Adventurer's Guild School",
+    "actions": [
+      {
+        "id": "train_strength", "name": "Strength Training", "stat": "strength",
+        "duration": 60, "cost": 20, "xpGain": 50, "energyCost": 10,
+        "description": "Train to increase Strength."
+      },
+      {
+        "id": "train_agility", "name": "Agility Training", "stat": "agility",
+        "duration": 60, "cost": 20, "xpGain": 50, "energyCost": 10,
+        "description": "Train to increase Agility."
+      }
+    ]
+  },
+  "Shop": {
+    "displayName": "Ye Olde Shoppe",
+    "inventory": [
+      { "itemId": "basic_sword", "stock": -1 }, 
+      { "itemId": "leather_armor", "stock": 5 },
+      { "itemId": "health_potion_s", "stock": 20 }
+    ],
+    "refreshTime": 300
+  },
+  "DungeonGate": {
+    "displayName": "Dungeon Entrance",
+    "actions": ["EnterDungeon"],
+    "description": "The air grows cold as you approach the dungeon..."
+  }
+}

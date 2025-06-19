@@ -1,0 +1,115 @@
+	{
+  "Relational Model": { "quote": "Codd’s 12 Rules: Data represented as tuples in tables (e.g., SQL: SELECT * FROM Users WHERE age > 30)." },
+  "Normalization": { "quote": "1NF → 3NF: Eliminate redundancy (e.g., functional dependencies: A → B, B → C ⇒ A → C)." },
+  "ACID Properties": { "quote": "Atomicity (all or nothing), Consistency (constraints), Isolation (serializable), Durability (COMMIT → disk)." },
+  "SQL Basics": { "quote": "CRUD: INSERT INTO Users (name) VALUES ('Alice'); UPDATE Users SET age=31 WHERE id=1;" },
+  "NoSQL Paradigms": { "quote": "CAP Theorem: Choose 2 of Consistency, Availability, Partition Tolerance. Types: Document (MongoDB), Graph (Neo4j)." },
+  "Indexing Strategies": { "quote": "B-Tree (O(log n) search) vs. LSM-Tree (write-optimized). CREATE INDEX idx_name ON Users (name);" },
+  "Transactions & Locking": { "quote": "BEGIN TRANSACTION; SELECT FOR UPDATE; Two-Phase Locking (2PL): Grow → Shrink phase." },
+  "Partitioning/Sharding": { "quote": "Horizontal scaling: Shard key (user_id) → Consistent hashing (SHA-256 mod N)." },
+  "Query Optimization": { "quote": "Cost-based optimizer: EXPLAIN SELECT * FROM Orders JOIN Customers ON Orders.cust_id=Customers.id;" },
+  "Database Engines": { "quote": "InnoDB (MySQL): MVCC for concurrency. PostgreSQL: WAL (Write-Ahead Logging) + JSONB." },
+  "Data Warehousing": { "quote": "OLAP: Star schema (fact + dimension tables). ETL: Extract → Transform → Load." },
+  "Replication": { "quote": "Master-Slave: WAL streaming. Multi-Master: Conflict resolution (timestamp/last-write-wins)." },
+  "Backup & Recovery": { "quote": "Point-in-Time Recovery (PITR): Restore to timestamp t. Full + Incremental backups." },
+  "Security": { "quote": "RBAC: GRANT SELECT ON Users TO analyst; Encryption at rest (AES-256) and in transit (TLS 1.3)." },
+  "Graph Databases": { "quote": "Cypher: MATCH (a:User)-[:FRIENDS_WITH]->(b) WHERE a.name='Alice' RETURN b;" },
+  "Time-Series Databases": { "quote": "InfluxDB: SELECT mean(temperature) FROM sensors WHERE time > now() - 1h GROUP BY 10m;" },
+  "Distributed Databases": { "quote": "Google Spanner: TrueTime API (atomic clocks) → External consistency." },
+  "In-Memory DBs": { "quote": "Redis: SET key value EX 3600. Volatile + LRU eviction. Throughput ≈ 1M ops/sec." },
+  "Database Ethics": { "quote": "GDPR: Right to be forgotten. DELETE FROM Users WHERE id=123 CASCADE;" },
+  "Cloud Databases": { "quote": "AWS Aurora: Auto-scaling read replicas. Serverless: DynamoDB (pay per request)." },
+  "NewSQL": { "quote": "CockroachDB: Distributed SQL with raft consensus. SELECT * FROM trades AS OF SYSTEM TIME '-10s';" },
+  "Schema Migration": { "quote": "Liquibase/Flyway: Versioned ALTER TABLE scripts. Downgrade rollbacks." },
+  "Database Futures": { "quote": "AI-driven tuning: Auto-indexing (PostgreSQL pg_ai). Blockchain DBs: Immutable ledgers." },
+  "Database": {
+    "short_description": "An organized collection of structured information or data, typically stored electronically and accessed through a comprehensive system for managing, retrieving, and updating information."
+  },
+  "Schema": {
+    "short_description": "The formal structure that defines the organization and relationships of data within a database, serving as the architectural blueprint for how information is stored and accessed."
+  },
+  "Query": {
+    "short_description": "A formal request for data retrieval or manipulation, expressing precise requirements for accessing information stored within the database system."
+  },
+  "Transaction": {
+    "short_description": "An atomic unit of work that must be completed in its entirety or not at all, ensuring data consistency and integrity through defined sequences of operations."
+  },
+  "Normalization": {
+    "short_description": "The systematic process of organizing data to minimize redundancy and dependency, ensuring efficient storage and maintaining data integrity through standardized forms."
+  },
+  "Index": {
+    "short_description": "A data structure that improves the speed of data retrieval operations by providing rapid access paths to information stored in the database."
+  },
+  "Relation": {
+    "short_description": "A fundamental structure representing data as a set of tuples sharing the same attributes, forming the basis for organizing and connecting information in relational databases."
+  },
+  "Constraint": {
+    "short_description": "Rules and conditions that maintain data integrity by enforcing specific requirements on the values and relationships within the database."
+  },
+  "View": {
+    "short_description": "A virtual table derived from one or more base tables, providing an abstracted or simplified presentation of complex data relationships."
+  },
+  "Concurrency": {
+    "short_description": "The ability of multiple users or processes to access and modify data simultaneously while maintaining consistency and isolation of operations."
+  },
+  "Recovery": {
+    "short_description": "The process and mechanisms for restoring database consistency after failures, ensuring data durability and system reliability through various backup and logging methods."
+  },
+  "Optimization": {
+    "short_description": "The process of improving database performance through efficient query execution plans, resource allocation, and data access strategies."
+  },
+  "Partition": {
+    "short_description": "The division of large tables or indexes into smaller, more manageable pieces for improved performance and maintenance while maintaining logical unity."
+  },
+  "Replication": {
+    "short_description": "The process of maintaining multiple copies of data across different locations, ensuring availability and fault tolerance through synchronized data distribution."
+  },
+  "Buffer": {
+    "short_description": "A memory area that temporarily holds frequently accessed data, reducing physical I/O operations and improving system performance through caching."
+  },
+  "Cursor": {
+    "short_description": "A database object that enables traversal and manipulation of result sets, providing controlled access to query results one record at a time."
+  },
+  "Trigger": {
+    "short_description": "An automated procedure that activates in response to specific database events, enforcing business rules and maintaining data consistency through programmed reactions."
+  },
+  "Junction": {
+    "short_description": "A table that resolves many-to-many relationships between entities, enabling complex data relationships through intermediate connections."
+  },
+  "Shard": {
+    "short_description": "A horizontal partition of data across multiple databases, enabling distributed storage and processing for improved scalability and performance."
+  },
+  "Deadlock": {
+    "short_description": "A circular waiting condition between transactions competing for resources, requiring detection and resolution mechanisms to maintain system progress."
+  },
+  "Checkpoint": {
+    "short_description": "A synchronization point marking a consistent state of the database, facilitating recovery operations and performance optimization through periodic consistency assurance."
+  },
+  "Isolation": {
+    "short_description": "The degree to which concurrent transactions are separated from each other, preventing interference and maintaining consistency through defined levels of visibility."
+  },
+  "Atomicity": {
+    "short_description": "The guarantee that database transactions are processed as a single, indivisible unit, ensuring all operations either complete entirely or have no effect."
+  },
+  "Durability": {
+    "short_description": "The assurance that committed transactions remain permanent even in the event of system failures, through persistent storage and recovery mechanisms."
+  },
+  "Consistency": {
+    "short_description": "The property ensuring that database transactions maintain valid states according to defined rules and constraints throughout their execution."
+  },
+  "Materialization": {
+    "short_description": "The process of storing derived data physically rather than computing it on demand, trading storage space for improved query performance."
+  },
+  "Federation": {
+    "short_description": "The integration of multiple autonomous databases into a unified system, enabling coordinated access while maintaining individual database independence."
+  },
+  "Cascade": {
+    "short_description": "The automatic propagation of changes through related data, maintaining referential integrity through coordinated updates or deletions across tables."
+  },
+  "Projection": {
+    "short_description": "The operation of selecting specific attributes from relations, reducing data dimensionality while preserving relevant information for specific needs."
+  },
+  "Join": {
+    "short_description": "The operation of combining data from multiple relations based on related attributes, enabling complex data retrieval through relationship traversal."
+  }
+}

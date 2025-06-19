@@ -1,0 +1,152 @@
+{
+  "Powers": {
+    "ein_code": "3.01"
+  },
+  "Attributes": {
+    "ein_code": "3.02"
+  },
+  "Forces": {
+    "ein_code": "3.03"
+  },
+  "Elements": {
+    "ein_code": "3.04"
+  },
+  "Difficulties": {
+    "ein_code": "3.05"
+  },
+  "Capacities": {
+    "ein_code": "3.06"
+  },
+  "Siddhis": {
+    "ein_code": "3.07"
+  },
+  "Skills": {
+    "ein_code": "3.08"
+  },
+  "Faculties": {
+    "ein_code": "3.09"
+  },
+  "Conditions": {
+    "ein_code": "3.10"
+  },
+   "Authority": {
+    "short_description": "The legitimate right to exercise influence or control."
+  },
+  "Influence": {
+    "short_description": "The capacity to affect outcomes or behaviors."
+  },
+  "Control": {
+    "short_description": "The ability to direct or regulate actions and processes."
+  },
+  "Energy": {
+    "short_description": "The force or capacity enabling action or change."
+  },
+  "Dominance": {
+    "short_description": "The state of exerting superior influence or control."
+  },
+  "Strength": {
+    "short_description": "The inherent capacity to exert or withstand force."
+  },
+  "Force": {
+    "short_description": "The application of energy to achieve an effect."
+  },
+  "Capability": {
+    "short_description": "The potential or ability to exercise power."
+  },
+  "Agency": {
+    "short_description": "The capacity for independent action or decision-making."
+  },
+  "Leverage": {
+    "short_description": "The strategic use of resources to amplify influence."
+  },
+  "Hierarchy": {
+    "short_description": "Ordered relationships of power between entities."
+  },
+  "Structure": {
+    "short_description": "Fundamental arrangements that define power dynamics."
+  },
+  "System": {
+    "short_description": "Interconnected frameworks governing power interactions."
+  },
+  "Network": {
+    "short_description": "Interconnected patterns of power relationships."
+  },
+  "Distribution": {
+    "short_description": "The allocation of power across entities or systems."
+  },
+  "Balance": {
+    "short_description": "The equilibrium or proportionality of power distribution."
+  },
+  "Resistance": {
+    "short_description": "The opposition to the exercise or flow of power."
+  },
+  "Compliance": {
+    "short_description": "The adherence to directives or influence of power."
+  },
+  "Coercion": {
+    "short_description": "The use of force or threats to enforce power."
+  },
+  "Persuasion": {
+    "short_description": "The use of influence to shape beliefs or actions."
+  },
+  "Legitimacy": {
+    "short_description": "The recognized validity of power or authority."
+  },
+  "Consent": {
+    "short_description": "The voluntary agreement to the exercise of power."
+  },
+  "Constraint": {
+    "short_description": "Limitations or boundaries on the exercise of power."
+  },
+  "Resource": {
+    "short_description": "Assets or means that enable the exercise of power."
+  },
+  "Position": {
+    "short_description": "The relative placement within power structures."
+  },
+  "Role": {
+    "short_description": "The function or responsibility assigned within power dynamics."
+  },
+  "Interaction": {
+    "short_description": "The reciprocal influence between power entities."
+  },
+  "Conflict": {
+    "short_description": "The struggle or opposition between competing powers."
+  },
+  "Alliance": {
+    "short_description": "The cooperative agreement to enhance mutual power."
+  },
+  "Dependency": {
+    "short_description": "Relationships where power relies on external entities."
+  },
+  "Autonomy": {
+    "short_description": "The capacity for self-directed exercise of power."
+  },
+  "Interdependence": {
+    "short_description": "Mutual reliance between entities in power dynamics."
+  },
+  "Transformation": {
+    "short_description": "Processes of change in the nature or structure of power."
+  },
+  "Evolution": {
+    "short_description": "Patterns of development and change in power systems."
+  },
+  "Integration": {
+    "short_description": "The unification or synthesis of different power elements."
+  },
+  "Fragmentation": {
+    "short_description": "The division or dispersal of power structures."
+  },
+  "Concentration": {
+    "short_description": "The accumulation of power in specific entities or locations."
+  },
+  "Diffusion": {
+    "short_description": "The spread or dispersal of power across systems."
+  },
+  "Manifestation": {
+    "short_description": "The expression or realization of power in observable form."
+  },
+  "Abstraction": {
+    "short_description": "Generalized representations of power dynamics."
+  }
+}

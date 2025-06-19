@@ -1,0 +1,122 @@
+{
+"Tier": {
+    "short_description": "A distinct rank or position within a hierarchical structure."
+  },
+  "Stage": {
+    "short_description": "A specific point or phase within a progression of levels."
+  },
+  "Degree": {
+    "short_description": "A measurable extent or intensity of a level."
+  },
+  "Rank": {
+    "short_description": "A relative position or grade within a level-based system."
+  },
+  "Layer": {
+    "short_description": "A distinct stratum or plane within a multi-level structure."
+  },
+  "Position": {
+    "short_description": "The relative placement of a level within a hierarchy or system."
+  },
+  "Height": {
+    "short_description": "The vertical or comparative measure of a level."
+  },
+  "Depth": {
+    "short_description": "The extent or intensity of a level in relation to its context."
+  },
+  "Scale": {
+    "short_description": "The relative size or scope of a level in comparison to others."
+  },
+  "Grade": {
+    "short_description": "A classification or ranking of a level based on quality or performance."
+  },
+  "Step": {
+    "short_description": "A discrete increment or transition between levels."
+  },
+  "Threshold": {
+    "short_description": "The point or boundary marking the transition to a new level."
+  },
+  "Zone": {
+    "short_description": "A designated range or area defining a level."
+  },
+  "Range": {
+    "short_description": "The span or spectrum encompassed by a level."
+  },
+  "Dimension": {
+    "short_description": "The measurable aspects or axes that define a level."
+  },
+  "Elevation": {
+    "short_description": "The upward position or advancement of a level."
+  },
+  "Stratum": {
+    "short_description": "A layer or segment within a hierarchical or ordered system."
+  },
+  "Category": {
+    "short_description": "A grouping or classification of levels based on shared characteristics."
+  },
+  "Class": {
+    "short_description": "A defined set or type of levels with common properties."
+  },
+  "Instance": {
+    "short_description": "A specific occurrence or example of a level within a system."
+  },
+  "Hierarchy": {
+    "short_description": "Ordered relationships between levels in a system."
+  },
+  "Sequence": {
+    "short_description": "The ordered progression or arrangement of levels."
+  },
+  "Progression": {
+    "short_description": "The movement or advancement through a series of levels."
+  },
+  "Transition": {
+    "short_description": "The shift or change between levels."
+  },
+  "Boundary": {
+    "short_description": "The limits or delineations that define a level."
+  },
+  "Context": {
+    "short_description": "The circumstances or environment in which a level exists."
+  },
+  "Relationship": {
+    "short_description": "Connections or associations between levels."
+  },
+  "Dependency": {
+    "short_description": "Relationships where one level relies on another."
+  },
+  "Interdependence": {
+    "short_description": "Mutual reliance between levels in a system."
+  },
+  "Connection": {
+    "short_description": "The links or bonds between levels."
+  },
+  "Interface": {
+    "short_description": "Points of interaction or connection between levels."
+  },
+  "Alignment": {
+    "short_description": "The positioning or coordination of levels relative to each other."
+  },
+  "Balance": {
+    "short_description": "The equilibrium or proportionality between levels."
+  },
+  "Stability": {
+    "short_description": "The capacity of a level to maintain integrity under change."
+  },
+  "Transformation": {
+    "short_description": "Processes of change in the nature or position of a level."
+  },
+  "Evolution": {
+    "short_description": "Patterns of development and change in levels over time."
+  },
+  "Integration": {
+    "short_description": "The unification or synthesis of levels into a cohesive system."
+  },
+  "Differentiation": {
+    "short_description": "The development of distinct characteristics between levels."
+  },
+  "Abstraction": {
+    "short_description": "Generalized representations of the nature of levels."
+  },
+  "Manifestation": {
+    "short_description": "The expression or realization of a level in observable form."
+  }
+}

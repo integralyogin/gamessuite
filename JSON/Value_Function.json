@@ -1,0 +1,107 @@
+{
+"Value Function": {
+    "short_description": "A mathematical mapping that assigns numerical worth to states or state-action pairs in a system, representing the expected cumulative reward from following a specific policy."
+},
+"State Value": {
+    "short_description": "The expected return when starting in a specific state and following a given policy, accounting for both immediate and future rewards."
+},
+"Action Value": {
+    "short_description": "The expected return from taking a specific action in a given state and following a policy thereafter, also known as the Q-value."
+},
+"Optimal Value Function": {
+    "short_description": "The value function that yields the maximum possible expected return across all policies, representing the best achievable performance in the system."
+},
+"Bellman Equation": {
+    "short_description": "The recursive mathematical relationship that defines value functions in terms of immediate rewards and future state values, fundamental to dynamic programming."
+},
+"Value Iteration": {
+    "short_description": "An algorithmic method for computing optimal value functions through repeated application of the Bellman equation until convergence."
+},
+"Policy Evaluation": {
+    "short_description": "The process of calculating the value function for a specific policy, determining the expected return for each state under that policy."
+},
+"Temporal Difference": {
+    "short_description": "A method for updating value estimates based on the difference between predicted and actual observed returns over time."
+},
+"Discount Factor": {
+    "short_description": "A parameter between 0 and 1 that determines the relative importance of immediate versus future rewards in the value function calculation."
+},
+"Return": {
+    "short_description": "The cumulative sum of discounted rewards received over time, representing the total value achieved from a sequence of actions."
+},
+"Value Approximation": {
+    "short_description": "Techniques for estimating value functions using parametric models when exact computation is impractical due to large state spaces."
+},
+"Value Gradient": {
+    "short_description": "The direction of steepest increase in the value function with respect to state or action parameters, used for policy improvement."
+},
+"Value Backup": {
+    "short_description": "The operation of updating a state's value based on the values of subsequent states and rewards, fundamental to dynamic programming methods."
+},
+"Value Network": {
+    "short_description": "A neural network trained to approximate the value function, commonly used in deep reinforcement learning applications."
+},
+"State-Action Value": {
+    "short_description": "The expected return from a specific state-action pair under a given policy, combining immediate action effects with long-term consequences."
+},
+"Value Target": {
+    "short_description": "The estimation of true value used for updating value function approximations, often based on observed rewards and subsequent state values."
+},
+"Value Error": {
+    "short_description": "The difference between predicted and actual value estimates, used to guide learning and improvement of value function approximations."
+},
+"Value Decomposition": {
+    "short_description": "The breaking down of a complex value function into simpler components that can be learned or computed more efficiently."
+},
+"Value Propagation": {
+    "short_description": "The process by which value information flows backward through state sequences during learning and update procedures."
+},
+"Value Initialization": {
+    "short_description": "The assignment of initial values to states or state-action pairs before learning begins, affecting exploration and convergence."
+},
+"Value Bounds": {
+    "short_description": "The upper and lower limits on possible values for states or actions, used for normalization and stability in learning."
+},
+"Value Monotonicity": {
+    "short_description": "The property that value updates consistently increase or decrease values, important for convergence guarantees."
+},
+"Value Contraction": {
+    "short_description": "The mathematical property that value updates bring estimates closer to their true values, ensuring algorithm convergence."
+},
+"Value Exploration": {
+    "short_description": "Strategies for visiting states and actions to improve value estimates through direct experience and observation."
+},
+"Value Generalization": {
+    "short_description": "The ability to estimate values for novel states based on learned patterns from similar, previously encountered states."
+},
+"Value Stability": {
+    "short_description": "The resistance of value estimates to perturbations and noise, important for reliable policy improvement."
+},
+"Value Sensitivity": {
+    "short_description": "The degree to which value estimates change in response to small changes in state or action parameters."
+},
+"Value Uncertainty": {
+    "short_description": "The estimated confidence or variance in value predictions, used for exploration and risk-aware decision making."
+},
+"Value Calibration": {
+    "short_description": "The alignment of predicted values with actual observed returns, important for accurate decision making."
+},
+"Value Shaping": {
+    "short_description": "The modification of the value function through additional reward signals to guide learning toward desired behaviors."
+},
+"Value Attribution": {
+    "short_description": "The assignment of value contributions to specific actions or state features in a sequence of decisions."
+},
+"Value Compression": {
+    "short_description": "Techniques for representing value functions more compactly while maintaining essential information for decision making."
+},
+"Value Regularization": {
+    "short_description": "Methods for constraining value function complexity to prevent overfitting and improve generalization."
+},
+"Value Hierarchy": {
+    "short_description": "The organization of value functions at different levels of abstraction, enabling more efficient learning and planning."
+},
+"Value Transfer": {
+    "short_description": "The application of learned value functions from one task or domain to accelerate learning in related situations."
+}
+}

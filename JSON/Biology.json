@@ -1,0 +1,77 @@
+{
+"Biology": {
+"short_description": "The scientific study of life and living organisms, encompassing their physical structure, chemical processes, molecular interactions, physiological mechanisms, development, evolution, and relationships with the environment."
+},
+"Cell": {
+"short_description": "The fundamental unit of life, containing organized molecular structures that maintain homeostasis, process energy, respond to environment, grow, reproduce, and adapt through complex biochemical networks."
+},
+"Metabolism": {
+"short_description": "The integrated network of chemical reactions within organisms that maintain life, including energy production, molecular synthesis, breakdown of compounds, and regulation of biological processes."
+},
+"Genome": {
+"short_description": "The complete set of genetic information in an organism, encoded in DNA or RNA, containing instructions for development, functioning, and heredity across generations."
+},
+"Evolution": {
+"short_description": "The process of biological change over time through which populations of organisms acquire and pass on new traits, driven by mechanisms including natural selection, genetic drift, and adaptation."
+},
+"Ecosystem": {
+"short_description": "A complex network of interactions between living organisms and their physical environment, including energy flow, nutrient cycling, and interdependent relationships that maintain system stability."
+},
+"Homeostasis": {
+"short_description": "The maintenance of stable internal conditions within biological systems through dynamic regulatory mechanisms that respond to environmental changes and internal fluctuations."
+},
+"Reproduction": {
+"short_description": "The biological process by which organisms produce offspring, involving genetic transmission through either sexual recombination or asexual replication of genetic material."
+},
+"Development": {
+"short_description": "The process through which organisms grow and change over their lifetime, involving complex interactions between genes, cellular processes, and environmental factors."
+},
+"Adaptation": {
+"short_description": "The process and features by which organisms become better suited to their environment, including physiological, behavioral, and evolutionary modifications over time."
+},
+"Biodiversity": {
+"short_description": "The variety of life forms in an ecosystem or on Earth, encompassing genetic diversity within species, species diversity within communities, and ecosystem diversity across landscapes."
+},
+"Symbiosis": {
+"short_description": "Close biological interactions between different species, ranging from mutually beneficial to parasitic relationships, that influence evolution and ecosystem function."
+},
+"Physiology": {
+"short_description": "The study of how living systems function, including mechanisms of body processes, organ systems, cellular operations, and regulatory pathways."
+},
+"Morphology": {
+"short_description": "The study of the form and structure of organisms, including external features, internal anatomy, and developmental patterns that reflect evolutionary history."
+},
+"Behavior": {
+"short_description": "The actions and reactions of organisms to internal and external stimuli, including innate patterns and learned responses that affect survival and reproduction."
+},
+"Genetics": {
+"short_description": "The study of heredity and variation in living organisms, including mechanisms of gene transmission, expression, and interaction with environment."
+},
+"Epigenetics": {
+"short_description": "Heritable changes in gene expression that occur without alterations to DNA sequence, influenced by environmental factors and developmental conditions."
+},
+"Bioenergetics": {
+"short_description": "The study of energy flow and transformation in biological systems, including photosynthesis, respiration, and metabolic pathways that sustain life processes."
+},
+"Immunology": {
+"short_description": "The study of biological defense systems that protect organisms from pathogens and maintain tissue integrity through complex cellular and molecular mechanisms."
+},
+"Neurobiology": {
+"short_description": "The study of nervous system structure and function, including neural circuits, signaling mechanisms, and the biological basis of behavior and consciousness."
+},
+"Biomechanics": {
+"short_description": "The study of mechanical principles in living systems, including movement, structural support, and physical interactions with the environment."
+},
+"Biotechnology": {
+"short_description": "The application of biological processes and organisms to develop technologies and products for specific purposes, including medicine, agriculture, and industry."
+},
+"Ecology": {
+"short_description": "The study of relationships between organisms and their environment, including population dynamics, community interactions, and ecosystem processes."
+},
+"Molecular Biology": {
+"short_description": "The study of biological processes at the molecular level, including DNA replication, protein synthesis, and cellular signaling pathways."
+},
+"Systems Biology": {
+"short_description": "The integrated study of biological systems, examining how components interact to produce complex behaviors and regulatory networks at multiple scales."
+}
+}

@@ -1,0 +1,22 @@
+{
+  "Definition": { "quote": "Machine learning is the study of algorithms that improve automatically through experience. (Tom M. Mitchell, 1997)" },
+  "Supervised Learning": { "quote": "Learning from labeled data: ŷ = f(x;θ), where θ minimizes ∑(yᵢ - ŷᵢ)² (Mean Squared Error)." },
+  "Unsupervised Learning": { "quote": "Discovering patterns in unlabeled data: Clustering via k-means (argmin∑||xᵢ - μⱼ||²)." },
+  "Reinforcement Learning": { "quote": "Agent learns policy π(s)→a to maximize cumulative reward: Q(s,a) = E[∑γᵗrₜ]." },
+  "Linear Regression": { "quote": "Modeling linear relationships: ŷ = w₀ + w₁x₁ + ... + wₙxₙ (weights optimized via OLS or gradient descent)." },
+  "Logistic Regression": { "quote": "Classification via S-curve: P(y=1|x) = 1 / (1 + e⁻^(w·x + b))." },
+  "Decision Trees": { "quote": "Recursive partitioning: Maximize information gain (IG = H(parent) - H(children))." },
+  "Model Evaluation": { "quote": "Metrics: Accuracy = (TP+TN)/(P+N), Precision = TP/(TP+FP), Recall = TP/(TP+FN)." },
+  "Overfitting": { "quote": "High variance: Model memorizes noise. Mitigated by regularization (L1/L2) or cross-validation." },
+  "Gradient Descent": { "quote": "Optimization: θ ← θ - η∇J(θ) (η: learning rate; J: loss function)." },
+  "Feature Engineering": { "quote": "Transforming raw data: Normalization (x' = (x - μ)/σ) or one-hot encoding." },
+  "Bias-Variance Tradeoff": { "quote": "Total Error = Bias² + Variance + Irreducible Error (Geman et al., 1992)." },
+  "Cross-Validation": { "quote": "k-fold validation: Split data into k partitions to estimate generalization error." },
+  "Regularization": { "quote": "Prevent overfitting: L1 (Lasso) adds |w|, L2 (Ridge) adds w² to loss." },
+  "Ensemble Methods": { "quote": "Combine weak learners: Random Forests (bagging) or Gradient Boosting (sequential correction)." },
+  "Clustering": { "quote": "Group similar data points: DBSCAN (density-based) or Hierarchical clustering." },
+  "Dimensionality Reduction": { "quote": "PCA: Project data onto eigenvectors of covariance matrix (maximize variance)." },
+  "Hyperparameter Tuning": { "quote": "Grid search or random search over α, k, depth to optimize model performance." },
+  "Loss Functions": { "quote": "Regression: MSE = 1/n∑(yᵢ - ŷᵢ)²; Classification: Cross-Entropy = -∑yᵢ log(ŷᵢ)." },
+  "Neural Networks (Intro)": { "quote": "Layered perceptrons: a⁽ˡ⁺¹⁾ = σ(W⁽ˡ⁾a⁽ˡ⁾ + b⁽ˡ⁾) (σ: activation like ReLU)." }
+}

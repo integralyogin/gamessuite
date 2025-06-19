@@ -1,0 +1,77 @@
+{
+  "Predicate": {
+    "short_description": "The part of a proposition that expresses what is said about the subject, defining properties, relations, or actions that characterize or modify the grammatical or logical subject."
+  },
+  "Predication": {
+    "short_description": "The act of affirming or asserting something about a subject, establishing a relationship between entities or attributing qualities through linguistic or logical expression."
+  },
+  "Argument": {
+    "short_description": "The entity or term to which a predicate applies, serving as input to the predicate function and determining the truth value of the resulting proposition."
+  },
+  "Arity": {
+    "short_description": "The number of arguments a predicate takes, determining whether it is unary, binary, or n-ary in its logical or linguistic structure."
+  },
+  "Atomic Predicate": {
+    "short_description": "A basic predicate that cannot be decomposed into simpler predicates, representing fundamental properties or relations in a logical system."
+  },
+  "Compound Predicate": {
+    "short_description": "A predicate formed by combining multiple simpler predicates through logical operators, creating complex relationships or properties."
+  },
+  "Predicate Calculus": {
+    "short_description": "The formal system for analyzing and manipulating predicates and quantifiers in logical reasoning, enabling precise expression of relationships and properties."
+  },
+  "Predicate Logic": {
+    "short_description": "The branch of logic dealing with predicates, their arguments, and quantification, providing tools for analyzing the internal structure of propositions."
+  },
+  "Predicate Symbol": {
+    "short_description": "The formal notation representing a predicate in logical syntax, typically denoted by capital letters and followed by its arguments in parentheses."
+  },
+  "Extension": {
+    "short_description": "The set of all entities for which a predicate is true, defining its actual scope and application in a given domain or universe of discourse."
+  },
+  "Intension": {
+    "short_description": "The meaning or defining characteristics of a predicate, specifying the conditions under which it applies to its arguments."
+  },
+  "Predicate Variable": {
+    "short_description": "A symbol that can be replaced by any predicate of appropriate arity, used in higher-order logic and meta-logical analysis."
+  },
+  "Quantification": {
+    "short_description": "The specification of the scope and application of predicates through universal or existential operators, determining how predicates relate to their domains."
+  },
+  "Predicate Function": {
+    "short_description": "A function that maps arguments to truth values, determining whether the predicate holds true for given inputs in a formal system."
+  },
+  "Domain": {
+    "short_description": "The set of possible arguments over which a predicate operates, defining the range of entities to which the predicate can meaningfully apply."
+  },
+  "Satisfaction": {
+    "short_description": "The condition where an argument or set of arguments makes a predicate true, fulfilling its logical or semantic requirements."
+  },
+  "Predicate Abstraction": {
+    "short_description": "The process of forming a predicate by abstracting over one or more terms in a formula, creating a general pattern or relationship."
+  },
+  "Valency": {
+    "short_description": "The number and type of arguments required by a predicate to form a complete expression, similar to the chemical concept of atomic bonding capacity."
+  },
+  "Predicate Modifier": {
+    "short_description": "An element that alters or refines the meaning of a predicate, adjusting its application or interpretation in specific contexts."
+  },
+  "Truth Condition": {
+    "short_description": "The circumstances under which a predicate yields true when applied to its arguments, defining its semantic content in logical terms."
+  },
+  "Scope": {
+    "short_description": "The range of elements or expressions over which a predicate has effect or application within a logical or linguistic structure."
+  },
+  "Predicate Hierarchy": {
+    "short_description": "The organization of predicates into levels based on their complexity, generality, or logical relationships to other predicates."
+  },
+  "Type": {
+    "short_description": "The category or sort of arguments a predicate can accept, constraining its valid applications and ensuring meaningful predication."
+  },
+  "Predicate Transform": {
+    "short_description": "An operation that converts one predicate into another while preserving certain logical or semantic properties."
+  },
+  "Resolution": {
+    "short_description": "The process of determining the truth value of a predicate for given arguments through logical inference or computation."
+  }
+}

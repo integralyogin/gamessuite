@@ -1,0 +1,122 @@
+{
+  "Pattern Recognition": {
+    "short_description": "Ability to identify meaningful regularities and relationships in information or phenomena."
+  },
+  "Abstraction": {
+    "short_description": "Capacity to extract essential principles from specific instances and work with conceptual models."
+  },
+  "Synthesis": {
+    "short_description": "Ability to combine different elements into coherent wholes and create new understanding."
+  },
+  "Analysis": {
+    "short_description": "Capacity to break down complex phenomena into constituent parts and understand relationships."
+  },
+  "Adaptation": {
+    "short_description": "Ability to modify behavior and understanding in response to new conditions or information."
+  },
+  "Integration": {
+    "short_description": "Skill of bringing together different domains of knowledge or experience meaningfully."
+  },
+  "Intuition": {
+    "short_description": "Direct perception or understanding without conscious reasoning process."
+  },
+  "Metacognition": {
+    "short_description": "Awareness and understanding of one's own thought processes and learning patterns."
+  },
+  "Embodiment": {
+    "short_description": "Ability to fully integrate knowledge into physical being and automatic response."
+  },
+  "Attention": {
+    "short_description": "Capacity to focus consciousness and maintain awareness on chosen phenomena."
+  },
+  "Innovation": {
+    "short_description": "Ability to create novel solutions and approaches to challenges or opportunities."
+  },
+  "Communication": {
+    "short_description": "Capacity to convey meaning and understanding across different mediums and contexts."
+  },
+  "Empathy": {
+    "short_description": "Ability to understand and share the feelings and perspectives of others."
+  },
+  "Systems Thinking": {
+    "short_description": "Capacity to understand complex networks of relationships and feedback loops."
+  },
+  "Critical Thinking": {
+    "short_description": "Ability to evaluate information and arguments for validity and significance."
+  },
+  "Memory": {
+    "short_description": "Capacity to retain and recall information and experiences across time."
+  },
+  "Visualization": {
+    "short_description": "Ability to create and manipulate mental images and scenarios."
+  },
+  "Navigation": {
+    "short_description": "Capacity to determine position and direction in physical or conceptual space."
+  },
+  "Coordination": {
+    "short_description": "Ability to integrate multiple processes or movements into fluid action."
+  },
+  "Balance": {
+    "short_description": "Capacity to maintain stability between opposing forces or demands."
+  },
+  "Rhythm": {
+    "short_description": "Ability to recognize and create patterns in time and movement."
+  },
+  "Observation": {
+    "short_description": "Capacity for detailed perception and registration of phenomena."
+  },
+  "Extrapolation": {
+    "short_description": "Ability to extend known patterns or principles into new domains."
+  },
+  "Improvisation": {
+    "short_description": "Capacity to create appropriate responses in real-time without prior planning."
+  },
+  "Integration": {
+    "short_description": "Ability to combine different elements into harmonious whole."
+  },
+  "Presence": {
+    "short_description": "Capacity to maintain full awareness and effectiveness in current moment."
+  },
+  "Discernment": {
+    "short_description": "Ability to make fine distinctions and judge quality or appropriateness."
+  },
+  "Flow": {
+    "short_description": "Capacity to enter state of optimal performance and engagement."
+  },
+  "Resilience": {
+    "short_description": "Ability to maintain function and recover under stress or adversity."
+  },
+  "Leadership": {
+    "short_description": "Capacity to guide and influence collective action toward goals."
+  },
+  "Learning": {
+    "short_description": "Ability to acquire and integrate new knowledge and capabilities."
+  },
+  "Teaching": {
+    "short_description": "Capacity to effectively transmit knowledge and skills to others."
+  },
+  "Problem-Solving": {
+    "short_description": "Ability to find effective solutions to challenges and obstacles."
+  },
+  "Decision-Making": {
+    "short_description": "Capacity to evaluate options and choose appropriate courses of action."
+  },
+  "Resource Management": {
+    "short_description": "Ability to allocate and utilize available resources effectively."
+  },
+  "Emotional Intelligence": {
+    "short_description": "Capacity to understand and manage emotional states and relationships."
+  },
+  "Strategic Thinking": {
+    "short_description": "Ability to plan and act with long-term, systemic perspective."
+  },
+  "Creation": {
+    "short_description": "Capacity to bring new forms, ideas, or expressions into being."
+  },
+  "Mastery": {
+    "short_description": "Ability to achieve comprehensive understanding and control in domain."
+  },
+  "Adaptation": {
+    "short_description": "Capacity to modify behavior and approach based on context and feedback."
+  }
+}

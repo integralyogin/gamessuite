@@ -1,0 +1,77 @@
+{
+"Deep Structure": {
+    "short_description": "The underlying abstract representation of meaning and relationships in a system, containing the fundamental patterns and rules that generate surface manifestations across various domains."
+},
+"Surface Structure": {
+    "short_description": "The observable manifestation or expression of deep structure patterns, representing the concrete form through which underlying principles become apparent and accessible."
+},
+"Transformation Rules": {
+    "short_description": "The systematic principles governing how deep structures manifest into surface structures, defining the allowable operations and constraints in the conversion process."
+},
+"Universal Grammar": {
+    "short_description": "The innate cognitive framework that enables understanding and generation of structured patterns, representing the foundational principles common across different systems of meaning."
+},
+"Structural Relations": {
+    "short_description": "The fundamental connections and hierarchies between elements in a system, defining how components interact and influence each other at the deep structure level."
+},
+"Competence": {
+    "short_description": "The implicit knowledge of deep structure rules and patterns that enables understanding and generation of valid surface structures within a domain."
+},
+"Performance": {
+    "short_description": "The actual expression or implementation of deep structure knowledge in specific contexts, subject to various practical constraints and conditions."
+},
+"Recursion": {
+    "short_description": "The self-referential property allowing patterns to embed within themselves indefinitely, enabling complex structures to emerge from simple deep rules."
+},
+"Constituent": {
+    "short_description": "A fundamental unit or component that combines with others according to deep structure rules to form larger meaningful patterns and relationships."
+},
+"Hierarchy": {
+    "short_description": "The ordered arrangement of elements and relationships from fundamental to complex levels, reflecting the organization of deep structure patterns."
+},
+"Embedding": {
+    "short_description": "The process by which structures contain and integrate other structures, allowing complex patterns to emerge while maintaining coherence with deep principles."
+},
+"Generation": {
+    "short_description": "The process of producing surface structures from deep patterns through systematic application of transformation rules and constraints."
+},
+"Core Elements": {
+    "short_description": "The essential components and patterns that form the foundation of a deep structure system, from which all valid expressions must derive."
+},
+"Structural Constraints": {
+    "short_description": "The limitations and requirements that govern how elements can combine and transform, ensuring coherence between deep and surface structures."
+},
+"Pattern Recognition": {
+    "short_description": "The cognitive ability to identify and extract deep structure patterns from surface manifestations, enabling understanding of underlying principles."
+},
+"Structural Analysis": {
+    "short_description": "The systematic examination of surface forms to reveal their underlying deep structure patterns and relationships."
+},
+"Meaning Representation": {
+    "short_description": "The abstract encoding of semantic content in deep structure form, capturing relationships and patterns independent of surface expression."
+},
+"Structural Ambiguity": {
+    "short_description": "The phenomenon where surface structures can map to multiple deep structure interpretations, requiring context for proper understanding."
+},
+"Cognitive Architecture": {
+    "short_description": "The mental framework that enables processing and manipulation of deep structure patterns, including innate capacities and learned mechanisms."
+},
+"Rule System": {
+    "short_description": "The organized set of principles governing how deep structures can be manipulated and expressed, defining the space of possible transformations."
+},
+"Structural Invariants": {
+    "short_description": "The persistent patterns and relationships that remain constant across different surface manifestations of the same deep structure."
+},
+"Semantic Field": {
+    "short_description": "The network of related meanings and concepts organized by deep structure principles, showing how elements relate and contrast systematically."
+},
+"Feature Analysis": {
+    "short_description": "The decomposition of complex patterns into fundamental features and relationships defined by deep structure organization."
+},
+"Structural Mapping": {
+    "short_description": "The correspondence between elements and patterns across different levels or domains, guided by deep structure principles."
+},
+"Emergence": {
+    "short_description": "The manifestation of complex patterns and behaviors from simpler deep structure rules and interactions, creating higher-order organizations."
+}
+}

@@ -1,0 +1,63 @@
+
+{
+"Symbol": {
+"short_description": "A sign, mark, or object that represents something else by association, resemblance, or convention, serving as a vehicle for meaning beyond its immediate form."
+},
+"Signifier": {
+"short_description": "The physical form or medium through which meaning is conveyed, whether sound, image, or mark, functioning as the material carrier of representation."
+},
+"Signified": {
+"short_description": "The concept or meaning that is being represented, existing as the mental or cultural understanding attached to the signifier."
+},
+"Semiotics": {
+"short_description": "The study of signs and symbols as elements of communicative behavior, examining how meaning is created and conveyed through representational systems."
+},
+"Mimesis": {
+"short_description": "The imitation or representation of reality in art and literature, reflecting the relationship between creative expression and lived experience."
+},
+"Abstraction": {
+"short_description": "The process of reducing complex phenomena to essential features or concepts, creating representations that capture fundamental qualities rather than surface appearances."
+},
+"Iconography": {
+"short_description": "The system of visual images and symbols used to represent ideas, persons, or historical events within specific cultural contexts."
+},
+"Metaphor": {
+"short_description": "A form of representation where one thing stands for another through implied comparison, creating meaning through relationship and association."
+},
+"Allegory": {
+"short_description": "An extended representational system where characters, events, or images carry multiple levels of meaning beyond their literal interpretation."
+},
+"Simulation": {
+"short_description": "The creation of models or environments that represent real-world systems or phenomena, often for analysis, prediction, or experimentation."
+},
+"Archetype": {
+"short_description": "Universal patterns or models that serve as fundamental representations of human experience and understanding across cultures."
+},
+"Schema": {
+"short_description": "Organized patterns of thought or behavior that represent categorical knowledge and guide interpretation of experience."
+},
+"Index": {
+"short_description": "A sign that has a direct connection to what it represents, functioning through physical or causal relationship rather than convention."
+},
+"Icon": {
+"short_description": "A representation that bears physical resemblance to what it represents, creating meaning through similarity of appearance or structure."
+},
+"Convention": {
+"short_description": "Agreed-upon systems of representation within cultural contexts, establishing shared understanding through social agreement."
+},
+"Medium": {
+"short_description": "The material or form through which representation is achieved, influencing how meaning is constructed and communicated."
+},
+"Code": {
+"short_description": "Systems of rules and conventions that govern how representations are created and interpreted within specific contexts."
+},
+"Discourse": {
+"short_description": "The broader context and practice of representation within social and cultural systems, shaping how meaning is produced and understood."
+},
+"Narrative": {
+"short_description": "The representation of events, experiences, or ideas through structured storytelling, creating meaning through sequence and relationship."
+},
+"Performance": {
+"short_description": "The embodied representation of ideas, characters, or situations through active demonstration and enactment."
+}
+}

@@ -1,0 +1,152 @@
+{
+
+  "Foundational Philosophy": { "quote": "Yoga is the cessation of the fluctuations of the mind. (Patanjali, Yoga Sutras 1.2)" },  
+  "Asanas (Postures)": { "quote": "Sthira sukham āsanam: Postures should be steady and comfortable. (Yoga Sutras 2.46)" },  
+  "Pranayama (Breath)": { "quote": "Regulate inhalation, retention, exhalation: Nadi Shodhana (alternate nostril breathing)." },  
+  "Hatha Yoga": { "quote": "Balance sun (ha) and moon (tha) energies: Surya Namaskar (sun salutation) → 12-step flow." },  
+  "Vinyasa Flow": { "quote": "Movement synchronized with breath: Chaturanga → Urdhva Mukha Svanasana → Adho Mukha Svanasana." },  
+  "Meditation (Dhyana)": { "quote": "Witness consciousness: Observe thoughts like clouds passing in the sky (Vipassana)." },  
+  "Yamas & Niyamas": { "quote": "Ethical codes: Ahimsa (non-violence), Santosha (contentment). (Yoga Sutras 2.30-2.32)" },  
+  "Chakras": { "quote": "Muladhara (root) → Sahasrara (crown): Energy centers aligned via visualization/mantras." },  
+  "Kundalini Yoga": { "quote": "Awaken coiled energy: Sat Kriya (rapid breath + mantra \"Sat Nam\")." },  
+  "Iyengar Yoga": { "quote": "Alignment precision: Props (blocks, straps) for Trikonasana (triangle pose) symmetry." },  
+  "Yoga Nidra": { "quote": "Yogic sleep: Guided body scan → Delta wave relaxation (90min ≈ 4hrs sleep)." },  
+  "Bhakti Yoga": { "quote": "Devotional practice: Kirtan (chanting) → Om Namo Bhagavate Vasudevaya." },  
+  "Jnana Yoga": { "quote": "Self-inquiry: \"Who am I?\" (Ramana Maharshi) to transcend ego (ahamkara)." },  
+  "Ayurveda Integration": { "quote": "Dosha balance: Vata (air), Pitta (fire), Kapha (earth) → Tailor practice to constitution." },  
+  "Bandhas (Locks)": { "quote": "Mula Bandha (root lock) + Uddiyana Bandha (abdominal lift) → Direct prana (energy)." },  
+  "Mudras": { "quote": "Gesture science: Gyan Mudra (thumb + index) → Enhances focus and wisdom." },  
+  "Yoga Therapy": { "quote": "Ease chronic pain: Cat-Cow (Marjaryasana-Bitilasana) for spinal mobility." },  
+  "Modern Adaptations": { "quote": "Aerial yoga: Silk hammocks → Zero-gravity inversions (Sarvangasana)." },  
+  "Yoga Ethics": { "quote": "Avoid cultural appropriation: Honor roots in Sanskrit texts (e.g., Rig Veda)." },  
+  "Prenatal Yoga": { "quote": "Pelvic floor focus: Malasana (squat) + Pranayama for labor preparation." },  
+  "Yoga Sutras": { "quote": "Kaivalya (liberation): Detach from prakriti (material world) through abhyasa (practice)." },  
+  "Tantra Yoga": { "quote": "Sacred embodiment: Rituals to honor Shiva/Shakti duality → Union of opposites." },  
+  "Yoga Anatomy": { "quote": "Biomechanics: Rotator cuff engagement in Adho Mukha Vrksasana (handstand)." },  
+  "Yoga & Science": { "quote": "Vagus nerve stimulation: Ujjayi breath → Parasympathetic activation (rest/digest)." },  
+  "Yoga History": { "quote": "Vedic origins (~1500 BCE) → Patanjali’s codification (~400 CE) → Global dissemination." },  
+  "Yoga for Athletes": { "quote": "Recovery flows: Yin yoga targets fascia (hold poses 3-5 mins)." },  
+  "Yoga Philosophy": { "quote": "Karma Yoga: Selfless action. Bhagavad Gita 2.47: \"You have the right to work, but not the fruits.\"" },  
+  "Advanced Asanas": { "quote": "Arm balances: Bakasana (crow) → Pincha Mayurasana (peacock feather) → Core + breath control." },  
+  "Yoga & Ecology": { "quote": "Bhumi (Earth) reverence: Practice ahimsa through eco-conscious living (reduce waste)." }  ,
+  "Marga": {
+    "short_description": "Fundamental paths or approaches to yogic realization."
+  },
+  "Kosha": {
+    "short_description": "Layers or sheaths of being from gross to subtle."
+  },
+  "Sharira": {
+    "short_description": "Bodies or vehicles of consciousness in yogic physiology."
+  },
+  "Prana": {
+    "short_description": "Systems of vital force and its manifestations."
+  },
+  "Chakra": {
+    "short_description": "Centers of consciousness and energy in subtle anatomy."
+  },
+  "Guna": {
+    "short_description": "Fundamental qualities that structure all manifestation."
+  },
+  "Nadi": {
+    "short_description": "Channels of energy flow in subtle body system."
+  },
+  "Bhava": {
+    "short_description": "States or attitudes of spiritual consciousness."
+  },
+  "Samadhi": {
+    "short_description": "Stages and types of absorbed consciousness."
+  },
+  "Siddhi": {
+    "short_description": "Categories of yogic powers and accomplishments."
+  },
+  "Chitta": {
+    "short_description": "Aspects and modifications of consciousness."
+  },
+  "Vritti": {
+    "short_description": "Patterns of mental activity and their transformations."
+  },
+  "Karma": {
+    "short_description": "Laws and types of action and their consequences."
+  },
+  "Klesha": {
+    "short_description": "Root causes of suffering and limitation."
+  },
+  "Samskara": {
+    "short_description": "Impressions and patterns stored in consciousness."
+  },
+  "Dharana": {
+    "short_description": "Systems of concentration and mental focus."
+  },
+  "Dhyana": {
+    "short_description": "Modes and stages of meditation practice."
+  },
+  "Pranayama": {
+    "short_description": "Categories of breath control and energy regulation."
+  },
+  "Bandha": {
+    "short_description": "Energy locks and their applications."
+  },
+  "Mudra": {
+    "short_description": "Symbolic gestures and attitudes affecting consciousness."
+  },
+  "Asana": {
+    "short_description": "Principles of posture and physical alignment."
+  },
+  "Tantra": {
+    "short_description": "Systems integrating all levels of existence."
+  },
+  "Mantra": {
+    "short_description": "Sound vibrations and their effects on consciousness."
+  },
+  "Yantra": {
+    "short_description": "Geometric forms representing cosmic principles."
+  },
+  "Kriya": {
+    "short_description": "Purificatory and transformative actions."
+  },
+  "Tapas": {
+    "short_description": "Disciplines generating transformative energy."
+  },
+  "Yama": {
+    "short_description": "Ethical restraints governing external behavior."
+  },
+  "Niyama": {
+    "short_description": "Observances cultivating internal qualities."
+  },
+  "Sadhana": {
+    "short_description": "Systems of spiritual practice and development."
+  },
+  "Shakti": {
+    "short_description": "Manifestations of divine creative power."
+  },
+  "Purusha": {
+    "short_description": "Principles of pure consciousness."
+  },
+  "Prakriti": {
+    "short_description": "Levels of manifested nature."
+  },
+  "Kundalini": {
+    "short_description": "Evolutionary force and its awakening."
+  },
+  "Agni": {
+    "short_description": "Transformative fires of yogic process."
+  },
+  "Diksha": {
+    "short_description": "Levels of spiritual initiation and transmission."
+  },
+  "Darshana": {
+    "short_description": "Systems of perception and understanding."
+  },
+  "Vidya": {
+    "short_description": "Categories of yogic knowledge and wisdom."
+  },
+  "Maya": {
+    "short_description": "Principles of cosmic manifestation and illusion."
+  },
+  "Laya": {
+    "short_description": "Processes of dissolution and absorption."
+  },
+  "Bhakti": {
+    "short_description": "Modes of devotional relationship and practice."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "Network": {
+    "short_description": "The interconnected system of nodes and links that facilitate the flow of information, resources, or energy, forming a complex web of relationships and interactions across physical and virtual domains."
+  },
+  "Node": {
+    "short_description": "The fundamental unit of network architecture, representing any entity capable of receiving, processing, or transmitting information within the larger system of interconnections."
+  },
+  "Edge": {
+    "short_description": "The connection or relationship between nodes, defining the pathways through which information, energy, or resources flow and determining the network's structural properties."
+  },
+  "Topology": {
+    "short_description": "The fundamental arrangement and relationship pattern of nodes and edges within a network, determining its overall structure, efficiency, and resilience characteristics."
+  },
+  "Protocol": {
+    "short_description": "The standardized set of rules and procedures governing communication and interaction between nodes, ensuring coherent and reliable information exchange across the network."
+  },
+  "Bandwidth": {
+    "short_description": "The capacity for information flow between nodes, representing the maximum rate of data transmission possible within the network's physical or virtual constraints."
+  },
+  "Latency": {
+    "short_description": "The inherent delay between information transmission and reception across network paths, reflecting the temporal dynamics of network communication and response."
+  },
+  "Redundancy": {
+    "short_description": "The deliberate duplication of critical paths and components within the network, ensuring reliability and resilience through alternative routes and backup systems."
+  },
+  "Gateway": {
+    "short_description": "The transitional node that bridges different network domains or protocols, enabling communication between distinct systems through protocol translation and traffic management."
+  },
+  "Backbone": {
+    "short_description": "The high-capacity central infrastructure that forms the primary pathway for network traffic, connecting various subnetworks and enabling efficient long-distance communication."
+  },
+  "Mesh": {
+    "short_description": "The decentralized network arrangement where nodes interconnect directly with multiple peers, creating resilient pathways and distributed processing capabilities."
+  },
+  "Cluster": {
+    "short_description": "The concentrated grouping of nodes with high internal connectivity, forming specialized functional units within the larger network structure."
+  },
+  "Buffer": {
+    "short_description": "The temporary storage mechanism that manages data flow rates between network components, harmonizing transmission speeds and preventing information loss."
+  },
+  "Broadcast": {
+    "short_description": "The transmission pattern where information flows from a single source to all connected nodes, enabling widespread distribution of critical updates or shared resources."
+  },
+  "Multicast": {
+    "short_description": "The selective distribution of information to a specific group of nodes, enabling efficient communication within defined network subsets."
+  },
+  "Packet": {
+    "short_description": "The discrete unit of information transmitted across the network, containing both data and metadata necessary for successful delivery and reassembly."
+  },
+  "Router": {
+    "short_description": "The specialized node that determines optimal paths for information flow, directing traffic between network segments based on dynamic conditions and priorities."
+  },
+  "Switch": {
+    "short_description": "The intelligent connection point that directs information flow between directly connected nodes, optimizing local network traffic and reducing collision domains."
+  },
+  "Firewall": {
+    "short_description": "The protective barrier that filters network traffic based on security policies, controlling access between network segments and defending against unauthorized communication."
+  },
+  "Load Balancer": {
+    "short_description": "The distribution mechanism that optimizes resource utilization by spreading network traffic across multiple paths or processing nodes."
+  },
+  "Subnet": {
+    "short_description": "The logical subdivision of a larger network, enabling efficient management, security isolation, and optimized local communication patterns."
+  },
+  "Bridge": {
+    "short_description": "The connecting element that joins separate network segments while maintaining isolation of local traffic, enabling expanded network reach with controlled interaction."
+  },
+  "Hub": {
+    "short_description": "The central connection point that enables communication between multiple nodes within a local network segment through simple signal replication."
+  },
+  "Port": {
+    "short_description": "The specific connection point or channel through which network communication occurs, identifying distinct services or communication streams."
+  },
+  "Proxy": {
+    "short_description": "The intermediary service that facilitates indirect network connections, providing additional security, caching, or protocol translation capabilities."
+  },
+  "DNS": {
+    "short_description": "The hierarchical naming system that translates human-readable addresses into network-specific identifiers, enabling intuitive network navigation."
+  },
+  "Cache": {
+    "short_description": "The local storage of frequently accessed network resources, reducing transmission delays and bandwidth consumption through temporary retention."
+  },
+  "QoS": {
+    "short_description": "The prioritization mechanism that ensures specific performance levels for critical network services through resource allocation and traffic management."
+  },
+  "Encryption": {
+    "short_description": "The security transformation that protects information during network transmission through mathematical encoding of data and access controls."
+  },
+  "Protocol Stack": {
+    "short_description": "The layered arrangement of communication protocols that enable complex network interactions through structured data handling and transmission procedures."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "Gamessuite": {
+    "desc": "A web-based game platform designed to run a sequence of interconnected mini-games and persistent systems. It acts as a container for various modules, including hub worlds, combat systems, and interactive scenes.",
+    "img":"", "type": "Game Platform",
+    "address": "/var/www/html/games/gamessuite/",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP"
+    ],
+    "components": [
+      "GameManager",
+      "TownHubGame",
+      "ItemSystem",
+      "CombatSystem",
+      "AcademyGame",
+      "LibraryGame"
+    ],
+    "parent": "theinfinitelibrary.net"
+  },
+  "GameManager": {
+    "desc": "The central engine controller. It initializes, sequences, and manages the lifecycle of all game modules, handling shared data and the primary game loop.",
+    "img":"", "type": "Engine Core",
+    "address": "/var/www/html/games/gamessuite/js/gameManager.js",
+    "tech": [
+      "JavaScript"
+    ],
+    "data_sources": [
+      "The array of game modules passed during its init() call in index.html"
+    ],
+    "parent": "Gamessuite"
+  },
+  "TownHub": {
+    "desc": "The primary hub world. Renders a zoomable, pannable 2D map from a JSON file where each location can launch a sub-game or interactive scene. This is the main navigation interface for the player.",
+    "img":"images/games/gamessuite_town_hub.png", "type": "Hub World",
+    "address": "/var/www/html/games/gamessuite/js/townHubGame.js",
+    "tech": [
+      "JavaScript"
+    ],
+    "data_sources": [
+      "town_layout.json"
+    ],
+    "parent": "Gamessuite"
+  }
+}

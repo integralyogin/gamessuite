@@ -1,0 +1,63 @@
+
+{
+  "Sikhism": {
+    "short_description": "A monotheistic religion originating in the Punjab region of the Indian subcontinent, emphasizing the unity of all people and equality in the eyes of God."
+  },
+  "Guru Granth Sahib": {
+    "short_description": "The central religious scripture of Sikhism, considered the living Guru by Sikhs, embodying the teachings of the Sikh Gurus."
+  },
+  "Guru": {
+    "short_description": "A spiritual teacher or guide in Sikhism, with ten human Gurus from Guru Nanak to Guru Gobind Singh, followed by the Guru Granth Sahib."
+  },
+  "Waheguru": {
+    "short_description": "The primary name of God in Sikhism, meaning 'Wonderful Teacher', representing the transcendental reality and the ultimate truth."
+  },
+  "Langar": {
+    "short_description": "A communal meal shared by all, regardless of religion, caste, or social status, symbolizing equality, community service, and unity."
+  },
+  "Seva": {
+    "short_description": "Selfless service, a core principle in Sikhism encouraging acts of kindness, charity, and community involvement without expectation of reward."
+  },
+  "Khanda": {
+    "short_description": "The emblem of Sikhism representing the concept of Deg Tegh Fateh (prosperity in peace and victory in battle), symbolizing unity, justice, and sovereignty."
+  },
+  "Five Ks": {
+    "short_description": "Five articles of faith worn by Sikhs, symbolizing discipline and commitment to Sikh principles: Kesh (uncut hair), Kangha (comb), Kara (steel bracelet), Kachera (undershorts), and Kirpan (sword)."
+  },
+  "Khalsa": {
+    "short_description": "The pure or sovereign community initiated by Guru Gobind Singh, embodying the highest ideals of Sikhism with a commitment to justice, equality, and service."
+  },
+  "Amrit Sanchar": {
+    "short_description": "The initiation ceremony into the Khalsa, where Sikhs are baptized with Amrit, symbolizing rebirth into the Sikh faith with a new identity."
+  },
+  "Gurdwara": {
+    "short_description": "A Sikh place of worship, where Sikhs gather for prayer, community activities, and to listen to the recitation of the Guru Granth Sahib."
+  },
+  "Mool Mantar": {
+    "short_description": "The foundational verse in Sikhism, encapsulating the essence of Sikh theology, describing the nature of God as the sole, eternal truth."
+  },
+  "Rehat Maryada": {
+    "short_description": "The Sikh code of conduct, outlining the principles, practices, and daily life guidelines for Sikhs to follow."
+  },
+  "Naam Simran": {
+    "short_description": "Meditation on the divine name, a practice central to spiritual growth in Sikhism, aimed at connecting with Waheguru."
+  },
+  "Vand Chakna": {
+    "short_description": "The principle of sharing one's wealth and food with others, promoting a life of generosity and community welfare."
+  },
+  "Kirat Karna": {
+    "short_description": "The ethic of honest, hard work, emphasizing earning one's living through just means."
+  },
+  "Gurbani": {
+    "short_description": "The sacred writings from the Sikh Gurus and saints as contained in the Guru Granth Sahib, guiding spiritual and ethical life."
+  },
+  "Satguru": {
+    "short_description": "The true Guru, referring to the spiritual guide leading one to the truth or God, with the Guru Granth Sahib as the perpetual Satguru."
+  },
+  "Anand Karaj": {
+    "short_description": "The Sikh wedding ceremony, symbolizing the union of two souls in the presence of the Guru Granth Sahib, focusing on spiritual and communal values."
+  },
+  "Dharam": {
+    "short_description": "The concept of righteousness, duty, and moral law in Sikhism, guiding personal behavior and societal norms."
+  }
+}
