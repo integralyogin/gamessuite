@@ -1,27 +1,28 @@
 /**
- * vectorArenaObjects.js - v10 (Full Specials & Shield Fix)
- * A shared library containing game objects. This major update implements
- * all special abilities (Boost, Cloak, EMP, Repair, Overdrive) and fixes
- * the shield health and regeneration systems.
+ * vectorArenaObjects.js - v10.3 (Turret Support)
+ * This file defines the core game objects for Vector Arena.
+ * v10.3 Changes:
+ * - Added Turret class for auto-aiming weapons
+ * - Modified Ship class to support turret weapons
+ * - Turrets automatically target nearest enemy within range
+ * - Turrets integrate with existing fire group system
  */
 const VectorArenaObjects = {
-
     Vortex: class {
         constructor(x, y, weapon, owner, context) {
-            this.x = x; this.y = y;
+            this.x = x;
+            this.y = y;
             this.weapon = weapon;
             this.owner = owner;
             this.context = context;
-            this.life = 180; 
+            this.life = 180;
             this.radius = 50;
             this.rotation = 0;
             this.pullForce = 0.2;
         }
-
         update(opponent, player) {
             this.life--;
             this.rotation += 0.1;
-
             const ships = [this.context.playerShip, this.context.opponentShip].filter(s => s);
             ships.forEach(ship => {
                 if (ship.health > 0) {
@@ -33,14 +34,12 @@ const VectorArenaObjects = {
                         ship.vy += (dy / dist) * this.pullForce;
                     }
                     if (dist < this.radius) {
-                        ship.takeDamage(this.weapon.damage / 60); 
+                        ship.takeDamage(this.weapon.damage / 60);
                     }
                 }
             });
         }
-        
         isOutOfBounds() { return this.life <= 0; }
-
         draw(ctx) {
             ctx.save();
             ctx.translate(this.x, this.y);
@@ -57,29 +56,25 @@ const VectorArenaObjects = {
             ctx.restore();
         }
     },
-    
+
     Beam: class {
         constructor(ship, weapon, context) {
             this.ship = ship;
             this.weapon = weapon;
             this.context = context;
-            this.life = 3; 
+            this.life = 3;
             this.endPos = { x: 0, y: 0 };
             this.targetHit = null;
         }
-
         update(opponent, player) {
             this.life--;
             const startX = this.ship.x + Math.cos(this.ship.angle) * this.ship.size;
             const startY = this.ship.y + Math.sin(this.ship.angle) * this.ship.size;
             const endX = startX + Math.cos(this.ship.angle) * this.weapon.range;
             const endY = startY + Math.sin(this.ship.angle) * this.weapon.range;
-
             const target = this.ship.playerNum === 1 ? opponent : player;
-            
             this.endPos = { x: endX, y: endY };
             this.targetHit = null;
-
             if (target && target.health > 0) {
                 const dx = endX - startX;
                 const dy = endY - startY;
@@ -88,17 +83,14 @@ const VectorArenaObjects = {
                 const closestX = startX + dot * dx;
                 const closestY = startY + dot * dy;
                 const distSq = Math.pow(target.x - closestX, 2) + Math.pow(target.y - closestY, 2);
-
                 if (distSq < target.size * target.size) {
-                     this.endPos = { x: target.x, y: target.y };
-                     target.takeDamage(this.weapon.damage);
-                     this.targetHit = target;
+                    this.endPos = { x: target.x, y: target.y };
+                    target.takeDamage(this.weapon.damage);
+                    this.targetHit = target;
                 }
             }
         }
-
         isOutOfBounds() { return this.life <= 0; }
-
         draw(ctx) {
             ctx.save();
             ctx.beginPath();
@@ -119,18 +111,18 @@ const VectorArenaObjects = {
             ctx.restore();
         }
     },
-    
+
     Mine: class {
         constructor(x, y, weapon, owner, context) {
-            this.x = x; this.y = y;
+            this.x = x;
+            this.y = y;
             this.weapon = weapon;
             this.owner = owner;
             this.context = context;
-            this.life = 300; 
+            this.life = 300;
             this.triggerRadius = 40;
             this.blastRadius = 60;
         }
-
         update(opponent, player) {
             this.life--;
             const target = this.owner === 1 ? opponent : player;
@@ -140,9 +132,8 @@ const VectorArenaObjects = {
                 }
             }
         }
-        
         explode() {
-            this.life = 0; 
+            this.life = 0;
             for (let i = 0; i < 30; i++) {
                 this.context.particles.push(new VectorArenaObjects.Particle(this.x, this.y, this.weapon.color || '#ff8800', Math.random() * 4, 3));
             }
@@ -153,9 +144,7 @@ const VectorArenaObjects = {
                 }
             });
         }
-        
         isOutOfBounds() { return this.life <= 0; }
-
         draw(ctx) {
             ctx.fillStyle = (Math.floor(this.life / 10) % 2 === 0) ? this.weapon.color : '#ff0000';
             ctx.beginPath();
@@ -164,41 +153,310 @@ const VectorArenaObjects = {
         }
     },
 
+    // NEW: Turret class for auto-aiming weapons
+    Turret: class {
+        constructor(ship, weapon, context, slotIndex) {
+            this.ship = ship;
+            this.weapon = weapon;
+            this.context = context;
+            this.slotIndex = slotIndex;
+            
+            // Turret positioning relative to ship
+            this.offsetX = (slotIndex - 1) * 15; // Spread turrets across ship
+            this.offsetY = 0;
+            
+            // Turret properties
+            this.angle = ship.angle;
+            this.targetAngle = ship.angle;
+            this.turnRate = weapon.turnRate || 0.08;
+            this.detectionRange = weapon.detectionRange || weapon.range || 250;
+            this.fireRate = weapon.fireRate || 45;
+            this.cooldown = 0;
+            this.target = null;
+            //this.life = weapon.duration || 300; // How long turret lasts
+            this.life = 3000; // How long turret lasts
+            
+            // Visual properties
+            this.size = 8;
+            this.barrelLength = 15;
+        }
+
+        update(opponent, player) {
+            this.life--;
+            this.cooldown = Math.max(0, this.cooldown - 1);
+            
+            // Update turret position relative to ship
+            const cos = Math.cos(this.ship.angle);
+            const sin = Math.sin(this.ship.angle);
+            this.x = this.ship.x + (this.offsetX * cos - this.offsetY * sin);
+            this.y = this.ship.y + (this.offsetX * sin + this.offsetY * cos);
+            
+            // Find target
+            this.findTarget(opponent, player);
+            
+            // Rotate toward target
+            if (this.target) {
+                const dx = this.target.x - this.x;
+                const dy = this.target.y - this.y;
+                this.targetAngle = Math.atan2(dy, dx);
+                
+                // Smoothly rotate toward target
+                let angleDiff = this.targetAngle - this.angle;
+                while (angleDiff > Math.PI) angleDiff -= 2 * Math.PI;
+                while (angleDiff < -Math.PI) angleDiff += 2 * Math.PI;
+                
+                this.angle += Math.sign(angleDiff) * Math.min(Math.abs(angleDiff), this.turnRate);
+                
+                // Fire if aimed at target and cooldown ready
+                const aimTolerance = 0.2; // Radians
+                if (Math.abs(angleDiff) < aimTolerance && this.cooldown <= 0) {
+                    this.fire();
+                }
+            }
+        }
+
+        findTarget(opponent, player) {
+            const potentialTargets = [];
+            
+            // Add enemy ship as potential target
+            const enemy = this.ship.playerNum === 1 ? opponent : player;
+            if (enemy && enemy.health > 0) {
+                const dist = Math.hypot(enemy.x - this.x, enemy.y - this.y);
+                if (dist <= this.detectionRange) {
+                    potentialTargets.push({ target: enemy, distance: dist });
+                }
+            }
+            
+            // Find closest target
+            if (potentialTargets.length > 0) {
+                potentialTargets.sort((a, b) => a.distance - b.distance);
+                this.target = potentialTargets[0].target;
+            } else {
+                this.target = null;
+            }
+        }
+
+        fire() {
+            this.cooldown = this.fireRate;
+            
+            // Create projectile based on weapon type
+            const startX = this.x + Math.cos(this.angle) * this.barrelLength;
+            const startY = this.y + Math.sin(this.angle) * this.barrelLength;
+            
+            if (this.weapon.projectileClass === 'Projectile' || !this.weapon.projectileClass) {
+                // Standard projectile
+                const speed = this.weapon.speed || 8;
+                const projectile = new VectorArenaObjects.Projectile(
+                    startX, startY,
+                    Math.cos(this.angle) * speed,
+                    Math.sin(this.angle) * speed,
+                    this.weapon,
+                    this.ship.playerNum,
+                    this.context
+                );
+                this.context.projectiles.push(projectile);
+            } else if (this.weapon.projectileClass === 'Beam') {
+                // Beam weapon - create temporary beam from turret
+                const beam = new VectorArenaObjects.TurretBeam(this, this.weapon, this.context);
+                this.context.projectiles.push(beam);
+            }
+            
+            // Add muzzle flash particle
+            this.context.particles.push(
+                new VectorArenaObjects.Particle(startX, startY, this.weapon.color || '#ffff00', 6, 2)
+            );
+        }
+
+        isOutOfBounds() {
+            return this.life <= 0;
+        }
+
+        draw(ctx) {
+            ctx.save();
+            
+            // Draw turret base
+            ctx.fillStyle = this.ship.color;
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Draw turret barrel
+            ctx.translate(this.x, this.y);
+            ctx.rotate(this.angle);
+            ctx.fillStyle = this.weapon.color || '#888888';
+            ctx.fillRect(0, -2, this.barrelLength, 4);
+            
+            // Draw targeting indicator if has target
+            if (this.target) {
+                ctx.restore();
+                ctx.save();
+                ctx.strokeStyle = this.weapon.color || '#00ff00';
+                ctx.lineWidth = 1;
+                ctx.setLineDash([5, 5]);
+                ctx.beginPath();
+                ctx.moveTo(this.x, this.y);
+                ctx.lineTo(this.target.x, this.target.y);
+                ctx.stroke();
+                ctx.setLineDash([]);
+            }
+            
+            ctx.restore();
+        }
+    },
+
+    // Beam weapon fired from turret
+    TurretBeam: class {
+        constructor(turret, weapon, context) {
+            this.turret = turret;
+            this.weapon = weapon;
+            this.context = context;
+            this.life = 3;
+            this.endPos = { x: 0, y: 0 };
+            this.targetHit = null;
+        }
+        
+        update(opponent, player) {
+            this.life--;
+            const startX = this.turret.x + Math.cos(this.turret.angle) * this.turret.barrelLength;
+            const startY = this.turret.y + Math.sin(this.turret.angle) * this.turret.barrelLength;
+            const endX = startX + Math.cos(this.turret.angle) * this.weapon.range;
+            const endY = startY + Math.sin(this.turret.angle) * this.weapon.range;
+            
+            const target = this.turret.ship.playerNum === 1 ? opponent : player;
+            this.endPos = { x: endX, y: endY };
+            this.targetHit = null;
+            
+            if (target && target.health > 0) {
+                const dx = endX - startX;
+                const dy = endY - startY;
+                const lenSq = dx*dx + dy*dy;
+                const dot = ((target.x - startX) * dx + (target.y - startY) * dy) / lenSq;
+                const closestX = startX + dot * dx;
+                const closestY = startY + dot * dy;
+                const distSq = Math.pow(target.x - closestX, 2) + Math.pow(target.y - closestY, 2);
+                
+                if (distSq < target.size * target.size) {
+                    this.endPos = { x: target.x, y: target.y };
+                    target.takeDamage(this.weapon.damage);
+                    this.targetHit = target;
+                }
+            }
+        }
+        
+        isOutOfBounds() { return this.life <= 0; }
+        
+        draw(ctx) {
+            ctx.save();
+            ctx.beginPath();
+            const startX = this.turret.x + Math.cos(this.turret.angle) * this.turret.barrelLength;
+            const startY = this.turret.y + Math.sin(this.turret.angle) * this.turret.barrelLength;
+            ctx.moveTo(startX, startY);
+            ctx.lineTo(this.endPos.x, this.endPos.y);
+            ctx.strokeStyle = this.weapon.color;
+            ctx.lineWidth = 2;
+            ctx.shadowBlur = 8;
+            ctx.shadowColor = this.weapon.color;
+            ctx.stroke();
+            
+            if (this.targetHit) {
+                ctx.beginPath();
+                ctx.arc(this.endPos.x, this.endPos.y, 8, 0, Math.PI * 2);
+                ctx.fillStyle = this.weapon.color;
+                ctx.globalAlpha = 0.5;
+                ctx.fill();
+            }
+            ctx.restore();
+        }
+    },
+
+
     Ship: class {
         constructor(x, y, playerData, playerNum, context) {
-            this.x = x; this.y = y; this.vx = 0; this.vy = 0;
+            this.x = x;
+            this.y = y;
+            this.vx = 0;
+            this.vy = 0;
             this.angle = -Math.PI / 2;
             this.playerData = playerData;
             this.playerNum = playerNum;
             this.context = context;
+
             const equipped = playerData.equipped;
             const PARTS = this.context.PARTS;
-            const chassis = PARTS.chassis[equipped.chassis];
-            const engine = PARTS.engine[equipped.engine];
-            const thrusters = PARTS.thrusters[equipped.thrusters];
-            this.shieldData = PARTS.shield[equipped.shield];
-            this.special = PARTS.special[equipped.special];
-            this.tech = PARTS.tech[equipped.tech];
+            const chassis = PARTS.chassis[equipped.chassis] || {};
+            const engine = PARTS.engine[equipped.engine] || {};
+            const thrusters = PARTS.thrusters ? PARTS.thrusters[equipped.thrusters] : {};
 
-            this.size = chassis.size;
+            this.shieldData = PARTS.shield[equipped.shield] || {};
+            this.special = PARTS.special[equipped.special] || {};
+            this.tech = PARTS.tech ? PARTS.tech[equipped.tech] : {};
+
+            this.size = chassis.size || 20;
             this.color = playerNum === 1 ? '#00aaff' : '#ff4400';
-            this.art = chassis.art;
-            this.maxHealth = chassis.health;
+            this.art = chassis.art || 'default';
+            this.maxHealth = chassis.health || 100;
             this.health = this.maxHealth;
-            
-            this.maxShield = this.shieldData ? this.shieldData.health : 0;
+            this.maxShield = this.shieldData.health || 0;
             this.shield = this.maxShield;
-            this.shieldRegen = this.shieldData ? this.shieldData.regen / 60 : 0;
+            this.shieldRegen = (this.shieldData.regen || 0) / 60;
             this.shieldCooldown = 0;
 
-            this.baseThrust = engine ? chassis.baseThrust * engine.thrustMultiplier : 0;
+            this.baseThrust = engine ? (chassis.baseThrust || 0.1) * (engine.thrustMultiplier || 1) : 0.1;
             this.thrust = this.baseThrust;
-            this.strafeThrust = thrusters ? chassis.baseStrafe + thrusters.strafeBonus : chassis.baseStrafe;
-            
-            this.primaryWeaponCooldown = 0;
-            this.secondaryWeaponCooldown = 0;
-            this.specialCooldown = 0;
+            this.strafeThrust = thrusters ? (chassis.baseStrafe || 0.05) + (thrusters.strafeBonus || 0) : (chassis.baseStrafe || 0.05);
 
+            // --- MODIFICATION START: Equip weapons and assign to fire groups ---
+            this.weapons = [];
+            const numWeaponSlots = chassis.slots?.weapon?.length || 0;
+            const equippedWeapons = playerData.equipped.weapon || [];
+            const weaponGroups = playerData.equipped.weaponGroups || []; // Will be added in Hangar later
+
+            for (let i = 0; i < numWeaponSlots; i++) {
+                const instanceId = equippedWeapons[i];
+                if (instanceId) {
+                    const weaponInstance = playerData.owned.weapon.find(w => w.instanceId === instanceId);
+                    if (weaponInstance) {
+                        const weaponStats = PARTS.weapon[weaponInstance.id];
+                        if (weaponStats) {
+                            this.weapons[i] = {
+                                ...weaponStats,
+                                instanceId: weaponInstance.instanceId,
+                                fireGroup: weaponGroups[i] || 1 // Default to group 1 if not set
+                            };
+                        } else {
+                            this.weapons[i] = null;
+                        }
+                    } else {
+                        this.weapons[i] = null;
+                    }
+                } else {
+                    this.weapons[i] = null;
+                }
+            }
+
+            // --- NEW: Equip turrets ---
+            this.turrets = [];
+            const numTurretSlots = chassis.slots?.turret?.length || 0;
+            const equippedTurrets = playerData.equipped.turret || [];
+
+            for (let i = 0; i < numTurretSlots; i++) {
+                const instanceId = equippedTurrets[i];
+                if (instanceId) {
+                    const turretInstance = playerData.owned.turret.find(t => t.instanceId === instanceId);
+                    if (turretInstance) {
+                        const turretStats = PARTS.turret[turretInstance.id];
+                        if (turretStats) {
+                            // Create turret object
+                            const turret = new VectorArenaObjects.Turret(this, turretStats, context, i);
+                            this.turrets.push(turret);
+                        }
+                    }
+                }
+            }
+            // --- MODIFICATION END ---
+
+            this.fireGroupCooldown = [0, 0, 0]; // Cooldowns for Group 1, 2, 3
+            this.specialCooldown = 0;
             this.boostTimer = 0;
             this.overdriveTimer = 0;
             this.cloakTimer = 0;
@@ -207,286 +465,236 @@ const VectorArenaObjects = {
             this.isCharging = false;
             this.chargeLevel = 0;
         }
-        
+
         update(keys, target) {
-            if (this.playerNum === 1) { 
+            if (this.playerNum === 1) {
                 this.handlePlayerInput(keys, target);
-            } else { 
+            } else {
                 this.handleAI(target);
             }
             this.applyPhysics();
+            
+            // Update turrets
+            this.turrets.forEach(turret => {
+                turret.update(
+                    this.playerNum === 1 ? this.context.opponentShip : this.context.playerShip,
+                    this.playerNum === 1 ? this.context.playerShip : this.context.opponentShip
+                );
+            });
+            
+            // Remove expired turrets
+            this.turrets = this.turrets.filter(turret => !turret.isOutOfBounds());
         }
 
-        handlePlayerInput(keys, target){
+        handlePlayerInput(keys, target) {
             const targetPos = target || this.context.mousePos;
             const dx = targetPos.x - this.x;
             const dy = targetPos.y - this.y;
             this.angle = Math.atan2(dy, dx);
 
-            const primaryWeapon = this.context.PARTS.weapon[this.playerData.owned.weapon.find(w => w.instanceId === this.playerData.equipped.weapon)?.id];
-            if (primaryWeapon && primaryWeapon.type === 'charge') {
-                if (keys['mouse0']) {
-                    this.isCharging = true;
-                    this.chargeLevel = Math.min(100, this.chargeLevel + 1.5);
-                } else if (this.isCharging) {
-                    this.firePrimary();
-                    this.isCharging = false;
-                }
-            } else {
-                 if (keys['mouse0']) this.firePrimary();
+            // Movement
+            if (keys['w'] || keys['W'] || keys['ArrowUp']) {
+                this.vx += Math.cos(this.angle) * this.thrust;
+                this.vy += Math.sin(this.angle) * this.thrust;
+            }
+            if (keys['s'] || keys['S'] || keys['ArrowDown']) {
+                this.vx -= Math.cos(this.angle) * this.thrust * 0.5;
+                this.vy -= Math.sin(this.angle) * this.thrust * 0.5;
+            }
+            if (keys['a'] || keys['A'] || keys['ArrowLeft']) {
+                this.vx += Math.cos(this.angle - Math.PI/2) * this.strafeThrust;
+                this.vy += Math.sin(this.angle - Math.PI/2) * this.strafeThrust;
+            }
+            if (keys['d'] || keys['D'] || keys['ArrowRight']) {
+                this.vx += Math.cos(this.angle + Math.PI/2) * this.strafeThrust;
+                this.vy += Math.sin(this.angle + Math.PI/2) * this.strafeThrust;
             }
 
-            if (keys['mouse2']) this.fireSecondary();
+            // Weapon firing
+            if (keys['mouseLeft']) this.fireWeaponGroup(1);
+            if (keys['mouseRight']) this.fireWeaponGroup(2);
+            if (keys['e'] || keys['E']) this.fireWeaponGroup(3);
+
+            // Special abilities
             if (keys[' ']) this.useSpecial();
-            if (keys['w']) this.accelerate(1);
-            if (keys['s']) this.accelerate(-0.5);
-            if (keys['a']) this.strafe(-1);
-            if (keys['d']) this.strafe(1);
         }
 
         handleAI(target) {
-            if (!target || target.health <= 0 || target.isCloaked) {
-                this.accelerate(0.3);
-                return;
-            }
+            if (!target || target.health <= 0) return;
 
             const dx = target.x - this.x;
             const dy = target.y - this.y;
             const distance = Math.hypot(dx, dy);
             this.angle = Math.atan2(dy, dx);
-            
-            const weapon = this.context.PARTS.weapon[this.playerData.owned.weapon.find(w => w.instanceId === this.playerData.equipped.weapon)?.id];
-            
-            if (weapon) {
-                const idealRange = weapon.range || 350;
-                if (distance > idealRange) this.accelerate(0.8);
-                else if (distance < idealRange * 0.7) this.accelerate(-0.5);
 
-                if (weapon.type === 'charge') {
-                     this.isCharging = true;
-                     this.chargeLevel = Math.min(100, this.chargeLevel + 1.5);
-                     if(this.chargeLevel >= 100) {
-                         this.firePrimary();
-                         this.isCharging = false;
-                     }
-                } else {
-                    this.firePrimary();
-                }
-            } else {
-                if (distance > 200) this.accelerate(0.8);
+            // Simple AI movement
+            if (distance > 200) {
+                this.vx += Math.cos(this.angle) * this.thrust;
+                this.vy += Math.sin(this.angle) * this.thrust;
+            } else if (distance < 100) {
+                this.vx -= Math.cos(this.angle) * this.thrust * 0.5;
+                this.vy -= Math.sin(this.angle) * this.thrust * 0.5;
             }
+
+            // AI weapon firing
+            if (distance < 300) {
+                this.fireWeaponGroup(1);
+                if (Math.random() < 0.1) this.fireWeaponGroup(2);
+            }
+        }
+
+        fireWeaponGroup(group) {
+            if (this.fireGroupCooldown[group - 1] > 0) return;
+
+            let fired = false;
+            this.weapons.forEach((weapon, index) => {
+                if (weapon && weapon.fireGroup === group) {
+                    this.fireWeapon(weapon, index);
+                    fired = true;
+                }
+            });
+
+            if (fired) {
+                this.fireGroupCooldown[group - 1] = 30; // Set cooldown
+            }
+        }
+
+        fireWeapon(weapon, index) {
+            const startX = this.x + Math.cos(this.angle) * this.size;
+            const startY = this.y + Math.sin(this.angle) * this.size;
+
+            if (weapon.projectileClass === 'Vortex') {
+                this.context.projectiles.push(new VectorArenaObjects.Vortex(startX, startY, weapon, this.playerNum, this.context));
+            } else if (weapon.projectileClass === 'Beam') {
+                this.context.projectiles.push(new VectorArenaObjects.Beam(this, weapon, this.context));
+            } else if (weapon.projectileClass === 'Mine') {
+                this.context.projectiles.push(new VectorArenaObjects.Mine(startX, startY, weapon, this.playerNum, this.context));
+            } else {
+                // Standard projectile
+                const speed = weapon.speed || 8;
+                const projectile = new VectorArenaObjects.Projectile(
+                    startX, startY,
+                    Math.cos(this.angle) * speed,
+                    Math.sin(this.angle) * speed,
+                    weapon,
+                    this.playerNum,
+                    this.context
+                );
+                this.context.projectiles.push(projectile);
+            }
+        }
+
+        useSpecial() {
+            if (this.specialCooldown > 0 || !this.special) return;
             
-            if (this.health < this.maxHealth / 2 && Math.random() < 0.01) this.useSpecial();
+            // Special ability implementation would go here
+            this.specialCooldown = 300;
         }
 
         applyPhysics() {
-            this.x += this.vx; this.y += this.vy;
-            this.vx *= 0.98; this.vy *= 0.98;
-            if (this.primaryWeaponCooldown > 0) this.primaryWeaponCooldown--;
-            if (this.secondaryWeaponCooldown > 0) this.secondaryWeaponCooldown--;
-            if (this.specialCooldown > 0) this.specialCooldown--;
-
-            if (this.boostTimer > 0) { this.boostTimer--; if (this.boostTimer <= 0) this.thrust = this.baseThrust; }
-            if (this.overdriveTimer > 0) { this.overdriveTimer--; }
-            if (this.cloakTimer > 0) { this.cloakTimer--; if (this.cloakTimer <= 0) this.isCloaked = false; }
-            if (this.repairTimer > 0) {
-                this.repairTimer--;
-                this.health = Math.min(this.maxHealth, this.health + 20 / 60);
-                if (Math.random() < 0.2) this.context.particles.push(new VectorArenaObjects.Particle(this.x, this.y, '#2ecc71', 2, 1));
+            // Update cooldowns
+            for (let i = 0; i < this.fireGroupCooldown.length; i++) {
+                this.fireGroupCooldown[i] = Math.max(0, this.fireGroupCooldown[i] - 1);
             }
+            this.specialCooldown = Math.max(0, this.specialCooldown - 1);
 
-            if(this.shieldCooldown > 0) this.shieldCooldown--;
-            if(this.shield < this.maxShield && this.shieldCooldown <= 0) {
+            // Apply drag
+            this.vx *= 0.98;
+            this.vy *= 0.98;
+
+            // Update position
+            this.x += this.vx;
+            this.y += this.vy;
+
+            // Shield regeneration
+            if (this.shieldCooldown > 0) {
+                this.shieldCooldown--;
+            } else if (this.shield < this.maxShield) {
                 this.shield = Math.min(this.maxShield, this.shield + this.shieldRegen);
             }
-
-            const canvas = this.context.canvas;
-            if (canvas && canvas.width > 0) {
-                if (this.x < -this.size) this.x = canvas.width + this.size;
-                if (this.x > canvas.width + this.size) this.x = -this.size;
-                if (this.y < -this.size) this.y = canvas.height + this.size;
-                if (this.y > canvas.height + this.size) this.y = -this.size;
-            }
         }
-        
+
         takeDamage(amount) {
-            this.shieldCooldown = 180;
             if (this.shield > 0) {
-                const damageToShield = Math.min(this.shield, amount);
-                this.shield -= damageToShield;
-                amount -= damageToShield;
+                const shieldDamage = Math.min(this.shield, amount);
+                this.shield -= shieldDamage;
+                amount -= shieldDamage;
+                this.shieldCooldown = 180; // 3 seconds at 60fps
             }
-            if (amount > 0) {
-                this.health = Math.max(0, this.health - amount);
-            }
-        }
-
-        fire(weaponInstanceId, cooldownSlot) {
-            if (!weaponInstanceId || this[cooldownSlot] > 0) return;
-            const weaponInstance = this.playerData.owned.weapon.find(w => w.instanceId === weaponInstanceId);
-            if (!weaponInstance) return;
-            const weapon = this.context.PARTS.weapon[weaponInstance.id];
-            if (!weapon) return;
-
-            if (weapon.type === 'charge' && !this.isCharging) return;
-
-            const cooldownReduction = this.tech && this.tech.cooldownReduction ? this.tech.cooldownReduction : 0;
-            let finalCooldown = Math.max(1, weapon.cooldown - cooldownReduction);
-            if (this.overdriveTimer > 0) finalCooldown /= 2;
-            this[cooldownSlot] = finalCooldown;
-
-            const spawnX = this.x + Math.cos(this.angle) * this.size;
-            const spawnY = this.y + Math.sin(this.angle) * this.size;
-
-            switch (weapon.type) {
-                case 'beam':
-                    this.context.beams.push(new VectorArenaObjects.Beam(this, weapon, this.context));
-                    break;
-                case 'mine':
-                    const mineX = this.x - Math.cos(this.angle) * (this.size + 10);
-                    const mineY = this.y - Math.sin(this.angle) * (this.size + 10);
-                    this.context.mines.push(new VectorArenaObjects.Mine(mineX, mineY, weapon, this.playerNum, this.context));
-                    break;
-                case 'charge':
-                    const chargeRatio = this.chargeLevel / 100;
-                    const chargedWeapon = {
-                        ...weapon,
-                        damage: weapon.damage + chargeRatio * 90,
-                        size: 3 + chargeRatio * 12,
-                        speed: weapon.speed + chargeRatio * 10,
-                        piercing: chargeRatio > 0.9,
-                    };
-                    this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(this.angle) * chargedWeapon.speed, Math.sin(this.angle) * chargedWeapon.speed, chargedWeapon, this.playerNum, this.context));
-                    this.chargeLevel = 0;
-                    break;
-                default:
-                    this.createProjectiles(spawnX, spawnY, weapon);
-                    break;
-            }
-            if (weapon.type !== 'beam' && weapon.type !== 'mine') {
-                 this.context.particles.push(new VectorArenaObjects.Particle(spawnX, spawnY, '#ffffff', 2, 0.5));
-            }
-        }
-        
-        createProjectiles(spawnX, spawnY, weapon){
-            const angle = this.angle;
-            switch(weapon.type){
-                case 'spread':
-                    for (let i = -1; i <= 1; i++) {
-                        const spreadAngle = angle + i * 0.2;
-                        this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(spreadAngle) * weapon.speed, Math.sin(spreadAngle) * weapon.speed, weapon, this.playerNum, this.context));
-                    }
-                    break;
-                case 'flak':
-                    for (let i = 0; i < 15; i++) { 
-                        const flakAngle = angle + (Math.random() - 0.5) * 0.7;
-                        const flakSpeed = weapon.speed * (0.8 + Math.random() * 0.4);
-                        const shrapnel = {...weapon, size: 2, life: 40 + Math.random() * 30}; 
-                        this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(flakAngle) * flakSpeed, Math.sin(flakAngle) * flakSpeed, shrapnel, this.playerNum, this.context));
-                    }
-                    break;
-                case 'swarm':
-                    for (let i = 0; i < 5; i++) {
-                        const swarmAngle = angle + (Math.random() - 0.5) * 0.3;
-                        const swarmWeapon = {...weapon, type: 'missile'}; 
-                        this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(swarmAngle) * weapon.speed, Math.sin(swarmAngle) * weapon.speed, swarmWeapon, this.playerNum, this.context));
-                    }
-                    break;
-                case 'vortex':
-                     this.context.vortices.push(new VectorArenaObjects.Vortex(spawnX, spawnY, weapon, this.playerNum, this.context));
-                     break;
-                default:
-                    const vx = Math.cos(angle) * weapon.speed;
-                    const vy = Math.sin(angle) * weapon.speed;
-                    this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, vx, vy, weapon, this.playerNum, this.context));
-                    break;
-            }
-        }
-        
-        firePrimary() { this.fire(this.playerData.equipped.weapon, 'primaryWeaponCooldown'); }
-        fireSecondary() { this.fire(this.playerData.equipped.weapon_secondary, 'secondaryWeaponCooldown'); }
-        
-        useSpecial() {
-            if (!this.special || this.specialCooldown > 0) return;
-            this.specialCooldown = this.special.cooldown;
             
-            switch (this.special.type) {
-                case 'boost':
-                    this.thrust = this.baseThrust * this.special.boostMultiplier;
-                    this.boostTimer = this.special.duration;
-                    for (let i = 0; i < 20; i++) this.context.particles.push(new VectorArenaObjects.Particle(this.x, this.y, '#00ffff', 3, 2));
-                    break;
-                case 'overdrive':
-                    this.overdriveTimer = this.special.duration;
-                    for (let i = 0; i < 20; i++) this.context.particles.push(new VectorArenaObjects.Particle(this.x, this.y, '#ff00ff', 3, 2));
-                    break;
-                case 'repair':
-                    this.repairTimer = this.special.duration || 300;
-                    break;
-                case 'cloak':
-                    this.isCloaked = true;
-                    this.cloakTimer = this.special.duration;
-                    break;
-                case 'emp':
-                    this.context.particles.push(new VectorArenaObjects.Particle(this.x, this.y, '#4a90e2', this.size * 2, 0, false, 0, 0, true));
-                    break;
+            if (amount > 0) {
+                this.health -= amount;
+                if (this.health <= 0) {
+                    this.health = 0;
+                    this.onDestroy();
+                }
             }
         }
-        
-        accelerate(dir) { const force = this.thrust * dir; this.vx += Math.cos(this.angle) * force; this.vy += Math.sin(this.angle) * force; }
-        strafe(dir) { const force = this.strafeThrust * dir; const strafeAngle = this.angle + Math.PI / 2; this.vx += Math.cos(strafeAngle) * force; this.vy += Math.sin(strafeAngle) * force; }
-        
+
+        onDestroy() {
+            // Death effects
+            for (let i = 0; i < 50; i++) {
+                this.context.particles.push(new VectorArenaObjects.Particle(
+                    this.x, this.y, this.color, Math.random() * 6 + 2, Math.random() * 8 + 4
+                ));
+            }
+        }
+
         draw(ctx) {
+            if (this.health <= 0) return;
+
             ctx.save();
             ctx.translate(this.x, this.y);
-            
-            ctx.globalAlpha = this.isCloaked ? 0.3 : 1.0;
-
-            if (this.isCharging) {
-                const chargeRatio = this.chargeLevel / 100;
-                ctx.beginPath();
-                ctx.arc(this.size, 0, 2 + this.chargeLevel * 0.15, 0, Math.PI * 2);
-                ctx.fillStyle = `rgba(243, 156, 18, ${chargeRatio})`;
-                ctx.fill();
-            }
-
-            let currentFillStyle = this.color;
-            if (this.overdriveTimer > 0) {
-                currentFillStyle = (Math.floor(this.overdriveTimer / 5) % 2 === 0) ? this.color : '#ff00ff';
-            }
-            
-            if (this.shield > 0) {
-                ctx.beginPath();
-                ctx.arc(0, 0, this.size * 1.2, 0, Math.PI * 2);
-                ctx.strokeStyle = `rgba(0, 150, 255, ${0.2 + (this.shield / this.maxShield) * 0.6})`;
-                ctx.fillStyle = `rgba(0, 50, 100, ${0.1 + (this.shield / this.maxShield) * 0.2})`;
-                ctx.lineWidth = 1 + (this.shield / this.maxShield) * 2;
-                ctx.fill();
-                ctx.stroke();
-            }
-
             ctx.rotate(this.angle);
-            ctx.fillStyle = currentFillStyle;
+
+            // Draw ship
+            ctx.fillStyle = this.color;
             ctx.beginPath();
-            if (this.art === 'juggernaut') {
-                ctx.rect(-this.size * 0.8, -this.size * 0.6, this.size * 1.6, this.size * 1.2);
-            } else {
-                ctx.moveTo(this.size, 0);
-                ctx.lineTo(-this.size / 2, this.size / 2);
-                ctx.lineTo(-this.size / 2, -this.size / 2);
-            }
+            ctx.moveTo(this.size, 0);
+            ctx.lineTo(-this.size * 0.7, -this.size * 0.7);
+            ctx.lineTo(-this.size * 0.3, 0);
+            ctx.lineTo(-this.size * 0.7, this.size * 0.7);
             ctx.closePath();
             ctx.fill();
+
+            // Draw shield
+            if (this.shield > 0) {
+                ctx.strokeStyle = '#00ffff';
+                ctx.lineWidth = 2;
+                ctx.globalAlpha = this.shield / this.maxShield * 0.5;
+                ctx.beginPath();
+                ctx.arc(0, 0, this.size * 1.5, 0, Math.PI * 2);
+                ctx.stroke();
+                ctx.globalAlpha = 1;
+            }
+
             ctx.restore();
+
+            // Draw turrets
+            this.turrets.forEach(turret => turret.draw(ctx));
+
+            // Draw health bar
+            const barWidth = this.size * 2;
+            const barHeight = 4;
+            const barY = this.y - this.size - 10;
+            
+            ctx.fillStyle = '#333';
+            ctx.fillRect(this.x - barWidth/2, barY, barWidth, barHeight);
+            
+            ctx.fillStyle = this.health > this.maxHealth * 0.3 ? '#00ff00' : '#ff0000';
+            ctx.fillRect(this.x - barWidth/2, barY, (this.health / this.maxHealth) * barWidth, barHeight);
         }
     },
-    
+
     Projectile: class {
         constructor(x, y, vx, vy, weapon, owner, context) {
-            this.x = x; this.y = y; this.vx = vx; this.vy = vy;
-            this.size = weapon.size;
-            this.color = weapon.color || '#ff00ff';
+            this.x = x;
+            this.y = y;
+            this.vx = vx;
+            this.vy = vy;
+            this.size = weapon.size || 3;
             this.damage = weapon.damage;
+            this.color = weapon.color;
             this.owner = owner;
             this.type = weapon.type;
             this.turn = weapon.turn;
@@ -494,6 +702,7 @@ const VectorArenaObjects = {
             this.isPiercing = weapon.piercing;
             this.context = context;
         }
+        
         update(opponent, player) {
             if (this.type === 'missile') {
                 const target = this.owner === 1 ? opponent : player;
@@ -520,13 +729,15 @@ const VectorArenaObjects = {
             if (this.type === 'chain') {
                 const otherTarget = target === this.context.playerShip ? this.context.opponentShip : this.context.playerShip;
                 if(otherTarget && otherTarget.health > 0) {
-                     this.context.particles.push(new VectorArenaObjects.Particle(target.x, target.y, this.color, 10, 5, true, otherTarget.x, otherTarget.y));
-                     otherTarget.takeDamage(this.damage * 0.5); // Chain hit does 50% damage
+                    this.context.particles.push(new VectorArenaObjects.Particle(target.x, target.y, this.color, 10, 5, true, otherTarget.x, otherTarget.y));
+                    otherTarget.takeDamage(this.damage * 0.5); // Chain hit does 50% damage
                 }
             }
         }
 
-        isOutOfBounds(c) { return c && c.width > 0 && (this.x < -10 || this.x > c.width + 10 || this.y < -10 || this.y > c.height + 10); }
+        isOutOfBounds(c) { 
+            return this.life <= 0 || (c && c.width > 0 && (this.x < -10 || this.x > c.width + 10 || this.y < -10 || this.y > c.height + 10)); 
+        }
         
         draw(ctx) {
             ctx.save();
@@ -579,8 +790,13 @@ const VectorArenaObjects = {
                 this.radius = size;
             }
         }
-        update() { this.x += this.vx; this.y += this.vy; this.life--; if(this.isWave) this.radius += 5;}
-        isOutOfBounds() { return false; }
+        update() { 
+            this.x += this.vx; 
+            this.y += this.vy; 
+            this.life--; 
+            if(this.isWave) this.radius += 5;
+        }
+        isOutOfBounds() { return this.life <= 0; }
         draw(ctx) {
             ctx.save();
             ctx.globalAlpha = Math.max(0, this.life / this.maxLife);
@@ -609,4 +825,5 @@ const VectorArenaObjects = {
         }
     }
 };
+
 

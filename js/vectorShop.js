@@ -1,7 +1,10 @@
 /**
- * vectorShop.js - v2 (Quality of Life Update)
+ * vectorShop.js - v2.1 (Turret Purchase Fixed)
  * This module allows the player to purchase and equip new ship parts.
- * It now remembers the active category and allows equipping directly from the shop.
+ * v2.1 Changes:
+ * - Fixed turret purchasing to allow multiple instances like weapons
+ * - Turrets now use instanceIds and can be purchased multiple times
+ * - Added proper turret equipping logic for multiple slots
  */
 const VectorShopGame = {
     id: 'vectorShop',
@@ -17,7 +20,6 @@ const VectorShopGame = {
         this.onSuccess = successCallback;
         this.onFailure = failureCallback;
         this.playerData = sharedData.playerData;
-        
         console.log("Vector Shop Initializing...");
 
         try {
@@ -25,12 +27,10 @@ const VectorShopGame = {
             if (!this.PARTS) {
                 throw new Error("Parts data is null or undefined after loading.");
             }
-            
             this.activeCategory = 'chassis'; // Reset to default on init
             this.setupUI();
             this.addEventListeners();
             this.refreshShopView();
-
         } catch (error) {
             console.error("Failed to initialize Vector Shop:", error);
             if (this.onFailure) {
@@ -82,10 +82,10 @@ const VectorShopGame = {
 
     refreshShopView: function() {
         this.updateCredits();
-        this.populateCategories(); // This will now use this.activeCategory
+        this.populateCategories();
         this.showCategory(this.activeCategory);
     },
-    
+
     updateCredits: function() {
         const creditsDisplay = this.gameContainer.querySelector('#player-credits-display');
         if (creditsDisplay) {
@@ -97,6 +97,7 @@ const VectorShopGame = {
         const container = this.gameContainer.querySelector('#shop-categories');
         container.innerHTML = '';
         if (!this.PARTS) return;
+
         for (const type in this.PARTS) {
             const button = document.createElement('button');
             button.className = 'category-button';
@@ -110,7 +111,7 @@ const VectorShopGame = {
     },
 
     showCategory: function(category) {
-        this.activeCategory = category; // Set the active category
+        this.activeCategory = category;
         const listContainer = this.gameContainer.querySelector('#shop-item-list');
         listContainer.innerHTML = '';
 
@@ -124,7 +125,6 @@ const VectorShopGame = {
             const part = this.PARTS[category][partId];
             const itemDiv = document.createElement('div');
             itemDiv.className = 'shop-item';
-
             itemDiv.innerHTML = `
                 <div class="shop-item-info">
                     <h4>${part.name}</h4>
@@ -138,40 +138,74 @@ const VectorShopGame = {
             listContainer.appendChild(itemDiv);
         }
     },
-    
+
     getButtonHTML: function(type, partId) {
         const part = this.PARTS[type][partId];
         const canAfford = this.playerData.credits >= part.cost;
-        
-        if (type === 'weapon') {
-            const ownedInstances = this.playerData.owned.weapon.filter(w => w.id === partId);
+
+        // FIXED: Treat turrets like weapons (instanced parts)
+        if (type === 'weapon' || type === 'turret' || type === 'drone') {
+            const ownedInstances = this.playerData.owned[type]?.filter(w => w.id === partId) || [];
             let buttons = `<button class="buy-button" data-type="${type}" data-partid="${partId}" ${canAfford ? '' : 'disabled'}>Buy (${part.cost}c)</button>`;
             
             ownedInstances.forEach(instance => {
-                const isEquippedPrimary = this.playerData.equipped.weapon === instance.instanceId;
-                const isEquippedSecondary = this.playerData.equipped.weapon_secondary === instance.instanceId;
-                if (isEquippedPrimary) {
-                    buttons += `<button class="equipped-button" disabled>Equipped (P)</button>`;
-                } else if (isEquippedSecondary) {
-                    buttons += `<button class="equipped-button" disabled>Equipped (S)</button>`;
-                }
-                else {
-                    buttons += `<button class="equip-button" data-type="${type}" data-partid="${instance.instanceId}" data-slot="primary">Equip (P)</button>`;
-                    buttons += `<button class="equip-button" data-type="${type}" data-partid="${instance.instanceId}" data-slot="secondary">Equip (S)</button>`;
+                const equippedSlots = this.playerData.equipped[type] || [];
+                const slotIndex = equippedSlots.indexOf(instance.instanceId);
+                
+                if (slotIndex !== -1) {
+                    // This instance is equipped
+                    const slotLabel = this.getSlotLabel(type, slotIndex);
+                    buttons += `<button class="equipped-button" disabled>Equipped (${slotLabel})</button>`;
+                } else {
+                    // This instance is not equipped - show available slots
+                    const availableSlots = this.getAvailableSlots(type);
+                    availableSlots.forEach(slot => {
+                        buttons += `<button class="equip-button" data-type="${type}" data-partid="${instance.instanceId}" data-slot="${slot.index}">Equip to ${slot.label}</button>`;
+                    });
                 }
             });
             return buttons;
         } else {
+            // Handle regular parts (chassis, engine, etc.)
             const isOwned = this.playerData.owned[type]?.includes(partId);
             if (!isOwned) {
                 return `<button class="buy-button" data-type="${type}" data-partid="${partId}" ${canAfford ? '' : 'disabled'}>Buy (${part.cost}c)</button>`;
             }
             const isEquipped = this.playerData.equipped[type] === partId;
-            return isEquipped ? `<button class="equipped-button" disabled>Equipped</button>` : `<button class="equip-button" data-type="${type}" data-partid="${partId}">Equip</button>`;
+            return isEquipped ? 
+                `<button class="equipped-button" disabled>Equipped</button>` : 
+                `<button class="equip-button" data-type="${type}" data-partid="${partId}">Equip</button>`;
         }
     },
-    
-    getPartStatsHTML: function(part) { /* ... (this function is unchanged) ... */ return ""; },
+
+    getSlotLabel: function(type, slotIndex) {
+        const chassis = this.PARTS.chassis[this.playerData.equipped.chassis];
+        const slots = chassis.slots?.[type] || [];
+        const slot = slots[slotIndex];
+        return slot?.label || `${type} ${slotIndex + 1}`;
+    },
+
+    getAvailableSlots: function(type) {
+        const chassis = this.PARTS.chassis[this.playerData.equipped.chassis];
+        const slots = chassis.slots?.[type] || [];
+        const equippedSlots = this.playerData.equipped[type] || [];
+        
+        const availableSlots = [];
+        slots.forEach((slot, index) => {
+            if (!equippedSlots[index]) {
+                availableSlots.push({
+                    index: index,
+                    label: slot.label || `${type} ${index + 1}`
+                });
+            }
+        });
+        return availableSlots;
+    },
+
+    getPartStatsHTML: function(part) {
+        // This function can be expanded to show part stats
+        return "";
+    },
 
     buyPart: function(type, partId) {
         const part = this.PARTS[type][partId];
@@ -182,11 +216,13 @@ const VectorShopGame = {
 
         this.playerData.credits -= part.cost;
 
-        if (type === 'weapon') {
-             if (!this.playerData.owned.weapon) this.playerData.owned.weapon = [];
-            const maxInstanceId = this.playerData.owned.weapon.reduce((max, w) => Math.max(max, w.instanceId), 0);
-            this.playerData.owned.weapon.push({ id: partId, instanceId: maxInstanceId + 1 });
+        // FIXED: Handle turrets like weapons (instanced parts)
+        if (type === 'weapon' || type === 'turret' || type === 'drone') {
+            if (!this.playerData.owned[type]) this.playerData.owned[type] = [];
+            const maxInstanceId = this.playerData.owned[type].reduce((max, w) => Math.max(max, w.instanceId), 0);
+            this.playerData.owned[type].push({ id: partId, instanceId: maxInstanceId + 1 });
         } else {
+            // Handle regular parts
             if (!this.playerData.owned[type]) this.playerData.owned[type] = [];
             if (!this.playerData.owned[type].includes(partId)) {
                 this.playerData.owned[type].push(partId);
@@ -194,17 +230,18 @@ const VectorShopGame = {
         }
         
         console.log(`Bought ${part.name}. Remaining credits: ${this.playerData.credits}`);
-        this.refreshShopView(); // This will now refresh the current category
+        this.refreshShopView();
     },
 
     equipPart: function(type, partIdOrInstanceId, slot) {
-        if (type === 'weapon') {
-            if (slot === 'primary') {
-                this.playerData.equipped.weapon = partIdOrInstanceId;
-            } else if (slot === 'secondary') {
-                this.playerData.equipped.weapon_secondary = partIdOrInstanceId;
+        if (type === 'weapon' || type === 'turret' || type === 'drone') {
+            // Handle instanced parts
+            if (!this.playerData.equipped[type]) {
+                this.playerData.equipped[type] = [];
             }
+            this.playerData.equipped[type][slot] = partIdOrInstanceId;
         } else {
+            // Handle regular parts
             this.playerData.equipped[type] = partIdOrInstanceId;
         }
         console.log(`Equipped part. Type: ${type}, ID: ${partIdOrInstanceId}, Slot: ${slot || 'N/A'}`);
@@ -215,20 +252,22 @@ const VectorShopGame = {
         this.exitHandler = () => {
             if(this.onSuccess) this.onSuccess({ from: 'shop', playerData: this.playerData });
         };
+        
         this.categoryClickHandler = (e) => {
             if (e.target.classList.contains('category-button')) {
                 this.showCategory(e.target.dataset.type);
             }
         };
+        
         this.actionClickHandler = (e) => {
-             const button = e.target;
-             if (button.classList.contains('buy-button')) {
+            const button = e.target;
+            if (button.classList.contains('buy-button')) {
                 const { type, partid } = button.dataset;
                 this.buyPart(type, partid);
             } else if (button.classList.contains('equip-button')) {
                 const { type, partid, slot } = button.dataset;
-                const id = type === 'weapon' ? parseInt(partid, 10) : partid;
-                this.equipPart(type, id, slot);
+                const id = (type === 'weapon' || type === 'turret' || type === 'drone') ? parseInt(partid, 10) : partid;
+                this.equipPart(type, id, slot ? parseInt(slot, 10) : undefined);
             }
         };
 
@@ -243,8 +282,18 @@ const VectorShopGame = {
     },
 
     destroy: function() {
-        // ... (Cleanup logic) ...
+        const exitButton = this.gameContainer.querySelector('#shop-exit-btn');
+        if (exitButton) exitButton.removeEventListener('click', this.exitHandler);
+
+        const categoriesContainer = this.gameContainer.querySelector('#shop-categories');
+        if (categoriesContainer) categoriesContainer.removeEventListener('click', this.categoryClickHandler);
+
+        const itemListContainer = this.gameContainer.querySelector('#shop-item-list');
+        if(itemListContainer) itemListContainer.removeEventListener('click', this.actionClickHandler);
+
         this.gameContainer.innerHTML = '';
         console.log("Vector Shop Destroyed.");
     },
 };
+
+
