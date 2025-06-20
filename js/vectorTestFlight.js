@@ -1,7 +1,7 @@
 /**
- * VectorTestFlight.js - v16 (Uses JSON Parts Loader)
- * A dedicated module for flight simulation. This module now loads all parts data
- * from the central PartsLoader, ensuring it's always up-to-date.
+ * VectorTestFlight.js - v21 (Complete and Fully Fixed)
+ * A dedicated module for flight simulation. This version adds a stationary
+ * training dummy and ensures all core functions are complete to prevent crashes.
  */
 const VectorTestFlightGame = {
     id: 'vectorTestFlight',
@@ -16,6 +16,10 @@ const VectorTestFlightGame = {
     mousePos: { x: 0, y: 0 },
     projectiles: [],
     particles: [],
+    vortices: [],
+    beams: [],
+    mines: [],
+    trainingDummy: null,
     onSuccess: null,
     playerData: null,
     PARTS: null,
@@ -25,21 +29,21 @@ const VectorTestFlightGame = {
      */
     init: async function(container, successCallback, failureCallback, sharedData) {
         this.gameContainer = container;
-        this.onSuccess = successCallback; 
-        
-        // Load the master parts list first
+        this.onSuccess = successCallback;
+
         this.PARTS = await PartsLoader.getParts();
         if (!this.PARTS) {
             console.error("CRITICAL: Test Flight could not load parts data. Aborting.");
+            if (failureCallback) failureCallback({reason: "Failed to load parts."});
             return;
         }
-        
+
         if (sharedData && sharedData.playerData) {
             this.playerData = sharedData.playerData;
         } else {
             console.warn("VectorTestFlightGame: No playerData found. Using default loadout.");
             this.playerData = {
-                 owned: { weapon: [ { id: 'homing_missiles', instanceId: 1 } ] },
+                 owned: { weapon: [ { id: 'pulse_laser', instanceId: 1 } ] },
                  equipped: { chassis: 'interceptor', weapon: 1, engine: 'standard_ion', thrusters: 'maneuvering_jets', special: 'burst_thruster' }
             };
         }
@@ -67,7 +71,7 @@ const VectorTestFlightGame = {
             <div id="vtf-canvas-container">
                 <canvas id="vtf-canvas"></canvas>
                 <div class="vtf-hud">
-                    <div class="vtf-controls">
+                     <div class="vtf-controls">
                         <strong>Test Flight Mode</strong><br>
                         LMB/RMB: Primary/Secondary Fire<br>
                         Spacebar: Use Special<br>
@@ -88,12 +92,31 @@ const VectorTestFlightGame = {
     initializeScene: function() {
         this.projectiles = [];
         this.particles = [];
+        this.vortices = [];
+        this.beams = [];
+        this.mines = [];
+        
         requestAnimationFrame(() => {
             this.resizeCanvas();
-            const startX = this.canvas.width / 2;
+            const startX = this.canvas.width / 4;
             const startY = this.canvas.height / 2;
             if (this.canvas.width > 0) {
                 this.playerShip = new VectorArenaObjects.Ship(startX, startY, this.playerData, 1, this);
+                
+                this.trainingDummy = {
+                    x: this.canvas.width * 0.75,
+                    y: this.canvas.height / 2,
+                    size: 40,
+                    health: 1000,
+                    maxHealth: 1000,
+                    damageTakenTime: 0,
+                    color: '#8e44ad',
+                    isCloaked: false, // For AI targeting consistency
+                    takeDamage: function(amount) {
+                        this.health = Math.max(0, this.health - amount);
+                        this.damageTakenTime = Date.now();
+                    }
+                };
             }
         });
     },
@@ -104,15 +127,69 @@ const VectorTestFlightGame = {
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
 
         this.playerShip.update(this.keys, this.mousePos); 
-        this.updateCollection(this.projectiles);
-        this.updateCollection(this.particles);
+        this.updateDummy();
         this.updateHUD();
 
+        this.updateCollection(this.projectiles, this.trainingDummy, this.playerShip);
+        this.updateCollection(this.particles, this.trainingDummy, this.playerShip);
+        this.updateCollection(this.vortices, this.trainingDummy, this.playerShip);
+        this.updateCollection(this.beams, this.trainingDummy, this.playerShip);
+        this.updateCollection(this.mines, this.trainingDummy, this.playerShip);
+        this.checkCollisions();
+        
+        this.drawDummy();
         this.drawCollection(this.projectiles);
         this.drawCollection(this.particles);
+        this.drawCollection(this.vortices);
+        this.drawCollection(this.beams);
+        this.drawCollection(this.mines);
         this.playerShip.draw(this.ctx);
     },
 
+    updateDummy: function() {
+        if (!this.trainingDummy) return;
+        if (this.trainingDummy.health < this.trainingDummy.maxHealth && Date.now() - this.trainingDummy.damageTakenTime > 10000) {
+            this.trainingDummy.health = Math.min(this.trainingDummy.maxHealth, this.trainingDummy.health + 5);
+        }
+    },
+
+    drawDummy: function() {
+        if (!this.trainingDummy) return;
+        const dummy = this.trainingDummy;
+        this.ctx.fillStyle = dummy.color;
+        this.ctx.beginPath();
+        this.ctx.arc(dummy.x, dummy.y, dummy.size, 0, Math.PI * 2);
+        this.ctx.fill();
+
+        const barWidth = 100;
+        const barX = dummy.x - barWidth / 2;
+        const barY = dummy.y - dummy.size - 20;
+        const healthPercentage = dummy.health / dummy.maxHealth;
+
+        this.ctx.fillStyle = '#333';
+        this.ctx.fillRect(barX, barY, barWidth, 10);
+        this.ctx.fillStyle = '#e74c3c';
+        this.ctx.fillRect(barX, barY, barWidth * healthPercentage, 10);
+        this.ctx.strokeStyle = '#888';
+        this.ctx.strokeRect(barX, barY, barWidth, 10);
+    },
+
+    updateCollection: function(collection, opponent, player) {
+        for (let i = collection.length - 1; i >= 0; i--) {
+            const item = collection[i];
+            item.update(opponent, player); 
+            if (item.life <= 0 || item.isOutOfBounds(this.canvas)) {
+                collection.splice(i, 1);
+            }
+        }
+    },
+    
+    drawCollection: function(collection) {
+        for (const item of collection) {
+            item.draw(this.ctx);
+        }
+    },
+    
     updateHUD: function() {
         const speedDisplay = document.getElementById('vtf-speed-display');
         if (speedDisplay && this.playerShip) {
@@ -121,17 +198,22 @@ const VectorTestFlightGame = {
         }
     },
 
-    updateCollection: function(collection) {
-        for (let i = collection.length - 1; i >= 0; i--) {
-            collection[i].update(this.mousePos, null);
-            if (collection[i].life <= 0 || collection[i].isOutOfBounds(this.canvas)) {
-                collection.splice(i, 1);
+    checkCollisions: function() {
+        if (!this.trainingDummy) return;
+
+        for (let i = this.projectiles.length - 1; i >= 0; i--) {
+            const proj = this.projectiles[i];
+            if (proj.owner !== 1) continue;
+            const dist = Math.hypot(proj.x - this.trainingDummy.x, proj.y - this.trainingDummy.y);
+            if (dist < this.trainingDummy.size + proj.size) {
+                this.trainingDummy.takeDamage(proj.damage);
+                if (typeof proj.onHit === 'function') {
+                    proj.onHit(this.trainingDummy);
+                }
+                if (!proj.isPiercing) {
+                    this.projectiles.splice(i, 1);
+                }
             }
-        }
-    },
-    drawCollection: function(collection) {
-        for (const item of collection) {
-            item.draw(this.ctx);
         }
     },
 
@@ -186,8 +268,12 @@ const VectorTestFlightGame = {
             this.canvas.width = container.clientWidth;
             this.canvas.height = container.clientHeight;
             if (this.playerShip) {
-                this.playerShip.x = this.canvas.width / 2;
+                this.playerShip.x = this.canvas.width / 4;
                 this.playerShip.y = this.canvas.height / 2;
+            }
+             if (this.trainingDummy) {
+                this.trainingDummy.x = this.canvas.width * 0.75;
+                this.trainingDummy.y = this.canvas.height / 2;
             }
         }
     },

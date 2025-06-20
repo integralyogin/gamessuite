@@ -1,51 +1,154 @@
 {
     "chassis": {
-        "interceptor": { "name": "Interceptor", "desc": "A light, agile frame.", "health": 100, "size": 15, "baseThrust": 0.1, "baseStrafe": 0.08, "baseTurn": 5, "color": "#00aaff", "art": "interceptor" },
-        "juggernaut": { "name": "Juggernaut", "desc": "Heavy and tough, but slow.", "health": 200, "size": 20, "baseThrust": 0.07, "baseStrafe": 0.04, "baseTurn": 2, "color": "#ff8800", "art": "juggernaut" },
-        "wraith": { "name": "Wraith", "desc": "Fragile but high energy capacity.", "health": 80, "size": 14, "baseThrust": 0.12, "baseStrafe": 0.09, "baseTurn": 6, "color": "#9966ff", "art": "interceptor" },
-        "goliath": { "name": "Goliath", "desc": "The ultimate defensive platform.", "health": 350, "size": 25, "baseThrust": 0.05, "baseStrafe": 0.03, "baseTurn": 1, "color": "#cccccc", "art": "juggernaut" },
-        "phantom": { "name": "Phantom", "desc": "Advanced stealth capabilities.", "health": 90, "size": 13, "baseThrust": 0.11, "baseStrafe": 0.1, "baseTurn": 7, "color": "#7f8c8d", "art": "interceptor" },
-        "leviathan": { "name": "Leviathan", "desc": "A true behemoth of a ship.", "health": 500, "size": 30, "baseThrust": 0.04, "baseStrafe": 0.02, "baseTurn": 0.5, "color": "#34495e", "art": "juggernaut" }
+        "interceptor": { 
+            "name": "Interceptor", "desc": "A light, agile frame.", "cost": 1000, "health": 100, "size": 15, "baseThrust": 0.1, "baseStrafe": 0.08, "baseTurn": 5, "color": "#00aaff", "art": "interceptor", "tier": 1,
+            "slots": {
+                "engine": [{ "x": -0.6, "y": 0, "size": 0.3, "label": "Engine" }],
+                "weapon": [{ "x": 0.8, "y": 0.35, "size": 0.2, "label": "Weapon 1" }, { "x": 0.8, "y": -0.35, "size": 0.2, "label": "Weapon 2" }],
+                "special": [{ "x": 0, "y": 0, "size": 0.25, "label": "Special" }],
+                "thrusters": [{ "x": -0.5, "y": -0.4, "size": 0.15, "label": "Thrusters" }, { "x": -0.5, "y": 0.4, "size": 0.15, "label": "Thrusters" }]
+            } 
+        },
+        "juggernaut": { 
+            "name": "Juggernaut", "desc": "Heavy and tough, but slow.", "cost": 1500, "health": 200, "size": 20, "baseThrust": 0.07, "baseStrafe": 0.04, "baseTurn": 2, "color": "#ff8800", "art": "juggernaut", "tier": 1,
+             "slots": {
+                "engine": [{ "x": -0.7, "y": 0, "size": 0.4, "label": "Engine" }],
+                "weapon": [{ "x": 0.6, "y": 0.3, "size": 0.25, "label": "Weapon 1" }, { "x": 0.6, "y": -0.3, "size": 0.25, "label": "Weapon 2" }],
+                "special": [{ "x": 0, "y": 0, "size": 0.3, "label": "Special" }],
+                "shield": [{ "x": 0, "y": 0, "size": 1.2, "label": "Shield" }]
+            }
+        },
+        "wraith": { 
+            "name": "Wraith", "desc": "Fragile but high energy capacity.", "cost": 2200, "health": 80, "size": 14, "baseThrust": 0.12, "baseStrafe": 0.09, "baseTurn": 6, "color": "#9966ff", "art": "interceptor", "tier": 1,
+            "slots": {
+                "engine": [{ "x": -0.6, "y": 0, "size": 0.3, "label": "Engine" }],
+                "weapon": [{ "x": 0.8, "y": 0.35, "size": 0.2, "label": "Weapon 1" }, { "x": 0.8, "y": -0.35, "size": 0.2, "label": "Weapon 2" }],
+                "special": [{ "x": 0, "y": 0, "size": 0.25, "label": "Special" }],
+                "tech": [{ "x": -0.2, "y": 0, "size": 0.2, "label": "Tech" }]
+            }
+        },
+        "goliath": { 
+            "name": "Goliath", "desc": "The ultimate defensive platform.", "cost": 4000, "health": 350, "size": 25, "baseThrust": 0.05, "baseStrafe": 0.03, "baseTurn": 1, "color": "#cccccc", "art": "juggernaut", "tier": 1,
+            "slots": {
+                "engine": [{ "x": -0.7, "y": 0, "size": 0.4, "label": "Engine" }],
+                "weapon": [{ "x": 0.6, "y": 0.3, "size": 0.25, "label": "Weapon 1" }, { "x": 0.6, "y": -0.3, "size": 0.25, "label": "Weapon 2" }, { "x": 0.2, "y": 0.5, "size": 0.2, "label": "Weapon 3" }, { "x": 0.2, "y": -0.5, "size": 0.2, "label": "Weapon 4" }],
+                "shield": [{ "x": 0, "y": 0, "size": 1.2, "label": "Shield" }]
+            }
+        },
+        "phantom": { 
+            "name": "Phantom", "desc": "Advanced stealth capabilities.", "cost": 5500, "health": 90, "size": 13, "baseThrust": 0.11, "baseStrafe": 0.1, "baseTurn": 7, "color": "#7f8c8d", "art": "interceptor", "tier": 1,
+             "slots": {
+                "engine": [{ "x": -0.6, "y": 0, "size": 0.3, "label": "Engine" }],
+                "weapon": [{ "x": 0.9, "y": 0, "size": 0.25, "label": "Weapon 1" }],
+                "special": [{ "x": 0.1, "y": 0, "size": 0.3, "label": "Special" }]
+            }
+        },
+        "leviathan": { 
+            "name": "Leviathan", "desc": "A true behemoth of a ship.", "cost": 12000, "health": 500, "size": 30, "baseThrust": 0.04, "baseStrafe": 0.02, "baseTurn": 0.5, "color": "#34495e", "art": "juggernaut", "tier": 1,
+            "slots": {
+                "engine": [{ "x": -0.7, "y": 0.2, "size": 0.3, "label": "Engine" }, { "x": -0.7, "y": -0.2, "size": 0.3, "label": "Engine" }],
+                "weapon": [{ "x": 0.6, "y": 0.4, "size": 0.25, "label": "Weapon 1" }, { "x": 0.6, "y": -0.4, "size": 0.25, "label": "Weapon 2" }],
+                "turret": [{ "x": 0, "y": 0, "size": 0.4, "label": "Turret Slot" }],
+                "shield": [{ "x": 0, "y": 0, "size": 1.3, "label": "Shield" }]
+            }
+        },
+        "vindicator": { 
+            "name": "Vindicator", "desc": "A heavy assault chassis with extreme armor.", "cost": 15000, "health": 650, "size": 28, "baseThrust": 0.06, "baseStrafe": 0.03, "baseTurn": 1.5, "color": "#e74c3c", "art": "juggernaut", "tier": 2,
+            "slots": {
+                "engine": [{ "x": -0.7, "y": 0, "size": 0.5, "label": "Engine" }],
+                "weapon": [{ "x": 0.7, "y": 0, "size": 0.4, "label": "Weapon 1" }],
+                "special": [{ "x": 0, "y": 0.4, "size": 0.3, "label": "Special" }, { "x": 0, "y": -0.4, "size": 0.3, "label": "Special" }],
+                "shield": [{ "x": 0, "y": 0, "size": 1.25, "label": "Shield" }]
+            }
+        },
+        "spectre": { 
+            "name": "Spectre", "desc": "An energy-based frame that is hard to detect.", "cost": 18000, "health": 120, "size": 14, "baseThrust": 0.13, "baseStrafe": 0.11, "baseTurn": 8, "color": "#bdc3c7", "art": "interceptor", "tier": 2,
+            "slots": {
+                "engine": [{ "x": -0.6, "y": 0, "size": 0.35, "label": "Engine" }],
+                "weapon": [{ "x": 0.9, "y": 0, "size": 0.2, "label": "Weapon 1" }],
+                "special": [{ "x": 0.1, "y": 0, "size": 0.3, "label": "Special" }],
+                "tech": [{ "x": -0.2, "y": 0, "size": 0.25, "label": "Tech" }]
+            }
+        },
+        "mothership": {
+            "name": "Mothership", "desc": "A colossal command vessel with unmatched firepower.", "cost": 50000, "health": 2500, "size": 40, "baseThrust": 0.02, "baseStrafe": 0.01, "baseTurn": 0.5, "color": "#e74c3c", "art": "mothership", "tier": 4,
+            "slots": {
+                "engine": [{ "x": -0.8, "y": 0, "size": 0.3, "label": "Main Engine"}],
+                "weapon": [
+                    { "x": 0.8, "y": 0.2, "size": 0.15, "label": "Forward Battery 1" }, 
+                    { "x": 0.8, "y": -0.2, "size": 0.15, "label": "Forward Battery 2" },
+                    { "x": 0.5, "y": 0.4, "size": 0.15, "label": "Broadside 1" },
+                    { "x": 0.5, "y": -0.4, "size": 0.15, "label": "Broadside 2" }
+                ],
+                "turret": [
+                    { "x": 0.2, "y": 0.6, "size": 0.2, "label": "Dorsal Turret 1" },
+                    { "x": -0.2, "y": 0.6, "size": 0.2, "label": "Dorsal Turret 2" },
+                    { "x": 0.2, "y": -0.6, "size": 0.2, "label": "Ventral Turret 1" },
+                    { "x": -0.2, "y": -0.6, "size": 0.2, "label": "Ventral Turret 2" }
+                ],
+                "drone": [
+                    { "x": -0.6, "y": 0.3, "size": 0.18, "label": "Drone Bay 1" },
+                    { "x": -0.6, "y": -0.3, "size": 0.18, "label": "Drone Bay 2" },
+                    { "x": -0.8, "y": 0.5, "size": 0.18, "label": "Drone Bay 3" },
+                    { "x": -0.8, "y": -0.5, "size": 0.18, "label": "Drone Bay 4" }
+                ],
+                "shield": [{ "x": 0, "y": 0, "size": 1.2, "label": "Shield" }]
+            }
+        }
     },
     "weapon": {
-        "pulse_laser": { "name": "Pulse Laser", "desc": "Standard energy weapon.", "damage": 10, "cooldown": 15, "speed": 7, "color": "#00ff00", "size": 3, "type": "pulse" },
-        "spread_shot": { "name": "Spread Shot", "desc": "Fires three projectiles.", "damage": 7, "cooldown": 30, "speed": 6, "color": "#ffff00", "size": 2, "type": "spread" },
-        "homing_missiles": { "name": "Homing Missile Pod", "desc": "Fires a seeking projectile.", "damage": 25, "cooldown": 80, "speed": 4, "turn": 0.05, "color": "#ff6600", "size": 4, "type": "missile" },
-        "beam_laser": { "name": "Beam Laser", "desc": "A continuous damage beam.", "damage": 2.5, "cooldown": 0, "speed": 20, "color": "#ff0000", "size": 2, "type": "beam" },
-        "railgun": { "name": "Railgun", "desc": "High-velocity piercing shot.", "damage": 40, "cooldown": 90, "speed": 25, "color": "#00ffff", "size": 2, "type": "railgun" },
-        "plasma_cannon": { "name": "Plasma Cannon", "desc": "Area-of-effect explosive.", "damage": 30, "cooldown": 60, "speed": 5, "color": "#ff00ff", "size": 5, "type": "plasma" },
-        "flak_cannon": { "name": "Flak Cannon", "desc": "Fires a cloud of shrapnel.", "damage": 5, "cooldown": 40, "speed": 7, "type": "spread" },
-        "tachyon_lance": { "name": "Tachyon Lance", "desc": "Massive damage, long cooldown.", "damage": 100, "cooldown": 200, "speed": 30, "type": "railgun" },
-        "singularity_cannon": { "name": "Singularity Cannon", "desc": "Creates a damaging vortex.", "damage": 5, "cooldown": 180, "speed": 4, "type": "vortex" }
+        "pulse_laser": { "name": "Pulse Laser", "desc": "Standard energy weapon.", "cost": 500, "damage": 8, "cooldown": 15, "speed": 8, "color": "#00ff00", "size": 3, "type": "pulse", "tier": 1 },
+        "spread_shot": { "name": "Spread Shot", "desc": "Fires three projectiles.", "cost": 800, "damage": 6, "cooldown": 30, "speed": 7, "color": "#ffff00", "size": 2, "type": "spread", "tier": 1 },
+        "flak_cannon": { "name": "Flak Cannon", "desc": "Fires a cloud of shrapnel.", "cost": 1800, "damage": 2, "cooldown": 45, "speed": 9, "color": "#ffaa00", "type": "flak", "tier": 1 },
+        "homing_missiles": { "name": "Homing Missile Pod", "desc": "Fires a seeking projectile.", "cost": 1200, "damage": 20, "cooldown": 80, "speed": 4.5, "turn": 0.05, "color": "#ff6600", "size": 4, "type": "missile", "tier": 1 },
+        "plasma_cannon": { "name": "Plasma Cannon", "desc": "Fires a slow, large projectile.", "cost": 2200, "damage": 35, "cooldown": 60, "speed": 4, "color": "#ff00ff", "size": 6, "type": "plasma", "tier": 1 },
+        "railgun": { "name": "Railgun", "desc": "High-velocity piercing shot.", "cost": 2500, "damage": 40, "cooldown": 90, "speed": 25, "color": "#00ffff", "size": 2, "type": "railgun", "piercing": true, "tier": 1 },
+        "beam_laser": { "name": "Beam Laser", "desc": "A continuous damage beam.", "cost": 3000, "damage": 3, "cooldown": 5, "range": 400, "color": "#ff3333", "type": "beam", "tier": 2 },
+        "chain_lightning": { "name": "Chain Lightning", "desc": "Projectile arcs to a nearby target on hit.", "cost": 4500, "damage": 15, "cooldown": 50, "speed": 9, "color": "#ffffff", "size": 4, "type": "chain", "tier": 2 },
+        "charge_cannon": { "name": "Charge Cannon", "desc": "Hold to charge for a devastating blast.", "cost": 5000, "damage": 10, "speed": 10, "color": "#f39c12", "type": "charge", "tier": 2 },
+        "mine_layer": { "name": "Mine Layer", "desc": "Deploys proximity mines behind the ship.", "cost": 3500, "damage": 50, "cooldown": 70, "color": "#e74c3c", "type": "mine", "tier": 2 },
+        "tachyon_lance": { "name": "Tachyon Lance", "desc": "Massive damage, long cooldown.", "cost": 7000, "damage": 120, "cooldown": 200, "speed": 50, "color": "#9b59b6", "size": 3, "type": "railgun", "piercing": true, "tier": 3 },
+        "singularity_cannon": { "name": "Singularity Cannon", "desc": "Creates a damaging vortex.", "cost": 8000, "damage": 8, "cooldown": 180, "color": "#34495e", "type": "vortex", "tier": 3 }
+    },
+    "turret": {
+        "point_defense": { "name": "Point Defense Turret", "desc": "Automatically targets nearby projectiles.", "cost": 2500, "damage": 2, "cooldown": 10, "range": 250, "color": "#f1c40f", "tier": 2}
+    },
+    "drone": {
+        "combat_drone": { "name": "Combat Drone", "desc": "Launches an autonomous combat drone.", "cost": 4000, "health": 50, "damage": 5, "cooldown": 30, "type": "combat", "tier": 2}
     },
     "engine": {
-        "standard_ion": { "name": "Standard Ion", "desc": "A reliable, basic engine.", "thrustMultiplier": 1.0 },
-        "overcharged_fusion": { "name": "Overcharged Fusion", "desc": "Higher thrust, less efficient.", "thrustMultiplier": 1.4 },
-        "vector_drive": { "name": "Vector Drive", "desc": "Improves strafing effectiveness.", "thrustMultiplier": 1.1 },
-        "warp_core": { "name": "Warp Core", "desc": "Experimental, unstable power.", "thrustMultiplier": 1.8 }
+        "standard_ion": { "name": "Standard Ion", "desc": "A reliable, basic engine.", "cost": 400, "thrustMultiplier": 1.0, "tier": 1 },
+        "overcharged_fusion": { "name": "Overcharged Fusion", "desc": "Higher thrust, less efficient.", "cost": 900, "thrustMultiplier": 1.4, "tier": 1 },
+        "vector_drive": { "name": "Vector Drive", "desc": "Improves strafing effectiveness.", "cost": 1300, "thrustMultiplier": 1.1, "tier": 1 },
+        "warp_core": { "name": "Warp Core", "desc": "Experimental, unstable power.", "cost": 3200, "thrustMultiplier": 1.8, "tier": 1 },
+        "singularity_drive": { "name": "Singularity Drive", "desc": "Bends space-time for unparalleled thrust.", "cost": 7500, "thrustMultiplier": 2.5, "tier": 2 }
     },
     "shield": {
-        "basic_shield": { "name": "Basic Shield", "desc": "Standard deflector shield.", "health": 50, "regen": 1 },
-        "reactive_shield": { "name": "Reactive Shield", "desc": "Hardened against kinetic impact.", "health": 75, "regen": 0.5 },
-        "energy_barrier": { "name": "Energy Barrier", "desc": "High capacity, slow to recharge.", "health": 120, "regen": 0.2 },
-        "phase_field": { "name": "Phase Field", "desc": "Chance to ignore damage.", "health": 40, "regen": 2 }
+        "basic_shield": { "name": "Basic Shield", "desc": "Standard deflector shield.", "cost": 750, "health": 50, "regen": 1, "tier": 1 },
+        "reactive_shield": { "name": "Reactive Shield", "desc": "Hardened against kinetic impact.", "cost": 1400, "health": 75, "regen": 0.5, "tier": 1 },
+        "energy_barrier": { "name": "Energy Barrier", "desc": "High capacity, slow to recharge.", "cost": 1800, "health": 120, "regen": 0.2, "tier": 1 },
+        "phase_field": { "name": "Phase Field", "desc": "Chance to ignore damage.", "cost": 4000, "health": 40, "regen": 2, "tier": 1 },
+        "aegis_barrier": { "name": "Aegis Barrier", "desc": "An impenetrable fortress of a shield.", "cost": 9000, "health": 250, "regen": 0.8, "tier": 2 }
     },
     "thrusters": {
-        "maneuvering_jets": { "name": "Maneuvering Jets", "desc": "Improves turning and strafing.", "turnBonus": 2, "strafeBonus": 0.02 },
-        "inertial_dampeners": { "name": "Inertial Dampeners", "desc": "Improves handling and drift.", "turnBonus": 1, "strafeBonus": 0.04 },
-        "phase_thrusters": { "name": "Phase Thrusters", "desc": "Allows short-range phase jumps.", "turnBonus": 3, "strafeBonus": 0.03 }
+        "maneuvering_jets": { "name": "Maneuvering Jets", "desc": "Improves turning and strafing.", "cost": 600, "turnBonus": 2, "strafeBonus": 0.02, "tier": 1 },
+        "inertial_dampeners": { "name": "Inertial Dampeners", "desc": "Improves handling and drift.", "cost": 1100, "turnBonus": 1, "strafeBonus": 0.04, "tier": 1 },
+        "phase_thrusters": { "name": "Phase Thrusters", "desc": "Allows short-range phase jumps.", "cost": 3500, "turnBonus": 3, "strafeBonus": 0.03, "tier": 1 },
+        "blink_drive": { "name": "Blink Drive", "desc": "Advanced thrusters for instantaneous repositioning.", "cost": 6500, "turnBonus": 4, "strafeBonus": 0.05, "tier": 2 }
     },
     "special": {
-        "burst_thruster": { "name": "Burst Thruster", "desc": "A short, powerful forward boost.", "type": "boost", "boostMultiplier": 4, "duration": 15, "cooldown": 120 },
-        "emp_blast": { "name": "EMP Blast", "desc": "Disables nearby opponents.", "type": "emp", "duration": 180, "cooldown": 300 },
-        "cloak_field": { "name": "Cloaking Field", "desc": "Renders ship invisible.", "type": "cloak", "duration": 240, "cooldown": 400 },
-        "repair_drones": { "name": "Repair Drones", "desc": "Deploys drones to heal your ship.", "type": "repair" }
+        "burst_thruster": { "name": "Burst Thruster", "desc": "A short, powerful forward boost.", "cost": 1000, "type": "boost", "boostMultiplier": 4, "duration": 15, "cooldown": 120, "tier": 1},
+        "emp_blast": { "name": "EMP Blast", "desc": "Disables nearby opponents.", "cost": 1800, "type": "emp", "duration": 180, "cooldown": 300, "tier": 1 },
+        "cloak_field": { "name": "Cloaking Field", "desc": "Renders ship invisible.", "cost": 2500, "type": "cloak", "duration": 240, "cooldown": 400, "tier": 1 },
+        "repair_drones": { "name": "Repair Drones", "desc": "Deploys drones to heal your ship.", "cost": 2200, "type": "repair", "tier": 1 },
+        "overdrive_core": { "name": "Overdrive Core", "desc": "Temporarily boosts weapon power dramatically.", "cost": 5000, "type": "overdrive", "duration": 180, "cooldown": 500, "tier": 2 }
     },
     "tech": {
-        "fire_rate_controller": { "name": "Fire-Rate Controller", "desc": "Reduces weapon cooldowns.", "cooldownReduction": 5 },
-        "energy_siphon": { "name": "Energy Siphon", "desc": "Converts a portion of damage to energy." },
-        "targeting_cpu": { "name": "Targeting CPU", "desc": "Improves projectile accuracy." },
-        "augmented_projectiles": { "name": "Augmented Projectiles", "desc": "Increases projectile speed." }
+        "fire_rate_controller": { "name": "Fire-Rate Controller", "desc": "Reduces weapon cooldowns.", "cost": 1500, "cooldownReduction": 5, "tier": 1 },
+        "energy_siphon": { "name": "Energy Siphon", "desc": "Converts a portion of damage to energy.", "cost": 2000, "tier": 1 },
+        "targeting_cpu": { "name": "Targeting CPU", "desc": "Improves projectile accuracy.", "cost": 1200, "tier": 1 },
+        "augmented_projectiles": { "name": "Augmented Projectiles", "desc": "Increases projectile speed.", "cost": 1800, "tier": 1 },
+        "hull_polarizer": { "name": "Hull Polarizer", "desc": "Converts a portion of shield energy to slowly repair the hull.", "cost": 4500, "tier": 2 }
     }
 }
 

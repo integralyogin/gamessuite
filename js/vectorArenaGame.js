@@ -24,7 +24,7 @@ const VectorArenaGame = {
         else if (!this.playerData) {
              console.log("No player data found, creating new default data.");
              this.playerData = {
-                credits: 2000, 
+                credits: 200000, 
                 owned: {
                     chassis: ['interceptor'],
                     weapon: [{ id: 'pulse_laser', instanceId: 1 }],
