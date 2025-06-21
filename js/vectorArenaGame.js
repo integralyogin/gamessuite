@@ -1,10 +1,10 @@
 /**
- * vectorArenaGame.js - v2.2 (Exploration Mode Added)
+ * vectorArenaGame.js - v2.3 (Navigation Fix)
  * This is the main menu and hub for the Vector Arena game.
- * v2.2 Changes:
- * - Added an "Explore Sector" button to the main menu.
- * - Implemented the necessary event handler to launch the 'vectorExplore' game scene.
- * - This integrates the new exploration game mode into the primary game loop.
+ * v2.3 Changes:
+ * - Fixed a critical navigation bug when returning from the exploration scene.
+ * - The 'Explore Sector' button now correctly passes 'returnTo: vectorArenaGame' to the game manager.
+ * - This ensures the game manager knows where to return after the exploration loop is complete, preventing it from falling back to the main game suite sequence.
  */
 const VectorArenaGame = {
     id: 'vectorArena',
@@ -35,7 +35,6 @@ const VectorArenaGame = {
     },
     
     loadDefaultPlayerData: function() {
-        // This can be replaced with loading from localStorage or a server
         return {
             credits: 50000,
             owned: {
@@ -123,6 +122,7 @@ const VectorArenaGame = {
             if (this.onSuccess) {
                 this.onSuccess({
                     nextGame: 'vectorArenaCombat',
+                    returnTo: 'vectorArenaGame',
                     playerData: this.playerData,
                     parts: this.PARTS
                 });
@@ -134,6 +134,7 @@ const VectorArenaGame = {
             if (this.onSuccess) {
                 this.onSuccess({
                     nextGame: 'vectorArenaHangar',
+                    returnTo: 'vectorArenaGame',
                     playerData: this.playerData,
                     parts: this.PARTS
                 });
@@ -145,6 +146,7 @@ const VectorArenaGame = {
             if (this.onSuccess) {
                 this.onSuccess({
                     nextGame: 'vectorExplore',
+                    returnTo: 'vectorArenaGame', // FIX: Specify where to return after exploring
                     playerData: this.playerData,
                     parts: this.PARTS
                 });
@@ -153,7 +155,6 @@ const VectorArenaGame = {
 
         const exitBtn = this.gameContainer.querySelector('#menu-exit-btn');
         exitBtn.addEventListener('click', () => {
-            // This might exit to a higher level menu in a real game
             console.log("Exiting game...");
             if (this.onFailure) {
                 this.onFailure({ reason: "User exited." });

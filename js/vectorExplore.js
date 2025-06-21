@@ -1,12 +1,8 @@
 /**
- * vectorExplore.js - v1.1 (Stations & Hostiles)
- * This game mode allows the player to explore a large, open-world sector for rewards.
- * v1.1 Changes:
- * - Replaced random 'Anomalies' with a central Space Station and hostile Pirate ships.
- * - The player can only return to the hangar by docking at the Space Station.
- * - The "Dock" button now appears dynamically when the player is within range of the station.
- * - Defeating pirates now awards credits, creating a risk-vs-reward gameplay loop.
- * - The world is now divided into safe zones (near the station) and dangerous zones (patrolled by pirates).
+ * vectorExplore.js - v1.2 (Docking Navigation Fix)
+ * This version fixes the docking logic to ensure the player returns to the main menu.
+ * - The `dockAtStation` function now correctly sends the 'vectorArena' game ID to the game manager.
+ * - This prevents the game from getting lost in the game sequence and ensures a smooth return to the main menu.
  */
 const VectorExploreGame = {
     id: 'vectorExplore',
@@ -71,7 +67,7 @@ const VectorExploreGame = {
                     <div id="explore-hud" class="hud-box"></div>
                 </div>
             </div>
-            <button id="dock-at-station-btn">Dock at Station</button>
+            <button id="dock-at-station-btn">Return to Menu</button>
         `;
         this.canvas = this.gameContainer.querySelector('#explore-canvas');
         this.ctx = this.canvas.getContext('2d');
@@ -137,7 +133,6 @@ const VectorExploreGame = {
             }
             ctx.restore();
             
-            // Draw docking radius
             ctx.strokeStyle = 'rgba(0, 170, 255, 0.2)';
             ctx.lineWidth = 2;
             ctx.setLineDash([10, 10]);
@@ -210,19 +205,15 @@ const VectorExploreGame = {
     update: function() {
         if (this.isPaused) return;
 
-        // Update logic
         if (this.playerShip) {
             this.playerShip.update(this.keys, {x: this.mousePos.x + this.camera.x, y: this.mousePos.y + this.camera.y});
             this.clampToWorld(this.playerShip);
         }
         
-        let closestHostile = null;
-        let min_dist = Infinity;
-
         for (let i = this.hostiles.length - 1; i >= 0; i--) {
             const hostile = this.hostiles[i];
             if (hostile.health <= 0) {
-                this.playerData.credits += 150; // Reward for kill
+                this.playerData.credits += 150;
                 this.hostiles.splice(i, 1); 
                 continue;
             }
@@ -233,7 +224,6 @@ const VectorExploreGame = {
         this.station.update();
         this.updateCamera();
         
-        // Drawing logic
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         this.ctx.save();
         this.ctx.translate(-this.camera.x, -this.camera.y);
@@ -271,7 +261,6 @@ const VectorExploreGame = {
                 for (let j = this.hostiles.length - 1; j >= 0; j--) {
                     const target = this.hostiles[j];
                      if (target && target.health > 0 && Math.hypot(p.x - target.x, p.y - target.y) < target.size) {
-                        target.takeDamage(p.damage);
                         p.onHit(target);
                         if (!p.isPiercing) { this.projectiles.splice(i, 1); break; }
                     }
@@ -279,14 +268,13 @@ const VectorExploreGame = {
             } else {
                 const target = this.playerShip;
                 if (target && target.health > 0 && Math.hypot(p.x - target.x, p.y - target.y) < target.size) {
-                    target.takeDamage(p.damage);
                     p.onHit(target);
                     if (!p.isPiercing) { this.projectiles.splice(i, 1); }
                 }
             }
         }
         
-        if (this.playerShip && this.playerShip.health <= 0) { this.endExploration(); return; }
+        if (this.playerShip && this.playerShip.health <= 0) { this.dockAtStation(); return; }
 
         this.gameLoop = requestAnimationFrame(this.update.bind(this));
     },
@@ -297,7 +285,7 @@ const VectorExploreGame = {
             this.gameLoop = null;
         }
         if (this.onSuccess) {
-            this.onSuccess({ from: 'explore', playerData: this.playerData });
+            this.onSuccess({ nextGame: 'vectorArena', playerData: this.playerData, parts: this.PARTS });
         }
     },
 

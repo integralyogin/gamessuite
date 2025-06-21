@@ -764,7 +764,15 @@ const VectorArenaObjects = {
             } else if (this.weapon.projectileClass === 'Beam') {
                 const beam = new VectorArenaObjects.TurretBeam(this, this.weapon, this.context);
                 this.context.projectiles.push(beam);
-            } else if (this.weapon.projectileClass === 'PlasmaOrb') {
+            }  		else if (weapon.type === 'swarm') {
+                for (let i = 0; i < 5; i++) {
+                    const swarmAngle = this.angle + (Math.random() - 0.5) * 0.3;
+                    const swarmWeapon = {...weapon, type: 'missile'}; 
+                    this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(swarmAngle) * weapon.speed, Math.sin(swarmAngle) * weapon.speed, swarmWeapon, this.playerNum, this.context));
+                }
+            } else if (weapon.type === 'vortex') {
+                 this.context.vortices.push(new VectorArenaObjects.Vortex(spawnX, spawnY, weapon, this.playerNum, this.context));
+            }  else if (this.weapon.projectileClass === 'PlasmaOrb') {
                 const speed = this.weapon.speed || 6;
                 const plasma = new VectorArenaObjects.PlasmaOrb(startX, startY, Math.cos(this.angle) * speed, Math.sin(this.angle) * speed, this.weapon, this.ship.playerNum, this.context);
                 this.context.projectiles.push(plasma);
@@ -776,6 +784,10 @@ const VectorArenaObjects = {
             
             this.context.particles.push(new VectorArenaObjects.Particle(startX, startY, this.weapon.color || '#ffff00', 6, 2));
         }
+
+
+
+
         isOutOfBounds() { return this.life <= 0; }
         draw(ctx) {
             ctx.save();
@@ -1112,6 +1124,23 @@ const VectorArenaObjects = {
                 case 'Beam':
                     this.context.projectiles.push(new VectorArenaObjects.Beam(this, weapon, this.context));
                     break;
+        case 'spread':
+			    console.log("spread case")
+                    for (let i = -1; i <= 1; i++) {
+                        const spreadAngle = angle + i * 0.2;
+                        this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(spreadAngle) * weapon.speed, Math.sin(spreadAngle) * weapon.speed, weapon, this.playerNum, this.context));
+                    }
+                    break;
+
+		case 'flak':
+                    for (let i = 0; i < 15; i++) {
+                        const flakAngle = angle + (Math.random() - 0.5) * 0.7;
+                        const flakSpeed = weapon.speed * (0.8 + Math.random() * 0.4);
+                        const shrapnel = {...weapon, size: 2, life: 40 + Math.random() * 30};
+                        this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(flakAngle) * flakSpeed, Math.sin(flakAngle) * flakSpeed, shrapnel, this.playerNum, this.context));
+                    }
+                    break;
+			    
                 case 'Mine':
                     this.context.projectiles.push(new VectorArenaObjects.Mine(startX, startY, weapon, this.playerNum, this.context));
                     break;
@@ -1127,6 +1156,20 @@ const VectorArenaObjects = {
                 case 'LightningChain':
                     this.context.projectiles.push(new VectorArenaObjects.LightningChain(startX, startY, Math.cos(this.angle) * speed, Math.sin(this.angle) * speed, weapon, this.playerNum, this.context));
                     break;
+
+     case 'charge':
+                    const chargeRatio = this.chargeLevel / 100;
+                    const chargedWeapon = {
+                        ...weapon,
+                        damage: weapon.damage + chargeRatio * 100, // Up to +100 damage
+                        size: 3 + chargeRatio * 12, // Up to size 15
+                        speed: weapon.speed + chargeRatio * 10,
+                        piercing: chargeRatio > 0.9, // Piercing at >90% charge
+                    };
+                    this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(this.angle) * chargedWeapon.speed, Math.sin(this.angle) * chargedWeapon.speed, chargedWeapon, this.playerNum, this.context));
+                    this.chargeLevel = 0; // Reset charge
+                    break;
+			    
                 case 'CryoBlast':
                     this.context.projectiles.push(new VectorArenaObjects.CryoBlast(startX, startY, Math.cos(this.angle) * speed, Math.sin(this.angle) * speed, weapon, this.playerNum, this.context));
                     break;
@@ -1150,7 +1193,21 @@ const VectorArenaObjects = {
             }
         }
 
-        useSpecial() {
+     useSpecial() {
+            if (!this.special || this.specialCooldown > 0) return;
+            this.specialCooldown = this.special.cooldown;
+            if (this.special.type === 'boost') {
+                this.thrust = this.baseThrust * this.special.boostMultiplier;
+                this.boostTimer = this.special.duration;
+                for(let i=0; i < 20; i++) this.context.particles.push(new VectorArenaObjects.Particle(this.x, this.y, '#00ffff', 3, 2));
+            } else if (this.special.type === 'overdrive') {
+                this.overdriveActive = true;
+                this.overdriveTimer = this.special.duration;
+                for(let i=0; i < 20; i++) this.context.particles.push(new VectorArenaObjects.Particle(this.x, this.y, '#ff00ff', 3, 2));
+            }
+        }
+
+        useSpecial2() {
             if (this.specialCooldown > 0 || !this.special) return;
             this.specialCooldown = 300;
         }
@@ -1383,6 +1440,8 @@ const VectorArenaObjects = {
             ctx.closePath(); ctx.fill(); ctx.restore();
         }
     },
+
+
 
     Particle: class {
        constructor(x, y, color, size, speed, isLightning=false, endX=0, endY=0, isWave = false) {
