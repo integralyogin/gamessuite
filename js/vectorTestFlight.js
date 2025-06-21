@@ -1,288 +1,266 @@
 /**
- * VectorTestFlight.js - v21 (Complete and Fully Fixed)
- * A dedicated module for flight simulation. This version adds a stationary
- * training dummy and ensures all core functions are complete to prevent crashes.
+ * vectorTestFlight.js - v2.0 (Targeting Fix)
+ * This version updates the test flight scene to support homing weapons.
+ * - Added an `opponents` array to the game state.
+ * - The test dummy is now a proper game object with health and is added to the `opponents` array.
+ * - This makes the dummy a valid target for the Cluster Missiles and other homing projectiles, preventing crashes.
+ * - The dummy will now respawn after being destroyed.
  */
 const VectorTestFlightGame = {
     id: 'vectorTestFlight',
-
-    // --- Core State ---
+    onSuccess: null,
+    onFailure: null,
     gameContainer: null,
     canvas: null,
     ctx: null,
-    gameLoop: null,
-    keys: {},
     playerShip: null,
-    mousePos: { x: 0, y: 0 },
     projectiles: [],
     particles: [],
-    vortices: [],
-    beams: [],
-    mines: [],
-    trainingDummy: null,
-    onSuccess: null,
-    playerData: null,
+    opponents: [], // Added to support targeting logic
+    dummy: null, // To hold the dummy object
+    keys: {},
+    mousePos: { x: 0, y: 0 },
+    camera: { x: 0, y: 0 },
+    worldBounds: { width: 3000, height: 3000 },
+    stars: [],
     PARTS: null,
+    playerData: null,
+    gameLoop: null,
 
-    /**
-     * Initializes the Test Flight game.
-     */
     init: async function(container, successCallback, failureCallback, sharedData) {
         this.gameContainer = container;
         this.onSuccess = successCallback;
+        this.onFailure = failureCallback;
 
-        this.PARTS = await PartsLoader.getParts();
-        if (!this.PARTS) {
-            console.error("CRITICAL: Test Flight could not load parts data. Aborting.");
-            if (failureCallback) failureCallback({reason: "Failed to load parts."});
-            return;
-        }
-
-        if (sharedData && sharedData.playerData) {
+        try {
+            this.PARTS = sharedData.parts || await PartsLoader.getParts();
             this.playerData = sharedData.playerData;
-        } else {
-            console.warn("VectorTestFlightGame: No playerData found. Using default loadout.");
-            this.playerData = {
-                 owned: { weapon: [ { id: 'pulse_laser', instanceId: 1 } ] },
-                 equipped: { chassis: 'interceptor', weapon: 1, engine: 'standard_ion', thrusters: 'maneuvering_jets', special: 'burst_thruster' }
-            };
+
+            this.setupUI();
+            this.addEventListeners();
+            this.setupGame();
+            
+            this.gameLoop = setInterval(this.update.bind(this), 1000 / 60);
+
+        } catch (error) {
+            console.error("Failed to initialize Test Flight:", error);
+            if (this.onFailure) this.onFailure({ reason: "Could not start test flight." });
         }
-
-        this.setupUI();
-        this.addEventListeners();
-        this.initializeScene();
-
-        if (this.gameLoop) clearInterval(this.gameLoop);
-        this.gameLoop = setInterval(() => this.update(), 1000 / 60);
     },
 
     setupUI: function() {
         this.gameContainer.innerHTML = `
             <style>
-                #vtf-canvas-container { width: 100%; height: 100%; background: #0c0c0c; position: relative; cursor: crosshair; }
-                #vtf-canvas { display: block; width: 100%; height: 100%; }
-                .vtf-hud { position: absolute; top: 10px; left: 10px; right: 10px; display: flex; justify-content: space-between; pointer-events: none; color: white; font-family: 'Courier New', Courier, monospace; }
-                .vtf-controls { background: rgba(0,0,0,0.5); padding: 10px; border: 1px solid #333; border-radius: 5px; }
-                .vtf-speed { font-size: 1.2em; color: #0f0; }
-                .vtf-exit { pointer-events: all; }
-                .vtf-button { background: transparent; border: 2px solid #00aaff; color: #00aaff; padding: 10px 20px; font-size: 1em; cursor: pointer; transition: all 0.3s ease; }
-                .vtf-button:hover { background: #00aaff; color: #000; }
+                #flight-canvas { background: #080010; display: block; width: 100%; height: 100%; cursor: crosshair; }
+                #flight-return-btn { position: absolute; top: 20px; right: 20px; font-size: 1.2em; padding: 10px 20px; cursor: pointer; background: #ff4400; color: white; border: none; }
             </style>
-            <div id="vtf-canvas-container">
-                <canvas id="vtf-canvas"></canvas>
-                <div class="vtf-hud">
-                     <div class="vtf-controls">
-                        <strong>Test Flight Mode</strong><br>
-                        LMB/RMB: Primary/Secondary Fire<br>
-                        Spacebar: Use Special<br>
-                        W/S: Accelerate/Reverse<br>
-                        A/D: Strafe Left/Right<br>
-                        <div class="vtf-speed" id="vtf-speed-display">Speed: 0</div>
-                    </div>
-                    <div class="vtf-exit">
-                         <button id="vtf-back-btn" class="vtf-button">Exit Test Flight</button>
-                    </div>
-                </div>
-            </div>
+            <canvas id="flight-canvas"></canvas>
+            <button id="flight-return-btn">Return to Hangar</button>
         `;
-        this.canvas = document.getElementById('vtf-canvas');
+        this.canvas = this.gameContainer.querySelector('#flight-canvas');
         this.ctx = this.canvas.getContext('2d');
+        this.resizeCanvas();
     },
-    
-    initializeScene: function() {
+
+    resizeCanvas: function() {
+        this.canvas.width = this.gameContainer.clientWidth;
+        this.canvas.height = this.gameContainer.clientHeight;
+    },
+
+    Dummy: class {
+        constructor(x, y, context) {
+            this.x = x;
+            this.y = y;
+            this.context = context;
+            this.size = 50;
+            this.maxHealth = 5000;
+            this.health = this.maxHealth;
+            this.playerNum = 99; // Unique ID to avoid friendly fire issues
+            this.color = '#555';
+        }
+
+        takeDamage(amount) {
+            this.health -= amount;
+            // Visual feedback for damage
+             for (let i = 0; i < 3; i++) {
+                this.context.particles.push(new VectorArenaObjects.Particle(
+                    this.x + (Math.random() - 0.5) * this.size, 
+                    this.y + (Math.random() - 0.5) * this.size, 
+                    '#ff9900', Math.random() * 3 + 1, 2));
+            }
+
+            if (this.health <= 0) {
+                this.respawn();
+            }
+        }
+        
+        respawn() {
+             for (let i = 0; i < 100; i++) {
+                this.context.particles.push(new VectorArenaObjects.Particle(this.x, this.y, this.color, Math.random() * 6, 4));
+            }
+            this.health = this.maxHealth;
+        }
+
+        update() { /* The dummy doesn't move */ }
+        
+        onHit(projectile) { /* Dummy doesn't fire back */ }
+
+        draw(ctx) {
+            ctx.fillStyle = this.color;
+            ctx.fillRect(this.x - this.size / 2, this.y - this.size / 2, this.size, this.size);
+            
+            // Draw health bar
+            const barWidth = this.size * 1.5;
+            const barY = this.y - this.size / 2 - 20;
+            ctx.fillStyle = '#333';
+            ctx.fillRect(this.x - barWidth / 2, barY, barWidth, 10);
+            ctx.fillStyle = '#ff0000';
+            ctx.fillRect(this.x - barWidth / 2, barY, barWidth * (this.health / this.maxHealth), 10);
+        }
+    },
+
+    setupGame: function() {
+        this.playerShip = new VectorArenaObjects.Ship(this.worldBounds.width / 2, this.worldBounds.height / 2, this.playerData, 1, this);
+        
+        // Setup dummy as an opponent
+        this.dummy = new this.Dummy(this.worldBounds.width / 2, this.worldBounds.height / 2 - 400, this);
+        this.opponents = [this.dummy]; // Add dummy to opponents array for targeting
+
         this.projectiles = [];
         this.particles = [];
-        this.vortices = [];
-        this.beams = [];
-        this.mines = [];
         
-        requestAnimationFrame(() => {
-            this.resizeCanvas();
-            const startX = this.canvas.width / 4;
-            const startY = this.canvas.height / 2;
-            if (this.canvas.width > 0) {
-                this.playerShip = new VectorArenaObjects.Ship(startX, startY, this.playerData, 1, this);
-                
-                this.trainingDummy = {
-                    x: this.canvas.width * 0.75,
-                    y: this.canvas.height / 2,
-                    size: 40,
-                    health: 1000,
-                    maxHealth: 1000,
-                    damageTakenTime: 0,
-                    color: '#8e44ad',
-                    isCloaked: false, // For AI targeting consistency
-                    takeDamage: function(amount) {
-                        this.health = Math.max(0, this.health - amount);
-                        this.damageTakenTime = Date.now();
-                    }
-                };
+        this.stars = [];
+        for (let i = 0; i < 1000; i++) {
+            this.stars.push({
+                x: Math.random() * this.worldBounds.width,
+                y: Math.random() * this.worldBounds.height,
+                size: Math.random() * 2 + 1
+            });
+        }
+    },
+    
+    update: function() {
+        // Update logic
+        this.playerShip.update(this.keys, {x: this.mousePos.x + this.camera.x, y: this.mousePos.y + this.camera.y});
+        this.clampToWorld(this.playerShip);
+        
+        this.opponents.forEach(opp => opp.update());
+
+        // Update projectiles
+        for (let i = this.projectiles.length - 1; i >= 0; i--) {
+            const p = this.projectiles[i];
+            p.update(this.dummy, this.playerShip); // Pass dummy as the primary opponent
+             if (p.life <= 0 || p.x < 0 || p.x > this.worldBounds.width || p.y < 0 || p.y > this.worldBounds.height) {
+                this.projectiles.splice(i, 1);
             }
+        }
+        
+        // Update particles
+        for (let i = this.particles.length - 1; i >= 0; i--) {
+            this.particles[i].update();
+            if (this.particles[i].isOutOfBounds()) this.particles.splice(i, 1);
+        }
+        
+        // Collision Detection
+        for (let i = this.projectiles.length - 1; i >= 0; i--) {
+            const p = this.projectiles[i];
+            if (!p) continue;
+            
+            // Player projectiles vs dummy
+            if (p.owner === 1) {
+                const target = this.dummy;
+                if (target.health > 0 && Math.hypot(p.x - target.x, p.y - target.y) < target.size / 2) {
+                    p.onHit(target);
+                     if (!p.isPiercing) this.projectiles.splice(i,1);
+                }
+            }
+        }
+
+        // Drawing logic
+        this.updateCamera();
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        this.ctx.save();
+        this.ctx.translate(-this.camera.x, -this.camera.y);
+        this.drawBackground();
+        this.playerShip.draw(this.ctx);
+        this.opponents.forEach(opp => opp.draw(this.ctx));
+        this.projectiles.forEach(p => p.draw(this.ctx));
+        this.particles.forEach(p => p.draw(this.ctx));
+        this.ctx.restore();
+    },
+
+    updateCamera: function() {
+        const smoothing = 0.05;
+        const targetX = this.playerShip.x - this.canvas.width / 2;
+        const targetY = this.playerShip.y - this.canvas.height / 2;
+        this.camera.x += (targetX - this.camera.x) * smoothing;
+        this.camera.y += (targetY - this.camera.y) * smoothing;
+        this.camera.x = Math.max(0, Math.min(this.camera.x, this.worldBounds.width - this.canvas.width));
+        this.camera.y = Math.max(0, Math.min(this.camera.y, this.worldBounds.height - this.canvas.height));
+    },
+
+    drawBackground: function() {
+        this.ctx.fillStyle = '#080010';
+        this.ctx.fillRect(0, 0, this.worldBounds.width, this.worldBounds.height);
+        this.ctx.fillStyle = '#fff';
+        this.stars.forEach(star => {
+            this.ctx.beginPath();
+            this.ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
+            this.ctx.fill();
         });
     },
-
-    update: function() {
-        if (!this.playerShip || !this.ctx) return;
-        this.ctx.fillStyle = '#0c0c0c';
-        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
-
-        this.playerShip.update(this.keys, this.mousePos); 
-        this.updateDummy();
-        this.updateHUD();
-
-        this.updateCollection(this.projectiles, this.trainingDummy, this.playerShip);
-        this.updateCollection(this.particles, this.trainingDummy, this.playerShip);
-        this.updateCollection(this.vortices, this.trainingDummy, this.playerShip);
-        this.updateCollection(this.beams, this.trainingDummy, this.playerShip);
-        this.updateCollection(this.mines, this.trainingDummy, this.playerShip);
-        this.checkCollisions();
-        
-        this.drawDummy();
-        this.drawCollection(this.projectiles);
-        this.drawCollection(this.particles);
-        this.drawCollection(this.vortices);
-        this.drawCollection(this.beams);
-        this.drawCollection(this.mines);
-        this.playerShip.draw(this.ctx);
-    },
-
-    updateDummy: function() {
-        if (!this.trainingDummy) return;
-        if (this.trainingDummy.health < this.trainingDummy.maxHealth && Date.now() - this.trainingDummy.damageTakenTime > 10000) {
-            this.trainingDummy.health = Math.min(this.trainingDummy.maxHealth, this.trainingDummy.health + 5);
-        }
-    },
-
-    drawDummy: function() {
-        if (!this.trainingDummy) return;
-        const dummy = this.trainingDummy;
-        this.ctx.fillStyle = dummy.color;
-        this.ctx.beginPath();
-        this.ctx.arc(dummy.x, dummy.y, dummy.size, 0, Math.PI * 2);
-        this.ctx.fill();
-
-        const barWidth = 100;
-        const barX = dummy.x - barWidth / 2;
-        const barY = dummy.y - dummy.size - 20;
-        const healthPercentage = dummy.health / dummy.maxHealth;
-
-        this.ctx.fillStyle = '#333';
-        this.ctx.fillRect(barX, barY, barWidth, 10);
-        this.ctx.fillStyle = '#e74c3c';
-        this.ctx.fillRect(barX, barY, barWidth * healthPercentage, 10);
-        this.ctx.strokeStyle = '#888';
-        this.ctx.strokeRect(barX, barY, barWidth, 10);
-    },
-
-    updateCollection: function(collection, opponent, player) {
-        for (let i = collection.length - 1; i >= 0; i--) {
-            const item = collection[i];
-            item.update(opponent, player); 
-            if (item.life <= 0 || item.isOutOfBounds(this.canvas)) {
-                collection.splice(i, 1);
-            }
-        }
-    },
     
-    drawCollection: function(collection) {
-        for (const item of collection) {
-            item.draw(this.ctx);
-        }
-    },
-    
-    updateHUD: function() {
-        const speedDisplay = document.getElementById('vtf-speed-display');
-        if (speedDisplay && this.playerShip) {
-            const speed = Math.hypot(this.playerShip.vx, this.playerShip.vy) * 10;
-            speedDisplay.textContent = `Speed: ${speed.toFixed(2)}`;
-        }
-    },
-
-    checkCollisions: function() {
-        if (!this.trainingDummy) return;
-
-        for (let i = this.projectiles.length - 1; i >= 0; i--) {
-            const proj = this.projectiles[i];
-            if (proj.owner !== 1) continue;
-            const dist = Math.hypot(proj.x - this.trainingDummy.x, proj.y - this.trainingDummy.y);
-            if (dist < this.trainingDummy.size + proj.size) {
-                this.trainingDummy.takeDamage(proj.damage);
-                if (typeof proj.onHit === 'function') {
-                    proj.onHit(this.trainingDummy);
-                }
-                if (!proj.isPiercing) {
-                    this.projectiles.splice(i, 1);
-                }
-            }
-        }
+    clampToWorld: function(entity) {
+        entity.x = Math.max(entity.size, Math.min(entity.x, this.worldBounds.width - entity.size));
+        entity.y = Math.max(entity.size, Math.min(entity.y, this.worldBounds.height - entity.size));
     },
 
     addEventListeners: function() {
-        this.boundKeyDown = e => { this.keys[e.key.toLowerCase()] = true; };
-        this.boundKeyUp = e => { this.keys[e.key.toLowerCase()] = false; };
-        this.boundMouseDown = e => { this.keys['mouse' + e.button] = true; };
-        this.boundMouseUp = e => { this.keys['mouse' + e.button] = false; };
-        this.boundResize = () => this.resizeCanvas();
-        this.boundContextMenu = e => e.preventDefault();
-        this.boundMouseMove = e => {
-            if (!this.canvas) return;
+        this.resizeHandler = () => this.resizeCanvas();
+        window.addEventListener('resize', this.resizeHandler);
+
+        this.keydownHandler = (e) => { this.keys[e.key] = true; };
+        this.keyupHandler = (e) => { this.keys[e.key] = false; };
+        document.addEventListener('keydown', this.keydownHandler);
+        document.addEventListener('keyup', this.keyupHandler);
+
+        this.mousedownHandler = (e) => { this.keys['mouse' + e.button] = true; };
+        this.mouseupHandler = (e) => { this.keys['mouse' + e.button] = false; };
+        this.canvas.addEventListener('mousedown', this.mousedownHandler);
+        this.canvas.addEventListener('mouseup', this.mouseupHandler);
+        
+        this.mousemoveHandler = (e) => {
             const rect = this.canvas.getBoundingClientRect();
             this.mousePos.x = e.clientX - rect.left;
             this.mousePos.y = e.clientY - rect.top;
         };
-        this.boundExitHandler = () => {
-            if(this.onSuccess) this.onSuccess({ from: 'testFlight', playerData: this.playerData });
-        };
+        this.canvas.addEventListener('mousemove', this.mousemoveHandler);
         
-        document.addEventListener('keydown', this.boundKeyDown);
-        document.addEventListener('keyup', this.boundKeyUp);
-        window.addEventListener('resize', this.boundResize);
-        
-        this.gameContainer.addEventListener('mousemove', this.boundMouseMove);
-        this.gameContainer.addEventListener('mousedown', this.boundMouseDown);
-        this.gameContainer.addEventListener('mouseup', this.boundMouseUp);
-        this.gameContainer.addEventListener('contextmenu', this.boundContextMenu);
-        
-        const exitButton = this.gameContainer.querySelector('#vtf-back-btn');
-        if (exitButton) exitButton.addEventListener('click', this.boundExitHandler);
-    },
+        this.contextmenuHandler = (e) => e.preventDefault();
+        this.canvas.addEventListener('contextmenu', this.contextmenuHandler);
 
-    removeEventListeners: function() {
-        document.removeEventListener('keydown', this.boundKeyDown);
-        document.removeEventListener('keyup', this.boundKeyUp);
-        window.removeEventListener('resize', this.boundResize);
-        if (this.gameContainer) {
-            this.gameContainer.removeEventListener('mousemove', this.boundMouseMove);
-            this.gameContainer.removeEventListener('mousedown', this.boundMouseDown);
-            this.gameContainer.removeEventListener('mouseup', this.boundMouseUp);
-            this.gameContainer.removeEventListener('contextmenu', this.boundContextMenu);
-            const exitButton = this.gameContainer.querySelector('#vtf-back-btn');
-            if (exitButton) exitButton.removeEventListener('click', this.boundExitHandler);
-        }
-    },
-    
-    resizeCanvas: function() {
-        if (!this.canvas) return;
-        const container = document.getElementById('vtf-canvas-container');
-        if (container) {
-            this.canvas.width = container.clientWidth;
-            this.canvas.height = container.clientHeight;
-            if (this.playerShip) {
-                this.playerShip.x = this.canvas.width / 4;
-                this.playerShip.y = this.canvas.height / 2;
+        document.getElementById('flight-return-btn').onclick = () => {
+            if (this.onSuccess) {
+                this.onSuccess({ from: 'testFlight', playerData: this.playerData });
             }
-             if (this.trainingDummy) {
-                this.trainingDummy.x = this.canvas.width * 0.75;
-                this.trainingDummy.y = this.canvas.height / 2;
-            }
-        }
+        };
     },
 
     destroy: function() {
-        if (this.gameLoop) clearInterval(this.gameLoop);
-        this.removeEventListeners();
-        if (this.gameContainer) this.gameContainer.innerHTML = '';
-        console.log("VectorTestFlightGame: Destroyed.");
-    },
+        if (this.gameLoop) {
+            clearInterval(this.gameLoop);
+        }
+        window.removeEventListener('resize', this.resizeHandler);
+        document.removeEventListener('keydown', this.keydownHandler);
+        document.removeEventListener('keyup', this.keyupHandler);
+        if (this.canvas) {
+            this.canvas.removeEventListener('mousedown', this.mousedownHandler);
+            this.canvas.removeEventListener('mouseup', this.mouseupHandler);
+            this.canvas.removeEventListener('mousemove', this.mousemoveHandler);
+            this.canvas.removeEventListener('contextmenu', this.contextmenuHandler);
+        }
+        this.gameContainer.innerHTML = '';
+        console.log("Vector Test Flight Destroyed.");
+    }
 };
 

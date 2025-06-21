@@ -1,9 +1,10 @@
 /**
- * vectorArenaHangar.js - v9.7 (Turret Slots Fixed)
- * This version fixes the turret slot display issues in the hangar UI.
- * - Fixed updateLoadoutDisplay to properly show turret slots
- * - Fixed populatePartSelection to handle turret instances correctly
- * - Turrets now work like weapons with instanceIds and multiple slots
+ * vectorArenaHangar.js - v9.9 (Critical Data Handling Fix)
+ * This version fixes the persistent weapon firing bug by implementing proper data cloning.
+ * - The root cause was identified as a shallow copy issue, where playerData was being mutated across different game scenes.
+ * - Implemented a deep copy of playerData using JSON.parse(JSON.stringify()) when transitioning to a new scene.
+ * - This ensures that the combat and test flight scenes always receive a clean, un-mutated copy of the player's loadout, preventing initialization errors.
+ * - This change guarantees data integrity between the hangar and combat scenes.
  */
 const VectorArenaHangarGame = {
     id: 'vectorArenaHangar',
@@ -16,7 +17,7 @@ const VectorArenaHangarGame = {
     init: async function(container, successCallback, failureCallback, sharedData) {
         this.gameContainer = container;
         this.onSuccess = successCallback;
-        console.log("Vector Arena Hangar Initializing (v9.7).");
+        console.log("Vector Arena Hangar Initializing (v9.9).");
 
         this.PARTS = sharedData.parts || await PartsLoader.getParts();
         if (!this.PARTS) {
@@ -181,14 +182,12 @@ const VectorArenaHangarGame = {
             return slotDiv;
         };
 
-        // Add basic slots
         grid.appendChild(createSlot('Chassis', chassis));
         grid.appendChild(createSlot('Engine', this.PARTS.engine[equipped.engine]));
         grid.appendChild(createSlot('Shield', this.PARTS.shield[equipped.shield]));
         grid.appendChild(createSlot('Special', this.PARTS.special[equipped.special]));
         grid.appendChild(createSlot('Tech', this.PARTS.tech[equipped.tech]));
 
-        // Add weapon slots
         const weaponSlots = chassis.slots?.weapon || [];
         weaponSlots.forEach((slot, index) => {
             const instanceId = equipped.weapon?.[index];
@@ -203,7 +202,6 @@ const VectorArenaHangarGame = {
             grid.appendChild(createSlot(label, weaponData, 'weapon', index));
         });
 
-        // Add turret slots - FIXED!
         const turretSlots = chassis.slots?.turret || [];
         turretSlots.forEach((slot, index) => {
             const instanceId = equipped.turret?.[index];
@@ -218,7 +216,6 @@ const VectorArenaHangarGame = {
             grid.appendChild(createSlot(label, turretData, 'turret', index));
         });
 
-        // Add drone slots
         const droneSlots = chassis.slots?.drone || [];
         droneSlots.forEach((slot, index) => {
             const instanceId = equipped.drone?.[index];
@@ -247,7 +244,6 @@ const VectorArenaHangarGame = {
             panesHTML += `<ul class="part-list">`;
 
             if (type === 'weapon' || type === 'turret' || type === 'drone') {
-                // Handle instanced parts (weapons, turrets, drones)
                 const ownedInstances = this.playerData.owned[type] || [];
                 ownedInstances.forEach(instance => {
                     const partData = this.PARTS[type][instance.id];
@@ -267,22 +263,20 @@ const VectorArenaHangarGame = {
                                 panesHTML += `<span class="fire-group-tag">G${group}</span>`;
                             }
                         } else {
-                            // Show available slots for this part type
                             const chassis = this.PARTS.chassis[this.playerData.equipped.chassis];
                             const slots = chassis.slots?.[type] || [];
-                            slots.forEach((slot, index) => {
-                                if (!this.playerData.equipped[type][index]) {
-                                    const slotLabel = slot.label || `${type} ${index + 1}`;
-                                    panesHTML += `<button class="part-action-button part-equip-button" data-type="${type}" data-instanceid="${instance.instanceId}" data-slotindex="${index}">Equip to ${slotLabel}</button>`;
-                                }
-                            });
+                            const nextAvailableSlotIndex = this.playerData.equipped[type].findIndex(slot => slot === null);
+                            
+                            if (nextAvailableSlotIndex !== -1) {
+                                const slotLabel = slots[nextAvailableSlotIndex]?.label || `${type} ${nextAvailableSlotIndex + 1}`;
+                                panesHTML += `<button class="part-action-button part-equip-button" data-type="${type}" data-instanceid="${instance.instanceId}" data-slotindex="${nextAvailableSlotIndex}">Equip to ${slotLabel}</button>`;
+                            }
                         }
                         
                         panesHTML += `</div></div></li>`;
                     }
                 });
             } else {
-                // Handle regular parts (chassis, engine, etc.)
                 const ownedParts = this.playerData.owned[type] || [];
                 ownedParts.forEach(partId => {
                     const partData = this.PARTS[type][partId];
@@ -325,22 +319,20 @@ const VectorArenaHangarGame = {
     },
 
     equipPart: function(type, partIdOrInstanceId, slotIndex) {
+        const id = (type === 'weapon' || type === 'turret' || type === 'drone') ? parseInt(partIdOrInstanceId) : partIdOrInstanceId;
+
         if (type === 'weapon' || type === 'turret' || type === 'drone') {
-            // Handle instanced parts
-            this.playerData.equipped[type][slotIndex] = partIdOrInstanceId;
+            this.playerData.equipped[type][slotIndex] = id;
         } else {
-            // Handle regular parts
-            this.playerData.equipped[type] = partIdOrInstanceId;
+            this.playerData.equipped[type] = id;
         }
         this.refreshHangar();
     },
 
     unequipPart: function(type, slotIndex) {
         if (type === 'weapon' || type === 'turret' || type === 'drone') {
-            // Handle instanced parts
             this.playerData.equipped[type][slotIndex] = null;
         } else {
-            // Handle regular parts
             this.playerData.equipped[type] = null;
         }
         this.refreshHangar();
@@ -360,9 +352,20 @@ const VectorArenaHangarGame = {
     },
 
     addEventListeners: function() {
-        this.exitHangarHandler = () => { if(this.onSuccess) this.onSuccess({ from: 'hangar', playerData: this.playerData }); };
-        this.launchTestFlightHandler = () => { if (this.onSuccess) this.onSuccess({ nextGame: 'vectorTestFlight', returnTo: 'vectorArenaHangar', playerData: this.playerData, parts: this.PARTS }); };
-        this.shopHandler = () => { if (this.onSuccess) this.onSuccess({ nextGame: 'vectorShop', returnTo: 'vectorArenaHangar', playerData: this.playerData, parts: this.PARTS }); }
+        // --- DATA INTEGRITY FIX: Use deep copies when transitioning scenes ---
+        const createSuccessPayload = (nextGame) => {
+            return {
+                nextGame: nextGame,
+                returnTo: 'vectorArenaHangar',
+                playerData: JSON.parse(JSON.stringify(this.playerData)), // Create a deep copy
+                parts: this.PARTS
+            };
+        };
+
+        this.exitHangarHandler = () => { if(this.onSuccess) this.onSuccess({ from: 'hangar', playerData: JSON.parse(JSON.stringify(this.playerData)) }); };
+        this.launchTestFlightHandler = () => { if (this.onSuccess) this.onSuccess(createSuccessPayload('vectorTestFlight')); };
+        this.shopHandler = () => { if (this.onSuccess) this.onSuccess(createSuccessPayload('vectorShop')); }
+        // --- END FIX ---
 
         this.inventoryClickHandler = (e) => {
             const button = e.target.closest('.part-action-button');
@@ -457,5 +460,4 @@ const VectorArenaHangarGame = {
         console.log("Vector Arena Hangar Destroyed.");
     },
 };
-
 

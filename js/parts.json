@@ -103,15 +103,59 @@
         "homing_missiles": { "name": "Homing Missile Pod", "desc": "Fires a seeking projectile.", "cost": 1200, "damage": 20, "cooldown": 80, "speed": 4.5, "turn": 0.05, "color": "#ff6600", "size": 4, "type": "missile", "tier": 1 },
         "plasma_cannon": { "name": "Plasma Cannon", "desc": "Fires a slow, large projectile.", "cost": 2200, "damage": 35, "cooldown": 60, "speed": 4, "color": "#ff00ff", "size": 6, "type": "plasma", "tier": 1 },
         "railgun": { "name": "Railgun", "desc": "High-velocity piercing shot.", "cost": 2500, "damage": 40, "cooldown": 90, "speed": 25, "color": "#00ffff", "size": 2, "type": "railgun", "piercing": true, "tier": 1 },
+        
+        "cryo_blaster": { "name": "Cryo Blaster", "desc": "Freezes enemies and slows their movement.", "cost": 1600, "damage": 25, "cooldown": 50, "speed": 6, "color": "#00ccff", "size": 6, "projectileClass": "CryoBlast", "freezeEffect": 60, "life": 150, "tier": 1 },
+        "acid_sprayer": { "name": "Acid Sprayer", "desc": "Corrosive projectiles that damage over time.", "cost": 1400, "damage": 20, "cooldown": 35, "speed": 5, "color": "#88ff00", "size": 5, "projectileClass": "AcidSpray", "corrosionDamage": 0.5, "life": 100, "tier": 1 },
+        "lightning_gun": { "name": "Lightning Gun", "desc": "Electrical projectiles that chain between enemies.", "cost": 1900, "damage": 18, "cooldown": 40, "speed": 8, "color": "#ffff00", "size": 4, "projectileClass": "LightningChain", "chainRange": 80, "maxChains": 2, "life": 120, "tier": 1 },
+        "plasma_orb": { "name": "Plasma Orb", "desc": "Pulsing energy projectile with trailing particles.", "cost": 2000, "damage": 30, "cooldown": 45, "speed": 6, "color": "#ff00ff", "size": 8, "projectileClass": "PlasmaOrb", "life": 180, "tier": 1 },
+        
         "beam_laser": { "name": "Beam Laser", "desc": "A continuous damage beam.", "cost": 3000, "damage": 3, "cooldown": 5, "range": 400, "color": "#ff3333", "type": "beam", "tier": 2 },
         "chain_lightning": { "name": "Chain Lightning", "desc": "Projectile arcs to a nearby target on hit.", "cost": 4500, "damage": 15, "cooldown": 50, "speed": 9, "color": "#ffffff", "size": 4, "type": "chain", "tier": 2 },
         "charge_cannon": { "name": "Charge Cannon", "desc": "Hold to charge for a devastating blast.", "cost": 5000, "damage": 10, "speed": 10, "color": "#f39c12", "type": "charge", "tier": 2 },
         "mine_layer": { "name": "Mine Layer", "desc": "Deploys proximity mines behind the ship.", "cost": 3500, "damage": 50, "cooldown": 70, "color": "#e74c3c", "type": "mine", "tier": 2 },
+        
+        "quantum_torpedo": { "name": "Quantum Torpedo", "desc": "Teleporting projectile with quantum tunneling.", "cost": 3800, "damage": 45, "cooldown": 75, "speed": 7, "color": "#00ffff", "size": 6, "projectileClass": "QuantumTorpedo", "life": 200, "tier": 2 },
+        "nanobot_launcher": { "name": "Nanobot Launcher", "desc": "Self-replicating swarm that infects enemies.", "cost": 4200, "damage": 15, "cooldown": 90, "speed": 5, "color": "#ff6600", "size": 12, "projectileClass": "NanobotSwarm", "life": 240, "tier": 2 },
+        "photon_lance": { "name": "Photon Lance", "desc": "Piercing beam weapon with brilliant core.", "cost": 4800, "damage": 60, "cooldown": 120, "range": 400, "color": "#ffffff", "projectileClass": "PhotonLance", "width": 4, "duration": 8, "piercing": true, "tier": 2 },
+        "ion_cannon": { "name": "Ion Cannon", "desc": "Charging beam that disables enemy weapons.", "cost": 5200, "damage": 40, "cooldown": 150, "range": 350, "color": "#00aaff", "projectileClass": "IonCannon", "maxBeamWidth": 8, "duration": 15, "chargeTime": 30, "tier": 2 },
+        "neurotoxin_dart": { "name": "Neurotoxin Dart", "desc": "Impairs enemy controls and vision.", "cost": 3600, "damage": 15, "cooldown": 60, "speed": 8, "color": "#88ff88", "size": 5, "projectileClass": "NeuroToxin", "cloudRadius": 40, "life": 200, "tier": 2 },
+        "gravity_well_launcher": { "name": "Gravity Well Launcher", "desc": "Creates gravitational fields that pull enemies.", "cost": 5800, "damage": 20, "cooldown": 180, "color": "#8800ff", "projectileClass": "GravityWell", "life": 300, "radius": 80, "pullForce": 0.3, "tier": 2 },
+        "energy_nova": { "name": "Energy Nova", "desc": "Expanding energy wave that damages everything.", "cost": 6200, "damage": 50, "cooldown": 200, "color": "#ffaa00", "projectileClass": "EnergyNova", "life": 60, "maxRadius": 120, "tier": 2 },
+        "holographic_decoy": { "name": "Holographic Decoy", "desc": "Creates fake ships to confuse enemies.", "cost": 3200, "damage": 0, "cooldown": 120, "speed": 4, "color": "#00ffff", "size": 20, "projectileClass": "HolographicDecoy", "life": 300, "tier": 2 },
+        
         "tachyon_lance": { "name": "Tachyon Lance", "desc": "Massive damage, long cooldown.", "cost": 7000, "damage": 120, "cooldown": 200, "speed": 50, "color": "#9b59b6", "size": 3, "type": "railgun", "piercing": true, "tier": 3 },
-        "singularity_cannon": { "name": "Singularity Cannon", "desc": "Creates a damaging vortex.", "cost": 8000, "damage": 8, "cooldown": 180, "color": "#34495e", "type": "vortex", "tier": 3 }
+        "singularity_cannon": { "name": "Singularity Cannon", "desc": "Creates a damaging vortex.", "cost": 8000, "damage": 8, "cooldown": 180, "color": "#34495e", "type": "vortex", "tier": 3 },
+        
+        "plasma_tornado": { "name": "Plasma Tornado", "desc": "Swirling vortex that pulls enemies and deals damage.", "cost": 8500, "damage": 35, "cooldown": 180, "speed": 4, "color": "#ff0088", "size": 15, "projectileClass": "PlasmaTornado", "pullRadius": 60, "pullForce": 0.15, "life": 300, "tier": 3 },
+        "dimensional_rift": { "name": "Dimensional Rift", "desc": "Tears in space-time that teleport enemies.", "cost": 9200, "damage": 25, "cooldown": 150, "color": "#aa00ff", "projectileClass": "DimensionalRift", "life": 200, "width": 80, "height": 20, "tier": 3 },
+        "time_distortion": { "name": "Time Distortion", "desc": "Slows down time in an area and damages enemies.", "cost": 10500, "damage": 30, "cooldown": 200, "color": "#9900ff", "projectileClass": "TimeDistortion", "life": 180, "radius": 60, "slowFactor": 0.3, "tier": 3 },
+        "molecular_disruptor": { "name": "Molecular Disruptor", "desc": "Reduces enemy maximum health temporarily.", "cost": 9800, "damage": 40, "cooldown": 100, "speed": 6, "color": "#ff6600", "size": 6, "projectileClass": "MolecularDisruptor", "fieldRadius": 30, "healthReduction": 20, "life": 180, "tier": 3 },
+        "antimatter_bomb": { "name": "Antimatter Bomb", "desc": "Massive explosion with knockback effects.", "cost": 12000, "damage": 100, "cooldown": 250, "speed": 3, "color": "#ff00ff", "size": 8, "projectileClass": "AntiMatterBomb", "blastRadius": 100, "life": 120, "tier": 3 },
+        "singularity_bomb": { "name": "Singularity Bomb", "desc": "Explodes into a black hole with extreme gravity.", "cost": 15000, "damage": 80, "cooldown": 300, "speed": 3, "color": "#000000", "size": 6, "projectileClass": "SingularityBomb", "maxEventHorizon": 80, "gravityStrength": 0.5, "life": 150, "tier": 3   },
+	    "cluster_missile": {
+            "name": "Cluster Missile",
+            "desc": "A missile that splits into multiple smaller, homing warheads.",
+            "cost": 2500,
+            "tier": 3,
+            "damage": 10,
+            "cooldown": 120,
+            "speed": 5,
+            "life": 240,
+            "turn": 0.04,
+            "color": "#ff9900",
+            "type": "missile",
+            "projectileClass": "ClusterMissile",
+            "submunitionCount": 6,
+            "submunitionDamage": 15,
+            "submunitionBlastRadius": 40
+        }
     },
     "turret": {
-        "point_defense": { "name": "Point Defense Turret", "desc": "Automatically targets nearby projectiles.", "cost": 2500, "damage": 2, "cooldown": 10, "range": 250, "color": "#f1c40f", "tier": 2}
+        "point_defense": { "name": "Point Defense Turret", "desc": "Automatically targets nearby projectiles.", "cost": 2500, "damage": 2, "cooldown": 10, "range": 250, "color": "#f1c40f", "tier": 2},
+        
+        "plasma_turret": { "name": "Plasma Turret", "desc": "Automated plasma orb launcher.", "cost": 4500, "damage": 25, "cooldown": 60, "range": 300, "color": "#ff00ff", "projectileClass": "PlasmaOrb", "tier": 2 },
+        "lightning_turret": { "name": "Lightning Turret", "desc": "Automated chain lightning system.", "cost": 5200, "damage": 20, "cooldown": 45, "range": 280, "color": "#ffff00", "projectileClass": "LightningChain", "tier": 2 },
+        "quantum_turret": { "name": "Quantum Turret", "desc": "Fires quantum torpedoes automatically.", "cost": 6800, "damage": 35, "cooldown": 80, "range": 320, "color": "#00ffff", "projectileClass": "QuantumTorpedo", "tier": 3 }
     },
     "drone": {
         "combat_drone": { "name": "Combat Drone", "desc": "Launches an autonomous combat drone.", "cost": 4000, "health": 50, "damage": 5, "cooldown": 30, "type": "combat", "tier": 2}
@@ -151,4 +195,5 @@
         "hull_polarizer": { "name": "Hull Polarizer", "desc": "Converts a portion of shield energy to slowly repair the hull.", "cost": 4500, "tier": 2 }
     }
 }
+
 
