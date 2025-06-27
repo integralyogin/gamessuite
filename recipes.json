@@ -1,0 +1,138 @@
+[
+  {
+    "id": "EMERGENT_FIRE",
+    "conditions": { "energy": 1.5, "motion": 1.4 },
+    "name": "Fire",
+    "char": " F",
+    "color": "255, 87, 34",
+    "short_definition": "The principle of transformation and will. The agent of rapid, energetic change."
+  },
+  {
+    "id": "EMERGENT_MIND",
+    "conditions": { "consciousness": 0.9, "light": 1.5 },
+    "name": "Mind",
+    "char": "⊙",
+    "color": "33, 150, 243",
+    "short_definition": "A focal point of self-awareness. The union of light and consciousness creates a locus of identity."
+  },
+  {
+    "id": "EMERGENT_AETHER",
+    "conditions": { "verticality": 0, "energy": 0.5 },
+    "name": "Aether",
+    "char": "∘",
+    "color": "156, 39, 176",
+    "short_definition": "The still, potent medium in which all things exist. The balance point between opposing forces of verticality."
+  },
+  {
+    "id": "EMERGENT_LIFE",
+    "conditions": { "energy": 1.2, "consciousness": 1.2, "form": 1.0 },
+    "name": "Life",
+    "char": "☥",
+    "color": "76, 175, 80",
+    "short_definition": "The principle of animation. A stable form imbued with both energy and nascent consciousness."
+  },
+  {
+    "id": "EMERGENT_STRUCTURE",
+    "conditions": { "form": 2.5 },
+    "name": "Structure",
+    "char": "🮿",
+    "color": "158, 158, 158",
+    "short_definition": "Order imposed upon form. The principle of architecture, systems, and stable configurations."
+  },
+  {
+    "id": "EMERGENT_TWILIGHT",
+    "conditions": { "light": 0.5, "consciousness": 0.5, "verticality": -0.5 },
+    "name": "Twilight",
+    "char": " T",
+    "color": "255, 111, 0",
+    "short_definition": "The liminal state between light and darkness. A time of introspection, intuition, and shifting forms."
+  },
+  {
+    "id": "EMERGENT_VIBRATION",
+    "conditions": { "motion": 2.0, "energy": 1.0 },
+    "name": "Vibration",
+    "char": "∿",
+    "color": "0, 188, 212",
+    "short_definition": "The underlying pulse of reality. All things are in motion, and this is the principle of their harmonic resonance."
+  },
+  {
+    "id": "EMERGENT_TIME",
+    "conditions": { "motion": 1.0, "light": 1.0, "consciousness": 1.0 },
+    "name": "Time",
+    "char": "⧖",
+    "color": "205, 220, 57",
+    "short_definition": "The measure of change as perceived by a conscious observer. The intersection of motion and awareness."
+  },
+  {
+    "id": "EMERGENT_CRYSTAL",
+    "conditions": { "form": 1.5, "light": 1.2 },
+    "name": "Crystal",
+    "char": "⋄",
+    "color": "170, 210, 255",
+    "short_definition": "A perfect, ordered structure that holds and refracts light. The principle of clarified form and captured essence."
+  },
+  {
+    "id": "EMERGENT_GRAVITY",
+    "conditions": { "form": 1.0, "verticality": -1.5 },
+    "name": "Gravity",
+    "char": "⨁",
+    "color": "120, 144, 156",
+    "short_definition": "The principle of attraction and density. The downward pull that gives substance its weight and place."
+  },
+  {
+    "id": "EMERGENT_CHAOS",
+    "conditions": { "motion": 3.0, "energy": 2.0, "form": -1.0 },
+    "name": "Chaos",
+    "char": "⨳",
+    "color": "244, 67, 54",
+    "short_definition": "Unpredictable and creative potential. The state of pure motion and energy unbound by form."
+  },
+  {
+    "id": "EMERGENT_THOUGHT",
+    "conditions": { "consciousness": 2.0, "motion": 0.5 },
+    "name": "Thought",
+    "char": "💭",
+    "color": "140, 158, 255",
+    "short_definition": "A directed process of mind. The movement of consciousness from one concept to another."
+  },
+  {
+    "id": "EMERGENT_SUN",
+    "conditions": { "energy": 4.0, "light": 3.5, "form": 1.0 },
+    "name": "Sun",
+    "char": "☉",
+    "color": "255, 235, 59",
+    "short_definition": "A massive, sustained fusion of energy and light. The radiant heart of a system, a source of immense power."
+  },
+  {
+    "id": "EMERGENT_LIGHTNING",
+    "conditions": { "energy": 3.0, "motion": 3.0, "light": 1.0 },
+    "name": "Lightning",
+    "char": "⚡",
+    "color": "255, 255, 255",
+    "short_definition": "A sudden, violent discharge of celestial energy. An instantaneous and powerful revelation or destructive force."
+  },
+  {
+    "id": "EMERGENT_SHADOW",
+    "conditions": { "light": 1.0, "form": 1.0, "verticality": -1.0 },
+    "name": "Shadow",
+    "char": "👥",
+    "color": "66, 66, 66",
+    "short_definition": "A silhouette cast by the obstruction of light. The principle of the hidden, the repressed, and the unknown self."
+  },
+  {
+    "id": "EMERGENT_LANGUAGE",
+    "conditions": { "consciousness": 2.5, "form": 1.5, "motion": 0.5 },
+    "name": "Language",
+    "char": "🗚",
+    "color": "224, 224, 224",
+    "short_definition": "A system of structured thought. The means by which consciousness gives form to abstract concepts."
+  },
+  {
+    "id": "EMERGENT_BLOOD",
+    "conditions": { "energy": 1.0, "motion": 1.0, "form": 1.0, "consciousness": 1.0 },
+    "name": "Blood",
+    "char": "🩸",
+    "color": "183, 28, 28",
+    "short_definition": "The river of life that flows within a form. The medium for energy, passion, and ancestry."
+  }
+]

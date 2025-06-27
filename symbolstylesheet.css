@@ -1,0 +1,137 @@
+/* symbolstylesheet.css */
+
+/* Placed at the top as per CSS best practices */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Share+Tech+Mono&display=swap');
+
+/* This defines our primary custom font, 'Symbola' */
+@font-face {
+    font-family: 'Symbola';
+    src: url('https://legacy.materialsproject.org/static/fonts/symbola/symbola.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --bg-color: #02040a;
+    --text-color: #a0a8b8;
+    --glow-color: rgba(173, 216, 230, 0.9);
+    --focus-glow-color: rgba(255, 255, 0, 0.8);
+    --action-color: #ffab40;
+    --latent-color: rgba(120, 140, 170, 0.4);
+    --emerging-color: rgba(255, 165, 0, 0.7);
+    --cursor-x: 50%;
+    --cursor-y: 50%;
+}
+html, body {
+    width: 100%; height: 100%; margin: 0; padding: 0;
+    overflow: hidden; background-color: var(--bg-color);
+    color: var(--text-color); font-family: 'Cormorant Garamond', serif;
+    cursor: none;
+}
+.world-canvas {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%;
+}
+#latent-plane { z-index: 1; background-image: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%); }
+#darkness-veil {
+    z-index: 2; background-color: var(--bg-color);
+    mask-image: radial-gradient(circle 100px at var(--cursor-x) var(--cursor-y), rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    -webkit-mask-image: radial-gradient(circle 450px at var(--cursor-x) var(--cursor-y), rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+}
+#manifest-plane { z-index: 3; }
+#potential-field {
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, box-shadow 1s ease-in-out;
+    will-change: opacity, box-shadow;
+}
+.glyph {
+    position: absolute;
+    font-family: 'Symbola', 'Share Tech Mono', monospace;
+    display: flex; align-items: center; justify-content: center;
+    transition: transform 0.5s ease-out, color 0.5s ease-out, text-shadow 0.5s ease-out, opacity 0.7s ease-out;
+    user-select: none; will-change: transform, text-shadow, color;
+}
+.glyph.dragging { transition: none; z-index: 1000; }
+.glyph-info {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    pointer-events: none;
+    font-size: 16px;
+    bottom: 120%;
+    left: 50%;
+    width: 280px;
+    padding: 10px;
+    background: rgba(10, 20, 30, 0.85);
+    border-radius: 4px;
+    border: 1px solid rgba(173, 216, 230, 0.2);
+    text-align: center;
+    white-space: normal;
+}
+.glyph-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--action-color);
+    text-shadow: 0 0 5px var(--action-color);
+}
+.glyph-def {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1em;
+    color: var(--text-color);
+    overflow: hidden;
+    opacity: 0;
+    max-height: 0;
+    margin-top: 0;
+    transition: opacity 0.2s ease-out, max-height 0.3s ease-out, margin-top 0.3s ease-out;
+}
+.glyph.focused .glyph-info { 
+    opacity: 1; 
+    transform: translateX(-50%) translateY(0); 
+}
+.glyph-info { 
+    transform: translateX(-50%) translateY(10px); 
+}
+.glyph.focused .glyph-def {
+    opacity: 1;
+    max-height: 100px;
+    margin-top: 6px;
+    transition-delay: 0.75s;
+}
+#cursor-glow {
+    position: absolute; width: 80px; height: 80px;
+    background: radial-gradient(circle, var(--glow-color) 0%, rgba(173, 216, 230, 0) 60%);
+    border-radius: 50%; pointer-events: none;
+    transition: transform 0.1s ease-out; will-change: transform;
+    mix-blend-mode: screen; z-index: 4;
+}
+.ephemeral-message {
+    position: absolute; top: 10%; left: 50%;
+    transform: translateX(-50%); font-size: 1.1rem;
+    font-style: italic; text-align: center;
+    color: rgba(200, 220, 255, 0.9);
+    text-shadow: 0 0 10px rgba(100, 150, 255, 0.5);
+    opacity: 0; animation: fade-in-out 7s ease-in-out forwards;
+    pointer-events: none; z-index: 50;
+}
+@keyframes fade-in-out {
+    0% { opacity: 0; transform: translate(-50%, -10px); }
+    15% { opacity: 1; transform: translate(-50%, 0); }
+    85% { opacity: 1; transform: translate(-50%, 0); }
+    100% { opacity: 0; transform: translate(-50%, 10px); }
+}
+@keyframes pulse-call {
+     0% { text-shadow: none; }
+     50% { text-shadow: 0 0 12px var(--action-color); }
+     100% { text-shadow: none; }
+}
+.calling {
+    animation: pulse-call 2s ease-in-out infinite;
+}
+@keyframes subtle-breath {
+     0% { transform: translate(-50%, -50%) scale(1); }
+     50% { transform: translate(-50%, -50%) scale(1.05); }
+     100% { transform: translate(-50%, -50%) scale(1); }
+}
+.breathing { animation: subtle-breath 5s ease-in-out infinite; }

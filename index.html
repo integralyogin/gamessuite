@@ -1,552 +1,294 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Sequential Mini-Games</title>
-
     <link rel="stylesheet" href="css/style.css">
-
     <style>
-
-        /* Basic styles for game area and messages, can be in style.css */
-
-        body {
-
-            font-family: Arial, sans-serif;
-
+            /* Basic styles for game area and messages, can be in style.css */
+            body {
+        font-family: Arial, sans-serif;
             margin: 0;
-
             padding: 0;
-
             background-color: #f0f0f0;
-
             display: flex;
-
             flex-direction: column;
-
             align-items: center;
-
             min-height: 100vh;
-
-        }
-
-        h1 {
-
-            color: #333;
-
+                }
+            h1 {
+        color: #333;
             margin-top: 20px;
-
-        }
-
-        .game-area {
-
-            width: 90%;
-
+                }
+            .game-area {
+        width: 90%;
             max-width: 1200px; /* Max width for larger screens */
-
             min-height: 650px; /* Minimum height for content */
-
             background-color: #fff;
-
             border: 1px solid #ddd;
-
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-
             margin-top: 20px;
-
             margin-bottom: 20px;
-
             padding: 10px; /* Padding inside the game area */
-
             border-radius: 8px;
-
             display: flex; /* Helps with centering content of some games */
-
             flex-direction: column;
-
             justify-content: center;
-
             align-items: center;
-
             overflow: hidden; /* Add this to contain fixed/absolute elements if any game uses them extensively */
-
-        }
-
-        /* Styles for game over / completion screens from GameManager */
-
-        .game-over-screen, .completion-screen { /* Assuming completion screen might have similar styling needs */
-
-            padding: 30px;
-
+                }
+            /* Styles for game over / completion screens from GameManager */
+            .game-over-screen, .completion-screen { /* Assuming completion screen might have similar styling needs */
+        padding: 30px;
             text-align: center;
-
             width: 100%;
-
             box-sizing: border-box;
-
             border-radius: 5px;
-
-        }
-
-        .game-over-screen {
-
-            color: #D32F2F;
-
+                }
+            .game-over-screen {
+        color: #D32F2F;
             background-color: #FFEBEE;
-
             border: 2px solid #D32F2F;
-
-        }
-
-        .completion-screen h2 { /* Example for completion screen */
-
-            color: #2E7D32; /* Green for success */
-
-        }
-
-        .completion-screen button, .game-over-screen button {
-
-            padding: 12px 25px;
-
+                }
+            .completion-screen h2 { /* Example for completion screen */
+        color: #2E7D32; /* Green for success */
+            }
+            .completion-screen button, .game-over-screen button {
+        padding: 12px 25px;
             font-size: 1.1em;
-
             cursor: pointer;
-
             color: white;
-
             border: none;
-
             border-radius: 5px;
-
             margin-top: 20px;
-
             transition: background-color 0.3s ease;
-
-        }
-
-        .completion-screen button {
-
-            background-color: #4CAF50; /* Green button */
-
-        }
-
-        .completion-screen button:hover {
-
-            background-color: #45a049;
-
-        }
-
-        .game-over-screen button {
-
-            background-color: #C62828; /* Darker red */
-
-        }
-
-            .game-over-screen button:hover {
-
+                }
+            .completion-screen button {
+        background-color: #4CAF50; /* Green button */
+            }
+            .completion-screen button:hover {
+        background-color: #45a049;
+            }
+            .game-over-screen button {
+        background-color: #C62828; /* Darker red */
+            }
+        .game-over-screen button:hover {
             background-color: #B71C1C;
+                }
 
-        }
-
-
-    </style>
-
+</style>
 </head>
-
 <body>
-
-    <!--   <h1>Mini-Game Challenge</h1> -->
-
-    <div id="game-canvas" class="game-area">
-
-        <div id="json-navigation-history" class="my-breadcrumb-styles"></div>
-
+       <div id="game-canvas" class="game-area">
+            <div id="json-navigation-history" class="my-breadcrumb-styles"></div>
 <div id="jsonTableContainer"></div>
-
 <div id="jsonErrorDisplay" style="display:none; color:red; padding:10px;"></div>
-
-
-        <p>Loading game...</p>
-
+<p>Loading game...</p>
     </div>
-
 
     <script src="js/academyGame.js"></script>
 
-<div id="bookReaderHost" style="display:none;"></div>
-
-    <script src="js/playerInputGame.js"></script>
-
-    <script src="js/clickerGame.js"></script>
-
-
-
-    <script src="js/gameConfig.js"></script>
-
-    <script src="js/pixelRenderer.js"></script>
-
-    <script src="js/itemSystem.js"></script>
-
-    <script src="js/inventorySystem.js"></script>
-
-    <script src="js/craftingSystem.js"></script>
-
-    <script src="js/combatSystem.js"></script>
-
-
-    <script src="js/magic.js"></script>
-
-    <script src="js/bitCraftGame.js"></script>
-
-    <script src="js/bitArmyGame.js"></script>
-
-    <script src="js/bitDefenderGame.js"></script>
-
-    <script src="js/memoryGame.js"></script>
-
-    <script src="js/characterSelect.js"></script>
-
-    <script src="js/walkingRpgGame.js"></script>
-
-    <script src="js/characterStatsGame.js"></script>
-
-    <script src="js/reactionGame.js"></script>
-
-    <script src="js/fallingHazards.js"></script>
-
-    <script src="js/itemChoiceGame.js"></script>
-
-    <script src="js/derivedStatsGame.js"></script>
-
-    <script src="js/doorStrengthCheckGame.js"></script>
-
-    <script src="js/roguelikeDungeonGame.js"></script>
-
-    <script src="js/towerDefenseGame.js"></script>
-
-    <script src="js/autoShooterGame.js"></script>
-
-    <script src="js/prayerSceneGame.js"></script>
-
-    <script src="js/studySceneGame.js"></script>
-
-
-    <!--
-
-
-    <script src="js/climbingGrowthGame.js"></script>
-
-    <script src="js/geometricAscentGame.js"></script>
-
-    -->
-
-
-
-    <script src="js/topDownShooterGame.js"></script>
-
-    <script src="js/platformer.js"></script>
-
-    <script src="js/asteroidsGame.js"></script>
-
-    <script src="js/asteroidNavigatorGame.js"></script>
-
-
-    <script src="js/techTreeGame.js"></script>
-
-    <script src="js/turnBasedRpgGame.js"></script>
-
-    <script src="js/idleDungeonCrawlerGame.js"></script>
-
-    <script src="js/pawnIdleGame.js"></script>
-
-    <script src="js/pixelCastleDefenderGame.js"></script>
-
-    <script src="js/aurobindoIdleSimGame.js"></script>
-
-    <script src="js/soulTamagotchiGame.js"></script>
-
-    <script src="js/seekerActivitySim.js"></script>
-
-
-    <script src="js/characterSheetScreen.js"></script> <script src="js/abilitySheetScreen.js"></script>   <script src="js/autoRunnerGame.js"></script>
-
-    <script src="js/arcadeGame.js"></script>
-
-
-<script src="js/shopGame.js"></script>
-
-<script src="js/combatProcessorGame.js"></script>
-
-<script src="js/monsterGeneratorGame.js"></script>
-
-<script src="js/itemGeneratorGame.js"></script>
-
-    <script src="js/pawnGeneratorGame.js"></script>
-
-
-    <script src="js/arenaGame.js"></script>
-
-    <script src="js/armoryGame.js"></script>
-
-    <script src="js/agencyGame.js"></script>
-
-    <script src="js/battleUI.js"></script>
-
-    <script src="js/imageFilters2.js"></script>
-
-
-
-    <script src="js/libraryGame.js"></script>
-
-    <script src="js/levelUpGame.js"></script>
-
-    <script src="js/innGame.js"></script>
-
-    <script src="js/aurobindoGame.js"></script>
-
-    <script src="js/auroView.js"></script>
-
-    <script src="js/libraryComputer.js"></script>
-
-    <script src="js/theMotherChat.js"></script>
-
-    <script src="js/theMotherGame.js"></script>
-
-    <script src="js/spellLogic.js"></script>
-
-    <script src="js/trainingGrounds.js"></script>
-
-
-    <script src="js/jsonDataTableRenderer.js"></script>
-
-<script>
-
-    document.addEventListener('DOMContentLoaded', function() {
-
-        if (!JsonDataTableRenderer.initRenderer('jsonTableContainer', 'jsonErrorDisplay', 'json-navigation-history')) {
-
-            console.error("Failed to initialize JsonDataTableRenderer.");
-
-            return;
-
-        }
-
-
-        JsonDataTableRenderer.renderUrl('EIN.json', null, true);
-
-    });
-
-</script>
-
-
-    <script src="js/partsLoader.js"></script> <!-- ADD THIS LINE -->
+    <script src="js/partsLoader.js"></script> 
     <script src="js/vectorArenaObjects.js"></script>
-    <script src="js/vectorArenaGame.js"></script>
     <script src="js/vectorTestFlight.js"></script>
     <script src="js/vectorArenaHangar.js"></script>
     <script src="js/vectorShop.js"></script>
     <script src="js/vectorArenaCombat.js"></script>
     <script src="js/vectorExplore.js"></script>
 
+    <script src="js/vectorArenaGame.js"></script>
+
+<div id="bookReaderHost" style="display:none;"></div>
+    <script src="js/playerInputGame.js"></script>
+    <script src="js/clickerGame.js"></script>
+
+    <script src="js/gameConfig.js"></script>
+    <script src="js/pixelRenderer.js"></script>
+    <script src="js/itemSystem.js"></script>
+    <script src="js/inventorySystem.js"></script>
+    <script src="js/craftingSystem.js"></script>
+    <script src="js/combatSystem.js"></script>
+
+    <script src="js/magic.js"></script>
+    <script src="js/bitCraftGame.js"></script>
+    <script src="js/bitArmyGame.js"></script>
+    <script src="js/bitDefenderGame.js"></script>
+    <script src="js/memoryGame.js"></script>
+    <script src="js/characterSelect.js"></script>
+    <script src="js/walkingRpgGame.js"></script>
+    <script src="js/characterStatsGame.js"></script>
+    <script src="js/reactionGame.js"></script>
+    <script src="js/fallingHazards.js"></script>
+    <script src="js/itemChoiceGame.js"></script>
+    <script src="js/derivedStatsGame.js"></script>
+    <script src="js/doorStrengthCheckGame.js"></script>
+    <script src="js/roguelikeDungeonGame.js"></script>
+    <script src="js/towerDefenseGame.js"></script>
+    <script src="js/autoShooterGame.js"></script>
+    <script src="js/prayerSceneGame.js"></script>
+    <script src="js/studySceneGame.js"></script>
+
+    <script src="js/topDownShooterGame.js"></script>
+    <script src="js/platformer.js"></script>
+    <script src="js/asteroidsGame.js"></script>
+    <script src="js/asteroidNavigatorGame.js"></script>
+
+    <script src="js/techTreeGame.js"></script>
+    <script src="js/turnBasedRpgGame.js"></script>
+    <script src="js/idleDungeonCrawlerGame.js"></script>
+    <script src="js/pawnIdleGame.js"></script>
+    <script src="js/pixelCastleDefenderGame.js"></script>
+    <script src="js/aurobindoIdleSimGame.js"></script>
+    <script src="js/soulTamagotchiGame.js"></script>
+    <script src="js/seekerActivitySim.js"></script>
+
+    <script src="js/characterSheetScreen.js"></script> 
+    <script src="js/abilitySheetScreen.js"></script>   
+    <script src="js/autoRunnerGame.js"></script>
+
+    <script src="js/shopGame.js"></script>
+    <script src="js/combatProcessorGame.js"></script>
+    <script src="js/monsterGeneratorGame.js"></script>
+    <script src="js/itemGeneratorGame.js"></script>
+    <script src="js/pawnGeneratorGame.js"></script>
+
+    <script src="js/arenaGame.js"></script>
+    <script src="js/armoryGame.js"></script>
+    <script src="js/agencyGame.js"></script>
+    <script src="js/battleUI.js"></script>
+    <script src="js/imageFilters2.js"></script>
+
+    <script src="js/libraryGame.js"></script>
+    <script src="js/levelUpGame.js"></script>
+    <script src="js/innGame.js"></script>
+    <script src="js/aurobindoGame.js"></script>
+    <script src="js/auroView.js"></script>
+    <script src="js/libraryComputer.js"></script>
+    <script src="js/theMotherChat.js"></script>
+    <script src="js/theMotherGame.js"></script>
+    <script src="js/spellLogic.js"></script>
+    <script src="js/trainingGrounds.js"></script>
+
     <script src="js/readerGame.js"></script>
-
     <script src="js/townDesignerGame.js"></script>
-
     <script src="js/worldEngine.js"></script>
-
     <script src="js/postCombatHandler.js"></script>
-
-    <script src="js/townHubGame.js"></script>
-
     <script src="js/mountainGame.js"></script>
-
     <script src="js/worldWorkshop.js"></script>
-
-
     <script src="js/savitriGame.js"></script>
 
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+                if (!JsonDataTableRenderer.initRenderer('jsonTableContainer', 'jsonErrorDisplay', 'json-navigation-history')) {
+                console.error("Failed to initialize JsonDataTableRenderer.");
+                return;
+            }
+    
+            JsonDataTableRenderer.renderUrl('EIN.json', null, true);
+        });
+    
+    </script>
+    
+    <script src="js/jsonDataTableRenderer.js"></script>
+
+    <script src="js/arcadeGame.js"></script>
+    <script src="js/townHubGame.js"></script>
     <script src="js/gameManager.js"></script>
 
 
     <script>
-
-        document.addEventListener('DOMContentLoaded', () => {
-
+            document.addEventListener('DOMContentLoaded', () => {
             GameManager.init('game-canvas', [
 
-		    VectorArenaGame,
-VectorArenaHangarGame,
-		    VectorArenaCombatGame,
-VectorArenaObjects,
-		    VectorShopGame,
-		    VectorTestFlightGame,
-VectorExploreGame,
 
-                TownHubGame,
-                PrayerSceneGame,
-        ImageFilters2,
+     	    PlayerInputGame,
+            TownHubGame,
 
-                PlayerInputGame,
 
-TownDesignerGame,
+            VectorArenaHangarGame,
+            VectorArenaCombatGame,
+            VectorArenaObjects,
+            VectorShopGame,
+            VectorTestFlightGame,
+            VectorExploreGame,
+	    VectorArenaGame,
 
+
+            TownDesignerGame,
+            PrayerSceneGame,
+            ImageFilters2,
             AcademyGame,
-
-        ArcadeGame,
-
-WorldEngine,
-
-bitArmyGame,
-
-
+            ArcadeGame,
+            WorldEngine,
+            bitArmyGame,
             GameConfig,
-
             PixelRenderer,
-
-           ItemSystem,
-
+            ItemSystem,
             InventorySystem,
-
             CraftingSystem,
-
-           MagicSystem,
-
-
+            MagicSystem,
             bitCraftGame,
-
             bitDefenderGame,
-
             WorldWorkshop,
-
-           savitriGame,
-
+            savitriGame,
             MountainGame,
-
             LibraryComputerGame,
-
-
-
             AurobindoGame,
-
-
             JsonDataTableRenderer,
-
             AuroView,
-
             TheMotherChat,
-
             TheMotherGame,
-
             PostCombatHandler,
-
             AgencyGame,
-
-BookReaderGame,
-
-LibraryGame,
-
+            BookReaderGame,
+            LibraryGame,
             ArmoryGame,
-
             ArenaGame,
-
             BattleUI,
-
             InnGame,
-
-TrainingGroundsGame,
-
+            TrainingGroundsGame,
             SpellLogic,
-
-
             ShopGame,
-
             CombatProcessorGame,
-
             RoguelikeDungeonGame,
-
             MonsterGeneratorGame,
-
             ItemGeneratorGame,
-
             PawnGeneratorGame,
-
-         //   SeekerActivitySim,
-
-         //   SoulTamagotchiGame,
-
-    //    AurobindoIdleSimGame,
-
-    //        AutoRunnerGame,
-
-    //        TurnBasedRpgGame,
-
-
             AutoShooterGame,
-
-
             TechTreeGame,
-
-                PlatformerGame,
-
-                CharacterStatsGame,
-
-                DerivedStatsGame,
-
+            PlatformerGame,
+            CharacterStatsGame,
+            DerivedStatsGame,
+            StudySceneGame,
+            DoorStrengthCheckGame,
 
 
-                StudySceneGame,
 
-
-                DoorStrengthCheckGame,
-
-
-        AsteroidsGame,
-
-        AsteroidNavigatorGame,
-
-        TopDownShooterGame,
-
-        TowerDefenseGame,
-
-                FallingHazardsGame,
-
-
+            AsteroidsGame,
+            AsteroidNavigatorGame,
+            TopDownShooterGame,
+            TowerDefenseGame,
+            FallingHazardsGame,
             IdleDungeonCrawlerGame,
 
-
             PawnIdleGame,
-
             PixelCastleDefenderGame,
-
-
-                ItemChoiceGame,
-
-                CharacterSelectionGame,
-
-                ClickerGame,
-
+            ItemChoiceGame,
+            CharacterSelectionGame,
+            ClickerGame,
             LevelUpGame,
-
-                MemoryGame,
-
-                ReactionGame
-
+            MemoryGame,
+            ReactionGame
             ]);
-
             GameManager.startGame();
-
         });
-
-    </script>
+        </script>
 
 
 
 </body>
 
 </html> 
+

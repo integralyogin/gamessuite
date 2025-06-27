@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Unfolding - Dynamic Planes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
+    
+    <link rel="stylesheet" href="symbolstylesheet.css" type="text/css"/>
+
+    <style>
+        /* --- DYNAMIC PLANE STYLES --- */
+        .symbol-plane {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.7s ease-in-out, visibility 0.7s ease-in-out;
+            pointer-events: none;
+            z-index: 1; 
+        }
+        .symbol-plane.active-plane {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: all;
+            z-index: 2; 
+        }
+        #darkness-veil { z-index: 3; }
+        #manifest-plane { z-index: 4; }
+
+        /* --- NAVIGATOR STYLING --- */
+        #plane-navigator {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+            z-index: 6;
+            background: rgba(10, 20, 40, 0.75);
+            padding: 8px 15px;
+            border-radius: 10px;
+            border: 1px solid rgba(100, 150, 200, 0.3);
+            backdrop-filter: blur(4px);
+            max-width: 90vw;
+            overflow-x: auto;
+        }
+        .plane-icon {
+            font-family: 'Consolas', 'Menlo', monospace;
+            font-size: 13px;
+            color: rgba(180, 200, 220, 0.5);
+            cursor: pointer;
+            transition: color 0.3s, text-shadow 0.3s;
+            padding: 4px 8px;
+            border-radius: 4px;
+            letter-spacing: 1.5px;
+            white-space: nowrap;
+        }
+        .plane-icon:hover {
+            color: rgba(224, 232, 240, 0.8);
+            background: rgba(100, 150, 200, 0.1);
+        }
+        .plane-icon.active-plane-icon {
+            color: #e0e8f0;
+            text-shadow: 0 0 12px rgba(220, 230, 255, 0.8);
+            background: rgba(120, 160, 220, 0.2);
+        }
+
+        #cursor-glow { z-index: 5; }
+        #potential-field { z-index: 0; }
+    </style>
+</head>
+<body>
+    <!-- Plane containers will be added here dynamically by JavaScript -->
+    <div id="plane-container"></div>
+    
+    <!-- Plane Navigator UI will be populated dynamically -->
+    <div id="plane-navigator"></div>
+
+    <div id="potential-field" class="world-canvas"></div>
+    <div id="darkness-veil" class="world-canvas"></div>
+    <div id="manifest-plane" class="world-canvas"></div>
+    <div id="cursor-glow"></div>
+
+    <script>
+        const Audio = {
+            synth: null, isInitialized: false,
+            initialize() { try { this.synth = new Tone.FMSynth().toDestination(); this.isInitialized = true; } catch (e) { console.error("Tone.js could not be initialized.", e); } },
+            play(note, duration = "16n", time = Tone.now()) { if (!this.isInitialized) return; this.synth.triggerAttackRelease(note, duration, time); },
+            playSuccess() { if (!this.isInitialized) return; const now = Tone.now(); this.play("C4", "8n", now); this.play("E4", "8n", now + 0.1); this.play("G4", "8n", now + 0.2); },
+            playFailure() { this.play("A2", "8n"); },
+            playActivate() { this.play("E5", "8n"); },
+            playReturn() { this.play("C3", "4n"); },
+            playEmerge() { if(!this.isInitialized) return; new Tone.MembraneSynth().toDestination().triggerAttackRelease("C1", "8n");}
+        };
+
+        const Game = {
+            // DYNAMIC PLANE MANAGEMENT
+            planeContainer: document.getElementById('plane-container'),
+            navigatorContainer: document.getElementById('plane-navigator'),
+            planeSectors: [],
+            activeSector: null,
+
+            manifestCanvas: document.getElementById('manifest-plane'),
+            veil: document.getElementById('darkness-veil'),
+            cursorGlow: document.getElementById('cursor-glow'),
+            potentialField: document.getElementById('potential-field'),
+            glyphs: new Map(),
+            symbolData: {},
+            recipes: [],
+            lastTimestamp: 0,
+            draggedGlyph: null,
+            focusedGlyph: null,
+            lastWheelTime: 0,
+            
+            async init() {
+                try {
+                    await this.loadGameData();
+                } catch (error) {
+                    this.showEphemeralMessage("Error: Could not load game data. Check console.", 10000);
+                    return; 
+                }
+                
+                this.discoverAndBuildPlanes(); 
+
+                document.fonts.load('1em "Noto Sans Symbols 2"').then(() => {
+                    console.log("Font loaded.");
+                    this.createInitialGlyphs();
+                }).catch(err => {
+                    this.createInitialGlyphs(); 
+                });
+                
+                window.addEventListener('mousedown', e => this.handleMouseDown(e));
+                window.addEventListener('mousemove', e => this.handleMouseMove(e));
+                window.addEventListener('mouseup', e => this.handleMouseUp(e));
+                window.addEventListener('wheel', e => this.handleMouseWheel(e)); 
+                window.addEventListener('contextmenu', e => e.preventDefault());
+                requestAnimationFrame(this.gameLoop.bind(this));
+                document.body.addEventListener('click', () => { if (!Audio.isInitialized) { Tone.start().then(() => { Audio.initialize(); this.showEphemeralMessage("The Inconscient conscious grew, Night felt and thought."); }).catch(e => console.error("Audio context could not start:", e)); } }, { once: true });
+            },
+
+            async loadGameData() {
+                const [symbolData, recipeData] = await Promise.all([
+                    fetch('symbols.json').then(r => r.ok ? r.json() : Promise.reject(`Fetch failed for symbols.json: ${r.status}`)),
+                    fetch('recipes.json').then(r => r.ok ? r.json() : Promise.reject(`Fetch failed for recipes.json: ${r.status}`))
+                ]);
+                this.symbolData = symbolData;
+                this.recipes = recipeData;
+            },
+            
+            getSectorCode(hexCode) {
+                if (hexCode.length > 4) {
+                    return hexCode.substring(0, 3);
+                }
+                return hexCode.substring(0, 1);
+            },
+            
+            discoverAndBuildPlanes() {
+                const discoveredSectors = new Set();
+                for (const symbolChar in this.symbolData) {
+                    const hexCode = symbolChar.codePointAt(0).toString(16).toUpperCase();
+                    discoveredSectors.add(this.getSectorCode(hexCode));
+                }
+                
+                this.planeSectors = Array.from(discoveredSectors).sort();
+                this.activeSector = this.planeSectors[0] || null;
+
+                this.planeContainer.innerHTML = '';
+                this.navigatorContainer.innerHTML = '';
+
+                this.planeSectors.forEach(sector => {
+                    const planeDiv = document.createElement('div');
+                    planeDiv.id = `plane-${sector}`;
+                    planeDiv.className = 'world-canvas symbol-plane';
+                    this.planeContainer.appendChild(planeDiv);
+
+                    const navIcon = document.createElement('span');
+                    navIcon.className = 'plane-icon';
+                    navIcon.dataset.plane = sector;
+                    navIcon.textContent = sector;
+                    navIcon.addEventListener('click', () => this.switchPlane(sector));
+                    this.navigatorContainer.appendChild(navIcon);
+                });
+
+                if (this.activeSector) {
+                    document.getElementById(`plane-${this.activeSector}`).classList.add('active-plane');
+                    document.querySelector(`.plane-icon[data-plane="${this.activeSector}"]`).classList.add('active-plane-icon');
+                }
+            },
+
+            gameLoop(timestamp) { if (!this.lastTimestamp) this.lastTimestamp = timestamp; const deltaTime = timestamp - this.lastTimestamp; this.lastTimestamp = timestamp; this.update(deltaTime); this.render(); requestAnimationFrame(this.gameLoop.bind(this)); },
+            
+            createInitialGlyphs() {
+                Object.keys(this.symbolData).forEach(char => {
+                    const hexCode = char.codePointAt(0).toString(16).toUpperCase();
+                    const sector = this.getSectorCode(hexCode);
+                    const id = `glyph_${char.codePointAt(0)}`;
+                    const symbolInfo = this.symbolData[char];
+                    const name = Array.isArray(symbolInfo) ? symbolInfo[0].name : symbolInfo.name;
+                    const def = Array.isArray(symbolInfo) ? symbolInfo[0].short_definition : symbolInfo.short_definition;
+
+                    this.addGlyph(id, char, 10 + Math.random() * 80, 10 + Math.random() * 80, { 
+                        manifest: false, name: name, short_definition: def, plane: sector 
+                    });
+                });
+            },
+                        
+            addGlyph(id, char, x, y, initialState = {}) {
+                if (this.glyphs.has(id)) return;
+                const el = document.createElement('div');
+                el.className = 'glyph';
+                el.dataset.id = id;
+                el.innerHTML = `<span>${char}</span><div class="glyph-info"><div class="glyph-name">${initialState.name || ''}</div><div class="glyph-def">${initialState.short_definition || ''}</div></div>`;
+                
+                const planeSector = initialState.plane;
+                const parentCanvas = initialState.manifest ? this.manifestCanvas : document.getElementById(`plane-${planeSector}`);
+                if (parentCanvas) parentCanvas.appendChild(el);
+                
+                const glyph = { id, char, x, y, element: el, vx: (Math.random() - 0.5) * 0.003, vy: (Math.random() - 0.5) * 0.003, size: 64, isFocused: false, isDragging: false, state: { ...initialState }, };
+                glyph.logic = this.getGlyphLogic(glyph);
+                this.glyphs.set(id, glyph);
+            },
+            
+            handleMouseWheel(e) {
+                const now = Date.now();
+                if (now - this.lastWheelTime < 200) return; 
+                this.lastWheelTime = now;
+                const currentIndex = this.planeSectors.indexOf(this.activeSector);
+                let nextIndex;
+                if (e.deltaY > 0) { nextIndex = (currentIndex + 1) % this.planeSectors.length; } 
+                else { nextIndex = (currentIndex - 1 + this.planeSectors.length) % this.planeSectors.length; }
+                this.switchPlane(this.planeSectors[nextIndex]);
+            },
+            
+            switchPlane(newSector) {
+                if (this.activeSector === newSector || !this.planeSectors.includes(newSector)) return;
+                
+                document.getElementById(`plane-${this.activeSector}`).classList.remove('active-plane');
+                document.getElementById(`plane-${newSector}`).classList.add('active-plane');
+                
+                document.querySelector(`.plane-icon[data-plane="${this.activeSector}"]`).classList.remove('active-plane-icon');
+                document.querySelector(`.plane-icon[data-plane="${newSector}"]`).classList.add('active-plane-icon');
+                
+                this.activeSector = newSector;
+                this.showEphemeralMessage(`Shifted focus to Sector ${newSector}.`);
+                Audio.play("C4", "16n");
+            },
+
+            getGlyphLogic(glyph) { return { onLeftClick: () => { if (!glyph.state.manifest) { glyph.state.manifest = true; glyph.vx = 0; glyph.vy = 0; this.manifestCanvas.appendChild(glyph.element); this.showEphemeralMessage(`A Principle is made manifest.`); Audio.play("E4"); } }, onRightClick: () => {} }; },
+            
+            update(deltaTime) {
+                this.glyphs.forEach(glyph => {
+                    if (!glyph.state.manifest && !glyph.isDragging && glyph.state.plane === this.activeSector) {
+                        glyph.x += glyph.vx * deltaTime;
+                        glyph.y += glyph.vy * deltaTime;
+                        if (glyph.x < 5 || glyph.x > 95) { glyph.vx *= -1; glyph.x = Math.max(5, Math.min(95, glyph.x)); }
+                        if (glyph.y < 5 || glyph.y > 95) { glyph.vy *= -1; glyph.y = Math.max(5, Math.min(95, glyph.y)); }
+                    }
+                });
+                this.updateEmergence(deltaTime);
+            },
+            
+            updateEmergence(deltaTime) { const manifestGlyphs = Array.from(this.glyphs.values()).filter(g => g.state.manifest && !g.state.emerging); const totalProps = {}; manifestGlyphs.forEach(g => { for (const [prop, value] of Object.entries(g.state.properties || {})) { totalProps[prop] = (totalProps[prop] || 0) + value; } }); if (this.focusedGlyph && !this.focusedGlyph.state.manifest && this.focusedGlyph.state.plane === this.activeSector) { for (const [prop, value] of Object.entries(this.focusedGlyph.state.properties || {})) { totalProps[prop] = (totalProps[prop] || 0) + (value * 0.5); } } const recipes = this.recipes; recipes.forEach(recipe => { let meetsConditions = Object.entries(recipe.conditions).every(([prop, value]) => (totalProps[prop] || 0) >= value); let emergentGlyph = this.glyphs.get(recipe.id); if (meetsConditions) { if (!emergentGlyph) { let midX = 50, midY = 50; if (manifestGlyphs.length > 0) { midX = manifestGlyphs.reduce((s, p) => s + p.x, 0) / manifestGlyphs.length; midY = manifestGlyphs.reduce((s, p) => s + p.y, 0) / manifestGlyphs.length; } this.addGlyph(recipe.id, recipe.char, midX, midY, { manifest: true, emerging: true, name: recipe.name, short_definition: recipe.short_definition, reality: 0.01, colorHint: recipe.color, plane: 'emergent' }); this.showEphemeralMessage(`The conditions are met. ${recipe.name} begins to emerge.`); Audio.playEmerge(); } else if (emergentGlyph.state.emerging) { emergentGlyph.state.reality = Math.min(1, emergentGlyph.state.reality + deltaTime * 0.001); if(emergentGlyph.state.reality >= 1) { emergentGlyph.state.emerging = false; this.showEphemeralMessage(`${recipe.name} has achieved stable being.`); Audio.playSuccess(); } } } else if (emergentGlyph && emergentGlyph.state.emerging) { this.fadeAndRemoveGlyph(emergentGlyph, deltaTime); } }); },
+            fadeAndRemoveGlyph(glyph, deltaTime) { glyph.state.reality -= deltaTime * 0.001; if (glyph.state.reality <= 0) this.removeGlyph(glyph.id); },
+            
+            render() { 
+                this.glyphs.forEach(glyph => { 
+                    const el = glyph.element; 
+                    if (!el) return; 
+                    el.style.left = `${glyph.x}%`; 
+                    el.style.top = `${glyph.y}%`; 
+                    el.style.fontSize = `${glyph.size}px`; 
+                    this.updateGlyphVisuals(glyph); 
+                    
+                    // --- CORRECTED: Render scaling logic ---
+                    // A glyph scales up if it's focused and not being dragged.
+                    const scale = (glyph.isFocused && !this.draggedGlyph) ? 1.3 : 1;
+                    el.style.transform = `translate(-50%, -50%) scale(${scale})`;
+                    el.classList.toggle('focused', glyph.isFocused && !this.draggedGlyph);
+                }); 
+            },
+
+            updateGlyphVisuals(glyph) { const el = glyph.element; el.classList.remove('breathing'); if(glyph.state.emerging) { el.style.opacity = glyph.state.reality; el.style.color = `rgba(${glyph.state.colorHint}, ${glyph.state.reality})`; el.style.textShadow = `0 0 ${15 * glyph.state.reality}px rgba(${glyph.state.colorHint}, ${glyph.state.reality * 0.7})`; } else if (glyph.state.manifest) { el.style.opacity = '1'; el.style.color = '#e0e8f0'; el.style.textShadow = '0 0 8px rgba(255,255,255,0.5)';} else { el.style.opacity = '1'; el.style.color = 'var(--latent-color)'; el.style.textShadow = 'none'; } },
+            getDistance(p1, p2) { return Math.sqrt(Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2)); },
+            removeGlyph(id) { const g = this.glyphs.get(id); if(g && g.element) { g.element.remove(); this.glyphs.delete(id); } },
+            showEphemeralMessage(text, duration = 7000) { const el = document.createElement('div'); el.className = 'ephemeral-message'; el.textContent = text; this.manifestCanvas.appendChild(el); setTimeout(() => el.remove(), duration); },
+            handleMouseDown(e) { e.preventDefault(); const focusedGlyph = this.getFocusedGlyph(e); if (!focusedGlyph) return; if (e.button === 2) this.handleRightClick(focusedGlyph); else if (e.button === 0) this.handleLeftClick(focusedGlyph, e); },
+            handleLeftClick(glyph, e) { if (glyph.logic) glyph.logic.onLeftClick(e); if (glyph.state.manifest) { if (glyph.state.emerging) return; this.draggedGlyph = glyph; this.draggedGlyph.isDragging = true; this.draggedGlyph.element.classList.add('dragging'); const rect = this.draggedGlyph.element.getBoundingClientRect(); this.dragOffsetX = e.clientX - rect.left; this.dragOffsetY = e.clientY - rect.top; } },
+            handleRightClick(glyph) { if (glyph.logic) glyph.logic.onRightClick(glyph); },
+            handleMouseMove(e) { const x = e.clientX; const y = e.clientY; document.documentElement.style.setProperty('--cursor-x', `${x}px`); document.documentElement.style.setProperty('--cursor-y', `${y}px`); this.cursorGlow.style.transform = `translate(${x - 40}px, ${y - 40}px)`; if (this.draggedGlyph) { this.draggedGlyph.x = ((e.clientX - this.dragOffsetX + (this.draggedGlyph.element.offsetWidth/2)) / window.innerWidth) * 100; this.draggedGlyph.y = ((e.clientY - this.dragOffsetY + (this.draggedGlyph.element.offsetHeight/2)) / window.innerHeight) * 100; } this.updateFocus(e); },
+            handleMouseUp(e) { if (this.draggedGlyph) { this.draggedGlyph.isDragging = false; this.draggedGlyph.element.classList.remove('dragging'); this.draggedGlyph = null; } },
+            
+            getFocusedGlyph(e) { 
+                let focused = null; 
+                let min_dist = 3;
+                const clientXPercent = (e.clientX / window.innerWidth) * 100; 
+                const clientYPercent = (e.clientY / window.innerHeight) * 100; 
+                
+                this.glyphs.forEach(glyph => { 
+                    // --- CORRECTED: Focus Logic ---
+                    // A glyph should be skipped ONLY if it's latent and NOT on the active plane.
+                    // Manifested glyphs should ALWAYS be checkable for focus.
+                    if (!glyph.state.manifest && glyph.state.plane !== this.activeSector) {
+                        return; // Skip this glyph
+                    }
+                    
+                    const dist = this.getDistance({x: clientXPercent, y: clientYPercent}, glyph); 
+                    if (dist < min_dist) { 
+                        min_dist = dist; 
+                        focused = glyph; 
+                    } 
+                }); 
+                return focused; 
+            },
+
+            updateFocus(e) { if(this.draggedGlyph) { this.cursorGlow.style.opacity = 0; this.focusedGlyph = null; } else { this.cursorGlow.style.opacity = 1; this.focusedGlyph = this.getFocusedGlyph(e); } this.glyphs.forEach(glyph => { glyph.isFocused = (glyph === this.focusedGlyph); }); }
+        };
+        Game.init();
+    </script>
+</body>
+</html>
+

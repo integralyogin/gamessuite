@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Unfolding - Layered Planes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
+    
+    <link rel="stylesheet" href="symbolstylesheet.css" type="text/css"/>
+
+    <style>
+        .symbol-plane {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.7s ease-in-out, visibility 0.7s ease-in-out;
+            pointer-events: none;
+            z-index: 1; 
+        }
+        .symbol-plane.active-plane {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: all;
+            z-index: 2; 
+        }
+        #darkness-veil { z-index: 3; }
+        #manifest-plane { z-index: 4; }
+        #cursor-glow { z-index: 5; }
+        #potential-field { z-index: 0; }
+    </style>
+</head>
+<body>
+    <div id="plane-1" class="world-canvas symbol-plane active-plane"></div>
+    <div id="plane-2" class="world-canvas symbol-plane"></div>
+    <div id="plane-3" class="world-canvas symbol-plane"></div>
+
+    <div id="potential-field" class="world-canvas"></div>
+    <div id="darkness-veil" class="world-canvas"></div>
+    <div id="manifest-plane" class="world-canvas"></div>
+    <div id="cursor-glow"></div>
+
+    <script>
+        const Audio = {
+            synth: null, isInitialized: false,
+            initialize() { try { this.synth = new Tone.FMSynth().toDestination(); this.isInitialized = true; } catch (e) { console.error("Tone.js could not be initialized.", e); } },
+            play(note, duration = "16n", time = Tone.now()) { if (!this.isInitialized) return; this.synth.triggerAttackRelease(note, duration, time); },
+            playSuccess() { if (!this.isInitialized) return; const now = Tone.now(); this.play("C4", "8n", now); this.play("E4", "8n", now + 0.1); this.play("G4", "8n", now + 0.2); },
+            playFailure() { this.play("A2", "8n"); },
+            playActivate() { this.play("E5", "8n"); },
+            playReturn() { this.play("C3", "4n"); },
+            playEmerge() { if(!this.isInitialized) return; new Tone.MembraneSynth().toDestination().triggerAttackRelease("C1", "8n");}
+        };
+
+        const Game = {
+            planeElements: { 1: document.getElementById('plane-1'), 2: document.getElementById('plane-2'), 3: document.getElementById('plane-3'), 4: document.getElementById('plane-4') },
+            currentPlane: 1,
+            manifestCanvas: document.getElementById('manifest-plane'),
+            veil: document.getElementById('darkness-veil'),
+            cursorGlow: document.getElementById('cursor-glow'),
+            potentialField: document.getElementById('potential-field'),
+            glyphs: new Map(),
+            symbolData: {},
+            recipes: [],
+            lastTimestamp: 0,
+            draggedGlyph: null,
+            focusedGlyph: null,
+            
+            async init() {
+                // RESTORED: Loading from external JSON files
+                try {
+                    await this.loadGameData();
+                    console.log("Symbol and recipe data have been successfully loaded.");
+                } catch (error) {
+                    console.error("Critical asset loading failed:", error);
+                    this.showEphemeralMessage("Error: Could not load game data. Check console.", 10000);
+                    return; 
+                }
+
+                document.fonts.load('1em "Noto Sans Symbols 2"').then(() => {
+                    console.log("Font loaded.");
+                    this.createInitialGlyphs();
+                }).catch(err => {
+                    console.error("Font could not be loaded, proceeding anyway.", err);
+                    this.createInitialGlyphs(); 
+                });
+                
+                window.addEventListener('mousedown', e => this.handleMouseDown(e));
+                window.addEventListener('mousemove', e => this.handleMouseMove(e));
+                window.addEventListener('mouseup', e => this.handleMouseUp(e));
+                window.addEventListener('keydown', e => this.handleKeyPress(e));
+                window.addEventListener('contextmenu', e => e.preventDefault());
+                requestAnimationFrame(this.gameLoop.bind(this));
+                document.body.addEventListener('click', () => { if (!Audio.isInitialized) { Tone.start().then(() => { Audio.initialize(); this.showEphemeralMessage("The Inconscient conscious grew, Night felt and thought."); }).catch(e => console.error("Audio context could not start:", e)); } }, { once: true });
+            },
+
+            // RESTORED: Function to load all data from external files.
+            async loadGameData() {
+                const symbolPromise = fetch('symbols.json').then(response => {
+                    if (!response.ok) throw new Error(`HTTP error fetching symbols.json! Status: ${response.status}`);
+                    return response.json();
+                });
+
+                const recipePromise = fetch('recipes.json').then(response => {
+                    if (!response.ok) throw new Error(`HTTP error fetching recipes.json! Status: ${response.status}`);
+                    return response.json();
+                });
+
+                const [symbolData, recipeData] = await Promise.all([symbolPromise, recipePromise]);
+                this.symbolData = symbolData;
+                this.recipes = recipeData;
+            },
+
+            gameLoop(timestamp) { /* ... (Unchanged) ... */ if (!this.lastTimestamp) this.lastTimestamp = timestamp; const deltaTime = timestamp - this.lastTimestamp; this.lastTimestamp = timestamp; this.update(deltaTime); this.render(); requestAnimationFrame(this.gameLoop.bind(this)); },
+            
+            createInitialGlyphs() {
+                 const UNICODE_RANGES = [
+                    [0x2200, 0x22FF], [0x25A0, 0x25FF], [0x1F700, 0x1F77F], [0x2600, 0x26FF], 
+                    [0x2000, 0x206F], [0x0900, 0x097F], [0x2700, 0x27BF], [0x1F300, 0x1F5FF],
+                    [0x1F900, 0x1F9FF], [0x13000, 0x1342F], [0x2B00, 0x2BFF], [0x16A0, 0x16FF],
+                    [0x4DC0, 0x4DFF]
+                ];
+                const BLOCK_TO_PLANE_MAP = {
+                    '25': 1, 
+                    '22': 1, '1F7': 1, '16A': 1, '16B': 1, '16C': 1, '16D': 1, '16E': 1, '16F': 1, '20': 1,
+                    '26': 2, '27': 3, '4DC': 3, '4DD': 3, '4DE': 3, '4DF': 3,
+                    '1F3': 3, '1F4': 3, '1F5': 3, '130': 3, '131': 3, '132': 3, '133': 3, '134': 3, '09': 3, '2B': 3,
+                };
+                const allPossibleChars = [];
+                UNICODE_RANGES.forEach(range => { for (let i = range[0]; i <= range[1]; i++) allPossibleChars.push(String.fromCodePoint(i)); });
+                const validGameSymbols = allPossibleChars.filter(symbol => symbol in this.symbolData);
+                let glyphsData = validGameSymbols.map(char => {
+                    const hexCode = char.codePointAt(0).toString(16).toUpperCase();
+                    let assignedPlane = 1;
+                    for (const [p, n] of Object.entries(BLOCK_TO_PLANE_MAP)) { if (hexCode.startsWith(p)) { assignedPlane = n; break; } }
+                    return { id: `glyph_${char.codePointAt(0)}`, char, props: {}, plane: assignedPlane };
+                });
+                const assignProperty = (prop, value, count, colorHint) => {
+                    let assigned = 0;
+                    glyphsData.sort(() => 0.5 - Math.random()); 
+                    for (let i = 0; i < glyphsData.length && assigned < count; i++) {
+                        if (Object.keys(glyphsData[i].props).length === 0) {
+                            glyphsData[i].props[prop] = value;
+                            glyphsData[i].colorHint = colorHint;
+                            assigned++;
+                        }
+                    }
+                };
+                assignProperty('consciousness', 1.0, 3, 'rgba(200, 220, 255, 0.7)');
+                assignProperty('light', 0.8, 5, 'rgba(255, 255, 200, 0.7)');
+                assignProperty('motion', 1.0, 3, 'rgba(255, 200, 200, 0.7)');
+                assignProperty('energy', 0.8, 5, 'rgba(255, 180, 150, 0.7)');
+                assignProperty('form', 0.5, 5, 'rgba(210, 210, 210, 0.7)');
+                assignProperty('verticality', 1.0, 2, 'rgba(200, 255, 200, 0.7)');
+                assignProperty('verticality', -1.0, 2, 'rgba(220, 200, 255, 0.7)');
+                glyphsData.forEach(data => {
+                    const symbolInfo = this.symbolData[data.char];
+                    const name = (symbolInfo && symbolInfo.name) ? symbolInfo.name : `Principle ${data.char}`;
+                    const def = (symbolInfo && symbolInfo.short_definition) ? symbolInfo.short_definition : 'An unknown principle...';
+                    this.addGlyph(data.id, data.char, 10 + Math.random() * 80, 10 + Math.random() * 80, { 
+                        manifest: false, name: name, short_definition: def, properties: data.props, colorHint: data.colorHint, plane: data.plane 
+                    });
+                });
+            },
+                        
+            addGlyph(id, char, x, y, initialState = {}) {
+                if (this.glyphs.has(id)) return;
+                const el = document.createElement('div'); el.classList.add('glyph'); el.dataset.id = id;
+                const charEl = document.createElement('span'); charEl.textContent = char;
+                const infoEl = document.createElement('div'); infoEl.classList.add('glyph-info');
+                infoEl.innerHTML = `<div class="glyph-name">${initialState.name || ''}</div><div class="glyph-def">${initialState.short_definition || ''}</div>`;
+                el.append(charEl, infoEl);
+                const planeNumber = initialState.plane || 1;
+                const parentCanvas = initialState.manifest ? this.manifestCanvas : this.planeElements[planeNumber];
+                parentCanvas.appendChild(el);
+                const glyph = { id, char, x, y, element: el, vx: (Math.random() - 0.5) * 0.003, vy: (Math.random() - 0.5) * 0.003, size: 64, isFocused: false, isDragging: false, state: { ...initialState }, };
+                glyph.logic = this.getGlyphLogic(glyph);
+                this.glyphs.set(id, glyph);
+            },
+
+            handleKeyPress(e) { /* ... (Unchanged) ... */ const planeNum = parseInt(e.key); if (!isNaN(planeNum) && planeNum >= 1 && planeNum <= 4) this.switchPlane(planeNum); },
+            switchPlane(newPlane) { /* ... (Unchanged) ... */ if (this.currentPlane === newPlane || !this.planeElements[newPlane]) return; this.planeElements[this.currentPlane].classList.remove('active-plane'); this.planeElements[newPlane].classList.add('active-plane'); this.currentPlane = newPlane; this.showEphemeralMessage(`Shifted focus to Plane ${newPlane}.`); Audio.play("C4", "16n"); },
+            getGlyphLogic(glyph) { /* ... (Unchanged) ... */ return { onLeftClick: () => { if (!glyph.state.manifest) { glyph.state.manifest = true; glyph.vx = 0; glyph.vy = 0; this.manifestCanvas.appendChild(glyph.element); this.showEphemeralMessage(`A Principle is made manifest.`); Audio.play("E4"); } }, onRightClick: () => {} }; },
+            update(deltaTime) { /* ... (Unchanged, with fix from previous version) ... */ this.glyphs.forEach(glyph => { if (!glyph.state.manifest && !glyph.isDragging && glyph.state.plane === this.currentPlane) { glyph.x += glyph.vx * deltaTime; glyph.y += glyph.vy * deltaTime; if (glyph.x < 5 || glyph.x > 95) { glyph.vx *= -1; glyph.x = Math.max(5, Math.min(95, glyph.x)); } if (glyph.y < 5 || glyph.y > 95) { glyph.vy *= -1; glyph.y = Math.max(5, Math.min(95, glyph.y)); } } }); this.updateEmergence(deltaTime); },
+            updateEmergence(deltaTime) { /* ... (Unchanged) ... */ const manifestGlyphs = Array.from(this.glyphs.values()).filter(g => g.state.manifest && !g.state.emerging); const totalProps = {}; manifestGlyphs.forEach(g => { for (const [prop, value] of Object.entries(g.state.properties || {})) { totalProps[prop] = (totalProps[prop] || 0) + value; } }); if (this.focusedGlyph && !this.focusedGlyph.state.manifest && this.focusedGlyph.state.plane === this.currentPlane) { for (const [prop, value] of Object.entries(this.focusedGlyph.state.properties || {})) { totalProps[prop] = (totalProps[prop] || 0) + (value * 0.5); } } const recipes = this.recipes; let potentialColor = [0,0,0]; let potentialOpacity = 0; let neededProps = new Set(); recipes.forEach(recipe => { let closenessSum = 0; let conditionCount = 0; let tempNeededProps = []; const meetsConditions = Object.entries(recipe.conditions).every(([prop, value]) => { const currentVal = totalProps[prop] || 0; let closeness = 0; if (prop === 'verticality') { closeness = 1 - Math.abs(currentVal); } else { closeness = Math.min(1, currentVal / value); } closenessSum += closeness; conditionCount++; if (closeness < 1) tempNeededProps.push(prop); return closeness >= 1; }); const avgCloseness = conditionCount > 0 ? closenessSum / conditionCount : 0; if (avgCloseness > 0.6) { const rgb = recipe.color.split(',').map(Number); for(let i=0; i<3; i++) potentialColor[i] += rgb[i] * avgCloseness; potentialOpacity = Math.max(potentialOpacity, avgCloseness); if(avgCloseness > 0.8) tempNeededProps.forEach(p => neededProps.add(p)); } let emergentGlyph = this.glyphs.get(recipe.id); if (meetsConditions) { if (!emergentGlyph) { let midX = 50, midY = 50; if (manifestGlyphs.length > 0) { midX = manifestGlyphs.reduce((sum, p) => sum + p.x, 0) / manifestGlyphs.length; midY = manifestGlyphs.reduce((sum, p) => sum + p.y, 0) / manifestGlyphs.length; } let newChar = recipe.char; if (!newChar) { const comboCharCode = manifestGlyphs.reduce((code, p) => code ^ p.char.codePointAt(0), 0x2728); newChar = String.fromCodePoint(comboCharCode); } this.addGlyph(recipe.id, newChar, midX, midY, { manifest: true, emerging: true, name: recipe.name, short_definition: recipe.short_definition, reality: 0.01, colorHint: recipe.color, plane: 4 }); this.showEphemeralMessage(`The conditions are met. ${recipe.name} begins to emerge.`); Audio.playEmerge(); } else if (emergentGlyph.state.emerging) { emergentGlyph.state.reality = Math.min(1, emergentGlyph.state.reality + deltaTime * 0.001); if(emergentGlyph.state.reality >= 1) { emergentGlyph.state.emerging = false; emergentGlyph.vx = 0; emergentGlyph.vy = 0; emergentGlyph.logic.isSpecial = true; emergentGlyph.logic.specialAction = this.getSpecialLogic(recipe.id); this.showEphemeralMessage(`${recipe.name} has achieved stable being.`); Audio.playSuccess(); } } } else if (emergentGlyph && emergentGlyph.state.emerging) { this.fadeAndRemoveGlyph(emergentGlyph, deltaTime); } }); this.potentialField.style.opacity = Math.min(potentialOpacity, 0.7); this.potentialField.style.boxShadow = `inset 0 0 300px 150px rgba(${potentialColor.join(',')}, ${Math.min(potentialOpacity * 0.5, 0.25)})`; this.glyphs.forEach(g => { g.element.classList.remove('calling'); if (!g.state.manifest && g.state.properties && Object.keys(g.state.properties).some(p => neededProps.has(p))) { g.element.classList.add('calling'); } }); },
+            getSpecialLogic(id) { /* ... (Unchanged) ... */ if(id === 'EMERGENT_MIND') { return () => { this.showEphemeralMessage("Mind calls to its kin..."); Audio.play("A4", "2n"); this.glyphs.forEach(g => { if (!g.state.manifest && (g.state.properties.light || g.state.properties.consciousness)) { g.element.classList.add('calling'); g.vx += (this.glyphs.get(id).x - g.x) * 0.00005; g.vy += (this.glyphs.get(id).y - g.y) * 0.00005; } }); } } return null; },
+            fadeAndRemoveGlyph(glyph, deltaTime) { /* ... (Unchanged) ... */ glyph.state.reality -= deltaTime * 0.001; if (glyph.state.reality <= 0) this.removeGlyph(glyph.id); },
+            render() { /* ... (Unchanged) ... */ this.glyphs.forEach(glyph => { const el = glyph.element; if (!el) return; el.style.left = `${glyph.x}%`; el.style.top = `${glyph.y}%`; el.style.fontSize = `${glyph.size}px`; this.updateGlyphVisuals(glyph); const scale = (glyph.isFocused && !this.draggedGlyph && glyph.state.plane === this.currentPlane) ? 1.3 : 1; el.style.transform = `translate(-50%, -50%) scale(${scale})`; el.classList.toggle('focused', glyph.isFocused && !this.draggedGlyph && glyph.state.plane === this.currentPlane); }); },
+            updateGlyphVisuals(glyph) { /* ... (Unchanged) ... */ const el = glyph.element; el.classList.remove('breathing'); if(glyph.state.emerging) { el.style.opacity = glyph.state.reality; el.style.color = `rgba(${glyph.state.colorHint}, ${glyph.state.reality})`; el.style.textShadow = `0 0 ${15 * glyph.state.reality}px rgba(${glyph.state.colorHint}, ${glyph.state.reality * 0.7})`; } else if (glyph.state.manifest) { el.style.opacity = '1'; if (glyph.logic && glyph.logic.isSpecial) { el.style.color = `rgb(${glyph.state.colorHint})`; el.style.textShadow = `0 0 15px rgb(${glyph.state.colorHint})`; } else { el.style.color = '#e0e8f0'; el.style.textShadow = '0 0 8px rgba(255,255,255,0.5)'; } } else { el.style.opacity = '1'; if(glyph.state.colorHint) { el.style.color = glyph.state.colorHint; el.classList.add('breathing'); } else { el.style.color = 'var(--latent-color)'; } el.style.textShadow = 'none'; } },
+            getDistance(p1, p2) { /* ... (Unchanged) ... */ return Math.sqrt(Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2)); },
+            removeGlyph(id) { /* ... (Unchanged) ... */ const g = this.glyphs.get(id); if(g && g.element) { g.element.remove(); this.glyphs.delete(id); } },
+            showEphemeralMessage(text, duration = 7000) { /* ... (Unchanged) ... */ const el = document.createElement('div'); el.className = 'ephemeral-message'; el.textContent = text; this.manifestCanvas.appendChild(el); setTimeout(() => el.remove(), duration); },
+            handleMouseDown(e) { /* ... (Unchanged) ... */ e.preventDefault(); const focusedGlyph = this.getFocusedGlyph(e); if (!focusedGlyph) return; if (e.button === 2) this.handleRightClick(focusedGlyph); else if (e.button === 0) this.handleLeftClick(focusedGlyph, e); },
+            handleLeftClick(glyph, e) { /* ... (Unchanged) ... */ if (glyph.logic) glyph.logic.onLeftClick(e); if (glyph.state.manifest) { if (glyph.state.emerging || (glyph.logic && glyph.logic.isSpecial)) { this.showEphemeralMessage("This principle is a law unto itself."); return; } this.draggedGlyph = glyph; this.draggedGlyph.isDragging = true; this.draggedGlyph.element.classList.add('dragging'); const rect = this.draggedGlyph.element.getBoundingClientRect(); this.dragOffsetX = e.clientX - rect.left; this.dragOffsetY = e.clientY - rect.top; } },
+            handleRightClick(glyph) { /* ... (Unchanged) ... */ if (glyph.logic) glyph.logic.onRightClick(glyph); },
+            handleMouseMove(e) { /* ... (Unchanged) ... */ const x = e.clientX; const y = e.clientY; document.documentElement.style.setProperty('--cursor-x', `${x}px`); document.documentElement.style.setProperty('--cursor-y', `${y}px`); this.cursorGlow.style.transform = `translate(${x - 40}px, ${y - 40}px)`; if (this.draggedGlyph) { this.draggedGlyph.x = ((e.clientX - this.dragOffsetX + (this.draggedGlyph.element.offsetWidth/2)) / window.innerWidth) * 100; this.draggedGlyph.y = ((e.clientY - this.dragOffsetY + (this.draggedGlyph.element.offsetHeight/2)) / window.innerHeight) * 100; } this.updateFocus(e); },
+            handleMouseUp(e) { /* ... (Unchanged) ... */ if (this.draggedGlyph) { this.draggedGlyph.isDragging = false; this.draggedGlyph.element.classList.remove('dragging'); this.draggedGlyph = null; } },
+            getFocusedGlyph(e) { /* ... (Unchanged) ... */ let focused = null; let min_dist = 3; const clientXPercent = (e.clientX / window.innerWidth) * 100; const clientYPercent = (e.clientY / window.innerHeight) * 100; this.glyphs.forEach(glyph => { if (glyph.state.manifest || glyph.state.plane !== this.currentPlane) return; const dist = this.getDistance({x: clientXPercent, y: clientYPercent}, glyph); if (dist < min_dist) { min_dist = dist; focused = glyph; } }); return focused; },
+            updateFocus(e) { /* ... (Unchanged) ... */ if(this.draggedGlyph) { this.cursorGlow.style.opacity = 0; this.focusedGlyph = null; } else { this.cursorGlow.style.opacity = 1; this.focusedGlyph = this.getFocusedGlyph(e); } this.glyphs.forEach(glyph => { glyph.isFocused = (glyph === this.focusedGlyph); }); }
+        };
+        Game.init();
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Unfolding: A Journey from Avidya to Vidya</title>
+    <style>
+        body { margin: 0; padding: 0; background: #000; overflow: hidden; font-family: 'Courier New', monospace; }
+        canvas { display: block; cursor: none; }
+        #info { position: absolute; top: 10px; left: 10px; color: #333; font-size: 12px; opacity: 0.7; }
+        #consciousness { position: absolute; bottom: 10px; left: 10px; color: #444; font-size: 10px; }
+    </style>
+</head>
+<body>
+    <canvas id="void"></canvas>
+    <div id="info">The Unfolding: Move to reveal, click to manifest, right-click to release</div>
+    <div id="consciousness">Consciousness Level: Avidya</div>
+
+    <script>
+        const canvas = document.getElementById('void');
+        const ctx = canvas.getContext('2d');
+        const info = document.getElementById('consciousness');
+        
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        
+        // Core philosophical constants
+        const TRUTH_DIMENSIONS = 7; // Seven planes of consciousness
+        const HARMONY_THRESHOLD = 0.85;
+        const CONSCIOUSNESS_LEVELS = ['Avidya', 'Psychic Awakening', 'Spiritual Opening', 'Vidya'];
+        
+        // Game state
+        let symbols = [];
+        let manifestedSymbols = [];
+        let emergentPrinciples = [];
+        let mousePos = { x: 0, y: 0 };
+        let consciousnessLevel = 0;
+        let awarenessRadius = 50;
+        let truthSight = 0; // Ability to see truth resonance
+        
+        // Unicode symbol pools for procedural generation
+        const symbolPools = [
+            '⚡⚮⚯⚰⚱⚲⚳⚴⚵⚶⚷⚸⚹⚺⚻⚼⚽⚾⚿⛀⛁⛂⛃', // Basic forces
+            '☰☱☲☳☴☵☶☷☸☹☺☻☼☽☾☿♀♁♂♃♄♅♆♇', // Cosmic principles  
+            '♈♉♊♋♌♍♎♏♐♑♒♓♔♕♖♗♘♙♚♛♜♝♞♟', // Higher orders
+            '⟐⟑⟒⟓⟔⟕⟖⟗⟘⟙⟚⟛⟜⟝⟞⟟⟠⟡⟢⟣⟤⟥⟦⟧⟨⟩⟪⟫', // Transcendent
+        ];
+        
+        // Generate truth vector - hidden harmonic signature
+        function generateTruthVector() {
+            const vector = [];
+            for (let i = 0; i < TRUTH_DIMENSIONS; i++) {
+                vector.push(Math.random() * 2 - 1); // -1 to 1 range
+            }
+            return normalizeVector(vector);
+        }
+        
+        function normalizeVector(v) {
+            const mag = Math.sqrt(v.reduce((sum, x) => sum + x * x, 0));
+            return v.map(x => x / mag);
+        }
+        
+        function dotProduct(a, b) {
+            return a.reduce((sum, x, i) => sum + x * b[i], 0);
+        }
+        
+        // Calculate harmonic resonance between truth vectors
+        function calculateResonance(vectors) {
+            if (vectors.length < 2) return 0;
+            
+            let totalResonance = 0;
+            let pairs = 0;
+            
+            for (let i = 0; i < vectors.length; i++) {
+                for (let j = i + 1; j < vectors.length; j++) {
+                    const dot = Math.abs(dotProduct(vectors[i], vectors[j]));
+                    const phase = Math.cos(dot * Math.PI);
+                    totalResonance += (dot + phase) / 2;
+                    pairs++;
+                }
+            }
+            
+            return pairs > 0 ? totalResonance / pairs : 0;
+        }
+        
+        // Create symbol with hidden truth properties
+        function createSymbol(poolIndex = 0) {
+            const pool = symbolPools[Math.min(poolIndex, symbolPools.length - 1)];
+            const unicode = pool[Math.floor(Math.random() * pool.length)];
+            
+            return {
+                unicode,
+                name: null, // Revealed only upon manifestation
+                truthVector: generateTruthVector(),
+                position: {
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height
+                },
+                drift: {
+                    dx: (Math.random() - 0.5) * 0.5,
+                    dy: (Math.random() - 0.5) * 0.5
+                },
+                manifestLevel: 0, // 0=latent, 1=manifest, 2=emergent
+                stability: 1.0,
+                revealed: false,
+                breathing: Math.random() < 0.1 // Fundamental symbols breathe
+            };
+        }
+        
+        // Generate symbolic names based on truth vector
+        function generateName(truthVector) {
+            const names = [
+                'FORCE', 'LIGHT', 'MIND', 'LIFE', 'MATTER', 'SPIRIT', 'TRUTH',
+                'HARMONY', 'POWER', 'WISDOM', 'LOVE', 'BEAUTY', 'DELIGHT', 'PEACE',
+                'UNITY', 'INFINITY', 'ETERNITY', 'CONSCIOUSNESS', 'BLISS', 'KNOWLEDGE'
+            ];
+            
+            // Use truth vector to deterministically select name
+            const index = Math.abs(truthVector.reduce((sum, x, i) => sum + x * (i + 1), 0)) % names.length;
+            return names[Math.floor(index)];
+        }
+        
+        // Initialize symbols in the void
+        function initializeVoid() {
+            symbols = [];
+            for (let i = 0; i < 200; i++) {
+                symbols.push(createSymbol(Math.floor(i / 50))); // Different pools for variety
+            }
+        }
+        
+        // Check for emergent principles
+        function checkEmergence() {
+            if (manifestedSymbols.length < 2) return;
+            
+            const truthVectors = manifestedSymbols.map(s => s.truthVector);
+            const resonance = calculateResonance(truthVectors);
+            
+            if (resonance > HARMONY_THRESHOLD) {
+                // True emergence - create stable higher principle
+                const emergent = createEmergentPrinciple(manifestedSymbols, resonance);
+                emergentPrinciples.push(emergent);
+                
+                // Consciousness evolution
+                if (emergentPrinciples.length > consciousnessLevel * 3) {
+                    consciousnessLevel = Math.min(consciousnessLevel + 1, CONSCIOUSNESS_LEVELS.length - 1);
+                    awarenessRadius += 20;
+                    truthSight += 0.2;
+                }
+            } else if (resonance > 0.6) {
+                // False emergence - unstable principle that will dissolve
+                const unstable = createEmergentPrinciple(manifestedSymbols, resonance);
+                unstable.stability = resonance; // Will decay over time
+                emergentPrinciples.push(unstable);
+            }
+        }
+        
+        function createEmergentPrinciple(parents, resonance) {
+            // Combine truth vectors of parents
+            const combinedVector = new Array(TRUTH_DIMENSIONS).fill(0);
+            parents.forEach(p => {
+                p.truthVector.forEach((val, i) => {
+                    combinedVector[i] += val / parents.length;
+                });
+            });
+            
+            const emergent = createSymbol(Math.min(3, Math.floor(resonance * 4)));
+            emergent.truthVector = normalizeVector(combinedVector);
+            emergent.name = generateName(emergent.truthVector);
+            emergent.manifestLevel = 2;
+            emergent.stability = resonance;
+            emergent.position = {
+                x: parents.reduce((sum, p) => sum + p.position.x, 0) / parents.length,
+                y: parents.reduce((sum, p) => sum + p.position.y, 0) / parents.length
+            };
+            
+            return emergent;
+        }
+        
+        // Update symbol positions and states
+        function updateSymbols() {
+            // Update latent symbols (drift in the void)
+            symbols.forEach(symbol => {
+                symbol.position.x += symbol.drift.dx;
+                symbol.position.y += symbol.drift.dy;
+                
+                // Wrap around screen
+                if (symbol.position.x < 0) symbol.position.x = canvas.width;
+                if (symbol.position.x > canvas.width) symbol.position.x = 0;
+                if (symbol.position.y < 0) symbol.position.y = canvas.height;
+                if (symbol.position.y > canvas.height) symbol.position.y = 0;
+            });
+            
+            // Update emergent principles stability
+            emergentPrinciples.forEach((principle, index) => {
+                if (principle.stability < HARMONY_THRESHOLD) {
+                    principle.stability -= 0.01; // Decay unstable principles
+                    if (principle.stability <= 0) {
+                        emergentPrinciples.splice(index, 1);
+                    }
+                }
+            });
+        }
+        
+        // Render the void and all symbols
+        function render() {
+            // Clear with deep void
+            ctx.fillStyle = '#000';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Render potential field (background glow based on current resonance)
+            if (manifestedSymbols.length > 1) {
+                const resonance = calculateResonance(manifestedSymbols.map(s => s.truthVector));
+                if (resonance > 0.3) {
+                    const alpha = Math.min(resonance * 0.3, 0.2);
+                    const hue = resonance > HARMONY_THRESHOLD ? 120 : (resonance * 60); // Green for truth, yellow-red for partial
+                    ctx.fillStyle = `hsla(${hue}, 50%, 20%, ${alpha})`;
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
+                }
+            }
+            
+            // Render consciousness awareness field
+            const gradient = ctx.createRadialGradient(mousePos.x, mousePos.y, 0, mousePos.x, mousePos.y, awarenessRadius);
+            gradient.addColorStop(0, 'rgba(100, 100, 150, 0.1)');
+            gradient.addColorStop(1, 'rgba(100, 100, 150, 0)');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Render latent symbols (revealed by consciousness)
+            symbols.forEach(symbol => {
+                const dist = Math.sqrt((symbol.position.x - mousePos.x) ** 2 + (symbol.position.y - mousePos.y) ** 2);
+                if (dist < awarenessRadius) {
+                    symbol.revealed = true;
+                    let alpha = Math.max(0, 1 - dist / awarenessRadius) * 0.6;
+                    
+                    // Breathing animation for fundamental symbols
+                    if (symbol.breathing) {
+                        alpha *= 0.7 + 0.3 * Math.sin(Date.now() * 0.003);
+                    }
+                    
+                    // Truth sight - show harmonic potential
+                    if (truthSight > 0 && manifestedSymbols.length > 0) {
+                        const vectors = [...manifestedSymbols.map(s => s.truthVector), symbol.truthVector];
+                        const potentialResonance = calculateResonance(vectors);
+                        if (potentialResonance > 0.5) {
+                            alpha += truthSight * potentialResonance * 0.5;
+                            ctx.shadowColor = potentialResonance > HARMONY_THRESHOLD ? '#4f4' : '#ff4';
+                            ctx.shadowBlur = 10;
+                        }
+                    }
+                    
+                    ctx.fillStyle = `rgba(150, 150, 200, ${alpha})`;
+                    ctx.font = '20px serif';
+                    ctx.fillText(symbol.unicode, symbol.position.x, symbol.position.y);
+                    ctx.shadowBlur = 0;
+                }
+            });
+            
+            // Render manifested symbols
+            manifestedSymbols.forEach(symbol => {
+                ctx.fillStyle = '#fff';
+                ctx.font = 'bold 24px serif';
+                ctx.fillText(symbol.unicode, symbol.position.x, symbol.position.y);
+                
+                if (symbol.name && consciousnessLevel > 0) {
+                    ctx.fillStyle = '#aaa';
+                    ctx.font = '10px monospace';
+                    ctx.fillText(symbol.name, symbol.position.x, symbol.position.y + 20);
+                }
+            });
+            
+            // Render emergent principles
+            emergentPrinciples.forEach(principle => {
+                const alpha = Math.min(principle.stability, 1);
+                const color = principle.stability >= HARMONY_THRESHOLD ? '#4f4' : '#f84';
+                
+                ctx.fillStyle = color;
+                ctx.shadowColor = color;
+                ctx.shadowBlur = 15;
+                ctx.font = 'bold 32px serif';
+                ctx.fillText(principle.unicode, principle.position.x, principle.position.y);
+                
+                ctx.fillStyle = color;
+                ctx.font = 'bold 12px monospace';
+                ctx.fillText(principle.name, principle.position.x, principle.position.y + 25);
+                ctx.shadowBlur = 0;
+            });
+            
+            // Update consciousness level display
+            info.textContent = `Consciousness: ${CONSCIOUSNESS_LEVELS[consciousnessLevel]} | Manifested: ${manifestedSymbols.length} | Emergent: ${emergentPrinciples.length}`;
+        }
+        
+        // Event handlers
+        canvas.addEventListener('mousemove', (e) => {
+            mousePos.x = e.clientX;
+            mousePos.y = e.clientY;
+        });
+        
+        canvas.addEventListener('click', (e) => {
+            // Manifest symbol (left click)
+            const clickPos = { x: e.clientX, y: e.clientY };
+            
+            // Find nearest revealed symbol
+            let nearest = null;
+            let minDist = Infinity;
+            
+            symbols.forEach(symbol => {
+                if (symbol.revealed) {
+                    const dist = Math.sqrt((symbol.position.x - clickPos.x) ** 2 + (symbol.position.y - clickPos.y) ** 2);
+                    if (dist < 30 && dist < minDist) {
+                        nearest = symbol;
+                        minDist = dist;
+                    }
+                }
+            });
+            
+            if (nearest) {
+                // Manifest the symbol
+                nearest.manifestLevel = 1;
+                nearest.name = generateName(nearest.truthVector);
+                nearest.drift = { dx: 0, dy: 0 }; // Stop drifting
+                manifestedSymbols.push(nearest);
+                symbols = symbols.filter(s => s !== nearest);
+                
+                checkEmergence();
+            }
+        });
+        
+        canvas.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+            
+            // Release symbol (right click)
+            const clickPos = { x: e.clientX, y: e.clientY };
+            
+            // Check manifested symbols
+            manifestedSymbols.forEach((symbol, index) => {
+                const dist = Math.sqrt((symbol.position.x - clickPos.x) ** 2 + (symbol.position.y - clickPos.y) ** 2);
+                if (dist < 30) {
+                    // Return to void
+                    symbol.manifestLevel = 0;
+                    symbol.name = null;
+                    symbol.revealed = false;
+                    symbol.drift = {
+                        dx: (Math.random() - 0.5) * 0.5,
+                        dy: (Math.random() - 0.5) * 0.5
+                    };
+                    symbols.push(symbol);
+                    manifestedSymbols.splice(index, 1);
+                }
+            });
+            
+            // Check emergent principles
+            emergentPrinciples.forEach((principle, index) => {
+                const dist = Math.sqrt((principle.position.x - clickPos.x) ** 2 + (principle.position.y - clickPos.y) ** 2);
+                if (dist < 40) {
+                    emergentPrinciples.splice(index, 1);
+                }
+            });
+        });
+        
+        // Game loop
+        function gameLoop() {
+            updateSymbols();
+            render();
+            requestAnimationFrame(gameLoop);
+        }
+        
+        // Initialize and start
+        initializeVoid();
+        gameLoop();
+        
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+    </script>
+</body>
+</html>
+
+

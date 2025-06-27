@@ -1,13 +1,15 @@
 {
     "chassis": {
-        "interceptor": { 
+
+	    "interceptor": {
             "name": "Interceptor", "desc": "A light, agile frame.", "cost": 1000, "health": 100, "size": 15, "baseThrust": 0.1, "baseStrafe": 0.08, "baseTurn": 5, "color": "#00aaff", "art": "interceptor", "tier": 1,
             "slots": {
                 "engine": [{ "x": -0.6, "y": 0, "size": 0.3, "label": "Engine" }],
                 "weapon": [{ "x": 0.8, "y": 0.35, "size": 0.2, "label": "Weapon 1" }, { "x": 0.8, "y": -0.35, "size": 0.2, "label": "Weapon 2" }],
                 "special": [{ "x": 0, "y": 0, "size": 0.25, "label": "Special" }],
-                "thrusters": [{ "x": -0.5, "y": -0.4, "size": 0.15, "label": "Thrusters" }, { "x": -0.5, "y": 0.4, "size": 0.15, "label": "Thrusters" }]
-            } 
+                "thrusters": [{ "x": -0.5, "y": -0.4, "size": 0.15, "label": "Thrusters" }, { "x": -0.5, "y": 0.4, "size": 0.15, "label": "Thrusters" }],
+                "turret": [{ "x": 0, "y": 0.5, "size": 0.2, "label": "Dorsal Turret" }]
+            }
         },
         "juggernaut": { 
             "name": "Juggernaut", "desc": "Heavy and tough, but slow.", "cost": 1500, "health": 200, "size": 20, "baseThrust": 0.07, "baseStrafe": 0.04, "baseTurn": 2, "color": "#ff8800", "art": "juggernaut", "tier": 1,
@@ -98,8 +100,45 @@
     },
     "weapon": {
         "pulse_laser": { "name": "Pulse Laser", "desc": "Standard energy weapon.", "cost": 500, "damage": 8, "cooldown": 15, "speed": 8, "color": "#00ff00", "size": 3, "type": "pulse", "tier": 1 },
-        "spread_shot": { "name": "Spread Shot", "desc": "Fires three projectiles.", "cost": 800, "damage": 6, "cooldown": 30, "speed": 7, "color": "#ffff00", "size": 2, "type": "spread", "tier": 1 },
-        "flak_cannon": { "name": "Flak Cannon", "desc": "Fires a cloud of shrapnel.", "cost": 1800, "damage": 2, "cooldown": 45, "speed": 9, "color": "#ffaa00", "type": "flak", "tier": 1 },
+        "spread_shot2": { "name": "Spread Shot2", "desc": "Fires three projectiles.", "cost": 800, "damage": 6, "cooldown": 30, "speed": 7, "color": "#ffff00", "size": 2, "type": "spread", "tier": 1 },
+
+	 "spread_shot": {
+            "name": "Spread Shot",
+            "desc": "Fires multiple low-damage projectiles.",
+            "cost": 1200,
+            "tier": 1,
+            "damage": 5,
+            "cooldown": 25,
+            "speed": 7,
+            "size": 2,
+            "color": "#ffff00",
+            "type": "spread",
+            "spreadCount": 5,
+            "spreadAngle": 0.4
+        },
+
+        "flak_cannon2": { "name": "Flak Cannon2", "desc": "Fires a cloud of shrapnel.", "cost": 1800, "damage": 2, "cooldown": 45, "speed": 9, "color": "#ffaa00", "type": "flak", "tier": 1 },
+
+	   "flak_cannon": {
+            "name": "Flak Cannon",
+            "desc": "Fires a shell that explodes into a cloud of damaging shrapnel.",
+            "cost": 2800,
+            "tier": 2,
+            "damage": 5,
+            "cooldown": 60,
+            "speed": 6,
+            "size": 4,
+            "color": "#aaaaaa",
+            "type": "flak",
+            "projectileClass": "FlakShell",
+            "range": 250,
+            "shrapnelCount": 8,
+            "shrapnelDamage": 10,
+            "shrapnelSpeed": 4,
+            "shrapnelLife": 30
+        },
+
+
         "homing_missiles": { "name": "Homing Missile Pod", "desc": "Fires a seeking projectile.", "cost": 1200, "damage": 20, "cooldown": 80, "speed": 4.5, "turn": 0.05, "color": "#ff6600", "size": 4, "type": "missile", "tier": 1 },
         "plasma_cannon": { "name": "Plasma Cannon", "desc": "Fires a slow, large projectile.", "cost": 2200, "damage": 35, "cooldown": 60, "speed": 4, "color": "#ff00ff", "size": 6, "type": "plasma", "tier": 1 },
         "railgun": { "name": "Railgun", "desc": "High-velocity piercing shot.", "cost": 2500, "damage": 40, "cooldown": 90, "speed": 25, "color": "#00ffff", "size": 2, "type": "railgun", "piercing": true, "tier": 1 },

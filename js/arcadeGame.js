@@ -9,14 +9,14 @@ const ArcadeGame = {
     arcadeGamesList: [
         { name: 'Asteroids', module: typeof AsteroidsGame !== 'undefined' ? AsteroidsGame : null, id: 'AsteroidsGame', image: 'images/games/asteroids.jpg' },
         { name: 'Asteroid Navigation', module: typeof AsteroidNavigatorGame !== 'undefined' ? AsteroidNavigatorGame : null, id: 'AsteroidNavigatorGame', image: 'images/games/asteroidNavigationGame.jpg' },
-	            { name: 'Bit Army', module: typeof bitArmyGame !== 'undefined' ? bitArmyGame : null, id: 'bitArmyGame', image: 'images/games/bitArmy.jpg' },
-
+	{ name: 'Bit Army', module: typeof bitArmyGame !== 'undefined' ? bitArmyGame : null, id: 'bitArmyGame', image: 'images/games/bitArmy.jpg' },
         { name: 'Bit Craft', module: typeof bitCraftGame !== 'undefined' ? bitCraftGame : null, id: 'bitCraftGame', image: 'images/games/bitCraft.jpg' },
         { name: 'BitDefender Game', module: typeof bitDefenderGame !== 'undefined' ? bitDefenderGame : null, id: 'bitDefenderGame', image: 'images/games/bitDefender.jpg' },
         { name: 'Top Down Shooter', module: typeof TopDownShooterGame !== 'undefined' ? TopDownShooterGame : null, id: 'TopDownShooterGame', image: 'images/games/topdownshooter.jpg' },
         { name: 'Tower Defense', module: typeof TowerDefenseGame !== 'undefined' ? TowerDefenseGame : null, id: 'TowerDefenseGame', image: 'images/games/tower-defense.jpg' },
         { name: 'Falling Hazards', module: typeof FallingHazardsGame !== 'undefined' ? FallingHazardsGame : null, id: 'FallingHazardsGame', image: 'images/games/placeholder.jpg' },
         { name: 'Platformer', module: typeof PlatformerGame !== 'undefined' ? PlatformerGame : null, id: 'PlatformerGame', image: 'images/games/placeholder.jpg' },
+        { name: 'Vector Space', module: typeof VectorArenaGame !== 'undefined' ? VectorArenaGame : null, id: 'vectorArenaGame', image: 'images/games/vector_space.png' },
         { name: 'Clicker Game', module: typeof ClickerGame !== 'undefined' ? ClickerGame : null, id: 'ClickerGame', image: 'images/games/placeholder.jpg' },
         { name: 'Reaction Game', module: typeof ReactionGame !== 'undefined' ? ReactionGame : null, id: 'ReactionGame', image: 'images/games/placeholder.jpg' }
     ],

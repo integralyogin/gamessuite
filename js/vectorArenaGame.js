@@ -7,7 +7,7 @@
  * - This ensures the game manager knows where to return after the exploration loop is complete, preventing it from falling back to the main game suite sequence.
  */
 const VectorArenaGame = {
-    id: 'vectorArena',
+    id: 'vectorArenaGame',
     onSuccess: null,
     onFailure: null,
     gameContainer: null,

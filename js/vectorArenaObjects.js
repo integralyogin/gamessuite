@@ -1113,10 +1113,37 @@ const VectorArenaObjects = {
         }
 
         fireWeapon(weapon, index) {
+
+            const angle = this.angle; 
             const startX = this.x + Math.cos(this.angle) * this.size;
             const startY = this.y + Math.sin(this.angle) * this.size;
             const speed = weapon.speed || 8;
+        const spawnX = this.x + Math.cos(angle) * this.size;
+            const spawnY = this.y + Math.sin(angle) * this.size;
+
+
             
+
+
+     switch (weapon.type) {
+                case 'flak':
+                    for (let i = 0; i < 15; i++) {
+                        const flakAngle = angle + (Math.random() - 0.5) * 0.7;
+                        const flakSpeed = weapon.speed * (0.8 + Math.random() * 0.4);
+                        // Create a new weapon definition for the shrapnel piece
+                        const shrapnel = { ...weapon, type: 'pulse', size: 2, life: 40 + Math.random() * 30 };
+                        this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(flakAngle) * flakSpeed, Math.sin(flakAngle) * flakSpeed, shrapnel, this.playerNum, this.context));
+                    }
+                    return; // Exit after handling
+
+                case 'spread':
+                    for (let i = -1; i <= 1; i++) {
+                        const spreadAngle = angle + i * 0.2;
+                        this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(spreadAngle) * weapon.speed, Math.sin(spreadAngle) * weapon.speed, weapon, this.playerNum, this.context));
+                    }
+                    return; // Exit after handling
+     }
+
             switch(weapon.projectileClass) {
                 case 'Vortex':
                     this.context.projectiles.push(new VectorArenaObjects.Vortex(startX, startY, weapon, this.playerNum, this.context));
@@ -1124,23 +1151,6 @@ const VectorArenaObjects = {
                 case 'Beam':
                     this.context.projectiles.push(new VectorArenaObjects.Beam(this, weapon, this.context));
                     break;
-        case 'spread':
-			    console.log("spread case")
-                    for (let i = -1; i <= 1; i++) {
-                        const spreadAngle = angle + i * 0.2;
-                        this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(spreadAngle) * weapon.speed, Math.sin(spreadAngle) * weapon.speed, weapon, this.playerNum, this.context));
-                    }
-                    break;
-
-		case 'flak':
-                    for (let i = 0; i < 15; i++) {
-                        const flakAngle = angle + (Math.random() - 0.5) * 0.7;
-                        const flakSpeed = weapon.speed * (0.8 + Math.random() * 0.4);
-                        const shrapnel = {...weapon, size: 2, life: 40 + Math.random() * 30};
-                        this.context.projectiles.push(new VectorArenaObjects.Projectile(spawnX, spawnY, Math.cos(flakAngle) * flakSpeed, Math.sin(flakAngle) * flakSpeed, shrapnel, this.playerNum, this.context));
-                    }
-                    break;
-			    
                 case 'Mine':
                     this.context.projectiles.push(new VectorArenaObjects.Mine(startX, startY, weapon, this.playerNum, this.context));
                     break;
